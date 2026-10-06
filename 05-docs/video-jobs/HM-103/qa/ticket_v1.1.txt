@@ -1,0 +1,3 @@
+HM-103|Hoàn thành|v1.1|/workspace/video-jobs/HM-103/output/storytelling_final_v1.1.mp4|next=bố
+size_final=42.1MB duration=53.9s size_mobile=13.6MB
+changed: shot27=wallwarn kinetic graphic (no y10_wallclip) shot19=kept

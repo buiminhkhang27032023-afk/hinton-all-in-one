@@ -1,0 +1,21 @@
+[  0.00-  3.00] Alibaba just launched its new video model called...
+[  4.82-  6.22] 1.3.0.
+[  7.20-  8.44] Yeah, I knew that.
+[  8.84- 11.62] It can generate videos up to 20 seconds.
+[ 12.24- 13.80] Actually, 30 seconds.
+[ 14.60- 15.56] Yes, that's what I said.
+[ 16.38- 21.16] You can also give it up to 20 references, including images, video, audio, and...
+[ 21.16- 22.64] Also documents and even web pages.
+[ 23.16- 24.50] Can you let me finish one sentence?
+[ 24.78- 26.32] That was important. Sorry.
+[ 26.64- 28.10] And it also generates...
+[ 30.50- 31.46] Native Audio.
+[ 32.32- 33.70] Yes, I noticed.
+[ 34.30- 37.92] With smart duration, it automatically chooses how long your video should be.
+[ 38.36- 39.60] Same for the aspect ratio.
+[ 39.98- 41.64] Does it come with a smart assistant too?
+[ 43.08- 45.00] So, that's 1-3.0.
+[ 45.34- 47.00] I think I finally got everything right.
+[ 47.72- 48.28] Actually...
+[ 48.94- 49.50] Don't...
+[ 49.50- 50.50] Cut.

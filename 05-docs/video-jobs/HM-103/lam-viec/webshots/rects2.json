@@ -1,0 +1,140 @@
+{
+ "toms2": {
+  "file": "/workspace/video-jobs/HM-103/lam-viec/webshots/toms2.png",
+  "h": 2400,
+  "rects": {
+   "ChatGPT-6 Astra plays": [
+    [
+     179,
+     472,
+     476,
+     510
+    ]
+   ],
+   "with extra high reasoning effort, one below the highest or maximum": [
+    [
+     179,
+     1948,
+     451,
+     1970
+    ],
+    [
+     179,
+     1972,
+     411,
+     1994
+    ]
+   ],
+   "The developer ran": [
+    [
+     179,
+     1900,
+     315,
+     1922
+    ]
+   ]
+  }
+ },
+ "ie2": {
+  "file": "/workspace/video-jobs/HM-103/lam-viec/webshots/ie2.png",
+  "h": 4732,
+  "rects": {
+   "created a plan for completing": [
+    [
+     452,
+     2862,
+     686,
+     2884
+    ]
+   ],
+   "prerequisite quests in sequence": [
+    [
+     120,
+     2894,
+     368,
+     2916
+    ]
+   ],
+   "selling unwanted items, equipping better gear, and training abilities": [
+    [
+     120,
+     2926,
+     658,
+     2948
+    ]
+   ],
+   "Astra built its own tools to complete the quests": [
+    [
+     120,
+     2629,
+     690,
+     2662
+    ],
+    [
+     120,
+     2663,
+     217,
+     2696
+    ]
+   ]
+  }
+ },
+ "awhome": {
+  "file": "/workspace/video-jobs/HM-103/source/assets/ws_agentwow_home.png",
+  "h": 1400,
+  "rects": {
+   "agent-wow is an open-source project exploring the capabilities of LLM-powered agents to play World of Warcraft autonomously": [
+    [
+     280,
+     132,
+     998,
+     149
+    ],
+    [
+     280,
+     158,
+     526,
+     175
+    ]
+   ],
+   "private servers running": [
+    [
+     381,
+     520,
+     543,
+     537
+    ]
+   ],
+   "AzerothCore": [
+    [
+     548,
+     520,
+     644,
+     537
+    ]
+   ],
+   "does not alter any Blizzard client software or game assets": [
+    [
+     595,
+     546,
+     953,
+     563
+    ],
+    [
+     280,
+     571,
+     326,
+     588
+    ]
+   ],
+   "fill an entire server with autonomous AI agents": [
+    [
+     639,
+     318,
+     994,
+     335
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "ok": true,
+ "rows": [
+  {
+   "chi_tieu": "Evidence full-frame",
+   "dat": true,
+   "so_lieu": "85.1%",
+   "muc_tieu": "≥75%"
+  },
+  {
+   "chi_tieu": "Mặt presenter",
+   "dat": true,
+   "so_lieu": "14.9% (4 lần)",
+   "muc_tieu": "≤25%"
+  },
+  {
+   "chi_tieu": "Insert/phút",
+   "dat": true,
+   "so_lieu": "41.1 (36 insert)",
+   "muc_tieu": "≥30"
+  },
+  {
+   "chi_tieu": "Mỗi insert 1–2s",
+   "dat": true,
+   "so_lieu": "0.96–1.88s",
+   "muc_tieu": "0.95–2.05s"
+  },
+  {
+   "chi_tieu": "Visual khác nhau",
+   "dat": true,
+   "so_lieu": "40",
+   "muc_tieu": "≥22 (25/60s)"
+  },
+  {
+   "chi_tieu": "Lặp hình tối đa",
+   "dat": true,
+   "so_lieu": "max 1 lần/hình (file dùng nhiều nhất: keynote.mp4 ×7, các đoạn khác nhau)",
+   "muc_tieu": "≤2 (lặp ≤1)"
+  },
+  {
+   "chi_tieu": "Mặt ở hook",
+   "dat": true,
+   "so_lieu": "2.6s",
+   "muc_tieu": "≤3.0s"
+  },
+  {
+   "chi_tieu": "Mặt ở kết",
+   "dat": true,
+   "so_lieu": "50.14s→52.53s",
+   "muc_tieu": "shot cuối = mặt"
+  },
+  {
+   "chi_tieu": "Mặt giữa = chuyển ý",
+   "dat": true,
+   "so_lieu": "đều ở đầu câu",
+   "muc_tieu": "đầu câu/chuyển ý"
+  },
+  {
+   "chi_tieu": "Mặt rải đều",
+   "dat": true,
+   "so_lieu": "mốc [2.6, 21.72, 38.98, 50.14] · khoảng [19.12, 17.26, 11.16]",
+   "muc_tieu": "khoảng 10–20s"
+  },
+  {
+   "chi_tieu": "Whip/zoom 4–6s",
+   "dat": true,
+   "so_lieu": "10 lần, khoảng 4.1–5.6s",
+   "muc_tieu": "3.9–6.1s"
+  },
+  {
+   "chi_tieu": "SFX nhẹ",
+   "dat": true,
+   "so_lieu": "14 (16.0/phút)",
+   "muc_tieu": "≤16/phút"
+  },
+  {
+   "chi_tieu": "Split 2 evidence",
+   "dat": true,
+   "so_lieu": "4 shot",
+   "muc_tieu": "≥2, không mặt"
+  },
+  {
+   "chi_tieu": "Mỗi câu có hình",
+   "dat": true,
+   "so_lieu": "24 câu, đủ (câu chỉ mặt ≤3s: [1, 10, 18, 23])",
+   "muc_tieu": "mỗi câu ≥1 evidence (trừ câu [MẶT] ≤3s)"
+  },
+  {
+   "chi_tieu": "Loudness",
+   "dat": true,
+   "so_lieu": "-14.0 LUFS",
+   "muc_tieu": "−14 ±0.5"
+  },
+  {
+   "chi_tieu": "True peak",
+   "dat": true,
+   "so_lieu": "-2.5 dBTP",
+   "muc_tieu": "≤ −1"
+  },
+  {
+   "chi_tieu": "Master 1080x1920 30fps",
+   "dat": true,
+   "so_lieu": "1080,1920,30/1",
+   "muc_tieu": "1080,1920,30/1"
+  },
+  {
+   "chi_tieu": "File 720p",
+   "dat": true,
+   "so_lieu": "720,1280,30/1",
+   "muc_tieu": "720x1280"
+  },
+  {
+   "chi_tieu": "Safe zone",
+   "dat": true,
+   "so_lieu": "không chữ ở y<150, y>1590, x>940",
+   "muc_tieu": "y150–1590, x≤940"
+  },
+  {
+   "chi_tieu": "Dấu tiếng Việt / glyph",
+   "dat": true,
+   "so_lieu": "189 chuỗi, đủ glyph",
+   "muc_tieu": "font có đủ ký tự"
+  }
+ ],
+ "face_at": [
+  2.6,
+  21.72,
+  38.98,
+  50.14
+ ],
+ "face_gaps": [
+  19.12,
+  17.26,
+  11.16
+ ],
+ "splits": 4,
+ "transitions": [
+  4.38,
+  8.99,
+  13.9,
+  19.52,
+  24.5,
+  29.76,
+  34.78,
+  38.98,
+  43.12,
+  47.7
+ ],
+ "lufs": -14.0,
+ "tp": -2.5,
+ "uses_per_file": {
+  "v01.mp4": 1,
+  "x_dots.png": 1,
+  "v06.mp4": 1,
+  "stat:1/5/GIÁ": 1,
+  "keynote.mp4": 7,
+  "recap.png": 3,
+  "v12.mp4": 1,
+  "dots.png": 5,
+  "v16.mp4": 1,
+  "stat:4.000+/ứng dụng kết nối": 1,
+  "v20.mp4": 1,
+  "v22.mp4": 1,
+  "v23.mp4": 1,
+  "sol.png": 7,
+  "stat:SOL 10 USD/đầu ra / 1 triệu token/ASTRA 50 USD/đầu ra / 1 triệu token": 1,
+  "v37.mp4": 1,
+  "v32.mp4": 1,
+  "stat:GẤP HƠN 4 LẦN/23,80 so với 5,47 USD": 1,
+  "v40.mp4": 1,
+  "wired.png": 1,
+  "stat:100 USD/mỗi tháng · gói Pro": 1,
+  "stat:“WE MIGHT HAVE/some voice difficulties/AT THE MOMENT”/Romain Huet · theo Reuters": 1
+ }
+}

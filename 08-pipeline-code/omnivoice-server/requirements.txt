@@ -1,0 +1,11 @@
+# Gọn (bản đầy đủ đã chạy: requirements.lock.txt). Cài với --extra-index-url https://download.pytorch.org/whl/cpu
+omnivoice==0.2.1
+torch==2.14.1+cpu
+torchaudio==2.11.0+cpu
+transformers==5.18.0
+fastapi==0.142.2
+uvicorn==0.54.0
+soundfile==0.14.0
+numpy==2.5.3
+pydantic==2.13.5
+huggingface-hub==1.33.0

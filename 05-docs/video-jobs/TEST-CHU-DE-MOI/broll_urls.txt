@@ -1,0 +1,1 @@
+# Top pane is the local file source.mp4 (beats.json). Do not yt-dlp.

@@ -1,0 +1,13 @@
+{
+ "z": 16,
+ "tx0": 52182,
+ "tx1": 52197,
+ "ty0": 28879,
+ "ty1": 28898,
+ "tile_size": 256,
+ "mosaic_w": 4096,
+ "mosaic_h": 5120,
+ "source": "Esri World Imagery z16 — Hải Phòng",
+ "attribution": "Ảnh vệ tinh © Esri, Maxar, Earthstar Geographics",
+ "url_template": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+}

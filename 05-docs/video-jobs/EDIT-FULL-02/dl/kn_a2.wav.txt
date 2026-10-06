@@ -1,0 +1,78 @@
+ 2220.0 features too. But let's go back to the app. Now I want to show you something cool here,
+ 2225.6 but before we do so, I will actually just start this project right now. We'll go back to it in
+ 2231.5 a second. I want to tell you how Astra Adventures came together. It's a simple idea to build a
+ 2237.9 game with Astra where you could fly into space in 3D, and it all started from this sketch
+ 2243.9 on paper. Now if you take a look after a couple turns, we got someplace, but as you could
+ 2249.2 tell, the graphics were a little rough, and that's where having great models across all
+ 2253.4 modalities is so helpful. So as you can see, it was easy then to go after a few turns, get
+ 2260.1 to a place where we have these amazing graphics and go from like a sketch to something that
+ 2265.1 is like very textured, very beautiful that you can use then in a real game. So from here,
+ 2269.9 all we had to do was kind of refine the game dynamics a little bit, and it should
+ 2274.4 now be waiting for us, so let's take a look here. Now instead of playing this game, what I'll say is
+ 2280.1 like show us how you play the game. What's interesting here is that now we're instantiating a browser
+ 2288.8 use connection, so that means that Astra will figure out how to control the game and learn
+ 2293.8 how to play it in real time. So in a second, it should be able to like start the game,
+ 2298.9 choose a ship on its own, and if you take a look at the screen here on the left,
+ 2303.0 you'll see the decisions that the model is making, and on the right, on the very far right of the
+ 2307.7 screen, you'll see the keys it's pressing on the keyboard to kind of figure out how to play this
+ 2312.4 game. And obviously it's a very beautiful game, but I love watching Astra actually figure out a game
+ 2318.1 that was like kind of designed for us humans, but then figuring out how to play it. Pretty cool,
+ 2322.4 right? So you got the idea, I'll just pause it right here. Awesome. Now you've seen browser
+ 2330.3 use, but Astra is also incredible at using any other app on your computer. In fact, let me show you.
+ 2337.8 If I bring a different project over here, and let's say I bring this app on the front screen,
+ 2343.8 what I can do is take an app shot, and using an app shot, I'll just dictate a quick prompt here,
+ 2352.7 audit my app across screen sizes, and take screenshots along the way. You understand
+ 2361.2 this prompt? Nice. So now that I send this prompt, let's go back to the app here. I'm learning to
+ 2367.1 fly, so this is just a little personal project I made for my weekend lessons to track them.
+ 2373.5 Now, if you look at what's happening, I love app shots. They kind of bring all of the context,
+ 2379.2 like two codecs, and in this case, it now teaches codecs to kind of navigate the computer and in
+ 2384.5 this app. So here, what you see on the screen, it's like it's starting to click on the simulator,
+ 2389.2 opening the new app, figuring out the different features, also kind of opening the phone, taking
+ 2393.6 screenshots and trying everything. It's really fascinating to watch live, but of course, as you're
+ 2398.1 working on something else, you can just move on and let it run in the background.
+ 2403.3 Okay, so now you've seen the app, the CLI, and Codecs remote. I'm also really excited
+ 2410.2 about how we've completely reimagined Codecs in the cloud. It's fast. It works with all
+ 2415.5 the same tools as Codecs on your laptop, including plugins and computer use, and you can now send
+ 2421.0 your most ambitious task to Codecs in the cloud without having to keep your laptop open.
+ 2426.3 We've seen too many of us do that for the past year. So for this example here, let's say I'm
+ 2431.3 going to create a new task, but instead of doing it on my computer, I'll choose the cloud
+ 2435.7 and with this environment here, and I'll send a prompt like, rewrite the entire back end in
+ 2442.4 Rust. Why not? Now, this one will obviously take a while, but that's great. I know it will get done
+ 2451.4 in the cloud, and I can just check on it later. I can basically send other ideas from my phone
+ 2457.3 along the way and do this seamless handoff. It's been a very popular feature from so many of you,
+ 2462.6 so I'm so excited that we're finally shipping it today. All right, that was a lot. So zooming
+ 2467.9 out of Codecs, we now have incredible models across text, audio, image generation, and visual
+ 2474.6 understanding. What's exciting is that we build the products like Dots and Codecs using the exact
+ 2480.0 same tools as what we exposed to you all in the API. So before I go, I wanted to show you one last
+ 2486.2 demo that brings all of these modalities together. Our friends at Huggingface kindly
+ 2492.6 loaned us an early preview of their new programmable robot, Microdoc. And that one's name is Lavender.
+ 2499.0 Now last night, I asked Codecs to wire everything up here, so let's take a look if we can connect
+ 2505.0 to it. All right, let's see now if Baida can work over here. Look at the audience and make a
+ 2519.0 cool drawing. All right, you're in this picture. Let's see what happens. It's just incredible
+ 2530.5 what you can now accomplish with Codecs in just a few hours. We'll give a moment, of course,
+ 2534.5 for this to generate. But I added vision with Astra. I added image generation with GPT image 2.5.
+ 2541.3 I also added voice intelligence with GPT Live 1 here to interact with this little robot in real
+ 2546.2 time and already give it dozens of capabilities and so much more that we could add. So let's try
+ 2550.8 a couple more. Hey, Lavender, can you quack if you can hear me? Are you excited to be at Dev Day?
+ 2566.8 Definitely excited. And here is the photo of all of you that you just made. Of course, the
+ 2578.5 little duck can walk around and Astra can teach you so many new things, but I'm running at a time
+ 2582.9 to show you more. So now the key takeaway here is that this was just a quick demo. But
+ 2589.2 what I was talking about with a friend in robotics is that he was telling me he's so excited about
+ 2594.1 using our APIs with hardware. With the new decisions API in particular which is able to process vision
+ 2599.7 inputs, they will now be able to do things like helping robots take fast actions based on what
+ 2604.9 they see in near real time. So come simulator if you want to see that in action on this little
+ 2609.5 micro doc. We think this will unlock a brand new way to interact with AI in the real world.
+ 2615.2 We're on amazing time to be a builder. You can bring your incredible ideas to life
+ 2619.6 faster than ever before. So I can't wait to see what you'll do with all of these new tools.
+ 2623.7 Thank you so, so much. Have a great day and back to you, Sam.
+ 2635.0 Thanks, Roman. That was awesome. It's really amazing what you can build with these new
+ 2639.9 models and these new tools. So that brings us to the third part of how we want to empower
+ 2644.1 you all. We want to help people find what you build and help you build a business.
+ 2648.1 Around 1.2 billion people use chat GBT every week. It's a big platform now and we want to enable
+ 2654.1 you to build a business with it. We have tried versions of this before, admittedly with some
+ 2658.5 mixed results, but I feel good about our approach this time because we are giving you
+ 2662.1 the same tools we use to build chat GBT ourselves. First, we're making it possible for people
+ 2668.3 to bring their chat GBT subscription to the products you build. So with signing with chat
+ 2679.7 GBT, they can sign into your app and use the tokens included in their chat GBT plan. Yeah. This
+ 2686.7 makes it easier for people to try your product. They're already paying for an AI subscription
+ 2695.6 and now you don't have to cover their token costs to get...

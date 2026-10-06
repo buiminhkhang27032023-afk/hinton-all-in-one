@@ -1,0 +1,39 @@
+[ 24.42- 25.78] How much is this cost?
+[ 25.78- 35.12] I.N.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.TT.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T.T. some really cool stuff wow this looks so cool can you tell me what is the traditional use
+[ 61.90- 64.16] case for something like
+[ 64.16- 70.96] At one piece, you get 128 GBs of unified memory between the CPU and GPU, whereas when you stack
+[ 70.96- 77.68] up to, it becomes 128 plus 128, but now we have a capability to stack up up to four. Again,
+[ 77.94- 85.44] getting a good GPU, H100, A100, which are capable of doing good AI are not readily available on the
+[ 85.44- 91.36] fly. That is where the highest ROI we see for the developers, like it's an AI computer on your
+[ 91.36- 96.18] desk which will reduce that initial friction to get started with.
+[ 96.46-101.22] So I have one last question around this right which is on the idea of gaming does it make
+[101.22-105.22] sense to buy this and does the ROI make sense if I am not upgrading for the next 10 years
+[105.22-106.92] is gaming still like possible on this?
+[107.24-111.78] Except the RTX core everything else which we use to win the GPU is very much possible
+[111.78-116.12] onto this one and rest assured that you don't need to upgrade it sooner and it
+[116.12-120.86] act as your personal computer as well as the diversity lies is that the single box
+[120.86-123.16] can learn a diverse set of application.
+[123.42-124.30] Can this take a place in place?
+[124.52-126.58] The mic and the speaker are not in built.
+[126.72-128.56] Type-C ports are available in the backside
+[128.56-129.78] with which you can connect.
+[129.96-132.48] One is you can make this as a personalized computer
+[132.48-134.34] or it can act as a server as well.
+[134.54-136.72] Where your people, how they are currently
+[136.72-137.64] consuming the API,
+[137.94-139.82] similar box will be setting anywhere
+[139.82-140.68] into your office.
+[140.98-142.72] Your people can connect via SSH call.
+[142.84-144.20] Multiple folks can connect simultaneously
+[145.22-147.50] and consume it as an API as a service.
+[147.76-148.50] Very cool.
+[148.96-151.50] we'll do is we'll set up an API as a service.
+[151.94-154.14] I think it'll really help us with image and I know there's some
+[154.14-156.90] open source video models as well which is powerful enough to run.
+[156.90-160.36] So thank you so much for this. I can't wait to see what we'd end up doing with it
+[160.36-163.64] You know, I think that if you're stuck on subscriptions, it's wise to check this out
+[163.64-164.52] Especially if you work in
+[164.52-166.36] and prices especially if you are an agent of AI.
+[166.76-169.32] So definitely go check out this website available to purchase right now.
+[169.34-171.82] So you can go and purchase it from our marketplace.
+[172.24-173.46] Awesome. Thank you so much.

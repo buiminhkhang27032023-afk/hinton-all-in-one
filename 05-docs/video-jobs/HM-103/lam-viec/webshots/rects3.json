@@ -1,0 +1,101 @@
+{
+ "aw3": {
+  "file": "/workspace/video-jobs/HM-103/lam-viec/webshots/aw3.png",
+  "h": 8015,
+  "rects": {
+   "#include \"DetourNavMesh.h\"": [
+    [
+     295,
+     5562,
+     358,
+     5577
+    ],
+    [
+     358,
+     5562,
+     365,
+     5577
+    ],
+    [
+     358,
+     5562,
+     365,
+     5577
+    ],
+    [
+     365,
+     5562,
+     499,
+     5577
+    ]
+   ],
+   "#include \"DetourNavMeshQuery.h\"": [
+    [
+     295,
+     5595,
+     358,
+     5610
+    ],
+    [
+     358,
+     5595,
+     365,
+     5610
+    ],
+    [
+     358,
+     5595,
+     365,
+     5610
+    ],
+    [
+     365,
+     5595,
+     538,
+     5610
+    ]
+   ],
+   "/azerothcore/env/dist/bin/mmaps": [
+    [
+     467,
+     5790,
+     710,
+     5805
+    ]
+   ],
+   "One interesting outcome": [
+    [
+     280,
+     6945,
+     454,
+     6962
+    ]
+   ],
+   "that possibly had missing collision": [
+    [
+     750,
+     6971,
+     990,
+     6988
+    ]
+   ],
+   "Lately, I've been fascinated": [
+    [
+     280,
+     303,
+     472,
+     320
+    ]
+   ],
+   "The end goal is to": [
+    [
+     569,
+     565,
+     696,
+     582
+    ]
+   ],
+   "dtNavMeshQuery": null
+  }
+ }
+}

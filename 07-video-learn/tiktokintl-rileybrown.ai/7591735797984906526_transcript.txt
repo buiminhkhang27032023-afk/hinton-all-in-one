@@ -1,0 +1,32 @@
+[  0.00-  7.12] Please build an app that is like the Tinder but for finding really good movies.
+[  7.68- 13.54] Please make this look hinge and those colors. Please make it awesome.
+[ 14.12- 19.70] Okay so now Claude code within vibecode.dev is working and we just wait for the app to
+[ 19.70- 25.78] be built by AI. Okay so it's done. Oh look at that. Let's see. Let's see if this works.
+[ 25.78- 26.60] Can we swipe?
+[ 27.00- 27.98] Oh, there we go.
+[ 28.34- 30.22] Avatar, fire, and ash.
+[ 30.40- 31.48] We can save this.
+[ 31.94- 33.18] We can save it.
+[ 33.36- 34.46] Marty's Supremes.
+[ 34.52- 36.46] Let's see if the movies are stored.
+[ 36.84- 37.68] Let's click on this.
+[ 37.82- 40.76] Okay, we can see all of the movies that we've saved.
+[ 41.02- 43.02] What happens when I click on it?
+[ 43.12- 44.82] But yeah, I mean, this is a full tender
+[ 44.82- 48.08] for movies app that we just created
+[ 48.08- 49.50] in one single prompt.
+[ 49.72- 51.88] I don't like the name film swipe.
+[ 51.88- 57.24] Change the name of the app, to RileyTube.
+[ 57.80- 58.74] And then we can just go to this,
+[ 58.94- 61.06] image tab right here, render...
+[ 61.06- 63.10] white, 20s, big.
+[ 63.50- 68.12] to the prompt. and I'm just gonna generate a bunch of these icons.
+[ 68.60- 70.64] Okay, yeah, these kind of look like me.
+[ 70.98- 73.00] I'm just gonna put myself in the apps....
+[103.00-106.00] store, get started, I'll put in all of my information.
+[106.40-109.28] The app, vibecode.dev automatically creates a bundle ID,
+[109.46-111.50] so we'll just hit next, start build, and boom.
+[111.70-112.72] It's going to be sent to the App Store,
+[112.86-116.06] and we'll wait on whether Apple rejects it or accepts it.
+[116.20-118.56] I'll be doing way more videos talking about vibe coding
+[118.56-120.08] very soon, so follow for more.

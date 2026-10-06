@@ -1,0 +1,31 @@
+{
+  "job": "TEST-GIAO-THONG-2",
+  "version": "v1",
+  "title": "",
+  "sentences": [
+    "Thấy cái này mà không giảm ga?",
+    "Bạn đang làm sai.",
+    "Nó không nằm đó cho vui.",
+    "Phía sau nó là thứ bạn không muốn đâm vào.",
+    "Đường trơn thế này, phanh gấp là trượt.",
+    "Nên tài xế dừng hẳn.",
+    "Và chờ.",
+    "Phản xạ đúng đấy.",
+    "Nhưng chờ mãi cũng không phải cách.",
+    "Lối thoát duy nhất là làn ngược chiều.",
+    "Và đó mới là lúc nguy hiểm nhất.",
+    "Vì giờ, mọi chiếc xe trước mặt đều có quyền đi trước bạn.",
+    "Một cú lấn làn sai nhịp là đối đầu trực diện.",
+    "Mặt đường ướt không cho bạn cơ hội thứ hai.",
+    "Bạn chỉ là khách trên làn của họ.",
+    "Đừng tranh với họ.",
+    "Chậm lại.",
+    "Nhường.",
+    "Rồi mới nhích lên.",
+    "Vội một giây, người cần đặt tam giác tiếp theo là bạn."
+  ],
+  "syllables": 134,
+  "voice": "OmniVoice · male clone v2 locked · 1.2 · voice_locked:true",
+  "captions_burn": true,
+  "bgm": true
+}

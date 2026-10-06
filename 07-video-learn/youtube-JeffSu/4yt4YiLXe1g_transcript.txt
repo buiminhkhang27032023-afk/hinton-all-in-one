@@ -1,0 +1,12 @@
+[  0.00-  4.14] So, Google just shared their favorite Chrome extensions from the past year, and after trying
+[  4.14-  6.66] some of these out, my personal favorites are...
+[  6.66-  7.54] Number one, CIDR.
+[  7.84- 12.26] This user-friendly extension allows you to access different AI chatbots via a keyboard
+[ 12.26- 12.60] shortcut.
+[ 13.70- 18.32] And it's also super useful if the official chatbot is unavailable in your region.
+[ 18.58- 22.62] Number two, Teal is a free job search tracker that saves job listings
+[ 22.62- 26.12] from LinkedIn, track of all your applications.
+[ 26.40- 29.86] And number three, DeepL is just a better Google Translate.
+[ 30.30- 30.78] Sorry Google.
+[ 31.32- 34.54] And Boxo 3D is a surprisingly fun yet minimal game
+[ 34.54- 36.14] I kinda suck at.

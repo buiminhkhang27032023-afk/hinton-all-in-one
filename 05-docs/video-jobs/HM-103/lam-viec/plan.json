@@ -1,0 +1,2529 @@
+{
+ "total": 53.89,
+ "vo_end": 53.59,
+ "shots": [
+  {
+   "k": "claim",
+   "pill": "Nguồn: agent-wow.sh · Tom's Hardware",
+   "i": 0,
+   "t": 0.0,
+   "end": 1.66,
+   "dur": 1.66,
+   "trans": "open"
+  },
+  {
+   "k": "stat",
+   "num": 40,
+   "label": "PHÚT",
+   "pill": "Nguồn: Tom's Hardware",
+   "i": 1,
+   "t": 1.66,
+   "end": 2.422,
+   "dur": 0.762,
+   "trans": "whip"
+  },
+  {
+   "k": "stat",
+   "num": 0,
+   "label": "LẦN CHẾT",
+   "pill": "Nguồn: Tom's Hardware",
+   "i": 2,
+   "t": 2.422,
+   "end": 3.522,
+   "dur": 1.1,
+   "trans": "slide"
+  },
+  {
+   "k": "lr",
+   "panels": [
+    {
+     "vid": "y12_orc_close",
+     "nof": true
+    },
+    {
+     "html": "eye"
+    }
+   ],
+   "pill": "Nguồn: agent-wow.sh · Tom's Hardware",
+   "i": 3,
+   "t": 3.522,
+   "end": 4.783,
+   "dur": 1.261,
+   "trans": "whip"
+  },
+  {
+   "k": "flow",
+   "pill": "Nguồn: Tom's Hardware",
+   "i": 4,
+   "t": 4.783,
+   "end": 6.428,
+   "dur": 1.645,
+   "trans": "slide"
+  },
+  {
+   "k": "tb",
+   "panels": [
+    {
+     "img": "ws_agentwow.png",
+     "crop": [
+      276,
+      648,
+      836,
+      737
+     ],
+     "marks": [
+      [
+       "hl",
+       295,
+       708,
+       827,
+       727,
+       0.15
+      ],
+      [
+       "box",
+       609,
+       657,
+       750,
+       676,
+       0.75
+      ]
+     ]
+    },
+    {
+     "vid": "y11_codex_prompt",
+     "marks": [
+      [
+       "box",
+       780,
+       290,
+       932,
+       314,
+       0.45
+      ]
+     ],
+     "label": "CODEX"
+    }
+   ],
+   "pill": "agent-wow.sh · YouTube 8NmmFdREk5s",
+   "i": 5,
+   "t": 6.428,
+   "end": 8.446,
+   "dur": 2.018,
+   "trans": "whip"
+  },
+  {
+   "k": "yt",
+   "vid": "y01_orc_new",
+   "tag": "TẠO ORC",
+   "pill": "Nguồn: YouTube 8NmmFdREk5s",
+   "i": 6,
+   "t": 8.446,
+   "end": 9.205,
+   "dur": 0.759,
+   "trans": "slide"
+  },
+  {
+   "k": "yt",
+   "vid": "y02_questgiver",
+   "tag": "LÀM HẾT NHIỆM VỤ",
+   "pill": "Nguồn: YouTube 8NmmFdREk5s",
+   "i": 7,
+   "t": 9.205,
+   "end": 10.685,
+   "dur": 1.48,
+   "trans": "whip"
+  },
+  {
+   "k": "ss",
+   "src": "ws_toms.png",
+   "pill": "Nguồn: Tom's Hardware",
+   "i": 8,
+   "t": 10.685,
+   "end": 12.975,
+   "dur": 2.29,
+   "trans": "slide"
+  },
+  {
+   "k": "pres",
+   "stamp": "KHÔNG PHẢI<br>OPENAI CÔNG BỐ",
+   "i": 9,
+   "t": 12.975,
+   "end": 14.586,
+   "dur": 1.611,
+   "trans": "cut"
+  },
+  {
+   "k": "ss",
+   "src": "ws_agentwow.png",
+   "tag": "KHÔNG CÓ SẴN",
+   "pill": "Nguồn: agent-wow.sh",
+   "i": 10,
+   "t": 14.586,
+   "end": 16.835,
+   "dur": 2.249,
+   "trans": "whip"
+  },
+  {
+   "k": "term",
+   "pill": "Minh họa · cấu hình module trích từ agent-wow.sh",
+   "i": 11,
+   "t": 16.835,
+   "end": 18.607,
+   "dur": 1.772,
+   "trans": "slide"
+  },
+  {
+   "k": "stat",
+   "num": 28,
+   "label": "LOẠI TIN NHẮN SERVER",
+   "pill": "Nguồn: Tom's Hardware (tự đếm)",
+   "i": 12,
+   "t": 18.607,
+   "end": 20.351,
+   "dur": 1.744,
+   "trans": "whip"
+  },
+  {
+   "k": "tb",
+   "panels": [
+    {
+     "img": "ws_toms.png",
+     "crop": [
+      170,
+      2598,
+      790,
+      2684
+     ],
+     "marks": [
+      [
+       "hl",
+       433,
+       2629,
+       769,
+       2653,
+       0.15
+      ],
+      [
+       "hl",
+       179,
+       2653,
+       411,
+       2677,
+       0.4
+      ]
+     ]
+    },
+    {
+     "vid": "y13_landscape",
+     "label": "BẢN ĐỒ THẾ GIỚI"
+    }
+   ],
+   "pill": "Tom's Hardware · YouTube 8NmmFdREk5s",
+   "i": 13,
+   "t": 20.351,
+   "end": 22.22,
+   "dur": 1.869,
+   "trans": "slide"
+  },
+  {
+   "k": "pres",
+   "tag": "TỰ VIẾT TÌM ĐƯỜNG · C++",
+   "i": 14,
+   "t": 22.22,
+   "end": 24.168,
+   "dur": 1.948,
+   "trans": "whip"
+  },
+  {
+   "k": "tb",
+   "panels": [
+    {
+     "img": "ws_agentwow.png",
+     "crop": [
+      270,
+      5180,
+      990,
+      5378
+     ],
+     "marks": [
+      [
+       "box",
+       685,
+       5326,
+       724,
+       5343,
+       0.2
+      ],
+      [
+       "hl",
+       392,
+       5350,
+       571,
+       5369,
+       0.5
+      ]
+     ]
+    },
+    {
+     "img": "ws_agentwow.png",
+     "crop": [
+      282,
+      5545,
+      760,
+      5815
+     ],
+     "marks": [
+      [
+       "ul",
+       365,
+       5576,
+       499,
+       5582,
+       0.85
+      ],
+      [
+       "box",
+       467,
+       5789,
+       710,
+       5806,
+       1.05
+      ]
+     ]
+    }
+   ],
+   "pill": "Nguồn: agent-wow.sh",
+   "i": 15,
+   "t": 24.168,
+   "end": 26.382,
+   "dur": 2.214,
+   "trans": "slide"
+  },
+  {
+   "k": "tb",
+   "panels": [
+    {
+     "vid": "y03_path_cacti",
+     "label": "TÌM ĐƯỜNG"
+    },
+    {
+     "img": "ws_agentwow.png",
+     "crop": [
+      268,
+      5062,
+      728,
+      5142
+     ],
+     "marks": [
+      [
+       "box",
+       551,
+       5089,
+       617,
+       5114,
+       0.35
+      ]
+     ]
+    }
+   ],
+   "tag": "TỐI ƯU",
+   "pill": "agent-wow.sh · YouTube 8NmmFdREk5s",
+   "i": 16,
+   "t": 26.382,
+   "end": 28.033,
+   "dur": 1.651,
+   "trans": "whip"
+  },
+  {
+   "k": "ss",
+   "src": "ws_ie.png",
+   "tag": "LÊN KẾ HOẠCH",
+   "pill": "Nguồn: Interesting Engineering",
+   "i": 17,
+   "t": 28.033,
+   "end": 30.026,
+   "dur": 1.993,
+   "trans": "slide"
+  },
+  {
+   "k": "yt",
+   "vid": "y04_vendor",
+   "tag": "BÁN ĐỒ RÁC",
+   "pill": "Nguồn: YouTube 8NmmFdREk5s",
+   "i": 18,
+   "t": 30.026,
+   "end": 30.864,
+   "dur": 0.838,
+   "trans": "whip"
+  },
+  {
+   "k": "yt",
+   "vid": "y05_gear",
+   "tag": "MẶC ĐỒ XỊN HƠN",
+   "pill": "Nguồn: YouTube 8NmmFdREk5s",
+   "i": 19,
+   "t": 30.864,
+   "end": 31.868,
+   "dur": 1.004,
+   "trans": "slide"
+  },
+  {
+   "k": "yt",
+   "vid": "y06_trainer",
+   "tag": "HỌC KỸ NĂNG TRƯỚC",
+   "pill": "Nguồn: YouTube 8NmmFdREk5s",
+   "i": 20,
+   "t": 31.868,
+   "end": 33.551,
+   "dur": 1.683,
+   "trans": "whip"
+  },
+  {
+   "k": "lr",
+   "panels": [
+    {
+     "vid": "y07_cave",
+     "lab": "TRONG HANG"
+    },
+    {
+     "html": "quests"
+    }
+   ],
+   "pill": "Nguồn: YouTube 8NmmFdREk5s",
+   "i": 21,
+   "t": 33.551,
+   "end": 35.313,
+   "dur": 1.762,
+   "trans": "slide"
+  },
+  {
+   "k": "lr",
+   "panels": [
+    {
+     "vid": "y09_valley_den",
+     "lab": "VALLEY OF TRIALS"
+    },
+    {
+     "vid": "y08_senjin",
+     "lab": "SEN'JIN VILLAGE"
+    }
+   ],
+   "pill": "Nguồn: YouTube 8NmmFdREk5s",
+   "i": 22,
+   "t": 35.313,
+   "end": 37.519,
+   "dur": 2.206,
+   "trans": "whip"
+  },
+  {
+   "k": "ss",
+   "src": "ws_agentwow_home.png",
+   "tag": "THÍ NGHIỆM ĐỘC LẬP",
+   "pill": "Nguồn: agent-wow.sh",
+   "i": 23,
+   "t": 37.519,
+   "end": 39.805,
+   "dur": 2.286,
+   "trans": "slide"
+  },
+  {
+   "k": "pres",
+   "stamp": "CHƯA KIỂM CHỨNG",
+   "i": 24,
+   "t": 39.805,
+   "end": 41.04,
+   "dur": 1.235,
+   "trans": "cut"
+  },
+  {
+   "k": "tb",
+   "panels": [
+    {
+     "html": "azb"
+    },
+    {
+     "img": "ws_agentwow_home.png",
+     "crop": [
+      270,
+      505,
+      1010,
+      595
+     ],
+     "marks": [
+      [
+       "hl",
+       381,
+       519,
+       644,
+       538,
+       0.3
+      ],
+      [
+       "ul",
+       595,
+       561,
+       953,
+       567,
+       0.75
+      ]
+     ]
+    }
+   ],
+   "pill": "Nguồn: agent-wow.sh",
+   "i": 25,
+   "t": 41.04,
+   "end": 43.542,
+   "dur": 2.502,
+   "trans": "whip"
+  },
+  {
+   "k": "tb",
+   "panels": [
+    {
+     "html": "wallwarn",
+     "label": "WALL CLIP · LỖI BẢN ĐỒ",
+     "lred": true
+    },
+    {
+     "img": "ws_agentwow.png",
+     "crop": [
+      270,
+      6938,
+      1000,
+      7016
+     ],
+     "marks": [
+      [
+       "hl",
+       444,
+       6970,
+       745,
+       6989,
+       0.3
+      ],
+      [
+       "box",
+       750,
+       6970,
+       990,
+       6989,
+       0.8
+      ]
+     ]
+    }
+   ],
+   "pill": "Nguồn: agent-wow.sh",
+   "i": 26,
+   "t": 43.542,
+   "end": 45.509,
+   "dur": 1.967,
+   "trans": "slide"
+  },
+  {
+   "k": "stat",
+   "num": 16,
+   "label": "DÒNG CODE",
+   "pill": "Nguồn: agent-wow.sh",
+   "i": 27,
+   "t": 45.509,
+   "end": 48.833,
+   "dur": 3.324,
+   "trans": "whip"
+  },
+  {
+   "k": "tb",
+   "panels": [
+    {
+     "img": "cdn_ie_hero.png",
+     "crop": [
+      300,
+      0,
+      1620,
+      1080
+     ],
+     "mode": "cover"
+    },
+    {
+     "img": "ws_agentwow.png",
+     "crop": [
+      270,
+      535,
+      990,
+      615
+     ],
+     "marks": [
+      [
+       "hl",
+       700,
+       564,
+       935,
+       583,
+       0.2
+      ],
+      [
+       "box",
+       357,
+       590,
+       646,
+       609,
+       0.75
+      ]
+     ]
+    }
+   ],
+   "tag": "RAID HEROIC",
+   "pill": "agent-wow.sh · ảnh: Interesting Engineering",
+   "i": 28,
+   "t": 48.833,
+   "end": 51.267,
+   "dur": 2.434,
+   "trans": "slide"
+  },
+  {
+   "k": "outro",
+   "i": 29,
+   "t": 51.267,
+   "end": 53.59,
+   "dur": 2.323,
+   "trans": "cut"
+  }
+ ],
+ "sfx": [
+  [
+   0.0,
+   "impact",
+   -8
+  ],
+  [
+   0.18,
+   "pop",
+   -4
+  ],
+  [
+   0.47,
+   "ding",
+   -6
+  ],
+  [
+   0.55,
+   "whoosh_b",
+   -12
+  ],
+  [
+   1.5799999999999998,
+   "whoosh_b",
+   -9
+  ],
+  [
+   1.71,
+   "pop",
+   -4
+  ],
+  [
+   2.1029,
+   "ding",
+   -6
+  ],
+  [
+   2.342,
+   "whoosh_c",
+   -9
+  ],
+  [
+   2.472,
+   "impact",
+   -6
+  ],
+  [
+   3.0170000000000003,
+   "ding",
+   -6
+  ],
+  [
+   3.4419999999999997,
+   "whoosh_a",
+   -9
+  ],
+  [
+   3.9019999999999997,
+   "impact",
+   -12
+  ],
+  [
+   3.9219999999999997,
+   "ding",
+   -9
+  ],
+  [
+   3.972,
+   "impact",
+   -12
+  ],
+  [
+   4.703,
+   "whoosh_b",
+   -9
+  ],
+  [
+   4.783,
+   "pop",
+   -8
+  ],
+  [
+   5.103000000000001,
+   "pop",
+   -8
+  ],
+  [
+   5.423,
+   "pop",
+   -8
+  ],
+  [
+   5.583,
+   "ding",
+   -7
+  ],
+  [
+   6.348,
+   "whoosh_c",
+   -9
+  ],
+  [
+   6.578,
+   "marker",
+   -14
+  ],
+  [
+   6.578,
+   "pop",
+   -6
+  ],
+  [
+   6.827999999999999,
+   "pop",
+   -8
+  ],
+  [
+   6.928,
+   "ding",
+   -7
+  ],
+  [
+   7.228,
+   "ding",
+   -7
+  ],
+  [
+   8.366,
+   "whoosh_a",
+   -9
+  ],
+  [
+   8.485999999999999,
+   "pop",
+   -6
+  ],
+  [
+   9.125,
+   "whoosh_b",
+   -9
+  ],
+  [
+   9.455,
+   "pop",
+   -6
+  ],
+  [
+   10.605,
+   "whoosh_c",
+   -9
+  ],
+  [
+   10.985000000000001,
+   "ding",
+   -7
+  ],
+  [
+   11.685,
+   "pop",
+   -5
+  ],
+  [
+   11.845,
+   "ding",
+   -7
+  ],
+  [
+   12.975,
+   "impact",
+   -11
+  ],
+  [
+   13.375,
+   "ding",
+   -9
+  ],
+  [
+   13.375,
+   "impact",
+   -10
+  ],
+  [
+   14.506,
+   "whoosh_b",
+   -9
+  ],
+  [
+   14.736,
+   "marker",
+   -14
+  ],
+  [
+   14.736,
+   "pop",
+   -6
+  ],
+  [
+   15.036,
+   "marker",
+   -14
+  ],
+  [
+   15.036,
+   "pop",
+   -6
+  ],
+  [
+   15.766,
+   "pop",
+   -5
+  ],
+  [
+   16.755000000000003,
+   "whoosh_c",
+   -9
+  ],
+  [
+   16.885,
+   "marker",
+   -16
+  ],
+  [
+   17.185000000000002,
+   "pop",
+   -5
+  ],
+  [
+   17.335,
+   "marker",
+   -16
+  ],
+  [
+   18.527,
+   "whoosh_a",
+   -9
+  ],
+  [
+   18.657,
+   "pop",
+   -4
+  ],
+  [
+   19.407,
+   "ding",
+   -6
+  ],
+  [
+   20.271,
+   "whoosh_b",
+   -9
+  ],
+  [
+   20.500999999999998,
+   "marker",
+   -14
+  ],
+  [
+   20.500999999999998,
+   "pop",
+   -6
+  ],
+  [
+   20.750999999999998,
+   "marker",
+   -14
+  ],
+  [
+   20.750999999999998,
+   "pop",
+   -6
+  ],
+  [
+   20.751,
+   "pop",
+   -8
+  ],
+  [
+   22.14,
+   "whoosh_c",
+   -9
+  ],
+  [
+   22.64,
+   "marker",
+   -14
+  ],
+  [
+   22.64,
+   "pop",
+   -6
+  ],
+  [
+   24.088,
+   "whoosh_a",
+   -9
+  ],
+  [
+   24.418,
+   "ding",
+   -7
+  ],
+  [
+   24.668,
+   "marker",
+   -14
+  ],
+  [
+   24.668,
+   "pop",
+   -6
+  ],
+  [
+   25.018,
+   "pop",
+   -5
+  ],
+  [
+   25.268,
+   "ding",
+   -7
+  ],
+  [
+   26.302000000000003,
+   "whoosh_b",
+   -9
+  ],
+  [
+   26.682000000000002,
+   "pop",
+   -8
+  ],
+  [
+   26.782000000000004,
+   "ding",
+   -7
+  ],
+  [
+   26.932000000000002,
+   "pop",
+   -6
+  ],
+  [
+   27.953000000000003,
+   "whoosh_c",
+   -9
+  ],
+  [
+   28.183,
+   "marker",
+   -14
+  ],
+  [
+   28.183,
+   "pop",
+   -6
+  ],
+  [
+   28.483,
+   "marker",
+   -14
+  ],
+  [
+   28.483,
+   "pop",
+   -6
+  ],
+  [
+   29.033,
+   "pop",
+   -6
+  ],
+  [
+   29.946,
+   "whoosh_a",
+   -9
+  ],
+  [
+   30.066,
+   "pop",
+   -6
+  ],
+  [
+   30.784000000000002,
+   "whoosh_b",
+   -9
+  ],
+  [
+   30.904,
+   "pop",
+   -6
+  ],
+  [
+   31.788,
+   "whoosh_c",
+   -9
+  ],
+  [
+   32.068,
+   "pop",
+   -6
+  ],
+  [
+   33.471000000000004,
+   "whoosh_a",
+   -9
+  ],
+  [
+   33.701,
+   "pop",
+   -6
+  ],
+  [
+   33.851,
+   "pop",
+   -8
+  ],
+  [
+   33.951,
+   "ding",
+   -9
+  ],
+  [
+   34.001000000000005,
+   "pop",
+   -6
+  ],
+  [
+   34.251000000000005,
+   "ding",
+   -9
+  ],
+  [
+   34.501000000000005,
+   "pop",
+   -5
+  ],
+  [
+   35.233000000000004,
+   "whoosh_b",
+   -9
+  ],
+  [
+   35.613,
+   "pop",
+   -8
+  ],
+  [
+   35.713,
+   "pop",
+   -8
+  ],
+  [
+   37.439,
+   "whoosh_c",
+   -9
+  ],
+  [
+   37.669,
+   "marker",
+   -14
+  ],
+  [
+   37.669,
+   "pop",
+   -6
+  ],
+  [
+   37.869,
+   "marker",
+   -14
+  ],
+  [
+   37.869,
+   "pop",
+   -6
+  ],
+  [
+   38.538999999999994,
+   "marker",
+   -14
+  ],
+  [
+   38.538999999999994,
+   "pop",
+   -6
+  ],
+  [
+   39.805,
+   "impact",
+   -11
+  ],
+  [
+   40.105,
+   "ding",
+   -9
+  ],
+  [
+   40.105,
+   "impact",
+   -10
+  ],
+  [
+   40.96,
+   "whoosh_b",
+   -9
+  ],
+  [
+   41.14,
+   "pop",
+   -6
+  ],
+  [
+   41.339999999999996,
+   "marker",
+   -14
+  ],
+  [
+   41.339999999999996,
+   "pop",
+   -6
+  ],
+  [
+   41.49,
+   "pop",
+   -5
+  ],
+  [
+   41.79,
+   "pop",
+   -5
+  ],
+  [
+   41.839999999999996,
+   "impact",
+   -11
+  ],
+  [
+   41.88,
+   "ding",
+   -8
+  ],
+  [
+   43.462,
+   "whoosh_c",
+   -9
+  ],
+  [
+   43.642,
+   "impact",
+   -10
+  ],
+  [
+   43.842,
+   "marker",
+   -14
+  ],
+  [
+   43.842,
+   "pop",
+   -8
+  ],
+  [
+   43.842,
+   "pop",
+   -6
+  ],
+  [
+   43.882000000000005,
+   "pop",
+   -5
+  ],
+  [
+   44.082,
+   "ding",
+   -7
+  ],
+  [
+   44.342,
+   "pop",
+   -8
+  ],
+  [
+   44.391999999999996,
+   "ding",
+   -7
+  ],
+  [
+   45.429,
+   "whoosh_a",
+   -9
+  ],
+  [
+   45.559,
+   "pop",
+   -4
+  ],
+  [
+   46.309000000000005,
+   "ding",
+   -6
+  ],
+  [
+   47.709,
+   "impact",
+   -10
+  ],
+  [
+   47.889,
+   "ding",
+   -8
+  ],
+  [
+   48.753,
+   "whoosh_b",
+   -9
+  ],
+  [
+   49.033,
+   "marker",
+   -14
+  ],
+  [
+   49.033,
+   "pop",
+   -6
+  ],
+  [
+   49.283,
+   "pop",
+   -6
+  ],
+  [
+   49.632999999999996,
+   "ding",
+   -7
+  ],
+  [
+   51.267,
+   "impact",
+   -11
+  ],
+  [
+   51.417,
+   "pop",
+   -5
+  ],
+  [
+   52.487,
+   "ding",
+   -8
+  ]
+ ],
+ "clusters": [
+  [
+   {
+    "text": "AI",
+    "start": 0.0,
+    "end": 0.22
+   },
+   {
+    "text": "chơi",
+    "start": 0.22,
+    "end": 0.46
+   },
+   {
+    "text": "WoW",
+    "start": 0.46,
+    "end": 0.66
+   }
+  ],
+  [
+   {
+    "text": "mà",
+    "start": 0.66,
+    "end": 0.86
+   },
+   {
+    "text": "không",
+    "start": 0.86,
+    "end": 1.04
+   },
+   {
+    "text": "nhìn",
+    "start": 1.04,
+    "end": 1.2
+   }
+  ],
+  [
+   {
+    "text": "màn",
+    "start": 1.2,
+    "end": 1.38
+   },
+   {
+    "text": "hình",
+    "start": 1.38,
+    "end": 1.48
+   }
+  ],
+  [
+   {
+    "text": "40",
+    "start": 1.72,
+    "end": 2.11
+   },
+   {
+    "text": "phút",
+    "start": 2.11,
+    "end": 2.25
+   }
+  ],
+  [
+   {
+    "text": "Không",
+    "start": 2.56,
+    "end": 2.66
+   },
+   {
+    "text": "chết",
+    "start": 2.66,
+    "end": 2.88
+   }
+  ],
+  [
+   {
+    "text": "lần",
+    "start": 2.88,
+    "end": 3.08
+   },
+   {
+    "text": "nào",
+    "start": 3.08,
+    "end": 3.32
+   }
+  ],
+  [
+   {
+    "text": "Không",
+    "start": 3.62,
+    "end": 3.76
+   },
+   {
+    "text": "nhận",
+    "start": 3.76,
+    "end": 3.92
+   },
+   {
+    "text": "một",
+    "start": 3.92,
+    "end": 4.1
+   }
+  ],
+  [
+   {
+    "text": "khung",
+    "start": 4.1,
+    "end": 4.26
+   },
+   {
+    "text": "hình",
+    "start": 4.26,
+    "end": 4.38
+   },
+   {
+    "text": "nào",
+    "start": 4.38,
+    "end": 4.6
+   }
+  ],
+  [
+   {
+    "text": "Chỉ",
+    "start": 4.843,
+    "end": 4.98
+   },
+   {
+    "text": "đọc",
+    "start": 4.98,
+    "end": 5.12
+   }
+  ],
+  [
+   {
+    "text": "gói",
+    "start": 5.12,
+    "end": 5.26
+   },
+   {
+    "text": "tin",
+    "start": 5.26,
+    "end": 5.4
+   },
+   {
+    "text": "mạng",
+    "start": 5.4,
+    "end": 5.64
+   }
+  ],
+  [
+   {
+    "text": "và",
+    "start": 5.64,
+    "end": 5.74
+   },
+   {
+    "text": "file",
+    "start": 5.74,
+    "end": 6.04
+   },
+   {
+    "text": "SQL",
+    "start": 6.04,
+    "end": 6.34
+   }
+  ],
+  [
+   {
+    "text": "Một",
+    "start": 6.54,
+    "end": 6.62
+   },
+   {
+    "text": "developer",
+    "start": 6.62,
+    "end": 6.86
+   },
+   {
+    "text": "giao",
+    "start": 6.86,
+    "end": 7.34
+   }
+  ],
+  [
+   {
+    "text": "Codex",
+    "start": 7.34,
+    "end": 7.66
+   },
+   {
+    "text": "đúng",
+    "start": 7.66,
+    "end": 7.84
+   },
+   {
+    "text": "một",
+    "start": 7.84,
+    "end": 8.0
+   }
+  ],
+  [
+   {
+    "text": "câu",
+    "start": 8.0,
+    "end": 8.16
+   },
+   {
+    "text": "lệnh",
+    "start": 8.16,
+    "end": 8.38
+   }
+  ],
+  [
+   {
+    "text": "Tạo",
+    "start": 8.506,
+    "end": 8.716
+   },
+   {
+    "text": "orc",
+    "start": 8.716,
+    "end": 9.076
+   }
+  ],
+  [
+   {
+    "text": "Làm",
+    "start": 9.34,
+    "end": 9.44
+   },
+   {
+    "text": "hết",
+    "start": 9.44,
+    "end": 9.56
+   }
+  ],
+  [
+   {
+    "text": "nhiệm",
+    "start": 9.56,
+    "end": 9.7
+   },
+   {
+    "text": "vụ",
+    "start": 9.7,
+    "end": 9.9
+   },
+   {
+    "text": "khu",
+    "start": 9.9,
+    "end": 10.1
+   }
+  ],
+  [
+   {
+    "text": "khởi",
+    "start": 10.1,
+    "end": 10.34
+   },
+   {
+    "text": "đầu",
+    "start": 10.34,
+    "end": 10.48
+   }
+  ],
+  [
+   {
+    "text": "Codex",
+    "start": 10.78,
+    "end": 11.0
+   },
+   {
+    "text": "chạy",
+    "start": 11.0,
+    "end": 11.16
+   }
+  ],
+  [
+   {
+    "text": "GPT-6",
+    "start": 11.16,
+    "end": 11.64
+   },
+   {
+    "text": "Astra",
+    "start": 11.64,
+    "end": 11.96
+   },
+   {
+    "text": "mức",
+    "start": 11.96,
+    "end": 12.2
+   }
+  ],
+  [
+   {
+    "text": "suy",
+    "start": 12.2,
+    "end": 12.34
+   },
+   {
+    "text": "luận",
+    "start": 12.34,
+    "end": 12.46
+   }
+  ],
+  [
+   {
+    "text": "cực",
+    "start": 12.46,
+    "end": 12.58
+   },
+   {
+    "text": "cao",
+    "start": 12.58,
+    "end": 12.86
+   }
+  ],
+  [
+   {
+    "text": "Đây",
+    "start": 13.08,
+    "end": 13.16
+   },
+   {
+    "text": "không",
+    "start": 13.16,
+    "end": 13.32
+   },
+   {
+    "text": "phải",
+    "start": 13.32,
+    "end": 13.46
+   }
+  ],
+  [
+   {
+    "text": "công",
+    "start": 13.46,
+    "end": 13.58
+   },
+   {
+    "text": "bố",
+    "start": 13.58,
+    "end": 13.78
+   },
+   {
+    "text": "của",
+    "start": 13.78,
+    "end": 13.92
+   },
+   {
+    "text": "OpenAI",
+    "start": 13.92,
+    "end": 14.26
+   }
+  ],
+  [
+   {
+    "text": "Agent-wow",
+    "start": 14.7,
+    "end": 15.12
+   },
+   {
+    "text": "không",
+    "start": 15.12,
+    "end": 15.4
+   },
+   {
+    "text": "có",
+    "start": 15.4,
+    "end": 15.58
+   }
+  ],
+  [
+   {
+    "text": "sẵn",
+    "start": 15.58,
+    "end": 15.78
+   },
+   {
+    "text": "di",
+    "start": 15.78,
+    "end": 15.9
+   },
+   {
+    "text": "chuyển",
+    "start": 15.9,
+    "end": 16.12
+   }
+  ],
+  [
+   {
+    "text": "hay",
+    "start": 16.12,
+    "end": 16.28
+   },
+   {
+    "text": "đánh",
+    "start": 16.28,
+    "end": 16.42
+   },
+   {
+    "text": "nhau",
+    "start": 16.42,
+    "end": 16.62
+   }
+  ],
+  [
+   {
+    "text": "Nó",
+    "start": 16.96,
+    "end": 17.04
+   },
+   {
+    "text": "phải",
+    "start": 17.04,
+    "end": 17.18
+   },
+   {
+    "text": "tự",
+    "start": 17.18,
+    "end": 17.36
+   }
+  ],
+  [
+   {
+    "text": "viết",
+    "start": 17.36,
+    "end": 17.54
+   },
+   {
+    "text": "toàn",
+    "start": 17.54,
+    "end": 17.7
+   },
+   {
+    "text": "bộ",
+    "start": 17.7,
+    "end": 17.82
+   }
+  ],
+  [
+   {
+    "text": "module",
+    "start": 17.82,
+    "end": 18.08
+   },
+   {
+    "text": "từ",
+    "start": 18.08,
+    "end": 18.24
+   },
+   {
+    "text": "đầu",
+    "start": 18.24,
+    "end": 18.42
+   }
+  ],
+  [
+   {
+    "text": "Bắt",
+    "start": 18.76,
+    "end": 18.82
+   },
+   {
+    "text": "28",
+    "start": 18.82,
+    "end": 19.3
+   },
+   {
+    "text": "loại",
+    "start": 19.3,
+    "end": 19.52
+   }
+  ],
+  [
+   {
+    "text": "tin",
+    "start": 19.52,
+    "end": 19.66
+   },
+   {
+    "text": "nhắn",
+    "start": 19.66,
+    "end": 19.78
+   },
+   {
+    "text": "server",
+    "start": 19.78,
+    "end": 20.1
+   }
+  ],
+  [
+   {
+    "text": "Viết",
+    "start": 20.5,
+    "end": 20.58
+   },
+   {
+    "text": "script",
+    "start": 20.58,
+    "end": 20.78
+   },
+   {
+    "text": "Python",
+    "start": 20.78,
+    "end": 21.06
+   }
+  ],
+  [
+   {
+    "text": "dựng",
+    "start": 21.06,
+    "end": 21.4
+   },
+   {
+    "text": "bản",
+    "start": 21.4,
+    "end": 21.52
+   },
+   {
+    "text": "đồ",
+    "start": 21.52,
+    "end": 21.66
+   }
+  ],
+  [
+   {
+    "text": "thế",
+    "start": 21.66,
+    "end": 21.82
+   },
+   {
+    "text": "giới",
+    "start": 21.82,
+    "end": 22.04
+   }
+  ],
+  [
+   {
+    "text": "Tự",
+    "start": 22.34,
+    "end": 22.42
+   },
+   {
+    "text": "viết",
+    "start": 22.42,
+    "end": 22.58
+   }
+  ],
+  [
+   {
+    "text": "công",
+    "start": 22.58,
+    "end": 22.72
+   },
+   {
+    "text": "cụ",
+    "start": 22.72,
+    "end": 22.88
+   }
+  ],
+  [
+   {
+    "text": "tìm",
+    "start": 22.88,
+    "end": 23.14
+   },
+   {
+    "text": "đường",
+    "start": 23.14,
+    "end": 23.26
+   },
+   {
+    "text": "bằng",
+    "start": 23.26,
+    "end": 23.46
+   },
+   {
+    "text": "C++",
+    "start": 23.46,
+    "end": 24.08
+   }
+  ],
+  [
+   {
+    "text": "Dùng",
+    "start": 24.32,
+    "end": 24.42
+   },
+   {
+    "text": "navmesh",
+    "start": 24.42,
+    "end": 24.94
+   },
+   {
+    "text": "AzerothCore",
+    "start": 24.94,
+    "end": 25.44
+   }
+  ],
+  [
+   {
+    "text": "và",
+    "start": 25.44,
+    "end": 25.6
+   },
+   {
+    "text": "thư",
+    "start": 25.6,
+    "end": 25.74
+   },
+   {
+    "text": "viện",
+    "start": 25.74,
+    "end": 25.9
+   },
+   {
+    "text": "Detour",
+    "start": 25.9,
+    "end": 26.322
+   }
+  ],
+  [
+   {
+    "text": "Developer",
+    "start": 26.442,
+    "end": 26.692
+   },
+   {
+    "text": "khen",
+    "start": 26.692,
+    "end": 27.092
+   },
+   {
+    "text": "đường",
+    "start": 27.092,
+    "end": 27.252
+   }
+  ],
+  [
+   {
+    "text": "đi",
+    "start": 27.252,
+    "end": 27.412
+   },
+   {
+    "text": "là",
+    "start": 27.412,
+    "end": 27.532
+   }
+  ],
+  [
+   {
+    "text": "tối",
+    "start": 27.532,
+    "end": 27.732
+   },
+   {
+    "text": "ưu",
+    "start": 27.732,
+    "end": 27.892
+   }
+  ],
+  [
+   {
+    "text": "Nó",
+    "start": 28.093,
+    "end": 28.263
+   },
+   {
+    "text": "lên",
+    "start": 28.263,
+    "end": 28.423
+   }
+  ],
+  [
+   {
+    "text": "kế",
+    "start": 28.423,
+    "end": 28.603
+   },
+   {
+    "text": "hoạch",
+    "start": 28.603,
+    "end": 28.863
+   }
+  ],
+  [
+   {
+    "text": "nhiệm",
+    "start": 28.863,
+    "end": 29.123
+   },
+   {
+    "text": "vụ",
+    "start": 29.123,
+    "end": 29.263
+   },
+   {
+    "text": "theo",
+    "start": 29.263,
+    "end": 29.423
+   }
+  ],
+  [
+   {
+    "text": "đúng",
+    "start": 29.423,
+    "end": 29.583
+   },
+   {
+    "text": "thứ",
+    "start": 29.583,
+    "end": 29.763
+   },
+   {
+    "text": "tự",
+    "start": 29.763,
+    "end": 29.863
+   }
+  ],
+  [
+   {
+    "text": "Bán",
+    "start": 30.086,
+    "end": 30.336
+   },
+   {
+    "text": "đồ",
+    "start": 30.336,
+    "end": 30.496
+   },
+   {
+    "text": "rác",
+    "start": 30.496,
+    "end": 30.696
+   }
+  ],
+  [
+   {
+    "text": "Mặc",
+    "start": 31.02,
+    "end": 31.16
+   },
+   {
+    "text": "đồ",
+    "start": 31.16,
+    "end": 31.34
+   }
+  ],
+  [
+   {
+    "text": "xịn",
+    "start": 31.34,
+    "end": 31.56
+   },
+   {
+    "text": "hơn",
+    "start": 31.56,
+    "end": 31.68
+   }
+  ],
+  [
+   {
+    "text": "Học",
+    "start": 31.98,
+    "end": 32.1
+   },
+   {
+    "text": "kỹ",
+    "start": 32.1,
+    "end": 32.28
+   },
+   {
+    "text": "năng",
+    "start": 32.28,
+    "end": 32.46
+   }
+  ],
+  [
+   {
+    "text": "trước",
+    "start": 32.46,
+    "end": 32.66
+   },
+   {
+    "text": "khi",
+    "start": 32.66,
+    "end": 32.86
+   },
+   {
+    "text": "vào",
+    "start": 32.86,
+    "end": 32.98
+   }
+  ],
+  [
+   {
+    "text": "hang",
+    "start": 32.98,
+    "end": 33.12
+   },
+   {
+    "text": "cuối",
+    "start": 33.12,
+    "end": 33.36
+   }
+  ],
+  [
+   {
+    "text": "Nhận",
+    "start": 33.611,
+    "end": 33.8
+   },
+   {
+    "text": "cả",
+    "start": 33.8,
+    "end": 33.96
+   },
+   {
+    "text": "hai",
+    "start": 33.96,
+    "end": 34.12
+   }
+  ],
+  [
+   {
+    "text": "nhiệm",
+    "start": 34.12,
+    "end": 34.32
+   },
+   {
+    "text": "vụ",
+    "start": 34.32,
+    "end": 34.48
+   },
+   {
+    "text": "hang",
+    "start": 34.48,
+    "end": 34.64
+   }
+  ],
+  [
+   {
+    "text": "làm",
+    "start": 34.64,
+    "end": 34.8
+   },
+   {
+    "text": "một",
+    "start": 34.8,
+    "end": 34.96
+   },
+   {
+    "text": "lần",
+    "start": 34.96,
+    "end": 35.14
+   }
+  ],
+  [
+   {
+    "text": "Từ",
+    "start": 35.38,
+    "end": 35.5
+   },
+   {
+    "text": "Valley",
+    "start": 35.5,
+    "end": 35.72
+   },
+   {
+    "text": "of",
+    "start": 35.72,
+    "end": 35.92
+   },
+   {
+    "text": "Trials",
+    "start": 35.92,
+    "end": 36.16
+   }
+  ],
+  [
+   {
+    "text": "tới",
+    "start": 36.16,
+    "end": 36.42
+   },
+   {
+    "text": "tận",
+    "start": 36.42,
+    "end": 36.727
+   }
+  ],
+  [
+   {
+    "text": "Sen'jin",
+    "start": 36.727,
+    "end": 37.033
+   },
+   {
+    "text": "Village",
+    "start": 37.033,
+    "end": 37.34
+   }
+  ],
+  [
+   {
+    "text": "Nhưng",
+    "start": 37.58,
+    "end": 37.8
+   },
+   {
+    "text": "đây",
+    "start": 37.8,
+    "end": 37.94
+   },
+   {
+    "text": "là",
+    "start": 37.94,
+    "end": 38.08
+   }
+  ],
+  [
+   {
+    "text": "thí",
+    "start": 38.08,
+    "end": 38.24
+   },
+   {
+    "text": "nghiệm",
+    "start": 38.24,
+    "end": 38.5
+   },
+   {
+    "text": "của",
+    "start": 38.5,
+    "end": 38.6
+   }
+  ],
+  [
+   {
+    "text": "một",
+    "start": 38.6,
+    "end": 38.74
+   },
+   {
+    "text": "developer",
+    "start": 38.74,
+    "end": 39.12
+   }
+  ],
+  [
+   {
+    "text": "độc",
+    "start": 39.12,
+    "end": 39.54
+   },
+   {
+    "text": "lập",
+    "start": 39.54,
+    "end": 39.7
+   }
+  ],
+  [
+   {
+    "text": "Chưa",
+    "start": 39.865,
+    "end": 40.02
+   },
+   {
+    "text": "ai",
+    "start": 40.02,
+    "end": 40.26
+   }
+  ],
+  [
+   {
+    "text": "kiểm",
+    "start": 40.26,
+    "end": 40.46
+   },
+   {
+    "text": "chứng",
+    "start": 40.46,
+    "end": 40.62
+   }
+  ],
+  [
+   {
+    "text": "độc",
+    "start": 40.62,
+    "end": 40.78
+   },
+   {
+    "text": "lập",
+    "start": 40.78,
+    "end": 40.98
+   }
+  ],
+  [
+   {
+    "text": "Chạy",
+    "start": 41.16,
+    "end": 41.32
+   },
+   {
+    "text": "server",
+    "start": 41.32,
+    "end": 41.5
+   },
+   {
+    "text": "riêng",
+    "start": 41.5,
+    "end": 41.9
+   },
+   {
+    "text": "AzerothCore",
+    "start": 41.9,
+    "end": 42.54
+   }
+  ],
+  [
+   {
+    "text": "không",
+    "start": 42.54,
+    "end": 42.84
+   },
+   {
+    "text": "phải",
+    "start": 42.84,
+    "end": 43.02
+   },
+   {
+    "text": "Blizzard",
+    "start": 43.02,
+    "end": 43.46
+   }
+  ],
+  [
+   {
+    "text": "Agent",
+    "start": 43.602,
+    "end": 43.82
+   },
+   {
+    "text": "còn",
+    "start": 43.82,
+    "end": 44.06
+   }
+  ],
+  [
+   {
+    "text": "lách",
+    "start": 44.06,
+    "end": 44.2
+   },
+   {
+    "text": "qua",
+    "start": 44.2,
+    "end": 44.34
+   },
+   {
+    "text": "tường",
+    "start": 44.34,
+    "end": 44.58
+   }
+  ],
+  [
+   {
+    "text": "ở",
+    "start": 44.58,
+    "end": 44.72
+   },
+   {
+    "text": "chỗ",
+    "start": 44.72,
+    "end": 44.9
+   }
+  ],
+  [
+   {
+    "text": "lỗi",
+    "start": 44.9,
+    "end": 45.02
+   },
+   {
+    "text": "bản",
+    "start": 45.02,
+    "end": 45.2
+   },
+   {
+    "text": "đồ",
+    "start": 45.2,
+    "end": 45.36
+   }
+  ],
+  [
+   {
+    "text": "Trước",
+    "start": 45.6,
+    "end": 45.74
+   },
+   {
+    "text": "đó",
+    "start": 45.74,
+    "end": 45.88
+   },
+   {
+    "text": "developer",
+    "start": 45.98,
+    "end": 46.38
+   }
+  ],
+  [
+   {
+    "text": "tự",
+    "start": 46.38,
+    "end": 46.7
+   },
+   {
+    "text": "viết",
+    "start": 46.7,
+    "end": 46.88
+   }
+  ],
+  [
+   {
+    "text": "16.000",
+    "start": 46.88,
+    "end": 47.285
+   },
+   {
+    "text": "dòng",
+    "start": 47.285,
+    "end": 47.42
+   },
+   {
+    "text": "code",
+    "start": 47.42,
+    "end": 47.78
+   }
+  ],
+  [
+   {
+    "text": "lỗi",
+    "start": 48.04,
+    "end": 48.16
+   },
+   {
+    "text": "quá",
+    "start": 48.16,
+    "end": 48.32
+   },
+   {
+    "text": "nên",
+    "start": 48.32,
+    "end": 48.46
+   },
+   {
+    "text": "bỏ",
+    "start": 48.46,
+    "end": 48.7
+   }
+  ],
+  [
+   {
+    "text": "Mục",
+    "start": 48.9,
+    "end": 49.04
+   },
+   {
+    "text": "tiêu",
+    "start": 49.04,
+    "end": 49.24
+   }
+  ],
+  [
+   {
+    "text": "lấp",
+    "start": 49.24,
+    "end": 49.66
+   },
+   {
+    "text": "server",
+    "start": 49.66,
+    "end": 49.7
+   },
+   {
+    "text": "bằng",
+    "start": 49.66,
+    "end": 49.84
+   }
+  ],
+  [
+   {
+    "text": "AI",
+    "start": 49.84,
+    "end": 50.12
+   },
+   {
+    "text": "để",
+    "start": 50.12,
+    "end": 50.4
+   },
+   {
+    "text": "đánh",
+    "start": 50.4,
+    "end": 50.6
+   }
+  ],
+  [
+   {
+    "text": "raid",
+    "start": 50.6,
+    "end": 50.82
+   },
+   {
+    "text": "heroic",
+    "start": 50.82,
+    "end": 51.18
+   }
+  ],
+  [
+   {
+    "text": "Nếu",
+    "start": 51.38,
+    "end": 51.52
+   },
+   {
+    "text": "AI",
+    "start": 51.52,
+    "end": 51.76
+   }
+  ],
+  [
+   {
+    "text": "chơi",
+    "start": 51.76,
+    "end": 51.98
+   },
+   {
+    "text": "game",
+    "start": 51.98,
+    "end": 52.18
+   },
+   {
+    "text": "mà",
+    "start": 52.18,
+    "end": 52.34
+   }
+  ],
+  [
+   {
+    "text": "không",
+    "start": 52.34,
+    "end": 52.48
+   },
+   {
+    "text": "cần",
+    "start": 52.48,
+    "end": 52.64
+   },
+   {
+    "text": "nhìn",
+    "start": 52.64,
+    "end": 52.86
+   }
+  ],
+  [
+   {
+    "text": "bạn",
+    "start": 52.86,
+    "end": 53.02
+   },
+   {
+    "text": "nghĩ",
+    "start": 53.02,
+    "end": 53.2
+   },
+   {
+    "text": "sao",
+    "start": 53.2,
+    "end": 53.4
+   }
+  ]
+ ]
+}

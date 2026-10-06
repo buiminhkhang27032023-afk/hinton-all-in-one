@@ -1,0 +1,22 @@
+{
+  "key": "/workspace/hinton-pipeline-docs/assets/presenter-video-novoice.mp4|1791064562.0|video|True",
+  "data": {
+    "mode": "video",
+    "pip": "/workspace/video-jobs/HM-101/lam-viec/presenter/presenter_pip.mp4",
+    "full": "/workspace/video-jobs/HM-101/lam-viec/presenter/presenter_full.mp4",
+    "length": 53.966667,
+    "source": "/workspace/hinton-pipeline-docs/assets/presenter-video-novoice.mp4",
+    "crop": "608:1072:656:0",
+    "face": [
+      262,
+      246,
+      151,
+      151
+    ]
+  },
+  "notes": [
+    "no broll_urls.txt -> no demo clips",
+    "voice duration 51.7s is far from target 60s",
+    "auto-editor (motion) presenter 54.0s -> 54.0s"
+  ]
+}

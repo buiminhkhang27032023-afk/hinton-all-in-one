@@ -1,0 +1,9 @@
+# Webshots (Chrome headless). URL | name= | w= | h= | scale= | wait=
+https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/ | name=gblog | w=1100 | h=5200 | scale=2 | wait=12000
+https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/ | name=tc | w=1100 | h=3200 | scale=2 | wait=12000
+https://deepmind.google/models/gemini/cyber/ | name=dm_cyber | w=1100 | h=3000 | scale=2 | wait=12000
+https://tribune.com.pk/story/2632456/google-announces-gemini-4-flagship-ai-model-after-months-of-delays | name=reuters_tribune | w=1100 | h=3000 | scale=2 | wait=12000
+https://www.devdiscourse.com/article/international/3984852-google-announces-gemini-4-flagship-ai-model-after-months-of-delays | name=reuters_dd | w=1100 | h=3000 | scale=2 | wait=12000
+https://techwireasia.com/2026/10/google-gemini-4-argon-cybersecurity-access/ | name=twa | w=1100 | h=3200 | scale=2 | wait=12000
+https://qz.com/google-gemini-4-argon-ai-model-cybersecurity-100126 | name=qz | w=1100 | h=3000 | scale=2 | wait=12000
+https://platform.twitter.com/embed/Tweet.html?id=2105388084154056939&theme=light&lang=en | name=x_gdm | w=560 | h=1100 | scale=3 | wait=12000

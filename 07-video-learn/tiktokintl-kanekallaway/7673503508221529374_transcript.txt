@@ -1,0 +1,23 @@
+[ 25.40- 29.56] I just built a team.
+[ 30.06- 34.14] actions on their behalf. Anytime you message Fitbot, it'll build and adjust
+[ 34.14- 37.68] your training plan based on your recovery score. We even have Calmbot, which
+[ 37.68- 41.06] will automatically nudge you with a notification if your heart rate data
+[ 41.06- 44.64] spikes too high. All of this is happening proactively based on the live
+[ 44.64- 48.44] health tracking data and also reactively anytime you message any of the
+[ 48.44- 51.88] bots. If anyone in the family needs a doctor, they can message Docbot, which
+[ 51.88- 55.12] will automatically schedule it for them. And you can see how far this all
+[ 55.12- 58.80] goes. Now the cool part is I built this whole suite of health bots using
+[ 58.80- 62.48] in GROCBOT. And if you haven't tried this yet, this is now the easiest way to build with AI.
+[ 62.78- 67.90] Think of GROCBOT like the platform that can spin up individual bot agents. Each bot works on a
+[ 67.90- 72.96] shared cloud computer, can collaborate with each other, and the UI feels more like texting an
+[ 72.96- 77.68] expert friend versus building out software. You can see all those names in the sidebar are all
+[ 77.68- 81.92] of our individual health bots we have working together to accomplish this workflow. But this
+[ 81.92- 86.02] is only a small example of using bots to do work for you. The next two bots we're making
+[ 86.02- 91.14] our chief, our chief of staff, and Zero, which is specifically designed to get us to inbox
+[ 91.14- 93.36] Zero by proactively managing our email.
+[ 93.60- 97.00] Usually once you had started making these bots, it's extremely simple and addicting
+[ 97.00- 97.46] to use.
+[ 97.66-102.02] Now the GROC Bot platform was built by the SpaceX AI team, and I think this chat based
+[102.02-106.00] UI might sneakily be the most compelling way to do multi-threaded work.
+[106.18-108.56] If you want to try this out, comment GROC and I'll send you all the links
+[108.56-109.32] to get it set up.

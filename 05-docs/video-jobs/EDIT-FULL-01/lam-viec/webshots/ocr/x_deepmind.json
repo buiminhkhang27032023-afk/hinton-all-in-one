@@ -1,0 +1,382 @@
+[
+{
+"box": [
+209,
+60,
+357,
+43
+],
+"text": "Google DeepMind",
+"conf": 0.835
+},
+{
+"box": [
+210,
+123,
+549,
+44
+],
+"text": "@GoogleDeepMind : Follow",
+"conf": 0.928
+},
+{
+"box": [
+49,
+227,
+1392,
+58
+],
+"text": "Huge congratulations to @DemisHassabis and John",
+"conf": 0.935
+},
+{
+"box": [
+51,
+298,
+1325,
+59
+],
+"text": "Jumper on being awarded the 2024 Nobel Prize in",
+"conf": 0.91
+},
+{
+"box": [
+52,
+371,
+1226,
+59
+],
+"text": "Chemistry for protein structure prediction with",
+"conf": 0.929
+},
+{
+"box": [
+51,
+442,
+1433,
+61
+],
+"text": "#AlphaFold, along with David Baker for computational",
+"conf": 0.946
+},
+{
+"box": [
+50,
+517,
+393,
+59
+],
+"text": "protein design.",
+"conf": 0.9
+},
+{
+"box": [
+53,
+661,
+1189,
+51
+],
+"text": "This is a monumental achievement for Al, for",
+"conf": 0.898
+},
+{
+"box": [
+50,
+732,
+708,
+56
+],
+"text": "computational Show more",
+"conf": 0.873
+},
+{
+"box": [
+107,
+883,
+26,
+14
+],
+"text": "THE",
+"conf": 0.747
+},
+{
+"box": [
+163,
+880,
+324,
+39
+],
+"text": "The Nobel Prize",
+"conf": 0.883
+},
+{
+"box": [
+562,
+880,
+256,
+44
+],
+"text": "@NobelPrize",
+"conf": 0.866
+},
+{
+"box": [
+100,
+895,
+37,
+14
+],
+"text": "NOBE",
+"conf": 0.792
+},
+{
+"box": [
+102,
+907,
+37,
+14
+],
+"text": "PRIZE",
+"conf": 0.775
+},
+{
+"box": [
+93,
+956,
+345,
+36
+],
+"text": "BREAKING NEWS",
+"conf": 0.885
+},
+{
+"box": [
+90,
+1010,
+1447,
+49
+],
+"text": "The Royal Swedish Academy of Sciences has decided to award the 2024",
+"conf": 0.934
+},
+{
+"box": [
+92,
+1074,
+1459,
+43
+],
+"text": "#NobelPrize in Chemistry with one half to David Baker \"for computational",
+"conf": 0.926
+},
+{
+"box": [
+88,
+1131,
+1439,
+49
+],
+"text": "protein design\" and the other half jointly to Demis Hassabis and John M.",
+"conf": 0.934
+},
+{
+"box": [
+93,
+1197,
+809,
+39
+],
+"text": "Jumper \"for protein structure prediction.\"",
+"conf": 0.888
+},
+{
+"box": [
+57,
+1295,
+33,
+191
+],
+"text": "Ilustrations:",
+"conf": 0.856
+},
+{
+"box": [
+489,
+1319,
+670,
+61
+],
+"text": "THENOBELPRIZE",
+"conf": 0.913
+},
+{
+"box": [
+442,
+1403,
+764,
+56
+],
+"text": "INCHEMISTRY2024",
+"conf": 0.834
+},
+{
+"box": [
+56,
+1402,
+36,
+331
+],
+"text": "tions:NiklasElmehed",
+"conf": 0.844
+},
+{
+"box": [
+241,
+2370,
+203,
+65
+],
+"text": "David",
+"conf": 0.784
+},
+{
+"box": [
+736,
+2371,
+216,
+66
+],
+"text": "Demis",
+"conf": 0.777
+},
+{
+"box": [
+1167,
+2375,
+275,
+57
+],
+"text": "JohnM",
+"conf": 0.81
+},
+{
+"box": [
+243,
+2447,
+203,
+65
+],
+"text": "Baker",
+"conf": 0.806
+},
+{
+"box": [
+690,
+2448,
+311,
+63
+],
+"text": "Hassabis",
+"conf": 0.885
+},
+{
+"box": [
+1168,
+2448,
+279,
+75
+],
+"text": "Jumper",
+"conf": 0.846
+},
+{
+"box": [
+118,
+2549,
+457,
+53
+],
+"text": "\"forcomputational",
+"conf": 0.903
+},
+{
+"box": [
+668,
+2546,
+801,
+59
+],
+"text": "\"forproteinstructureprediction\"",
+"conf": 0.932
+},
+{
+"box": [
+156,
+2612,
+371,
+58
+],
+"text": "protein design\"",
+"conf": 0.858
+},
+{
+"box": [
+410,
+2749,
+831,
+30
+],
+"text": "THEROYALSWEDISHACADEMYOFSCIENCES",
+"conf": 0.903
+},
+{
+"box": [
+55,
+2861,
+424,
+36
+],
+"text": "5:23 PM : 0ct 9, 2024",
+"conf": 0.843
+},
+{
+"box": [
+399,
+2980,
+112,
+49
+],
+"text": "Reply",
+"conf": 0.831
+},
+{
+"box": [
+143,
+2982,
+95,
+40
+],
+"text": "3.7K",
+"conf": 0.796
+},
+{
+"box": [
+660,
+2980,
+323,
+49
+],
+"text": "Copy link to post",
+"conf": 0.867
+},
+{
+"box": [
+665,
+3091,
+318,
+41
+],
+"text": "Read 117 replies",
+"conf": 0.857
+}
+]

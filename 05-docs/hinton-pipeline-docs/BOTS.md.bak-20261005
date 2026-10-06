@@ -1,0 +1,11 @@
+# Roster bot Hinton Media (account hiện tại, tạo 03/10/2026)
+| Bot | ID | Vai |
+|---|---|---|
+| bố của các bot | dde7b68b-af4f-4203-a066-3659e7ffaf44 | điều phối, QA script |
+| Bot 5 — Săn tin và kiến thức AI | d8592325-f729-4e40-93d3-dc2bfcb68851 | săn tin / kiểm chứng |
+| Bot 4 — Douyin | 7feb4d59-738d-4d0e-bbf5-ee531c808885 | tải + transcript + dịch Douyin |
+| Bot 3 — Biên kịch | eab21ff8-c4d4-4732-aeaf-d9a5edb0712c | viết script |
+| Bot 2 — Tin AI | f9e01114-7213-4d95-b43f-35f4eebfd20c | render nhánh Tin AI |
+| Bot 2B — Douyin | 970b5091-e601-4188-910e-bc58c9a50dac | render nhánh Douyin |
+ID trong DA-HOC-20261003.md / MEMORY-va-BAI-HOC.md là account cũ, bỏ qua.
+| Trợ Lý Edit Video | 65c5b9ad-cb27-4aa6-bfb7-2d19e9d49ccc | dựng video theo công thức Cường Mê AI (edit-video/) |

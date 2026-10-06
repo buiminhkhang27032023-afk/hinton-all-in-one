@@ -1,0 +1,46 @@
+[  0.00-  3.40] We're using Claude Opus 4.6, which is the best AI coding model
+[  3.40-  3.94] in the world.
+[  4.42-  7.06] Please bill a Tinder slash hinge profile generator
+[  7.06- 10.20] using the Nano Banana API.
+[ 10.76- 13.94] We'll generate six photos for me to use on hinge.
+[ 14.02- 17.56] Style of the app should similar to Netflix mobile app.
+[ 17.68- 18.04] Think deeply.
+[ 18.34- 19.12] All right, let's see.
+[ 19.34- 20.64] Okay, done.
+[ 20.96- 21.56] Here we go.
+[ 21.82- 23.10] Profile glow up.
+[ 23.16- 25.02] I'm gonna hit create my photos.
+[ 25.40- 26.52] Take a selfie.
+[ 27.14- 28.22] All right, let's see.
+[ 28.54- 29.32] Oh, wow.
+[ 29.32- 31.04] Wow, analyzing your photo.
+[ 31.94- 33.48] Okay, there I am.
+[ 33.70- 34.98] Looks a little bit like me.
+[ 35.28- 35.80] Last one.
+[ 36.06- 37.74] Ooh, these are kinda nice.
+[ 38.06- 39.20] Look at these photos.
+[ 39.62- 41.00] Here it actually shows the prompt.
+[ 41.16- 42.56] We can actually save the photos.
+[ 42.92- 45.40] And what's cool, we set up a database.
+[ 45.90- 47.56] So if we click on database here,
+[ 47.74- 50.44] we can actually see all of these photos
+[ 50.44- 52.42] are saved in the database.
+[ 52.74- 55.88] And so this has a full front end and it has a backend.
+[ 56.12- 58.98] AI created this app in one single prompt.
+[ 58.98- 60.50] but I do want to make a few changes.
+[ 60.66- 61.54] First change I want to make.
+[ 61.64- 64.30] Please make the images generate
+[ 64.30- 69.24] all at the same time, not sequentially.
+[ 69.70- 72.46] Please use this as the main logo.
+[ 72.84- 75.76] Show it during the loading screen.
+[ 76.32- 77.24] Okay, it's done.
+[ 77.42- 78.20] Look at that.
+[ 78.42- 79.90] Now let's create photos.
+[ 80.14- 81.26] We'll take another selfie.
+[ 81.46- 83.90] Let's see if it happens all at the same time.
+[ 84.18- 86.64] Use this photo, let's see.
+[ 86.90- 88.70] Okay, all of them are coming in.
+[ 88.70- 88.88] We have all of our photos.
+[ 88.88- 89.30] We created this app with Claude Opus 4.6 Max
+[ 89.30-115.08] And so now I'm going to hit deploy, deploy updates.
+[115.08-115.32] prompts.

@@ -1,0 +1,9 @@
+[ 25.68- 29.98] The chip that
+[ 29.98- 36.50] Using DLSS 4.5 and frame generation, this chip pushes 100 FPS at 1,440p in titles like
+[ 36.50- 38.26] 007 First Flight 4.
+[ 38.38- 42.26] No matter how efficient Apple chips get, we know that AAA gaming is something they still
+[ 42.26- 42.52] lack.
+[ 42.74- 47.68] The most interesting part is how this changes the size of a PC so the CPU and GPU are unified
+[ 47.68- 52.26] on such a tiny chip, the days of needing a giant desktop PC for serious power might
+[ 52.26- 53.12] be no longer necessary.
+[ 53.38- 55.70] Let me know what you think this does to a PC form factor.

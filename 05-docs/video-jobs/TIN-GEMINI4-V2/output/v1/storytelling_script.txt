@@ -1,0 +1,14 @@
+Google vừa tung ra mô hình AI mạnh nhất từ trước tới nay, nhưng gần như không ai được dùng.
+Ngày ba mươi tháng chín, Google công bố Gemini bốn Argon, lớn hơn cả dòng Pro.
+Đợt đầu, Argon chỉ phát cho các chuyên gia phòng thủ an ninh mạng qua chương trình Fairwind, chưa có lịch mở rộng.
+Vậy nó mạnh cỡ nào?
+Giới hạn đầu ra tăng từ sáu mươi tư nghìn lên một triệu token mỗi lần.
+Giá mở màn là hai đô la cho một triệu token đầu vào, và mười đô la cho một triệu token đầu ra.
+Theo số liệu Google tự công bố, Argon đạt bảy mươi bảy phẩy chín phần trăm trên DeepSWE, năm mươi mốt phẩy ba trên AutomationBench, và chín mươi mốt phẩy bảy trên LVBench.
+Nhưng Reuters lưu ý, Argon vẫn thua ở hai trong bốn bài kiểm tra lập trình mà chính Google đưa ra.
+Điều đáng chú ý hơn nằm ngay bên trong Google.
+Argon đã giúp giải phóng hơn ba trăm tebibyte bộ nhớ trong các trung tâm dữ liệu.
+Các agent Argon đang chuyển mã C sang Rust với quy mô hơn tám trăm nghìn dòng, và giúp một trình giải mã video chạy nhanh gấp hai phẩy bảy lần.
+Để có Argon, Google đã bỏ hẳn Gemini ba phẩy năm Pro, bản từng hẹn ra vào tháng sáu, sau nhiều tháng trì hoãn.
+Mô hình mạnh nhất nhưng chỉ dành cho giới bảo mật, bạn thấy đó là thận trọng hay chiêu trò?
+Bình luận cho mình biết nhé.

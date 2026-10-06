@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=1080, height=1920"/>
+<title>MAP-FOOD-HCM-01 v3</title>
+<script src="assets/gsap.min.js"></script>
+<style>
+@font-face{font-family:'BeVietnam';src:url('assets/fonts/BeVietnamPro-Regular.ttf');font-weight:400}
+@font-face{font-family:'BeVietnam';src:url('assets/fonts/BeVietnamPro-Medium.ttf');font-weight:500}
+@font-face{font-family:'BeVietnam';src:url('assets/fonts/BeVietnamPro-SemiBold.ttf');font-weight:600}
+@font-face{font-family:'BeVietnam';src:url('assets/fonts/BeVietnamPro-Bold.ttf');font-weight:700}
+@font-face{font-family:'BeVietnam';src:url('assets/fonts/BeVietnamPro-ExtraBold.ttf');font-weight:800}
+@font-face{font-family:'BeVietnam';src:url('assets/fonts/BeVietnamPro-Black.ttf');font-weight:900}
+@font-face{font-family:'NotoColorEmoji';src:url('assets/fonts/NotoColorEmoji.ttf');font-weight:400}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#0a0c10;
+  font-family:'BeVietnam','NotoColorEmoji',system-ui,sans-serif}
+#root{width:1080px;height:1920px;position:relative;overflow:hidden;background:#0a0c10}
+#mapStage{position:absolute;inset:0;overflow:hidden}
+#mapWorld{position:absolute;left:0;top:0;width:2816px;height:2560px;transform-origin:0 0;will-change:transform}
+#mapWorld img.map{width:100%;height:100%;display:block;filter:brightness(.94) contrast(1.1) saturate(1.08)}
+.pin{position:absolute;width:96px;height:120px;margin-left:-48px;margin-top:-120px;transform-origin:50% 100%;opacity:0;z-index:3}
+.pin .pin-img{width:100%;height:100%;display:block;filter:drop-shadow(0 8px 12px rgba(0,0,0,.55))}
+.pin-emoji{position:absolute;left:50%;top:28%;transform:translate(-50%,-50%);font-size:34px;line-height:1;font-family:'NotoColorEmoji',sans-serif;pointer-events:none;filter:drop-shadow(0 2px 4px rgba(0,0,0,.5))}
+.pin.landmark,.pin.hotel{width:78px;height:98px;margin-left:-39px;margin-top:-98px}
+.pin .label{position:absolute;background:rgba(0,0,0,.88);color:#fff;font-size:22px;font-weight:800;
+  padding:6px 14px;border-radius:12px;white-space:nowrap;border:1.5px solid rgba(245,197,24,.45);
+  box-shadow:0 4px 14px rgba(0,0,0,.4);pointer-events:none}
+.pin .label.side-top{left:50%;bottom:100%;transform:translate(-50%,-8px)}
+.pin .label.side-left{right:100%;top:8px;transform:translate(-8px,0)}
+.pin .label.side-right{left:100%;top:8px;transform:translate(8px,0)}
+.pin .food-float{position:absolute;left:70px;top:-30px;width:110px;height:110px;opacity:0;
+  filter:drop-shadow(0 6px 10px rgba(0,0,0,.5))}
+.pin .food-emoji{position:absolute;left:70px;top:-40px;font-size:110px;opacity:0;line-height:1;
+  font-family:'NotoColorEmoji',sans-serif;filter:drop-shadow(0 6px 12px rgba(0,0,0,.55))}
+.glow{position:absolute;width:180px;height:180px;margin-left:-90px;margin-top:-90px;border-radius:50%;
+  background:radial-gradient(circle,rgba(245,197,24,.55),transparent 70%);opacity:0;pointer-events:none;z-index:2}
+.ui{position:absolute;inset:0;pointer-events:none;z-index:20}
+/* TikTok safe: top 150, bottom 380, right 140 */
+.safe-top{position:absolute;top:160px;left:40px;right:150px}
+.safe-card{position:absolute;top:1080px;left:32px;right:150px;bottom:160px}
+.connector{position:absolute;left:0;right:0;top:-100px;height:100px;width:100%;overflow:visible}
+.glass{background:rgba(10,12,18,.78);border:2.5px solid rgba(245,197,24,.65);border-radius:28px;
+  padding:28px 30px;box-shadow:0 18px 50px rgba(0,0,0,.6), inset 0 1px 0 rgba(255,255,255,.08);
+  backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+.title-card{display:flex;align-items:flex-start;gap:20px}
+.card-left{display:flex;flex-direction:column;align-items:center;gap:10px;flex:0 0 auto}
+.rank-badge{width:110px;height:110px;filter:drop-shadow(0 6px 10px rgba(0,0,0,.45))}
+.food-emoji-lg{font-size:140px;line-height:1;font-family:'NotoColorEmoji',sans-serif;text-align:center;
+  filter:drop-shadow(0 8px 14px rgba(0,0,0,.5));margin-top:4px}
+.food-crepe-lg{width:200px;height:200px;filter:drop-shadow(0 8px 14px rgba(0,0,0,.5));margin-top:4px}
+.pin .food-float{position:absolute;left:64px;top:-50px;width:130px;height:130px;opacity:0;
+  filter:drop-shadow(0 6px 12px rgba(0,0,0,.55))}
+.title-text{flex:1;min-width:0}
+.title-text h1{font-size:64px;font-weight:900;color:#fff;line-height:1.12;letter-spacing:-0.02em;
+  text-shadow:0 3px 12px rgba(0,0,0,.5)}
+.title-text .sub{font-size:36px;font-weight:700;color:#F5C518;margin-top:6px}
+.must{font-size:34px;font-weight:800;color:#fff;margin-top:8px}
+.rating-block{margin-top:10px;opacity:0;max-height:0;overflow:hidden;margin-top:0}
+.starwrap{position:relative;width:248px;height:44px;margin:8px 0 8px}
+.starwrap .empty,.starwrap .gold{position:absolute;left:0;top:0;display:flex;gap:6px}
+.starwrap .gold{overflow:hidden;width:0}
+.reviews{font-size:36px;font-weight:800;color:#fff;text-shadow:0 2px 8px rgba(0,0,0,.4);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.reviews .hi{color:#F5C518}
+.pros,.cons{font-size:34px;font-weight:700;margin-top:10px;color:#e8e8e8;opacity:0}
+.cons{color:#ff9a9a}
+.price{font-size:36px;font-weight:800;color:#F5C518;margin-top:12px;opacity:0}
+.most{font-size:34px;font-weight:800;color:#F5C518;margin-top:8px;opacity:0}
+.bib{width:300px;margin-top:14px;opacity:0;filter:drop-shadow(0 4px 8px rgba(0,0,0,.4))}
+.hook-card h1{font-size:90px;font-weight:900;color:#fff;line-height:1.15;text-align:center;
+  text-shadow:0 4px 20px rgba(0,0,0,.65)}
+.hook-card em{color:#F5C518;font-style:normal}
+.hook-foods{display:flex;justify-content:center;gap:16px;margin-top:22px}
+.hook-food{width:120px;height:120px;opacity:0;filter:drop-shadow(0 8px 14px rgba(0,0,0,.55))}
+.countdown{text-align:center;font-size:64px;font-weight:900;color:#F5C518;
+  text-shadow:0 4px 16px rgba(0,0,0,.5)}
+.cta-card{text-align:center}
+.cta-card h1{font-size:72px;font-weight:900;color:#fff;text-shadow:0 4px 16px rgba(0,0,0,.5)}
+.cta-card .brand{font-size:42px;font-weight:800;color:#F5C518;margin-top:14px}
+.cta-card .subcta{margin-top:10px;font-size:32px;font-weight:700;color:#ccc}
+.recap-row{display:flex;justify-content:center;gap:18px;margin-top:22px;flex-wrap:wrap}
+.recap-item{display:flex;flex-direction:column;align-items:center;gap:4px}
+.recap-item img{width:88px;height:88px;filter:drop-shadow(0 4px 8px rgba(0,0,0,.45))}
+.recap-item .rk{font-size:28px;font-weight:900;color:#F5C518}
+.footer{position:absolute;left:20px;right:20px;bottom:28px;display:flex;justify-content:space-between;
+  align-items:center;gap:10px;z-index:50;pointer-events:none}
+.disclaimer{font-size:18px;font-weight:700;color:rgba(255,255,255,.85);background:rgba(0,0,0,.72);
+  padding:7px 12px;border-radius:10px;max-width:700px;font-family:'BeVietnam',sans-serif;
+  box-shadow:0 2px 10px rgba(0,0,0,.4)}
+.attr{font-size:15px;font-weight:700;color:rgba(255,255,255,.7);text-align:right;max-width:280px;
+  background:rgba(0,0,0,.55);padding:6px 10px;border-radius:8px}
+.vignette{position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(ellipse at center,transparent 38%,rgba(0,0,0,.55) 100%);z-index:5}
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="57.352"
+     data-width="1080" data-height="1920" data-fps="30">
+  <div id="mapStage" class="clip" data-start="0" data-duration="57.352" data-track-index="0">
+    <div id="mapWorld">
+      <img class="map" src="assets/map/saigon-dark-z16.png" alt="map"/>
+      <svg id="routeSvg" viewBox="0 0 2816 2560" width="2816" height="2560"
+  style="position:absolute;left:0;top:0;pointer-events:none;opacity:0">
+  <polyline id="routeLine" points="1678.94,793.43 586.3,671.48 1728.87,1653.81 1369.28,1950.52 1573.92,926.43" fill="none" stroke="#F5C518" stroke-width="10"
+    stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="18 14" opacity="0.85"/>
+</svg>
+      <div class="glow" id="glow-banh-xeo-46a" style="left:1678.94px;top:793.43px"></div>
+<div class="glow" id="glow-com-tam-ba-ghien" style="left:586.3px;top:671.48px"></div>
+<div class="glow" id="glow-banh-mi-huynh-hoa" style="left:1728.87px;top:1653.81px"></div>
+<div class="glow" id="glow-oc-dao" style="left:1369.28px;top:1950.52px"></div>
+<div class="glow" id="glow-pho-hoa-pasteur" style="left:1573.92px;top:926.43px"></div>
+      <div class="pin restaurant" id="pin-pho-hoa-pasteur" data-place="pho-hoa-pasteur" style="left:1573.92px;top:926.43px"><div class="label side-top">#1</div><img class="pin-img" src="assets/pins/restaurant-gold.svg" alt=""/><span class="pin-emoji" aria-hidden="true">🍽️</span><span class="food-emoji" id="foodemoji-pho-hoa-pasteur" aria-hidden="true">🍜</span></div><div class="pin restaurant" id="pin-banh-mi-huynh-hoa" data-place="banh-mi-huynh-hoa" style="left:1728.87px;top:1653.81px"><div class="label side-top">#3</div><img class="pin-img" src="assets/pins/restaurant.svg" alt=""/><span class="pin-emoji" aria-hidden="true">🍽️</span><span class="food-emoji" id="foodemoji-banh-mi-huynh-hoa" aria-hidden="true">🥖</span></div><div class="pin restaurant" id="pin-com-tam-ba-ghien" data-place="com-tam-ba-ghien" style="left:586.3px;top:671.48px"><div class="label side-right">#4</div><img class="pin-img" src="assets/pins/restaurant.svg" alt=""/><span class="pin-emoji" aria-hidden="true">🍽️</span><span class="food-emoji" id="foodemoji-com-tam-ba-ghien" aria-hidden="true">🍚</span></div><div class="pin restaurant" id="pin-oc-dao" data-place="oc-dao" style="left:1369.28px;top:1950.52px"><div class="label side-top">#2</div><img class="pin-img" src="assets/pins/restaurant.svg" alt=""/><span class="pin-emoji" aria-hidden="true">🍽️</span><span class="food-emoji" id="foodemoji-oc-dao" aria-hidden="true">🐚</span></div><div class="pin restaurant" id="pin-banh-xeo-46a" data-place="banh-xeo-46a" style="left:1678.94px;top:793.43px"><div class="label side-top">#5</div><img class="pin-img" src="assets/pins/restaurant.svg" alt=""/><span class="pin-emoji" aria-hidden="true">🍽️</span><img class="food-float" id="foodfloat-banh-xeo-46a" src="assets/food/banh-xeo.svg" alt="banh xeo"/></div><div class="pin landmark" id="pin-cho-ben-thanh" data-place="cho-ben-thanh" style="left:1992.9px;top:1603.46px"><div class="label side-left">Bến Thành</div><img class="pin-img" src="assets/pins/landmark.svg" alt=""/><span class="pin-emoji" aria-hidden="true">🏛️</span></div><div class="pin landmark" id="pin-nha-tho-duc-ba" data-place="nha-tho-duc-ba" style="left:2039.8px;top:1260.06px"><div class="label side-top">Đức Bà</div><img class="pin-img" src="assets/pins/landmark.svg" alt=""/><span class="pin-emoji" aria-hidden="true">🏛️</span></div><div class="pin hotel" id="pin-ks-rex" data-place="ks-rex" style="left:2134.12px;top:1458.72px"><div class="label side-left">KS Rex</div><img class="pin-img" src="assets/pins/hotel.svg" alt=""/><span class="pin-emoji" aria-hidden="true">🏨</span></div><div class="pin hotel" id="pin-ks-caravelle" data-place="ks-caravelle" style="left:2252.79px;top:1426.42px"><div class="label side-right">Caravelle</div><img class="pin-img" src="assets/pins/hotel.svg" alt=""/><span class="pin-emoji" aria-hidden="true">🏨</span></div>
+    </div>
+  </div>
+  <div class="vignette"></div>
+  <div class="ui">
+    <div class="safe-top clip" id="hookUi" data-start="0.0" data-duration="2.383" data-track-index="2">
+      <div class="glass hook-card"><h1>QUÁN NÀO SÀI GÒN<br>ĐƯỢC GOOGLE<br><em>CHẤM CAO NHẤT?</em></h1></div>
+      <div class="hook-foods" id="hookFoods"><img class="hook-food" id="hookfood-0" src="assets/food/banh-xeo.svg" alt=""/><img class="hook-food" id="hookfood-1" src="assets/food/com-tam.svg" alt=""/><img class="hook-food" id="hookfood-2" src="assets/food/banh-mi.svg" alt=""/><img class="hook-food" id="hookfood-3" src="assets/food/oc.svg" alt=""/><img class="hook-food" id="hookfood-4" src="assets/food/pho.svg" alt=""/></div>
+    </div>
+    <div class="safe-top clip" id="countUi" data-start="2.503" data-duration="1.239" data-track-index="2">
+      <div class="glass"><div class="countdown">TOP 5 · ĐẾM NGƯỢC</div></div>
+    </div>
+    <div class="safe-card clip place-card" id="ui-banh-xeo-46a" style="opacity:0"><svg class="connector" id="conn-banh-xeo-46a" viewBox="0 0 1080 400" preserveAspectRatio="none"><line x1="540" y1="8" x2="540" y2="118" stroke="#F5C518" stroke-width="4" stroke-dasharray="10 7" opacity="0.9"/></svg>
+    <div class="card glass title-card" id="card-banh-xeo-46a">
+      <div class="card-left">
+        <img class="rank-badge" src="assets/badges/rank-5.svg" alt="#5"/>
+        <img class="food-crepe-lg" src="assets/food/banh-xeo.svg" alt="banh xeo"/>
+      </div>
+      <div class="title-text">
+        <h1>#5 BÁNH XÈO 46A</h1>
+        <div class="sub">Quận 1</div>
+        
+        <div class="rating-block" id="ratingblock-banh-xeo-46a">
+          <div class="starwrap"><div class="empty"><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div><div class="gold" id="gold-banh-xeo-46a"><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div>
+          <div class="reviews">⭐ <span class="hi" id="rating-banh-xeo-46a">0.0</span>
+            · khoảng <span class="hi" id="reviews-banh-xeo-46a">0</span> review</div>
+        </div>
+        
+        <div class="pros" id="pros-banh-xeo-46a">👍 Giòn, khổng lồ</div>
+        <div class="cons" id="cons-banh-xeo-46a">👎 Hơi dầu, nước chấm loãng</div>
+        <div class="price" id="price-banh-xeo-46a">💵 khoảng 100–200k/người</div>
+        <img class="bib" id="bib-banh-xeo-46a" src="assets/badges/bib-gourmand.svg" alt="Bib Gourmand"/>
+      </div>
+    </div></div>
+<div class="safe-card clip place-card" id="ui-com-tam-ba-ghien" style="opacity:0"><svg class="connector" id="conn-com-tam-ba-ghien" viewBox="0 0 1080 400" preserveAspectRatio="none"><line x1="540" y1="8" x2="540" y2="118" stroke="#F5C518" stroke-width="4" stroke-dasharray="10 7" opacity="0.9"/></svg>
+    <div class="card glass title-card" id="card-com-tam-ba-ghien">
+      <div class="card-left">
+        <img class="rank-badge" src="assets/badges/rank-4.svg" alt="#4"/>
+        <div class="food-emoji-lg" aria-hidden="true">🍚</div>
+      </div>
+      <div class="title-text">
+        <h1>#4 CƠM TẤM BA GHIỀN</h1>
+        <div class="sub">Phú Nhuận</div>
+        
+        <div class="rating-block" id="ratingblock-com-tam-ba-ghien">
+          <div class="starwrap"><div class="empty"><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div><div class="gold" id="gold-com-tam-ba-ghien"><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div>
+          <div class="reviews">⭐ <span class="hi" id="rating-com-tam-ba-ghien">0.0</span>
+            · khoảng <span class="hi" id="reviews-com-tam-ba-ghien">0</span> review</div>
+        </div>
+        
+        <div class="pros" id="pros-com-tam-ba-ghien">👍 Sườn đậm vị</div>
+        <div class="cons" id="cons-com-tam-ba-ghien">👎 Sườn khô, giá cao hơn quanh khu</div>
+        
+        <img class="bib" id="bib-com-tam-ba-ghien" src="assets/badges/bib-gourmand.svg" alt="Bib Gourmand"/>
+      </div>
+    </div></div>
+<div class="safe-card clip place-card" id="ui-banh-mi-huynh-hoa" style="opacity:0"><svg class="connector" id="conn-banh-mi-huynh-hoa" viewBox="0 0 1080 400" preserveAspectRatio="none"><line x1="540" y1="8" x2="540" y2="118" stroke="#F5C518" stroke-width="4" stroke-dasharray="10 7" opacity="0.9"/></svg>
+    <div class="card glass title-card" id="card-banh-mi-huynh-hoa">
+      <div class="card-left">
+        <img class="rank-badge" src="assets/badges/rank-3.svg" alt="#3"/>
+        <div class="food-emoji-lg" aria-hidden="true">🥖</div>
+      </div>
+      <div class="title-text">
+        <h1>#3 BÁNH MÌ HUỲNH HOA</h1>
+        <div class="sub">Quận 1</div>
+        
+        <div class="rating-block" id="ratingblock-banh-mi-huynh-hoa">
+          <div class="starwrap"><div class="empty"><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div><div class="gold" id="gold-banh-mi-huynh-hoa"><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div>
+          <div class="reviews">⭐ <span class="hi" id="rating-banh-mi-huynh-hoa">0.0</span>
+            · khoảng <span class="hi" id="reviews-banh-mi-huynh-hoa">0</span> review</div>
+        </div>
+        <div class="most" id="most-banh-mi-huynh-hoa">🏆 Nhiều review nhất top 5</div>
+        <div class="pros" id="pros-banh-mi-huynh-hoa">👍 Ổ lớn, nhân dày</div>
+        <div class="cons" id="cons-banh-mi-huynh-hoa">👎 Giá cao, “overrated”</div>
+        
+        
+      </div>
+    </div></div>
+<div class="safe-card clip place-card" id="ui-oc-dao" style="opacity:0"><svg class="connector" id="conn-oc-dao" viewBox="0 0 1080 400" preserveAspectRatio="none"><line x1="540" y1="8" x2="540" y2="118" stroke="#F5C518" stroke-width="4" stroke-dasharray="10 7" opacity="0.9"/></svg>
+    <div class="card glass title-card" id="card-oc-dao">
+      <div class="card-left">
+        <img class="rank-badge" src="assets/badges/rank-2.svg" alt="#2"/>
+        <div class="food-emoji-lg" aria-hidden="true">🐚</div>
+      </div>
+      <div class="title-text">
+        <h1>#2 ỐC ĐÀO</h1>
+        <div class="sub">Quận 1</div>
+        <div class="must">Ốc hương sốt trứng muối</div>
+        <div class="rating-block" id="ratingblock-oc-dao">
+          <div class="starwrap"><div class="empty"><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div><div class="gold" id="gold-oc-dao"><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div>
+          <div class="reviews">⭐ <span class="hi" id="rating-oc-dao">0.0</span>
+            · khoảng <span class="hi" id="reviews-oc-dao">0</span> review</div>
+        </div>
+        
+        <div class="pros" id="pros-oc-dao">👍 Hải sản tươi</div>
+        <div class="cons" id="cons-oc-dao">👎 Đến muộn hết món, chờ lâu</div>
+        
+        
+      </div>
+    </div></div>
+<div class="safe-card clip place-card" id="ui-pho-hoa-pasteur" style="opacity:0"><svg class="connector" id="conn-pho-hoa-pasteur" viewBox="0 0 1080 400" preserveAspectRatio="none"><line x1="540" y1="8" x2="540" y2="118" stroke="#F5C518" stroke-width="4" stroke-dasharray="10 7" opacity="0.9"/></svg>
+    <div class="card glass title-card" id="card-pho-hoa-pasteur">
+      <div class="card-left">
+        <img class="rank-badge" src="assets/badges/rank-1.svg" alt="#1"/>
+        <div class="food-emoji-lg" aria-hidden="true">🍜</div>
+      </div>
+      <div class="title-text">
+        <h1>#1 PHỞ HÒA PASTEUR</h1>
+        <div class="sub">Quận 3</div>
+        
+        <div class="rating-block" id="ratingblock-pho-hoa-pasteur">
+          <div class="starwrap"><div class="empty"><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div><div class="gold" id="gold-pho-hoa-pasteur"><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div>
+          <div class="reviews">⭐ <span class="hi" id="rating-pho-hoa-pasteur">0.0</span>
+            · khoảng <span class="hi" id="reviews-pho-hoa-pasteur">0</span> review</div>
+        </div>
+        
+        <div class="pros" id="pros-pho-hoa-pasteur">👍 Nước dùng vừa miệng, thịt mềm</div>
+        <div class="cons" id="cons-pho-hoa-pasteur">👎 Thịt đặc biệt nhiều mỡ/dai</div>
+        <div class="price" id="price-pho-hoa-pasteur">💵 khoảng 100–200k/người</div>
+        
+      </div>
+    </div></div>
+    <div class="safe-card clip" id="ctaUi" data-start="51.525" data-duration="5.827" data-track-index="2">
+      <div class="glass cta-card">
+        <h1>BẠN CHỌN QUÁN NÀO? 👇</h1>
+        <div class="brand">Hinton Media</div>
+        <div class="subcta">Theo dõi để xem bản đồ tiếp theo</div>
+        <div class="recap-row"><div class="recap-item"><img src="assets/food/banh-xeo.svg"/><div class="rk">#5</div></div><div class="recap-item"><img src="assets/food/com-tam.svg"/><div class="rk">#4</div></div><div class="recap-item"><img src="assets/food/banh-mi.svg"/><div class="rk">#3</div></div><div class="recap-item"><img src="assets/food/oc.svg"/><div class="rk">#2</div></div><div class="recap-item"><img src="assets/food/pho.svg"/><div class="rk">#1</div></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="disclaimer">Số liệu Google Maps tham khảo, 10/2026</div>
+    <div class="attr">Tiles © Esri</div>
+  </div>
+  <audio id="vo" src="assets/voice.wav" data-start="0" data-duration="55.352" data-track-index="9" data-volume="0.9"></audio>
+  <audio id="sfx1" src="assets/sfx/whoosh.wav" data-start="0.050" data-duration="0.45" data-track-index="8" data-volume="0.5"></audio><audio id="sfx2" src="assets/sfx/pop.wav" data-start="0.350" data-duration="0.1" data-track-index="8" data-volume="0.75"></audio><audio id="sfx3" src="assets/sfx/pop.wav" data-start="0.630" data-duration="0.1" data-track-index="8" data-volume="0.75"></audio><audio id="sfx4" src="assets/sfx/pop.wav" data-start="0.910" data-duration="0.1" data-track-index="8" data-volume="0.75"></audio><audio id="sfx5" src="assets/sfx/pop.wav" data-start="1.190" data-duration="0.1" data-track-index="8" data-volume="0.75"></audio><audio id="sfx6" src="assets/sfx/tick.wav" data-start="2.503" data-duration="0.05" data-track-index="8" data-volume="0.5"></audio><audio id="sfx7" src="assets/sfx/whoosh-short.wav" data-start="3.862" data-duration="0.25" data-track-index="8" data-volume="0.55"></audio><audio id="sfx8" src="assets/sfx/pop.wav" data-start="4.262" data-duration="0.1" data-track-index="8" data-volume="0.9"></audio><audio id="sfx9" src="assets/sfx/ding.wav" data-start="4.712" data-duration="0.35" data-track-index="8" data-volume="0.55"></audio><audio id="sfx10" src="assets/sfx/ding.wav" data-start="8.995" data-duration="0.3" data-track-index="8" data-volume="0.45"></audio><audio id="sfx11" src="assets/sfx/whoosh-short.wav" data-start="14.527" data-duration="0.25" data-track-index="8" data-volume="0.55"></audio><audio id="sfx12" src="assets/sfx/pop.wav" data-start="14.927" data-duration="0.1" data-track-index="8" data-volume="0.9"></audio><audio id="sfx13" src="assets/sfx/ding.wav" data-start="15.377" data-duration="0.35" data-track-index="8" data-volume="0.55"></audio><audio id="sfx14" src="assets/sfx/ding.wav" data-start="18.785" data-duration="0.3" data-track-index="8" data-volume="0.45"></audio><audio id="sfx15" src="assets/sfx/whoosh-short.wav" data-start="23.369" data-duration="0.25" data-track-index="8" data-volume="0.55"></audio><audio id="sfx16" src="assets/sfx/pop.wav" data-start="23.769" data-duration="0.1" data-track-index="8" data-volume="0.9"></audio><audio id="sfx17" src="assets/sfx/ding.wav" data-start="27.223" data-duration="0.3" data-track-index="8" data-volume="0.45"></audio><audio id="sfx18" src="assets/sfx/whoosh-short.wav" data-start="32.657" data-duration="0.25" data-track-index="8" data-volume="0.55"></audio><audio id="sfx19" src="assets/sfx/pop.wav" data-start="33.057" data-duration="0.1" data-track-index="8" data-volume="0.9"></audio><audio id="sfx20" src="assets/sfx/ding.wav" data-start="37.615" data-duration="0.3" data-track-index="8" data-volume="0.45"></audio><audio id="sfx21" src="assets/sfx/whoosh-short.wav" data-start="41.731" data-duration="0.25" data-track-index="8" data-volume="0.55"></audio><audio id="sfx22" src="assets/sfx/pop.wav" data-start="42.131" data-duration="0.1" data-track-index="8" data-volume="0.9"></audio><audio id="sfx23" src="assets/sfx/impact.wav" data-start="41.731" data-duration="0.4" data-track-index="8" data-volume="0.7"></audio><audio id="sfx24" src="assets/sfx/ding.wav" data-start="46.085" data-duration="0.3" data-track-index="8" data-volume="0.45"></audio><audio id="sfx25" src="assets/sfx/pop.wav" data-start="51.875" data-duration="0.1" data-track-index="8" data-volume="0.7"></audio><audio id="sfx26" src="assets/sfx/pop.wav" data-start="51.995" data-duration="0.1" data-track-index="8" data-volume="0.7"></audio><audio id="sfx27" src="assets/sfx/pop.wav" data-start="52.115" data-duration="0.1" data-track-index="8" data-volume="0.7"></audio><audio id="sfx28" src="assets/sfx/pop.wav" data-start="52.235" data-duration="0.1" data-track-index="8" data-volume="0.7"></audio><audio id="sfx29" src="assets/sfx/pop.wav" data-start="52.355" data-duration="0.1" data-track-index="8" data-volume="0.7"></audio>
+</div>
+<script>
+const W=1080,H=1920,PIN_Y=H*0.40,PLACES={"pho-hoa-pasteur": {"px": 1573.92, "py": 926.43, "rating": 4.2, "reviews": 6122}, "banh-mi-huynh-hoa": {"px": 1728.87, "py": 1653.81, "rating": 4.1, "reviews": 7688}, "com-tam-ba-ghien": {"px": 586.3, "py": 671.48, "rating": 3.9, "reviews": 1233}, "oc-dao": {"px": 1369.28, "py": 1950.52, "rating": 4.2, "reviews": 2330}, "banh-xeo-46a": {"px": 1678.94, "py": 793.43, "rating": 3.8, "reviews": 1977}, "cho-ben-thanh": {"px": 1992.9, "py": 1603.46, "rating": null, "reviews": null}, "nha-tho-duc-ba": {"px": 2039.8, "py": 1260.06, "rating": null, "reviews": null}, "ks-rex": {"px": 2134.12, "py": 1458.72, "rating": null, "reviews": null}, "ks-caravelle": {"px": 2252.79, "py": 1426.42, "rating": null, "reviews": null}};
+const cam=(px,py,s,fy=PIN_Y)=>({x:W/2-px*s,y:fy-py*s,scale:s});
+const EASE='power3.inOut';
+const tl=gsap.timeline({paused:true});
+const overview=cam(PLACES["cho-ben-thanh"].px,PLACES["cho-ben-thanh"].py,1.15);
+gsap.set('#mapWorld', overview);
+gsap.set('.pin', {opacity:0, scale:0});
+gsap.set('.place-card', {opacity:0, y:40, scale:0.92});
+gsap.set('.glow', {opacity:0});
+gsap.set('#routeSvg', {opacity:0});
+gsap.set('#hookUi', {opacity:0, y:20});
+gsap.set('#countUi', {opacity:0});
+gsap.set('#ctaUi', {opacity:0, y:30});
+gsap.set('.food-emoji,.food-float', {opacity:0, scale:0});
+gsap.set('.rating-block', {opacity:0});
+gsap.set('.pros,.cons,.price,.most,.bib', {opacity:0});
+tl.to('#hookUi',{opacity:1,y:0,duration:0.4,ease:'power2.out'},0.0);
+gsap.set('.hook-food',{opacity:0,scale:0});
+tl.to('#hookfood-0',{opacity:1,scale:1,duration:0.35,ease:'back.out(2.8)'},0.25);
+tl.to('#hookfood-1',{opacity:1,scale:1,duration:0.35,ease:'back.out(2.8)'},0.37);
+tl.to('#hookfood-2',{opacity:1,scale:1,duration:0.35,ease:'back.out(2.8)'},0.49);
+tl.to('#hookfood-3',{opacity:1,scale:1,duration:0.35,ease:'back.out(2.8)'},0.61);
+tl.to('#hookfood-4',{opacity:1,scale:1,duration:0.35,ease:'back.out(2.8)'},0.73);
+tl.to('#pin-cho-ben-thanh',{opacity:1,scale:1.15,duration:0.35,ease:'back.out(2.5)'},0.3);
+tl.to('#pin-nha-tho-duc-ba',{opacity:1,scale:1.15,duration:0.35,ease:'back.out(2.5)'},0.52);
+tl.to('#pin-ks-rex',{opacity:1,scale:1.15,duration:0.35,ease:'back.out(2.5)'},0.74);
+tl.to('#pin-ks-caravelle',{opacity:1,scale:1.15,duration:0.35,ease:'back.out(2.5)'},0.96);
+tl.to('#pin-banh-xeo-46a',{opacity:0.7,scale:0.9,duration:0.3,ease:'back.out(2)'},0.25);
+tl.to('#foodemoji-banh-xeo-46a,#foodfloat-banh-xeo-46a',{opacity:1,scale:1,duration:0.4,ease:'back.out(3)'},0.33);
+tl.to('#pin-com-tam-ba-ghien',{opacity:0.7,scale:0.9,duration:0.3,ease:'back.out(2)'},0.43);
+tl.to('#foodemoji-com-tam-ba-ghien,#foodfloat-com-tam-ba-ghien',{opacity:1,scale:1,duration:0.4,ease:'back.out(3)'},0.51);
+tl.to('#pin-banh-mi-huynh-hoa',{opacity:0.7,scale:0.9,duration:0.3,ease:'back.out(2)'},0.61);
+tl.to('#foodemoji-banh-mi-huynh-hoa,#foodfloat-banh-mi-huynh-hoa',{opacity:1,scale:1,duration:0.4,ease:'back.out(3)'},0.69);
+tl.to('#pin-oc-dao',{opacity:0.7,scale:0.9,duration:0.3,ease:'back.out(2)'},0.79);
+tl.to('#foodemoji-oc-dao,#foodfloat-oc-dao',{opacity:1,scale:1,duration:0.4,ease:'back.out(3)'},0.87);
+tl.to('#pin-pho-hoa-pasteur',{opacity:0.7,scale:0.9,duration:0.3,ease:'back.out(2)'},0.97);
+tl.to('#foodemoji-pho-hoa-pasteur,#foodfloat-pho-hoa-pasteur',{opacity:1,scale:1,duration:0.4,ease:'back.out(3)'},1.05);
+tl.to('#hookUi',{opacity:0,y:-16,duration:0.25},2.263);
+tl.to('#mapWorld',{x:cam(1992.9,1603.46,1.35,PIN_Y).x,y:cam(1992.9,1603.46,1.35,PIN_Y).y,scale:1.35,duration:0.7,ease:EASE},2.503);
+tl.to('#countUi',{opacity:1,duration:0.25},2.503);
+tl.to('#countUi',{opacity:0,duration:0.15},3.692);
+tl.to('#mapWorld',{x:cam(1678.94,793.43,2.35,PIN_Y).x,y:cam(1678.94,793.43,2.35,PIN_Y).y,scale:2.35,duration:1.4,ease:EASE},3.862);
+tl.to('#pin-banh-xeo-46a',{opacity:1,scale:1,duration:0.4,ease:'back.out(2.8)'},4.87);
+tl.to('#foodemoji-banh-xeo-46a,#foodfloat-banh-xeo-46a',{opacity:1,scale:1,duration:0.4,ease:'back.out(3)'},4.954);
+tl.to('#glow-banh-xeo-46a',{opacity:1,duration:0.3},4.87);
+tl.to('#ui-banh-xeo-46a',{opacity:1,y:0,scale:1,duration:0.4,ease:'back.out(1.5)'},5.01);
+tl.to('#bib-banh-xeo-46a',{opacity:1,duration:0.35},5.31);
+tl.to('#routeSvg',{opacity:0.85,duration:0.35},3.862);
+tl.to('#mapWorld',{x:cam(1678.94,793.43,2.45,PIN_Y).x,y:cam(1678.94,793.43,2.45,PIN_Y).y,scale:2.45,duration:0.45,ease:EASE},8.895);
+tl.to('#ratingblock-banh-xeo-46a',{opacity:1,maxHeight:220,marginTop:10,duration:0.25},8.975);
+tl.to('#gold-banh-xeo-46a',{width:188.5,duration:0.9,ease:'power2.out'},8.975);
+{const ro={v:0},rv={v:0};tl.to(ro,{v:3.8,duration:0.8,ease:'power1.out',onUpdate:()=>{const e=document.getElementById('rating-banh-xeo-46a');if(e)e.textContent=ro.v.toFixed(1);}},8.975);tl.to(rv,{v:1977,duration:1.05,ease:'power1.out',onUpdate:()=>{const e=document.getElementById('reviews-banh-xeo-46a');if(e)e.textContent=Math.round(rv.v).toLocaleString('vi-VN');}},8.975);}
+tl.to('#bib-banh-xeo-46a',{opacity:1,duration:0.3},9.045);
+tl.to('#pros-banh-xeo-46a',{opacity:1,duration:0.25},9.245);
+tl.to('#cons-banh-xeo-46a',{opacity:1,duration:0.25},9.495);
+tl.to('#price-banh-xeo-46a',{opacity:1,duration:0.25},9.745);
+tl.to('#ui-banh-xeo-46a',{opacity:0,y:24,duration:0.25},14.447);
+tl.to('#glow-banh-xeo-46a',{opacity:0,duration:0.2},14.527);
+tl.to('#foodemoji-banh-xeo-46a,#foodfloat-banh-xeo-46a',{opacity:0.55,duration:0.2},14.527);
+tl.to('#mapWorld',{x:cam(586.3,671.48,1.55,PIN_Y).x,y:cam(586.3,671.48,1.55,PIN_Y).y,scale:1.55,duration:1.4,ease:EASE},14.527);
+tl.to('#pin-com-tam-ba-ghien',{opacity:1,scale:1,duration:0.4,ease:'back.out(2.8)'},15.535);
+tl.to('#foodemoji-com-tam-ba-ghien,#foodfloat-com-tam-ba-ghien',{opacity:1,scale:1,duration:0.4,ease:'back.out(3)'},15.619);
+tl.to('#glow-com-tam-ba-ghien',{opacity:1,duration:0.3},15.535);
+tl.to('#ui-com-tam-ba-ghien',{opacity:1,y:0,scale:1,duration:0.4,ease:'back.out(1.5)'},15.674999999999999);
+tl.to('#bib-com-tam-ba-ghien',{opacity:1,duration:0.35},15.975);
+tl.to('#routeSvg',{opacity:0.85,duration:0.35},14.527);
+tl.to('#mapWorld',{x:cam(586.3,671.48,1.6,PIN_Y).x,y:cam(586.3,671.48,1.6,PIN_Y).y,scale:1.6,duration:0.45,ease:EASE},18.685);
+tl.to('#ratingblock-com-tam-ba-ghien',{opacity:1,maxHeight:220,marginTop:10,duration:0.25},18.764999999999997);
+tl.to('#gold-com-tam-ba-ghien',{width:193.4,duration:0.9,ease:'power2.out'},18.764999999999997);
+{const ro={v:0},rv={v:0};tl.to(ro,{v:3.9,duration:0.8,ease:'power1.out',onUpdate:()=>{const e=document.getElementById('rating-com-tam-ba-ghien');if(e)e.textContent=ro.v.toFixed(1);}},18.764999999999997);tl.to(rv,{v:1233,duration:1.05,ease:'power1.out',onUpdate:()=>{const e=document.getElementById('reviews-com-tam-ba-ghien');if(e)e.textContent=Math.round(rv.v).toLocaleString('vi-VN');}},18.764999999999997);}
+tl.to('#bib-com-tam-ba-ghien',{opacity:1,duration:0.3},18.834999999999997);
+tl.to('#pros-com-tam-ba-ghien',{opacity:1,duration:0.25},19.035);
+tl.to('#cons-com-tam-ba-ghien',{opacity:1,duration:0.25},19.285);
+tl.to('#ui-com-tam-ba-ghien',{opacity:0,y:24,duration:0.25},23.289);
+tl.to('#glow-com-tam-ba-ghien',{opacity:0,duration:0.2},23.369);
+tl.to('#foodemoji-com-tam-ba-ghien,#foodfloat-com-tam-ba-ghien',{opacity:0.55,duration:0.2},23.369);
+tl.to('#mapWorld',{x:cam(1728.87,1653.81,2.3,PIN_Y).x,y:cam(1728.87,1653.81,2.3,PIN_Y).y,scale:2.3,duration:1.4,ease:EASE},23.369);
+tl.to('#pin-banh-mi-huynh-hoa',{opacity:1,scale:1,duration:0.4,ease:'back.out(2.8)'},24.377);
+tl.to('#foodemoji-banh-mi-huynh-hoa,#foodfloat-banh-mi-huynh-hoa',{opacity:1,scale:1,duration:0.4,ease:'back.out(3)'},24.461);
+tl.to('#glow-banh-mi-huynh-hoa',{opacity:1,duration:0.3},24.377);
+tl.to('#ui-banh-mi-huynh-hoa',{opacity:1,y:0,scale:1,duration:0.4,ease:'back.out(1.5)'},24.517);
+tl.to('#routeSvg',{opacity:0.85,duration:0.35},23.369);
+tl.to('#mapWorld',{x:cam(1728.87,1653.81,2.4,PIN_Y).x,y:cam(1728.87,1653.81,2.4,PIN_Y).y,scale:2.4,duration:0.45,ease:EASE},27.123);
+tl.to('#ratingblock-banh-mi-huynh-hoa',{opacity:1,maxHeight:220,marginTop:10,duration:0.25},27.203);
+tl.to('#gold-banh-mi-huynh-hoa',{width:203.4,duration:0.9,ease:'power2.out'},27.203);
+{const ro={v:0},rv={v:0};tl.to(ro,{v:4.1,duration:0.8,ease:'power1.out',onUpdate:()=>{const e=document.getElementById('rating-banh-mi-huynh-hoa');if(e)e.textContent=ro.v.toFixed(1);}},27.203);tl.to(rv,{v:7688,duration:1.05,ease:'power1.out',onUpdate:()=>{const e=document.getElementById('reviews-banh-mi-huynh-hoa');if(e)e.textContent=Math.round(rv.v).toLocaleString('vi-VN');}},27.203);}
+tl.to('#pros-banh-mi-huynh-hoa',{opacity:1,duration:0.25},27.473000000000003);
+tl.to('#cons-banh-mi-huynh-hoa',{opacity:1,duration:0.25},27.723000000000003);
+tl.to('#most-banh-mi-huynh-hoa',{opacity:1,scale:1,duration:0.3,ease:'back.out(2)'},27.523);
+tl.to('#ui-banh-mi-huynh-hoa',{opacity:0,y:24,duration:0.25},32.577);
+tl.to('#glow-banh-mi-huynh-hoa',{opacity:0,duration:0.2},32.657);
+tl.to('#foodemoji-banh-mi-huynh-hoa,#foodfloat-banh-mi-huynh-hoa',{opacity:0.55,duration:0.2},32.657);
+tl.to('#mapWorld',{x:cam(1369.28,1950.52,2.3,PIN_Y).x,y:cam(1369.28,1950.52,2.3,PIN_Y).y,scale:2.3,duration:1.4,ease:EASE},32.657);
+tl.to('#pin-oc-dao',{opacity:1,scale:1,duration:0.4,ease:'back.out(2.8)'},33.665);
+tl.to('#foodemoji-oc-dao,#foodfloat-oc-dao',{opacity:1,scale:1,duration:0.4,ease:'back.out(3)'},33.748999999999995);
+tl.to('#glow-oc-dao',{opacity:1,duration:0.3},33.665);
+tl.to('#ui-oc-dao',{opacity:1,y:0,scale:1,duration:0.4,ease:'back.out(1.5)'},33.805);
+tl.to('#routeSvg',{opacity:0.85,duration:0.35},32.657);
+tl.to('#mapWorld',{x:cam(1369.28,1950.52,2.35,PIN_Y).x,y:cam(1369.28,1950.52,2.35,PIN_Y).y,scale:2.35,duration:0.45,ease:EASE},37.515);
+tl.to('#ratingblock-oc-dao',{opacity:1,maxHeight:220,marginTop:10,duration:0.25},37.595);
+tl.to('#gold-oc-dao',{width:208.3,duration:0.9,ease:'power2.out'},37.595);
+{const ro={v:0},rv={v:0};tl.to(ro,{v:4.2,duration:0.8,ease:'power1.out',onUpdate:()=>{const e=document.getElementById('rating-oc-dao');if(e)e.textContent=ro.v.toFixed(1);}},37.595);tl.to(rv,{v:2330,duration:1.05,ease:'power1.out',onUpdate:()=>{const e=document.getElementById('reviews-oc-dao');if(e)e.textContent=Math.round(rv.v).toLocaleString('vi-VN');}},37.595);}
+tl.to('#pros-oc-dao',{opacity:1,duration:0.25},37.865);
+tl.to('#cons-oc-dao',{opacity:1,duration:0.25},38.115);
+tl.to('#ui-oc-dao',{opacity:0,y:24,duration:0.25},41.651);
+tl.to('#glow-oc-dao',{opacity:0,duration:0.2},41.731);
+tl.to('#foodemoji-oc-dao,#foodfloat-oc-dao',{opacity:0.55,duration:0.2},41.731);
+tl.to('#mapWorld',{x:cam(1573.92,926.43,2.5,PIN_Y).x,y:cam(1573.92,926.43,2.5,PIN_Y).y,scale:2.5,duration:1.4,ease:EASE},41.731);
+tl.to('#pin-pho-hoa-pasteur',{opacity:1,scale:1,duration:0.4,ease:'back.out(2.8)'},42.739000000000004);
+tl.to('#foodemoji-pho-hoa-pasteur,#foodfloat-pho-hoa-pasteur',{opacity:1,scale:1,duration:0.4,ease:'back.out(3)'},42.823);
+tl.to('#glow-pho-hoa-pasteur',{opacity:1,duration:0.3},42.739000000000004);
+tl.to('#ui-pho-hoa-pasteur',{opacity:1,y:0,scale:1,duration:0.4,ease:'back.out(1.5)'},42.879000000000005);
+tl.to('#routeSvg',{opacity:0.85,duration:0.35},41.731);
+tl.to('#mapWorld',{x:cam(1573.92,926.43,2.55,PIN_Y).x,y:cam(1573.92,926.43,2.55,PIN_Y).y,scale:2.55,duration:0.45,ease:EASE},45.985);
+tl.to('#ratingblock-pho-hoa-pasteur',{opacity:1,maxHeight:220,marginTop:10,duration:0.25},46.065);
+tl.to('#gold-pho-hoa-pasteur',{width:208.3,duration:0.9,ease:'power2.out'},46.065);
+{const ro={v:0},rv={v:0};tl.to(ro,{v:4.2,duration:0.8,ease:'power1.out',onUpdate:()=>{const e=document.getElementById('rating-pho-hoa-pasteur');if(e)e.textContent=ro.v.toFixed(1);}},46.065);tl.to(rv,{v:6122,duration:1.05,ease:'power1.out',onUpdate:()=>{const e=document.getElementById('reviews-pho-hoa-pasteur');if(e)e.textContent=Math.round(rv.v).toLocaleString('vi-VN');}},46.065);}
+tl.to('#pros-pho-hoa-pasteur',{opacity:1,duration:0.25},46.335);
+tl.to('#cons-pho-hoa-pasteur',{opacity:1,duration:0.25},46.585);
+tl.to('#price-pho-hoa-pasteur',{opacity:1,duration:0.25},46.835);
+tl.to('#ui-pho-hoa-pasteur',{opacity:0,y:24,duration:0.25},51.475);
+tl.to('#glow-pho-hoa-pasteur',{opacity:0,duration:0.2},51.525);
+tl.to('#mapWorld',{x:cam(1300,1200,1.05,H*0.42).x,y:cam(1300,1200,1.05,H*0.42).y,scale:1.05,duration:1.1,ease:EASE},51.525);
+tl.to('#pin-banh-xeo-46a',{opacity:1,scale:1,duration:0.4,ease:'back.out(2.8)'},51.875);
+tl.to('#foodemoji-banh-xeo-46a,#foodfloat-banh-xeo-46a',{opacity:1,scale:1,duration:0.4,ease:'back.out(3)'},51.925);
+tl.to('#pin-banh-xeo-46a',{scale:1.2,duration:0.25},52.025);
+tl.to('#pin-com-tam-ba-ghien',{opacity:1,scale:1,duration:0.4,ease:'back.out(2.8)'},51.975);
+tl.to('#foodemoji-com-tam-ba-ghien,#foodfloat-com-tam-ba-ghien',{opacity:1,scale:1,duration:0.4,ease:'back.out(3)'},52.025);
+tl.to('#pin-com-tam-ba-ghien',{scale:1.2,duration:0.25},52.105);
+tl.to('#pin-banh-mi-huynh-hoa',{opacity:1,scale:1,duration:0.4,ease:'back.out(2.8)'},52.075);
+tl.to('#foodemoji-banh-mi-huynh-hoa,#foodfloat-banh-mi-huynh-hoa',{opacity:1,scale:1,duration:0.4,ease:'back.out(3)'},52.125);
+tl.to('#pin-banh-mi-huynh-hoa',{scale:1.2,duration:0.25},52.184999999999995);
+tl.to('#pin-oc-dao',{opacity:1,scale:1,duration:0.4,ease:'back.out(2.8)'},52.175);
+tl.to('#foodemoji-oc-dao,#foodfloat-oc-dao',{opacity:1,scale:1,duration:0.4,ease:'back.out(3)'},52.224999999999994);
+tl.to('#pin-oc-dao',{scale:1.2,duration:0.25},52.265);
+tl.to('#pin-pho-hoa-pasteur',{opacity:1,scale:1,duration:0.4,ease:'back.out(2.8)'},52.275);
+tl.to('#foodemoji-pho-hoa-pasteur,#foodfloat-pho-hoa-pasteur',{opacity:1,scale:1,duration:0.4,ease:'back.out(3)'},52.324999999999996);
+tl.to('#pin-pho-hoa-pasteur',{scale:1.2,duration:0.25},52.345);
+tl.to('#pin-cho-ben-thanh',{opacity:0.9,scale:1.1,duration:0.25},52.074999999999996);
+tl.to('#pin-nha-tho-duc-ba',{opacity:0.9,scale:1.1,duration:0.25},52.074999999999996);
+tl.to('#pin-ks-rex',{opacity:0.9,scale:1.1,duration:0.25},52.074999999999996);
+tl.to('#pin-ks-caravelle',{opacity:0.9,scale:1.1,duration:0.25},52.074999999999996);
+tl.to('#routeSvg',{opacity:0.95,duration:0.3},51.824999999999996);
+tl.to('#ctaUi',{opacity:1,y:0,duration:0.4,ease:'back.out(1.4)'},51.775);
+tl.to('#mapWorld',{scale:'+=0.06',duration:2.0,ease:'sine.inOut'},55.352);
+window.__timelines=window.__timelines||{}; window.__timelines['main']=tl;
+</script>
+</body>
+</html>

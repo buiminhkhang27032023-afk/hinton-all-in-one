@@ -1,0 +1,7 @@
+file '/workspace/video-jobs/TEST-pipeline-001/lam-viec/tts_cache/5000642d770a75bf.trim.wav'
+file '/workspace/video-jobs/TEST-pipeline-001/lam-viec/tts_cache/gap_120ms.wav'
+file '/workspace/video-jobs/TEST-pipeline-001/lam-viec/tts_cache/11f340290e8a4681.trim.wav'
+file '/workspace/video-jobs/TEST-pipeline-001/lam-viec/tts_cache/gap_120ms.wav'
+file '/workspace/video-jobs/TEST-pipeline-001/lam-viec/tts_cache/2e5a74f2af189899.trim.wav'
+file '/workspace/video-jobs/TEST-pipeline-001/lam-viec/tts_cache/gap_120ms.wav'
+file '/workspace/video-jobs/TEST-pipeline-001/lam-viec/tts_cache/f9bb27a357d3a74c.trim.wav'

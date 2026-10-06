@@ -1,0 +1,34 @@
+# EDIT-FULL-01 v3 — nguồn hình
+
+- AP Archive (YouTube 2mzMKN8HbnY)
+- AP News (screenshot)
+- AlphaFold DB model AF-P04637-F1 (EMBL-EBI/Google DeepMind, CC BY 4.0), render tools/protein_render.py
+- Arthur Petron / WikiPortraits, Wikimedia Commons, CC BY-SA 4.0
+- Associated Press (YouTube nKnmhJSx1Xs)
+- BBC News (screenshot)
+- Google DeepMind (YouTube 9ufplEgtq8w)
+- Google DeepMind (YouTube r4-hXO7MLVU)
+- Google DeepMind blog (screenshot)
+- Google DeepMind blog 28/7/2022 (screenshot)
+- Google DeepMind blog 30/11/2020 (screenshot)
+- Google DeepMind — AlphaFold Server Demo (YouTube 9ufplEgtq8w)
+- Google DeepMind — AlphaFold: The 50-year grand challenge cracked by AI (YouTube r4-hXO7MLVU)
+- Google DeepMind — Protein folding explained (YouTube KpedmJdrTpY)
+- Google blog — AlphaFold 3 (screenshot)
+- Nobel Prize announcement slide (YouTube bPjB9NRu8Jc)
+- Nobel Prize — Announcement of the 2024 Nobel Prize in Chemistry (YouTube bPjB9NRu8Jc)
+- Render từ PDB 1BTL (RCSB) bằng tools/protein_render.py
+- Render từ PDB 1KX5 (RCSB) bằng tools/protein_render.py
+- Render từ PDB 1QYS (RCSB, CC0) bằng tools/protein_render.py
+- Render từ PDB 1UBQ (RCSB) bằng tools/protein_render.py
+- Render từ PDB 4HHB (RCSB) bằng tools/protein_render.py
+- Render từ PDB 6EQE (RCSB) bằng tools/protein_render.py
+- Royal Swedish Academy of Sciences kva.se (screenshot)
+- WikiPortraits, Wikimedia Commons, CC BY-SA 4.0
+- X post @GoogleDeepMind 1843960591792185695 (embed screenshot)
+- X post @NobelPrize 1843951197960777760 (embed screenshot)
+- kva.se (screenshot)
+- nobelprize.org popular information (screenshot)
+- nobelprize.org press release (screenshot)
+- nobelprize.org summary page (screenshot)
+- Voice: OmniVoice clone nam v2 speed 1.2 (local). BGM/SFX: tự tổng hợp CC0.

@@ -1,0 +1,1412 @@
+[
+{
+"box": [
+469,
+19,
+75,
+29
+],
+"text": "About",
+"conf": 0.755
+},
+{
+"box": [
+586,
+21,
+83,
+27
+],
+"text": "Career",
+"conf": 0.713
+},
+{
+"box": [
+925,
+22,
+207,
+26
+],
+"text": "Media Partnership",
+"conf": 0.873
+},
+{
+"box": [
+1180,
+22,
+127,
+24
+],
+"text": "Contact Us",
+"conf": 0.825
+},
+{
+"box": [
+715,
+23,
+166,
+23
+],
+"text": "Advertisement",
+"conf": 0.893
+},
+{
+"box": [
+144,
+97,
+438,
+86
+],
+"text": "Devdiscourse",
+"conf": 0.852
+},
+{
+"box": [
+941,
+121,
+119,
+30
+],
+"text": "RESEARCH",
+"conf": 0.882
+},
+{
+"box": [
+750,
+124,
+129,
+27
+],
+"text": "NEWS DESK",
+"conf": 0.841
+},
+{
+"box": [
+1122,
+124,
+181,
+26
+],
+"text": "LIVE DISCOURSE",
+"conf": 0.891
+},
+{
+"box": [
+1367,
+124,
+321,
+26
+],
+"text": "PERSPECTIVES AND INSIGHTS",
+"conf": 0.924
+},
+{
+"box": [
+1750,
+121,
+123,
+30
+],
+"text": "INTERVIEW",
+"conf": 0.893
+},
+{
+"box": [
+357,
+172,
+214,
+18
+],
+"text": "DiscourseonDevelopment",
+"conf": 0.933
+},
+{
+"box": [
+1569,
+225,
+75,
+28
+],
+"text": "SOCIAL",
+"conf": 0.831
+},
+{
+"box": [
+401,
+226,
+131,
+26
+],
+"text": "TECHNOLOGY",
+"conf": 0.894
+},
+{
+"box": [
+570,
+227,
+96,
+24
+],
+"text": "ECONOMY",
+"conf": 0.845
+},
+{
+"box": [
+853,
+227,
+78,
+24
+],
+"text": "ENERGY",
+"conf": 0.761
+},
+{
+"box": [
+968,
+227,
+92,
+24
+],
+"text": "POLITICS",
+"conf": 0.829
+},
+{
+"box": [
+1336,
+227,
+76,
+25
+],
+"text": "HEALTH",
+"conf": 0.746
+},
+{
+"box": [
+1449,
+227,
+85,
+24
+],
+"text": "SCIENCE",
+"conf": 0.823
+},
+{
+"box": [
+1679,
+225,
+83,
+27
+],
+"text": "SPORTS",
+"conf": 0.854
+},
+{
+"box": [
+11,
+228,
+160,
+23
+],
+"text": "AGRO-FORESTRY",
+"conf": 0.909
+},
+{
+"box": [
+211,
+228,
+154,
+23
+],
+"text": "ART & CULTURE",
+"conf": 0.9
+},
+{
+"box": [
+704,
+228,
+112,
+23
+],
+"text": "EDUCATION",
+"conf": 0.818
+},
+{
+"box": [
+1098,
+229,
+200,
+20
+],
+"text": "LAW & GOVERNANCE",
+"conf": 0.841
+},
+{
+"box": [
+1796,
+227,
+116,
+24
+],
+"text": "TRANSPORT",
+"conf": 0.835
+},
+{
+"box": [
+1952,
+229,
+209,
+20
+],
+"text": "URBANDEVELOPMENT",
+"conf": 0.905
+},
+{
+"box": [
+1056,
+264,
+63,
+29
+],
+"text": "WASH",
+"conf": 0.773
+},
+{
+"box": [
+185,
+389,
+69,
+32
+],
+"text": "HOME",
+"conf": 0.751
+},
+{
+"box": [
+341,
+389,
+66,
+32
+],
+"text": "NEWS",
+"conf": 0.79
+},
+{
+"box": [
+497,
+391,
+88,
+28
+],
+"text": "ARTICLE",
+"conf": 0.864
+},
+{
+"box": [
+160,
+474,
+1189,
+69
+],
+"text": "Google announces Gemini 4 flagship AI",
+"conf": 0.893
+},
+{
+"box": [
+1519,
+491,
+176,
+43
+],
+"text": "TRENDING",
+"conf": 0.806
+},
+{
+"box": [
+154,
+552,
+880,
+74
+],
+"text": "model after months of delays",
+"conf": 0.939
+},
+{
+"box": [
+1663,
+611,
+330,
+31
+],
+"text": "Lula ahead in polls for",
+"conf": 0.924
+},
+{
+"box": [
+1667,
+657,
+277,
+27
+],
+"text": "Brazil's first-round",
+"conf": 0.864
+},
+{
+"box": [
+159,
+693,
+883,
+29
+],
+"text": "Reuters  Updated: 01-10-2026 03:45 IST ICreated: 01-10-2026 03:45 IST",
+"conf": 0.906
+},
+{
+"box": [
+1664,
+700,
+258,
+33
+],
+"text": "vote; runoff likely",
+"conf": 0.915
+},
+{
+"box": [
+1665,
+760,
+108,
+24
+],
+"text": "GLOBAL",
+"conf": 0.848
+},
+{
+"box": [
+1663,
+883,
+313,
+32
+],
+"text": "Trump tries to fire up",
+"conf": 0.936
+},
+{
+"box": [
+1666,
+927,
+206,
+30
+],
+"text": "Ohio voters as",
+"conf": 0.867
+},
+{
+"box": [
+1667,
+973,
+287,
+27
+],
+"text": "Republicans defend",
+"conf": 0.891
+},
+{
+"box": [
+1666,
+1018,
+288,
+26
+],
+"text": "Senate seat in clos..",
+"conf": 0.86
+},
+{
+"box": [
+1665,
+1074,
+107,
+24
+],
+"text": "GLOBAL",
+"conf": 0.85
+},
+{
+"box": [
+1664,
+1198,
+330,
+30
+],
+"text": "Lula ahead in polls for",
+"conf": 0.845
+},
+{
+"box": [
+1666,
+1244,
+278,
+26
+],
+"text": "Brazil's first-round",
+"conf": 0.9
+},
+{
+"box": [
+1663,
+1285,
+259,
+33
+],
+"text": "vote; runoff likely",
+"conf": 0.899
+},
+{
+"box": [
+1665,
+1345,
+108,
+24
+],
+"text": "GLOBAL",
+"conf": 0.848
+},
+{
+"box": [
+1663,
+1464,
+290,
+34
+],
+"text": "Latvia PM Kulbergs",
+"conf": 0.918
+},
+{
+"box": [
+1665,
+1512,
+265,
+29
+],
+"text": "wins election held",
+"conf": 0.938
+},
+{
+"box": [
+1664,
+1557,
+246,
+29
+],
+"text": "under shadow of",
+"conf": 0.911
+},
+{
+"box": [
+1666,
+1601,
+178,
+29
+],
+"text": "Ukraine war",
+"conf": 0.791
+},
+{
+"box": [
+1665,
+1659,
+108,
+23
+],
+"text": "GLOBAL",
+"conf": 0.812
+},
+{
+"box": [
+880,
+1675,
+107,
+28
+],
+"text": "SHARE",
+"conf": 0.833
+},
+{
+"box": [
+1233,
+1677,
+33,
+30
+],
+"text": "in",
+"conf": 0.595
+},
+{
+"box": [
+277,
+1828,
+555,
+43
+],
+"text": "KEYTAKEAWAYS",
+"conf": 0.856
+},
+{
+"box": [
+873,
+1840,
+123,
+20
+],
+"text": "AI SUMMARY",
+"conf": 0.826
+},
+{
+"box": [
+1522,
+1832,
+334,
+36
+],
+"text": "PERSPECTIVES AND",
+"conf": 0.847
+},
+{
+"box": [
+1519,
+1895,
+166,
+39
+],
+"text": "INSIGHTS",
+"conf": 0.863
+},
+{
+"box": [
+234,
+1926,
+1112,
+31
+],
+"text": "Alphabet's Google on Wednesday announced a new top-tier artificial intelligence model to",
+"conf": 0.935
+},
+{
+"box": [
+234,
+1968,
+1115,
+29
+],
+"text": "anchor its Gemini 4 generation of models in a fresh bid to catch up to rivals Anthropic and",
+"conf": 0.937
+},
+{
+"box": [
+237,
+2009,
+272,
+27
+],
+"text": "OpenAI in the AI race.",
+"conf": 0.838
+},
+{
+"box": [
+232,
+2083,
+1075,
+29
+],
+"text": "The new model, \"Argon\", is larger in size than Google's previous line of advanced \"Pro\"",
+"conf": 0.94
+},
+{
+"box": [
+233,
+2124,
+484,
+29
+],
+"text": "models, a company spokesperson said.",
+"conf": 0.923
+},
+{
+"box": [
+235,
+2198,
+1109,
+29
+],
+"text": "\"It's our most performant model yet built for complex workloads, and we see it comparable",
+"conf": 0.93
+},
+{
+"box": [
+232,
+2237,
+1090,
+31
+],
+"text": "to frontier models like (OpenAI's) Astra and (Anthropic's) Opus on key coding and cyber",
+"conf": 0.909
+},
+{
+"box": [
+231,
+2278,
+464,
+31
+],
+"text": "benchmarks,\" the spokesperson said.",
+"conf": 0.943
+},
+{
+"box": [
+1488,
+2275,
+465,
+29
+],
+"text": "Drone Images and AI Models",
+"conf": 0.896
+},
+{
+"box": [
+1486,
+2324,
+521,
+32
+],
+"text": "Identify Key Rice Growth Stages",
+"conf": 0.874
+},
+{
+"box": [
+233,
+2354,
+981,
+29
+],
+"text": "Google said it was providing the model to select cybersecurity partners and was",
+"conf": 0.947
+},
+{
+"box": [
+1484,
+2373,
+342,
+38
+],
+"text": "with 91.7% Accuracy",
+"conf": 0.896
+},
+{
+"box": [
+231,
+2391,
+1039,
+35
+],
+"text": "participating in the Trump administration's voluntary process for pre-release model",
+"conf": 0.926
+},
+{
+"box": [
+235,
+2440,
+88,
+21
+],
+"text": "access.",
+"conf": 0.817
+},
+{
+"box": [
+319,
+2547,
+965,
+36
+],
+"text": "lphabet's Google on Wednesday announced a new top-tier",
+"conf": 0.937
+},
+{
+"box": [
+317,
+2615,
+1081,
+39
+],
+"text": "artificial intelligence model to anchor its Gemini 4 generation of",
+"conf": 0.926
+},
+{
+"box": [
+314,
+2683,
+1075,
+36
+],
+"text": "models in a fresh bid to catch up to rivals Anthropic and OpenAI",
+"conf": 0.914
+},
+{
+"box": [
+1486,
+2754,
+426,
+33
+],
+"text": "Human or AI? Study Spots",
+"conf": 0.84
+},
+{
+"box": [
+1485,
+2807,
+350,
+29
+],
+"text": "Machine-Written and",
+"conf": 0.886
+},
+{
+"box": [
+158,
+2820,
+1184,
+39
+],
+"text": "previous line of advanced \"Pro\" models, a company spokesperson said.",
+"conf": 0.941
+},
+{
+"box": [
+1487,
+2859,
+470,
+30
+],
+"text": "Rephrased Text With 96.46%",
+"conf": 0.875
+},
+{
+"box": [
+1484,
+2906,
+154,
+41
+],
+"text": "Accuracy",
+"conf": 0.839
+},
+{
+"box": [
+164,
+2919,
+1186,
+33
+],
+"text": "\"It's our most performant model yet built for complex workloads, and we",
+"conf": 0.915
+},
+{
+"box": [
+160,
+2987,
+1029,
+35
+],
+"text": "see it comparable to frontier models like (OpenAI's) Astra and",
+"conf": 0.926
+},
+{
+"box": [
+158,
+3051,
+1036,
+42
+],
+"text": "(Anthropic's) Opus on key coding and cyber benchmarks,\" the",
+"conf": 0.933
+},
+{
+"box": [
+160,
+3121,
+1124,
+41
+],
+"text": "spokesperson said. Google said it was providing the model to select",
+"conf": 0.924
+},
+{
+"box": [
+161,
+3190,
+969,
+41
+],
+"text": "cybersecurity partners and was participating in the Trump",
+"conf": 0.935
+},
+{
+"box": [
+158,
+3257,
+1176,
+40
+],
+"text": "administration's voluntary process for pre-release model access. It did",
+"conf": 0.923
+},
+{
+"box": [
+1488,
+3289,
+389,
+29
+],
+"text": "AI in STEAM Education:",
+"conf": 0.863
+},
+{
+"box": [
+158,
+3328,
+882,
+37
+],
+"text": "not provide a timeline for the model's public release.",
+"conf": 0.929
+},
+{
+"box": [
+1487,
+3341,
+457,
+32
+],
+"text": "Exploring New Pathways for",
+"conf": 0.866
+},
+{
+"box": [
+1487,
+3391,
+447,
+29
+],
+"text": "Student-Led Climate Action",
+"conf": 0.863
+},
+{
+"box": [
+157,
+3421,
+1137,
+41
+],
+"text": "The model posted better marks than Astra and Opus in terms of self-",
+"conf": 0.91
+},
+{
+"box": [
+1483,
+3441,
+132,
+37
+],
+"text": "Projects",
+"conf": 0.888
+},
+{
+"box": [
+157,
+3489,
+1183,
+46
+],
+"text": "reported performance on several industry benchmarks, per a company",
+"conf": 0.893
+},
+{
+"box": [
+157,
+3558,
+1145,
+43
+],
+"text": "press release. Still, Argon remained behind on certain other metrics,",
+"conf": 0.945
+},
+{
+"box": [
+159,
+3631,
+1204,
+33
+],
+"text": "including two of the four coding-related benchmarks Google included in",
+"conf": 0.924
+},
+{
+"box": [
+157,
+3696,
+1221,
+40
+],
+"text": "the release. Google no longer plans to release Gemini 3.5 Pro, which CEO",
+"conf": 0.932
+},
+{
+"box": [
+159,
+3766,
+1208,
+36
+],
+"text": "Sundar Pichai originally said would be released in June, according to the",
+"conf": 0.922
+},
+{
+"box": [
+1487,
+3819,
+415,
+33
+],
+"text": "Himachal's Natural Apple",
+"conf": 0.929
+},
+{
+"box": [
+158,
+3835,
+404,
+37
+],
+"text": "company spokesperson.",
+"conf": 0.888
+},
+{
+"box": [
+1487,
+3873,
+472,
+30
+],
+"text": "Farming Boom Reveals What",
+"conf": 0.823
+},
+{
+"box": [
+156,
+3929,
+1200,
+40
+],
+"text": "In the intervening time, Google overhauled its DeepMind AI lab, with its",
+"conf": 0.942
+},
+{
+"box": [
+1486,
+3922,
+396,
+35
+],
+"text": "Growers Need to Keep It",
+"conf": 0.868
+},
+{
+"box": [
+1484,
+3970,
+144,
+41
+],
+"text": "Growing",
+"conf": 0.796
+},
+{
+"box": [
+156,
+3997,
+1199,
+42
+],
+"text": "founder and CEO Demis Hassabis stepping aside and several leaders of",
+"conf": 0.908
+},
+{
+"box": [
+158,
+4069,
+1152,
+36
+],
+"text": "its Gemini model leaving the company. The months of delays to its AI",
+"conf": 0.9
+},
+{
+"box": [
+1521,
+4176,
+180,
+37
+],
+"text": "DEVSHOTS",
+"conf": 0.856
+},
+{
+"box": [
+158,
+4201,
+1227,
+42
+],
+"text": "which continued to push the research frontier with new releases to its top",
+"conf": 0.919
+},
+{
+"box": [
+158,
+4270,
+125,
+29
+],
+"text": "models",
+"conf": 0.793
+},
+{
+"box": [
+1506,
+4275,
+204,
+20
+],
+"text": "DASRES",
+"conf": 0.754
+},
+{
+"box": [
+1775,
+4276,
+190,
+18
+],
+"text": "IESTE",
+"conf": 0.564
+},
+{
+"box": [
+1519,
+4200,
+183,
+17
+],
+"text": "DLYUIIOIU",
+"conf": 0.619
+},
+{
+"box": [
+1495,
+4278,
+509,
+33
+],
+"text": "NDIA'SBESTINVESTMENT",
+"conf": 0.843
+},
+{
+"box": [
+1593,
+4332,
+312,
+36
+],
+"text": "PUBLICHEALTH",
+"conf": 0.836
+},
+{
+"box": [
+160,
+4370,
+1229,
+35
+],
+"text": "Pichai in July pushed back on the notion that Google was losing ground in",
+"conf": 0.928
+},
+{
+"box": [
+159,
+4438,
+1193,
+36
+],
+"text": "the AI race. But Google in recent months has shifted its messaging from",
+"conf": 0.917
+},
+{
+"box": [
+1506,
+4450,
+379,
+29
+],
+"text": "India's Best Investment:",
+"conf": 0.844
+},
+{
+"box": [
+158,
+4506,
+1093,
+36
+],
+"text": "touting Gemini's cutting-edge capabilities to highlighting its cost",
+"conf": 0.917
+},
+{
+"box": [
+1505,
+4500,
+215,
+30
+],
+"text": "Public Health",
+"conf": 0.883
+},
+{
+"box": [
+1820,
+4539,
+184,
+16
+],
+"text": "WWW.DEVDISCOURSE.CON",
+"conf": 0.905
+},
+{
+"box": [
+160,
+4574,
+721,
+37
+],
+"text": "advantage compared to competitor models.",
+"conf": 0.937
+},
+{
+"box": [
+1492,
+4644,
+170,
+36
+],
+"text": "heNew Al",
+"conf": 0.793
+},
+{
+"box": [
+161,
+4671,
+1086,
+35
+],
+"text": "(This story has not been edited by Devdiscourse staff and is auto-",
+"conf": 0.923
+},
+{
+"box": [
+1507,
+4685,
+128,
+38
+],
+"text": "ardng",
+"conf": 0.784
+},
+{
+"box": [
+157,
+4736,
+582,
+42
+],
+"text": "generated from a syndicated feed.)",
+"conf": 0.912
+},
+{
+"box": [
+1485,
+4763,
+213,
+34
+],
+"text": "AgainsfData",
+"conf": 0.775
+},
+{
+"box": [
+1485,
+4790,
+405,
+41
+],
+"text": "MHealthcareAgainst Data",
+"conf": 0.869
+},
+{
+"box": [
+1503,
+4845,
+216,
+30
+],
+"text": "Manipulation",
+"conf": 0.886
+},
+{
+"box": [
+597,
+4864,
+406,
+26
+],
+"text": "POST / READ COMMENTS",
+"conf": 0.86
+},
+{
+"box": [
+1682,
+4880,
+225,
+17
+],
+"text": "WWW.DEVDISCOURSE.COM",
+"conf": 0.909
+},
+{
+"box": [
+1576,
+5019,
+373,
+47
+],
+"text": "ShiftingGears:",
+"conf": 0.85
+},
+{
+"box": [
+1539,
+5077,
+445,
+51
+],
+"text": "ebootingMENA's",
+"conf": 0.857
+},
+{
+"box": [
+1502,
+5135,
+411,
+42
+],
+"text": "Shifting Gears:Rebooting",
+"conf": 0.932
+},
+{
+"box": [
+1503,
+5188,
+355,
+32
+],
+"text": "MENA's Private Sector",
+"conf": 0.924
+},
+{
+"box": [
+1505,
+5429,
+455,
+35
+],
+"text": "AI-Powered Risk Assessment",
+"conf": 0.906
+},
+{
+"box": [
+1503,
+5482,
+455,
+34
+],
+"text": "Is Transforming Global Food",
+"conf": 0.896
+},
+{
+"box": [
+1502,
+5528,
+462,
+39
+],
+"text": "SafetyFORMING GLOBAL FOOD SAFETY",
+"conf": 0.91
+},
+{
+"box": [
+1690,
+5577,
+157,
+16
+],
+"text": "VDISCOURSE.COI",
+"conf": 0.851
+},
+{
+"box": [
+1520,
+5755,
+230,
+38
+],
+"text": "LATEST NEWS",
+"conf": 0.909
+},
+{
+"box": [
+1545,
+5867,
+425,
+29
+],
+"text": "Panama Canal extends slot",
+"conf": 0.866
+},
+{
+"box": [
+1544,
+5916,
+361,
+37
+],
+"text": "allocation program for",
+"conf": 0.901
+},
+{
+"box": [
+1546,
+5970,
+234,
+27
+],
+"text": "Panamax locks",
+"conf": 0.911
+}
+]

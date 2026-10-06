@@ -1,0 +1,1328 @@
+{
+  "presenter": "/workspace/hinton-pipeline-docs/assets/presenter-video-novoice.mp4",
+  "pcrop": [
+    656,
+    0,
+    608,
+    1072
+  ],
+  "face_c": [
+    337.0,
+    318.0
+  ],
+  "s_scale": 1.7763,
+  "s_eye_y": 320,
+  "f_scale": 2.1711,
+  "f_eye_y": 650,
+  "divider": 960,
+  "dur": 58.86666666666667,
+  "crf": 18,
+  "cap_style": {
+    "font": "fraunces",
+    "size": 50,
+    "color": "#E0AC1A",
+    "stroke": 5,
+    "top": 1008
+  },
+  "captions": [
+    {
+      "t0": 0.0,
+      "t1": 0.34,
+      "text": "Lần đầu"
+    },
+    {
+      "t0": 0.34,
+      "t1": 0.82,
+      "text": "tiên,"
+    },
+    {
+      "t0": 0.82,
+      "t1": 1.04,
+      "text": "một mô"
+    },
+    {
+      "t0": 1.04,
+      "t1": 1.4,
+      "text": "hình trí"
+    },
+    {
+      "t0": 1.4,
+      "t1": 1.68,
+      "text": "tuệ nhân"
+    },
+    {
+      "t0": 1.68,
+      "t1": 2.14,
+      "text": "tạo góp"
+    },
+    {
+      "t0": 2.14,
+      "t1": 2.5,
+      "text": "phần mang"
+    },
+    {
+      "t0": 2.5,
+      "t1": 2.86,
+      "text": "về giải"
+    },
+    {
+      "t0": 2.86,
+      "t1": 3.32,
+      "text": "Nobel Hóa"
+    },
+    {
+      "t0": 3.32,
+      "t1": 3.7,
+      "text": "học."
+    },
+    {
+      "t0": 3.7,
+      "t1": 5.58,
+      "text": "Tháng 10/2024,"
+    },
+    {
+      "t0": 5.58,
+      "t1": 5.86,
+      "text": "Viện Hàn"
+    },
+    {
+      "t0": 5.86,
+      "t1": 6.26,
+      "text": "lâm Khoa"
+    },
+    {
+      "t0": 6.26,
+      "t1": 6.6,
+      "text": "học Hoàng"
+    },
+    {
+      "t0": 6.6,
+      "t1": 6.92,
+      "text": "gia Thụy"
+    },
+    {
+      "t0": 6.92,
+      "t1": 7.52,
+      "text": "Điển trao"
+    },
+    {
+      "t0": 7.52,
+      "t1": 7.86,
+      "text": "một nửa"
+    },
+    {
+      "t0": 7.86,
+      "t1": 8.2,
+      "text": "giải cho"
+    },
+    {
+      "t0": 8.2,
+      "t1": 9.24,
+      "text": "Demis Hassabis"
+    },
+    {
+      "t0": 9.24,
+      "t1": 9.92,
+      "text": "và John"
+    },
+    {
+      "t0": 9.92,
+      "t1": 10.7,
+      "text": "Jumper của"
+    },
+    {
+      "t0": 10.7,
+      "t1": 11.74,
+      "text": "Google DeepMind,"
+    },
+    {
+      "t0": 11.74,
+      "t1": 11.96,
+      "text": "nhờ công"
+    },
+    {
+      "t0": 11.96,
+      "t1": 12.3,
+      "text": "trình dự"
+    },
+    {
+      "t0": 12.3,
+      "t1": 12.76,
+      "text": "đoán cấu"
+    },
+    {
+      "t0": 12.76,
+      "t1": 13.34,
+      "text": "trúc protein"
+    },
+    {
+      "t0": 13.34,
+      "t1": 14.52,
+      "text": "bằng AlphaFold."
+    },
+    {
+      "t0": 14.52,
+      "t1": 14.74,
+      "text": "Nửa còn"
+    },
+    {
+      "t0": 14.74,
+      "t1": 15.16,
+      "text": "lại thuộc"
+    },
+    {
+      "t0": 15.16,
+      "t1": 15.6,
+      "text": "về giáo"
+    },
+    {
+      "t0": 15.6,
+      "t1": 16.0,
+      "text": "sư David"
+    },
+    {
+      "t0": 16.0,
+      "t1": 16.42,
+      "text": "Baker,"
+    },
+    {
+      "t0": 16.42,
+      "t1": 16.98,
+      "text": "với công"
+    },
+    {
+      "t0": 16.98,
+      "t1": 17.36,
+      "text": "trình thiết"
+    },
+    {
+      "t0": 17.36,
+      "t1": 17.94,
+      "text": "kế protein"
+    },
+    {
+      "t0": 17.94,
+      "t1": 18.26,
+      "text": "bằng máy"
+    },
+    {
+      "t0": 18.26,
+      "t1": 18.74,
+      "text": "tính."
+    },
+    {
+      "t0": 18.74,
+      "t1": 19.08,
+      "text": "Vì sao"
+    },
+    {
+      "t0": 19.08,
+      "t1": 19.44,
+      "text": "chuyện này"
+    },
+    {
+      "t0": 19.44,
+      "t1": 20.04,
+      "text": "quan trọng?"
+    },
+    {
+      "t0": 20.04,
+      "t1": 20.6,
+      "text": "Protein là"
+    },
+    {
+      "t0": 20.6,
+      "t1": 20.96,
+      "text": "những cỗ"
+    },
+    {
+      "t0": 20.96,
+      "t1": 21.38,
+      "text": "máy tí"
+    },
+    {
+      "t0": 21.38,
+      "t1": 21.82,
+      "text": "hon trong"
+    },
+    {
+      "t0": 21.82,
+      "t1": 22.22,
+      "text": "mọi tế"
+    },
+    {
+      "t0": 22.22,
+      "t1": 22.58,
+      "text": "bào sống,"
+    },
+    {
+      "t0": 22.58,
+      "t1": 23.22,
+      "text": "và hình"
+    },
+    {
+      "t0": 23.22,
+      "t1": 23.48,
+      "text": "dạng"
+    },
+    {
+      "t0": 23.48,
+      "t1": 23.84,
+      "text": "3D"
+    },
+    {
+      "t0": 23.84,
+      "t1": 24.12,
+      "text": "quyết định"
+    },
+    {
+      "t0": 24.12,
+      "t1": 24.38,
+      "text": "chức năng"
+    },
+    {
+      "t0": 24.38,
+      "t1": 24.913,
+      "text": "của nó."
+    },
+    {
+      "t0": 24.913,
+      "t1": 25.58,
+      "text": "Trước đây,"
+    },
+    {
+      "t0": 25.58,
+      "t1": 25.76,
+      "text": "các nhà"
+    },
+    {
+      "t0": 25.76,
+      "t1": 26.06,
+      "text": "khoa học"
+    },
+    {
+      "t0": 26.06,
+      "t1": 26.3,
+      "text": "có thể"
+    },
+    {
+      "t0": 26.3,
+      "t1": 26.66,
+      "text": "mất nhiều"
+    },
+    {
+      "t0": 26.66,
+      "t1": 27.24,
+      "text": "năm chỉ"
+    },
+    {
+      "t0": 27.24,
+      "t1": 27.54,
+      "text": "để giải"
+    },
+    {
+      "t0": 27.54,
+      "t1": 27.82,
+      "text": "được cấu"
+    },
+    {
+      "t0": 27.82,
+      "t1": 28.24,
+      "text": "trúc của"
+    },
+    {
+      "t0": 28.24,
+      "t1": 29.126,
+      "text": "một protein."
+    },
+    {
+      "t0": 29.126,
+      "t1": 30.08,
+      "text": "AlphaFold 2,"
+    },
+    {
+      "t0": 30.08,
+      "t1": 30.46,
+      "text": "ra mắt"
+    },
+    {
+      "t0": 30.46,
+      "t1": 31.28,
+      "text": "năm 2020,"
+    },
+    {
+      "t0": 31.28,
+      "t1": 32.0,
+      "text": "đã dự"
+    },
+    {
+      "t0": 32.0,
+      "t1": 32.48,
+      "text": "đoán cấu"
+    },
+    {
+      "t0": 32.48,
+      "t1": 32.92,
+      "text": "trúc của"
+    },
+    {
+      "t0": 32.92,
+      "t1": 33.32,
+      "text": "gần như"
+    },
+    {
+      "t0": 33.32,
+      "t1": 33.74,
+      "text": "toàn bộ"
+    },
+    {
+      "t0": 33.74,
+      "t1": 34.02,
+      "text": "khoảng"
+    },
+    {
+      "t0": 34.02,
+      "t1": 34.54,
+      "text": "200 triệu"
+    },
+    {
+      "t0": 34.54,
+      "t1": 35.28,
+      "text": "protein mà"
+    },
+    {
+      "t0": 35.28,
+      "t1": 35.6,
+      "text": "con người"
+    },
+    {
+      "t0": 35.6,
+      "t1": 36.18,
+      "text": "đã biết."
+    },
+    {
+      "t0": 36.18,
+      "t1": 36.44,
+      "text": "Phiên bản"
+    },
+    {
+      "t0": 36.44,
+      "t1": 37.44,
+      "text": "AlphaFold 3"
+    },
+    {
+      "t0": 37.44,
+      "t1": 38.38,
+      "text": "năm 2024"
+    },
+    {
+      "t0": 38.38,
+      "t1": 39.26,
+      "text": "còn mô"
+    },
+    {
+      "t0": 39.26,
+      "t1": 39.62,
+      "text": "phỏng được"
+    },
+    {
+      "t0": 39.62,
+      "t1": 40.26,
+      "text": "cách protein"
+    },
+    {
+      "t0": 40.26,
+      "t1": 41.04,
+      "text": "tương tác"
+    },
+    {
+      "t0": 41.04,
+      "t1": 41.36,
+      "text": "với các"
+    },
+    {
+      "t0": 41.36,
+      "t1": 41.62,
+      "text": "phân tử"
+    },
+    {
+      "t0": 41.62,
+      "t1": 42.08,
+      "text": "khác."
+    },
+    {
+      "t0": 42.08,
+      "t1": 42.36,
+      "text": "Theo Ủy"
+    },
+    {
+      "t0": 42.36,
+      "t1": 43.04,
+      "text": "ban Nobel,"
+    },
+    {
+      "t0": 43.04,
+      "t1": 43.32,
+      "text": "công cụ"
+    },
+    {
+      "t0": 43.32,
+      "t1": 43.76,
+      "text": "này đã"
+    },
+    {
+      "t0": 43.76,
+      "t1": 44.2,
+      "text": "được hơn"
+    },
+    {
+      "t0": 44.2,
+      "t1": 44.68,
+      "text": "2 triệu"
+    },
+    {
+      "t0": 44.68,
+      "t1": 45.06,
+      "text": "người ở"
+    },
+    {
+      "t0": 45.06,
+      "t1": 45.42,
+      "text": "190"
+    },
+    {
+      "t0": 45.42,
+      "t1": 45.98,
+      "text": "quốc gia"
+    },
+    {
+      "t0": 45.98,
+      "t1": 46.56,
+      "text": "sử dụng,"
+    },
+    {
+      "t0": 46.56,
+      "t1": 46.88,
+      "text": "giúp nghiên"
+    },
+    {
+      "t0": 46.88,
+      "t1": 47.26,
+      "text": "cứu tình"
+    },
+    {
+      "t0": 47.26,
+      "t1": 47.72,
+      "text": "trạng kháng"
+    },
+    {
+      "t0": 47.72,
+      "t1": 48.28,
+      "text": "kháng sinh"
+    },
+    {
+      "t0": 48.28,
+      "t1": 48.8,
+      "text": "và tìm"
+    },
+    {
+      "t0": 48.8,
+      "t1": 49.26,
+      "text": "ra enzyme"
+    },
+    {
+      "t0": 49.26,
+      "t1": 49.6,
+      "text": "phân hủy"
+    },
+    {
+      "t0": 49.6,
+      "t1": 50.12,
+      "text": "nhựa."
+    },
+    {
+      "t0": 50.12,
+      "t1": 50.36,
+      "text": "Bài học"
+    },
+    {
+      "t0": 50.36,
+      "t1": 50.62,
+      "text": "ở đây"
+    },
+    {
+      "t0": 50.62,
+      "t1": 51.08,
+      "text": "là AI"
+    },
+    {
+      "t0": 51.08,
+      "t1": 51.48,
+      "text": "không chỉ"
+    },
+    {
+      "t0": 51.48,
+      "t1": 51.74,
+      "text": "để viết"
+    },
+    {
+      "t0": 51.74,
+      "t1": 52.1,
+      "text": "văn hay"
+    },
+    {
+      "t0": 52.1,
+      "t1": 52.74,
+      "text": "vẽ tranh,"
+    },
+    {
+      "t0": 52.74,
+      "t1": 53.1,
+      "text": "mà đang"
+    },
+    {
+      "t0": 53.1,
+      "t1": 53.42,
+      "text": "trở thành"
+    },
+    {
+      "t0": 53.42,
+      "t1": 53.78,
+      "text": "công cụ"
+    },
+    {
+      "t0": 53.78,
+      "t1": 54.04,
+      "text": "khoa học"
+    },
+    {
+      "t0": 54.04,
+      "t1": 54.574,
+      "text": "thật sự."
+    },
+    {
+      "t0": 54.574,
+      "t1": 55.02,
+      "text": "Theo bạn,"
+    },
+    {
+      "t0": 55.02,
+      "t1": 55.28,
+      "text": "lĩnh vực"
+    },
+    {
+      "t0": 55.28,
+      "t1": 55.62,
+      "text": "nào sẽ"
+    },
+    {
+      "t0": 55.62,
+      "t1": 55.96,
+      "text": "là nơi"
+    },
+    {
+      "t0": 55.96,
+      "t1": 56.46,
+      "text": "AI tạo"
+    },
+    {
+      "t0": 56.46,
+      "t1": 56.72,
+      "text": "ra đột"
+    },
+    {
+      "t0": 56.72,
+      "t1": 57.0,
+      "text": "phá tiếp"
+    },
+    {
+      "t0": 57.0,
+      "t1": 57.42,
+      "text": "theo?"
+    },
+    {
+      "t0": 57.42,
+      "t1": 57.76,
+      "text": "Bình luận"
+    },
+    {
+      "t0": 57.76,
+      "t1": 58.06,
+      "text": "cho mình"
+    },
+    {
+      "t0": 58.06,
+      "t1": 58.867,
+      "text": "biết nhé."
+    }
+  ],
+  "segments": [
+    {
+      "t0": 0.0,
+      "t1": 1.4,
+      "layout": "S",
+      "face_ss": 3.0,
+      "broll": {
+        "type": "image",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/web02.png",
+        "r0": [
+          0,
+          0,
+          1080,
+          960.0
+        ],
+        "r1": [
+          64.8,
+          57.599999999999994,
+          950.4,
+          844.8
+        ]
+      }
+    },
+    {
+      "t0": 1.4,
+      "t1": 2.62,
+      "layout": "S",
+      "face_ss": 4.8,
+      "broll": {
+        "type": "video",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/demo/url00.ogv",
+        "start": 37.660000000000004,
+        "credit": "Protein Folding | Cookatoo.ergo.ZooM | https://commons.wikimedia.org/wiki/File:Protein_Folding.ogv | Creative Commons Attribution-Share Alike 4.0"
+      }
+    },
+    {
+      "t0": 2.62,
+      "t1": 5.58,
+      "layout": "F",
+      "face_ss": 6.42,
+      "zoom": 1.15,
+      "push": 0.03
+    },
+    {
+      "t0": 5.58,
+      "t1": 7.12,
+      "layout": "S",
+      "face_ss": 9.78,
+      "broll": {
+        "type": "image",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/web00.png",
+        "r0": [
+          0,
+          0,
+          1080,
+          960.0
+        ],
+        "r1": [
+          129.6,
+          60.0,
+          777.6,
+          691.1999999999999
+        ]
+      }
+    },
+    {
+      "t0": 7.12,
+      "t1": 8.78,
+      "layout": "S",
+      "face_ss": 11.72,
+      "broll": {
+        "type": "video",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/demo/url00.ogv",
+        "start": 61.353,
+        "credit": "Protein Folding | Cookatoo.ergo.ZooM | https://commons.wikimedia.org/wiki/File:Protein_Folding.ogv | Creative Commons Attribution-Share Alike 4.0"
+      }
+    },
+    {
+      "t0": 8.78,
+      "t1": 9.62,
+      "layout": "S",
+      "face_ss": 13.78,
+      "broll": {
+        "type": "image",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/web01.png",
+        "r0": [
+          54.0,
+          270.0,
+          864.0,
+          768.0
+        ],
+        "r1": [
+          54.0,
+          450.0,
+          810.0,
+          720.0
+        ]
+      }
+    },
+    {
+      "t0": 9.62,
+      "t1": 11.74,
+      "layout": "S",
+      "face_ss": 15.02,
+      "broll": {
+        "type": "fx",
+        "name": "textcard",
+        "args": {
+          "text": "GOOGLE DEEPMIND"
+        }
+      }
+    },
+    {
+      "t0": 11.74,
+      "t1": 13.34,
+      "layout": "S",
+      "face_ss": 17.54,
+      "broll": {
+        "type": "video",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/demo/url01.webm",
+        "start": 9.477,
+        "credit": "Visualisation of the SARS-CoV-2 Omicron Spike Protein | Maximilian Schönherr | https://commons.wikimedia.org/wiki/File:Visualisation_of_the_SARS-CoV-2_Omicron_Spike_Protein.webm | Creative Commons Attribution-Share Alike 4.0"
+      }
+    },
+    {
+      "t0": 13.34,
+      "t1": 14.52,
+      "layout": "S",
+      "face_ss": 19.54,
+      "broll": {
+        "type": "image",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/web02.png",
+        "r0": [
+          162.0,
+          96.0,
+          669.6,
+          595.1999999999999
+        ],
+        "r1": [
+          0,
+          57.599999999999994,
+          1080,
+          960.0
+        ]
+      }
+    },
+    {
+      "t0": 14.52,
+      "t1": 16.42,
+      "layout": "S",
+      "face_ss": 21.12,
+      "broll": {
+        "type": "video",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/demo/url01.webm",
+        "start": 16.084,
+        "credit": "Visualisation of the SARS-CoV-2 Omicron Spike Protein | Maximilian Schönherr | https://commons.wikimedia.org/wiki/File:Visualisation_of_the_SARS-CoV-2_Omicron_Spike_Protein.webm | Creative Commons Attribution-Share Alike 4.0"
+      }
+    },
+    {
+      "t0": 16.42,
+      "t1": 18.7,
+      "layout": "S",
+      "face_ss": 23.42,
+      "broll": {
+        "type": "image",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/web03.png",
+        "r0": [
+          0,
+          0,
+          1080,
+          960.0
+        ],
+        "r1": [
+          129.6,
+          60.0,
+          777.6,
+          691.1999999999999
+        ]
+      }
+    },
+    {
+      "t0": 18.7,
+      "t1": 20.04,
+      "layout": "F",
+      "face_ss": 26.1,
+      "zoom": 1.2,
+      "push": 0.03
+    },
+    {
+      "t0": 20.04,
+      "t1": 21.82,
+      "layout": "S",
+      "face_ss": 27.84,
+      "broll": {
+        "type": "fx",
+        "name": "dotgrid"
+      }
+    },
+    {
+      "t0": 21.82,
+      "t1": 23.48,
+      "layout": "S",
+      "face_ss": 30.02,
+      "broll": {
+        "type": "video",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/demo/url01.webm",
+        "start": 22.691,
+        "credit": "Visualisation of the SARS-CoV-2 Omicron Spike Protein | Maximilian Schönherr | https://commons.wikimedia.org/wiki/File:Visualisation_of_the_SARS-CoV-2_Omicron_Spike_Protein.webm | Creative Commons Attribution-Share Alike 4.0"
+      }
+    },
+    {
+      "t0": 23.48,
+      "t1": 24.913,
+      "layout": "S",
+      "face_ss": 32.08,
+      "broll": {
+        "type": "image",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/web00.png",
+        "r0": [
+          162.0,
+          150.0,
+          669.6,
+          595.1999999999999
+        ],
+        "r1": [
+          0,
+          90.0,
+          1080,
+          960.0
+        ]
+      }
+    },
+    {
+      "t0": 24.913,
+      "t1": 26.42,
+      "layout": "S",
+      "face_ss": 33.913,
+      "broll": {
+        "type": "video",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/demo/url01.webm",
+        "start": 29.636,
+        "credit": "Visualisation of the SARS-CoV-2 Omicron Spike Protein | Maximilian Schönherr | https://commons.wikimedia.org/wiki/File:Visualisation_of_the_SARS-CoV-2_Omicron_Spike_Protein.webm | Creative Commons Attribution-Share Alike 4.0"
+      }
+    },
+    {
+      "t0": 26.42,
+      "t1": 28.34,
+      "layout": "F",
+      "face_ss": 35.82,
+      "zoom": 1.15,
+      "push": 0.03
+    },
+    {
+      "t0": 28.34,
+      "t1": 30.08,
+      "layout": "S",
+      "face_ss": 38.14,
+      "broll": {
+        "type": "image",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/web01.png",
+        "r0": [
+          0,
+          0,
+          1080,
+          960.0
+        ],
+        "r1": [
+          129.6,
+          60.0,
+          777.6,
+          691.1999999999999
+        ]
+      }
+    },
+    {
+      "t0": 30.08,
+      "t1": 31.88,
+      "layout": "S",
+      "face_ss": 40.28,
+      "broll": {
+        "type": "fx",
+        "name": "textcard",
+        "args": {
+          "text": "NĂM 2020"
+        }
+      }
+    },
+    {
+      "t0": 31.88,
+      "t1": 33.98,
+      "layout": "S",
+      "face_ss": 42.48,
+      "broll": {
+        "type": "video",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/demo/url01.webm",
+        "start": 36.521,
+        "credit": "Visualisation of the SARS-CoV-2 Omicron Spike Protein | Maximilian Schönherr | https://commons.wikimedia.org/wiki/File:Visualisation_of_the_SARS-CoV-2_Omicron_Spike_Protein.webm | Creative Commons Attribution-Share Alike 4.0"
+      }
+    },
+    {
+      "t0": 33.98,
+      "t1": 35.28,
+      "layout": "F",
+      "face_ss": 44.98,
+      "zoom": 1.2,
+      "push": 0.03
+    },
+    {
+      "t0": 35.28,
+      "t1": 36.94,
+      "layout": "S",
+      "face_ss": 46.68,
+      "broll": {
+        "type": "image",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/web02.png",
+        "r0": [
+          54.0,
+          172.79999999999998,
+          864.0,
+          768.0
+        ],
+        "r1": [
+          54.0,
+          288.0,
+          810.0,
+          720.0
+        ]
+      }
+    },
+    {
+      "t0": 36.94,
+      "t1": 38.38,
+      "layout": "S",
+      "face_ss": 48.74,
+      "broll": {
+        "type": "video",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/demo/url01.webm",
+        "start": 43.406,
+        "credit": "Visualisation of the SARS-CoV-2 Omicron Spike Protein | Maximilian Schönherr | https://commons.wikimedia.org/wiki/File:Visualisation_of_the_SARS-CoV-2_Omicron_Spike_Protein.webm | Creative Commons Attribution-Share Alike 4.0"
+      }
+    },
+    {
+      "t0": 38.38,
+      "t1": 40.26,
+      "layout": "S",
+      "face_ss": 50.58,
+      "broll": {
+        "type": "image",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/web03.png",
+        "r0": [
+          162.0,
+          150.0,
+          669.6,
+          595.1999999999999
+        ],
+        "r1": [
+          0,
+          90.0,
+          1080,
+          960.0
+        ]
+      }
+    },
+    {
+      "t0": 40.26,
+      "t1": 42.08,
+      "layout": "S",
+      "face_ss": 1.0,
+      "broll": {
+        "type": "fx",
+        "name": "dotgrid"
+      }
+    },
+    {
+      "t0": 42.08,
+      "t1": 43.9,
+      "layout": "S",
+      "face_ss": 3.22,
+      "broll": {
+        "type": "video",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/demo/url01.webm",
+        "start": 52.737,
+        "credit": "Visualisation of the SARS-CoV-2 Omicron Spike Protein | Maximilian Schönherr | https://commons.wikimedia.org/wiki/File:Visualisation_of_the_SARS-CoV-2_Omicron_Spike_Protein.webm | Creative Commons Attribution-Share Alike 4.0"
+      }
+    },
+    {
+      "t0": 43.9,
+      "t1": 45.42,
+      "layout": "F",
+      "face_ss": 5.44,
+      "zoom": 1.15,
+      "push": 0.03
+    },
+    {
+      "t0": 45.42,
+      "t1": 47.1,
+      "layout": "S",
+      "face_ss": 7.36,
+      "broll": {
+        "type": "image",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/web00.png",
+        "r0": [
+          54.0,
+          270.0,
+          864.0,
+          768.0
+        ],
+        "r1": [
+          54.0,
+          450.0,
+          810.0,
+          720.0
+        ]
+      }
+    },
+    {
+      "t0": 47.1,
+      "t1": 48.8,
+      "layout": "S",
+      "face_ss": 9.44,
+      "broll": {
+        "type": "video",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/demo/url02.webm",
+        "start": 2.5,
+        "credit": "1R4P camera-spin | Jaumepgez | https://commons.wikimedia.org/wiki/File:1R4P_camera-spin.webm | Creative Commons Zero, Public Domain Dedication"
+      }
+    },
+    {
+      "t0": 48.8,
+      "t1": 50.12,
+      "layout": "S",
+      "face_ss": 11.54,
+      "broll": {
+        "type": "image",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/web01.png",
+        "r0": [
+          162.0,
+          150.0,
+          669.6,
+          595.1999999999999
+        ],
+        "r1": [
+          0,
+          90.0,
+          1080,
+          960.0
+        ]
+      }
+    },
+    {
+      "t0": 50.12,
+      "t1": 51.74,
+      "layout": "S",
+      "face_ss": 13.26,
+      "broll": {
+        "type": "fx",
+        "name": "textcard",
+        "args": {
+          "text": "LÀ AI"
+        }
+      }
+    },
+    {
+      "t0": 51.74,
+      "t1": 53.74,
+      "layout": "S",
+      "face_ss": 15.28,
+      "broll": {
+        "type": "video",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/demo/url00.ogv",
+        "start": 37.660000000000004,
+        "credit": "Protein Folding | Cookatoo.ergo.ZooM | https://commons.wikimedia.org/wiki/File:Protein_Folding.ogv | Creative Commons Attribution-Share Alike 4.0"
+      }
+    },
+    {
+      "t0": 53.74,
+      "t1": 56.56,
+      "layout": "F",
+      "face_ss": 17.68,
+      "zoom": 1.2,
+      "push": 0.03
+    },
+    {
+      "t0": 56.56,
+      "t1": 58.867,
+      "layout": "S",
+      "face_ss": 20.9,
+      "broll": {
+        "type": "image",
+        "src": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/web02.png",
+        "r0": [
+          0,
+          0,
+          1080,
+          960.0
+        ],
+        "r1": [
+          64.8,
+          57.599999999999994,
+          950.4,
+          844.8
+        ]
+      }
+    }
+  ],
+  "bigwords": [
+    {
+      "font": "bvp",
+      "size": 190,
+      "color": "#FFFFFF",
+      "glow": "#FFFFFF",
+      "cy": 1140,
+      "t0": 2.62,
+      "t1": 5.12,
+      "text": "NOBEL"
+    },
+    {
+      "font": "bvp",
+      "size": 190,
+      "color": "#FFFFFF",
+      "glow": "#FFFFFF",
+      "cy": 1140,
+      "t0": 18.7,
+      "t1": 20.04,
+      "text": "VÌ SAO?"
+    },
+    {
+      "font": "bvp",
+      "size": 190,
+      "color": "#FFFFFF",
+      "glow": "#FFFFFF",
+      "cy": 1140,
+      "t0": 26.42,
+      "t1": 28.34,
+      "text": "NHIỀU NĂM"
+    },
+    {
+      "font": "bvp",
+      "size": 190,
+      "color": "#FFFFFF",
+      "glow": "#FFFFFF",
+      "cy": 1140,
+      "t0": 33.98,
+      "t1": 35.28,
+      "text": "200 TRIỆU"
+    },
+    {
+      "font": "bvp",
+      "size": 190,
+      "color": "#FFFFFF",
+      "glow": "#FFFFFF",
+      "cy": 1140,
+      "t0": 43.9,
+      "t1": 45.42,
+      "text": "2 TRIỆU"
+    },
+    {
+      "font": "bvp",
+      "size": 190,
+      "color": "#FFFFFF",
+      "glow": "#FFFFFF",
+      "cy": 1140,
+      "t0": 53.74,
+      "t1": 56.24,
+      "text": "KHOA HỌC"
+    }
+  ],
+  "sfx": [
+    {
+      "name": "whoosh",
+      "t": 0.0
+    },
+    {
+      "name": "whoosh",
+      "t": 2.5
+    },
+    {
+      "name": "pop",
+      "t": 7.12
+    },
+    {
+      "name": "pop",
+      "t": 13.34
+    },
+    {
+      "name": "whoosh",
+      "t": 18.58
+    },
+    {
+      "name": "scan",
+      "t": 20.04
+    },
+    {
+      "name": "whoosh",
+      "t": 26.3
+    },
+    {
+      "name": "whoosh",
+      "t": 33.86
+    },
+    {
+      "name": "scan",
+      "t": 40.26
+    },
+    {
+      "name": "whoosh",
+      "t": 43.78
+    },
+    {
+      "name": "pop",
+      "t": 47.1
+    },
+    {
+      "name": "whoosh",
+      "t": 53.620000000000005
+    },
+    {
+      "name": "hit",
+      "t": 2.62
+    },
+    {
+      "name": "hit",
+      "t": 18.7
+    },
+    {
+      "name": "hit",
+      "t": 26.42
+    },
+    {
+      "name": "hit",
+      "t": 33.98
+    },
+    {
+      "name": "hit",
+      "t": 43.9
+    },
+    {
+      "name": "hit",
+      "t": 53.74
+    }
+  ],
+  "music_dips": [
+    [
+      18.14,
+      18.74
+    ]
+  ],
+  "hook": {
+    "t0": 0,
+    "t1": 2.4,
+    "lines": [
+      "AI GIÀNH NOBEL",
+      "HÓA HỌC 2024"
+    ],
+    "colors": [
+      "#FFFFFF",
+      "#E0AC1A"
+    ],
+    "wipe": 1.2,
+    "size": 96,
+    "maxw": 780,
+    "bottom": 952,
+    "glow": "#CF2C4E"
+  },
+  "voice": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/voice.wav",
+  "assets_dir": "/workspace/AI-auto-generate-video/assets/kallaway",
+  "music_under": 18,
+  "music": "/workspace/AI-auto-generate-video/assets/kallaway/music.wav",
+  "video_out": "/workspace/video-jobs/EDIT-FULL-01/lam-viec/render/video_noaudio.mp4"
+}

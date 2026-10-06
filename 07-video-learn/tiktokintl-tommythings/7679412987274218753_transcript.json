@@ -1,0 +1,127 @@
+{
+ "file": "tiktokintl-tommythings/7679412987274218753.mp4",
+ "vad": true,
+ "nt": true,
+ "model": "small",
+ "lang": "id",
+ "duration": 49.576,
+ "segments": [
+  {
+   "start": 28.58,
+   "end": 29.98,
+   "text": "Gakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakak",
+   "words": [
+    {
+     "w": " Gakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakak",
+     "s": 28.58,
+     "e": 29.98,
+     "p": 0.85
+    }
+   ]
+  },
+  {
+   "start": 31.7,
+   "end": 34.26,
+   "text": "Client gila-gila",
+   "words": [
+    {
+     "w": " Client",
+     "s": 31.7,
+     "e": 33.1,
+     "p": 0.0
+    },
+    {
+     "w": " gila",
+     "s": 33.1,
+     "e": 33.56,
+     "p": 0.0
+    },
+    {
+     "w": "-gila",
+     "s": 33.56,
+     "e": 34.26,
+     "p": 0.02
+    }
+   ]
+  },
+  {
+   "start": 36.3,
+   "end": 49.14,
+   "text": "Delaikan per-10, asalkan nuja glasal snap dan mau jadi guru di,",
+   "words": [
+    {
+     "w": " Delaikan",
+     "s": 36.3,
+     "e": 36.3,
+     "p": 0.0
+    },
+    {
+     "w": " per",
+     "s": 36.3,
+     "e": 38.2,
+     "p": 0.0
+    },
+    {
+     "w": "-10,",
+     "s": 38.2,
+     "e": 38.2,
+     "p": 0.12
+    },
+    {
+     "w": " asalkan",
+     "s": 38.76,
+     "e": 40.02,
+     "p": 0.0
+    },
+    {
+     "w": " nuja",
+     "s": 40.02,
+     "e": 40.02,
+     "p": 0.0
+    },
+    {
+     "w": " glasal",
+     "s": 40.02,
+     "e": 42.4,
+     "p": 0.0
+    },
+    {
+     "w": " snap",
+     "s": 42.4,
+     "e": 42.44,
+     "p": 0.0
+    },
+    {
+     "w": " dan",
+     "s": 42.44,
+     "e": 43.32,
+     "p": 0.0
+    },
+    {
+     "w": " mau",
+     "s": 43.32,
+     "e": 49.1,
+     "p": 0.0
+    },
+    {
+     "w": " jadi",
+     "s": 49.1,
+     "e": 49.1,
+     "p": 0.0
+    },
+    {
+     "w": " guru",
+     "s": 49.1,
+     "e": 49.1,
+     "p": 0.0
+    },
+    {
+     "w": " di,",
+     "s": 49.1,
+     "e": 49.14,
+     "p": 0.0
+    }
+   ]
+  }
+ ]
+}

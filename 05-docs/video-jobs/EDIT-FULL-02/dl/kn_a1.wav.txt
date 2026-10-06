@@ -1,0 +1,242 @@
+  360.0 the engineer or a chief of staff that you work with.
+  362.9 You just give dots a responsibility,
+  364.6 like monitor incoming bug reports,
+  367.1 test and fixes and draft PRs, kick off next year's budget
+  370.8 planning cycle, and keep all the teams on track.
+  373.6 Find out what's slowing down our app,
+  374.9 build a fix and show me how much faster it runs.
+  377.5 And your dots will just get to work and keep working.
+  380.5 So here's a good example for dots.
+  382.9 Get our app off this legacy API before it shuts down.
+  387.5 That is a difficult problem.
+  389.0 The API might be used all over a code base
+  391.0 and it's not obvious what's gonna break
+  392.6 as you start making changes.
+  394.6 But dots can trace those dependencies
+  396.6 and figure out everything that needs to change.
+  399.1 They can write the code, run the tests,
+  401.2 and bring our team pull requests to review.
+  404.2 Think about how you would have done that the old way.
+  406.7 How many people would have been involved?
+  408.4 How much time would have taken them?
+  409.4 What else could they have done instead?
+  410.9 Now, imagine having dots do that
+  413.1 for everything you can think of.
+  415.9 Dots on board with everything they need to get to work.
+  418.9 They follow your access.
+  420.6 They have their own computer in the cloud,
+  422.3 their own browser, and they can write and test code as needed.
+  425.9 You'll be able to start with one dot today
+  427.8 and in the future, if you'd like,
+  429.3 you can work with a whole team of dots.
+  432.6 You also don't need to be in chatGBT to talk to your dot.
+  435.5 Coming soon, you'll be able to send it a text message.
+  437.6 It'll text you back.
+  438.8 It can text you updates, flag when something's changed,
+  441.1 or ask you to weigh in on a decision.
+  443.6 You can even give your dot a call
+  445.1 and talk with it directly.
+  448.1 Dots also work with more than 4,000 apps across chatGBT.
+  452.3 When you onboard your dot,
+  454.0 it gets to use the same plugins you've already connected.
+  456.8 It can just follow along with your work
+  458.2 wherever it happens.
+  460.5 Through all of this, of course, you stay in control.
+  463.3 Dots are powered by Astra, our most aligned model,
+  466.3 and they have built-in protections and safeguards.
+  468.0 You can set the boundaries on app and computer use,
+  470.6 and you can customize instructions
+  472.5 for any actions your dot takes.
+  474.7 So this allows you to trust your dot
+  476.1 with as much responsibility as you're comfortable with.
+  479.9 Okay, so that's dots.
+  481.5 Dots are very deeply tied to you,
+  483.4 your context and your workflows,
+  484.9 and your desire to get things done.
+  487.6 But you also need a space to collaborate
+  489.6 with your team and their dots.
+  492.1 And the problem here is that
+  493.1 almost all productivity software
+  495.2 was not built for AI and people to work well together.
+  499.0 So we're changing that too.
+  500.1 Next up, we're introducing chatGBT space.
+  503.8 This is a place where you,
+  505.4 your teammates and your agents can all work together.
+  509.1 Space starts with a page,
+  510.4 like the one here you see on the screen.
+  512.4 You can write a plan, do research,
+  514.5 create images, generate data, or build something new.
+  517.6 Dots can work alongside you directly in the page.
+  520.6 You can bring in a dot and ask it to track dependencies
+  523.2 just like you would with a senior engineer.
+  525.9 You can tag a dot in a comment,
+  527.6 and it'll jump in and get to work.
+  530.3 Your pages and files all live together in a space,
+  533.2 like they would in a drive.
+  535.0 But spaces feel alive.
+  536.1 You can give the page specific instructions,
+  538.5 like check the API platform Slack channel,
+  541.5 and update it daily with findings here.
+  544.3 Coming soon, we're introducing a new way
+  546.1 to build presentations right inside Space 2,
+  548.1 so you'll be able to share a presentation
+  550.1 with your team, collaborate together with your dot
+  553.0 and their dots right inside chatGBT.
+  556.0 This will be a version of slides
+  557.2 that could be easily read and modified by agents.
+  560.5 So at this point, I'd like to welcome Holly on stage
+  563.2 to show you a demo of how this all works together.
+  565.5 Thank you, Holly.
+  574.6 I'm Holly, and I'm on the product team here at OpenAI.
+  578.0 So dots have changed how we work,
+  580.2 and even how we built the product itself.
+  582.5 So today, I'm going to show you how teams at OpenAI
+  585.4 use dots via a fictional music app we're calling Blossom.
+  590.1 So this is Blossom Music.
+  591.9 It's a fictional, cool app for creating playlists.
+  595.0 And this is my dot, dotty.
+  598.7 So dots have all of your connectors.
+  600.6 You can add them to Slack.
+  601.9 They can orchestrate your codecs.
+  603.8 And so dotty is truly indispensable to me.
+  606.7 It's a second set of eyes across everything
+  608.8 I give it access to.
+  610.1 And more importantly, a second set of hands
+  612.5 to actually take work off my plate.
+  615.2 So let's say we're gearing up to launch Blossom Music.
+  618.0 It's tomorrow, OK?
+  619.4 Things are chaotic.
+  621.0 But dotty has my back.
+  622.8 This morning, it proactively caught a bunch of things
+  625.6 for me to look at.
+  626.9 Our launch review moved earlier.
+  628.6 It already updated my calendar.
+  630.7 We shipped some new features to test users last night.
+  633.4 And it's already looked at the feedback.
+  635.9 And it looks like design landed a last minute
+  638.1 rev on our home screen.
+  639.6 And dotty's not only spotted this,
+  641.1 but actually sent me the design to take a look at right here.
+  644.6 So this is all context.
+  645.8 I'd normally have to piece together myself
+  648.0 or worse things I would have missed entirely.
+  651.1 But dotty has it.
+  653.1 So let's take a look at this new design.
+  656.0 OK, I like it.
+  657.4 But this close to launch, I really
+  659.1 want to be able to play with it, right?
+  661.4 And because dotty has access to this laptop and its dev tools,
+  664.7 I'm just going to say go build it.
+  669.6 And no pressure, dotty.
+  670.8 We'll check back on this later.
+  673.2 So here's my personal favorite part
+  675.0 of working with dots, voice.
+  678.2 My teammates make fun of me because I'm always
+  680.5 holed up in a phone booth talking to dotty.
+  682.6 But talking helps me think.
+  684.5 I like to riff, brainstorm ideas.
+  686.7 And because dotty already knows who I am, what I'm working on,
+  690.3 and why, I can get straight to the point.
+  692.4 It's like talking to a second brain.
+  694.7 So let's say I'm walking into the office.
+  697.6 And I just need to catch up on last night's alpha.
+  705.5 Good morning, Holly.
+  706.6 Nice to hear from you.
+  708.0 Hey, so I'm just walking in.
+  710.4 Can you catch me up on just user testing from last night?
+  714.6 Checking that now.
+  728.5 How's it going?
+  730.5 Still checking.
+  733.8 All right.
+  734.8 I think maybe dotty is having kind of a slow morning.
+  738.4 I might ask it to, hey, I'm going to review with the go
+  742.0 to market leads later.
+  743.1 Do you want to just drop an FAQ into the page?
+  747.1 Sure.
+  747.6 I'll take care of that.
+  748.7 OK.
+  749.3 Thank you.
+  751.1 So I love voice.
+  753.0 I love jamming with dotty one on one.
+  755.3 But sometimes we know that the best ideas are
+  757.9 developed together.
+  761.8 One second.
+  763.6 So we've added a brand new place to collaborate
+  766.9 with your team inside of chat GPT called Space.
+  773.9 Awesome.
+  775.0 So when I hit slash here, you can
+  778.6 see all of the different things that you can build.
+  781.4 Interactive charts, sheets, live prototypes,
+  784.7 anything you need to bring your ideas to life.
+  787.8 And your team and your dots can actually join you in here.
+  792.1 So let me show you what I mean.
+  794.1 I can just tag in teammates like Renny or Rishabh.
+  797.7 But I can also tag in dotty itself and say, hey,
+  804.7 can we actually turn this into a bar chart, please?
+  811.0 And the visualizations in here are completely dynamic.
+  814.7 I can filter by feedback types.
+  818.6 And I can inspect these data points.
+  821.0 And my dot can keep this up to date every single hour.
+  825.5 Now here's the FAQ that we just asked dotty to drop in.
+  828.7 And because dotty has all my context,
+  831.1 I can actually just hand it off things that would really
+  834.8 slow me down.
+  836.6 Hey, let's add in that stat about onboarding
+  839.6 from that one engineer in my Slack DMs.
+  845.9 And dotty can find it.
+  847.0 Or maybe something like, hey, let's incorporate more
+  851.2 of Laura's feedback.
+  854.1 OK.
+  855.0 So space is a place where dots and your team
+  858.0 can jam together and stay in sync.
+  861.3 But where dot has really changed how we work is Slack.
+  865.0 All of us are getting tagged all day.
+  867.5 And sometimes an innocuous ask like reconciling launch
+  871.0 specs can turn into a whole project.
+  874.2 Now I can forward the thread to dotty.
+  876.6 I can just delegate and say, hey, can you take this?
+  883.8 And as you can see, my DMs are full of these little handoffs.
+  887.8 I get to decide what needs my attention
+  889.9 and what my dot can take care of.
+  893.6 And by giving dots their own identity,
+  895.7 they become extensions of our team.
+  898.2 So here's something we totally didn't expect at OpenAI.
+  901.1 People started treating their dots like they're delegates.
+  904.6 And now we bring our dots into group chats from the get go.
+  907.9 So here, Gabe and Patrick are handing off tasks
+  911.2 to their dots.
+  912.4 When the dots come back with the results,
+  914.3 everyone stays in the loop.
+  916.8 And our engineers are taking this one step further.
+  920.3 So here, someone's dropped in a session ID and a user bug
+  924.9 into a feedback channel somewhere.
+  926.7 But Gabe's dot picks it up, investigates it right away,
+  930.1 and opens a PR with a fix.
+  932.4 And this is a real example.
+  933.9 Our engineers have their dots fixing dozens of bugs
+  937.0 a day in this way.
+  938.6 It's been amazing to see how much dots were built by dots.
+  943.3 OK, so by now I've delegated a lot of different things to my dot.
+  947.4 And it's freed up my time to brainstorm,
+  950.3 spend time with the team.
+  953.1 This is a live demo.
+  955.2 And it looks like earlier there was a little bit of an error
+  958.8 throwing up this Codex thread.
+  960.5 So I'm going to try it again.
+  964.2 And what's happening here is that Dotty can actually use
+  966.4 Codex on my laptop to build the app and launch it
+  969.6 in the iPhone simulator.
+  973.5 Now, this might take a bit.
+  977.1 But the amazing thing is we can start with the mock on my phone,
+  981.1 run local execution, and get it into a working app here.
+  985.1 And then I can even ask Dotty to just run with it and ship the PR,
+  989.8 all while I'm here with you.
+  993.0 So dots are extensions of us.
+  996.7 We can give them all of our context and memory.
+ 1002.0 And they can take work off of our plates.
+ 1006.7 They can filter the noise.
+ 1007.9 And when you add all of this together,
+ 1009.6 dots really become extensions of you.
+ 1012.2 It's not just about getting the same work done faster.
+ 1015.0 Here at OpenAI, we've actually felt this firsthand.
+ 1018.0 The dots are changing what we feel capable of.

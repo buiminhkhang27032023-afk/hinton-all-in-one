@@ -1,0 +1,36 @@
+[  6.06-  7.46] ,
+[ 38.08- 40.58] sau đó bây giờ mình bắt đầu tạo 1 task mới
+[ 40.58- 42.90] thì mình sẽ giao nhiệm vụ cho nó ví dụ như là
+[ 42.90- 47.42] lấy thông tin về tên sản phẩm, hãng và giá của 5 chiếc điện thoại mở nhất
+[ 48.60- 51.28] và khi mà nó gặp những vấn đề chưa rõ, nó sẽ hỏi lại bạn
+[ 51.28- 53.24] cho nên các bạn yên tâm, ví dụ ở đây nó hỏi mình là
+[ 53.24- 55.60] muốn lấy thông tin từ web nào, mình chọn vào
+[ 56.02- 59.42] mỗi 8h sáng mình muốn làm gì, mình muốn tóm tắt nó thành 1 cái phái xeo
+[ 59.42- 61.62] chứ nếu mà tóm tắt vào chat không thì cũng được
+[ 61.62- 63.62] nhưng mà mình muốn thành 1 cái phái xeo luôn
+[ 63.62- 68.84] Các bạn thấy bây giờ nó bắt đầu chạy rồi, cái con agent này sẽ gọi lên hàng loạt những tui
+[ 68.84- 77.02] tui là những công cụ, tui có thể truy cập web, tui có thể biết mình phải Excel, tui có thể khỏi lại thông tin dãng hạn
+[ 77.02- 80.42] Đó cũng là khái niệm cơ bản của agent mà các bạn cũng nên biết
+[ 80.42- 83.50] Ở đây con Clau đang gọi trình duyệt của mình lên
+[ 83.50- 86.14] Bây giờ các bạn thấy nó thậm chí đang tự thao tác luôn
+[ 86.86- 90.98] Tự scroll, tự động thu thập thông tin, tự động điều khiển trình duyệt
+[ 90.98- 93.56] Và các bạn không nhất thiết là phải mở cái trình duyệt này nghe trước mắt
+[ 93.56- 98.34] Các bạn để nó qua một bên hoặc là các bạn di chuyển nó qua một cái desktop khác cũng được
+[ 98.34- 99.74] Không sao hả? Nó vẫn sẽ tự làm
+[ 99.74-103.40] Một cái điểm quan trọng nữa khi mà có AI nó tự động chạy nhìn cái tác vụ như thế này
+[103.40-106.38] Đó là có thể nó sẽ làm chậm hơn so với khi mà bạn thực hiện
+[106.38-108.34] Nhưng mà đừng quên thứ nhất nó chạy tự động
+[108.34-112.32] Và thứ hai là các bạn chỉ đâu có ngồi chờ một chỗ để mà các bạn nhìn nó làm đó
+[112.32-113.82] Lúc đó các bạn đi làm vị khác đi
+[113.82-117.10] Bây giờ nó ghi nè các bạn, phải excel mẫu cho hôm nay đã xong
+[117.54-120.70] Bây giờ nó bắt đầu nó chuẩn bị tạo nên cái file excel cho mình luôn
+[120.70-126.06] Bây giờ nó hỏi mình là muốn lưu cái này ở đâu, thì các bạn thường sẽ chỉ phải chọn ở một lần đầu thôi.
+[126.36-132.70] Bây giờ nó hỏi mình, mỗi 8 giờ sáng, lấy 5 điện thoại mới nhất từ web và give a excel mình ok không? Ok, mình nhấn chữ schedule.
+[133.44-138.50] Thì các bạn có thể kiểm tra lại những tác vụ đã lên lịch của mình bằng cách là vào một go work sau một schedule.
+[138.92-142.98] Thì các bạn cần bao nhiêu task thì các bạn cứ tạo ra thôi, ở những khung thời gian khác nhau.
+[143.20-147.50] Bây giờ cái file excel mà nó thu thập xong đã hiển thị lên cho các bạn coi rồi nè.
+[147.94-155.44] Đấy, nhanh gọn lẽ các bạn, và nếu cần thì các bạn có thể mở cái phát xeo này lên, đầy chính xác là cái phát xeo đó luôn, tiện ha.
+[155.76-162.74] Thế một mèo nhỏ nữa dành cho các bạn đang sài claw, đó là bây giờ các bạn có thể bấm vào trong cái núp cool, và nó có cái núp tên là dispatch,
+[163.42-168.46] thì các bạn sẽ kết nuối cái điện thoại của các bạn với lại cái máy tính của mình, thì lúc này các bạn có thể ra lệnh cho claw
+[168.46-172.98] từ cái điện thoại của các bạn và nó tự làm máy tính. Ví dụ đơn giản các bạn đang ở ngoài đường,
+[176.64-178.10] Cảm ơn mọi người và hẹn mời, hẹn mời, hẹn mời, hẹn mời, hẹn m

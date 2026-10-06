@@ -1,0 +1,452 @@
+[
+{
+"box": [
+218,
+64,
+148,
+27
+],
+"text": "Watch Live",
+"conf": 0.78
+},
+{
+"box": [
+1793,
+66,
+151,
+30
+],
+"text": "Subscribe",
+"conf": 0.882
+},
+{
+"box": [
+2034,
+62,
+110,
+40
+],
+"text": "Sign In",
+"conf": 0.871
+},
+{
+"box": [
+704,
+188,
+164,
+32
+],
+"text": "Technology",
+"conf": 0.906
+},
+{
+"box": [
+244,
+189,
+85,
+28
+],
+"text": "Home",
+"conf": 0.723
+},
+{
+"box": [
+545,
+189,
+142,
+30
+],
+"text": "Business",
+"conf": 0.858
+},
+{
+"box": [
+1013,
+189,
+105,
+27
+],
+"text": "Culture",
+"conf": 0.832
+},
+{
+"box": [
+1142,
+189,
+64,
+28
+],
+"text": "Arts",
+"conf": 0.703
+},
+{
+"box": [
+1233,
+189,
+87,
+28
+],
+"text": "Travel",
+"conf": 0.796
+},
+{
+"box": [
+1448,
+189,
+84,
+27
+],
+"text": "Audio",
+"conf": 0.76
+},
+{
+"box": [
+1557,
+189,
+86,
+27
+],
+"text": "Video",
+"conf": 0.777
+},
+{
+"box": [
+353,
+190,
+99,
+27
+],
+"text": "News",
+"conf": 0.748
+},
+{
+"box": [
+455,
+190,
+99,
+28
+],
+"text": "Sport",
+"conf": 0.762
+},
+{
+"box": [
+1347,
+190,
+76,
+25
+],
+"text": "Earth",
+"conf": 0.727
+},
+{
+"box": [
+1666,
+188,
+65,
+28
+],
+"text": "Live",
+"conf": 0.799
+},
+{
+"box": [
+889,
+188,
+99,
+30
+],
+"text": "Health",
+"conf": 0.809
+},
+{
+"box": [
+1753,
+190,
+203,
+26
+],
+"text": "Documentaries",
+"conf": 0.868
+},
+{
+"box": [
+349,
+859,
+1355,
+76
+],
+"text": "Google DeepMind boss wins Nobel for",
+"conf": 0.908
+},
+{
+"box": [
+343,
+941,
+811,
+89
+],
+"text": "proteins breakthrough",
+"conf": 0.929
+},
+{
+"box": [
+348,
+1060,
+172,
+23
+],
+"text": "9 October2024",
+"conf": 0.829
+},
+{
+"box": [
+1184,
+1075,
+77,
+28
+],
+"text": "Share ",
+"conf": 0.788
+},
+{
+"box": [
+1332,
+1075,
+66,
+28
+],
+"text": "Save",
+"conf": 0.799
+},
+{
+"box": [
+1523,
+1077,
+311,
+27
+],
+"text": "Add as preferred on Google",
+"conf": 0.888
+},
+{
+"box": [
+350,
+1137,
+264,
+30
+],
+"text": "Georgina Rannard",
+"conf": 0.835
+},
+{
+"box": [
+348,
+1182,
+184,
+27
+],
+"text": "Science reporter",
+"conf": 0.917
+},
+{
+"box": [
+1860,
+2260,
+148,
+29
+],
+"text": "Getty Images",
+"conf": 0.847
+},
+{
+"box": [
+348,
+2327,
+654,
+28
+],
+"text": "Demis Hassabis is a chief executive of Google DeepMind",
+"conf": 0.898
+},
+{
+"box": [
+350,
+2428,
+1052,
+34
+],
+"text": "British computer scientist Professor Demis Hassabis has won a",
+"conf": 0.914
+},
+{
+"box": [
+348,
+2480,
+1050,
+36
+],
+"text": "share of the Nobel Prize for Chemistry for \"revolutionary\" work",
+"conf": 0.929
+},
+{
+"box": [
+348,
+2531,
+633,
+38
+],
+"text": "on proteins, the building blocks of life.",
+"conf": 0.917
+},
+{
+"box": [
+348,
+2614,
+979,
+39
+],
+"text": "Prof Hassabis, 48, co-founded the artificial intelligence (AI)",
+"conf": 0.918
+},
+{
+"box": [
+348,
+2669,
+685,
+36
+],
+"text": "company that became Google DeepMind.",
+"conf": 0.934
+},
+{
+"box": [
+348,
+2750,
+1046,
+37
+],
+"text": "Professor John Jumper, 39, who worked with Prof Hassabis on",
+"conf": 0.909
+},
+{
+"box": [
+348,
+2804,
+949,
+36
+],
+"text": "the breakthrough, shares the award along with US-based",
+"conf": 0.917
+},
+{
+"box": [
+350,
+2857,
+432,
+33
+],
+"text": "Professor David Baker, 60.",
+"conf": 0.913
+},
+{
+"box": [
+347,
+2934,
+1014,
+45
+],
+"text": "Proteins are the building blocks of life and are found in every",
+"conf": 0.907
+},
+{
+"box": [
+346,
+2985,
+391,
+46
+],
+"text": "cell in the human body.",
+"conf": 0.883
+},
+{
+"box": [
+347,
+3076,
+1070,
+36
+],
+"text": "Better understanding proteins has driven huge breakthroughs in",
+"conf": 0.908
+},
+{
+"box": [
+345,
+3122,
+1066,
+45
+],
+"text": "medicine. It is used in solving antibiotic resistance and to image",
+"conf": 0.919
+},
+{
+"box": [
+348,
+3180,
+633,
+36
+],
+"text": "enzymes that can decompose plastics",
+"conf": 0.949
+},
+{
+"box": [
+350,
+3265,
+1073,
+30
+],
+"text": "Prof Hassabis said it was the “honour of a lifetime\" to receive the",
+"conf": 0.898
+},
+{
+"box": [
+346,
+3314,
+112,
+35
+],
+"text": "Nobel.",
+"conf": 0.812
+},
+{
+"box": [
+353,
+3399,
+1057,
+36
+],
+"text": "\"I've dedicated my whole life to working on AI because I believe",
+"conf": 0.909
+},
+{
+"box": [
+405,
+3491,
+1099,
+42
+],
+"text": "BBC subscribers get unlimited access for less than $1/week",
+"conf": 0.897
+},
+{
+"box": [
+1573,
+3498,
+144,
+27
+],
+"text": "See benefits",
+"conf": 0.86
+}
+]

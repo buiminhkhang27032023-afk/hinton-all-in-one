@@ -1,0 +1,11 @@
+https://openai.com/index/introducing-dots/ | name=dots | w=1100 | h=9000 | scale=2 | wait=15000 | timeout=90
+https://openai.com/index/introducing-gpt-6-1-sol/ | name=sol | w=1100 | h=12000 | scale=2 | wait=15000 | timeout=90
+https://openai.com/index/devday-2026-recap | name=recap | w=1100 | h=12000 | scale=2 | wait=15000 | timeout=90
+# (bị chặn/paywall khi chụp 04/10) https://www.rappler.com/technology/openai-dots-agent-launch/ | name=rappler | w=1100 | h=9000 | scale=2 | wait=15000 | timeout=90
+# wired: headless bị paywall -> chụp bản HTML đã lưu qua http://127.0.0.1 (dl/wired.html) vào lam-viec/webshots/wired.png
+# https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/ | name=wired | w=1100 | h=9000 | scale=2 | wait=15000 | timeout=90
+https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/ | name=techcrunch | w=1100 | h=2200 | scale=2 | wait=12000
+# (bị chặn/paywall khi chụp 04/10) https://www.aljazeera.com/economy/2026/9/30/openai-launches-dots-personal-ai-assistant-built-to-handle-everything | name=aljazeera | w=1100 | h=2400 | scale=2 | wait=12000
+https://platform.twitter.com/embed/Tweet.html?id=2104984504133918973&theme=light&lang=en | name=x_dots | w=560 | h=1100 | scale=3 | wait=12000
+https://platform.twitter.com/embed/Tweet.html?id=2104980481876070819&theme=light&lang=en | name=x_ready | w=560 | h=1100 | scale=3 | wait=12000
+https://platform.twitter.com/embed/Tweet.html?id=2104995014208258235&theme=light&lang=en | name=x_sama | w=560 | h=1100 | scale=3 | wait=12000

@@ -1,0 +1,32 @@
+LICENSES / SOURCES — /workspace/proj1/audio  (compiled 2026-10-04, ICT)
+All third-party assets below were downloaded from Freesound.org. For each one, the sound page was fetched and its license field read 'Creative Commons 0' (https://creativecommons.org/publicdomain/zero/1.0/). CC0 = public domain dedication; no attribution required.
+Files are Freesound's public 'HQ preview' MP3s (~128-190 kbps), not the original uploads (those need a Freesound login). Our SFX copies are trimmed of leading silence and peak-normalized to -1 dBFS, 48 kHz WAV.
+
+== VOICEOVER ==
+vo_1..7.mp3, vo_full.mp3: generated with Microsoft Edge online TTS via the open-source 'edge-tts' Python package (v7.2.8), voice vi-VN-NamMinhNeural. Free to generate; edge-tts is an unofficial client for Microsoft's service. Microsoft has not published a clear license for commercial reuse of this output. Treat it as fine for normal social-media use, but not as a verified commercial license.
+
+== MUSIC ==
+music/bgm_main_epic_bertsz_74s.mp3  <- 'Epic Synth/Orchestral Music' by Bertsz — https://freesound.org/people/Bertsz/sounds/545459/ — CC0 1.0 (full 74.2s preview, unedited)
+music/bgm_alt_suspense_dekstromoramid_68s.mp3  <- 'Hide My Time' by dekstromoramid — https://freesound.org/people/dekstromoramid/sounds/460900/ — CC0 1.0 (first 68s, 4s fade-out)
+music/bgm_alt2_epicbattle_airwolf89_70s.mp3  <- 'Epic_Battle_Music_1.MP3' by Airwolf89 — https://freesound.org/people/Airwolf89/sounds/346455/ — CC0 1.0 (first 70s, 4s fade-out)
+
+== SFX ==
+sfx/whoosh_a.wav  <- 'Whoosh For Whip Zoom by BennettFilmTeacher' — https://freesound.org/people/BennettFilmTeacher/sounds/486234/ — CC0 1.0
+sfx/whoosh_b.wav  <- 'Whoosh.wav by huw2k8' — https://freesound.org/people/huw2k8/sounds/459941/ — CC0 1.0
+sfx/whoosh_c.wav  <- 'quick woosh by florianreichelt' — https://freesound.org/people/florianreichelt/sounds/683101/ — CC0 1.0
+sfx/whoosh_d.wav  <- 'Transition Swoosh by adh.dreaming' — https://freesound.org/people/adh.dreaming/sounds/632763/ — CC0 1.0
+sfx/pop_a.wav  <- 'Pop 9 by D.S.G.' — https://freesound.org/people/D.S.G./sounds/328119/ — CC0 1.0
+sfx/pop_b.wav  <- 'Pop 4 by quatricise' — https://freesound.org/people/quatricise/sounds/789793/ — CC0 1.0
+sfx/ding_a.wav  <- 'bell ding 1.wav by 5ro4' — https://freesound.org/people/5ro4/sounds/611113/ — CC0 1.0
+sfx/ding_b.wav  <- 'Glass ding by Counter-gamer' — https://freesound.org/people/Counter-gamer/sounds/404104/ — CC0 1.0
+sfx/impact_a.wav  <- 'DSGNImpt_Deep Cinematic Impact 2_ZAZZ by zazz.sound.design' — https://freesound.org/people/zazz.sound.design/sounds/754421/ — CC0 1.0
+sfx/impact_b.wav  <- 'Cinematic Low Pitch Impact by Jofae' — https://freesound.org/people/Jofae/sounds/408141/ — CC0 1.0
+sfx/riser_a.wav  <- 'Riser sound effect short.wav by syntheffects' — https://freesound.org/people/syntheffects/sounds/685256/ — CC0 1.0
+sfx/riser_b.wav  <- '⇢ GREAT Riser Strings 4 Top.wav by SingleCoil' — https://freesound.org/people/SingleCoil/sounds/459509/ — CC0 1.0
+sfx/riser_c.wav  <- 'Long bright riser by xkeril' — https://freesound.org/people/xkeril/sounds/789100/ — CC0 1.0
+sfx/riser_scene6_5s.wav  <- last 5s of riser_b (SingleCoil, CC0 1.0) with 1.5s fade-in
+
+Rejected: 'MusicByMisterbates' tracks (tagged CC0 on Freesound, but the author's description asks for credit, so I skipped them to avoid any doubt).
+
+== FONTS (on-screen text in final/final_video.mp4) ==
+Be Vietnam Pro (Black/ExtraBold) and Noto Sans Symbols (star glyph) - Google Fonts, SIL Open Font License 1.1. No emoji/icon images were added.

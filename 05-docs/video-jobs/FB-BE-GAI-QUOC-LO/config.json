@@ -1,0 +1,35 @@
+{
+  "job_id": "FB-BE-GAI-QUOC-LO",
+  "version": "v3",
+  "preset": "kallaway",
+  "title": "BÉ RA GIỮA LÀN|XE PHẢI DỪNG",
+  "captions_burn": true,
+  "bgm": true,
+  "bgm_volume_db": -20,
+  "target_duration": 30,
+  "presenter": {
+    "mode": "auto",
+    "video": "/workspace/hinton-pipeline-docs/assets/presenter-video-novoice.mp4"
+  },
+  "kallaway": {
+    "tail": 0.25,
+    "s_eye_y": 320,
+    "face_split_px": 270,
+    "punch_every": 10000,
+    "broll_order": [
+      "demo"
+    ],
+    "loop": false,
+    "shot_target": 1.7,
+    "shot_min": 0.9,
+    "shot_max": 3.2,
+    "first_cut": 1.3
+  },
+  "footage": {
+    "stock_enabled": false,
+    "max_clips_per_url": 1,
+    "clip_max": 30.0,
+    "ytdlp_max_height": 720
+  },
+  "output_subdir": "v3"
+}

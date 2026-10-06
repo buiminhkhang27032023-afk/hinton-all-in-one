@@ -1,0 +1,22 @@
+[  0.00-  5.76] China just dropped a new AI model that beats both CloudFable 5 and Charge APT 5.6 at coding,
+[  6.26-  8.96] and coding is not even the most interesting part.
+[  9.20- 12.74] So this is KimiK3, a new flagship, flagship model from Moonshot AI.
+[ 13.04- 16.24] Here are the biggest updates and actually what you should care about.
+[ 16.46- 21.84] First, KimiK3 can turn an idea, an image, or a reference video into a playable game
+[ 21.84- 23.22] or interactive world.
+[ 23.42- 28.10] It combines coding, visual understanding, and 3D reasoning so it can build a game,
+[ 28.10- 32.28] look at the live results, spot problems and keep improving it.
+[ 32.42- 34.20] They call this vision in a loop.
+[ 34.46- 37.06] Second, Kymik A3 can research complex topics,
+[ 37.34- 39.12] then turn the information into interactive
+[ 39.12- 42.48] websites with charts, timelines and visual explanations
+[ 42.48- 44.80] instead of a long boring report.
+[ 45.04- 47.78] In one example it analyzed 42 years of a
+[ 47.78- 50.98] YI chip industry across more than 11,000 pages
+[ 50.98- 54.16] and built a report you could actually explore.
+[ 54.16- 58.08] Next is video editing and this looks pretty insane.
+[ 58.40- 61.76] Kymikki3 can review your raw footage, choose the best clips,
+[ 62.06- 67.30] arrange them, synchronize cuts to music, process the audio and revise the whole edit.
+[ 67.50- 71.58] It even edited its own launch teaser from 56 source clips.
+[ 71.82- 74.92] And last one is widgets and dashboards in KymiWork.
+[ 75.10- 79.72] Instead of replying with text, Kymikki3 can build small interactive apps inside the chat.

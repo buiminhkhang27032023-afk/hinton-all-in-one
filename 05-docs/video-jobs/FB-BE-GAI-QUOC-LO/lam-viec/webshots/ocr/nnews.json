@@ -1,0 +1,862 @@
+[
+{
+"box": [
+64,
+33,
+244,
+50
+],
+"text": "facebook",
+"conf": 0.887
+},
+{
+"box": [
+984,
+38,
+208,
+32
+],
+"text": "Email or phone",
+"conf": 0.89
+},
+{
+"box": [
+1762,
+38,
+97,
+35
+],
+"text": "Log In",
+"conf": 0.767
+},
+{
+"box": [
+1377,
+40,
+136,
+27
+],
+"text": "Password",
+"conf": 0.785
+},
+{
+"box": [
+1901,
+39,
+234,
+32
+],
+"text": "Forgot Account?",
+"conf": 0.923
+},
+{
+"box": [
+29,
+144,
+136,
+48
+],
+"text": "Video",
+"conf": 0.749
+},
+{
+"box": [
+483,
+152,
+86,
+31
+],
+"text": "Reels",
+"conf": 0.833
+},
+{
+"box": [
+359,
+153,
+67,
+32
+],
+"text": "Live",
+"conf": 0.8
+},
+{
+"box": [
+627,
+153,
+113,
+34
+],
+"text": "Explore",
+"conf": 0.872
+},
+{
+"box": [
+214,
+155,
+88,
+28
+],
+"text": "Home",
+"conf": 0.721
+},
+{
+"box": [
+1535,
+152,
+232,
+27
+],
+"text": "Q Search videos",
+"conf": 0.857
+},
+{
+"box": [
+1704,
+262,
+114,
+33
+],
+"text": "N News",
+"conf": 0.772
+},
+{
+"box": [
+2140,
+277,
+59,
+30
+],
+"text": "Foll",
+"conf": 0.789
+},
+{
+"box": [
+1703,
+304,
+87,
+33
+],
+"text": "1d.",
+"conf": 0.553
+},
+{
+"box": [
+1611,
+348,
+497,
+31
+],
+"text": "Bé gai dap xe ra gidra quoc lo #tintuc",
+"conf": 0.917
+},
+{
+"box": [
+1612,
+430,
+218,
+26
+],
+"text": "Most relevant",
+"conf": 0.882
+},
+{
+"box": [
+1713,
+494,
+102,
+24
+],
+"text": " Top fan",
+"conf": 0.789
+},
+{
+"box": [
+1713,
+527,
+99,
+27
+],
+"text": "Cher Ka",
+"conf": 0.825
+},
+{
+"box": [
+1712,
+562,
+470,
+30
+],
+"text": "Kiéu nay chac biét co duo'c lan sau",
+"conf": 0.882
+},
+{
+"box": [
+1709,
+1053,
+36,
+27
+],
+"text": "1d",
+"conf": 0.648
+},
+{
+"box": [
+1760,
+1111,
+344,
+35
+],
+"text": "N News replied - 1 Reply",
+"conf": 0.864
+},
+{
+"box": [
+1710,
+1184,
+228,
+32
+],
+"text": "Tien Dung Nguyen",
+"conf": 0.823
+},
+{
+"box": [
+1712,
+1219,
+330,
+35
+],
+"text": "Choi ty qua, ng lén dau?",
+"conf": 0.862
+},
+{
+"box": [
+1709,
+1279,
+37,
+28
+],
+"text": "1d",
+"conf": 0.64
+},
+{
+"box": [
+1644,
+1335,
+302,
+31
+],
+"text": "View more comments",
+"conf": 0.853
+},
+{
+"box": [
+25,
+1541,
+553,
+39
+],
+"text": "Bé gai dap xe ra gitpa quoc lo",
+"conf": 0.86
+},
+{
+"box": [
+42,
+1635,
+112,
+43
+],
+"text": "叻 Like",
+"conf": 0.661
+},
+{
+"box": [
+413,
+1639,
+129,
+33
+],
+"text": " Share",
+"conf": 0.708
+},
+{
+"box": [
+249,
+1645,
+122,
+24
+],
+"text": "Comment",
+"conf": 0.838
+},
+{
+"box": [
+1171,
+1642,
+386,
+29
+],
+"text": "479 : 17 comments : 127K views",
+"conf": 0.868
+},
+{
+"box": [
+48,
+1798,
+282,
+35
+],
+"text": "Related videos",
+"conf": 0.871
+},
+{
+"box": [
+793,
+1834,
+614,
+49
+],
+"text": "See more on Facebook",
+"conf": 0.91
+},
+{
+"box": [
+1641,
+1875,
+99,
+34
+],
+"text": "Home",
+"conf": 0.742
+},
+{
+"box": [
+1999,
+1873,
+76,
+37
+],
+"text": "Live",
+"conf": 0.759
+},
+{
+"box": [
+712,
+1953,
+251,
+25
+],
+"text": "Email or phone number",
+"conf": 0.86
+},
+{
+"box": [
+1642,
+2092,
+126,
+34
+],
+"text": "Explore",
+"conf": 0.845
+},
+{
+"box": [
+1038,
+2112,
+141,
+27
+],
+"text": "Password",
+"conf": 0.761
+},
+{
+"box": [
+365,
+2190,
+101,
+24
+],
+"text": "Thdo Nguyen",
+"conf": 0.811
+},
+{
+"box": [
+1611,
+2215,
+586,
+27
+],
+"text": "Privacy.Terms·Advertising·Ad Choices [D.C",
+"conf": 0.883
+},
+{
+"box": [
+1046,
+2244,
+108,
+39
+],
+"text": "Log In",
+"conf": 0.847
+},
+{
+"box": [
+1610,
+2249,
+66,
+25
+],
+"text": "More",
+"conf": 0.799
+},
+{
+"box": [
+138,
+2311,
+475,
+28
+],
+"text": "Chu Lac gan 70 tuoi lan xuong nuro",
+"conf": 0.881
+},
+{
+"box": [
+973,
+2333,
+254,
+29
+],
+"text": "Forgot password?",
+"conf": 0.889
+},
+{
+"box": [
+136,
+2350,
+435,
+30
+],
+"text": "thoai giup du khach nuoc ngoai",
+"conf": 0.937
+},
+{
+"box": [
+134,
+2394,
+98,
+27
+],
+"text": "N News",
+"conf": 0.794
+},
+{
+"box": [
+133,
+2424,
+250,
+30
+],
+"text": "38.5K views : 4h ag0",
+"conf": 0.866
+},
+{
+"box": [
+1086,
+2420,
+31,
+23
+],
+"text": "or",
+"conf": 0.663
+},
+{
+"box": [
+941,
+2512,
+320,
+33
+],
+"text": "Create new account",
+"conf": 0.878
+},
+{
+"box": [
+356,
+2664,
+119,
+15
+],
+"text": "CVONGLOBUOCVAO",
+"conf": 0.828
+},
+{
+"box": [
+330,
+2683,
+170,
+13
+],
+"text": "DOAN DUONGVUA DOBETONG",
+"conf": 0.864
+},
+{
+"box": [
+363,
+2796,
+105,
+26
+],
+"text": "Thio Nguyen",
+"conf": 0.83
+},
+{
+"box": [
+1115,
+2787,
+101,
+24
+],
+"text": "Thio Nguyen",
+"conf": 0.791
+},
+{
+"box": [
+692,
+2850,
+65,
+29
+],
+"text": "0:33",
+"conf": 0.649
+},
+{
+"box": [
+1442,
+2850,
+66,
+29
+],
+"text": "0:36",
+"conf": 0.672
+},
+{
+"box": [
+136,
+2925,
+598,
+31
+],
+"text": "Cu ong lo buoc vao doan duong vira do bé",
+"conf": 0.867
+},
+{
+"box": [
+889,
+2927,
+360,
+26
+],
+"text": "Chu nha can loi vi chu cun",
+"conf": 0.862
+},
+{
+"box": [
+130,
+2960,
+71,
+42
+],
+"text": "tong",
+"conf": 0.713
+},
+{
+"box": [
+884,
+2970,
+97,
+28
+],
+"text": "N News",
+"conf": 0.653
+},
+{
+"box": [
+885,
+3000,
+246,
+30
+],
+"text": "18.1K views : 7h ag0",
+"conf": 0.849
+},
+{
+"box": [
+135,
+3010,
+96,
+27
+],
+"text": "N News",
+"conf": 0.748
+},
+{
+"box": [
+133,
+3040,
+249,
+30
+],
+"text": "59.1K views : 6h ag0",
+"conf": 0.84
+},
+{
+"box": [
+363,
+3399,
+104,
+28
+],
+"text": "Thio Nguyen",
+"conf": 0.792
+},
+{
+"box": [
+1115,
+3416,
+101,
+25
+],
+"text": "Thio Nguyen",
+"conf": 0.841
+},
+{
+"box": [
+692,
+3467,
+65,
+29
+],
+"text": "0:25",
+"conf": 0.674
+},
+{
+"box": [
+1442,
+3467,
+67,
+29
+],
+"text": "0:36",
+"conf": 0.664
+},
+{
+"box": [
+134,
+3541,
+614,
+35
+],
+"text": "Mua xong ca nhay kin loi di nguroi dan mang",
+"conf": 0.917
+},
+{
+"box": [
+886,
+3543,
+618,
+28
+],
+"text": "Bo khoe mot minh trong 2 con nho nhan tenh",
+"conf": 0.904
+},
+{
+"box": [
+137,
+3584,
+213,
+27
+],
+"text": "xo chau ra nhat",
+"conf": 0.859
+},
+{
+"box": [
+885,
+3589,
+95,
+24
+],
+"text": "N News",
+"conf": 0.742
+},
+{
+"box": [
+884,
+3617,
+248,
+31
+],
+"text": "44.3K views : 8h ag0",
+"conf": 0.853
+},
+{
+"box": [
+135,
+3628,
+95,
+27
+],
+"text": "N News",
+"conf": 0.731
+},
+{
+"box": [
+133,
+3658,
+226,
+30
+],
+"text": "53K views :8h ag0",
+"conf": 0.835
+},
+{
+"box": [
+346,
+3903,
+137,
+16
+],
+"text": "OTODINHBOCHIECDINH",
+"conf": 0.863
+},
+{
+"box": [
+323,
+3923,
+186,
+13
+],
+"text": "THOPHAIGOICHUXERADEMCONG",
+"conf": 0.883
+},
+{
+"box": [
+1115,
+4025,
+102,
+27
+],
+"text": "Thio Nguyen",
+"conf": 0.781
+},
+{
+"box": [
+365,
+4035,
+102,
+25
+],
+"text": "Thio Nguyen",
+"conf": 0.841
+},
+{
+"box": [
+692,
+4084,
+66,
+28
+],
+"text": "0:36",
+"conf": 0.766
+},
+{
+"box": [
+1442,
+4083,
+66,
+29
+],
+"text": "0:45",
+"conf": 0.702
+},
+{
+"box": [
+137,
+4158,
+621,
+29
+],
+"text": "O to dinh 80 chiec dinh tho' phai goi chu xe ra",
+"conf": 0.909
+},
+{
+"box": [
+888,
+4159,
+609,
+29
+],
+"text": "Chu quan ngu quen khach quen cho 30 phut",
+"conf": 0.872
+},
+{
+"box": [
+134,
+4195,
+137,
+38
+],
+"text": "dem cung",
+"conf": 0.825
+},
+{
+"box": [
+886,
+4198,
+338,
+31
+],
+"text": "roi xan tay vao don quan",
+"conf": 0.877
+},
+{
+"box": [
+133,
+4243,
+98,
+27
+],
+"text": "N News",
+"conf": 0.759
+},
+{
+"box": [
+883,
+4242,
+100,
+29
+],
+"text": "N News",
+"conf": 0.812
+},
+{
+"box": [
+133,
+4275,
+230,
+24
+],
+"text": "27K views : 9h ag0",
+"conf": 0.803
+},
+{
+"box": [
+884,
+4275,
+262,
+24
+],
+"text": "42.1K views.11h ag0",
+"conf": 0.803
+}
+]

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="UTF-8"/>
+<meta name="viewport" content="width=1080, height=1920"/>
+<title>TEST-pipeline-001</title>
+<script src="assets/gsap.min.js"></script>
+<style>
+/* Hinton Shorts 9:16 look — coordinates per SO-TAY-DUNG §3.1 (1080x1920).
+   Safe zones: no text at y<150, y>1590, x>940. __TOKENS__ are replaced from config.brand. */
+@font-face { font-family: "BVP"; src: url("assets/BeVietnamPro-Bold.ttf"); font-weight: 700; }
+@font-face { font-family: "BVP"; src: url("assets/BeVietnamPro-ExtraBold.ttf"); font-weight: 800; }
+@font-face { font-family: "BVP"; src: url("assets/BeVietnamPro-Black.ttf"); font-weight: 900; }
+html, body { margin: 0; padding: 0; background: #000; }
+#root { position: relative; width: 100%; height: 100%; overflow: hidden; font-family: "BVP"; color: #fff; }
+.bgfill { position: absolute; inset: 0; background: #0B0F14; }
+.layer { position: absolute; inset: 0; overflow: hidden; transform-origin: 50% 40%; }
+.full { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+
+/* Ken Burns screenshot: blurred fill + fitted image */
+.kbbg { position: absolute; inset: -60px; background-size: cover; background-position: center; filter: blur(30px) brightness(0.55); }
+.kbfit { position: absolute; left: 40px; right: 40px; top: 230px; height: 1000px; display: flex; align-items: center; justify-content: center; }
+.kbfit img { display: block; max-width: 100%; max-height: 100%; border-radius: 22px; box-shadow: 0 30px 80px rgba(0,0,0,.6); }
+
+/* effect backgrounds */
+.fxbg { background: radial-gradient(120% 80% at 50% 25%, #1B2433 0%, #0B0F14 70%); }
+.fxbg2 { background: radial-gradient(90% 60% at 50% 45%, #2a1f05 0%, #0B0F14 75%); }
+
+/* browser mockup */
+.browser { position: absolute; left: 70px; width: 940px; top: 260px; height: 960px; border-radius: 26px; overflow: hidden;
+  background: #fff; box-shadow: 0 40px 90px rgba(0,0,0,.55); display: block; }
+.browser .bar { height: 64px; background: #e9ecf1; display: flex; align-items: center; gap: 12px; padding: 0 24px; }
+.browser .bar i { display: block; width: 18px; height: 18px; border-radius: 50%; background: #ff5f57; }
+.browser .bar i:nth-child(2) { background: #febc2e; } .browser .bar i:nth-child(3) { background: #28c840; }
+.browser .bar .url { display: block; flex: 1; height: 34px; margin-left: 18px; border-radius: 17px; background: #fff; }
+.browser .viewport { position: absolute; top: 64px; left: 0; right: 0; bottom: 0; overflow: hidden; }
+.browser .viewport img { display: block; width: 100%; transform-origin: 50% 0%; }
+
+/* phone mockup */
+.phone { position: absolute; left: 230px; width: 620px; top: 200px; height: 1060px; border-radius: 70px; background: #111;
+  border: 14px solid #2b2f36; box-shadow: 0 40px 90px rgba(0,0,0,.6); overflow: hidden; display: block; }
+.phone .notch { position: absolute; top: 18px; left: 50%; width: 170px; height: 36px; margin-left: -85px; border-radius: 18px; background: #000; }
+.phone .chat { position: absolute; left: 34px; right: 34px; top: 120px; display: flex; flex-direction: column; gap: 26px; }
+.bubble { display: block; font-weight: 700; font-size: 38px; line-height: 1.32; padding: 22px 28px; border-radius: 30px; max-width: 86%; }
+.bubble.q { align-self: flex-end; background: #2f6bff; color: #fff; border-bottom-right-radius: 8px; }
+.bubble.a { align-self: flex-start; background: #23262d; color: #f1f1f1; border-bottom-left-radius: 8px; }
+
+/* text card */
+.cardwrap { position: absolute; left: 70px; width: 820px; top: 420px; height: 700px; display: flex; align-items: center; justify-content: flex-start; }
+.tcard { display: block; width: 100%; padding: 48px 46px; border-radius: 34px; background: rgba(255,255,255,.06);
+  border: 2px solid rgba(255,255,255,.12); }
+.tbar { display: block; width: 120px; height: 14px; border-radius: 7px; background: #F5C518; margin-bottom: 30px; }
+.ttext { font-weight: 900; font-size: 84px; line-height: 1.12; color: #fff; text-transform: uppercase; }
+
+/* single big word */
+.kwrap { position: absolute; left: 60px; width: 880px; top: 760px; height: 420px; display: flex; align-items: center; justify-content: center; }
+.bigword { display: block; font-weight: 900; font-size: 150px; line-height: 1; color: #F5C518; text-align: center;
+  text-shadow: 0 0 40px rgba(245,197,24,.45); }
+
+/* presenter cards */
+.photocard .pcbg { position: absolute; inset: 0; background: radial-gradient(100% 70% at 50% 35%, #1B2433 0%, #0B0F14 80%); }
+.photocard .pcframe { position: absolute; left: 140px; width: 800px; top: 200px; height: 1200px; border-radius: 44px; overflow: hidden;
+  box-shadow: 0 40px 90px rgba(0,0,0,.55); background: #fff; }
+.photocard .pcframe img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 20%; transform-origin: 50% 30%; }
+.shade { background: linear-gradient(180deg, rgba(0,0,0,0) 35%, rgba(0,0,0,.55) 100%); }
+
+/* PIP (SO-TAY C6: lower-left, inside safe zone) */
+#pip { position: absolute; overflow: hidden; background: #111; transform-origin: 50% 50%; box-shadow: 0 18px 50px rgba(0,0,0,.55); }
+#pip .pipv { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+#pip .pipimg { position: absolute; inset: 0; overflow: hidden; }
+#pip .pipimg img { display: block; width: 100%; height: 100%; object-fit: cover; transform-origin: 50% 35%; }
+#pipRing { position: absolute; inset: 0; border: 6px solid #fff; box-sizing: border-box; }
+
+/* hook title (SO-TAY C3/C4: 2 lines uppercase, y≈760-1000, done before 1-2 s) */
+.hook { position: absolute; left: 0; right: 0; top: 0; bottom: 0; }
+.hookbox { position: absolute; left: 60px; width: 860px; top: 1040px; padding: 30px 36px; border-radius: 26px;
+  background: rgba(11,15,20,.88); box-shadow: 0 0 60px rgba(207,44,78,.45); display: block; }
+.hl { display: block; font-weight: 900; font-size: 62px; line-height: 1.12; color: #fff; }
+.hl:nth-child(2) { color: #F5C518; }
+
+/* chip (C8) */
+.chipc { position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
+.chip { position: absolute; left: 40px; top: 170px; padding: 12px 24px; border-radius: 999px; background: #F5C518; color: #111;
+  font-weight: 900; font-size: 34px; letter-spacing: 1px; display: block; }
+
+/* outro CTA (C13) */
+.cta { position: absolute; inset: 0; }
+.ctabox { position: absolute; left: 60px; width: 860px; top: 1230px; display: flex; flex-direction: column; align-items: flex-start; gap: 18px; }
+.pill { display: block; padding: 20px 36px; border-radius: 999px; background: #F5C518; color: #111; font-weight: 900; font-size: 52px; }
+.ctatext { display: block; font-weight: 800; font-size: 44px; color: #fff; text-shadow: 0 4px 14px rgba(0,0,0,.7); }
+
+/* optional burned captions (2 tiers per SO-TAY 3.2; kept above the PIP: y≈1100-1200) */
+.capc { position: absolute; inset: 0; }
+.cap { position: absolute; left: 60px; width: 860px; top: 1110px; text-align: center; font-weight: 900; font-size: 62px; line-height: 1.1;
+  color: #fff; -webkit-text-stroke: 7px #000; paint-order: stroke fill; text-shadow: 0 4px 0 rgba(0,0,0,.6); display: block; }
+
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-width="1080" data-height="1920" data-duration="19.167" data-fps="30">
+<div class="bgfill"></div>
+<div class="layer" id="w0"><video id="v0" class="full" src="assets/shot_00.mp4" muted playsinline data-start="1.508" data-duration="2.15" data-track-index="1"></video></div>
+<div class="layer" id="w1"><video id="v1" class="full" src="assets/shot_01.mp4" muted playsinline data-start="3.658" data-duration="2.748" data-track-index="1"></video></div>
+<div class="clip layer" id="s2" data-start="6.406" data-duration="5.374" data-track-index="1"><div class="kbbg" style="background-image:url(assets/img_02.png)"></div><div class="kbfit"><img id="k2" src="assets/img_02.png"/></div></div>
+<div class="clip layer fxbg" id="s3" data-start="11.78" data-duration="2.797" data-track-index="1"><div class="cardwrap"><div class="tcard" id="tc3"><div class="tbar"></div><div class="ttext">đoán cấu trúc protein bằng AlphaFold</div></div></div></div>
+<div class="layer" id="w4"><video id="v4" class="full" src="assets/shot_04.mp4" muted playsinline data-start="14.577" data-duration="1.665" data-track-index="1"></video></div>
+<div class="layer" id="introW"><video id="introV" class="full" src="assets/presenter_full.mp4" muted playsinline data-start="0" data-duration="1.508" data-media-start="0.000" data-track-index="2"></video></div>
+<div class="clip layer shade" data-start="0" data-duration="1.508" data-track-index="3"></div>
+<div class="layer" id="outroW"><video id="outroV" class="full" src="assets/presenter_full.mp4" muted playsinline data-start="16.242" data-duration="2.925" data-media-start="26.983" data-track-index="2"></video></div>
+<div class="clip layer shade" data-start="16.242" data-duration="2.925" data-track-index="3"></div>
+<div id="pip" style="left:60px;top:1260px;width:300px;height:300px;border-radius:50%"><video id="pv0" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="1.508" data-duration="2.15" data-media-start="31.994" data-track-index="4"></video><video id="pv1" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="3.658" data-duration="2.748" data-media-start="12.079" data-track-index="4"></video><video id="pv2" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="6.406" data-duration="2.5" data-media-start="43.915" data-track-index="4"></video><video id="pv3" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="8.906" data-duration="2.874" data-media-start="24.099" data-track-index="4"></video><video id="pv4" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="11.78" data-duration="2.797" data-media-start="4.609" data-track-index="4"></video><video id="pv5" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="14.577" data-duration="1.665" data-media-start="37.005" data-track-index="4"></video><div id="pipRing" style="border-radius:50%"></div></div>
+<div class="clip hook" data-start="0" data-duration="2.0" data-track-index="6"><div class="hookbox" id="hookbox"><div class="hl" id="hl0">AI GÓP PHẦN GIÀNH</div><div class="hl" id="hl1">NOBEL HÓA HỌC 2024</div></div></div>
+<div class="clip chipc" data-start="1.508" data-duration="14.734" data-track-index="6"><div class="chip" id="chip">TIN AI</div></div>
+<div class="clip cta" data-start="16.242" data-duration="2.925" data-track-index="6"><div class="ctabox" id="ctabox"><div class="pill">FOLLOW @hintonmedia</div><div class="ctatext">Follow để xem tin AI mỗi ngày</div></div></div>
+<audio id="vo" src="assets/voice.wav" data-start="0" data-duration="19.167" data-track-index="9" data-volume="0.79"></audio>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#w0",{scale:1},{scale:1.0537,duration:2.15,ease:"none"},1.508);
+tl.fromTo("#w1",{scale:1},{scale:1.0687,duration:2.748,ease:"none"},3.658);
+tl.fromTo("#k2",{scale:1.04,x:30},{scale:1.2550,x:-30,duration:5.374,ease:"none"},6.406);
+tl.fromTo("#tc3",{scale:0.8,opacity:0},{scale:1,opacity:1,duration:0.18,ease:"back.out(2.5)"},11.78);
+tl.to("#tc3",{scale:1.05,duration:2.617,ease:"none"},11.960);
+tl.fromTo("#w4",{scale:1},{scale:1.0416,duration:1.665,ease:"none"},14.577);
+tl.fromTo("#introW",{scale:1.0},{scale:1.0452,duration:1.508,ease:"none"},0);
+tl.fromTo("#outroW",{scale:1.0},{scale:1.0877,duration:2.925,ease:"none"},16.242);
+tl.fromTo("#pip",{scale:0.6,opacity:0},{scale:1,opacity:1,duration:0.3,ease:"back.out(2)"},1.508);
+tl.to("#pip",{opacity:0,duration:0.15},16.092);
+tl.fromTo("#hookbox",{scale:0.92,opacity:0},{scale:1,opacity:1,duration:0.2,ease:"power2.out"},0);
+tl.fromTo("#hl0",{clipPath:"inset(0% 100% 0% 0%)"},{clipPath:"inset(0% 0% 0% 0%)",duration:0.4,ease:"power2.inOut"},0.05);
+tl.fromTo("#hl1",{clipPath:"inset(0% 100% 0% 0%)"},{clipPath:"inset(0% 0% 0% 0%)",duration:0.4,ease:"power2.inOut"},0.35);
+tl.fromTo("#ctabox",{y:80,opacity:0},{y:0,opacity:1,duration:0.3,ease:"back.out(2)"},16.342);
+window.__timelines["main"] = tl;
+</script>
+</body></html>

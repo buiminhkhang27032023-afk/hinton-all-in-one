@@ -1,0 +1,254 @@
+{
+  "job_id": "MAP-FOOD-HP-01",
+  "mode": "food_tour",
+  "city": "Hải Phòng",
+  "map": {
+    "mosaic": "assets/map/haiphong-dark-z16.png",
+    "meta": "assets/map/map-meta-z16.json",
+    "attribution": "Tiles © Esri",
+    "disclaimer": "Số liệu Google Maps tham khảo, 10/2026"
+  },
+  "audio": {
+    "bgm_wav": "../audio/bgm/sunny-city-loop-100s.wav",
+    "bgm_title": "Sunny City",
+    "bgm_volume_db": -20,
+    "sfx_dir": "../audio/sfx"
+  },
+  "landmarks": [
+    {
+      "id": "nha-hat-lon",
+      "name": "Nhà hát Lớn",
+      "type": "landmark",
+      "lat": 20.857122,
+      "lng": 106.681811,
+      "coord_source": "places.json OSM Nominatim"
+    },
+    {
+      "id": "cho-sat",
+      "name": "Chợ Sắt",
+      "type": "landmark",
+      "lat": 20.855849,
+      "lng": 106.67095,
+      "coord_source": "places.json OSM (approx khu vực)"
+    },
+    {
+      "id": "avani",
+      "name": "Avani Harbour View",
+      "type": "hotel",
+      "lat": 20.864069,
+      "lng": 106.689622,
+      "coord_source": "places.json OSM Nominatim"
+    }
+  ],
+  "stops": [
+    {
+      "id": "bun-ca",
+      "diem": 1,
+      "name": "Bún cá miền duyên hải",
+      "short": "BÚN CÁ MIỀN DUYÊN HẢI",
+      "lat": 20.834096,
+      "lng": 106.701893,
+      "area": "Văn Cao, Ngô Quyền",
+      "food_emoji": "🐟",
+      "photo": "assets/food-photos/01-bun-ca.jpg",
+      "photo_kind": "illustration",
+      "rating": 4.5,
+      "reviews": 360,
+      "reviews_screen": "~360 review",
+      "hours_tag": "6:00–13:00",
+      "daypart": "Sáng",
+      "chips": [
+        "Bún cá cay",
+        "cá giòn"
+      ],
+      "price_screen": null,
+      "tag": null,
+      "quote": {
+        "text": "Phần ăn đầy đặn so với 35k, mình rất thích!",
+        "author": "Thực khách",
+        "label": "Review Google Maps (dịch)",
+        "stars": 5
+      }
+    },
+    {
+      "id": "ba-gia",
+      "diem": 2,
+      "name": "Bánh Mỳ Cay Bà Già",
+      "short": "BÁNH MỲ CAY BÀ GIÀ",
+      "lat": 20.858803,
+      "lng": 106.69303,
+      "area": "Lê Lợi, Ngô Quyền",
+      "food_emoji": "🥖",
+      "photo": "assets/food-photos/02-banh-mi.jpg",
+      "photo_kind": "photo",
+      "rating": 4.3,
+      "reviews": 292,
+      "reviews_screen": "~292 review",
+      "hours_tag": null,
+      "daypart": "Sáng",
+      "chips": [
+        "Bánh mì que",
+        "pa tê",
+        "tương ớt"
+      ],
+      "price_screen": null,
+      "tag": null,
+      "quote": {
+        "text": "Bánh mì cay ngon nhất phố, theo tôi. 3k một chiếc.",
+        "author": "Thực khách",
+        "label": "Review Google Maps (dịch)",
+        "stars": 5
+      }
+    },
+    {
+      "id": "quan-nga",
+      "diem": 3,
+      "name": "Quán Nga Nem Cua Bể",
+      "short": "QUÁN NGA NEM CUA BỂ",
+      "lat": 20.855448,
+      "lng": 106.682695,
+      "area": "Trần Nhật Duật · gần Nhà hát Lớn",
+      "food_emoji": "🦀",
+      "photo": "assets/food-photos/03-nem-cua.jpg",
+      "photo_kind": "photo",
+      "rating": 3.9,
+      "reviews": 757,
+      "reviews_screen": "~757 review",
+      "hours_tag": null,
+      "daypart": "Trưa",
+      "chips": [
+        "Nem cua bể",
+        "bún",
+        "thịt nướng"
+      ],
+      "price_screen": null,
+      "tag": null,
+      "quote": {
+        "text": "Nem cua bể tươi, nóng, giòn, đầy cua.",
+        "author": "Thực khách",
+        "label": "Review Google Maps (dịch)",
+        "stars": 5
+      }
+    },
+    {
+      "id": "co-chuyen",
+      "diem": 4,
+      "name": "Bánh đúc tàu Cô Chuyền",
+      "short": "BÁNH ĐÚC TÀU CÔ CHUYỀN",
+      "lat": 20.852667,
+      "lng": 106.677718,
+      "area": "Hai Bà Trưng, Lê Chân",
+      "food_emoji": "🥣",
+      "photo": "assets/food-photos/04-banh-duc.jpg",
+      "photo_kind": "illustration",
+      "rating": 4.4,
+      "reviews": 198,
+      "reviews_screen": "~198 review",
+      "hours_tag": "Đóng 17:00",
+      "daypart": "Trưa",
+      "chips": [
+        "Tôm",
+        "thịt",
+        "đu đủ",
+        "nước mắm giấm"
+      ],
+      "price_screen": "~12–20k/bát (tham khảo)",
+      "tag": null,
+      "quote": {
+        "text": "Ăn lạ lạ mà cũng rất ngon. Một bát 15k.",
+        "author": "Tran N. Y.",
+        "label": "Review toididau",
+        "stars": 5
+      }
+    },
+    {
+      "id": "ba-cu",
+      "diem": 5,
+      "name": "Bánh Đa Cua Bà Cụ",
+      "short": "BÁNH ĐA CUA BÀ CỤ",
+      "lat": 20.852665,
+      "lng": 106.685484,
+      "area": "Cầu Đất",
+      "food_emoji": "🍜",
+      "photo": "assets/food-photos/05-banh-da-cua.jpg",
+      "photo_kind": "photo",
+      "rating": 3.8,
+      "reviews": 1771,
+      "reviews_screen": "~1.771 review",
+      "hours_tag": null,
+      "daypart": "Chiều",
+      "chips": [
+        "Bánh đa cua bể",
+        "nem cua"
+      ],
+      "price_screen": null,
+      "tag": "Nhiều review nhất tuyến",
+      "quote": {
+        "text": "Nem cua và bánh đa cua ngon, ăn rất thích.",
+        "author": "Thực khách",
+        "label": "Review Google Maps (dịch)",
+        "stars": 4
+      }
+    },
+    {
+      "id": "lau-dat-cang",
+      "diem": 6,
+      "name": "Lẩu Cua Đồng Đất Cảng",
+      "short": "LẨU CUA ĐỒNG ĐẤT CẢNG",
+      "lat": 20.847661,
+      "lng": 106.679693,
+      "area": "Dư Hàng, Lê Chân",
+      "food_emoji": "🍲",
+      "photo": "assets/food-photos/06-lau-cua.jpg",
+      "photo_kind": "photo",
+      "rating": 4.9,
+      "reviews": 287,
+      "reviews_screen": "~287 review",
+      "hours_tag": "Đến 22:30",
+      "daypart": "Tối",
+      "chips": [
+        "Lẩu cua đồng"
+      ],
+      "price_screen": null,
+      "tag": null,
+      "quote": {
+        "text": "Nước dùng cua tuyệt vời.",
+        "author": "Thực khách",
+        "label": "Review Google Maps (dịch)",
+        "stars": 5
+      }
+    },
+    {
+      "id": "co-ut",
+      "diem": 7,
+      "name": "Sủi dìn Cô Út",
+      "short": "SỦI DÌN CÔ ÚT",
+      "lat": 20.852954,
+      "lng": 106.685123,
+      "area": "Cầu Đất",
+      "food_emoji": "🍡",
+      "photo": "assets/food-photos/07-sui-din.jpg",
+      "photo_kind": "illustration",
+      "rating": 4.4,
+      "reviews": 205,
+      "reviews_screen": "~205 review",
+      "hours_tag": "Từ 15:00",
+      "daypart": "Tráng miệng",
+      "chips": [
+        "Sủi dìn",
+        "chè vừng",
+        "chè đậu"
+      ],
+      "price_screen": "~10–15k/bát",
+      "tag": "KẾT TOUR",
+      "quote": {
+        "text": "Sủi dìn ngon nhất! Nước đường không quá ngọt.",
+        "author": "Thực khách",
+        "label": "Review Google Maps (dịch)",
+        "stars": 5
+      }
+    }
+  ],
+  "scenes": [],
+  "duration": 90.0
+}

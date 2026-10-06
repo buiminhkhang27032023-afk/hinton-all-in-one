@@ -1,0 +1,24 @@
+# Video tin tức
+
+- id: 0dfc3c52-ec62-478f-8d2b-6a789bccc917
+- title: 
+
+## Persona / instructions
+
+(không có description — đây là group channel, xem group.json)
+
+## group.json
+```json
+{
+  "version": 1,
+  "memberIds": [
+    "6271bde2-38e5-40bc-a9e3-af9ec21d22a3",
+    "25147768-ba52-4e48-acd4-d0b092c1abc2",
+    "fe4ac9e1-51be-4b73-87f2-b5c6c5375635",
+    "28a3315d-421e-48fd-b2e3-42a2f546be77",
+    "7f03dd91-0ab4-4e10-bc00-b54430d0228c",
+    "50f63b9b-41ea-4b32-a627-631d10edbcb3"
+  ]
+}
+
+```

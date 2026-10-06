@@ -1,0 +1,31 @@
+[  0.00-  2.88] But I just launched a massive update for Codex.
+[  3.02-  4.80] If you're building anything on the internet,
+[  4.90-  6.06] this will be a huge unlock.
+[  6.30-  8.86] Codex can now generate fully functional previews
+[  8.86- 11.10] of the app directly in the sidebar.
+[ 11.24- 12.90] This means docs, PDFs and slides,
+[ 13.10- 15.70] but also full apps that you can see and test
+[ 15.70- 16.82] right in your workflow.
+[ 17.02- 19.40] It can also create image sets super easily
+[ 19.40- 22.76] with mockups, UI elements, or even games.
+[ 22.98- 23.76] What this really means means is that
+[ 23.76- 26.04] your work can now be done directly
+[ 26.04- 28.38] in the Codex experience without needing
+[ 28.38- 30.00] to leave and tab around.
+[ 30.26- 32.50] Now, we'll say the sneaky most impressive thing
+[ 32.50- 35.34] about this update has nothing to do with coding coding at all.
+[ 35.58- 38.42] It's all about productivity because the upgraded Codex
+[ 38.42- 40.50] is now one of the best tools in the world
+[ 40.50- 42.50] for automating your daily work.
+[ 42.62- 44.70] So even if you don't code, you should be using this
+[ 44.70- 46.96] to get a ton of your work done way faster.
+[ 47.12- 47.86] This is my favorite feature.
+[ 48.02- 50.26] Codex now has full computer use,
+[ 50.34- 52.56] meaning it can see, click, and type
+[ 52.56- 54.34] on any app in the background
+[ 54.34- 55.94] for whatever task you need it for.
+[ 55.94- 59.42] It also has access to all the plugins and skills that you'd want.
+[ 59.52- 63.30] So you can use it to create something like your Chief of Staff morning automation, where
+[ 63.30- 67.96] it scans Slack, Notion, Gmail, and Calendar and preps you for the day every morning.
+[ 68.10- 72.20] If you want to try it out, you can download it at openai.com or just comment AI and
+[ 72.20- 72.88] I'll send you the link.

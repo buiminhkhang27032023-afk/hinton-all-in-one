@@ -1,0 +1,224 @@
+import subprocess
+"""Footage gathering (no render lock needed: downloads + analysis only).
+
+1. Stock (MoneyPrinterTurbo-style): per-sentence keywords -> Pexels / Pixabay video search.
+   Only runs if PEXELS_API_KEY / PIXABAY_API_KEY env var exists; otherwise skipped + noted.
+2. Demo URLs (broll_urls.txt): yt-dlp downloads a section, PySceneDetect splits shots,
+   we keep 1-3 s sub-clips (cut later, inside the render lock).
+3. Screenshots: images in screenshots/ + optional screenshot_urls.txt (headless Chrome).
+"""
+import json, os, re, shutil, subprocess, urllib.parse, urllib.request
+from pathlib import Path
+from .common import log, run, media_duration, find_input, REPO
+from .text_vi import guess_keywords
+
+VENV_BIN = REPO / ".venv" / "bin"
+NODE = "/home/box/.local/bin/node"
+IMG_EXT = {".png", ".jpg", ".jpeg", ".webp"}
+
+
+# ---------------- stock ----------------
+def _http_json(url, headers=None):
+    req = urllib.request.Request(url, headers={"User-Agent": "hinton-pipeline/1.0", **(headers or {})})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.loads(r.read().decode())
+
+
+def _download(url, dst):
+    req = urllib.request.Request(url, headers={"User-Agent": "hinton-pipeline/1.0"})
+    with urllib.request.urlopen(req, timeout=120) as r, open(dst, "wb") as f:
+        shutil.copyfileobj(r, f)
+
+
+def pexels_search(q, key, n=3):
+    url = "https://api.pexels.com/videos/search?" + urllib.parse.urlencode(
+        {"query": q, "orientation": "portrait", "per_page": n, "size": "medium"})
+    data = _http_json(url, {"Authorization": key})
+    out = []
+    for v in data.get("videos", []):
+        files = [f for f in v.get("video_files", []) if f.get("height") and f["height"] >= 1280]
+        files = sorted(files, key=lambda f: abs(f["height"] - 1920)) or v.get("video_files", [])
+        if files:
+            out.append({"url": files[0]["link"], "credit": f"Pexels · {v.get('user', {}).get('name', '')} · {v.get('url')}",
+                        "duration": v.get("duration")})
+    return out
+
+
+def pixabay_search(q, key, n=3):
+    url = "https://pixabay.com/api/videos/?" + urllib.parse.urlencode({"key": key, "q": q, "per_page": max(3, n)})
+    data = _http_json(url)
+    out = []
+    for h in data.get("hits", [])[:n]:
+        vids = h.get("videos", {})
+        best = vids.get("large") or vids.get("medium") or vids.get("small")
+        if best and best.get("url"):
+            out.append({"url": best["url"], "credit": f"Pixabay · {h.get('user')} · {h.get('pageURL')}",
+                        "duration": h.get("duration")})
+    return out
+
+
+def fetch_stock(sentences, job: Path, work: Path, cfg, notes):
+    fc = cfg["footage"]
+    pk, xk = os.environ.get(fc["pexels_env"]), os.environ.get(fc["pixabay_env"])
+    if not fc["stock_enabled"]:
+        notes.append("stock footage disabled in config"); return {}
+    if not pk and not xk:
+        notes.append(f"stock footage SKIPPED: no {fc['pexels_env']} / {fc['pixabay_env']} env var")
+        log.warning(notes[-1]); return {}
+    kw_file = find_input(job, fc["keywords_file"])
+    manual = []
+    if kw_file:
+        manual = [l.strip() for l in kw_file.read_text(encoding="utf-8").splitlines()]
+    d = work / "stock"; d.mkdir(parents=True, exist_ok=True)
+    res = {}
+    for i, s in enumerate(sentences):
+        kws = [k.strip() for k in manual[i].split(",")] if i < len(manual) and manual[i] else guess_keywords(s)
+        got = []
+        for q in kws:
+            try:
+                hits = pexels_search(q, pk) if pk else []
+                if not hits and xk:
+                    hits = pixabay_search(q, xk)
+            except Exception as e:
+                log.warning("stock search failed for %r: %s", q, e); hits = []
+            for h in hits[: fc["stock_per_sentence"]]:
+                dst = d / f"s{i:02d}_{len(got)}.mp4"
+                if not dst.exists():
+                    try:
+                        _download(h["url"], dst)
+                    except Exception as e:
+                        log.warning("stock download failed: %s", e); continue
+                dur = media_duration(dst)
+                got.append({"src": str(dst), "start": min(1.0, dur / 4), "dur": min(dur, 6.0), "credit": h["credit"],
+                            "kind": "stock", "keyword": q})
+            if len(got) >= fc["stock_per_sentence"]:
+                break
+        log.info("stock sentence %d keywords=%s -> %d clips", i, kws, len(got))
+        res[i] = got
+    return res
+
+
+# ---------------- demo URLs: yt-dlp + PySceneDetect ----------------
+def parse_broll_lines(path: Path, default_section):
+    items = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        parts = line.split()
+        url, section = parts[0], (parts[1] if len(parts) > 1 else default_section)
+        items.append({"url": url, "section": section})
+    return items
+
+
+def _to_sec(x):
+    x = x.strip()
+    if ":" in x:
+        p = [float(v) for v in x.split(":")]
+        return sum(v * 60 ** i for i, v in enumerate(reversed(p)))
+    return float(x)
+
+
+def ytdlp_download(item, d: Path, idx, cfg):
+    fc = cfg["footage"]
+    a, b = item["section"].split("-")
+    out_tmpl = str(d / f"url{idx:02d}.%(ext)s")
+    existing = sorted(d.glob(f"url{idx:02d}.*"))
+    existing = [p for p in existing if p.suffix in (".mp4", ".webm", ".mkv", ".ogv")]
+    if existing:
+        return existing[0], None
+    h = fc["ytdlp_max_height"]
+    cmd = [str(VENV_BIN / "yt-dlp"), "--no-playlist", "--no-progress", "-f",
+           f"bv*[height<={h}][ext=mp4]/bv*[height<={h}]/b[height<={h}]/bv*/b",
+           "--download-sections", f"*{_to_sec(a)}-{_to_sec(b)}", "--force-keyframes-at-cuts",
+           "--js-runtimes", f"node:{NODE}", "-o", out_tmpl,
+           "--print-to-file", "%(title)s | %(uploader)s | %(webpage_url)s | %(license)s", str(d / f"url{idx:02d}.info.txt"),
+           item["url"]]
+    r = run(cmd, check=False, capture=True, timeout=900)
+    files = [p for p in sorted(d.glob(f"url{idx:02d}.*")) if p.suffix in (".mp4", ".webm", ".mkv", ".ogv")]
+    if r.returncode != 0 or not files:
+        return None, (r.stderr or "")[-400:]
+    return files[0], None
+
+
+def scene_clips(src: Path, cfg, credit):
+    from scenedetect import detect, ContentDetector
+    fc = cfg["footage"]
+    try:
+        scenes = detect(str(src), ContentDetector(threshold=fc["scene_threshold"]))
+        spans = [(s.get_seconds(), e.get_seconds()) for s, e in scenes]
+    except Exception as e:
+        log.warning("scenedetect failed on %s: %s", src, e); spans = []
+    total = media_duration(src)
+    if not spans:
+        spans = [(0.0, total)]
+    clips = []
+    cmin, cmax = fc["clip_min"], fc["clip_max"]
+    for a, b in spans:
+        L = b - a - 0.2  # avoid the transition frames
+        if L < cmin:
+            continue
+        n = max(1, int(L // (cmax * 2)))  # long single shots -> several windows
+        for k in range(n):
+            seg_a = a + 0.1 + k * (L / n)
+            seg_L = min(cmax, L / n)
+            off = max(0.0, (L / n - seg_L) / 2)
+            clips.append({"src": str(src), "start": round(seg_a + off, 3), "dur": round(seg_L, 3),
+                          "credit": credit, "kind": "demo"})
+    # spread choices across the whole source
+    if len(clips) > fc["max_clips_per_url"]:
+        step = len(clips) / fc["max_clips_per_url"]
+        clips = [clips[int(i * step)] for i in range(fc["max_clips_per_url"])]
+    log.info("scenedetect %s: %d scenes -> %d clips", src.name, len(spans), len(clips))
+    return clips
+
+
+def fetch_demo(job: Path, work: Path, cfg, notes):
+    fc = cfg["footage"]
+    f = find_input(job, fc["broll_urls_file"])
+    if not f:
+        notes.append("no broll_urls.txt -> no demo clips"); return []
+    d = work / "demo"; d.mkdir(parents=True, exist_ok=True)
+    clips, credits = [], []
+    for i, it in enumerate(parse_broll_lines(f, fc["ytdlp_section_default"])):
+        src, err = ytdlp_download(it, d, i, cfg)
+        if not src:
+            notes.append(f"yt-dlp FAILED for {it['url']}: {err}"); log.warning(notes[-1]); continue
+        info = d / f"url{i:02d}.info.txt"
+        credit = info.read_text(encoding="utf-8").strip().splitlines()[0] if info.exists() else it["url"]
+        credits.append(credit)
+        clips += scene_clips(src, cfg, credit)
+    return clips
+
+
+# ---------------- screenshots ----------------
+def fetch_screenshots(job: Path, work: Path, cfg, notes):
+    fc = cfg["footage"]
+    out = []
+    sd = find_input(job, fc["screenshots_dir"])
+    if sd and sd.is_dir():
+        out += [str(p) for p in sorted(sd.iterdir()) if p.suffix.lower() in IMG_EXT]
+    su = find_input(job, "screenshot_urls.txt")
+    if su:
+        d = work / "webshots"; d.mkdir(parents=True, exist_ok=True)
+        for i, line in enumerate(l.strip() for l in su.read_text().splitlines()):
+            if not line or line.startswith("#"):
+                continue
+            # optional per-line options: URL | name=nobel_pr | w=1100 | h=2200 | scale=2 | wait=9000
+            parts = [p.strip() for p in line.split("|")]; url = parts[0]
+            o = dict(p.split("=", 1) for p in parts[1:] if "=" in p)
+            dst = d / (f"{o['name']}.png" if o.get("name") else f"web{i:02d}.png")
+            if not dst.exists():
+                try: run(["google-chrome", "--headless=new", "--no-sandbox", "--disable-gpu", "--hide-scrollbars",
+                     f"--window-size={o.get('w', 1080)},{o.get('h', 1500)}", f"--force-device-scale-factor={o.get('scale', 1)}",
+                     f"--screenshot={dst}", f"--virtual-time-budget={o.get('wait', 8000)}", "--lang=en-US",
+                     "--user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36",
+                     url], check=False, capture=True, timeout=int(o.get("timeout", 60)))
+                except Exception as e:
+                    notes.append(f"screenshot timeout/error {url}: {type(e).__name__}"); subprocess.run(["pkill", "-f", f"--screenshot={dst}"])
+            if dst.exists():
+                out.append(str(dst))
+            else:
+                notes.append(f"screenshot failed: {url}")
+    log.info("screenshots: %d", len(out))
+    return out

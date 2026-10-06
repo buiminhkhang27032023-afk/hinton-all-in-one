@@ -1,0 +1,30 @@
+AI chơi WoW mà không nhìn màn hình.
+Bốn mươi phút.
+Không chết lần nào.
+Không nhận một khung hình nào.
+Chỉ đọc gói tin mạng và file SQL.
+Một developer giao Codex đúng một câu lệnh.
+Tạo orc.
+Làm hết nhiệm vụ khu khởi đầu.
+Codex chạy GPT sáu Astra mức suy luận cực cao.
+Đây không phải công bố của OpenAI.
+Agent-wow không có sẵn di chuyển hay đánh nhau.
+Nó phải tự viết toàn bộ module từ đầu.
+Bắt hai mươi tám loại tin nhắn server.
+Viết script Python dựng bản đồ thế giới.
+Tự viết công cụ tìm đường bằng C cộng cộng.
+Dùng navmesh AzerothCore và thư viện Detour.
+Developer khen đường đi là tối ưu.
+Nó lên kế hoạch: nhiệm vụ theo đúng thứ tự.
+Bán đồ rác.
+Mặc đồ xịn hơn.
+Học kỹ năng trước khi vào hang cuối.
+Nhận cả hai nhiệm vụ hang làm một lần.
+Từ Valley of Trials tới tận Sen'jin Village.
+Nhưng đây là thí nghiệm của một developer độc lập.
+Chưa ai kiểm chứng độc lập.
+Chạy server riêng AzerothCore, không phải Blizzard.
+Agent còn lách qua tường ở chỗ lỗi bản đồ.
+Trước đó developer tự viết mười sáu nghìn dòng code, lỗi quá nên bỏ.
+Mục tiêu: lấp server bằng AI để đánh raid heroic.
+Nếu AI chơi game mà không cần nhìn, bạn nghĩ sao?

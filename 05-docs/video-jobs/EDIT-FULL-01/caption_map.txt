@@ -1,0 +1,10 @@
+# spoken => display (dài trước)
+Tháng mười năm hai nghìn không trăm hai mươi bốn => Tháng 10/2024
+năm hai nghìn không trăm hai mươi bốn => năm 2024
+năm hai nghìn không trăm hai mươi => năm 2020
+hai trăm triệu => 200 triệu
+hai triệu => 2 triệu
+một trăm chín mươi => 190
+AlphaFold hai => AlphaFold 2
+AlphaFold ba => AlphaFold 3
+ba chiều => 3D

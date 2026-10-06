@@ -1,0 +1,979 @@
+{
+  "hook": {
+    "t0": 0,
+    "t1": 1.94,
+    "lines": [
+      "GEMINI 4 ARGON",
+      "MẠNH NHẤT NHƯNG CHƯA MỞ"
+    ],
+    "top": 250,
+    "wipe": 0.5
+  },
+  "shots": [
+    {
+      "type": "clip",
+      "mode": "cover",
+      "zoom": 1.15,
+      "cy": 0.42,
+      "label": "Gemini 4 Argon · blog.google",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/yt/keyart.mp4",
+      "credit": "Google — Gemini 4 key art (blog.google)",
+      "at": 0.0,
+      "_line": "Google vừa tung ra mô hình AI mạnh nhất từ trước tới nay, nh"
+    },
+    {
+      "type": "face",
+      "at": 1.94,
+      "_line": "Google vừa tung ra mô hình AI mạnh nhất từ trước tới nay, nh"
+    },
+    {
+      "type": "web",
+      "cy": 0.36,
+      "z1": 1300.0,
+      "zr": 1.12,
+      "label": "blog.google · Argon",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/gblog.png",
+      "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/gblog.json",
+      "hl": [
+        {
+          "find": "rolling out to a set of trusted cyber defenders",
+          "style": "marker",
+          "at": 0.2
+        }
+      ],
+      "url": "blog.google/innovation-and-ai/models-and-research/gemini-models/gemini",
+      "credit": "Screenshot https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "at": 2.86,
+      "_line": "Google vừa tung ra mô hình AI mạnh nhất từ trước tới nay, nh"
+    },
+    {
+      "type": "web",
+      "cy": 0.34,
+      "z1": 1200.0,
+      "zr": 1.12,
+      "label": "blog.google · 30/09",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/gblog.png",
+      "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/gblog.json",
+      "hl": [
+        {
+          "find": "Sep 30, 2026",
+          "style": "box",
+          "at": 0.2
+        },
+        {
+          "find": "Gemini 4 Argon: our",
+          "style": "underline",
+          "at": 0.55
+        }
+      ],
+      "url": "blog.google/innovation-and-ai/models-and-research/gemini-models/gemini",
+      "credit": "Screenshot https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "at": 4.26,
+      "_line": "Ngày ba mươi tháng chín, Google công bố Gemini bốn Argon, lớ"
+    },
+    {
+      "type": "clip",
+      "ss": 4.0,
+      "mode": "cover",
+      "zoom": 1.2,
+      "cy": 0.4,
+      "label": "CNBC · 30/09",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/yt/cnbc_ann.mp4",
+      "credit": "CNBC — Google announces new frontier model called Gemini 4 Argon (30/09/2026)",
+      "at": 5.28,
+      "_line": "Ngày ba mươi tháng chín, Google công bố Gemini bốn Argon, lớ"
+    },
+    {
+      "type": "web",
+      "cy": 0.36,
+      "z1": 1300.0,
+      "zr": 1.12,
+      "label": "Reuters · Tribune",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/reuters_tribune.png",
+      "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/reuters_tribune.json",
+      "hl": [
+        {
+          "find": "is larger in size than Google's previous line of advanced",
+          "style": "marker",
+          "at": 0.2
+        }
+      ],
+      "url": "tribune.com.pk/story/2632456/google-announces-gemini-4-flagship-ai-mod",
+      "credit": "Screenshot https://tribune.com.pk/story/2632456/google-announces-gemini-4-flagship-ai-model-after-months-of-delays",
+      "at": 6.72,
+      "_line": "Ngày ba mươi tháng chín, Google công bố Gemini bốn Argon, lớ"
+    },
+    {
+      "type": "web",
+      "cy": 0.36,
+      "z1": 1300.0,
+      "zr": 1.12,
+      "label": "deepmind.google · Cyber",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/dm_cyber.png",
+      "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/dm_cyber.json",
+      "hl": [
+        {
+          "find": "Gemini 4 Argon with cybersecurity defense capabilities",
+          "style": "underline",
+          "at": 0.2
+        }
+      ],
+      "url": "deepmind.google/models/gemini/cyber/",
+      "credit": "Screenshot https://deepmind.google/models/gemini/cyber/",
+      "at": 8.1,
+      "_line": "Đợt đầu, Argon chỉ phát cho các chuyên gia phòng thủ an ninh"
+    },
+    {
+      "type": "phone",
+      "cy": 0.34,
+      "z1": 1200.0,
+      "zr": 1.12,
+      "label": "X · @GoogleDeepMind",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/x_gdm.png",
+      "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/x_gdm.json",
+      "hl": [
+        {
+          "find": "today to a set of trusted testers through our Fairwind",
+          "style": "marker",
+          "at": 0.2
+        }
+      ],
+      "url": "platform.twitter.com/embed/Tweet.html",
+      "credit": "Screenshot https://platform.twitter.com/embed/Tweet.html?id=2105388084154056939&theme=light&lang=en",
+      "at": 9.82,
+      "_line": "Đợt đầu, Argon chỉ phát cho các chuyên gia phòng thủ an ninh"
+    },
+    {
+      "type": "web",
+      "cy": 0.36,
+      "z1": 1300.0,
+      "zr": 1.12,
+      "label": "Reuters · Tribune",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/reuters_tribune.png",
+      "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/reuters_tribune.json",
+      "hl": [
+        {
+          "find": "It did not provide a timeline for the model's public release",
+          "style": "marker",
+          "at": 0.2
+        }
+      ],
+      "url": "tribune.com.pk/story/2632456/google-announces-gemini-4-flagship-ai-mod",
+      "credit": "Screenshot https://tribune.com.pk/story/2632456/google-announces-gemini-4-flagship-ai-model-after-months-of-delays",
+      "at": 11.64,
+      "_line": "Đợt đầu, Argon chỉ phát cho các chuyên gia phòng thủ an ninh"
+    },
+    {
+      "type": "face",
+      "zoom": 1.1,
+      "big": "MẠNH?",
+      "at": 13.32,
+      "_line": "Vậy nó mạnh cỡ nào?"
+    },
+    {
+      "type": "web",
+      "cy": 0.34,
+      "z1": 1300.0,
+      "zr": 1.12,
+      "label": "blog.google · đầu ra",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/gblog.png",
+      "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/gblog.json",
+      "hl": [
+        {
+          "find": "output token limit to an industry-leading 1M tokens, up from the",
+          "style": "marker",
+          "at": 0.2
+        },
+        {
+          "find": "previous 64K tokens.",
+          "style": "marker",
+          "at": 0.55
+        }
+      ],
+      "url": "blog.google/innovation-and-ai/models-and-research/gemini-models/gemini",
+      "credit": "Screenshot https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "at": 14.6,
+      "_line": "Giới hạn đầu ra tăng từ sáu mươi tư nghìn lên một triệu toke"
+    },
+    {
+      "type": "stat",
+      "seed": 5,
+      "label": "Nguồn: Google",
+      "lines": [
+        {
+          "text": "64K",
+          "size": 200,
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "at": 0.0
+        },
+        {
+          "text": "trước đây",
+          "size": 76,
+          "color": [
+            255,
+            196,
+            0
+          ],
+          "w": "Bold",
+          "at": 0.2
+        },
+        {
+          "text": "1M",
+          "size": 200,
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "at": 0.5
+        },
+        {
+          "text": "token đầu ra",
+          "size": 76,
+          "color": [
+            255,
+            196,
+            0
+          ],
+          "w": "Bold",
+          "at": 0.7
+        }
+      ],
+      "y": 420,
+      "at": 16.58,
+      "_line": "Giới hạn đầu ra tăng từ sáu mươi tư nghìn lên một triệu toke"
+    },
+    {
+      "type": "clip",
+      "ss": 72.5,
+      "mode": "cover",
+      "zoom": 1.15,
+      "cx": 0.85,
+      "cy": 0.4,
+      "label": "CNBC · giá",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/yt/cnbc_chief.mp4",
+      "credit": "CNBC — Google's Gemini product chief details weeks of company-wide testing (30/09/2026)",
+      "at": 17.84,
+      "_line": "Giá mở màn là hai đô la cho một triệu token đầu vào, và mười"
+    },
+    {
+      "type": "web",
+      "cy": 0.34,
+      "z1": 1200.0,
+      "zr": 1.12,
+      "label": "blog.google · giá",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/gblog.png",
+      "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/gblog.json",
+      "hl": [
+        {
+          "find": "of $2 per million",
+          "style": "marker",
+          "at": 0.2
+        },
+        {
+          "find": "input tokens and $10 per million output tokens",
+          "style": "marker",
+          "at": 0.55
+        }
+      ],
+      "url": "blog.google/innovation-and-ai/models-and-research/gemini-models/gemini",
+      "credit": "Screenshot https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "at": 19.072,
+      "_line": "Giá mở màn là hai đô la cho một triệu token đầu vào, và mười"
+    },
+    {
+      "type": "stat",
+      "seed": 9,
+      "label": "Nguồn: Google",
+      "lines": [
+        {
+          "text": "2 USD",
+          "size": 200,
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "at": 0.0
+        },
+        {
+          "text": "1 triệu token vào",
+          "size": 76,
+          "color": [
+            255,
+            196,
+            0
+          ],
+          "w": "Bold",
+          "at": 0.2
+        },
+        {
+          "text": "10 USD",
+          "size": 200,
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "at": 0.5
+        },
+        {
+          "text": "1 triệu token ra",
+          "size": 76,
+          "color": [
+            255,
+            196,
+            0
+          ],
+          "w": "Bold",
+          "at": 0.7
+        }
+      ],
+      "y": 420,
+      "at": 20.32,
+      "_line": "Giá mở màn là hai đô la cho một triệu token đầu vào, và mười"
+    },
+    {
+      "type": "clip",
+      "mode": "cover",
+      "zoom": 1.45,
+      "cy": 0.38,
+      "label": "DeepMind · tự công bố",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/yt/ev_table.mp4",
+      "credit": "Google DeepMind — bảng benchmark Gemini 4 Argon (X @GoogleDeepMind)",
+      "at": 22.12,
+      "_line": "Theo số liệu Google tự công bố, Argon đạt bảy mươi bảy phẩy "
+    },
+    {
+      "type": "web",
+      "cy": 0.34,
+      "z1": 1200.0,
+      "zr": 1.12,
+      "label": "blog.google · DeepSWE",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/gblog.png",
+      "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/gblog.json",
+      "hl": [
+        {
+          "find": "77.9%",
+          "style": "box",
+          "at": 0.2
+        },
+        {
+          "find": "DeepSWE v1.1",
+          "style": "underline",
+          "at": 0.55
+        }
+      ],
+      "url": "blog.google/innovation-and-ai/models-and-research/gemini-models/gemini",
+      "credit": "Screenshot https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "at": 23.62,
+      "_line": "Theo số liệu Google tự công bố, Argon đạt bảy mươi bảy phẩy "
+    },
+    {
+      "type": "clip",
+      "mode": "cover",
+      "zoom": 1.25,
+      "cy": 0.38,
+      "label": "AutomationBench",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/yt/ev_auto.mp4",
+      "credit": "Google — Gemini 4 Argon evals: AutomationBench (blog.google)",
+      "at": 25.527,
+      "_line": "Theo số liệu Google tự công bố, Argon đạt bảy mươi bảy phẩy "
+    },
+    {
+      "type": "phone",
+      "cy": 0.34,
+      "z1": 1100.0,
+      "zr": 1.12,
+      "label": "X · @GoogleDeepMind",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/x_gdm.png",
+      "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/x_gdm.json",
+      "hl": [
+        {
+          "find": "51.3%",
+          "style": "box",
+          "at": 0.2
+        }
+      ],
+      "url": "platform.twitter.com/embed/Tweet.html",
+      "credit": "Screenshot https://platform.twitter.com/embed/Tweet.html?id=2105388084154056939&theme=light&lang=en",
+      "at": 27.26,
+      "_line": "Theo số liệu Google tự công bố, Argon đạt bảy mươi bảy phẩy "
+    },
+    {
+      "type": "web",
+      "cy": 0.34,
+      "z1": 1200.0,
+      "zr": 1.12,
+      "label": "blog.google · LVBench",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/gblog.png",
+      "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/gblog.json",
+      "hl": [
+        {
+          "find": "91.7%",
+          "style": "box",
+          "at": 0.2
+        },
+        {
+          "find": "LVBench",
+          "style": "underline",
+          "at": 0.55
+        }
+      ],
+      "url": "blog.google/innovation-and-ai/models-and-research/gemini-models/gemini",
+      "credit": "Screenshot https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "at": 28.46,
+      "_line": "Theo số liệu Google tự công bố, Argon đạt bảy mươi bảy phẩy "
+    },
+    {
+      "type": "face",
+      "zoom": 1.06,
+      "at": 30.288,
+      "_line": "Nhưng Reuters lưu ý, Argon vẫn thua ở hai trong bốn bài kiểm"
+    },
+    {
+      "type": "web",
+      "cy": 0.34,
+      "z1": 1200.0,
+      "zr": 1.12,
+      "label": "Reuters · Devdiscourse",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/reuters_dd.png",
+      "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/reuters_dd.json",
+      "hl": [
+        {
+          "find": "Argon remained behind on certain other metrics",
+          "style": "marker",
+          "at": 0.2
+        },
+        {
+          "find": "including two of the four coding-related benchmarks",
+          "style": "marker",
+          "at": 0.55
+        }
+      ],
+      "url": "devdiscourse.com/article/international/3984852-google-announces-gemini",
+      "credit": "Screenshot https://www.devdiscourse.com/article/international/3984852-google-announces-gemini-4-flagship-ai-model-after-months-of-delays",
+      "at": 31.58,
+      "_line": "Nhưng Reuters lưu ý, Argon vẫn thua ở hai trong bốn bài kiểm"
+    },
+    {
+      "type": "split",
+      "top": {
+        "type": "web",
+        "label": "FrontierSWE · GPT hơn",
+        "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/gblog.png",
+        "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/gblog.json",
+        "hl": [
+          {
+            "find": "65.5%",
+            "style": "box",
+            "at": 0.2
+          }
+        ],
+        "url": "blog.google/innovation-and-ai/models-and-research/gemini-models/gemini",
+        "credit": "Screenshot https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+      },
+      "bottom": {
+        "type": "phone",
+        "label": "Terminal · Opus hơn",
+        "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/x_gdm.png",
+        "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/x_gdm.json",
+        "hl": [
+          {
+            "find": "66.4%",
+            "style": "box",
+            "at": 0.2
+          }
+        ],
+        "url": "platform.twitter.com/embed/Tweet.html",
+        "credit": "Screenshot https://platform.twitter.com/embed/Tweet.html?id=2105388084154056939&theme=light&lang=en",
+        "z1": 1500
+      },
+      "credit": "Screenshot https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/ + Screenshot https://platform.twitter.com/embed/Tweet.html?id=2105388084154056939&theme=light&lang=en",
+      "at": 33.14,
+      "_line": "Nhưng Reuters lưu ý, Argon vẫn thua ở hai trong bốn bài kiểm"
+    },
+    {
+      "type": "clip",
+      "ss": 58.0,
+      "mode": "cover",
+      "zoom": 1.2,
+      "cy": 0.4,
+      "label": "CNBC · Argon nội bộ",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/yt/cnbc_ann.mp4",
+      "credit": "CNBC — Google announces new frontier model called Gemini 4 Argon (30/09/2026)",
+      "at": 35.04,
+      "_line": "Điều đáng chú ý hơn nằm ngay bên trong Google."
+    },
+    {
+      "type": "web",
+      "cy": 0.36,
+      "z1": 1300.0,
+      "zr": 1.12,
+      "label": "blog.google · nội bộ",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/gblog.png",
+      "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/gblog.json",
+      "hl": [
+        {
+          "find": "Gemini 4 Argon is already powering our internal workflows",
+          "style": "marker",
+          "at": 0.2
+        }
+      ],
+      "url": "blog.google/innovation-and-ai/models-and-research/gemini-models/gemini",
+      "credit": "Screenshot https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "at": 36.12,
+      "_line": "Điều đáng chú ý hơn nằm ngay bên trong Google."
+    },
+    {
+      "type": "web",
+      "cy": 0.34,
+      "z1": 1300.0,
+      "zr": 1.12,
+      "label": "blog.google · bộ nhớ",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/gblog.png",
+      "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/gblog.json",
+      "hl": [
+        {
+          "find": "across Google's data centers, freeing",
+          "style": "marker",
+          "at": 0.2
+        },
+        {
+          "find": "over 300 TiB of memory",
+          "style": "marker",
+          "at": 0.55
+        }
+      ],
+      "url": "blog.google/innovation-and-ai/models-and-research/gemini-models/gemini",
+      "credit": "Screenshot https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "at": 37.19,
+      "_line": "Argon đã giúp giải phóng hơn ba trăm tebibyte bộ nhớ trong c"
+    },
+    {
+      "type": "stat",
+      "seed": 13,
+      "label": "Nguồn: Google",
+      "lines": [
+        {
+          "text": "300+ TiB",
+          "size": 200,
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "at": 0.0
+        },
+        {
+          "text": "bộ nhớ được giải phóng",
+          "size": 76,
+          "color": [
+            255,
+            196,
+            0
+          ],
+          "w": "Bold",
+          "at": 0.2
+        }
+      ],
+      "y": 640,
+      "at": 39.08,
+      "_line": "Argon đã giúp giải phóng hơn ba trăm tebibyte bộ nhớ trong c"
+    },
+    {
+      "type": "face",
+      "zoom": 1.06,
+      "at": 41.04,
+      "_line": "Các agent Argon đang chuyển mã C sang Rust với quy mô hơn tá"
+    },
+    {
+      "type": "web",
+      "cy": 0.34,
+      "z1": 1300.0,
+      "zr": 1.12,
+      "label": "blog.google · C sang Rust",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/gblog.png",
+      "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/gblog.json",
+      "hl": [
+        {
+          "find": "agents are working on migrating C/C++ codebases to Rust",
+          "style": "marker",
+          "at": 0.2
+        }
+      ],
+      "url": "blog.google/innovation-and-ai/models-and-research/gemini-models/gemini",
+      "credit": "Screenshot https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "at": 41.84,
+      "_line": "Các agent Argon đang chuyển mã C sang Rust với quy mô hơn tá"
+    },
+    {
+      "type": "web",
+      "cy": 0.34,
+      "z1": 1300.0,
+      "zr": 1.12,
+      "label": "blog.google · 800K+",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/gblog.png",
+      "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/gblog.json",
+      "hl": [
+        {
+          "find": "libgav1 up to 800K+ lines for the",
+          "style": "marker",
+          "at": 0.2
+        },
+        {
+          "find": "Fuchsia Zircon kernel",
+          "style": "marker",
+          "at": 0.55
+        }
+      ],
+      "url": "blog.google/innovation-and-ai/models-and-research/gemini-models/gemini",
+      "credit": "Screenshot https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "at": 43.56,
+      "_line": "Các agent Argon đang chuyển mã C sang Rust với quy mô hơn tá"
+    },
+    {
+      "type": "split",
+      "top": {
+        "type": "web",
+        "label": "libgav1 · giải mã",
+        "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/gblog.png",
+        "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/gblog.json",
+        "hl": [
+          {
+            "find": "For libgav1, Google's open source software for decoding",
+            "style": "marker",
+            "at": 0.2
+          }
+        ],
+        "url": "blog.google/innovation-and-ai/models-and-research/gemini-models/gemini",
+        "credit": "Screenshot https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+      },
+      "bottom": {
+        "type": "web",
+        "label": "nhanh ×2,7",
+        "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/gblog.png",
+        "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/gblog.json",
+        "hl": [
+          {
+            "find": "that runs 2.7x faster than the Rust port",
+            "style": "marker",
+            "at": 0.2
+          }
+        ],
+        "url": "blog.google/innovation-and-ai/models-and-research/gemini-models/gemini",
+        "credit": "Screenshot https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+      },
+      "credit": "Screenshot https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/ + Screenshot https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "at": 45.2,
+      "_line": "Các agent Argon đang chuyển mã C sang Rust với quy mô hơn tá"
+    },
+    {
+      "type": "stat",
+      "seed": 17,
+      "label": "Nguồn: Google",
+      "lines": [
+        {
+          "text": "2,7 LẦN",
+          "size": 200,
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "at": 0.0
+        },
+        {
+          "text": "nhanh hơn bản Rust cũ",
+          "size": 76,
+          "color": [
+            255,
+            196,
+            0
+          ],
+          "w": "Bold",
+          "at": 0.2
+        }
+      ],
+      "y": 640,
+      "at": 46.64,
+      "_line": "Các agent Argon đang chuyển mã C sang Rust với quy mô hơn tá"
+    },
+    {
+      "type": "clip",
+      "ss": 1.0,
+      "mode": "cover",
+      "zoom": 1.2,
+      "cy": 0.4,
+      "label": "CNBC · Alphabet",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/yt/cnbc_chief.mp4",
+      "credit": "CNBC — Google's Gemini product chief details weeks of company-wide testing (30/09/2026)",
+      "at": 47.72,
+      "_line": "Để có Argon, Google đã bỏ hẳn Gemini ba phẩy năm Pro, bản từ"
+    },
+    {
+      "type": "web",
+      "cy": 0.34,
+      "z1": 1300.0,
+      "zr": 1.12,
+      "label": "Reuters · Tribune",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/reuters_tribune.png",
+      "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/reuters_tribune.json",
+      "hl": [
+        {
+          "find": "Google no longer plans to release Gemini 3.5 Pro",
+          "style": "marker",
+          "at": 0.2
+        }
+      ],
+      "url": "tribune.com.pk/story/2632456/google-announces-gemini-4-flagship-ai-mod",
+      "credit": "Screenshot https://tribune.com.pk/story/2632456/google-announces-gemini-4-flagship-ai-model-after-months-of-delays",
+      "at": 48.92,
+      "_line": "Để có Argon, Google đã bỏ hẳn Gemini ba phẩy năm Pro, bản từ"
+    },
+    {
+      "type": "split",
+      "top": {
+        "type": "photo",
+        "label": "Sundar Pichai",
+        "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/portraits/pichai.jpg",
+        "face": [
+          0.562,
+          0.26
+        ],
+        "name": "pichai",
+        "role": "",
+        "credit": "Lukasz Kobus / European Commission, Wikimedia Commons, CC BY 4.0"
+      },
+      "bottom": {
+        "type": "web",
+        "label": "Reuters · Devdiscourse",
+        "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/reuters_dd.png",
+        "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/reuters_dd.json",
+        "hl": [
+          {
+            "find": "Sundar Pichai originally said would be released in June",
+            "style": "marker",
+            "at": 0.2
+          }
+        ],
+        "url": "devdiscourse.com/article/international/3984852-google-announces-gemini",
+        "credit": "Screenshot https://www.devdiscourse.com/article/international/3984852-google-announces-gemini-4-flagship-ai-model-after-months-of-delays"
+      },
+      "credit": "Lukasz Kobus / European Commission, Wikimedia Commons, CC BY 4.0 + Screenshot https://www.devdiscourse.com/article/international/3984852-google-announces-gemini-4-flagship-ai-model-after-months-of-delays",
+      "at": 50.26,
+      "_line": "Để có Argon, Google đã bỏ hẳn Gemini ba phẩy năm Pro, bản từ"
+    },
+    {
+      "type": "web",
+      "cy": 0.32,
+      "z1": 1100.0,
+      "zr": 1.12,
+      "label": "Reuters · 30/09",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/reuters_dd.png",
+      "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/reuters_dd.json",
+      "hl": [
+        {
+          "find": "Google announces Gemini 4 flagship AI",
+          "style": "marker",
+          "at": 0.2
+        },
+        {
+          "find": "model after months of delays",
+          "style": "underline",
+          "at": 0.55
+        }
+      ],
+      "url": "devdiscourse.com/article/international/3984852-google-announces-gemini",
+      "credit": "Screenshot https://www.devdiscourse.com/article/international/3984852-google-announces-gemini-4-flagship-ai-model-after-months-of-delays",
+      "at": 51.74,
+      "_line": "Để có Argon, Google đã bỏ hẳn Gemini ba phẩy năm Pro, bản từ"
+    },
+    {
+      "type": "web",
+      "cy": 0.34,
+      "z1": 1200.0,
+      "zr": 1.12,
+      "label": "TechCrunch · 30/09",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/tc.png",
+      "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/tc.json",
+      "hl": [
+        {
+          "find": "Google releases Gemini 4",
+          "style": "marker",
+          "at": 0.2
+        },
+        {
+          "find": "powerful model yet",
+          "style": "marker",
+          "at": 0.55
+        }
+      ],
+      "url": "techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-mo",
+      "credit": "Screenshot https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+      "at": 52.852,
+      "_line": "Mô hình mạnh nhất nhưng chỉ dành cho giới bảo mật, bạn thấy "
+    },
+    {
+      "type": "web",
+      "cy": 0.34,
+      "z1": 1300.0,
+      "zr": 1.12,
+      "label": "blog.google · từng bước",
+      "src": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/gblog.png",
+      "ocr": "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/ocr/gblog.json",
+      "hl": [
+        {
+          "find": "Safely releasing frontier capabilities at this level requires a",
+          "style": "marker",
+          "at": 0.2
+        },
+        {
+          "find": "phased approach.",
+          "style": "marker",
+          "at": 0.55
+        }
+      ],
+      "url": "blog.google/innovation-and-ai/models-and-research/gemini-models/gemini",
+      "credit": "Screenshot https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "at": 54.04,
+      "_line": "Mô hình mạnh nhất nhưng chỉ dành cho giới bảo mật, bạn thấy "
+    },
+    {
+      "type": "stat",
+      "seed": 23,
+      "lines": [
+        {
+          "text": "THẬN TRỌNG",
+          "size": 150,
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "at": 0.0
+        },
+        {
+          "text": "hay",
+          "size": 76,
+          "color": [
+            255,
+            196,
+            0
+          ],
+          "w": "Bold",
+          "at": 0.2
+        },
+        {
+          "text": "CHIÊU TRÒ?",
+          "size": 150,
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "at": 0.5
+        }
+      ],
+      "y": 420,
+      "at": 55.26,
+      "_line": "Mô hình mạnh nhất nhưng chỉ dành cho giới bảo mật, bạn thấy "
+    },
+    {
+      "type": "face",
+      "zoom": 1.06,
+      "at": 56.96,
+      "_line": "Bình luận cho mình biết nhé."
+    }
+  ],
+  "lines": [
+    {
+      "text": "Google vừa tung ra mô hình AI mạnh nhất từ trước tới nay, nhưng gần như không ai được dùng.",
+      "a": 0,
+      "b": 20,
+      "n_items": 3
+    },
+    {
+      "text": "Ngày ba mươi tháng chín, Google công bố Gemini bốn Argon, lớn hơn cả dòng Pro.",
+      "a": 20,
+      "b": 36,
+      "n_items": 3
+    },
+    {
+      "text": "Đợt đầu, Argon chỉ phát cho các chuyên gia phòng thủ an ninh mạng qua chương trình Fairwind, chưa có lịch mở rộng.",
+      "a": 36,
+      "b": 59,
+      "n_items": 3
+    },
+    {
+      "text": "Vậy nó mạnh cỡ nào?",
+      "a": 59,
+      "b": 64,
+      "n_items": 1
+    },
+    {
+      "text": "Giới hạn đầu ra tăng từ sáu mươi tư nghìn lên một triệu token mỗi lần.",
+      "a": 64,
+      "b": 80,
+      "n_items": 2
+    },
+    {
+      "text": "Giá mở màn là hai đô la cho một triệu token đầu vào, và mười đô la cho một triệu token đầu ra.",
+      "a": 80,
+      "b": 103,
+      "n_items": 3
+    },
+    {
+      "text": "Theo số liệu Google tự công bố, Argon đạt bảy mươi bảy phẩy chín phần trăm trên DeepSWE, năm mươi mốt phẩy ba trên AutomationBench, và chín mươi mốt phẩy bảy trên LVBench.",
+      "a": 103,
+      "b": 136,
+      "n_items": 5
+    },
+    {
+      "text": "Nhưng Reuters lưu ý, Argon vẫn thua ở hai trong bốn bài kiểm tra lập trình mà chính Google đưa ra.",
+      "a": 136,
+      "b": 157,
+      "n_items": 3
+    },
+    {
+      "text": "Điều đáng chú ý hơn nằm ngay bên trong Google.",
+      "a": 157,
+      "b": 167,
+      "n_items": 2
+    },
+    {
+      "text": "Argon đã giúp giải phóng hơn ba trăm tebibyte bộ nhớ trong các trung tâm dữ liệu.",
+      "a": 167,
+      "b": 184,
+      "n_items": 2
+    },
+    {
+      "text": "Các agent Argon đang chuyển mã C sang Rust với quy mô hơn tám trăm nghìn dòng, và giúp một trình giải mã video chạy nhanh gấp hai phẩy bảy lần.",
+      "a": 184,
+      "b": 215,
+      "n_items": 5
+    },
+    {
+      "text": "Để có Argon, Google đã bỏ hẳn Gemini ba phẩy năm Pro, bản từng hẹn ra vào tháng sáu, sau nhiều tháng trì hoãn.",
+      "a": 215,
+      "b": 239,
+      "n_items": 4
+    },
+    {
+      "text": "Mô hình mạnh nhất nhưng chỉ dành cho giới bảo mật, bạn thấy đó là thận trọng hay chiêu trò?",
+      "a": 239,
+      "b": 259,
+      "n_items": 3
+    },
+    {
+      "text": "Bình luận cho mình biết nhé.",
+      "a": 259,
+      "b": 265,
+      "n_items": 1
+    }
+  ]
+}

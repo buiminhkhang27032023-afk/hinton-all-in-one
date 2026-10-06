@@ -1,0 +1,11 @@
+{
+  "pools": {
+    "stock": {},
+    "demo": [],
+    "screenshots": []
+  },
+  "notes": [
+    "stock footage disabled in config",
+    "no broll_urls.txt -> no demo clips"
+  ]
+}

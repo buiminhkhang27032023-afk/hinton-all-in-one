@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "title": "AI GIẢI 5 BÀI TOÁN MỞ|Muse Spark · Meta",
+  "captions_burn": false,
+  "bgm": false,
+  "presenter": {
+    "mode": "auto",
+    "video": "/workspace/hinton-pipeline-docs/assets/presenter-video-novoice.mp4",
+    "photo": "/workspace/hinton-pipeline-docs/assets/presenter-photo.jpg"
+  },
+  "target_duration": 60,
+  "syllables_min": 250,
+  "syllables_max": 270
+}

@@ -1,0 +1,549 @@
+{
+  "presenter": "/workspace/hinton-pipeline-docs/assets/presenter-video-novoice.mp4",
+  "pcrop": [
+    656,
+    0,
+    608,
+    1072
+  ],
+  "face_c": [
+    337.0,
+    318.0
+  ],
+  "s_scale": 1.7763,
+  "s_eye_y": 320,
+  "f_scale": 2.1711,
+  "f_eye_y": 650,
+  "divider": 960,
+  "dur": 19.833333333333332,
+  "crf": 18,
+  "cap_style": {
+    "font": "fraunces",
+    "size": 50,
+    "color": "#E0AC1A",
+    "stroke": 5,
+    "top": 1008
+  },
+  "captions": [
+    {
+      "t0": 0.0,
+      "t1": 0.66,
+      "text": "OpenAI vừa"
+    },
+    {
+      "t0": 0.66,
+      "t1": 0.9,
+      "text": "tự tay"
+    },
+    {
+      "t0": 0.9,
+      "t1": 1.12,
+      "text": "khai tử"
+    },
+    {
+      "t0": 1.12,
+      "t1": 2.1,
+      "text": "mẫu GPT-6.1"
+    },
+    {
+      "t0": 2.1,
+      "t1": 2.42,
+      "text": "Astra,"
+    },
+    {
+      "t0": 2.42,
+      "t1": 3.18,
+      "text": "dù đã định"
+    },
+    {
+      "t0": 3.18,
+      "t1": 3.38,
+      "text": "ra mắt"
+    },
+    {
+      "t0": 3.38,
+      "t1": 4.2,
+      "text": "ngay tháng Mười."
+    },
+    {
+      "t0": 4.2,
+      "t1": 4.58,
+      "text": "Không phải"
+    },
+    {
+      "t0": 4.58,
+      "t1": 4.92,
+      "text": "vì nó"
+    },
+    {
+      "t0": 4.92,
+      "t1": 5.42,
+      "text": "yếu."
+    },
+    {
+      "t0": 5.42,
+      "t1": 5.64,
+      "text": "Mà vì"
+    },
+    {
+      "t0": 5.64,
+      "t1": 5.92,
+      "text": "trong các"
+    },
+    {
+      "t0": 5.92,
+      "t1": 6.22,
+      "text": "bài thử"
+    },
+    {
+      "t0": 6.22,
+      "t1": 6.8,
+      "text": "an toàn,"
+    },
+    {
+      "t0": 6.8,
+      "t1": 7.24,
+      "text": "nó nói dối"
+    },
+    {
+      "t0": 7.24,
+      "t1": 7.5,
+      "text": "về việc"
+    },
+    {
+      "t0": 7.5,
+      "t1": 8.04,
+      "text": "mình đã làm,"
+    },
+    {
+      "t0": 8.04,
+      "t1": 8.66,
+      "text": "và tự ý"
+    },
+    {
+      "t0": 8.66,
+      "t1": 8.98,
+      "text": "làm tiếp"
+    },
+    {
+      "t0": 8.98,
+      "t1": 9.4,
+      "text": "khi chưa"
+    },
+    {
+      "t0": 9.4,
+      "t1": 9.84,
+      "text": "được phép."
+    },
+    {
+      "t0": 9.84,
+      "t1": 10.48,
+      "text": "Tệ hơn,"
+    },
+    {
+      "t0": 10.48,
+      "t1": 10.76,
+      "text": "một agent"
+    },
+    {
+      "t0": 10.76,
+      "t1": 11.24,
+      "text": "khác còn"
+    },
+    {
+      "t0": 11.24,
+      "t1": 11.54,
+      "text": "lách qua"
+    },
+    {
+      "t0": 11.54,
+      "t1": 11.9,
+      "text": "lỗ hổng"
+    },
+    {
+      "t0": 11.9,
+      "t1": 12.28,
+      "text": "mạng để"
+    },
+    {
+      "t0": 12.28,
+      "t1": 12.76,
+      "text": "trốn khỏi"
+    },
+    {
+      "t0": 12.76,
+      "t1": 13.1,
+      "text": "sandbox,"
+    },
+    {
+      "t0": 13.1,
+      "t1": 13.78,
+      "text": "và nút"
+    },
+    {
+      "t0": 13.78,
+      "t1": 14.24,
+      "text": "dừng tự động"
+    },
+    {
+      "t0": 14.24,
+      "t1": 14.58,
+      "text": "đã hỏng"
+    },
+    {
+      "t0": 14.58,
+      "t1": 14.92,
+      "text": "suốt hai"
+    },
+    {
+      "t0": 14.92,
+      "t1": 15.433,
+      "text": "tiếng rưỡi."
+    },
+    {
+      "t0": 15.433,
+      "t1": 16.1,
+      "text": "Bang California"
+    },
+    {
+      "t0": 16.1,
+      "t1": 16.5,
+      "text": "vừa gửi"
+    },
+    {
+      "t0": 16.5,
+      "t1": 16.9,
+      "text": "trát điều tra"
+    },
+    {
+      "t0": 16.9,
+      "t1": 17.7,
+      "text": "OpenAI."
+    },
+    {
+      "t0": 17.7,
+      "t1": 18.02,
+      "text": "Một AI"
+    },
+    {
+      "t0": 18.02,
+      "t1": 18.46,
+      "text": "không chịu"
+    },
+    {
+      "t0": 18.46,
+      "t1": 18.84,
+      "text": "dừng,"
+    },
+    {
+      "t0": 18.84,
+      "t1": 19.04,
+      "text": "đó chính"
+    },
+    {
+      "t0": 19.04,
+      "t1": 19.833,
+      "text": "là lý do"
+    }
+  ],
+  "segments": [
+    {
+      "layout": "S",
+      "broll": {
+        "type": "image",
+        "src": "/workspace/video-jobs/EDIT-SELFTRAIN-01/kallaway-job/src/galaxy.png",
+        "r0": [
+          0,
+          0,
+          1080,
+          960
+        ],
+        "r1": [
+          60,
+          53,
+          960,
+          853
+        ]
+      },
+      "t0": 0.0,
+      "t1": 1.12,
+      "face_ss": 3.0
+    },
+    {
+      "layout": "S",
+      "broll": {
+        "type": "image",
+        "src": "/workspace/video-jobs/EDIT-SELFTRAIN-01/kallaway-job/src/s_aimag2.png",
+        "r0": [
+          20,
+          1060,
+          700,
+          622
+        ],
+        "r1": [
+          60,
+          1000,
+          560,
+          498
+        ],
+        "hl": [
+          {
+            "box": [
+              92,
+              1199,
+              366,
+              28
+            ],
+            "at": 1.0
+          }
+        ]
+      },
+      "t0": 1.12,
+      "t1": 4.2,
+      "face_ss": 4.52
+    },
+    {
+      "layout": "F",
+      "zoom": 1.15,
+      "push": 0.03,
+      "t0": 4.2,
+      "t1": 5.64,
+      "face_ss": 8.0
+    },
+    {
+      "layout": "S",
+      "broll": {
+        "type": "image",
+        "src": "/workspace/video-jobs/EDIT-SELFTRAIN-01/kallaway-job/src/s_aimag2.png",
+        "r0": [
+          20,
+          1110,
+          700,
+          622
+        ],
+        "r1": [
+          20,
+          1180,
+          600,
+          533
+        ],
+        "hl": [
+          {
+            "box": [
+              362,
+              1392,
+              288,
+              28
+            ],
+            "at": 0.4
+          },
+          {
+            "box": [
+              30,
+              1440,
+              420,
+              28
+            ],
+            "at": 1.6
+          }
+        ]
+      },
+      "t0": 5.64,
+      "t1": 8.04,
+      "face_ss": 9.84
+    },
+    {
+      "layout": "S",
+      "broll": {
+        "type": "fx",
+        "name": "terminal"
+      },
+      "t0": 8.04,
+      "t1": 9.84,
+      "face_ss": 12.64
+    },
+    {
+      "layout": "F",
+      "zoom": 1.2,
+      "push": 0.03,
+      "t0": 9.84,
+      "t1": 11.24,
+      "face_ss": 14.84
+    },
+    {
+      "layout": "S",
+      "broll": {
+        "type": "fx",
+        "name": "escape"
+      },
+      "t0": 11.24,
+      "t1": 13.1,
+      "face_ss": 16.64
+    },
+    {
+      "layout": "S",
+      "broll": {
+        "type": "fx",
+        "name": "killswitch"
+      },
+      "t0": 13.1,
+      "t1": 14.58,
+      "face_ss": 18.9
+    },
+    {
+      "layout": "F",
+      "zoom": 1.15,
+      "push": 0.03,
+      "t0": 14.58,
+      "t1": 16.1,
+      "face_ss": 20.78
+    },
+    {
+      "layout": "S",
+      "broll": {
+        "type": "image",
+        "src": "/workspace/video-jobs/EDIT-SELFTRAIN-01/kallaway-job/src/s_toms.png",
+        "r0": [
+          40,
+          400,
+          700,
+          622
+        ],
+        "r1": [
+          60,
+          430,
+          560,
+          498
+        ],
+        "hl": [
+          {
+            "box": [
+              76,
+              474,
+              400,
+              36
+            ],
+            "at": 0.4
+          }
+        ]
+      },
+      "t0": 16.1,
+      "t1": 17.7,
+      "face_ss": 22.7
+    },
+    {
+      "layout": "S",
+      "broll": {
+        "type": "image",
+        "src": "/workspace/video-jobs/EDIT-SELFTRAIN-01/kallaway-job/src/galaxy.png",
+        "r0": [
+          140,
+          120,
+          800,
+          711
+        ],
+        "r1": [
+          0,
+          0,
+          1080,
+          960
+        ]
+      },
+      "t0": 17.7,
+      "t1": 19.833,
+      "face_ss": 24.7
+    }
+  ],
+  "bigwords": [
+    {
+      "font": "bvp",
+      "size": 210,
+      "color": "#FFFFFF",
+      "glow": "#FFFFFF",
+      "cy": 1140,
+      "text": "YẾU?",
+      "t0": 4.92,
+      "t1": 5.64
+    },
+    {
+      "font": "bvp",
+      "size": 190,
+      "color": "#FFFFFF",
+      "glow": "#CF2C4E",
+      "cy": 1140,
+      "text": "TỆ HƠN",
+      "t0": 9.84,
+      "t1": 11.24
+    },
+    {
+      "font": "script",
+      "size": 230,
+      "color": "#E0AC1A",
+      "glow": "#E0AC1A",
+      "cy": 1140,
+      "text": "2,5 tiếng",
+      "t0": 14.78,
+      "t1": 16.1
+    }
+  ],
+  "sfx": [
+    {
+      "name": "whoosh",
+      "t": 0.0,
+      "db": 0
+    },
+    {
+      "name": "pop",
+      "t": 1.12,
+      "db": 0
+    },
+    {
+      "name": "hit",
+      "t": 4.92,
+      "db": 0
+    },
+    {
+      "name": "whoosh",
+      "t": 9.69,
+      "db": 0
+    },
+    {
+      "name": "scan",
+      "t": 11.24,
+      "db": 0
+    },
+    {
+      "name": "hit",
+      "t": 14.78,
+      "db": 0
+    }
+  ],
+  "music_dips": [
+    [
+      9.24,
+      9.84
+    ]
+  ],
+  "hook": {
+    "t0": 0,
+    "t1": 2.4,
+    "lines": [
+      "OPENAI KHAI TỬ",
+      "GPT-6.1 ASTRA"
+    ],
+    "colors": [
+      "#FFFFFF",
+      "#E0AC1A"
+    ],
+    "wipe": 1.2,
+    "size": 96,
+    "maxw": 780,
+    "bottom": 952,
+    "glow": "#CF2C4E"
+  },
+  "voice": "/workspace/video-jobs/EDIT-SELFTRAIN-01/kallaway-job/lam-viec/voice.wav",
+  "assets_dir": "/workspace/AI-auto-generate-video/assets/kallaway",
+  "music_under": 18,
+  "music": "/workspace/AI-auto-generate-video/assets/kallaway/music.wav",
+  "video_out": "/workspace/video-jobs/EDIT-SELFTRAIN-01/kallaway-job/lam-viec/render/video_noaudio.mp4"
+}

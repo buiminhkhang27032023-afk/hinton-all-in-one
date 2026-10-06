@@ -1,0 +1,299 @@
+{
+ "lead": 0.04,
+ "face_start": 3.0,
+ "face_skip": 0.0,
+ "chunks": [
+  [
+   "Thấy cái",
+   2
+  ],
+  [
+   "này mà",
+   2
+  ],
+  [
+   "không giảm",
+   2
+  ],
+  [
+   "ga? Bạn",
+   2
+  ],
+  [
+   "đang làm",
+   2
+  ],
+  [
+   "sai. Nó",
+   2
+  ],
+  [
+   "không nằm",
+   2
+  ],
+  [
+   "đó cho",
+   2
+  ],
+  [
+   "vui. Phía",
+   2
+  ],
+  [
+   "sau nó",
+   2
+  ],
+  [
+   "là thứ",
+   2
+  ],
+  [
+   "bạn không",
+   2
+  ],
+  [
+   "muốn đâm",
+   2
+  ],
+  [
+   "vào. Đường",
+   2
+  ],
+  [
+   "trơn thế",
+   2
+  ],
+  [
+   "này, phanh",
+   2
+  ],
+  [
+   "gấp là",
+   2
+  ],
+  [
+   "trượt. Nên",
+   2
+  ],
+  [
+   "tài xế",
+   2
+  ],
+  [
+   "dừng hẳn.",
+   2
+  ],
+  [
+   "Và chờ.",
+   2
+  ],
+  [
+   "Phản xạ",
+   2
+  ],
+  [
+   "đúng đấy.",
+   2
+  ],
+  [
+   "Nhưng chờ",
+   2
+  ],
+  [
+   "mãi cũng",
+   2
+  ],
+  [
+   "không phải",
+   2
+  ],
+  [
+   "cách. Lối",
+   2
+  ],
+  [
+   "thoát duy",
+   2
+  ],
+  [
+   "nhất là",
+   2
+  ],
+  [
+   "làn ngược",
+   2
+  ],
+  [
+   "chiều. Và",
+   2
+  ],
+  [
+   "đó mới",
+   2
+  ],
+  [
+   "là lúc",
+   2
+  ],
+  [
+   "nguy hiểm",
+   2
+  ],
+  [
+   "nhất. Vì",
+   2
+  ],
+  [
+   "giờ, mọi",
+   2
+  ],
+  [
+   "chiếc xe",
+   2
+  ],
+  [
+   "trước mặt",
+   2
+  ],
+  [
+   "đều có",
+   2
+  ],
+  [
+   "quyền đi",
+   2
+  ],
+  [
+   "trước bạn.",
+   2
+  ],
+  [
+   "Một cú",
+   2
+  ],
+  [
+   "lấn làn",
+   2
+  ],
+  [
+   "sai nhịp",
+   2
+  ],
+  [
+   "là đối",
+   2
+  ],
+  [
+   "đầu trực",
+   2
+  ],
+  [
+   "diện. Mặt",
+   2
+  ],
+  [
+   "đường ướt",
+   2
+  ],
+  [
+   "không cho",
+   2
+  ],
+  [
+   "bạn cơ",
+   2
+  ],
+  [
+   "hội thứ",
+   2
+  ],
+  [
+   "hai. Bạn",
+   2
+  ],
+  [
+   "chỉ là",
+   2
+  ],
+  [
+   "khách trên",
+   2
+  ],
+  [
+   "làn của",
+   2
+  ],
+  [
+   "họ. Đừng",
+   2
+  ],
+  [
+   "tranh với",
+   2
+  ],
+  [
+   "họ. Chậm",
+   2
+  ],
+  [
+   "lại. Nhường.",
+   2
+  ],
+  [
+   "Rồi mới",
+   2
+  ],
+  [
+   "nhích lên.",
+   2
+  ],
+  [
+   "Vội một",
+   2
+  ],
+  [
+   "giây, người",
+   2
+  ],
+  [
+   "cần đặt",
+   2
+  ],
+  [
+   "tam giác",
+   2
+  ],
+  [
+   "tiếp theo",
+   2
+  ],
+  [
+   "là bạn.",
+   2
+  ]
+ ],
+ "shots": [
+  {
+   "tok": 0,
+   "layout": "S",
+   "zoom": 1.0,
+   "push": 0.0,
+   "broll": {
+    "type": "video",
+    "src": "/workspace/video-jobs/TEST-GIAO-THONG-2/source.mp4",
+    "start": 0.0,
+    "push": 0.0,
+    "credit": "Wikimedia Commons File:Connect to the opposite lane and bypass the traffic accident section.webm — Public domain (CCTV/dashcam footage does not create a copyright; author: none/unknown, originally posted at https://www.douyin.com/video/7464167816963296569). https://commons.wikimedia.org/wiki/File:Connect_to_the_opposite_lane_and_bypass_the_traffic_accident_section.webm"
+   }
+  }
+ ],
+ "bigwords": [],
+ "sfx": [
+  {
+   "name": "whoosh",
+   "t": 0.0,
+   "db": -6
+  }
+ ],
+ "music_dips": []
+}

@@ -1,0 +1,18 @@
+[  0.00-  5.16] OpenAI is made over 20 announcements at the Dev Day and here are three of them that actually
+[  5.16-  5.92] matter for you.
+[  7.72- 12.14] OpenAI is always owned agents powered by GPT-6 Astra.
+[ 12.42- 15.22] These are similar to GROCKBOT or MetaSmooths.
+[ 15.22- 19.00] They have their own cloud computer and can work for you 24-7.
+[ 19.18- 24.14] You can connect them to Gmail, Calendar, Slug, other apps and other apps and they don't wait for
+[ 24.14- 25.38] you for a task.
+[ 25.38- 30.38] but they can proactively check what's happening and let you know when something needs your attention.
+[ 30.62- 37.24] Next is signing in with ChagGPT. If you have a plus for subscription, you can use your ChagGPT plan
+[ 37.24- 45.18] in other apps like Notion, Devon, Verso, and more. Just sign in with your ChagGPT account and let the app use your plan.
+[ 45.42- 50.62] That usage counts over to your existing limits. And you can control how much each app can use.
+[ 50.62- 57.40] And finally, we have GPT 6.1 Sol. This model is better at coding, using your computer and working
+[ 57.40- 63.92] with documents. OpenAI says it's close to Astra's performance, but five times cheaper. And lower cost
+[ 63.92- 70.28] matters. Because they're also reducing in half the usage included in the $200 plan. And surprise,
+[ 70.66- 76.32] they have added a $500 a month plan. That includes the highest usage limits and access to
+[ 76.32- 82.92] Astra's ultra-fast mode. This mode lets Astra Generator responses up to 8 times faster in codecs,
+[ 83.04- 88.28] but it also consumes your included allowance 8 times faster. Let me know what you think about
+[ 88.28- 91.04] these announcements. Are you excited or disappointed?

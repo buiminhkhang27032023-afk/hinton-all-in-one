@@ -1,0 +1,292 @@
+[
+{
+"box": [
+90,
+65,
+66,
+29
+],
+"text": "THE",
+"conf": 0.743
+},
+{
+"box": [
+209,
+60,
+320,
+38
+],
+"text": "The Nobel Prize",
+"conf": 0.859
+},
+{
+"box": [
+73,
+97,
+106,
+28
+],
+"text": "NOBEL",
+"conf": 0.712
+},
+{
+"box": [
+77,
+122,
+95,
+34
+],
+"text": "PRIZE",
+"conf": 0.787
+},
+{
+"box": [
+211,
+122,
+421,
+43
+],
+"text": "@NobelPrize · Follow",
+"conf": 0.858
+},
+{
+"box": [
+55,
+231,
+462,
+46
+],
+"text": "BREAKING NEWS",
+"conf": 0.811
+},
+{
+"box": [
+53,
+296,
+1495,
+61
+],
+"text": "The Royal Swedish Academy of Sciences has decided to",
+"conf": 0.916
+},
+{
+"box": [
+51,
+372,
+1527,
+54
+],
+"text": "award the 2024 #NobelPrize in Chemistry with one half to",
+"conf": 0.905
+},
+{
+"box": [
+48,
+441,
+1461,
+63
+],
+"text": "David Baker \"for computational protein design\" and the",
+"conf": 0.939
+},
+{
+"box": [
+52,
+517,
+1508,
+55
+],
+"text": "other half jointly to Demis Hassabis and John M. Jumper",
+"conf": 0.919
+},
+{
+"box": [
+58,
+589,
+847,
+53
+],
+"text": "\"for protein structure prediction.",
+"conf": 0.923
+},
+{
+"box": [
+58,
+704,
+32,
+435
+],
+"text": "lllustrations:NiklasElmehed",
+"conf": 0.887
+},
+{
+"box": [
+490,
+730,
+668,
+59
+],
+"text": "THENOBELPRIZE",
+"conf": 0.877
+},
+{
+"box": [
+444,
+813,
+761,
+56
+],
+"text": "INCHEMISTRY2024",
+"conf": 0.88
+},
+{
+"box": [
+241,
+1782,
+203,
+62
+],
+"text": "David",
+"conf": 0.793
+},
+{
+"box": [
+737,
+1782,
+216,
+62
+],
+"text": "Demis",
+"conf": 0.8
+},
+{
+"box": [
+1167,
+1784,
+275,
+58
+],
+"text": "JohnM",
+"conf": 0.745
+},
+{
+"box": [
+243,
+1854,
+205,
+70
+],
+"text": "Baker",
+"conf": 0.788
+},
+{
+"box": [
+692,
+1859,
+308,
+61
+],
+"text": "Hassabis",
+"conf": 0.886
+},
+{
+"box": [
+1168,
+1856,
+282,
+78
+],
+"text": "Jumper",
+"conf": 0.85
+},
+{
+"box": [
+119,
+1959,
+455,
+49
+],
+"text": "\"forcomputational",
+"conf": 0.898
+},
+{
+"box": [
+669,
+1956,
+799,
+55
+],
+"text": "\"forproteinstructureprediction\"",
+"conf": 0.957
+},
+{
+"box": [
+156,
+2022,
+367,
+53
+],
+"text": "protein design\"",
+"conf": 0.818
+},
+{
+"box": [
+410,
+2159,
+831,
+30
+],
+"text": "THEROYALSWEDISHACADEMYOFSCIENCES",
+"conf": 0.902
+},
+{
+"box": [
+54,
+2271,
+423,
+36
+],
+"text": "4:46 PM : 0ct 9, 2024",
+"conf": 0.821
+},
+{
+"box": [
+144,
+2390,
+82,
+40
+],
+"text": "19K",
+"conf": 0.74
+},
+{
+"box": [
+383,
+2387,
+116,
+54
+],
+"text": "Reply",
+"conf": 0.833
+},
+{
+"box": [
+648,
+2391,
+322,
+43
+],
+"text": "Copy link to post",
+"conf": 0.903
+},
+{
+"box": [
+665,
+2499,
+316,
+43
+],
+"text": "Read 508 replies",
+"conf": 0.894
+}
+]

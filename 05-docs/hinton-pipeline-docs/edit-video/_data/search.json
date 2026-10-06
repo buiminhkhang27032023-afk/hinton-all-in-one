@@ -1,0 +1,498 @@
+{
+ "harry0703/MoneyPrinterTurbo": {
+  "stars": 128199,
+  "pushed": "2026-10-03T13:07:55Z",
+  "lang": "Python",
+  "lic": "MIT",
+  "desc": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+  "archived": false
+ },
+ "calesthio/OpenMontage": {
+  "stars": 62604,
+  "pushed": "2026-10-03T14:01:16Z",
+  "lang": "Python",
+  "lic": "AGPL-3.0",
+  "desc": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+  "archived": false
+ },
+ "ATH-MaaS/Pixelle-Video": {
+  "stars": 28606,
+  "pushed": "2026-06-14T12:40:58Z",
+  "lang": "Python",
+  "lic": "Apache-2.0",
+  "desc": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+  "archived": false
+ },
+ "FujiwaraChoki/MoneyPrinter": {
+  "stars": 14018,
+  "pushed": "2026-03-26T22:17:17Z",
+  "lang": "Python",
+  "lic": "MIT",
+  "desc": "Automate Creation of YouTube Shorts using MoviePy.",
+  "archived": false
+ },
+ "krillinai/OpenCreator": {
+  "stars": 12579,
+  "pushed": "2026-10-03T06:17:11Z",
+  "lang": "TypeScript",
+  "lic": "Apache-2.0",
+  "desc": "Formerly KrillinAI. Open-source AI workspace for creators, powered by Codex. Create videos, images, voice, avatars, video translation, and edits with Agents in one place.",
+  "archived": false
+ },
+ "linyqh/NarratoAI": {
+  "stars": 11274,
+  "pushed": "2026-09-17T06:26:41Z",
+  "lang": "Python",
+  "lic": "MIT",
+  "desc": "利用 AI 大模型，一键解说并剪辑视频",
+  "archived": false
+ },
+ "RayVentura/ShortGPT": {
+  "stars": 7997,
+  "pushed": "2025-02-10T19:33:18Z",
+  "lang": "Python",
+  "lic": "MIT",
+  "desc": "🚀🎬 ShortGPT - Experimental AI framework for youtube shorts / tiktok channel automation",
+  "archived": false
+ },
+ "hypit-ai/hypit": {
+  "stars": 19010,
+  "pushed": "2026-10-03T09:13:47Z",
+  "lang": "TypeScript",
+  "lic": "NOASSERTION",
+  "desc": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
+  "archived": false
+ },
+ "chatfire-AI/huobao-drama": {
+  "stars": 15646,
+  "pushed": "2026-10-02T08:05:26Z",
+  "lang": "Vue",
+  "lic": "NOASSERTION",
+  "desc": "🎬 火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》  Huobao Drama - An AI-Powered End-to-End Short Drama Generator \"One Sentence to Complete Drama: Fully Automated from Script to Final Video\"",
+  "archived": false
+ },
+ "HKUDS/ViMax": {
+  "stars": 12538,
+  "pushed": "2026-09-30T14:35:08Z",
+  "lang": "Python",
+  "lic": "MIT",
+  "desc": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
+  "archived": false
+ },
+ "elebumm/RedditVideoMakerBot": {
+  "stars": 12537,
+  "pushed": "2026-10-02T10:12:57Z",
+  "lang": "Python",
+  "lic": "GPL-3.0",
+  "desc": "Create Reddit Videos with just✨ one command ✨",
+  "archived": false
+ },
+ "GuanYixuan/pyJianYingDraft": {
+  "stars": 4472,
+  "pushed": "2026-09-26T09:40:14Z",
+  "lang": "Python",
+  "lic": "Apache-2.0",
+  "desc": "轻量、灵活、易上手的Python剪映草稿生成及导出工具，构建全自动化视频剪辑/混剪流水线。本项目的CapCut版本正于 https://github.com/GuanYixuan/pyCapCut 内开发",
+  "archived": false
+ },
+ "FireRedTeam/FireRed-OpenStoryline": {
+  "stars": 3456,
+  "pushed": "2026-07-31T03:16:31Z",
+  "lang": "Python",
+  "lic": "Apache-2.0",
+  "desc": "FireRed-OpenStoryline is an AI video editing agent that transforms manual editing into intention-driven directing through natural language interaction, LLM-powered planning, and precise tool orchestration. It facilitates transparent, human-in-the-loop creation with reusable Style Skills for consistent, professional storytelling.",
+  "archived": false
+ },
+ "SamurAIGPT/Text-To-Video-AI": {
+  "stars": 835,
+  "pushed": "2026-08-24T10:56:42Z",
+  "lang": "Jupyter Notebook",
+  "lic": "MIT",
+  "desc": "Generate video from text using AI",
+  "archived": false
+ },
+ "remotion-dev/remotion": {
+  "stars": 61663,
+  "pushed": "2026-10-03T08:48:03Z",
+  "lang": "TypeScript",
+  "lic": "NOASSERTION",
+  "desc": "🎥      Make videos programmatically with React",
+  "archived": false
+ },
+ "motion-canvas/motion-canvas": {
+  "stars": 19227,
+  "pushed": "2026-07-02T20:01:32Z",
+  "lang": "TypeScript",
+  "lic": "MIT",
+  "desc": "Visualize Your Ideas With Code",
+  "archived": false
+ },
+ "Zulko/moviepy": {
+  "stars": 14945,
+  "pushed": "2026-08-26T06:17:08Z",
+  "lang": "Python",
+  "lic": "MIT",
+  "desc": "Video editing with Python",
+  "archived": false
+ },
+ "kkroening/ffmpeg-python": {
+  "stars": 11011,
+  "pushed": "2024-08-04T00:07:08Z",
+  "lang": "Python",
+  "lic": "Apache-2.0",
+  "desc": "Python bindings for FFmpeg - with complex filtering support",
+  "archived": false
+ },
+ "mifi/editly": {
+  "stars": 5515,
+  "pushed": "2025-05-12T07:03:44Z",
+  "lang": "TypeScript",
+  "lic": "MIT",
+  "desc": "Slick, declarative command line video editing & API",
+  "archived": false
+ },
+ "WyattBlue/auto-editor": {
+  "stars": 5410,
+  "pushed": "2026-10-03T02:04:36Z",
+  "lang": "Nim",
+  "lic": "Unlicense",
+  "desc": "Effort free video editing!",
+  "archived": false
+ },
+ "openai/whisper": {
+  "stars": 109904,
+  "pushed": "2026-08-31T17:19:19Z",
+  "lang": "Python",
+  "lic": "MIT",
+  "desc": "Robust Speech Recognition via Large-Scale Weak Supervision",
+  "archived": false
+ },
+ "heygen-com/hyperframes": {
+  "stars": 56165,
+  "pushed": "2026-10-03T14:27:27Z",
+  "lang": "TypeScript",
+  "lic": "Apache-2.0",
+  "desc": "Write HTML. Render video. Built for agents.",
+  "archived": false
+ },
+ "SYSTRAN/faster-whisper": {
+  "stars": 25681,
+  "pushed": "2026-10-01T14:01:34Z",
+  "lang": "Python",
+  "lic": "MIT",
+  "desc": "Faster Whisper transcription with CTranslate2",
+  "archived": false
+ },
+ "m-bain/whisperX": {
+  "stars": 24348,
+  "pushed": "2026-09-26T20:53:59Z",
+  "lang": "Python",
+  "lic": "BSD-2-Clause",
+  "desc": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
+  "archived": false
+ },
+ "nexu-io/html-video": {
+  "stars": 4633,
+  "pushed": "2026-06-21T16:18:31Z",
+  "lang": "HTML",
+  "lic": "Apache-2.0",
+  "desc": "Programmatic video for coding agents — HTML to video on your laptop. Turn HTML, CSS & data into real MP4s with pluggable render engines, 21 templates, AI soundtrack. Apache-2.0, no per-render fees. An official project by the Open Design team.",
+  "archived": false
+ },
+ "PyAV-Org/PyAV": {
+  "stars": 3298,
+  "pushed": "2026-10-03T01:33:08Z",
+  "lang": "Python",
+  "lic": "BSD-3-Clause",
+  "desc": "﻿﻿Pythonic bindings for FFmpeg's libraries.",
+  "archived": false
+ },
+ "diffusionstudio/core": {
+  "stars": 1246,
+  "pushed": "2025-11-18T19:10:12Z",
+  "lang": "TypeScript",
+  "lic": "MPL-2.0",
+  "desc": "A fast, browser based video compositing engine powered by WebCodecs",
+  "archived": false
+ },
+ "ggml-org/whisper.cpp": {
+  "stars": 54104,
+  "pushed": "2026-10-02T13:21:13Z",
+  "lang": "C++",
+  "lic": "MIT",
+  "desc": "Port of OpenAI's Whisper model in C/C++",
+  "archived": false
+ },
+ "WEIFENG2333/VideoCaptioner": {
+  "stars": 16148,
+  "pushed": "2026-09-12T06:20:49Z",
+  "lang": "Python",
+  "lic": "GPL-3.0",
+  "desc": "🎬 卡卡字幕助手 | VideoCaptioner - 基于 LLM 的智能字幕助手 - 视频字幕生成、断句、校正、字幕翻译全流程处理！- A powered tool for easy and efficient video subtitling.",
+  "archived": false
+ },
+ "k2-fsa/sherpa-onnx": {
+  "stars": 15091,
+  "pushed": "2026-09-22T10:36:50Z",
+  "lang": "C++",
+  "lic": "Apache-2.0",
+  "desc": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, RK NPU, Axera NPU, Ascend NPU, x86_64 servers, websocket server/client, support 12 programming languages",
+  "archived": false
+ },
+ "tmoroney/auto-subs": {
+  "stars": 4309,
+  "pushed": "2026-10-01T19:59:08Z",
+  "lang": "TypeScript",
+  "lic": "MIT",
+  "desc": "On-device subtitle generation that connects directly to DaVinci Resolve, Premiere, and After Effects.",
+  "archived": false
+ },
+ "m1guelpf/auto-subtitle": {
+  "stars": 2289,
+  "pushed": "2024-07-12T08:59:25Z",
+  "lang": "Python",
+  "lic": "MIT",
+  "desc": "Automatically generate and overlay subtitles for any video.",
+  "archived": false
+ },
+ "jianfch/stable-ts": {
+  "stars": 2281,
+  "pushed": "2026-05-30T18:41:03Z",
+  "lang": "Python",
+  "lic": "MIT",
+  "desc": "Transcription, forced alignment, and audio indexing with OpenAI's Whisper",
+  "archived": true
+ },
+ "VinAIResearch/PhoWhisper": {
+  "stars": 257,
+  "pushed": "2024-11-12T07:41:18Z",
+  "lang": null,
+  "lic": "BSD-3-Clause",
+  "desc": "PhoWhisper: Automatic Speech Recognition for Vietnamese (2024)",
+  "archived": false
+ },
+ "KlingAIResearch/LivePortrait": {
+  "stars": 19159,
+  "pushed": "2026-06-01T17:25:09Z",
+  "lang": "Python",
+  "lic": "NOASSERTION",
+  "desc": "Bring portraits to life!",
+  "archived": false
+ },
+ "OpenTalker/SadTalker": {
+  "stars": 14114,
+  "pushed": "2024-06-26T12:51:53Z",
+  "lang": "Python",
+  "lic": "NOASSERTION",
+  "desc": "[CVPR 2023] SadTalker：Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation",
+  "archived": false
+ },
+ "TMElyralab/MuseTalk": {
+  "stars": 6653,
+  "pushed": "2025-09-26T05:44:17Z",
+  "lang": "Python",
+  "lic": "NOASSERTION",
+  "desc": "MuseTalk: Real-Time High Quality Lip Synchorization with Latent Space Inpainting",
+  "archived": false
+ },
+ "modelscope/FunClip": {
+  "stars": 6361,
+  "pushed": "2026-09-16T02:01:36Z",
+  "lang": "Python",
+  "lic": "MIT",
+  "desc": "FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI.",
+  "archived": false
+ },
+ "Anil-matcha/AI-Youtube-Shorts-Generator": {
+  "stars": 5222,
+  "pushed": "2026-09-29T03:07:19Z",
+  "lang": "Python",
+  "lic": "MIT",
+  "desc": "Open-source alternative to Opus Clip, Vidyo.ai, Klap & SubMagic. Turn long-form YouTube videos into viral 9:16 shorts using LLM highlight detection, Whisper transcription, and auto vertical cropping — free, no watermarks, no per-clip credits.",
+  "archived": false
+ },
+ "ClipsAI/clipsai": {
+  "stars": 544,
+  "pushed": "2024-01-17T13:31:25Z",
+  "lang": "Python",
+  "lic": "MIT",
+  "desc": "Clips AI is an open-source Python library that automatically converts long videos into clips.",
+  "archived": false
+ },
+ "RafaelGodoyEbert/ViralCutter": {
+  "stars": 418,
+  "pushed": "2026-09-10T14:40:13Z",
+  "lang": "Python",
+  "lic": "GPL-3.0",
+  "desc": " Free tool to create viral videos from YouTube, generating clips optimized for TikTok and Instagram with automatic transcription and 9:16 editing.",
+  "archived": false
+ },
+ "duixcom/Duix-Avatar": {
+  "stars": 15641,
+  "pushed": "2026-04-21T07:06:36Z",
+  "lang": "C",
+  "lic": "NOASSERTION",
+  "desc": "🚀 Truly open-source AI avatar(digital human) toolkit for offline video generation and digital human cloning.",
+  "archived": false
+ },
+ "Rudrabha/Wav2Lip": {
+  "stars": 13227,
+  "pushed": "2025-06-22T02:41:21Z",
+  "lang": "Python",
+  "lic": null,
+  "desc": "This repository contains the codes of \"A Lip Sync Expert Is All You Need for Speech to Lip Generation In the Wild\", published at ACM Multimedia 2020. For HD commercial model, please try out Sync Labs ",
+  "archived": false
+ },
+ "fudan-generative-vision/hallo": {
+  "stars": 8665,
+  "pushed": "2024-09-14T13:23:02Z",
+  "lang": "Python",
+  "lic": "MIT",
+  "desc": "Hallo: Hierarchical Audio-Driven Visual Synthesis for Portrait Image Animation",
+  "archived": false
+ },
+ "OpenTalker/video-retalking": {
+  "stars": 7293,
+  "pushed": "2024-08-05T05:59:59Z",
+  "lang": "Python",
+  "lic": "Apache-2.0",
+  "desc": "[SIGGRAPH Asia 2022] VideoReTalking: Audio-based Lip Synchronization for Talking Head Video Editing In the Wild",
+  "archived": false
+ },
+ "bytedance/LatentSync": {
+  "stars": 6106,
+  "pushed": "2025-06-20T07:36:58Z",
+  "lang": "Python",
+  "lic": "Apache-2.0",
+  "desc": "Taming Stable Diffusion for Lip Sync!",
+  "archived": false
+ },
+ "antgroup/echomimic_v2": {
+  "stars": 4655,
+  "pushed": "2026-02-23T05:28:31Z",
+  "lang": "Python",
+  "lic": "Apache-2.0",
+  "desc": "[CVPR 2025] EchoMimicV2: Towards Striking, Simplified, and Semi-Body Human Animation",
+  "archived": false
+ },
+ "anliyuan/Ultralight-Digital-Human": {
+  "stars": 2648,
+  "pushed": "2026-07-22T12:29:48Z",
+  "lang": "Python",
+  "lic": null,
+  "desc": "一个超轻量级、可以在移动端实时运行的数字人模型",
+  "archived": false
+ },
+ "Wan-Video/Wan2.2": {
+  "stars": 17706,
+  "pushed": "2026-09-21T06:16:22Z",
+  "lang": "Python",
+  "lic": "Apache-2.0",
+  "desc": "Wan: Open and Advanced Large-Scale Video Generative Models",
+  "archived": false
+ },
+ "Wan-Video/Wan2.1": {
+  "stars": 17087,
+  "pushed": "2026-03-05T09:38:07Z",
+  "lang": "Python",
+  "lic": "Apache-2.0",
+  "desc": "Wan: Open and Advanced Large-Scale Video Generative Models",
+  "archived": false
+ },
+ "zai-org/CogVideo": {
+  "stars": 13056,
+  "pushed": "2025-11-04T11:19:04Z",
+  "lang": "Python",
+  "lic": "Apache-2.0",
+  "desc": "text and image to video generation: CogVideoX (2024) and CogVideo (ICLR 2023)",
+  "archived": false
+ },
+ "Tencent-Hunyuan/HunyuanVideo": {
+  "stars": 12583,
+  "pushed": "2026-06-29T09:33:50Z",
+  "lang": "Python",
+  "lic": "NOASSERTION",
+  "desc": "HunyuanVideo: A Systematic Framework For Large Video Generation Model",
+  "archived": false
+ },
+ "Lightricks/LTX-Video": {
+  "stars": 11012,
+  "pushed": "2026-01-05T22:37:07Z",
+  "lang": "Python",
+  "lic": "Apache-2.0",
+  "desc": "Official repository for LTX-Video",
+  "archived": false
+ },
+ "lipku/LiveTalking": {
+  "stars": 9678,
+  "pushed": "2026-09-13T11:56:56Z",
+  "lang": "Python",
+  "lic": "Apache-2.0",
+  "desc": "Real time interactive streaming digital human",
+  "archived": false
+ },
+ "Tencent-Hunyuan/HunyuanVideo-1.5": {
+  "stars": 4570,
+  "pushed": "2026-04-10T06:14:59Z",
+  "lang": "Python",
+  "lic": "NOASSERTION",
+  "desc": "HunyuanVideo-1.5: A leading lightweight video generation model",
+  "archived": false
+ },
+ "hpcaitech/Open-Sora": {
+  "stars": 29853,
+  "pushed": "2026-04-09T01:52:40Z",
+  "lang": "Python",
+  "lic": "Apache-2.0",
+  "desc": "Open-Sora: Democratizing Efficient Video Production for All",
+  "archived": false
+ },
+ "Lightricks/LTX-2": {
+  "stars": 9576,
+  "pushed": "2026-10-02T10:38:06Z",
+  "lang": "Python",
+  "lic": "NOASSERTION",
+  "desc": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+  "archived": false
+ },
+ "hao-ai-lab/FastVideo": {
+  "stars": 4542,
+  "pushed": "2026-10-03T02:29:31Z",
+  "lang": "Python",
+  "lic": "Apache-2.0",
+  "desc": "A unified inference and post-training framework for accelerated video generation.",
+  "archived": false
+ },
+ "genmoai/mochi": {
+  "stars": 3735,
+  "pushed": "2025-11-14T01:17:56Z",
+  "lang": "Python",
+  "lic": "Apache-2.0",
+  "desc": "The best OSS video generation models, created by Genmo",
+  "archived": false
+ },
+ "yt-dlp/yt-dlp": {
+  "stars": 195181,
+  "pushed": "2026-09-27T22:09:13Z",
+  "lang": "Python",
+  "lic": "Unlicense",
+  "desc": "A feature-rich command-line audio/video downloader",
+  "archived": false
+ },
+ "mlfoundations/open_clip": {
+  "stars": 14183,
+  "pushed": "2026-09-30T15:21:57Z",
+  "lang": "Python",
+  "lic": "NOASSERTION",
+  "desc": "An open source implementation of CLIP.",
+  "archived": false
+ },
+ "Breakthrough/PySceneDetect": {
+  "stars": 5217,
+  "pushed": "2026-09-21T04:44:36Z",
+  "lang": "Python",
+  "lic": "BSD-3-Clause",
+  "desc": ":movie_camera: Python and OpenCV-based scene cut/transition detection program & library.",
+  "archived": false
+ }
+}

@@ -1,0 +1,92 @@
+{
+  "total": 84.559,
+  "sentences": [
+    {
+      "i": 0,
+      "text": "Một ngày ăn sập Hải Phòng, đi đâu, ăn gì? Bảy điểm dừng, bảy món khác nhau, từ bữa sáng tới tráng miệng. Chuẩn bị bụng, xuất phát!",
+      "start": 0.0,
+      "end": 5.988,
+      "dur": 5.988
+    },
+    {
+      "i": 1,
+      "text": "Mốc định vị: Nhà hát Lớn, Chợ Sắt và khách sạn Avani Harbour View. Phần lớn tuyến ăn nằm quanh trung tâm thành phố.",
+      "start": 6.108,
+      "end": 11.528,
+      "dur": 5.42
+    },
+    {
+      "i": 2,
+      "text": "Điểm một, khởi động hơi xa trung tâm, Bún cá miền duyên hải trên phố Văn Cao, mở bữa sáng từ sáu giờ. Bún cá cay, cá giòn. Khoảng bốn phẩy năm sao, hơn ba trăm rưỡi đánh giá. Một thực khách viết: phần ăn đầy đặn so với ba mươi lăm nghìn, mình rất thích!",
+      "start": 11.648,
+      "end": 23.538,
+      "dur": 11.89
+    },
+    {
+      "i": 3,
+      "text": "Điểm hai, vào phố Lê Lợi, Bánh Mỳ Cay Bà Già. Bánh mì que nướng giòn, pa tê, tương ớt. Khoảng bốn phẩy ba sao, gần ba trăm đánh giá. Một thực khách khác viết: theo tôi, đây là bánh mì cay ngon nhất phố, ba nghìn một chiếc!",
+      "start": 23.658,
+      "end": 33.987,
+      "dur": 10.329
+    },
+    {
+      "i": 4,
+      "text": "Gần trưa, điểm ba, rẽ sang Trần Nhật Duật, gần Nhà hát Lớn, Quán Nga Nem Cua Bể. Nem cua bể chiên giòn, ăn kèm bún, thịt nướng. Khoảng ba phẩy chín sao, hơn bảy trăm năm mươi đánh giá.",
+      "start": 34.107,
+      "end": 42.717,
+      "dur": 8.61
+    },
+    {
+      "i": 5,
+      "text": "Điểm bốn, sang Hai Bà Trưng, bánh đúc tàu Cô Chuyền. Bánh đúc với tôm, thịt, đu đủ, kèm nước mắm giấm. Khoảng bốn phẩy bốn sao, gần hai trăm đánh giá. Giá tham khảo mười hai đến hai mươi nghìn một bát, nhớ ghé trước năm giờ chiều.",
+      "start": 42.837,
+      "end": 53.761,
+      "dur": 10.924
+    },
+    {
+      "i": 6,
+      "text": "Chiều xuống, điểm năm, về Cầu Đất, Bánh Đa Cua Bà Cụ. Bánh đa cua bể, thêm nem cua chiên. Khoảng ba phẩy tám sao, gần một nghìn tám trăm đánh giá, nhiều đánh giá nhất tuyến.",
+      "start": 53.881,
+      "end": 61.897,
+      "dur": 8.016
+    },
+    {
+      "i": 7,
+      "text": "Tối đến, điểm sáu, Lẩu Cua Đồng Đất Cảng, phố Dư Hàng, quận Lê Chân. Nồi lẩu cua đồng, nước cua đậm đà, mở tới mười giờ rưỡi tối. Khoảng bốn phẩy chín sao, gần ba trăm đánh giá.",
+      "start": 62.017,
+      "end": 70.183,
+      "dur": 8.166
+    },
+    {
+      "i": 8,
+      "text": "Điểm bảy, quay lại Cầu Đất, ngay sát Bà Cụ, Sủi dìn Cô Út chốt tour, mở từ ba giờ chiều. Sủi dìn nóng, chè vừng, chè đậu. Khoảng bốn phẩy bốn sao, hơn hai trăm đánh giá. Chỉ mười đến mười lăm nghìn một bát.",
+      "start": 70.303,
+      "end": 79.856,
+      "dur": 9.553
+    },
+    {
+      "i": 9,
+      "text": "Lưu ngay tuyến này, rủ hội bạn đi ăn cùng, và theo dõi Hinton Media để xem bản đồ ăn uống tiếp theo!",
+      "start": 79.976,
+      "end": 84.559,
+      "dur": 4.583
+    }
+  ],
+  "qa": "OmniVoice · male clone v2 locked · 1.2 · voice_locked:true",
+  "health": {
+    "status": "ok",
+    "engine": "OmniVoice",
+    "model": "k2-fsa/OmniVoice",
+    "device": "cpu",
+    "voice_mode": "clone",
+    "voice_locked": true,
+    "ref_audio": "/workspace/omnivoice-server/voice-lock-vn-v2.wav",
+    "ref_text": "/workspace/omnivoice-server/voice-lock-vn-v2.ref.txt",
+    "speed": 1.2,
+    "speed_mode": "post",
+    "seed": 1234,
+    "num_step": 32,
+    "language": "vi",
+    "sample_rate": 24000
+  }
+}

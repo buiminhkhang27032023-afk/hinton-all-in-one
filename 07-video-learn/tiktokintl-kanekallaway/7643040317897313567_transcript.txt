@@ -1,0 +1,31 @@
+[  0.00-  3.64] Google Gemini just released three massive features at I.O.
+[  3.76-  6.36] And if you use Google products for life or for work,
+[  6.40-  7.62] there's a Gemini feature in here
+[  7.62- 10.24] that millions of people have wanted for a really long time.
+[ 10.38- 12.04] The first big one is Gemini Spark.
+[ 12.36- 14.56] Gemini Spark is an AI that lives across
+[ 14.56- 16.82] all of your Google apps and connected tools.
+[ 17.02- 17.90] You'll be able to drop an attacks
+[ 17.90- 19.64] that can read anything in your drive,
+[ 19.90- 22.54] scan your entire email, cross reference your calendar,
+[ 22.82- 24.24] and even live build a deck
+[ 24.24- 27.28] and write the email to attach it all automatically.
+[ 27.52- 29.68] And this is all powered directly in the Gemini app.
+[ 29.68- 33.70] Now to me, Spark is the next step in building the personal AI of the future.
+[ 33.94- 37.26] And what makes it so unique and different are the models and tools it's built on.
+[ 37.36- 41.30] And that was the second big announcement, because Google also released Gemini 3.5 Flash
+[ 41.30- 43.08] and Anti-Gravity 2.0.
+[ 43.18- 46.78] And this duo is the secret sauce that makes Gemini Spark so powerful.
+[ 46.98- 51.20] Gemini 3.5 Flash is Google's latest AI model that has frontier level capabilities,
+[ 51.46- 54.72] but is also four times faster than all the other leading models.
+[ 54.90- 58.18] When that's combined with Anti-Gravity, their agent at coding harness, Gemini is
+[ 58.18- 62.24] able to dynamically build new experiences in a way that I did not think was possible.
+[ 62.34- 66.32] For example, the Gemini app has a brand new design language called Neural Expressive.
+[ 66.42- 70.84] Instead of text heavy answers, the Gemini app will build new displays, layouts and modals
+[ 70.84- 75.40] based on your unique prompt, essentially building a new visual UI in real time.
+[ 75.50- 79.08] And seeing this was pretty mind blowing because it means that every user can have a personalized
+[ 79.08- 80.52] experience on the internet.
+[ 80.64- 83.84] Now there were a ton of other things Google Gemini announced as well, including their
+[ 83.84- 86.34] Gemini Omni model, which I'll cover in another video.
+[ 86.34- 91.72] I'm super grateful to the Gemini team for inviting me this year to get to see all of this in person at Google I am if you
+[ 91.72- 94.76] Want to learn more about Gemini spark comment Gemini and I'll send you a link

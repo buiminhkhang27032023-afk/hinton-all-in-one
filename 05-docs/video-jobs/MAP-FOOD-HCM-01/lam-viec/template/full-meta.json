@@ -1,0 +1,111 @@
+{
+  "duration": 57.352,
+  "vo": 55.352,
+  "version": "v4",
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0.0,
+      "end": 2.383,
+      "dur": 2.383,
+      "place": null,
+      "mode": "hook"
+    },
+    {
+      "id": "countdown",
+      "start": 2.503,
+      "end": 3.742,
+      "dur": 1.239,
+      "place": null,
+      "mode": "countdown"
+    },
+    {
+      "id": "r5_intro",
+      "start": 3.862,
+      "end": 8.775,
+      "dur": 4.913,
+      "place": "banh-xeo-46a",
+      "mode": "reveal"
+    },
+    {
+      "id": "r5_stats",
+      "start": 8.895,
+      "end": 14.407,
+      "dur": 5.512,
+      "place": "banh-xeo-46a",
+      "mode": "stats"
+    },
+    {
+      "id": "r4_intro",
+      "start": 14.527,
+      "end": 18.565,
+      "dur": 4.038,
+      "place": "com-tam-ba-ghien",
+      "mode": "reveal"
+    },
+    {
+      "id": "r4_stats",
+      "start": 18.685,
+      "end": 23.249,
+      "dur": 4.564,
+      "place": "com-tam-ba-ghien",
+      "mode": "stats"
+    },
+    {
+      "id": "r3_intro",
+      "start": 23.369,
+      "end": 27.003,
+      "dur": 3.634,
+      "place": "banh-mi-huynh-hoa",
+      "mode": "reveal"
+    },
+    {
+      "id": "r3_stats",
+      "start": 27.123,
+      "end": 32.537,
+      "dur": 5.414,
+      "place": "banh-mi-huynh-hoa",
+      "mode": "stats"
+    },
+    {
+      "id": "r2_intro",
+      "start": 32.657,
+      "end": 37.395,
+      "dur": 4.738,
+      "place": "oc-dao",
+      "mode": "reveal"
+    },
+    {
+      "id": "r2_stats",
+      "start": 37.515,
+      "end": 41.611,
+      "dur": 4.096,
+      "place": "oc-dao",
+      "mode": "stats"
+    },
+    {
+      "id": "r1_intro",
+      "start": 41.731,
+      "end": 45.865,
+      "dur": 4.134,
+      "place": "pho-hoa-pasteur",
+      "mode": "reveal"
+    },
+    {
+      "id": "r1_stats",
+      "start": 45.985,
+      "end": 51.405,
+      "dur": 5.42,
+      "place": "pho-hoa-pasteur",
+      "mode": "stats"
+    },
+    {
+      "id": "cta",
+      "start": 51.525,
+      "end": 55.352,
+      "dur": 3.827,
+      "place": null,
+      "mode": "cta"
+    }
+  ]
+}

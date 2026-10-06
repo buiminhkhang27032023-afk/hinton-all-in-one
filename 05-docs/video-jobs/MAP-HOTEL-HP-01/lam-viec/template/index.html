@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="vi"><head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=1080, height=1920"/>
+<title>MAP-HOTEL-HP-01 · Top 5 khách sạn Hải Phòng</title>
+<script src="assets/gsap.min.js"></script>
+<style>
+@font-face{font-family:'BV';src:url('assets/fonts/BeVietnamPro-Medium.ttf');font-weight:500}
+@font-face{font-family:'BV';src:url('assets/fonts/BeVietnamPro-SemiBold.ttf');font-weight:600}
+@font-face{font-family:'BV';src:url('assets/fonts/BeVietnamPro-Bold.ttf');font-weight:700}
+@font-face{font-family:'BV';src:url('assets/fonts/BeVietnamPro-ExtraBold.ttf');font-weight:800}
+@font-face{font-family:'BV';src:url('assets/fonts/BeVietnamPro-Black.ttf');font-weight:900}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#070b10;font-family:'BV',sans-serif;color:#fff}
+#root{width:1080px;height:1920px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 40%,#13202c,#05080c)}
+#mapStage{position:absolute;inset:0;overflow:hidden}
+#tilt{position:absolute;inset:0;transform-origin:540px 560px}
+#mapWorld{position:absolute;left:0;top:0;width:4096px;height:5120px;transform-origin:0 0;--z:1}
+#mapWorld img.map{width:100%;height:100%;display:block}
+svg#arcs{position:absolute;left:0;top:0;overflow:visible}
+.arc{fill:none;stroke:#FFE07A;stroke-width:9;stroke-linecap:round}
+.arc-glow{fill:none;stroke:rgba(255,170,40,.45);stroke-width:30;stroke-linecap:round}
+.mlabel,.pin,.dot{position:absolute;width:0;height:0}
+.mlabel span{position:absolute;transform:translate(-50%,-50%) scale(calc(1 / var(--z)));white-space:nowrap;font-weight:800;font-size:30px;letter-spacing:1px;color:rgba(255,255,255,.88);text-shadow:0 2px 8px #000,0 0 3px #000}
+.mlabel.river span{color:#9fe3ff;font-size:28px;letter-spacing:6px;font-style:italic}
+.pin>*{position:absolute}
+.cs{position:absolute;left:0;top:0;width:0;height:0;transform:scale(calc(1 / var(--z)));transform-origin:0 0}
+.pin-inner{position:absolute;left:-60px;top:-150px;width:120px;height:150px;opacity:0}
+.pin-inner .pin-img{width:120px;height:150px;display:block}
+.pin-inner .crown{position:absolute;left:24px;top:-60px;width:72px}
+.tagpos{position:absolute;left:60px;top:-14px;width:0;height:0;opacity:0}
+.pin-tag{position:absolute;left:0;top:0;transform:translate(-50%,-100%);white-space:nowrap;background:rgba(8,12,18,.88);border:2px solid #FFC93C;color:#fff;font-weight:900;font-size:30px;padding:6px 16px;border-radius:14px}
+.qpin{position:absolute;left:-48px;top:-48px;width:96px;height:96px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ffffff,#d9e4ef);color:#e5322d;font-weight:900;font-size:64px;line-height:96px;text-align:center;border:5px solid #FFC93C;box-shadow:0 8px 20px rgba(0,0,0,.6);opacity:0}
+.ripple{position:absolute;left:-110px;top:-110px;width:220px;height:220px;border-radius:50%;border:6px solid #FFC93C;box-shadow:0 0 30px #FFC93C,inset 0 0 20px rgba(255,201,60,.5);opacity:0}
+.ripple-s{width:100%;height:100%}
+.dot .dot-in{position:absolute;left:0;top:0;width:34px;height:34px;border-radius:50%;background:#fff;box-shadow:0 0 18px 8px #FFC93C;transform:translate(-50%,-50%) scale(calc(1 / var(--z)));opacity:0}
+.shade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(0,0,0,.55) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 45%,rgba(0,0,0,.55) 75%,rgba(0,0,0,.75) 100%);z-index:5}
+.vig{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 35%,transparent 45%,rgba(0,0,0,.55) 100%);z-index:6}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;z-index:60;pointer-events:none}
+.ui{position:absolute;inset:0;z-index:20}
+/* hook title */
+#title{position:absolute;left:40px;right:40px;top:300px;text-align:center;z-index:30}
+.t-chip{display:inline-block;background:#e5322d;color:#fff;font-weight:900;font-size:34px;padding:10px 26px;border-radius:999px;letter-spacing:1px;box-shadow:0 8px 24px rgba(229,50,45,.5)}
+.t-top5{font-size:230px;font-weight:900;line-height:1;margin-top:18px;background:linear-gradient(180deg,#FFF6B8 0%,#FFC93C 45%,#F08A00 100%);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-stroke:4px rgba(60,30,0,.55);filter:drop-shadow(0 10px 24px rgba(0,0,0,.7))}
+.t-l2{font-size:76px;font-weight:900;line-height:1.05;text-shadow:0 6px 18px #000,0 0 4px #000}
+.t-l3{font-size:118px;font-weight:900;line-height:1.05;margin-top:6px;text-shadow:0 8px 22px #000,0 0 4px #000}
+.t-l3 span{display:inline-block;border-bottom:12px solid #e5322d;padding:0 10px}
+.t-sub{display:inline-flex;align-items:center;gap:12px;margin-top:26px;background:rgba(255,255,255,.95);color:#111;font-weight:800;font-size:38px;padding:12px 28px;border-radius:18px;box-shadow:0 10px 28px rgba(0,0,0,.5)}
+.t-sub img{width:34px}
+/* rule panel */
+#rule{position:absolute;left:40px;right:40px;top:250px;opacity:0;z-index:30}
+.panel{background:rgba(8,12,18,.95);border:3px solid rgba(255,201,60,.8);border-radius:32px;padding:34px 36px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+.p-h{font-size:58px;font-weight:900;color:#FFC93C;text-align:center;letter-spacing:1px}
+.p-row{display:flex;align-items:center;gap:20px;margin-top:24px;font-size:42px;font-weight:800;line-height:1.2}
+.p-ic{flex:0 0 84px;height:84px;border-radius:22px;background:#FFC93C;color:#111;display:flex;align-items:center;justify-content:center;font-size:44px;font-weight:900}
+.p-date{margin-top:26px;text-align:center;font-size:32px;font-weight:700;color:#cfe6ff}
+/* rank ladder */
+#ladder{position:absolute;top:150px;left:0;right:0;display:flex;justify-content:center;gap:16px;z-index:40;opacity:0}
+.lad{width:84px;height:84px;border-radius:50%;background:rgba(0,0,0,.6);border:3px solid rgba(255,255,255,.55);display:flex;align-items:center;justify-content:center;font-size:42px;font-weight:900;color:#fff}
+.lad-l{position:absolute;top:118px;left:0;right:0;text-align:center;font-size:26px;font-weight:800;letter-spacing:6px;color:rgba(255,255,255,.8);z-index:40;opacity:0}
+/* splash */
+.splash{position:absolute;left:0;right:0;top:250px;text-align:center;z-index:45;opacity:0;pointer-events:none}
+.splash .s1{font-size:64px;font-weight:900;letter-spacing:10px;color:#fff;text-shadow:0 6px 20px #000}
+.splash .s2{font-size:300px;font-weight:900;line-height:.95;background:linear-gradient(180deg,#FFF6B8,#FFC93C 50%,#F08A00);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-stroke:5px rgba(60,30,0,.6);filter:drop-shadow(0 12px 30px rgba(0,0,0,.8))}
+/* card */
+.card{position:absolute;left:40px;right:120px;top:1030px;display:flex;gap:22px;align-items:center;padding:26px 26px;border-radius:32px;background:linear-gradient(160deg,rgba(14,20,30,.94),rgba(6,9,14,.94));border:3px solid rgba(255,201,60,.85);box-shadow:0 22px 60px rgba(0,0,0,.65),0 0 40px rgba(255,201,60,.18);opacity:0;z-index:35}
+.medal{flex:0 0 150px;height:150px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ffffff,#cfd8e3 60%,#8d99a8);display:flex;flex-direction:column;align-items:center;justify-content:center;color:#1b2430;border:6px solid #fff;box-shadow:0 8px 20px rgba(0,0,0,.5)}
+.medal.gold{background:radial-gradient(circle at 35% 30%,#FFF6B8,#FFC93C 55%,#C77700);color:#3a2000}
+.medal-top{font-size:24px;font-weight:900;letter-spacing:3px}
+.medal-n{font-size:92px;font-weight:900;line-height:.9}
+.cbody{flex:1;min-width:0}
+.cname{font-size:50px;font-weight:900;line-height:1.08;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.carea{font-size:30px;font-weight:700;color:rgba(255,255,255,.82);margin-top:6px;display:flex;align-items:center;gap:8px;white-space:nowrap}
+.carea .gp{width:24px}
+.crow{display:flex;align-items:center;gap:16px;margin-top:12px}
+.starwrap{position:relative;width:240px;height:44px;flex:0 0 240px}
+.st-empty,.st-gold{position:absolute;left:0;top:0;display:flex;height:44px;overflow:hidden;white-space:nowrap}
+.st-gold{width:0}
+.cnum{font-size:64px;font-weight:900;color:#FFC93C;line-height:1}
+.cnum small{font-size:32px;color:rgba(255,255,255,.7);margin-left:4px}
+.crev{font-size:36px;font-weight:800;margin-top:10px;white-space:nowrap}
+.crev b{color:#FFC93C}
+.gg{color:#8ab4ff}
+.chips{display:flex;gap:10px;margin-top:12px}
+.chip{font-size:24px;font-weight:800;padding:6px 14px;border-radius:999px;background:rgba(255,201,60,.18);border:2px solid rgba(255,201,60,.7);color:#FFE29A;white-space:nowrap}
+.chip.c2{background:rgba(138,180,255,.15);border-color:rgba(138,180,255,.7);color:#cfe0ff}
+/* bubbles */
+.bubble{position:absolute;left:40px;width:760px;padding:20px 26px 18px;border-radius:30px;background:#fff;color:#111;box-shadow:0 16px 40px rgba(0,0,0,.55);opacity:0;z-index:34;transform-origin:20% 0%}
+.bubble.b0{top:606px}
+.bubble.b0:before{content:'';position:absolute;left:120px;top:-26px;border:16px solid transparent;border-bottom:14px solid #fff;border-top:0;border-width:0 18px 28px 18px}
+.bubble.b1{top:838px;left:200px;width:740px;transform-origin:80% 0%}
+.bhead{display:flex;align-items:center;gap:14px}
+.av{width:58px;height:58px}
+.bname{font-size:26px;font-weight:800;color:#333}
+.bstars{display:flex;margin-top:2px}
+.btext{font-size:38px;font-weight:800;line-height:1.25;margin-top:10px;color:#111}
+.blabel{font-size:22px;font-weight:700;color:#5f6b7a;margin-top:8px}
+.b1 .bhead{display:none}
+.b1 .btext{margin-top:0}
+/* subtitles */
+#subs{position:absolute;left:50px;right:130px;top:1390px;height:150px;z-index:50}
+.cue{position:absolute;left:0;right:0;top:0;text-align:center;font-size:56px;font-weight:900;line-height:1.18;color:#fff;-webkit-text-stroke:9px #000;paint-order:stroke fill;text-shadow:0 6px 16px rgba(0,0,0,.6);opacity:0}
+.cue .hl{color:#FFD23F}
+/* cta */
+#ctaQ{position:absolute;left:40px;right:40px;top:250px;text-align:center;z-index:40;opacity:0}
+.q1{display:inline-block;font-size:80px;font-weight:900;line-height:1.1;background:#e5322d;padding:10px 28px;border-radius:20px;box-shadow:0 12px 30px rgba(0,0,0,.5)}
+.q2{margin-top:18px;font-size:40px;font-weight:900;color:#FFC93C;text-shadow:0 4px 14px #000;opacity:0}
+#recap{position:absolute;left:40px;right:120px;top:900px;z-index:40;opacity:0}
+.rrow{display:flex;align-items:center;gap:16px;background:rgba(8,12,18,.88);border:2px solid rgba(255,201,60,.55);border-radius:20px;padding:12px 20px;margin-bottom:10px;opacity:0}
+.rr{flex:0 0 74px;font-size:40px;font-weight:900;color:#FFC93C}
+.rn{flex:1;font-size:36px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rs{display:flex;align-items:center;gap:6px;font-size:38px;font-weight:900;color:#FFC93C}
+#rrow-melia{border-color:#FFC93C;background:linear-gradient(90deg,rgba(255,201,60,.32),rgba(8,12,18,.9))}
+/* confetti */
+.cf{position:absolute;width:18px;height:28px;border-radius:4px;opacity:0;z-index:46}
+/* footer */
+.footer{position:absolute;left:24px;right:24px;bottom:22px;display:flex;justify-content:space-between;align-items:center;z-index:55;pointer-events:none}
+.disc{font-size:22px;font-weight:700;color:rgba(255,255,255,.9);background:rgba(0,0,0,.6);padding:6px 14px;border-radius:10px}
+.attr{font-size:18px;font-weight:600;color:rgba(255,255,255,.7);background:rgba(0,0,0,.45);padding:5px 10px;border-radius:8px}
+</style></head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="56.425" data-width="1080" data-height="1920" data-fps="30">
+  <div id="mapStage" class="clip" data-start="0" data-duration="56.425" data-track-index="0">
+   <div id="tilt">
+    <div id="mapWorld">
+      <img class="map" src="assets/map/haiphong-sat-z16.jpg" width="4096" height="5120" alt=""/>
+      <svg id="arcs" width="4096" height="5120" viewBox="0 0 4096 5120"><path class="arc-glow" id="arcg-pearl-sheraton" d="M2497.6,3370.4 Q2295.4,1748.6 806.9,1073.6"/><path class="arc" id="arc-pearl-sheraton" d="M2497.6,3370.4 Q2295.4,1748.6 806.9,1073.6"/><path class="arc-glow" id="arcg-sheraton-mercure" d="M806.9,1073.6 Q1562.1,1047.4 1979.1,1677.7"/><path class="arc" id="arc-sheraton-mercure" d="M806.9,1073.6 Q1562.1,1047.4 1979.1,1677.7"/><path class="arc-glow" id="arcg-mercure-pullman" d="M1979.1,1677.7 Q1898.3,1433.2 2064.6,1236.6"/><path class="arc" id="arc-mercure-pullman" d="M1979.1,1677.7 Q1898.3,1433.2 2064.6,1236.6"/><path class="arc-glow" id="arcg-pullman-melia" d="M2064.6,1236.6 Q1584.0,726.1 897.6,869.2"/><path class="arc" id="arc-pullman-melia" d="M2064.6,1236.6 Q1584.0,726.1 897.6,869.2"/></svg>
+      <div class="mlabel river" style="left:1664.3px;top:697.1px"><span>SÔNG CẤM</span></div><div class="mlabel river" style="left:545.9px;top:2891.3px"><span>SÔNG LẠCH TRAY</span></div><div class="mlabel lm" style="left:1408.0px;top:1420.2px"><span>Hồ Tam Bạc</span></div><div class="mlabel lm" style="left:1748.7px;top:1364.3px"><span>Nhà hát Lớn</span></div><div class="mlabel lm" style="left:3668.3px;top:3140.6px"><span>Sân bay Cát Bi</span></div><div class="mlabel lm" style="left:1617.7px;top:1634.7px"><span>Hồ An Biên</span></div>
+      <div class="dot" id="dot-pearl-sheraton" style="left:0;top:0;transform:translate(2497.6px,3370.4px)"><div class="dot-in"></div></div><div class="dot" id="dot-sheraton-mercure" style="left:0;top:0;transform:translate(806.9px,1073.6px)"><div class="dot-in"></div></div><div class="dot" id="dot-mercure-pullman" style="left:0;top:0;transform:translate(1979.1px,1677.7px)"><div class="dot-in"></div></div><div class="dot" id="dot-pullman-melia" style="left:0;top:0;transform:translate(2064.6px,1236.6px)"><div class="dot-in"></div></div>
+      <div class="pin" id="pin-pearl" style="left:2497.6px;top:3370.4px">
+  <div class="cs"><div class="ripple" id="rip-pearl"></div></div><div class="cs"><div class="ripple r2" id="rip2-pearl"></div></div>
+  <div class="cs"><div class="pin-inner" id="pinin-pearl"><img class="pin-img" src="assets/icons/pin-red.svg"/>
+  <div class="tagpos" id="tag-pearl"><div class="pin-tag">#5 PEARL RIVER HOTEL</div></div></div></div>
+  <div class="cs"><div class="qpin" id="qpin-pearl">?</div></div>
+</div><div class="pin" id="pin-sheraton" style="left:806.9px;top:1073.6px">
+  <div class="cs"><div class="ripple" id="rip-sheraton"></div></div><div class="cs"><div class="ripple r2" id="rip2-sheraton"></div></div>
+  <div class="cs"><div class="pin-inner" id="pinin-sheraton"><img class="pin-img" src="assets/icons/pin-red.svg"/>
+  <div class="tagpos" id="tag-sheraton"><div class="pin-tag">#4 SHERATON HẢI PHÒNG</div></div></div></div>
+  <div class="cs"><div class="qpin" id="qpin-sheraton">?</div></div>
+</div><div class="pin" id="pin-mercure" style="left:1979.1px;top:1677.7px">
+  <div class="cs"><div class="ripple" id="rip-mercure"></div></div><div class="cs"><div class="ripple r2" id="rip2-mercure"></div></div>
+  <div class="cs"><div class="pin-inner" id="pinin-mercure"><img class="pin-img" src="assets/icons/pin-red.svg"/>
+  <div class="tagpos" id="tag-mercure"><div class="pin-tag">#3 MERCURE HẢI PHÒNG</div></div></div></div>
+  <div class="cs"><div class="qpin" id="qpin-mercure">?</div></div>
+</div><div class="pin" id="pin-pullman" style="left:2064.6px;top:1236.6px">
+  <div class="cs"><div class="ripple" id="rip-pullman"></div></div><div class="cs"><div class="ripple r2" id="rip2-pullman"></div></div>
+  <div class="cs"><div class="pin-inner" id="pinin-pullman"><img class="pin-img" src="assets/icons/pin-red.svg"/>
+  <div class="tagpos" id="tag-pullman"><div class="pin-tag">#2 PULLMAN HẢI PHÒNG</div></div></div></div>
+  <div class="cs"><div class="qpin" id="qpin-pullman">?</div></div>
+</div><div class="pin" id="pin-melia" style="left:897.6px;top:869.2px">
+  <div class="cs"><div class="ripple" id="rip-melia"></div></div><div class="cs"><div class="ripple r2" id="rip2-melia"></div></div>
+  <div class="cs"><div class="pin-inner" id="pinin-melia"><img class="crown" src="assets/icons/crown.svg"/><img class="pin-img" src="assets/icons/pin-gold.svg"/>
+  <div class="tagpos" id="tag-melia"><div class="pin-tag">#1 MELIÁ VINPEARL RIVERA</div></div></div></div>
+  <div class="cs"><div class="qpin" id="qpin-melia">?</div></div>
+</div>
+    </div>
+   </div>
+  </div>
+  <div class="shade"></div><div class="vig"></div>
+  <div class="ui">
+    <div id="title">
+      <div class="t-chip">REVIEW THẬT TỪ GOOGLE MAPS</div>
+      <div class="t-top5">TOP 5</div>
+      <div class="t-l2">KHÁCH SẠN 5 SAO</div>
+      <div class="t-l3"><span>HẢI PHÒNG</span></div>
+      <div class="t-sub"><img src="assets/icons/gpin.svg"/>Điểm Google Maps cao nhất</div>
+    </div>
+    <div id="rule"><div class="panel">
+      <div class="p-h">CÁCH XẾP HẠNG</div>
+      <div class="p-row"><div class="p-ic">★</div><div>Điểm Google Maps<br/>từ thấp → cao: #5 → #1</div></div>
+      <div class="p-row"><div class="p-ic">=</div><div>Bằng điểm: nhiều review<br/>hơn thì xếp trên</div></div>
+      <div class="p-date">Khách sạn 5 sao nội thành · tra ngày 06/10/2026</div>
+    </div></div>
+    <div class="lad-l" id="ladL">BẢNG XẾP HẠNG</div>
+    <div id="ladder"><div class="lad" id="lad-pearl"><span>5</span></div><div class="lad" id="lad-sheraton"><span>4</span></div><div class="lad" id="lad-mercure"><span>3</span></div><div class="lad" id="lad-pullman"><span>2</span></div><div class="lad" id="lad-melia"><span>1</span></div></div>
+    <div class="splash" id="spl-5"><div class="s1">HẠNG</div><div class="s2">#5</div></div>
+    <div class="splash" id="spl-4"><div class="s1">HẠNG</div><div class="s2">#4</div></div>
+    <div class="splash" id="spl-3"><div class="s1">HẠNG</div><div class="s2">#3</div></div>
+    <div class="splash" id="spl-2"><div class="s1">HẠNG</div><div class="s2">#2</div></div>
+    <div class="splash" id="spl-1"><div class="s1">TOP 1</div><div class="s2">#1</div></div>
+    <div class="bubble b0" id="bub-pearl-0">
+  <div class="bhead"><img src="assets/icons/avatar.svg" class="av"/><div><div class="bname">Khách lưu trú</div><div class="bstars"><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div></div>
+  <div class="btext">“<span class="w">Chuẩn</span> <span class="w">5</span> <span class="w">sao,</span> <span class="w">bữa</span> <span class="w">sáng</span> <span class="w">ngon,</span> <span class="w">phòng</span> <span class="w">thoải</span> <span class="w">mái.</span>”</div>
+  <div class="blabel">Review Google Maps (dịch)</div>
+</div><div class="bubble b1" id="bub-pearl-1">
+  <div class="bhead"><img src="assets/icons/avatar.svg" class="av"/><div><div class="bname">Khách lưu trú</div><div class="bstars"><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div></div>
+  <div class="btext">“<span class="w">Chỉ</span> <span class="w">20</span> <span class="w">phút</span> <span class="w">lái</span> <span class="w">xe</span> <span class="w">tới</span> <span class="w">biển</span> <span class="w">Đồ</span> <span class="w">Sơn.</span>”</div>
+  <div class="blabel">Review Google Maps (dịch)</div>
+</div><div class="bubble b0" id="bub-sheraton-0">
+  <div class="bhead"><img src="assets/icons/avatar.svg" class="av"/><div><div class="bname">Khách lưu trú</div><div class="bstars"><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div></div>
+  <div class="btext">“<span class="w">View</span> <span class="w">đẹp</span> <span class="w">nhất</span> <span class="w">Hải</span> <span class="w">Phòng.</span>”</div>
+  <div class="blabel">Review Google Maps (dịch)</div>
+</div><div class="bubble b1" id="bub-sheraton-1">
+  <div class="bhead"><img src="assets/icons/avatar.svg" class="av"/><div><div class="bname">Khách lưu trú</div><div class="bstars"><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div></div>
+  <div class="btext">“<span class="w">Trung</span> <span class="w">tâm</span> <span class="w">thương</span> <span class="w">mại</span> <span class="w">ngay</span> <span class="w">dưới</span> <span class="w">khách</span> <span class="w">sạn.</span>”</div>
+  <div class="blabel">Review Google Maps (dịch)</div>
+</div><div class="bubble b0" id="bub-mercure-0">
+  <div class="bhead"><img src="assets/icons/avatar.svg" class="av"/><div><div class="bname">Khách lưu trú</div><div class="bstars"><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div></div>
+  <div class="btext">“<span class="w">Từ</span> <span class="w">rooftop</span> <span class="w">còn</span> <span class="w">xem</span> <span class="w">bóng</span> <span class="w">đá</span> <span class="w">miễn</span> <span class="w">phí!</span>”</div>
+  <div class="blabel">Review Google Maps (dịch)</div>
+</div><div class="bubble b1" id="bub-mercure-1">
+  <div class="bhead"><img src="assets/icons/avatar.svg" class="av"/><div><div class="bname">Khách lưu trú</div><div class="bstars"><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div></div>
+  <div class="btext">“<span class="w">Có</span> <span class="w">đủ</span> <span class="w">spa,</span> <span class="w">gym</span> <span class="w">và</span> <span class="w">cả</span> <span class="w">bể</span> <span class="w">bơi</span> <span class="w">rooftop.</span>”</div>
+  <div class="blabel">Review Google Maps (dịch)</div>
+</div><div class="bubble b0" id="bub-pullman-0">
+  <div class="bhead"><img src="assets/icons/avatar.svg" class="av"/><div><div class="bname">Khách lưu trú</div><div class="bstars"><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div></div>
+  <div class="btext">“<span class="w">Điểm</span> <span class="w">nhấn</span> <span class="w">là</span> <span class="w">bể</span> <span class="w">bơi</span> <span class="w">dài</span> <span class="w">45</span> <span class="w">mét.</span>”</div>
+  <div class="blabel">Review Google Maps (dịch)</div>
+</div><div class="bubble b1" id="bub-pullman-1">
+  <div class="bhead"><img src="assets/icons/avatar.svg" class="av"/><div><div class="bname">Khách lưu trú</div><div class="bstars"><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div></div>
+  <div class="btext">“<span class="w">Đúng</span> <span class="w">chuẩn</span> <span class="w">khách</span> <span class="w">sạn</span> <span class="w">5</span> <span class="w">sao.</span>”</div>
+  <div class="blabel">Review Google Maps (dịch)</div>
+</div><div class="bubble b0" id="bub-melia-0">
+  <div class="bhead"><img src="assets/icons/avatar.svg" class="av"/><div><div class="bname">Khách lưu trú</div><div class="bstars"><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div></div>
+  <div class="btext">“<span class="w">Buffet</span> <span class="w">sáng</span> <span class="w">dài</span> <span class="w">như</span> <span class="w">bất</span> <span class="w">tận!</span>”</div>
+  <div class="blabel">Review Google Maps (dịch)</div>
+</div><div class="bubble b1" id="bub-melia-1">
+  <div class="bhead"><img src="assets/icons/avatar.svg" class="av"/><div><div class="bname">Khách lưu trú</div><div class="bstars"><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="30" height="30" style="margin-right:2px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div></div>
+  <div class="btext">“<span class="w">Hai</span> <span class="w">bể</span> <span class="w">bơi</span> <span class="w">là</span> <span class="w">điểm</span> <span class="w">nhấn</span> <span class="w">với</span> <span class="w">bọn</span> <span class="w">trẻ.</span>”</div>
+  <div class="blabel">Review Google Maps (dịch)</div>
+</div>
+    <div class="card" id="card-pearl">
+  <div class="medal"><div class="medal-top">HẠNG</div><div class="medal-n">5</div></div>
+  <div class="cbody">
+    <div class="cname">PEARL RIVER HOTEL</div>
+    <div class="carea"><img src="assets/icons/gpin.svg" class="gp"/> 93 Phạm Văn Đồng · Hưng Đạo</div>
+    <div class="crow"><div class="starwrap"><div class="st-empty"><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div><div class="st-gold" id="stg-pearl"><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div>
+      <div class="cnum"><span id="rnum-pearl">0,0</span><small>/5</small></div></div>
+    <div class="crev"><span class="gg">Google Maps</span> · khoảng <b id="rev-pearl">0</b> review</div>
+    <div class="chips"><span class="chip">Khách sạn 5 sao</span><span class="chip c2">Hưng Đạo</span></div>
+  </div>
+</div><div class="card" id="card-sheraton">
+  <div class="medal"><div class="medal-top">HẠNG</div><div class="medal-n">4</div></div>
+  <div class="cbody">
+    <div class="cname">SHERATON HẢI PHÒNG</div>
+    <div class="carea"><img src="assets/icons/gpin.svg" class="gp"/> Vinhomes Imperia · Hồng Bàng</div>
+    <div class="crow"><div class="starwrap"><div class="st-empty"><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div><div class="st-gold" id="stg-sheraton"><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div>
+      <div class="cnum"><span id="rnum-sheraton">0,0</span><small>/5</small></div></div>
+    <div class="crev"><span class="gg">Google Maps</span> · khoảng <b id="rev-sheraton">0</b> review</div>
+    <div class="chips"><span class="chip">Khách sạn 5 sao</span><span class="chip c2">Hồng Bàng</span></div>
+  </div>
+</div><div class="card" id="card-mercure">
+  <div class="medal"><div class="medal-top">HẠNG</div><div class="medal-n">3</div></div>
+  <div class="cbody">
+    <div class="cname">MERCURE HẢI PHÒNG</div>
+    <div class="carea"><img src="assets/icons/gpin.svg" class="gp"/> 12 Lạch Tray · Lê Chân</div>
+    <div class="crow"><div class="starwrap"><div class="st-empty"><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div><div class="st-gold" id="stg-mercure"><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div>
+      <div class="cnum"><span id="rnum-mercure">0,0</span><small>/5</small></div></div>
+    <div class="crev"><span class="gg">Google Maps</span> · khoảng <b id="rev-mercure">0</b> review</div>
+    <div class="chips"><span class="chip">Khách sạn 5 sao</span><span class="chip c2">Lê Chân</span></div>
+  </div>
+</div><div class="card" id="card-pullman">
+  <div class="medal"><div class="medal-top">HẠNG</div><div class="medal-n">2</div></div>
+  <div class="cbody">
+    <div class="cname">PULLMAN HẢI PHÒNG</div>
+    <div class="carea"><img src="assets/icons/gpin.svg" class="gp"/> 12 Trần Phú · trung tâm</div>
+    <div class="crow"><div class="starwrap"><div class="st-empty"><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div><div class="st-gold" id="stg-pullman"><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div>
+      <div class="cnum"><span id="rnum-pullman">0,0</span><small>/5</small></div></div>
+    <div class="crev"><span class="gg">Google Maps</span> · khoảng <b id="rev-pullman">0</b> review</div>
+    <div class="chips"><span class="chip">Khách sạn 5 sao</span><span class="chip c2">trung tâm</span></div>
+  </div>
+</div><div class="card" id="card-melia">
+  <div class="medal gold"><div class="medal-top">HẠNG</div><div class="medal-n">1</div></div>
+  <div class="cbody">
+    <div class="cname">MELIÁ VINPEARL RIVERA</div>
+    <div class="carea"><img src="assets/icons/gpin.svg" class="gp"/> Vinhomes Imperia · Hồng Bàng</div>
+    <div class="crow"><div class="starwrap"><div class="st-empty"><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#3b4250" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div><div class="st-gold" id="stg-melia"><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="44" height="44" style="margin-right:4px"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div>
+      <div class="cnum"><span id="rnum-melia">0,0</span><small>/5</small></div></div>
+    <div class="crev"><span class="gg">Google Maps</span> · khoảng <b id="rev-melia">0</b> review</div>
+    <div class="chips"><span class="chip">Khách sạn 5 sao</span><span class="chip c2">Hồng Bàng</span></div>
+  </div>
+</div>
+    <div id="ctaQ"><div class="q1">BẠN CHỌN<br/>KHÁCH SẠN NÀO?</div><div class="q2" id="q2">LƯU VIDEO · THEO DÕI HINTON MEDIA</div></div>
+    <div id="recap"><div class="rrow" id="rrow-melia"><div class="rr">#1</div><div class="rn">MELIÁ VINPEARL RIVERA</div><div class="rs"><svg viewBox="0 0 24 24" width="30" height="30"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg>4,8</div></div><div class="rrow" id="rrow-pullman"><div class="rr">#2</div><div class="rn">PULLMAN HẢI PHÒNG</div><div class="rs"><svg viewBox="0 0 24 24" width="30" height="30"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg>4,8</div></div><div class="rrow" id="rrow-mercure"><div class="rr">#3</div><div class="rn">MERCURE HẢI PHÒNG</div><div class="rs"><svg viewBox="0 0 24 24" width="30" height="30"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg>4,7</div></div><div class="rrow" id="rrow-sheraton"><div class="rr">#4</div><div class="rn">SHERATON HẢI PHÒNG</div><div class="rs"><svg viewBox="0 0 24 24" width="30" height="30"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg>4,7</div></div><div class="rrow" id="rrow-pearl"><div class="rr">#5</div><div class="rn">PEARL RIVER HOTEL</div><div class="rs"><svg viewBox="0 0 24 24" width="30" height="30"><path fill="#FFC93C" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg>4,6</div></div></div>
+    <div id="confetti"></div>
+    <div id="subs"><div class="cue" id="cue0">Đi <span class="hl">Hải Phòng</span></div><div class="cue" id="cue1">ngủ đâu cho sướng?</div><div class="cue" id="cue2">Top <span class="hl">5</span> khách sạn <span class="hl">5</span> sao</div><div class="cue" id="cue3">nội thành</div><div class="cue" id="cue4">điểm <span class="hl">Google Maps</span> cao nhất!</div><div class="cue" id="cue5">Xếp theo điểm <span class="hl">Google</span>,</div><div class="cue" id="cue6">bằng điểm thì ai</div><div class="cue" id="cue7">nhiều lượt đánh giá hơn</div><div class="cue" id="cue8">đứng trên.</div><div class="cue" id="cue9">Hạng năm,</div><div class="cue" id="cue10"><span class="hl">Pearl River Hotel</span></div><div class="cue" id="cue11">trên đường Phạm Văn Đồng.</div><div class="cue" id="cue12"><span class="hl">4,6</span> sao,</div><div class="cue" id="cue13">khoảng <span class="hl">2.100</span></div><div class="cue" id="cue14">lượt đánh giá.</div><div class="cue" id="cue15">Khách khen chuẩn <span class="hl">5</span> sao,</div><div class="cue" id="cue16">bữa sáng ngon,</div><div class="cue" id="cue17">chỉ <span class="hl">20</span> phút lái xe</div><div class="cue" id="cue18">ra biển <span class="hl">Đồ Sơn</span>.</div><div class="cue" id="cue19">Hạng bốn,</div><div class="cue" id="cue20"><span class="hl">Sheraton</span> <span class="hl">Hải Phòng</span></div><div class="cue" id="cue21">ở Vinhomes Imperia.</div><div class="cue" id="cue22"><span class="hl">4,7</span> sao,</div><div class="cue" id="cue23">khoảng <span class="hl">1.600</span></div><div class="cue" id="cue24">lượt đánh giá.</div><div class="cue" id="cue25">Có khách gọi đây là</div><div class="cue" id="cue26">view đẹp nhất <span class="hl">Hải Phòng</span>.</div><div class="cue" id="cue27">Hạng ba,</div><div class="cue" id="cue28"><span class="hl">Mercure</span> <span class="hl">Hải Phòng</span></div><div class="cue" id="cue29">ngay phố Lạch Tray.</div><div class="cue" id="cue30">Cũng <span class="hl">4,7</span> sao,</div><div class="cue" id="cue31">nhưng hơn <span class="hl">2.200</span></div><div class="cue" id="cue32">lượt đánh giá,</div><div class="cue" id="cue33">nhiều nhất top này.</div><div class="cue" id="cue34">Khách kể từ rooftop</div><div class="cue" id="cue35">còn xem được</div><div class="cue" id="cue36">bóng đá miễn phí.</div><div class="cue" id="cue37">Hạng hai,</div><div class="cue" id="cue38"><span class="hl">Pullman</span> <span class="hl">Hải Phòng</span>,</div><div class="cue" id="cue39">phố Trần Phú,</div><div class="cue" id="cue40">giữa trung tâm.</div><div class="cue" id="cue41"><span class="hl">4,8</span> sao,</div><div class="cue" id="cue42">khoảng <span class="hl">1.500</span></div><div class="cue" id="cue43">lượt đánh giá.</div><div class="cue" id="cue44">Một khách khen</div><div class="cue" id="cue45">bể bơi dài <span class="hl">45</span> mét.</div><div class="cue" id="cue46">Và số một,</div><div class="cue" id="cue47"><span class="hl">Meliá</span> <span class="hl">Vinpearl</span></div><div class="cue" id="cue48"><span class="hl">Hải Phòng</span> <span class="hl">Rivera</span>.</div><div class="cue" id="cue49">Cũng <span class="hl">4,8</span> sao,</div><div class="cue" id="cue50">nhưng hơn <span class="hl">2.100</span></div><div class="cue" id="cue51">lượt đánh giá.</div><div class="cue" id="cue52">Khách review</div><div class="cue" id="cue53">buffet sáng dài như bất tận,</div><div class="cue" id="cue54">hai bể bơi là điểm nhấn</div><div class="cue" id="cue55">với bọn trẻ.</div><div class="cue" id="cue56">Bạn chọn khách sạn nào?</div><div class="cue" id="cue57">Lưu video</div><div class="cue" id="cue58">cho chuyến <span class="hl">Hải Phòng</span> tới,</div><div class="cue" id="cue59">và theo dõi <span class="hl">Hinton Media</span> nhé!</div></div>
+  </div>
+  <div id="flash"></div>
+  <div class="footer"><div class="disc">Số liệu Google Maps 06/10/2026 · tham khảo</div><div class="attr">Ảnh vệ tinh © Esri, Maxar, Earthstar Geographics</div></div>
+</div>
+<script>
+const D={"DUR": 56.425, "W": 1080, "H": 1920, "FY": 560, "center": [1649.1599999999999, 1645.5], "scenes": {"hook": {"start": 0.0, "end": 3.983, "sents": [[0.0, 1.274], [1.414, 3.983]]}, "rule": {"start": 4.363, "end": 7.564, "sents": [[4.363, 7.564]]}, "pearl": {"start": 7.944, "end": 16.515, "sents": [[7.944, 10.238], [10.378, 12.688], [12.828, 16.515]]}, "sheraton": {"start": 16.895, "end": 23.831, "sents": [[16.895, 19.068], [19.208, 21.828], [21.968, 23.831]]}, "mercure": {"start": 24.211, "end": 32.468, "sents": [[24.211, 26.143], [26.283, 30.128], [30.268, 32.468]]}, "pullman": {"start": 32.848, "end": 40.208, "sents": [[32.848, 35.368], [35.508, 38.162], [38.302, 40.208]]}, "melia": {"start": 40.588, "end": 49.303, "sents": [[40.588, 42.538], [42.678, 45.692], [45.832, 49.303]]}, "cta": {"start": 49.683, "end": 53.825, "sents": [[49.683, 50.624], [50.764, 53.825]]}}, "ranked": [{"id": "pearl", "rank": 5, "px": 2497.6, "py": 3370.4, "rating": 4.6, "reviews": 2137, "nq": 2}, {"id": "sheraton", "rank": 4, "px": 806.9, "py": 1073.6, "rating": 4.7, "reviews": 1580, "nq": 2}, {"id": "mercure", "rank": 3, "px": 1979.1, "py": 1677.7, "rating": 4.7, "reviews": 2261, "nq": 2}, {"id": "pullman", "rank": 2, "px": 2064.6, "py": 1236.6, "rating": 4.8, "reviews": 1496, "nq": 2}, {"id": "melia", "rank": 1, "px": 897.6, "py": 869.2, "rating": 4.8, "reviews": 2170, "nq": 2}], "arcs": [{"id": "pearl-sheraton", "to": "sheraton", "pts": [[2497.6, 3370.4], [2478.5, 3236.9], [2455.0, 3106.7], [2426.9, 2979.7], [2394.5, 2856.1], [2357.5, 2735.7], [2316.1, 2618.7], [2270.2, 2504.9], [2219.9, 2394.4], [2165.0, 2287.2], [2105.8, 2183.3], [2042.0, 2082.6], [1973.8, 1985.3], [1901.1, 1891.2], [1824.0, 1800.5], [1742.4, 1713.0], [1656.3, 1628.8], [1565.7, 1547.9], [1470.7, 1470.3], [1371.3, 1395.9], [1267.3, 1324.9], [1158.9, 1257.1], [1046.0, 1192.7], [928.7, 1131.5], [806.9, 1073.6]]}, {"id": "sheraton-mercure", "to": "mercure", "pts": [[806.9, 1073.6], [869.3, 1072.6], [930.4, 1073.8], [990.4, 1077.3], [1049.3, 1083.1], [1106.9, 1091.2], [1163.4, 1101.5], [1218.7, 1114.2], [1272.8, 1129.1], [1325.8, 1146.3], [1377.5, 1165.8], [1428.1, 1187.5], [1477.6, 1211.5], [1525.8, 1237.9], [1572.9, 1266.4], [1618.8, 1297.3], [1663.5, 1330.5], [1707.1, 1365.9], [1749.5, 1403.6], [1790.7, 1443.6], [1830.7, 1485.8], [1869.6, 1530.4], [1907.3, 1577.2], [1943.8, 1626.3], [1979.1, 1677.7]]}, {"id": "mercure-pullman", "to": "pullman", "pts": [[1979.1, 1677.7], [1972.8, 1657.4], [1967.4, 1637.3], [1962.8, 1617.3], [1959.0, 1597.5], [1956.2, 1577.9], [1954.2, 1558.4], [1953.0, 1539.2], [1952.7, 1520.0], [1953.3, 1501.1], [1954.7, 1482.3], [1957.0, 1463.6], [1960.1, 1445.2], [1964.1, 1426.9], [1968.9, 1408.8], [1974.6, 1390.8], [1981.2, 1373.0], [1988.6, 1355.4], [1996.9, 1337.9], [2006.0, 1320.6], [2016.0, 1303.5], [2026.9, 1286.5], [2038.6, 1269.7], [2051.2, 1253.1], [2064.6, 1236.6]]}, {"id": "pullman-melia", "to": "melia", "pts": [[2064.6, 1236.6], [2024.2, 1195.2], [1983.1, 1156.1], [1941.2, 1119.2], [1898.7, 1084.6], [1855.4, 1052.3], [1811.4, 1022.2], [1766.7, 994.4], [1721.3, 968.9], [1675.2, 945.7], [1628.4, 924.7], [1580.8, 906.0], [1532.5, 889.5], [1483.6, 875.3], [1433.9, 863.4], [1383.4, 853.8], [1332.3, 846.4], [1280.5, 841.3], [1227.9, 838.5], [1174.7, 838.0], [1120.7, 839.7], [1066.0, 843.6], [1010.6, 849.9], [954.4, 858.4], [897.6, 869.2]]}], "cues": [{"start": 0.0, "end": 0.46, "text": "Đi Hải Phòng", "scene": "hook"}, {"start": 0.46, "end": 1.2, "text": "ngủ đâu cho sướng?", "scene": "hook"}, {"start": 1.44, "end": 2.42, "text": "Top 5 khách sạn 5 sao", "scene": "hook"}, {"start": 2.42, "end": 2.78, "text": "nội thành", "scene": "hook"}, {"start": 2.78, "end": 3.88, "text": "điểm Google Maps cao nhất!", "scene": "hook"}, {"start": 4.363, "end": 5.08, "text": "Xếp theo điểm Google,", "scene": "rule"}, {"start": 5.66, "end": 6.34, "text": "bằng điểm thì ai", "scene": "rule"}, {"start": 6.34, "end": 7.1, "text": "nhiều lượt đánh giá hơn", "scene": "rule"}, {"start": 7.1, "end": 7.44, "text": "đứng trên.", "scene": "rule"}, {"start": 7.98, "end": 8.307, "text": "Hạng năm,", "scene": "pearl"}, {"start": 8.307, "end": 9.14, "text": "Pearl River Hotel", "scene": "pearl"}, {"start": 9.14, "end": 10.1, "text": "trên đường Phạm Văn Đồng.", "scene": "pearl"}, {"start": 10.4, "end": 11.34, "text": "4,6 sao,", "scene": "pearl"}, {"start": 11.34, "end": 11.8, "text": "khoảng 2.100", "scene": "pearl"}, {"start": 11.8, "end": 12.56, "text": "lượt đánh giá.", "scene": "pearl"}, {"start": 12.86, "end": 13.72, "text": "Khách khen chuẩn 5 sao,", "scene": "pearl"}, {"start": 14.14, "end": 14.6, "text": "bữa sáng ngon,", "scene": "pearl"}, {"start": 14.6, "end": 15.74, "text": "chỉ 20 phút lái xe", "scene": "pearl"}, {"start": 15.74, "end": 16.38, "text": "ra biển Đồ Sơn.", "scene": "pearl"}, {"start": 17.04, "end": 17.293, "text": "Hạng bốn,", "scene": "sheraton"}, {"start": 17.293, "end": 17.98, "text": "Sheraton Hải Phòng", "scene": "sheraton"}, {"start": 17.98, "end": 19.068, "text": "ở Vinhomes Imperia.", "scene": "sheraton"}, {"start": 19.208, "end": 19.94, "text": "4,7 sao,", "scene": "sheraton"}, {"start": 20.32, "end": 20.92, "text": "khoảng 1.600", "scene": "sheraton"}, {"start": 20.92, "end": 21.72, "text": "lượt đánh giá.", "scene": "sheraton"}, {"start": 21.98, "end": 22.88, "text": "Có khách gọi đây là", "scene": "sheraton"}, {"start": 22.88, "end": 23.7, "text": "view đẹp nhất Hải Phòng.", "scene": "sheraton"}, {"start": 24.211, "end": 24.56, "text": "Hạng ba,", "scene": "mercure"}, {"start": 24.56, "end": 25.34, "text": "Mercure Hải Phòng", "scene": "mercure"}, {"start": 25.34, "end": 26.02, "text": "ngay phố Lạch Tray.", "scene": "mercure"}, {"start": 26.3, "end": 27.0, "text": "Cũng 4,7 sao,", "scene": "mercure"}, {"start": 27.0, "end": 28.04, "text": "nhưng hơn 2.200", "scene": "mercure"}, {"start": 28.04, "end": 29.02, "text": "lượt đánh giá,", "scene": "mercure"}, {"start": 29.36, "end": 30.0, "text": "nhiều nhất top này.", "scene": "mercure"}, {"start": 30.34, "end": 31.12, "text": "Khách kể từ rooftop", "scene": "mercure"}, {"start": 31.12, "end": 31.66, "text": "còn xem được", "scene": "mercure"}, {"start": 31.66, "end": 32.34, "text": "bóng đá miễn phí.", "scene": "mercure"}, {"start": 32.848, "end": 33.27, "text": "Hạng hai,", "scene": "pullman"}, {"start": 33.27, "end": 34.02, "text": "Pullman Hải Phòng,", "scene": "pullman"}, {"start": 34.02, "end": 34.66, "text": "phố Trần Phú,", "scene": "pullman"}, {"start": 34.66, "end": 35.24, "text": "giữa trung tâm.", "scene": "pullman"}, {"start": 35.508, "end": 36.28, "text": "4,8 sao,", "scene": "pullman"}, {"start": 36.66, "end": 37.22, "text": "khoảng 1.500", "scene": "pullman"}, {"start": 37.22, "end": 38.04, "text": "lượt đánh giá.", "scene": "pullman"}, {"start": 38.36, "end": 38.88, "text": "Một khách khen", "scene": "pullman"}, {"start": 38.88, "end": 40.06, "text": "bể bơi dài 45 mét.", "scene": "pullman"}, {"start": 40.588, "end": 40.94, "text": "Và số một,", "scene": "melia"}, {"start": 40.94, "end": 41.68, "text": "Meliá Vinpearl", "scene": "melia"}, {"start": 41.68, "end": 42.42, "text": "Hải Phòng Rivera.", "scene": "melia"}, {"start": 42.68, "end": 43.68, "text": "Cũng 4,8 sao,", "scene": "melia"}, {"start": 44.04, "end": 45.04, "text": "nhưng hơn 2.100", "scene": "melia"}, {"start": 45.04, "end": 45.58, "text": "lượt đánh giá.", "scene": "melia"}, {"start": 45.88, "end": 46.34, "text": "Khách review", "scene": "melia"}, {"start": 46.34, "end": 47.52, "text": "buffet sáng dài như bất tận,", "scene": "melia"}, {"start": 47.78, "end": 48.72, "text": "hai bể bơi là điểm nhấn", "scene": "melia"}, {"start": 48.72, "end": 49.2, "text": "với bọn trẻ.", "scene": "melia"}, {"start": 49.7, "end": 50.52, "text": "Bạn chọn khách sạn nào?", "scene": "cta"}, {"start": 50.82, "end": 51.4, "text": "Lưu video", "scene": "cta"}, {"start": 51.4, "end": 52.16, "text": "cho chuyến Hải Phòng tới,", "scene": "cta"}, {"start": 52.16, "end": 53.74, "text": "và theo dõi Hinton Media nhé!", "scene": "cta"}]};
+const W=D.W,FY=D.FY;
+const tl=gsap.timeline({paused:true});
+function cam(px,py,s,fy){fy=fy||FY;return {x:W/2-px*s,y:fy-py*s,scale:s,'--z':s};}
+const C=D.center;
+const OV0=cam(C[0],C[1],0.50,980), OV1=cam(C[0],C[1],0.58,980);
+gsap.set('#mapWorld',Object.assign({transformOrigin:'0 0'},OV0));
+gsap.set('#tilt',{transformPerspective:1800,rotationX:0,transformOrigin:'540px 560px'});
+let curCam=OV1;
+const S=D.scenes;
+const R=D.ranked;
+const hookEnd=S.rule.start;
+// ---------- HOOK ----------
+tl.fromTo('#mapWorld',OV0,Object.assign({duration:hookEnd+0.4,ease:'sine.inOut'},OV1),0);
+tl.fromTo('.t-top5',{scale:1.18},{scale:1,duration:0.6,ease:'back.out(2.2)'},0);
+tl.fromTo('.t-chip',{y:-10},{y:0,duration:0.4},0);
+tl.fromTo('.t-l3 span',{scale:1.06},{scale:1,duration:0.5,ease:'power2.out'},0.1);
+if(S.hook.sents[1]){const t=S.hook.sents[1][0];tl.fromTo('.t-top5',{scale:1},{scale:1.12,duration:0.18,yoyo:true,repeat:1,ease:'power1.inOut'},t);}
+R.forEach((h,i)=>{
+  tl.fromTo('#qpin-'+h.id,{opacity:0,scale:0},{opacity:1,scale:1,duration:0.35,ease:'back.out(2.5)'},0.35+i*0.22);
+});
+tl.to('#title',{opacity:0,y:-120,scale:0.92,duration:0.35,ease:'power2.in'},hookEnd-0.15);
+// ---------- RULE ----------
+tl.fromTo('#rule',{opacity:0,y:90},{opacity:1,y:0,duration:0.4,ease:'back.out(1.5)'},hookEnd);
+tl.fromTo('#rule .p-row',{opacity:0,x:-40},{opacity:1,x:0,duration:0.3,stagger:0.35},hookEnd+0.25);
+tl.to('#rule',{opacity:0,y:-80,duration:0.25,ease:'power2.in'},S[R[0].id].start-0.75);
+tl.fromTo(['#ladder','#ladL'],{opacity:0,y:-30},{opacity:1,y:0,duration:0.35},S[R[0].id].start-0.5);
+tl.fromTo('#tilt',{rotationX:0},{rotationX:14,duration:1.0,ease:'power2.inOut'},S[R[0].id].start-0.6);
+// ---------- HOTELS ----------
+const sceneOrder=['hook','rule'].concat(R.map(h=>h.id)).concat(['cta']);
+function nextStart(id){const i=sceneOrder.indexOf(id);return S[sceneOrder[i+1]].start;}
+function fmtR(v){return v.toFixed(1).replace('.',',');}
+function fmtN(v){return Math.round(v).toString().replace(/\B(?=(\d{3})+(?!\d))/g,'.');}
+R.forEach((h,i)=>{
+  const sc=S[h.id], s=sc.start, e=nextStart(h.id);
+  const z=1.22, z2=1.34;
+  const to=cam(h.px,h.py,z), hold=cam(h.px,h.py,z2);
+  const fromC=curCam;
+  const mx=(fromC.x+to.x)/2, my=(fromC.y+to.y)/2;
+  // mid camera: zoom out around midpoint of the two world points
+  const p0x=(W/2-fromC.x)/fromC.scale, p0y=(FY-fromC.y)/fromC.scale;
+  const midS=Math.min(fromC.scale,z)*0.62;
+  const mid=cam((p0x+h.px)/2,(p0y+h.py)/2,midS);
+  const fs=s-0.62, fd=1.12;
+  tl.fromTo('#mapWorld',fromC,{keyframes:[Object.assign({duration:fd*0.5,ease:'power2.in'},mid),Object.assign({duration:fd*0.5,ease:'power2.out'},to)]},fs);
+  tl.fromTo('#mapWorld',to,Object.assign({duration:Math.max(0.5,(e-0.62)-(s+0.5)),ease:'none'},hold),s+0.5);
+  curCam=hold;
+  // whip blur + flash
+  tl.fromTo('#mapStage',{filter:'blur(0px)'},{filter:'blur(7px)',duration:0.36,ease:'power1.in'},fs+0.08);
+  tl.fromTo('#mapStage',{filter:'blur(7px)'},{filter:'blur(0px)',duration:0.34,ease:'power1.out'},fs+0.5);
+  tl.fromTo('#flash',{opacity:0},{opacity:0.28,duration:0.07},s-0.07);
+  tl.to('#flash',{opacity:0,duration:0.22},s);
+  // arc + travelling dot
+  const arc=D.arcs.find(a=>a.to===h.id);
+  if(arc){
+    const p=document.getElementById('arc-'+arc.id), g=document.getElementById('arcg-'+arc.id);
+    const L=p.getTotalLength();
+    gsap.set([p,g],{strokeDasharray:L,strokeDashoffset:L});
+    tl.fromTo([p,g],{strokeDashoffset:L},{strokeDashoffset:0,duration:fd,ease:'power2.inOut'},fs);
+    const kf=arc.pts.map(q=>({x:q[0],y:q[1],duration:fd/arc.pts.length,ease:'none'}));
+    tl.fromTo('#dot-'+arc.id,{x:arc.pts[0][0],y:arc.pts[0][1]},{keyframes:kf},fs);
+    tl.fromTo('#dot-'+arc.id+' .dot-in',{opacity:0},{opacity:1,duration:0.1},fs);
+    tl.to('#dot-'+arc.id+' .dot-in',{opacity:0,duration:0.2},fs+fd);
+  }
+  // splash rank
+  tl.fromTo('#spl-'+h.rank,{opacity:0,scale:2.6,y:0},{opacity:1,scale:1,duration:0.3,ease:'back.out(1.7)'},s-0.04);
+  tl.to('#spl-'+h.rank,{opacity:0,y:-150,scale:0.3,duration:0.35,ease:'power2.in'},s+0.78);
+  tl.fromTo('#tilt',{x:0},{keyframes:[{x:-16,duration:0.05},{x:13,duration:0.05},{x:-8,duration:0.05},{x:4,duration:0.05},{x:0,duration:0.05}]},s+0.24);
+  // ladder
+  tl.fromTo('#lad-'+h.id,{scale:1,backgroundColor:'rgba(0,0,0,0.6)',color:'#ffffff',borderColor:'rgba(255,255,255,0.55)'},{scale:1.32,backgroundColor:'#FFC93C',color:'#111111',borderColor:'#ffffff',duration:0.25,ease:'back.out(2)'},s);
+  tl.to('#lad-'+h.id,{scale:1,backgroundColor:'rgba(255,201,60,0.28)',color:'#FFC93C',borderColor:'#FFC93C',duration:0.25},e-0.4);
+  // pin drop
+  tl.to('#qpin-'+h.id,{opacity:0,scale:0,duration:0.2},s+0.2);
+  tl.fromTo('#pinin-'+h.id,{opacity:0,y:-300},{opacity:1,y:0,duration:0.55,ease:'bounce.out'},s+0.25);
+  for(let k=0;k<4;k++){
+    const t0=s+0.62+k*1.6; if(t0>e-0.5)break;
+    tl.fromTo('#rip-'+h.id,{opacity:0.95,scale:0.25},{opacity:0,scale:2.2,duration:1.1,ease:'power2.out'},t0);
+    tl.fromTo('#rip2-'+h.id,{opacity:0.7,scale:0.25},{opacity:0,scale:2.2,duration:1.1,ease:'power2.out'},t0+0.3);
+  }
+  // card
+  const card='#card-'+h.id;
+  tl.fromTo(card,{opacity:0,y:160},{opacity:1,y:0,duration:0.45,ease:'back.out(1.4)'},s+0.5);
+  tl.fromTo('#stg-'+h.id,{width:0},{width:240*h.rating/5,duration:0.9,ease:'power2.out'},s+0.62);
+  const ro={v:0}, rn=document.getElementById('rnum-'+h.id);
+  tl.fromTo(ro,{v:0},{v:h.rating,duration:0.9,ease:'power2.out',onUpdate:()=>{rn.textContent=fmtR(ro.v);}},s+0.62);
+  const vo={v:0}, vn=document.getElementById('rev-'+h.id);
+  tl.fromTo(vo,{v:0},{v:h.reviews,duration:1.0,ease:'power2.out',onUpdate:()=>{vn.textContent=fmtN(vo.v);}},s+0.7);
+  // bubbles synced to quote sentence
+  const qs=(sc.sents[2]||sc.sents[sc.sents.length-1]);
+  for(let b=0;b<h.nq;b++){
+    const id='#bub-'+h.id+'-'+b;
+    const t0=b===0?qs[0]-0.1:Math.min(qs[0]+(qs[1]-qs[0])*0.35,qs[0]+1.2);
+    tl.fromTo(id,{opacity:0,scale:0.55,y:30},{opacity:1,scale:1,y:0,duration:0.35,ease:'back.out(2)'},t0);
+    tl.fromTo(id+' .w',{opacity:0.25},{opacity:1,duration:0.1,stagger:0.045},t0+0.1);
+  }
+  // exit
+  const ex=['#card-'+h.id].concat([...Array(h.nq).keys()].map(b=>'#bub-'+h.id+'-'+b));
+  tl.to(ex,{opacity:0,y:70,duration:0.28,ease:'power2.in'},e-0.42);
+  tl.fromTo('#tag-'+h.id,{opacity:0,scale:0.6},{opacity:1,scale:1,duration:0.25},e-0.3);
+  if(h.rank===1){
+    // confetti burst
+    const box=document.getElementById('confetti');
+    const cols=['#FFC93C','#ffffff','#e5322d','#8ab4ff','#7CFFB2'];
+    let seed=7; const rnd=()=>{seed=(seed*16807)%2147483647;return seed/2147483647;};
+    for(let k=0;k<46;k++){
+      const d=document.createElement('div'); d.className='cf'; d.style.background=cols[k%cols.length];
+      d.style.left='540px'; d.style.top='520px'; box.appendChild(d);
+      const ang=rnd()*Math.PI*2, r=260+rnd()*420;
+      tl.fromTo(d,{opacity:1,x:0,y:0,rotation:0},{immediateRender:false,x:Math.cos(ang)*r,y:Math.sin(ang)*r*0.8+420,rotation:(rnd()-0.5)*720,opacity:0,duration:1.6+rnd()*0.6,ease:'power2.out'},s+0.3);
+    }
+    tl.fromTo('#rip-'+h.id,{borderColor:'#FFC93C'},{borderColor:'#FFF6B8',duration:0.01},s);
+  }
+});
+// ---------- CTA ----------
+const cs=S.cta.start;
+const OVE=cam(C[0],C[1]+260,0.52,900);
+tl.fromTo('#mapWorld',curCam,Object.assign({duration:1.2,ease:'power3.inOut'},OVE),cs-0.5);
+tl.fromTo('#tilt',{rotationX:14},{rotationX:6,duration:1.2,ease:'power2.inOut'},cs-0.5);
+tl.to(['#ladder','#ladL'],{opacity:0,duration:0.3},cs-0.3);
+tl.to('.tagpos',{opacity:0,duration:0.2},cs-0.05);
+tl.to('.pin-inner',{scale:0.62,transformOrigin:'50% 100%',duration:0.4},cs-0.3);
+tl.fromTo('#ctaQ',{opacity:0,scale:0.7},{opacity:1,scale:1,duration:0.4,ease:'back.out(2)'},cs);
+tl.fromTo('#recap',{opacity:0,y:120},{opacity:1,y:0,duration:0.4,ease:'power2.out'},cs+0.25);
+tl.fromTo('.rrow',{opacity:0,x:-60},{opacity:1,x:0,duration:0.25,stagger:0.12},cs+0.35);
+if(S.cta.sents[1]) tl.fromTo('#q2',{opacity:0,y:20},{opacity:1,y:0,duration:0.3},S.cta.sents[1][0]);
+D.arcs.forEach(a=>{});
+// ---------- SUBTITLES ----------
+D.cues.forEach((c,i)=>{
+  const nx=D.cues[i+1]; const end=nx?Math.min(c.end+0.15,nx.start):c.end+0.4;
+  tl.fromTo('#cue'+i,{opacity:i===0?1:0,scale:i===0?1:0.86},{opacity:1,scale:1,duration:0.1,ease:'back.out(2)'},c.start);
+  tl.set('#cue'+i,{opacity:0},end);
+});
+tl.set({},{},D.DUR);
+window.__timelines=window.__timelines||{};window.__timelines['main']=tl;
+</script>
+</body></html>

@@ -1,0 +1,91 @@
+{
+  "job_id": null,
+  "version": "v1",
+  "title": "",
+  "target_duration": 60,
+  "syllables_min": 250,
+  "syllables_max": 270,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "captions_burn": false,
+  "bgm": false,
+  "bgm_path": "",
+  "bgm_volume_db": -20,
+  "tts": {
+    "endpoint": "http://127.0.0.1:8123",
+    "speed": 1.2,
+    "language": "vi",
+    "expected_ref": "voice-lock-vn-v2.wav",
+    "timeout_s": 1800,
+    "gap_s": 0.12,
+    "restart_script": "/workspace/omnivoice-server/restart.sh",
+    "restart_wait_s": 240
+  },
+  "align": {
+    "model": "nguyenvulebinh/wav2vec2-base-vi-vlsp2020",
+    "device": "cpu"
+  },
+  "asr_verify": {
+    "enabled": true,
+    "model": "small",
+    "compute_type": "int8"
+  },
+  "presenter": {
+    "mode": "auto",
+    "video": "",
+    "photo": "",
+    "silence_cut": true,
+    "pip_shape": "circle",
+    "pip_size": 300,
+    "pip_x": 60,
+    "pip_y": 1260,
+    "segment_min": 1.5,
+    "segment_max": 3.5,
+    "intro_card": true,
+    "outro_card": true
+  },
+  "footage": {
+    "stock_enabled": true,
+    "pexels_env": "PEXELS_API_KEY",
+    "pixabay_env": "PIXABAY_API_KEY",
+    "stock_per_sentence": 1,
+    "broll_urls_file": "broll_urls.txt",
+    "keywords_file": "keywords.txt",
+    "screenshots_dir": "screenshots",
+    "ytdlp_section_default": "0-90",
+    "ytdlp_max_height": 1080,
+    "clip_min": 1.0,
+    "clip_max": 3.0,
+    "max_clips_per_url": 12,
+    "scene_threshold": 27.0
+  },
+  "edit": {
+    "hook_seconds": 2.2,
+    "outro_seconds": 2.6,
+    "shot_min": 1.6,
+    "shot_max": 3.0,
+    "push_in_per_s": 0.025,
+    "effect_every": 4,
+    "caption_words": 2
+  },
+  "brand": {
+    "accent": "#F5C518",
+    "alert": "#FF4D4F",
+    "bg": "#0B0F14",
+    "bg2": "#1B2433",
+    "handle": "@hintonmedia",
+    "cta": "Follow để xem tin AI mỗi ngày",
+    "chip": "TIN AI"
+  },
+  "render": {
+    "workers": 2,
+    "quality": "standard",
+    "crf": 18
+  },
+  "loudness": {
+    "I": -14,
+    "TP": -1.5,
+    "LRA": 11
+  }
+}

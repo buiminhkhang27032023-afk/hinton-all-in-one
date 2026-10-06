@@ -1,0 +1,4 @@
+# name | file=<tên file Wikimedia Commons> (hoặc url=…) | credit=…
+hassabis | file=Demis Hassabis, 2024 Nobel Prize Laureate in Chemistry (cropped).jpg | credit=Arthur Petron / WikiPortraits, Wikimedia Commons, CC BY-SA 4.0
+jumper | file=John Jumper, 2024 Nobel Prize Laureate in Chemistry 7 (cropped).jpg | credit=WikiPortraits, Wikimedia Commons, CC BY-SA 4.0
+baker | file=David Baker, 2024 Nobel Prize Laureate in Chemistry (cropped).jpg | credit=WikiPortraits, Wikimedia Commons, CC BY-SA 4.0

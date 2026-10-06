@@ -1,0 +1,23 @@
+# Nhóm tin AI
+
+- id: 6168ce57-2624-4bf1-9d1a-0dc3a9de4447
+- title: 
+
+## Persona / instructions
+
+(không có description — đây là group channel, xem group.json)
+
+## group.json
+```json
+{
+  "version": 1,
+  "memberIds": [
+    "6271bde2-38e5-40bc-a9e3-af9ec21d22a3",
+    "7b44d14c-27e5-48ec-bfbc-4fea434f4f94",
+    "c711dded-3dd2-4ff1-89e6-7f406a97245f",
+    "6a695214-9da4-44e8-b23e-5907cc8358c9",
+    "f24f1cab-3ab7-4044-b29b-1fbcacb10153"
+  ]
+}
+
+```

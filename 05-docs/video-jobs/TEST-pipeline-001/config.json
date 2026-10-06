@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "title": "AI góp phần giành|Nobel Hóa học 2024",
+  "captions_burn": false,
+  "bgm": false,
+  "presenter": {
+    "mode": "auto",
+    "video": "/workspace/hinton-pipeline-docs/assets/presenter-video-novoice.mp4",
+    "photo": "/workspace/hinton-pipeline-docs/assets/presenter-photo.jpg"
+  },
+  "target_duration": 18,
+  "syllables_min": 70,
+  "syllables_max": 90
+}

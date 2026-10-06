@@ -1,0 +1,516 @@
+[
+ {
+  "cat": "1",
+  "repo": "harry0703/MoneyPrinterTurbo",
+  "html_stars": 128199,
+  "html_lic": "MIT",
+  "canonical": null,
+  "archived": false,
+  "og": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow. - harry0703/MoneyPrinterTurbo",
+  "last_commit": "2026-10-03T13:07:54Z"
+ },
+ {
+  "cat": "1",
+  "repo": "RayVentura/ShortGPT",
+  "html_stars": 7997,
+  "html_lic": "MIT",
+  "canonical": null,
+  "archived": false,
+  "og": "🚀🎬 ShortGPT - Experimental AI framework for youtube shorts / tiktok channel automation - RayVentura/ShortGPT",
+  "last_commit": "2025-02-10T19:28:23Z"
+ },
+ {
+  "cat": "1",
+  "repo": "linyqh/NarratoAI",
+  "html_stars": 11274,
+  "html_lic": "MIT",
+  "canonical": null,
+  "archived": false,
+  "og": "利用 AI 大模型，一键解说并剪辑视频. Contribute to linyqh/NarratoAI development by creating an account on GitHub.",
+  "last_commit": "2026-09-17T06:26:22Z"
+ },
+ {
+  "cat": "1",
+  "repo": "FujiwaraChoki/MoneyPrinter",
+  "html_stars": 14018,
+  "html_lic": "MIT",
+  "canonical": null,
+  "archived": false,
+  "og": "Automate Creation of YouTube Shorts using MoviePy. - FujiwaraChoki/MoneyPrinter",
+  "last_commit": "2026-03-26T22:17:17Z"
+ },
+ {
+  "cat": "1",
+  "repo": "calesthio/OpenMontage",
+  "html_stars": 62604,
+  "html_lic": "AGPL-3.0",
+  "canonical": null,
+  "archived": false,
+  "og": "World&amp;#39;s first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full vide",
+  "last_commit": "2026-09-06T05:02:12Z"
+ },
+ {
+  "cat": "1",
+  "repo": "ATH-MaaS/Pixelle-Video",
+  "html_stars": 28606,
+  "html_lic": "Apache-2.0",
+  "canonical": null,
+  "archived": false,
+  "og": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine - ATH-MaaS/Pixelle-Video",
+  "last_commit": "2026-06-14T12:40:58Z"
+ },
+ {
+  "cat": "1",
+  "repo": "krillinai/OpenCreator",
+  "html_stars": 12579,
+  "html_lic": "Apache-2.0",
+  "canonical": null,
+  "archived": false,
+  "og": "Formerly KrillinAI. Open-source AI workspace for creators, powered by Codex. Create videos, images, voice, avatars, video translation, and edits with Agents in one place. - krillinai/OpenCreator",
+  "last_commit": "2026-10-03T06:17:03Z"
+ },
+ {
+  "cat": "1",
+  "repo": "chatfire-AI/huobao-drama",
+  "html_stars": 15646,
+  "html_lic": "NOASSERTION",
+  "canonical": null,
+  "archived": false,
+  "og": "🎬 火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》  Huobao Drama - An AI-Powered End-to-End Short Drama Generator &amp;quot;One Sentence to Complete Drama: Fully Automated from Script to Final Video&amp;q",
+  "last_commit": "2026-10-02T07:42:33Z"
+ },
+ {
+  "cat": "1",
+  "repo": "HKUDS/ViMax",
+  "html_stars": 12538,
+  "html_lic": "MIT",
+  "canonical": null,
+  "archived": false,
+  "og": "&quot;ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)&quot; - HKUDS/ViMax",
+  "last_commit": "2026-09-30T14:35:04Z"
+ },
+ {
+  "cat": "1",
+  "repo": "FireRedTeam/FireRed-OpenStoryline",
+  "html_stars": 3456,
+  "html_lic": "Apache-2.0",
+  "canonical": null,
+  "archived": false,
+  "og": "FireRed-OpenStoryline is an AI video editing agent that transforms manual editing into intention-driven directing through natural language interaction, LLM-powered planning, and precise tool orches...",
+  "last_commit": "2026-07-31T03:16:31Z"
+ },
+ {
+  "cat": "1",
+  "repo": "SamurAIGPT/Text-To-Video-AI",
+  "html_stars": 835,
+  "html_lic": "MIT",
+  "canonical": null,
+  "archived": false,
+  "og": "Generate video from text using AI. Contribute to SamurAIGPT/Text-To-Video-AI development by creating an account on GitHub.",
+  "last_commit": "2026-08-24T10:56:41Z"
+ },
+ {
+  "cat": "1",
+  "repo": "elebumm/RedditVideoMakerBot",
+  "html_stars": 12537,
+  "html_lic": "GPL-3.0",
+  "canonical": null,
+  "archived": false,
+  "og": "Create Reddit Videos with just✨ one command ✨. Contribute to elebumm/RedditVideoMakerBot development by creating an account on GitHub.",
+  "last_commit": "2026-03-17T19:05:04Z"
+ },
+ {
+  "cat": "1",
+  "repo": "hypit-ai/hypit",
+  "html_stars": 19010,
+  "html_lic": "NOASSERTION",
+  "canonical": null,
+  "archived": false,
+  "og": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views. - hypit-ai/hypit",
+  "last_commit": "2026-10-03T09:13:47Z"
+ },
+ {
+  "cat": "1",
+  "repo": "GuanYixuan/pyJianYingDraft",
+  "html_stars": 4472,
+  "html_lic": "Apache-2.0",
+  "canonical": null,
+  "archived": false,
+  "og": "轻量、灵活、易上手的Python剪映草稿生成及导出工具，构建全自动化视频剪辑/混剪流水线。本项目的CapCut版本正于 https://github.com/GuanYixuan/pyCapCut 内开发 - GuanYixuan/pyJianYingDraft",
+  "last_commit": "2026-09-26T09:04:37Z"
+ },
+ {
+  "cat": "2",
+  "repo": "Zulko/moviepy",
+  "html_stars": 14945,
+  "html_lic": "MIT",
+  "canonical": null,
+  "archived": false,
+  "og": "Video editing with Python. Contribute to Zulko/moviepy development by creating an account on GitHub.",
+  "last_commit": "2026-08-26T06:17:07Z"
+ },
+ {
+  "cat": "2",
+  "repo": "remotion-dev/remotion",
+  "html_stars": 61663,
+  "html_lic": "NOASSERTION",
+  "canonical": null,
+  "archived": false,
+  "og": "🎥      Make videos programmatically with React. Contribute to remotion-dev/remotion development by creating an account on GitHub.",
+  "last_commit": "2026-10-03T08:48:01Z"
+ },
+ {
+  "cat": "2",
+  "repo": "redotvideo/revideo",
+  "html_stars": 4078,
+  "html_lic": "MIT",
+  "canonical": null,
+  "archived": false,
+  "og": "Create Videos with Code. Contribute to midrender/revideo development by creating an account on GitHub.",
+  "last_commit": "2026-07-15T22:43:52Z"
+ },
+ {
+  "cat": "2",
+  "repo": "mifi/editly",
+  "html_stars": 5515,
+  "html_lic": "MIT",
+  "canonical": null,
+  "archived": false,
+  "og": "Slick, declarative command line video editing &amp; API - mifi/editly",
+  "last_commit": "2025-02-20T13:19:17Z"
+ },
+ {
+  "cat": "2",
+  "repo": "WyattBlue/auto-editor",
+  "html_stars": 5410,
+  "html_lic": "Unlicense",
+  "canonical": null,
+  "archived": false,
+  "og": "Effort free video editing! Contribute to WyattBlue/auto-editor development by creating an account on GitHub.",
+  "last_commit": "2026-10-03T02:02:30Z"
+ },
+ {
+  "cat": "2",
+  "repo": "kkroening/ffmpeg-python",
+  "html_stars": 11011,
+  "html_lic": "Apache-2.0",
+  "canonical": null,
+  "archived": false,
+  "og": "Python bindings for FFmpeg - with complex filtering support - kkroening/ffmpeg-python",
+  "last_commit": "2022-07-11T21:03:07Z"
+ },
+ {
+  "cat": "2",
+  "repo": "motion-canvas/motion-canvas",
+  "html_stars": 19227,
+  "html_lic": "MIT",
+  "canonical": null,
+  "archived": false,
+  "og": "Visualize Your Ideas With Code. Contribute to motion-canvas/motion-canvas development by creating an account on GitHub.",
+  "last_commit": "2026-07-02T20:01:32Z"
+ },
+ {
+  "cat": "2",
+  "repo": "nexu-io/html-video",
+  "html_stars": 4633,
+  "html_lic": "Apache-2.0",
+  "canonical": null,
+  "archived": false,
+  "og": "Programmatic video for coding agents — HTML to video on your laptop. Turn HTML, CSS &amp;amp; data into real MP4s with pluggable render engines, 21 templates, AI soundtrack. Apache-2.0, no per-render ",
+  "last_commit": "2026-06-21T16:18:30Z"
+ },
+ {
+  "cat": "2",
+  "repo": "heygen-com/hyperframes",
+  "html_stars": 56165,
+  "html_lic": "Apache-2.0",
+  "canonical": null,
+  "archived": false,
+  "og": "Write HTML. Render video. Built for agents. Contribute to heygen-com/hyperframes development by creating an account on GitHub.",
+  "last_commit": "2026-10-03T11:55:09Z"
+ },
+ {
+  "cat": "2",
+  "repo": "PyAV-Org/PyAV",
+  "html_stars": 3298,
+  "html_lic": "BSD-3-Clause",
+  "canonical": null,
+  "archived": false,
+  "og": "﻿﻿Pythonic bindings for FFmpeg&#39;s libraries. Contribute to PyAV-Org/PyAV development by creating an account on GitHub.",
+  "last_commit": "2026-10-03T01:32:24Z"
+ },
+ {
+  "cat": "2",
+  "repo": "diffusionstudio/core",
+  "html_stars": 1246,
+  "html_lic": "MPL-2.0",
+  "canonical": null,
+  "archived": false,
+  "og": "A fast, browser based video compositing engine powered by WebCodecs - diffusionstudio/core",
+  "last_commit": "2025-11-18T19:10:12Z"
+ },
+ {
+  "cat": "3",
+  "repo": "m-bain/whisperX",
+  "html_stars": 24348,
+  "html_lic": "BSD-2-Clause",
+  "canonical": null,
+  "archived": false,
+  "og": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (&amp; Diarization) - m-bain/whisperX",
+  "last_commit": "2026-09-26T20:53:59Z"
+ },
+ {
+  "cat": "3",
+  "repo": "openai/whisper",
+  "html_stars": 109904,
+  "html_lic": "MIT",
+  "canonical": null,
+  "archived": false,
+  "og": "Robust Speech Recognition via Large-Scale Weak Supervision - openai/whisper",
+  "last_commit": "2026-08-31T17:19:19Z"
+ },
+ {
+  "cat": "3",
+  "repo": "SYSTRAN/faster-whisper",
+  "html_stars": 25681,
+  "html_lic": "MIT",
+  "canonical": null,
+  "archived": false,
+  "og": "Faster Whisper transcription with CTranslate2. Contribute to SYSTRAN/faster-whisper development by creating an account on GitHub.",
+  "last_commit": "2026-10-01T14:01:31Z"
+ },
+ {
+  "cat": "3",
+  "repo": "ggml-org/whisper.cpp",
+  "html_stars": 54104,
+  "html_lic": "MIT",
+  "canonical": null,
+  "archived": false,
+  "og": "Port of OpenAI&#39;s Whisper model in C/C++. Contribute to ggml-org/whisper.cpp development by creating an account on GitHub.",
+  "last_commit": "2026-10-02T13:21:13Z"
+ },
+ {
+  "cat": "3",
+  "repo": "m1guelpf/auto-subtitle",
+  "html_stars": 2289,
+  "html_lic": "MIT",
+  "canonical": null,
+  "archived": false,
+  "og": "Automatically generate and overlay subtitles for any video. - m1guelpf/auto-subtitle",
+  "last_commit": "2023-11-16T01:32:01Z"
+ },
+ {
+  "cat": "3",
+  "repo": "tmoroney/auto-subs",
+  "html_stars": 4309,
+  "html_lic": "MIT",
+  "canonical": null,
+  "archived": false,
+  "og": "On-device subtitle generation that connects directly to DaVinci Resolve, Premiere, and After Effects. - tmoroney/auto-subs",
+  "last_commit": "2026-10-01T19:59:08Z"
+ },
+ {
+  "cat": "3",
+  "repo": "jianfch/stable-ts",
+  "html_stars": 2281,
+  "html_lic": "MIT",
+  "canonical": null,
+  "archived": true,
+  "og": "Transcription, forced alignment, and audio indexing with OpenAI&#39;s Whisper - jianfch/stable-ts",
+  "last_commit": "2026-05-30T18:41:03Z"
+ },
+ {
+  "cat": "3",
+  "repo": "WEIFENG2333/VideoCaptioner",
+  "html_stars": 16148,
+  "html_lic": "GPL-3.0",
+  "canonical": null,
+  "archived": false,
+  "og": "🎬 卡卡字幕助手 | VideoCaptioner - 基于 LLM 的智能字幕助手 - 视频字幕生成、断句、校正、字幕翻译全流程处理！- A powered tool for easy and efficient video subtitling. - WEIFENG2333/VideoCaptioner",
+  "last_commit": "2026-05-24T15:48:41Z"
+ },
+ {
+  "cat": "3",
+  "repo": "VinAIResearch/PhoWhisper",
+  "html_stars": 257,
+  "html_lic": "BSD-3-Clause",
+  "canonical": null,
+  "archived": false,
+  "og": "PhoWhisper: Automatic Speech Recognition for Vietnamese (2024) - VinAIResearch/PhoWhisper",
+  "last_commit": "2024-11-12T07:41:18Z"
+ },
+ {
+  "cat": "3",
+  "repo": "k2-fsa/sherpa-onnx",
+  "html_stars": 15091,
+  "html_lic": "Apache-2.0",
+  "canonical": null,
+  "archived": false,
+  "og": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Andr...",
+  "last_commit": "2026-09-22T10:36:50Z"
+ },
+ {
+  "cat": "4",
+  "repo": "ClipsAI/clipsai",
+  "html_stars": 544,
+  "html_lic": "MIT",
+  "canonical": null,
+  "archived": false,
+  "og": "Clips AI is an open-source Python library that automatically converts long videos into clips. - ClipsAI/clipsai",
+  "last_commit": "2024-01-17T13:31:18Z"
+ },
+ {
+  "cat": "4",
+  "repo": "modelscope/FunClip",
+  "html_stars": 6361,
+  "html_lic": "MIT",
+  "canonical": null,
+  "archived": false,
+  "og": "FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI. - modelscope/FunClip",
+  "last_commit": "2026-09-16T02:01:36Z"
+ },
+ {
+  "cat": "4",
+  "repo": "Anil-matcha/AI-Youtube-Shorts-Generator",
+  "html_stars": 5222,
+  "html_lic": "MIT",
+  "canonical": null,
+  "archived": false,
+  "og": "Open-source alternative to Opus Clip, Vidyo.ai, Klap &amp;amp; SubMagic. Turn long-form YouTube videos into viral 9:16 shorts using LLM highlight detection, Whisper transcription, and auto vertical cr",
+  "last_commit": "2026-09-29T03:07:18Z"
+ },
+ {
+  "cat": "4",
+  "repo": "RafaelGodoyEbert/ViralCutter",
+  "html_stars": 418,
+  "html_lic": "GPL-3.0",
+  "canonical": null,
+  "archived": false,
+  "og": " Free tool to create viral videos from YouTube, generating clips optimized for TikTok and Instagram with automatic transcription and 9:16 editing. - RafaelGodoyEbert/ViralCutter",
+  "last_commit": "2026-09-10T05:16:19Z"
+ },
+ {
+  "cat": "6",
+  "repo": "Wan-Video/Wan2.1",
+  "html_stars": 17087,
+  "html_lic": "Apache-2.0",
+  "canonical": null,
+  "archived": false,
+  "og": "Wan: Open and Advanced Large-Scale Video Generative Models - Wan-Video/Wan2.1",
+  "last_commit": "2026-03-05T09:38:07Z"
+ },
+ {
+  "cat": "6",
+  "repo": "Wan-Video/Wan2.2",
+  "html_stars": 17706,
+  "html_lic": "Apache-2.0",
+  "canonical": null,
+  "archived": false,
+  "og": "Wan: Open and Advanced Large-Scale Video Generative Models - Wan-Video/Wan2.2",
+  "last_commit": "2026-09-21T06:16:22Z"
+ },
+ {
+  "cat": "6",
+  "repo": "Tencent-Hunyuan/HunyuanVideo",
+  "html_stars": 12583,
+  "html_lic": "NOASSERTION",
+  "canonical": null,
+  "archived": false,
+  "og": "HunyuanVideo: A Systematic Framework For Large Video Generation Model - Tencent-Hunyuan/HunyuanVideo",
+  "last_commit": "2026-06-29T09:33:49Z"
+ },
+ {
+  "cat": "6",
+  "repo": "Tencent-Hunyuan/HunyuanVideo-1.5",
+  "html_stars": 4570,
+  "html_lic": "NOASSERTION",
+  "canonical": null,
+  "archived": false,
+  "og": "HunyuanVideo-1.5: A leading lightweight video generation model - Tencent-Hunyuan/HunyuanVideo-1.5",
+  "last_commit": "2026-04-10T06:14:58Z"
+ },
+ {
+  "cat": "6",
+  "repo": "zai-org/CogVideo",
+  "html_stars": 13056,
+  "html_lic": "Apache-2.0",
+  "canonical": null,
+  "archived": false,
+  "og": "text and image to video generation: CogVideoX (2024) and CogVideo (ICLR 2023) - zai-org/CogVideo",
+  "last_commit": "2025-11-04T11:15:43Z"
+ },
+ {
+  "cat": "6",
+  "repo": "Lightricks/LTX-Video",
+  "html_stars": 11012,
+  "html_lic": "Apache-2.0",
+  "canonical": null,
+  "archived": false,
+  "og": "Official repository for LTX-Video. Contribute to Lightricks/LTX-Video development by creating an account on GitHub.",
+  "last_commit": "2026-01-05T22:37:06Z"
+ },
+ {
+  "cat": "6",
+  "repo": "Lightricks/LTX-2",
+  "html_stars": 9576,
+  "html_lic": "NOASSERTION",
+  "canonical": null,
+  "archived": false,
+  "og": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model. - Lightricks/LTX-2",
+  "last_commit": "2026-10-02T09:56:11Z"
+ },
+ {
+  "cat": "6",
+  "repo": "genmoai/mochi",
+  "html_stars": 3735,
+  "html_lic": "Apache-2.0",
+  "canonical": null,
+  "archived": false,
+  "og": "The best OSS video generation models, created by Genmo - genmoai/mochi",
+  "last_commit": "2025-11-14T01:17:56Z"
+ },
+ {
+  "cat": "6",
+  "repo": "hpcaitech/Open-Sora",
+  "html_stars": 29853,
+  "html_lic": "Apache-2.0",
+  "canonical": null,
+  "archived": false,
+  "og": "Open-Sora: Democratizing Efficient Video Production for All - hpcaitech/Open-Sora",
+  "last_commit": "2026-04-09T01:52:40Z"
+ },
+ {
+  "cat": "6",
+  "repo": "hao-ai-lab/FastVideo",
+  "html_stars": 4542,
+  "html_lic": "Apache-2.0",
+  "canonical": null,
+  "archived": false,
+  "og": "A unified inference and post-training framework for accelerated video generation. - hao-ai-lab/FastVideo",
+  "last_commit": "2026-10-02T19:37:34Z"
+ },
+ {
+  "cat": "7",
+  "repo": "yt-dlp/yt-dlp",
+  "html_stars": 195181,
+  "html_lic": "Unlicense",
+  "archived": false,
+  "last_commit": "2026-09-27T22:09:13Z"
+ },
+ {
+  "cat": "7",
+  "repo": "Breakthrough/PySceneDetect",
+  "html_stars": 5217,
+  "html_lic": "BSD-3-Clause",
+  "archived": false,
+  "last_commit": "2026-09-21T04:43:46Z"
+ },
+ {
+  "cat": "7",
+  "repo": "mlfoundations/open_clip",
+  "html_stars": 14183,
+  "html_lic": "NOASSERTION",
+  "archived": false,
+  "last_commit": "2026-09-30T15:21:54Z"
+ }
+]

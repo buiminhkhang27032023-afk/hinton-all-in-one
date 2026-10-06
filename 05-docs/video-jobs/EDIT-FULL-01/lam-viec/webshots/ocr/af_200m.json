@@ -1,0 +1,392 @@
+[
+{
+"box": [
+81,
+47,
+290,
+36
+],
+"text": "Google DeepMind",
+"conf": 0.924
+},
+{
+"box": [
+790,
+50,
+118,
+30
+],
+"text": "Science",
+"conf": 0.827
+},
+{
+"box": [
+949,
+49,
+95,
+30
+],
+"text": "About",
+"conf": 0.776
+},
+{
+"box": [
+458,
+51,
+109,
+27
+],
+"text": "Models",
+"conf": 0.852
+},
+{
+"box": [
+611,
+51,
+134,
+27
+],
+"text": "Research",
+"conf": 0.871
+},
+{
+"box": [
+1564,
+51,
+248,
+27
+],
+"text": "Build with Gemini",
+"conf": 0.879
+},
+{
+"box": [
+1935,
+50,
+154,
+30
+],
+"text": "Try Gemini",
+"conf": 0.895
+},
+{
+"box": [
+915,
+214,
+221,
+39
+],
+"text": "July 28, 2022",
+"conf": 0.91
+},
+{
+"box": [
+1137,
+215,
+148,
+36
+],
+"text": " Science",
+"conf": 0.794
+},
+{
+"box": [
+593,
+296,
+1017,
+58
+],
+"text": "AlphaFold reveals the structure of the",
+"conf": 0.921
+},
+{
+"box": [
+877,
+356,
+448,
+66
+],
+"text": "protein universe",
+"conf": 0.847
+},
+{
+"box": [
+971,
+500,
+260,
+33
+],
+"text": "Demis Hassabis",
+"conf": 0.895
+},
+{
+"box": [
+1023,
+642,
+99,
+38
+],
+"text": "Share",
+"conf": 0.676
+},
+{
+"box": [
+431,
+2065,
+1298,
+37
+],
+"text": "It's been one year since we released and open sourced AlphaFold, our Al system",
+"conf": 0.938
+},
+{
+"box": [
+432,
+2116,
+1315,
+36
+],
+"text": "to predict the 3D structure of a protein just from its 1D amino acid sequence, and",
+"conf": 0.924
+},
+{
+"box": [
+431,
+2166,
+1302,
+37
+],
+"text": "created the AlphaFold Protein Structure Database (AlphaFold DB) to freely share",
+"conf": 0.921
+},
+{
+"box": [
+433,
+2218,
+1275,
+36
+],
+"text": "this scientific knowledge with the world. Proteins are the building blocks of life,",
+"conf": 0.925
+},
+{
+"box": [
+433,
+2270,
+1213,
+36
+],
+"text": "they underpin every biological process in every living thing. And, because a",
+"conf": 0.93
+},
+{
+"box": [
+431,
+2317,
+1270,
+41
+],
+"text": "protein's shape is closely linked with its function, knowing a protein's structure",
+"conf": 0.918
+},
+{
+"box": [
+432,
+2369,
+1307,
+37
+],
+"text": "unlocks a greater understanding of what it does and how it works. We hoped this",
+"conf": 0.89
+},
+{
+"box": [
+430,
+2419,
+1321,
+42
+],
+"text": "groundbreaking resource would help accelerate scientific research and discovery",
+"conf": 0.931
+},
+{
+"box": [
+433,
+2469,
+1249,
+41
+],
+"text": "globally, and that other teams could learn from and build on the advances we",
+"conf": 0.915
+},
+{
+"box": [
+433,
+2524,
+1284,
+33
+],
+"text": "made with AlphaFold to create further breakthroughs. That hope has become a",
+"conf": 0.94
+},
+{
+"box": [
+434,
+2575,
+1171,
+33
+],
+"text": "reality far quicker than we had dared to dream. Just twelve months later,",
+"conf": 0.928
+},
+{
+"box": [
+434,
+2625,
+1313,
+36
+],
+"text": "AlphaFold has been accessed by more than half a million researchers and used to",
+"conf": 0.945
+},
+{
+"box": [
+434,
+2724,
+532,
+38
+],
+"text": "pollution to antibiotic resistance.",
+"conf": 0.943
+},
+{
+"box": [
+432,
+2807,
+1315,
+38
+],
+"text": "Today, I'm incredibly excited to share the next stage of this journey. In partnership",
+"conf": 0.916
+},
+{
+"box": [
+430,
+2855,
+1270,
+43
+],
+"text": "with EMBL's European Bioinformatics Institute (EMBL-EBl), we're now releasing",
+"conf": 0.941
+},
+{
+"box": [
+431,
+2909,
+1287,
+41
+],
+"text": "predicted structures for nearly all catalogued proteins known to science, which",
+"conf": 0.955
+},
+{
+"box": [
+433,
+2963,
+1300,
+32
+],
+"text": "will expand the AlphaFold DB by over 2oOx - from nearly 1 million structures to",
+"conf": 0.925
+},
+{
+"box": [
+433,
+3011,
+1236,
+35
+],
+"text": "over 2o0 million structures - with the potential to dramatically increase our",
+"conf": 0.915
+},
+{
+"box": [
+431,
+3060,
+415,
+43
+],
+"text": "understanding of biology.",
+"conf": 0.886
+},
+{
+"box": [
+435,
+3194,
+468,
+28
+],
+"text": "Number of Protein Structures",
+"conf": 0.886
+},
+{
+"box": [
+1420,
+3555,
+251,
+30
+],
+"text": "AlphaFold DB today",
+"conf": 0.886
+},
+{
+"box": [
+1421,
+3600,
+227,
+25
+],
+"text": "200M+ Structures",
+"conf": 0.885
+},
+{
+"box": [
+1421,
+3700,
+301,
+27
+],
+"text": "AlphaFold DB previously",
+"conf": 0.879
+},
+{
+"box": [
+1421,
+3743,
+179,
+26
+],
+"text": "~1M Structures",
+"conf": 0.859
+},
+{
+"box": [
+1419,
+3840,
+325,
+33
+],
+"text": "Experimental (PDB) today",
+"conf": 0.929
+},
+{
+"box": [
+1420,
+3879,
+195,
+26
+],
+"text": "190K Structures",
+"conf": 0.906
+}
+]

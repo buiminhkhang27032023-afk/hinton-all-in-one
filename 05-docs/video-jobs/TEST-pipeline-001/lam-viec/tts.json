@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "i": 0,
+      "text": "Lần đầu tiên, một mô hình trí tuệ nhân tạo góp phần mang về giải Nobel Hóa học.",
+      "start": 0.0,
+      "end": 3.538,
+      "file": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/tts_cache/5000642d770a75bf.trim.wav"
+    },
+    {
+      "i": 1,
+      "text": "Tháng mười năm hai nghìn không trăm hai mươi bốn, Viện Hàn lâm Khoa học Hoàng gia Thụy Điển trao một nửa giải cho Demis Hassabis và John Jumper của Google DeepMind,",
+      "start": 3.658,
+      "end": 11.66,
+      "file": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/tts_cache/11f340290e8a4681.trim.wav"
+    },
+    {
+      "i": 2,
+      "text": "nhờ công trình dự đoán cấu trúc protein bằng AlphaFold.",
+      "start": 11.78,
+      "end": 14.457,
+      "file": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/tts_cache/2e5a74f2af189899.trim.wav"
+    },
+    {
+      "i": 3,
+      "text": "Nửa còn lại thuộc về giáo sư David Baker, với công trình thiết kế protein bằng máy tính.",
+      "start": 14.577,
+      "end": 18.71,
+      "file": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/tts_cache/f9bb27a357d3a74c.trim.wav"
+    }
+  ],
+  "info": {
+    "health": {
+      "status": "ok",
+      "engine": "OmniVoice",
+      "model": "k2-fsa/OmniVoice",
+      "device": "cpu",
+      "voice_mode": "clone",
+      "voice_locked": true,
+      "ref_audio": "/workspace/omnivoice-server/voice-lock-vn-v2.wav",
+      "ref_text": "/workspace/omnivoice-server/voice-lock-vn-v2.ref.txt",
+      "speed": 1.2,
+      "speed_mode": "post",
+      "seed": 1234,
+      "num_step": 32,
+      "language": "vi",
+      "sample_rate": 24000
+    },
+    "qa": "OmniVoice · male clone v2 locked · 1.2 · voice_locked:true",
+    "tts_seconds_this_run": 565.9
+  },
+  "loudnorm_in": {
+    "input_i": "-16.53",
+    "input_tp": "-0.01",
+    "input_lra": "1.30",
+    "input_thresh": "-26.55",
+    "output_i": "-15.39",
+    "output_tp": "-1.50",
+    "output_lra": "1.30",
+    "output_thresh": "-25.39",
+    "normalization_type": "dynamic",
+    "target_offset": "1.39"
+  },
+  "duration": 18.70975
+}

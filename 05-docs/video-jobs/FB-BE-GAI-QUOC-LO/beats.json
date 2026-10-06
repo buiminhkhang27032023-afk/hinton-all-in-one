@@ -1,0 +1,306 @@
+{
+ "lead": 0.04,
+ "face_start": 3.0,
+ "face_skip": 0.0,
+ "chunks": [
+  [
+   "Bé gái",
+   2
+  ],
+  [
+   "đạp xe",
+   2
+  ],
+  [
+   "ra giữa",
+   2
+  ],
+  [
+   "quốc lộ.",
+   2
+  ],
+  [
+   "Nhưng bé",
+   2
+  ],
+  [
+   "khựng giữa",
+   2
+  ],
+  [
+   "làn. Bé",
+   2
+  ],
+  [
+   "sống trong",
+   2
+  ],
+  [
+   "một căn",
+   2
+  ],
+  [
+   "nhà mặt",
+   2
+  ],
+  [
+   "đường. Váy",
+   2
+  ],
+  [
+   "hồng, xe",
+   2
+  ],
+  [
+   "nhỏ, từ",
+   2
+  ],
+  [
+   "lối trái.",
+   2
+  ],
+  [
+   "Bé dừng",
+   2
+  ],
+  [
+   "giữa làn",
+   2
+  ],
+  [
+   "gần và",
+   2
+  ],
+  [
+   "đứng im.",
+   2
+  ],
+  [
+   "Xe máy",
+   2
+  ],
+  [
+   "vượt làn",
+   2
+  ],
+  [
+   "gần, bé",
+   2
+  ],
+  [
+   "không nhích.",
+   2
+  ],
+  [
+   "Khoảng mười",
+   2
+  ],
+  [
+   "giây, bé",
+   2
+  ],
+  [
+   "vẫn đứng",
+   2
+  ],
+  [
+   "nhìn lạc.",
+   2
+  ],
+  [
+   "Bé vẫn",
+   2
+  ],
+  [
+   "ngơ, không",
+   2
+  ],
+  [
+   "né dòng",
+   2
+  ],
+  [
+   "xe. Nhưng",
+   2
+  ],
+  [
+   "các tài",
+   2
+  ],
+  [
+   "xế đã",
+   2
+  ],
+  [
+   "thấy. Xe",
+   2
+  ],
+  [
+   "bán tải",
+   2
+  ],
+  [
+   "trắng ở",
+   2
+  ],
+  [
+   "làn xa",
+   2
+  ],
+  [
+   "dừng lại.",
+   2
+  ],
+  [
+   "Xe tải",
+   2
+  ],
+  [
+   "thùng phía",
+   2
+  ],
+  [
+   "sau cũng",
+   2
+  ],
+  [
+   "phanh. Hai",
+   2
+  ],
+  [
+   "làn dừng,",
+   2
+  ],
+  [
+   "chờ người",
+   2
+  ],
+  [
+   "trong nhà.",
+   2
+  ],
+  [
+   "Người lớn",
+   2
+  ],
+  [
+   "phóng ra",
+   2
+  ],
+  [
+   "từ bên",
+   2
+  ],
+  [
+   "trái. Người",
+   2
+  ],
+  [
+   "đàn ông",
+   2
+  ],
+  [
+   "túm đuôi",
+   2
+  ],
+  [
+   "xe, kéo",
+   2
+  ],
+  [
+   "bé lùi",
+   2
+  ],
+  [
+   "khỏi làn.",
+   2
+  ],
+  [
+   "Bé và",
+   2
+  ],
+  [
+   "xe ra",
+   2
+  ],
+  [
+   "khỏi đường,",
+   2
+  ],
+  [
+   "khuất khung.",
+   2
+  ],
+  [
+   "Clip gốc",
+   2
+  ],
+  [
+   "dài hai",
+   2
+  ],
+  [
+   "mươi ba",
+   2
+  ],
+  [
+   "giây. Nhà",
+   2
+  ],
+  [
+   "sát đường,",
+   2
+  ],
+  [
+   "một nhịp",
+   2
+  ],
+  [
+   "là tới",
+   2
+  ],
+  [
+   "làn. Đừng",
+   2
+  ],
+  [
+   "để trẻ",
+   2
+  ],
+  [
+   "một mình",
+   2
+  ],
+  [
+   "gần làn",
+   2
+  ],
+  [
+   "xe.",
+   1
+  ]
+ ],
+ "shots": [
+  {
+   "tok": 0,
+   "layout": "S",
+   "zoom": 1.0,
+   "push": 0.0,
+   "broll": {
+    "type": "video",
+    "src": "/workspace/facebook-video/cctv-top.mp4",
+    "start": 0.0,
+    "push": 0.0,
+    "credit": "CCTV crop of Facebook watch 1599860208291400 (road only, no host)"
+   }
+  }
+ ],
+ "bigwords": [],
+ "sfx": [
+  {
+   "name": "whoosh",
+   "t": 0.0
+  }
+ ],
+ "music_dips": []
+}

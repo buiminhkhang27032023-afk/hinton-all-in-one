@@ -1,0 +1,662 @@
+[
+{
+"box": [
+103,
+36,
+82,
+24
+],
+"text": "KUNGL",
+"conf": 0.831
+},
+{
+"box": [
+105,
+62,
+146,
+23
+],
+"text": "VETENSKAPS",
+"conf": 0.901
+},
+{
+"box": [
+104,
+89,
+147,
+23
+],
+"text": "AKADEMIEN",
+"conf": 0.89
+},
+{
+"box": [
+33,
+117,
+217,
+16
+],
+"text": "THE ROYAL SWEDISH ACADEMY OF SCIENCES",
+"conf": 0.915
+},
+{
+"box": [
+63,
+193,
+1532,
+33
+],
+"text": "Home > News > The Nobel Prize in Chemistry 2024: They cracked the code for proteins' amazing structures",
+"conf": 0.892
+},
+{
+"box": [
+64,
+424,
+191,
+33
+],
+"text": "Press release",
+"conf": 0.79
+},
+{
+"box": [
+65,
+474,
+329,
+29
+],
+"text": "Published: 2024-10-09",
+"conf": 0.891
+},
+{
+"box": [
+57,
+504,
+1483,
+152
+],
+"text": "The Nobel Prize in Chemistry",
+"conf": 0.92
+},
+{
+"box": [
+58,
+641,
+577,
+137
+],
+"text": "2024: They",
+"conf": 0.865
+},
+{
+"box": [
+633,
+655,
+994,
+107
+],
+"text": "cracked the code for",
+"conf": 0.851
+},
+{
+"box": [
+505,
+785,
+426,
+116
+],
+"text": "amazing",
+"conf": 0.851
+},
+{
+"box": [
+61,
+785,
+470,
+113
+],
+"text": "proteins'",
+"conf": 0.814
+},
+{
+"box": [
+954,
+816,
+487,
+59
+],
+"text": "structures",
+"conf": 0.908
+},
+{
+"box": [
+66,
+968,
+1206,
+33
+],
+"text": "The Royal Swedish Academy of Sciences has decided to award the Nobel Prize in",
+"conf": 0.906
+},
+{
+"box": [
+63,
+1012,
+493,
+42
+],
+"text": "Chemistry 2024 with one half to",
+"conf": 0.933
+},
+{
+"box": [
+62,
+1062,
+1216,
+38
+],
+"text": "David Baker, University of Washington, Seattle, WA, USA and Howard Hughes",
+"conf": 0.952
+},
+{
+"box": [
+64,
+1113,
+350,
+33
+],
+"text": "Medical Institute, USA",
+"conf": 0.886
+},
+{
+"box": [
+70,
+1159,
+517,
+40
+],
+"text": "“for computational protein design",
+"conf": 0.888
+},
+{
+"box": [
+62,
+1205,
+419,
+43
+],
+"text": "and the other half jointly to",
+"conf": 0.9
+},
+{
+"box": [
+61,
+1253,
+836,
+41
+],
+"text": "Demis Hassabis, Google DeepMind, London, UK and",
+"conf": 0.927
+},
+{
+"box": [
+60,
+1302,
+725,
+40
+],
+"text": "John Jumper, Google DeepMind, London, UK",
+"conf": 0.915
+},
+{
+"box": [
+79,
+1351,
+511,
+39
+],
+"text": "“forprotein structure prediction\"",
+"conf": 0.871
+},
+{
+"box": [
+66,
+1550,
+586,
+30
+],
+"text": "The Nobel Prize in Chemistry 2024 is",
+"conf": 0.897
+},
+{
+"box": [
+66,
+1602,
+635,
+33
+],
+"text": "about proteins, life's ingenious chemical",
+"conf": 0.91
+},
+{
+"box": [
+64,
+1656,
+668,
+29
+],
+"text": "tools. David Baker has succeeded with the",
+"conf": 0.909
+},
+{
+"box": [
+65,
+1709,
+665,
+35
+],
+"text": "almost impossible feat of building entirely",
+"conf": 0.914
+},
+{
+"box": [
+1226,
+1739,
+133,
+34
+],
+"text": "MDCCC",
+"conf": 0.557
+},
+{
+"box": [
+64,
+1763,
+610,
+34
+],
+"text": "new kinds of proteins. Demis Hassabis",
+"conf": 0.92
+},
+{
+"box": [
+1238,
+1774,
+112,
+36
+],
+"text": "XXXI",
+"conf": 0.647
+},
+{
+"box": [
+67,
+1820,
+615,
+30
+],
+"text": "and John Jumper have developed an Al",
+"conf": 0.871
+},
+{
+"box": [
+1281,
+1814,
+55,
+29
+],
+"text": "O3",
+"conf": 0.586
+},
+{
+"box": [
+821,
+1844,
+113,
+40
+],
+"text": "Alfr-",
+"conf": 0.536
+},
+{
+"box": [
+1236,
+1843,
+139,
+32
+],
+"text": "MDCCC",
+"conf": 0.618
+},
+{
+"box": [
+65,
+1871,
+606,
+36
+],
+"text": "model to solve a 50-year-old problem:",
+"conf": 0.901
+},
+{
+"box": [
+1271,
+1876,
+97,
+38
+],
+"text": "XcVI",
+"conf": 0.535
+},
+{
+"box": [
+803,
+1886,
+153,
+38
+],
+"text": "NOBEL",
+"conf": 0.726
+},
+{
+"box": [
+65,
+1926,
+636,
+35
+],
+"text": "predicting proteins' complex structures.",
+"conf": 0.914
+},
+{
+"box": [
+64,
+1978,
+531,
+35
+],
+"text": "These discoveries hold enormous",
+"conf": 0.934
+},
+{
+"box": [
+63,
+2032,
+158,
+37
+],
+"text": "potential.",
+"conf": 0.835
+},
+{
+"box": [
+63,
+2150,
+1259,
+38
+],
+"text": "The diversity of life testifes to proteins' amazing capacity as chemical tools. They",
+"conf": 0.917
+},
+{
+"box": [
+65,
+2206,
+1189,
+33
+],
+"text": "control and drive all the chemical reactions that together are the basis of life.",
+"conf": 0.911
+},
+{
+"box": [
+62,
+2255,
+1277,
+42
+],
+"text": "Proteins also function as hormones, signal substances, antibodies and the building",
+"conf": 0.937
+},
+{
+"box": [
+66,
+2316,
+404,
+29
+],
+"text": "blocks of different tissues.",
+"conf": 0.926
+},
+{
+"box": [
+64,
+2428,
+1234,
+39
+],
+"text": "\"One of the discoveries being recognised this year concerns the construction of",
+"conf": 0.925
+},
+{
+"box": [
+64,
+2483,
+1258,
+39
+],
+"text": "spectacular proteins. The other is about fulfilling a 5O-year-old dream: predicting",
+"conf": 0.937
+},
+{
+"box": [
+61,
+2537,
+1296,
+40
+],
+"text": "protein structures from their amino acid sequences. Both of these discoveries open",
+"conf": 0.921
+},
+{
+"box": [
+64,
+2593,
+1319,
+36
+],
+"text": "up vast possibilities, says Heiner Linke, Chair of the Nobel Committee for Chemistry.",
+"conf": 0.944
+},
+{
+"box": [
+63,
+2708,
+1247,
+38
+],
+"text": "Proteins generally consist of 20 different amino acids, which can be described as",
+"conf": 0.926
+},
+{
+"box": [
+63,
+2763,
+1311,
+38
+],
+"text": "life's building blocks. In 2003, David Baker succeeded in using these blocks to design",
+"conf": 0.933
+},
+{
+"box": [
+64,
+2820,
+1277,
+34
+],
+"text": "a new protein that was unlike any other protein. Since then, his research group has",
+"conf": 0.897
+},
+{
+"box": [
+65,
+2875,
+1310,
+33
+],
+"text": "produced one imaginative protein creation after another, including proteins that can",
+"conf": 0.925
+},
+{
+"box": [
+65,
+2929,
+1082,
+33
+],
+"text": "be used as pharmaceuticals, vaccines, nanomaterials and tiny sensors.",
+"conf": 0.928
+},
+{
+"box": [
+63,
+3043,
+1237,
+39
+],
+"text": "The second discovery concerns the prediction of protein structures. In proteins,",
+"conf": 0.952
+},
+{
+"box": [
+65,
+3100,
+1159,
+33
+],
+"text": "amino acids are linked together in long strings that fold up to make a three-",
+"conf": 0.905
+},
+{
+"box": [
+66,
+3154,
+1282,
+33
+],
+"text": "dimensional structure, which is decisive for the protein's function. Since the 1970s,",
+"conf": 0.947
+},
+{
+"box": [
+62,
+3205,
+1289,
+38
+],
+"text": "researchers had tried to predict protein structures from amino acid sequences, but",
+"conf": 0.935
+},
+{
+"box": [
+62,
+3260,
+1178,
+38
+],
+"text": "this was notoriously difficult. However, four years ago, there was a stunning",
+"conf": 0.937
+},
+{
+"box": [
+63,
+3311,
+226,
+41
+],
+"text": "breakthrough.",
+"conf": 0.909
+},
+{
+"box": [
+63,
+3431,
+1317,
+37
+],
+"text": "In 2020, Demis Hassabis and John Jumper presented an Al model called AlphaFold2.",
+"conf": 0.922
+},
+{
+"box": [
+65,
+3488,
+1245,
+33
+],
+"text": "With its help, they have been able to predict the structure of virtually all the 200",
+"conf": 0.91
+},
+{
+"box": [
+64,
+3540,
+1163,
+37
+],
+"text": "million proteins that researchers have identified. Since their breakthrough,",
+"conf": 0.909
+},
+{
+"box": [
+65,
+3596,
+1230,
+33
+],
+"text": "AlphaFold2 has been used by more than two million people from 19O countries.",
+"conf": 0.916
+},
+{
+"box": [
+64,
+3651,
+1269,
+33
+],
+"text": "Among a myriad of scientific applications, researchers can now better understand",
+"conf": 0.911
+},
+{
+"box": [
+65,
+3703,
+1226,
+35
+],
+"text": "antibiotic resistance and create images of enzymes that can decompose plastic.",
+"conf": 0.891
+},
+{
+"box": [
+66,
+3822,
+1315,
+33
+],
+"text": "Life could not exist without proteins. That we can now predict protein structures and",
+"conf": 0.923
+},
+{
+"box": [
+63,
+3874,
+1051,
+37
+],
+"text": "design our own proteins confers the greatest benefit to humankind.",
+"conf": 0.923
+}
+]

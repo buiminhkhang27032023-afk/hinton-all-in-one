@@ -1,0 +1,15 @@
+[  0.00-  4.10] This person just created a custom cancer vaccine for his dying dog using ChatGPT.
+[  4.20-  6.08] The crazy part? He has zero medical background.
+[  6.32-  7.10] Here's the full story.
+[  7.28-  9.90] Paul Conningham's dog, Rosie, was diagnosed with cancer.
+[ 10.06- 11.74] The vet said she had only months left.
+[ 11.94- 15.08] He spent thousands of dollars on chemo and surgery- but nothing seemed to work.
+[ 15.22- 17.98] So Paul opened ChatGPT and decided to figure it out himself.
+[ 18.20- 22.56] ChatGPT suggested immunity and led him to a genomics lab at the University of New South Wales.
+[ 22.82- 27.02] There, he paid $3,000 to compare a fresh copy of Rosie's healthy DNA
+[ 27.02- 30.42] and her cancer DNA to pinpoint exactly what had changed between the two.
+[ 30.52- 34.44] He then fed that data into Alpha Fold and designed a custom vaccine built specifically
+[ 34.44- 38.52] from Rosie's own DNA. The lab manufactured it, gave it to Rosie, and within weeks,
+[ 38.68- 42.24] the tumor had shrunk by half. The scientists were shocked. Not just because it worked,
+[ 42.36- 45.68] but because a guy with zero medical background had figured it out on his own using AI.
+[ 45.86- 49.10] But the bigger question is, if this works for a dog, why can't it work for humans too?

@@ -1,0 +1,1 @@
+TIN-GEMINI4-V2|Hoàn thành|v1-58s|/workspace/video-jobs/TIN-GEMINI4-V2/output/v1/storytelling_final.mp4|QA=19/20 KHÔNG ĐẠT safe-zone big text|next=bố

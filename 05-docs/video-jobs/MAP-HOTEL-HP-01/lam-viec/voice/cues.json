@@ -1,0 +1,362 @@
+[
+ {
+  "start": 0.0,
+  "end": 0.46,
+  "text": "Đi Hải Phòng",
+  "scene": "hook"
+ },
+ {
+  "start": 0.46,
+  "end": 1.2,
+  "text": "ngủ đâu cho sướng?",
+  "scene": "hook"
+ },
+ {
+  "start": 1.44,
+  "end": 2.42,
+  "text": "Top 5 khách sạn 5 sao",
+  "scene": "hook"
+ },
+ {
+  "start": 2.42,
+  "end": 2.78,
+  "text": "nội thành",
+  "scene": "hook"
+ },
+ {
+  "start": 2.78,
+  "end": 3.88,
+  "text": "điểm Google Maps cao nhất!",
+  "scene": "hook"
+ },
+ {
+  "start": 4.363,
+  "end": 5.08,
+  "text": "Xếp theo điểm Google,",
+  "scene": "rule"
+ },
+ {
+  "start": 5.66,
+  "end": 6.34,
+  "text": "bằng điểm thì ai",
+  "scene": "rule"
+ },
+ {
+  "start": 6.34,
+  "end": 7.1,
+  "text": "nhiều lượt đánh giá hơn",
+  "scene": "rule"
+ },
+ {
+  "start": 7.1,
+  "end": 7.44,
+  "text": "đứng trên.",
+  "scene": "rule"
+ },
+ {
+  "start": 7.98,
+  "end": 8.307,
+  "text": "Hạng năm,",
+  "scene": "pearl"
+ },
+ {
+  "start": 8.307,
+  "end": 9.14,
+  "text": "Pearl River Hotel",
+  "scene": "pearl"
+ },
+ {
+  "start": 9.14,
+  "end": 10.1,
+  "text": "trên đường Phạm Văn Đồng.",
+  "scene": "pearl"
+ },
+ {
+  "start": 10.4,
+  "end": 11.34,
+  "text": "4,6 sao,",
+  "scene": "pearl"
+ },
+ {
+  "start": 11.34,
+  "end": 11.8,
+  "text": "khoảng 2.100",
+  "scene": "pearl"
+ },
+ {
+  "start": 11.8,
+  "end": 12.56,
+  "text": "lượt đánh giá.",
+  "scene": "pearl"
+ },
+ {
+  "start": 12.86,
+  "end": 13.72,
+  "text": "Khách khen chuẩn 5 sao,",
+  "scene": "pearl"
+ },
+ {
+  "start": 14.14,
+  "end": 14.6,
+  "text": "bữa sáng ngon,",
+  "scene": "pearl"
+ },
+ {
+  "start": 14.6,
+  "end": 15.74,
+  "text": "chỉ 20 phút lái xe",
+  "scene": "pearl"
+ },
+ {
+  "start": 15.74,
+  "end": 16.38,
+  "text": "ra biển Đồ Sơn.",
+  "scene": "pearl"
+ },
+ {
+  "start": 17.04,
+  "end": 17.293,
+  "text": "Hạng bốn,",
+  "scene": "sheraton"
+ },
+ {
+  "start": 17.293,
+  "end": 17.98,
+  "text": "Sheraton Hải Phòng",
+  "scene": "sheraton"
+ },
+ {
+  "start": 17.98,
+  "end": 19.068,
+  "text": "ở Vinhomes Imperia.",
+  "scene": "sheraton"
+ },
+ {
+  "start": 19.208,
+  "end": 19.94,
+  "text": "4,7 sao,",
+  "scene": "sheraton"
+ },
+ {
+  "start": 20.32,
+  "end": 20.92,
+  "text": "khoảng 1.600",
+  "scene": "sheraton"
+ },
+ {
+  "start": 20.92,
+  "end": 21.72,
+  "text": "lượt đánh giá.",
+  "scene": "sheraton"
+ },
+ {
+  "start": 21.98,
+  "end": 22.88,
+  "text": "Có khách gọi đây là",
+  "scene": "sheraton"
+ },
+ {
+  "start": 22.88,
+  "end": 23.7,
+  "text": "view đẹp nhất Hải Phòng.",
+  "scene": "sheraton"
+ },
+ {
+  "start": 24.211,
+  "end": 24.56,
+  "text": "Hạng ba,",
+  "scene": "mercure"
+ },
+ {
+  "start": 24.56,
+  "end": 25.34,
+  "text": "Mercure Hải Phòng",
+  "scene": "mercure"
+ },
+ {
+  "start": 25.34,
+  "end": 26.02,
+  "text": "ngay phố Lạch Tray.",
+  "scene": "mercure"
+ },
+ {
+  "start": 26.3,
+  "end": 27.0,
+  "text": "Cũng 4,7 sao,",
+  "scene": "mercure"
+ },
+ {
+  "start": 27.0,
+  "end": 28.04,
+  "text": "nhưng hơn 2.200",
+  "scene": "mercure"
+ },
+ {
+  "start": 28.04,
+  "end": 29.02,
+  "text": "lượt đánh giá,",
+  "scene": "mercure"
+ },
+ {
+  "start": 29.36,
+  "end": 30.0,
+  "text": "nhiều nhất top này.",
+  "scene": "mercure"
+ },
+ {
+  "start": 30.34,
+  "end": 31.12,
+  "text": "Khách kể từ rooftop",
+  "scene": "mercure"
+ },
+ {
+  "start": 31.12,
+  "end": 31.66,
+  "text": "còn xem được",
+  "scene": "mercure"
+ },
+ {
+  "start": 31.66,
+  "end": 32.34,
+  "text": "bóng đá miễn phí.",
+  "scene": "mercure"
+ },
+ {
+  "start": 32.848,
+  "end": 33.27,
+  "text": "Hạng hai,",
+  "scene": "pullman"
+ },
+ {
+  "start": 33.27,
+  "end": 34.02,
+  "text": "Pullman Hải Phòng,",
+  "scene": "pullman"
+ },
+ {
+  "start": 34.02,
+  "end": 34.66,
+  "text": "phố Trần Phú,",
+  "scene": "pullman"
+ },
+ {
+  "start": 34.66,
+  "end": 35.24,
+  "text": "giữa trung tâm.",
+  "scene": "pullman"
+ },
+ {
+  "start": 35.508,
+  "end": 36.28,
+  "text": "4,8 sao,",
+  "scene": "pullman"
+ },
+ {
+  "start": 36.66,
+  "end": 37.22,
+  "text": "khoảng 1.500",
+  "scene": "pullman"
+ },
+ {
+  "start": 37.22,
+  "end": 38.04,
+  "text": "lượt đánh giá.",
+  "scene": "pullman"
+ },
+ {
+  "start": 38.36,
+  "end": 38.88,
+  "text": "Một khách khen",
+  "scene": "pullman"
+ },
+ {
+  "start": 38.88,
+  "end": 40.06,
+  "text": "bể bơi dài 45 mét.",
+  "scene": "pullman"
+ },
+ {
+  "start": 40.588,
+  "end": 40.94,
+  "text": "Và số một,",
+  "scene": "melia"
+ },
+ {
+  "start": 40.94,
+  "end": 41.68,
+  "text": "Meliá Vinpearl",
+  "scene": "melia"
+ },
+ {
+  "start": 41.68,
+  "end": 42.42,
+  "text": "Hải Phòng Rivera.",
+  "scene": "melia"
+ },
+ {
+  "start": 42.68,
+  "end": 43.68,
+  "text": "Cũng 4,8 sao,",
+  "scene": "melia"
+ },
+ {
+  "start": 44.04,
+  "end": 45.04,
+  "text": "nhưng hơn 2.100",
+  "scene": "melia"
+ },
+ {
+  "start": 45.04,
+  "end": 45.58,
+  "text": "lượt đánh giá.",
+  "scene": "melia"
+ },
+ {
+  "start": 45.88,
+  "end": 46.34,
+  "text": "Khách review",
+  "scene": "melia"
+ },
+ {
+  "start": 46.34,
+  "end": 47.52,
+  "text": "buffet sáng dài như bất tận,",
+  "scene": "melia"
+ },
+ {
+  "start": 47.78,
+  "end": 48.72,
+  "text": "hai bể bơi là điểm nhấn",
+  "scene": "melia"
+ },
+ {
+  "start": 48.72,
+  "end": 49.2,
+  "text": "với bọn trẻ.",
+  "scene": "melia"
+ },
+ {
+  "start": 49.7,
+  "end": 50.52,
+  "text": "Bạn chọn khách sạn nào?",
+  "scene": "cta"
+ },
+ {
+  "start": 50.82,
+  "end": 51.4,
+  "text": "Lưu video",
+  "scene": "cta"
+ },
+ {
+  "start": 51.4,
+  "end": 52.16,
+  "text": "cho chuyến Hải Phòng tới,",
+  "scene": "cta"
+ },
+ {
+  "start": 52.16,
+  "end": 53.74,
+  "text": "và theo dõi Hinton Media nhé!",
+  "scene": "cta"
+ }
+]

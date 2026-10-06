@@ -1,0 +1,532 @@
+[
+{
+"box": [
+141,
+47,
+325,
+38
+],
+"text": "News from Google",
+"conf": 0.918
+},
+{
+"box": [
+1194,
+53,
+236,
+33
+],
+"text": "Company news ",
+"conf": 0.858
+},
+{
+"box": [
+1503,
+53,
+70,
+29
+],
+"text": "Feed",
+"conf": 0.784
+},
+{
+"box": [
+501,
+55,
+232,
+27
+],
+"text": "Innovation & Al ",
+"conf": 0.836
+},
+{
+"box": [
+811,
+56,
+306,
+27
+],
+"text": "Products & platforms ",
+"conf": 0.936
+},
+{
+"box": [
+1887,
+49,
+169,
+32
+],
+"text": "Newsletter",
+"conf": 0.87
+},
+{
+"box": [
+468,
+209,
+510,
+29
+],
+"text": "Home > Innovation &Al > Products",
+"conf": 0.863
+},
+{
+"box": [
+470,
+365,
+1099,
+116
+],
+"text": "AlphaFold 3 predicts",
+"conf": 0.876
+},
+{
+"box": [
+471,
+516,
+929,
+95
+],
+"text": "the structure and",
+"conf": 0.894
+},
+{
+"box": [
+469,
+655,
+1061,
+99
+],
+"text": "interactions of all of",
+"conf": 0.935
+},
+{
+"box": [
+473,
+800,
+807,
+99
+],
+"text": "life's molecules",
+"conf": 0.883
+},
+{
+"box": [
+471,
+978,
+170,
+30
+],
+"text": "May 08, 2024",
+"conf": 0.852
+},
+{
+"box": [
+687,
+976,
+975,
+44
+],
+"text": "Introducing AlphaFold 3, a new Al model developed by",
+"conf": 0.922
+},
+{
+"box": [
+467,
+1025,
+138,
+30
+],
+"text": "7 min read",
+"conf": 0.858
+},
+{
+"box": [
+689,
+1032,
+975,
+45
+],
+"text": "Google DeepMind and Isomorphic Labs. By accurately",
+"conf": 0.917
+},
+{
+"box": [
+690,
+1090,
+984,
+41
+],
+"text": "predicting the structure of proteins, DNA, RNA, ligands",
+"conf": 0.921
+},
+{
+"box": [
+689,
+1147,
+858,
+39
+],
+"text": "and more, and how they interact, we hope it will",
+"conf": 0.868
+},
+{
+"box": [
+688,
+1201,
+1010,
+41
+],
+"text": "transform our understanding of the biological world and",
+"conf": 0.888
+},
+{
+"box": [
+690,
+1257,
+277,
+45
+],
+"text": "drug discovery.",
+"conf": 0.866
+},
+{
+"box": [
+471,
+1412,
+239,
+30
+],
+"text": "Google DeepMind",
+"conf": 0.905
+},
+{
+"box": [
+778,
+1412,
+219,
+30
+],
+"text": "Isomorphic Labs",
+"conf": 0.895
+},
+{
+"box": [
+1639,
+1433,
+93,
+35
+],
+"text": "Share",
+"conf": 0.826
+},
+{
+"box": [
+471,
+1460,
+209,
+30
+],
+"text": "AlphaFold team",
+"conf": 0.914
+},
+{
+"box": [
+635,
+3028,
+852,
+36
+],
+"text": "Update November 11, 2024: As of November 2024, we have",
+"conf": 0.915
+},
+{
+"box": [
+176,
+3054,
+173,
+27
+],
+"text": "In this article",
+"conf": 0.854
+},
+{
+"box": [
+635,
+3085,
+914,
+29
+],
+"text": "released AlphaFold 3 model code and weights for academic use",
+"conf": 0.904
+},
+{
+"box": [
+635,
+3137,
+870,
+30
+],
+"text": "to help advance research. Learn more about AlphaFold tools.",
+"conf": 0.942
+},
+{
+"box": [
+177,
+3154,
+316,
+26
+],
+"text": "Revealing life's molecules",
+"conf": 0.908
+},
+{
+"box": [
+635,
+3236,
+846,
+33
+],
+"text": "Original post: Inside every plant, animal and human cell are",
+"conf": 0.932
+},
+{
+"box": [
+175,
+3247,
+295,
+33
+],
+"text": "Leading drug discovery",
+"conf": 0.913
+},
+{
+"box": [
+634,
+3289,
+858,
+30
+],
+"text": "billions of molecular machines. They're made up of proteins,",
+"conf": 0.921
+},
+{
+"box": [
+176,
+3345,
+278,
+29
+],
+"text": "Introducing AlphaFold",
+"conf": 0.883
+},
+{
+"box": [
+632,
+3337,
+910,
+36
+],
+"text": "DNA and other molecules, but no single piece works on its own.",
+"conf": 0.914
+},
+{
+"box": [
+173,
+3391,
+87,
+28
+],
+"text": "Server",
+"conf": 0.798
+},
+{
+"box": [
+635,
+3391,
+868,
+33
+],
+"text": "Only by seeing how they interact together, across millions of",
+"conf": 0.932
+},
+{
+"box": [
+635,
+3441,
+869,
+36
+],
+"text": "types of combinations, can we start to truly understand life's",
+"conf": 0.932
+},
+{
+"box": [
+175,
+3486,
+247,
+33
+],
+"text": "Sharing responsibly",
+"conf": 0.87
+},
+{
+"box": [
+633,
+3497,
+159,
+32
+],
+"text": "processes.",
+"conf": 0.885
+},
+{
+"box": [
+176,
+3585,
+316,
+27
+],
+"text": "Future of Al-powered cell",
+"conf": 0.893
+},
+{
+"box": [
+633,
+3595,
+842,
+34
+],
+"text": "In a paper published in Nature, we introduce AlphaFold 3, a",
+"conf": 0.92
+},
+{
+"box": [
+171,
+3627,
+103,
+40
+],
+"text": "biology",
+"conf": 0.843
+},
+{
+"box": [
+633,
+3648,
+783,
+31
+],
+"text": "revolutionary model that can predict the structure and",
+"conf": 0.92
+},
+{
+"box": [
+631,
+3697,
+920,
+37
+],
+"text": "interactions of all life's molecules with unprecedented accuracy.",
+"conf": 0.902
+},
+{
+"box": [
+632,
+3749,
+880,
+35
+],
+"text": "For the interactions of proteins with other molecule types we",
+"conf": 0.898
+},
+{
+"box": [
+631,
+3802,
+807,
+35
+],
+"text": "see at least a 50% improvement compared with existing",
+"conf": 0.9
+},
+{
+"box": [
+633,
+3855,
+844,
+34
+],
+"text": "prediction methods, and for some important categories of",
+"conf": 0.927
+},
+{
+"box": [
+631,
+3904,
+712,
+39
+],
+"text": "interaction we have doubled prediction accuracy.",
+"conf": 0.942
+},
+{
+"box": [
+636,
+4009,
+885,
+30
+],
+"text": "We hope AlphaFold 3 will help transform our understanding of",
+"conf": 0.915
+},
+{
+"box": [
+634,
+4060,
+886,
+32
+],
+"text": "the biological world and drug discovery. Scientists can access",
+"conf": 0.91
+},
+{
+"box": [
+633,
+4110,
+824,
+35
+],
+"text": "the majority of its capabilities, for free, through our newly",
+"conf": 0.923
+},
+{
+"box": [
+633,
+4162,
+933,
+34
+],
+"text": "launched AlphaFold Server, an easy-to-use research tool. To build",
+"conf": 0.928
+},
+{
+"box": [
+633,
+4215,
+883,
+34
+],
+"text": "on AlphaFold 3's potential for drug design, lsomorphic Labs is",
+"conf": 0.913
+},
+{
+"box": [
+635,
+4268,
+921,
+29
+],
+"text": "already collaborating with pharmaceutical companies to apply it",
+"conf": 0.903
+}
+]

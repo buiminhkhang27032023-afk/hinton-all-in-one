@@ -1,0 +1,93 @@
+{
+ "y01_orc_new": {
+  "src_start": 219.6,
+  "src_end": 223.0,
+  "layout": "full",
+  "label": "Orc level 1 mới xuất hiện ở điểm khởi đầu",
+  "file": "/workspace/video-jobs/HM-103/source/yt_clips/y01_orc_new.mp4"
+ },
+ "y02_questgiver": {
+  "src_start": 388.4,
+  "src_end": 391.8,
+  "layout": "full",
+  "label": "NPC giao nhiệm vụ (dấu ?) — Valley of Trials",
+  "file": "/workspace/video-jobs/HM-103/source/yt_clips/y02_questgiver.mp4"
+ },
+ "y03_path_cacti": {
+  "src_start": 487.0,
+  "src_end": 490.4,
+  "layout": "tb",
+  "label": "Chạy đường giữa các điểm nhiệm vụ (pathfinding)",
+  "file": "/workspace/video-jobs/HM-103/source/yt_clips/y03_path_cacti.mp4"
+ },
+ "y04_vendor": {
+  "src_start": 1213.6,
+  "src_end": 1217.0,
+  "layout": "full",
+  "label": "Khu NPC/thùng hàng ở trại — đoạn bán đồ (không thấy cửa sổ vendor)",
+  "file": "/workspace/video-jobs/HM-103/source/yt_clips/y04_vendor.mp4"
+ },
+ "y05_gear": {
+  "src_start": 1739.6,
+  "src_end": 1743.0,
+  "layout": "full",
+  "label": "Cận cảnh orc đã khoác giáp mới (áo giáp đỏ)",
+  "file": "/workspace/video-jobs/HM-103/source/yt_clips/y05_gear.mp4"
+ },
+ "y06_trainer": {
+  "src_start": 1880.0,
+  "src_end": 1883.4,
+  "layout": "full",
+  "label": "Đứng ở trainer (thảm, trại Den) trước khi vào hang",
+  "file": "/workspace/video-jobs/HM-103/source/yt_clips/y06_trainer.mp4"
+ },
+ "y07_cave": {
+  "src_start": 2017.0,
+  "src_end": 2020.4,
+  "layout": "lr",
+  "label": "Trong hang — đánh quái nhiệm vụ hang",
+  "file": "/workspace/video-jobs/HM-103/source/yt_clips/y07_cave.mp4"
+ },
+ "y08_senjin": {
+  "src_start": 2343.0,
+  "src_end": 2346.4,
+  "layout": "lr",
+  "label": "Sen'jin Village (nhà troll, cây cọ) — cuối run",
+  "file": "/workspace/video-jobs/HM-103/source/yt_clips/y08_senjin.mp4"
+ },
+ "y09_valley_den": {
+  "src_start": 640.0,
+  "src_end": 643.4,
+  "layout": "lr",
+  "label": "Trại Den ở Valley of Trials",
+  "file": "/workspace/video-jobs/HM-103/source/yt_clips/y09_valley_den.mp4"
+ },
+ "y10_wallclip": {
+  "src_start": 1963.2,
+  "src_end": 1966.6,
+  "layout": "tb",
+  "label": "Camera/nhân vật xuyên địa hình ở vách đá (lỗi va chạm bản đồ)",
+  "file": "/workspace/video-jobs/HM-103/source/yt_clips/y10_wallclip.mp4"
+ },
+ "y11_codex_prompt": {
+  "src_start": 29.0,
+  "src_end": 32.4,
+  "layout": "tbfit",
+  "label": "Desktop: WoW + Codex vừa nhận câu lệnh 'Create an orc character…'",
+  "file": "/workspace/video-jobs/HM-103/source/yt_clips/y11_codex_prompt.mp4"
+ },
+ "y12_orc_close": {
+  "src_start": 1069.0,
+  "src_end": 1072.4,
+  "layout": "lr",
+  "label": "Cận cảnh orc (dùng cho cảnh 'không nhận khung hình')",
+  "file": "/workspace/video-jobs/HM-103/source/yt_clips/y12_orc_close.mp4"
+ },
+ "y13_landscape": {
+  "src_start": 1409.0,
+  "src_end": 1412.4,
+  "layout": "tb",
+  "label": "Toàn cảnh Durotar — 'bản đồ thế giới'",
+  "file": "/workspace/video-jobs/HM-103/source/yt_clips/y13_landscape.mp4"
+ }
+}

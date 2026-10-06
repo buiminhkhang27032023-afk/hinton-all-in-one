@@ -1,0 +1,17 @@
+[  0.00-  4.00] If you're still prompting in 2026, you're doing it wrong because the guy that built
+[  4.00-  6.64] Claude Code in Anthropic said that he doesn't prompt anymore.
+[  6.88- 10.90] He says that he runs loops where he writes systems that prompt for him.
+[ 11.20- 13.56] Stay till the end because it's very simple and I'm going to tell you.
+[ 13.82- 18.44] So the idea is that you give it a goal and the AI will go off and go and research it,
+[ 18.54- 21.04] execute it and then test it to make sure it's correct.
+[ 21.28- 24.76] If it's not, then it will course correct until it gets it right and then present
+[ 24.76- 27.34] you with the finished product or the finished task.
+[ 27.34- 30.44] How you do this inside of Codex or Claude Code is very simple.
+[ 30.62- 37.02] All you need to do is type slash goal and then just enter in whatever tasks you want it to do.
+[ 37.50- 40.84] And the goal will be to run until it successfully completes that task.
+[ 41.18- 43.50] Inside your goal, you should make sure you have a stop condition,
+[ 43.50- 46.96] so it only stops when the tests all pass.
+[ 47.08- 49.84] Otherwise, you could end up with a massive token because it just keeps going.
+[ 50.04- 54.48] And then use forward slash loop if you want it to check every five minutes.
+[ 54.48- 54.76] It's a
+[ 54.76- 55.50] live from what I is this.

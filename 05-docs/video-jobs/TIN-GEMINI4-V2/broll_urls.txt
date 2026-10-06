@@ -1,0 +1,10 @@
+# Clip/ảnh chính thức. URL | name= | credit=
+# CNBC: tải sẵn bằng yt-dlp (hls-1880, 720p) vào lam-viec/yt/ vì fetch chỉ gọi yt-dlp cho YouTube/X
+https://www.cnbc.com/video/2026/09/30/google-announces-new-frontier-model-called-gemini-4-argon.html | name=cnbc_ann | credit=CNBC — Google announces new frontier model called Gemini 4 Argon (30/09/2026)
+https://www.cnbc.com/video/2026/09/30/googles-gemini-product-chief-details-weeks-of-company-wide-testing-ahead-of-gemini-4-argon-launch.html | name=cnbc_chief | credit=CNBC — Google's Gemini product chief details weeks of company-wide testing (30/09/2026)
+https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png | name=keyart | credit=Google — Gemini 4 key art (blog.google)
+https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini_4_cyber_evals_deepswe.gif | name=ev_deepswe | credit=Google — Gemini 4 Argon evals: DeepSWE (blog.google)
+https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini_4_cyber_evals_vals_index.gif | name=ev_vals | credit=Google — Gemini 4 Argon evals: Vals Index (blog.google)
+https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini_4_cyber_evals_automationbench.gif | name=ev_auto | credit=Google — Gemini 4 Argon evals: AutomationBench (blog.google)
+https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_cyber_evals_cwe_bench.width-1600.format-webp.webp | name=ev_cwe | credit=Google — Gemini 4 Argon evals: CWE-bench (blog.google)
+https://pbs.twimg.com/media/HTfV52SWgAIlX3W.png?name=orig | name=ev_table | credit=Google DeepMind — bảng benchmark Gemini 4 Argon (X @GoogleDeepMind)

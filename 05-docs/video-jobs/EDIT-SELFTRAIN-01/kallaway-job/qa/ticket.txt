@@ -1,0 +1,1 @@
+EDIT-SELFTRAIN-01|Hoàn thành|r3-20s|/workspace/video-jobs/EDIT-SELFTRAIN-01/kallaway-job/output/storytelling_final.mp4|next=bố

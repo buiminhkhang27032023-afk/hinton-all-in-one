@@ -1,0 +1,4104 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:01.750 align:start position:0%
+ 
+Today<00:00:00.400><c> we're</c><00:00:00.640><c> talking</c><00:00:00.800><c> about</c><00:00:00.960><c> hooks.</c><00:00:01.439><c> If</c><00:00:01.680><c> you</c>
+
+00:00:01.750 --> 00:00:01.760 align:start position:0%
+Today we're talking about hooks. If you
+ 
+
+00:00:01.760 --> 00:00:03.510 align:start position:0%
+Today we're talking about hooks. If you
+want<00:00:01.920><c> your</c><00:00:02.080><c> videos</c><00:00:02.320><c> to</c><00:00:02.560><c> perform</c><00:00:02.879><c> better,</c><00:00:03.280><c> you</c>
+
+00:00:03.510 --> 00:00:03.520 align:start position:0%
+want your videos to perform better, you
+ 
+
+00:00:03.520 --> 00:00:05.910 align:start position:0%
+want your videos to perform better, you
+need<00:00:03.600><c> to</c><00:00:03.840><c> focus</c><00:00:04.160><c> on</c><00:00:04.400><c> leveling</c><00:00:04.880><c> up</c><00:00:05.120><c> your</c><00:00:05.359><c> hooks.</c>
+
+00:00:05.910 --> 00:00:05.920 align:start position:0%
+need to focus on leveling up your hooks.
+ 
+
+00:00:05.920 --> 00:00:07.510 align:start position:0%
+need to focus on leveling up your hooks.
+Now<00:00:06.080><c> look,</c><00:00:06.319><c> I've</c><00:00:06.560><c> studied</c><00:00:07.040><c> literally</c>
+
+00:00:07.510 --> 00:00:07.520 align:start position:0%
+Now look, I've studied literally
+ 
+
+00:00:07.520 --> 00:00:09.509 align:start position:0%
+Now look, I've studied literally
+thousands<00:00:08.000><c> of</c><00:00:08.240><c> videos.</c><00:00:08.639><c> And</c><00:00:08.800><c> it</c><00:00:08.960><c> turns</c><00:00:09.120><c> out</c><00:00:09.280><c> if</c>
+
+00:00:09.509 --> 00:00:09.519 align:start position:0%
+thousands of videos. And it turns out if
+ 
+
+00:00:09.519 --> 00:00:11.509 align:start position:0%
+thousands of videos. And it turns out if
+your<00:00:09.679><c> hooks</c><00:00:10.080><c> are</c><00:00:10.240><c> not</c><00:00:10.480><c> working,</c><00:00:11.040><c> there's</c><00:00:11.280><c> only</c>
+
+00:00:11.509 --> 00:00:11.519 align:start position:0%
+your hooks are not working, there's only
+ 
+
+00:00:11.519 --> 00:00:13.589 align:start position:0%
+your hooks are not working, there's only
+four<00:00:11.840><c> mistakes</c><00:00:12.320><c> you</c><00:00:12.559><c> could</c><00:00:12.800><c> be</c><00:00:12.960><c> making.</c><00:00:13.440><c> If</c>
+
+00:00:13.589 --> 00:00:13.599 align:start position:0%
+four mistakes you could be making. If
+ 
+
+00:00:13.599 --> 00:00:15.270 align:start position:0%
+four mistakes you could be making. If
+you<00:00:13.679><c> solve</c><00:00:14.000><c> for</c><00:00:14.160><c> these,</c><00:00:14.400><c> your</c><00:00:14.639><c> views</c><00:00:15.040><c> will</c>
+
+00:00:15.270 --> 00:00:15.280 align:start position:0%
+you solve for these, your views will
+ 
+
+00:00:15.280 --> 00:00:17.269 align:start position:0%
+you solve for these, your views will
+skyrocket<00:00:16.000><c> immediately.</c><00:00:16.640><c> So,</c><00:00:16.880><c> in</c><00:00:17.119><c> this</c>
+
+00:00:17.269 --> 00:00:17.279 align:start position:0%
+skyrocket immediately. So, in this
+ 
+
+00:00:17.279 --> 00:00:18.870 align:start position:0%
+skyrocket immediately. So, in this
+video,<00:00:17.600><c> I'm</c><00:00:17.760><c> going</c><00:00:17.840><c> to</c><00:00:17.920><c> break</c><00:00:18.240><c> all</c><00:00:18.560><c> four</c><00:00:18.720><c> of</c>
+
+00:00:18.870 --> 00:00:18.880 align:start position:0%
+video, I'm going to break all four of
+ 
+
+00:00:18.880 --> 00:00:20.550 align:start position:0%
+video, I'm going to break all four of
+them<00:00:19.039><c> down.</c><00:00:19.600><c> These</c><00:00:19.760><c> are</c><00:00:19.920><c> the</c><00:00:20.080><c> four</c><00:00:20.240><c> hook</c>
+
+00:00:20.550 --> 00:00:20.560 align:start position:0%
+them down. These are the four hook
+ 
+
+00:00:20.560 --> 00:00:22.310 align:start position:0%
+them down. These are the four hook
+mistakes<00:00:21.039><c> holding</c><00:00:21.359><c> back</c><00:00:21.520><c> your</c><00:00:21.760><c> videos</c><00:00:22.080><c> with</c>
+
+00:00:22.310 --> 00:00:22.320 align:start position:0%
+mistakes holding back your videos with
+ 
+
+00:00:22.320 --> 00:00:24.150 align:start position:0%
+mistakes holding back your videos with
+tactical<00:00:22.800><c> examples</c><00:00:23.119><c> and</c><00:00:23.359><c> tips</c><00:00:23.680><c> for</c><00:00:23.840><c> how</c><00:00:24.000><c> to</c>
+
+00:00:24.150 --> 00:00:24.160 align:start position:0%
+tactical examples and tips for how to
+ 
+
+00:00:24.160 --> 00:00:25.670 align:start position:0%
+tactical examples and tips for how to
+fix<00:00:24.480><c> each</c><00:00:24.720><c> of</c><00:00:24.800><c> them.</c><00:00:25.119><c> By</c><00:00:25.279><c> the</c><00:00:25.359><c> way,</c><00:00:25.439><c> I'm</c>
+
+00:00:25.670 --> 00:00:25.680 align:start position:0%
+fix each of them. By the way, I'm
+ 
+
+00:00:25.680 --> 00:00:27.109 align:start position:0%
+fix each of them. By the way, I'm
+Callaway.<00:00:26.160><c> I</c><00:00:26.240><c> have</c><00:00:26.320><c> a</c><00:00:26.480><c> million</c><00:00:26.720><c> followers.</c>
+
+00:00:27.109 --> 00:00:27.119 align:start position:0%
+Callaway. I have a million followers.
+ 
+
+00:00:27.119 --> 00:00:29.029 align:start position:0%
+Callaway. I have a million followers.
+I've<00:00:27.359><c> done</c><00:00:27.519><c> billions</c><00:00:27.840><c> of</c><00:00:28.000><c> views.</c><00:00:28.320><c> and</c><00:00:28.560><c> content</c>
+
+00:00:29.029 --> 00:00:29.039 align:start position:0%
+I've done billions of views. and content
+ 
+
+00:00:29.039 --> 00:00:30.950 align:start position:0%
+I've done billions of views. and content
+is<00:00:29.279><c> all</c><00:00:29.439><c> I</c><00:00:29.679><c> do</c><00:00:29.920><c> all</c><00:00:30.160><c> day</c><00:00:30.320><c> long.</c><00:00:30.560><c> All</c><00:00:30.560><c> right,</c><00:00:30.800><c> now</c>
+
+00:00:30.950 --> 00:00:30.960 align:start position:0%
+is all I do all day long. All right, now
+ 
+
+00:00:30.960 --> 00:00:32.389 align:start position:0%
+is all I do all day long. All right, now
+before<00:00:31.119><c> I</c><00:00:31.279><c> walk</c><00:00:31.439><c> through</c><00:00:31.599><c> the</c><00:00:31.840><c> four</c><00:00:32.079><c> main</c>
+
+00:00:32.389 --> 00:00:32.399 align:start position:0%
+before I walk through the four main
+ 
+
+00:00:32.399 --> 00:00:33.990 align:start position:0%
+before I walk through the four main
+mistakes<00:00:32.800><c> you're</c><00:00:33.040><c> making</c><00:00:33.280><c> with</c><00:00:33.440><c> your</c><00:00:33.600><c> hooks,</c>
+
+00:00:33.990 --> 00:00:34.000 align:start position:0%
+mistakes you're making with your hooks,
+ 
+
+00:00:34.000 --> 00:00:35.510 align:start position:0%
+mistakes you're making with your hooks,
+let's<00:00:34.239><c> just</c><00:00:34.399><c> quickly</c><00:00:34.719><c> talk</c><00:00:34.960><c> about</c><00:00:35.120><c> what</c><00:00:35.280><c> a</c>
+
+00:00:35.510 --> 00:00:35.520 align:start position:0%
+let's just quickly talk about what a
+ 
+
+00:00:35.520 --> 00:00:37.270 align:start position:0%
+let's just quickly talk about what a
+winning<00:00:35.760><c> hook</c><00:00:36.160><c> actually</c><00:00:36.559><c> looks</c><00:00:36.800><c> like.</c>
+
+00:00:37.270 --> 00:00:37.280 align:start position:0%
+winning hook actually looks like.
+ 
+
+00:00:37.280 --> 00:00:38.950 align:start position:0%
+winning hook actually looks like.
+Understanding<00:00:37.760><c> this</c><00:00:38.000><c> one</c><00:00:38.239><c> thing</c><00:00:38.480><c> will</c><00:00:38.800><c> help</c>
+
+00:00:38.950 --> 00:00:38.960 align:start position:0%
+Understanding this one thing will help
+ 
+
+00:00:38.960 --> 00:00:41.270 align:start position:0%
+Understanding this one thing will help
+you<00:00:39.120><c> a</c><00:00:39.360><c> ton.</c><00:00:39.760><c> Hooks</c><00:00:40.320><c> really</c><00:00:40.559><c> only</c><00:00:40.800><c> have</c><00:00:41.040><c> one</c>
+
+00:00:41.270 --> 00:00:41.280 align:start position:0%
+you a ton. Hooks really only have one
+ 
+
+00:00:41.280 --> 00:00:43.350 align:start position:0%
+you a ton. Hooks really only have one
+job,<00:00:41.680><c> to</c><00:00:41.840><c> help</c><00:00:42.000><c> a</c><00:00:42.160><c> viewer</c><00:00:42.480><c> decide</c><00:00:42.800><c> to</c><00:00:42.960><c> opt</c><00:00:43.120><c> in</c>
+
+00:00:43.350 --> 00:00:43.360 align:start position:0%
+job, to help a viewer decide to opt in
+ 
+
+00:00:43.360 --> 00:00:45.270 align:start position:0%
+job, to help a viewer decide to opt in
+and<00:00:43.680><c> continue</c><00:00:44.160><c> watching</c><00:00:44.480><c> the</c><00:00:44.800><c> video.</c><00:00:45.120><c> The</c>
+
+00:00:45.270 --> 00:00:45.280 align:start position:0%
+and continue watching the video. The
+ 
+
+00:00:45.280 --> 00:00:47.110 align:start position:0%
+and continue watching the video. The
+hook<00:00:45.600><c> needs</c><00:00:45.760><c> to</c><00:00:45.920><c> stop</c><00:00:46.160><c> the</c><00:00:46.320><c> scroll</c><00:00:46.719><c> and</c><00:00:46.960><c> get</c>
+
+00:00:47.110 --> 00:00:47.120 align:start position:0%
+hook needs to stop the scroll and get
+ 
+
+00:00:47.120 --> 00:00:48.869 align:start position:0%
+hook needs to stop the scroll and get
+the<00:00:47.280><c> viewer</c><00:00:47.600><c> to</c><00:00:47.840><c> stay</c><00:00:48.079><c> put.</c><00:00:48.480><c> It's</c><00:00:48.719><c> very</c>
+
+00:00:48.869 --> 00:00:48.879 align:start position:0%
+the viewer to stay put. It's very
+ 
+
+00:00:48.879 --> 00:00:50.389 align:start position:0%
+the viewer to stay put. It's very
+simple.<00:00:49.280><c> Now,</c><00:00:49.440><c> in</c><00:00:49.600><c> order</c><00:00:49.760><c> to</c><00:00:49.920><c> get</c><00:00:50.000><c> the</c><00:00:50.160><c> viewer</c>
+
+00:00:50.389 --> 00:00:50.399 align:start position:0%
+simple. Now, in order to get the viewer
+ 
+
+00:00:50.399 --> 00:00:52.630 align:start position:0%
+simple. Now, in order to get the viewer
+to<00:00:50.559><c> opt</c><00:00:50.719><c> in</c><00:00:50.960><c> and</c><00:00:51.200><c> stay</c><00:00:51.440><c> put,</c><00:00:51.840><c> the</c><00:00:52.000><c> hook</c><00:00:52.399><c> only</c>
+
+00:00:52.630 --> 00:00:52.640 align:start position:0%
+to opt in and stay put, the hook only
+ 
+
+00:00:52.640 --> 00:00:54.790 align:start position:0%
+to opt in and stay put, the hook only
+has<00:00:52.879><c> to</c><00:00:53.039><c> give</c><00:00:53.199><c> them</c><00:00:53.440><c> two</c><00:00:53.760><c> things:</c><00:00:54.320><c> topic</c>
+
+00:00:54.790 --> 00:00:54.800 align:start position:0%
+has to give them two things: topic
+ 
+
+00:00:54.800 --> 00:00:57.350 align:start position:0%
+has to give them two things: topic
+clarity<00:00:55.199><c> and</c><00:00:55.520><c> ontarget</c><00:00:56.160><c> curiosity.</c><00:00:56.960><c> Topic</c>
+
+00:00:57.350 --> 00:00:57.360 align:start position:0%
+clarity and ontarget curiosity. Topic
+ 
+
+00:00:57.360 --> 00:00:59.270 align:start position:0%
+clarity and ontarget curiosity. Topic
+clarity<00:00:57.760><c> means</c><00:00:58.000><c> the</c><00:00:58.160><c> viewer</c><00:00:58.480><c> has</c><00:00:58.640><c> a</c><00:00:58.879><c> crystal</c>
+
+00:00:59.270 --> 00:00:59.280 align:start position:0%
+clarity means the viewer has a crystal
+ 
+
+00:00:59.280 --> 00:01:01.430 align:start position:0%
+clarity means the viewer has a crystal
+clear<00:00:59.600><c> understanding</c><00:01:00.160><c> of</c><00:01:00.480><c> what</c><00:01:00.640><c> the</c><00:01:00.879><c> video</c><00:01:01.199><c> is</c>
+
+00:01:01.430 --> 00:01:01.440 align:start position:0%
+clear understanding of what the video is
+ 
+
+00:01:01.440 --> 00:01:03.029 align:start position:0%
+clear understanding of what the video is
+going<00:01:01.600><c> to</c><00:01:01.760><c> be</c><00:01:01.920><c> about.</c><00:01:02.320><c> And</c><00:01:02.480><c> on</c><00:01:02.719><c> target</c>
+
+00:01:03.029 --> 00:01:03.039 align:start position:0%
+going to be about. And on target
+ 
+
+00:01:03.039 --> 00:01:05.030 align:start position:0%
+going to be about. And on target
+curiosity<00:01:03.680><c> means</c><00:01:03.920><c> that</c><00:01:04.080><c> they</c><00:01:04.320><c> believe</c><00:01:04.720><c> the</c>
+
+00:01:05.030 --> 00:01:05.040 align:start position:0%
+curiosity means that they believe the
+ 
+
+00:01:05.040 --> 00:01:07.109 align:start position:0%
+curiosity means that they believe the
+topic<00:01:05.360><c> is</c><00:01:05.519><c> for</c><00:01:05.760><c> them.</c><00:01:06.320><c> The</c><00:01:06.479><c> video</c><00:01:06.720><c> will</c><00:01:06.960><c> give</c>
+
+00:01:07.109 --> 00:01:07.119 align:start position:0%
+topic is for them. The video will give
+ 
+
+00:01:07.119 --> 00:01:08.870 align:start position:0%
+topic is for them. The video will give
+them<00:01:07.360><c> some</c><00:01:07.680><c> value</c><00:01:08.000><c> and</c><00:01:08.240><c> they</c><00:01:08.400><c> have</c><00:01:08.560><c> general</c>
+
+00:01:08.870 --> 00:01:08.880 align:start position:0%
+them some value and they have general
+ 
+
+00:01:08.880 --> 00:01:11.350 align:start position:0%
+them some value and they have general
+curiosity<00:01:09.520><c> on</c><00:01:09.840><c> what</c><00:01:10.080><c> comes</c><00:01:10.400><c> next.</c><00:01:10.880><c> So</c><00:01:11.119><c> all</c><00:01:11.200><c> the</c>
+
+00:01:11.350 --> 00:01:11.360 align:start position:0%
+curiosity on what comes next. So all the
+ 
+
+00:01:11.360 --> 00:01:13.190 align:start position:0%
+curiosity on what comes next. So all the
+hook<00:01:11.680><c> needs</c><00:01:11.840><c> to</c><00:01:11.920><c> do</c><00:01:12.080><c> is</c><00:01:12.320><c> drive</c><00:01:12.640><c> those</c><00:01:12.960><c> two</c>
+
+00:01:13.190 --> 00:01:13.200 align:start position:0%
+hook needs to do is drive those two
+ 
+
+00:01:13.200 --> 00:01:15.030 align:start position:0%
+hook needs to do is drive those two
+points<00:01:13.520><c> home.</c><00:01:13.840><c> If</c><00:01:14.080><c> you</c><00:01:14.159><c> do</c><00:01:14.320><c> this</c><00:01:14.560><c> these</c><00:01:14.799><c> two</c>
+
+00:01:15.030 --> 00:01:15.040 align:start position:0%
+points home. If you do this these two
+ 
+
+00:01:15.040 --> 00:01:17.109 align:start position:0%
+points home. If you do this these two
+things,<00:01:15.360><c> you</c><00:01:15.600><c> win.</c><00:01:15.920><c> I</c><00:01:16.240><c> guarantee</c><00:01:16.640><c> the</c><00:01:16.880><c> viewer</c>
+
+00:01:17.109 --> 00:01:17.119 align:start position:0%
+things, you win. I guarantee the viewer
+ 
+
+00:01:17.119 --> 00:01:18.630 align:start position:0%
+things, you win. I guarantee the viewer
+will<00:01:17.280><c> be</c><00:01:17.439><c> hooked.</c><00:01:17.840><c> Now,</c><00:01:18.080><c> of</c><00:01:18.240><c> course,</c><00:01:18.400><c> the</c>
+
+00:01:18.630 --> 00:01:18.640 align:start position:0%
+will be hooked. Now, of course, the
+ 
+
+00:01:18.640 --> 00:01:20.390 align:start position:0%
+will be hooked. Now, of course, the
+million-dollar<00:01:19.119><c> question</c><00:01:19.439><c> is</c><00:01:19.680><c> this.</c><00:01:20.159><c> How</c><00:01:20.320><c> do</c>
+
+00:01:20.390 --> 00:01:20.400 align:start position:0%
+million-dollar question is this. How do
+ 
+
+00:01:20.400 --> 00:01:22.149 align:start position:0%
+million-dollar question is this. How do
+I<00:01:20.560><c> make</c><00:01:20.720><c> sure</c><00:01:20.880><c> that</c><00:01:21.119><c> every</c><00:01:21.439><c> time</c><00:01:21.600><c> I</c><00:01:21.840><c> make</c><00:01:22.000><c> a</c>
+
+00:01:22.149 --> 00:01:22.159 align:start position:0%
+I make sure that every time I make a
+ 
+
+00:01:22.159 --> 00:01:24.230 align:start position:0%
+I make sure that every time I make a
+hook,<00:01:22.560><c> the</c><00:01:22.799><c> viewer</c><00:01:23.119><c> gets</c><00:01:23.439><c> those</c><00:01:23.680><c> two</c><00:01:23.920><c> things,</c>
+
+00:01:24.230 --> 00:01:24.240 align:start position:0%
+hook, the viewer gets those two things,
+ 
+
+00:01:24.240 --> 00:01:26.310 align:start position:0%
+hook, the viewer gets those two things,
+topic<00:01:24.640><c> clarity</c><00:01:24.880><c> and</c><00:01:25.119><c> ontarget</c><00:01:25.600><c> curiosity?</c>
+
+00:01:26.310 --> 00:01:26.320 align:start position:0%
+topic clarity and ontarget curiosity?
+ 
+
+00:01:26.320 --> 00:01:27.910 align:start position:0%
+topic clarity and ontarget curiosity?
+And<00:01:26.560><c> this</c><00:01:26.799><c> really</c><00:01:26.960><c> is</c><00:01:27.119><c> where</c><00:01:27.360><c> the</c><00:01:27.600><c> four</c>
+
+00:01:27.910 --> 00:01:27.920 align:start position:0%
+And this really is where the four
+ 
+
+00:01:27.920 --> 00:01:30.310 align:start position:0%
+And this really is where the four
+horsemen<00:01:28.479><c> hook</c><00:01:28.880><c> mistakes</c><00:01:29.439><c> come</c><00:01:29.600><c> in.</c><00:01:30.080><c> The</c>
+
+00:01:30.310 --> 00:01:30.320 align:start position:0%
+horsemen hook mistakes come in. The
+ 
+
+00:01:30.320 --> 00:01:32.469 align:start position:0%
+horsemen hook mistakes come in. The
+reason<00:01:30.560><c> bad</c><00:01:30.880><c> hooks</c><00:01:31.280><c> flop</c><00:01:31.600><c> and</c><00:01:31.840><c> don't</c><00:01:32.159><c> deliver</c>
+
+00:01:32.469 --> 00:01:32.479 align:start position:0%
+reason bad hooks flop and don't deliver
+ 
+
+00:01:32.479 --> 00:01:34.149 align:start position:0%
+reason bad hooks flop and don't deliver
+those<00:01:32.720><c> two</c><00:01:32.960><c> things</c><00:01:33.280><c> is</c><00:01:33.520><c> because</c><00:01:33.759><c> you're</c>
+
+00:01:34.149 --> 00:01:34.159 align:start position:0%
+those two things is because you're
+ 
+
+00:01:34.159 --> 00:01:35.990 align:start position:0%
+those two things is because you're
+making<00:01:34.479><c> one</c><00:01:34.799><c> or</c><00:01:35.040><c> more</c><00:01:35.280><c> of</c><00:01:35.439><c> these</c><00:01:35.759><c> four</c>
+
+00:01:35.990 --> 00:01:36.000 align:start position:0%
+making one or more of these four
+ 
+
+00:01:36.000 --> 00:01:37.670 align:start position:0%
+making one or more of these four
+mistakes.<00:01:36.479><c> If</c><00:01:36.640><c> you</c><00:01:36.799><c> fix</c><00:01:36.960><c> all</c><00:01:37.119><c> four</c><00:01:37.280><c> of</c><00:01:37.360><c> these,</c>
+
+00:01:37.670 --> 00:01:37.680 align:start position:0%
+mistakes. If you fix all four of these,
+ 
+
+00:01:37.680 --> 00:01:39.030 align:start position:0%
+mistakes. If you fix all four of these,
+you'll<00:01:37.920><c> be</c><00:01:38.079><c> good</c><00:01:38.159><c> to</c><00:01:38.320><c> go.</c><00:01:38.640><c> All</c><00:01:38.640><c> right,</c><00:01:38.799><c> the</c>
+
+00:01:39.030 --> 00:01:39.040 align:start position:0%
+you'll be good to go. All right, the
+ 
+
+00:01:39.040 --> 00:01:41.030 align:start position:0%
+you'll be good to go. All right, the
+first<00:01:39.119><c> hook</c><00:01:39.439><c> mistake</c><00:01:39.840><c> is</c><00:01:40.079><c> called</c><00:01:40.400><c> delay.</c><00:01:40.880><c> And</c>
+
+00:01:41.030 --> 00:01:41.040 align:start position:0%
+first hook mistake is called delay. And
+ 
+
+00:01:41.040 --> 00:01:42.950 align:start position:0%
+first hook mistake is called delay. And
+the<00:01:41.200><c> good</c><00:01:41.280><c> news</c><00:01:41.439><c> is</c><00:01:41.759><c> this</c><00:01:42.000><c> one</c><00:01:42.159><c> is</c><00:01:42.400><c> the</c><00:01:42.560><c> easiest</c>
+
+00:01:42.950 --> 00:01:42.960 align:start position:0%
+the good news is this one is the easiest
+ 
+
+00:01:42.960 --> 00:01:44.870 align:start position:0%
+the good news is this one is the easiest
+one<00:01:43.119><c> to</c><00:01:43.360><c> fix.</c><00:01:43.680><c> When</c><00:01:43.840><c> I</c><00:01:44.000><c> say</c><00:01:44.159><c> delay,</c><00:01:44.560><c> what</c><00:01:44.720><c> I</c>
+
+00:01:44.870 --> 00:01:44.880 align:start position:0%
+one to fix. When I say delay, what I
+ 
+
+00:01:44.880 --> 00:01:46.469 align:start position:0%
+one to fix. When I say delay, what I
+mean<00:01:44.960><c> is</c><00:01:45.119><c> that</c><00:01:45.280><c> the</c><00:01:45.520><c> context</c><00:01:45.920><c> on</c><00:01:46.159><c> what</c><00:01:46.320><c> the</c>
+
+00:01:46.469 --> 00:01:46.479 align:start position:0%
+mean is that the context on what the
+ 
+
+00:01:46.479 --> 00:01:48.469 align:start position:0%
+mean is that the context on what the
+video<00:01:46.640><c> is</c><00:01:46.880><c> going</c><00:01:46.960><c> to</c><00:01:47.040><c> be</c><00:01:47.119><c> about</c><00:01:47.520><c> is</c><00:01:47.840><c> delayed</c>
+
+00:01:48.469 --> 00:01:48.479 align:start position:0%
+video is going to be about is delayed
+ 
+
+00:01:48.479 --> 00:01:50.389 align:start position:0%
+video is going to be about is delayed
+too<00:01:48.799><c> long</c><00:01:49.119><c> in</c><00:01:49.360><c> the</c><00:01:49.520><c> video.</c><00:01:49.920><c> If</c><00:01:50.079><c> you</c><00:01:50.159><c> were</c><00:01:50.240><c> to</c>
+
+00:01:50.389 --> 00:01:50.399 align:start position:0%
+too long in the video. If you were to
+ 
+
+00:01:50.399 --> 00:01:52.149 align:start position:0%
+too long in the video. If you were to
+visualize<00:01:50.720><c> a</c><00:01:50.960><c> script,</c><00:01:51.200><c> let's</c><00:01:51.360><c> say</c><00:01:51.520><c> it</c><00:01:51.680><c> has</c><00:01:51.840><c> 13</c>
+
+00:01:52.149 --> 00:01:52.159 align:start position:0%
+visualize a script, let's say it has 13
+ 
+
+00:01:52.159 --> 00:01:54.149 align:start position:0%
+visualize a script, let's say it has 13
+lines<00:01:52.560><c> and</c><00:01:52.799><c> the</c><00:01:52.960><c> third</c><00:01:53.280><c> line</c><00:01:53.520><c> is</c><00:01:53.759><c> the</c><00:01:54.000><c> first</c>
+
+00:01:54.149 --> 00:01:54.159 align:start position:0%
+lines and the third line is the first
+ 
+
+00:01:54.159 --> 00:01:56.149 align:start position:0%
+lines and the third line is the first
+time<00:01:54.320><c> you</c><00:01:54.479><c> introduce</c><00:01:54.880><c> the</c><00:01:55.119><c> topic.</c><00:01:55.759><c> This</c><00:01:56.000><c> is</c>
+
+00:01:56.149 --> 00:01:56.159 align:start position:0%
+time you introduce the topic. This is
+ 
+
+00:01:56.159 --> 00:01:58.149 align:start position:0%
+time you introduce the topic. This is
+delay<00:01:56.640><c> because</c><00:01:56.960><c> those</c><00:01:57.200><c> first</c><00:01:57.360><c> two</c><00:01:57.600><c> lines</c><00:01:57.920><c> are</c>
+
+00:01:58.149 --> 00:01:58.159 align:start position:0%
+delay because those first two lines are
+ 
+
+00:01:58.159 --> 00:02:00.469 align:start position:0%
+delay because those first two lines are
+fluff<00:01:58.560><c> and</c><00:01:58.799><c> unnecessary</c><00:01:59.520><c> details.</c><00:02:00.159><c> You</c><00:02:00.320><c> need</c>
+
+00:02:00.469 --> 00:02:00.479 align:start position:0%
+fluff and unnecessary details. You need
+ 
+
+00:02:00.479 --> 00:02:02.469 align:start position:0%
+fluff and unnecessary details. You need
+to<00:02:00.640><c> cut</c><00:02:00.880><c> those</c><00:02:01.119><c> first</c><00:02:01.280><c> two</c><00:02:01.520><c> lines,</c><00:02:02.000><c> move</c><00:02:02.240><c> the</c>
+
+00:02:02.469 --> 00:02:02.479 align:start position:0%
+to cut those first two lines, move the
+ 
+
+00:02:02.479 --> 00:02:04.469 align:start position:0%
+to cut those first two lines, move the
+third<00:02:02.640><c> line</c><00:02:02.880><c> up</c><00:02:03.040><c> to</c><00:02:03.119><c> the</c><00:02:03.280><c> top</c><00:02:03.520><c> so</c><00:02:03.759><c> your</c><00:02:04.000><c> topic</c>
+
+00:02:04.469 --> 00:02:04.479 align:start position:0%
+third line up to the top so your topic
+ 
+
+00:02:04.479 --> 00:02:06.469 align:start position:0%
+third line up to the top so your topic
+introduction<00:02:05.280><c> can</c><00:02:05.520><c> happen</c><00:02:05.680><c> in</c><00:02:05.920><c> the</c><00:02:06.079><c> first</c><00:02:06.240><c> 1</c>
+
+00:02:06.469 --> 00:02:06.479 align:start position:0%
+introduction can happen in the first 1
+ 
+
+00:02:06.479 --> 00:02:08.150 align:start position:0%
+introduction can happen in the first 1
+to<00:02:06.719><c> 2</c><00:02:06.880><c> seconds.</c><00:02:07.280><c> I</c><00:02:07.439><c> often</c><00:02:07.680><c> refer</c><00:02:07.840><c> to</c><00:02:08.000><c> this</c>
+
+00:02:08.150 --> 00:02:08.160 align:start position:0%
+to 2 seconds. I often refer to this
+ 
+
+00:02:08.160 --> 00:02:10.150 align:start position:0%
+to 2 seconds. I often refer to this
+concept<00:02:08.479><c> as</c><00:02:08.800><c> speed</c><00:02:09.039><c> to</c><00:02:09.280><c> value.</c><00:02:09.679><c> You</c><00:02:09.840><c> want</c><00:02:09.920><c> to</c>
+
+00:02:10.150 --> 00:02:10.160 align:start position:0%
+concept as speed to value. You want to
+ 
+
+00:02:10.160 --> 00:02:12.150 align:start position:0%
+concept as speed to value. You want to
+increase<00:02:10.479><c> the</c><00:02:10.800><c> speed</c><00:02:11.280><c> that</c><00:02:11.520><c> the</c><00:02:11.680><c> viewer</c><00:02:11.920><c> can</c>
+
+00:02:12.150 --> 00:02:12.160 align:start position:0%
+increase the speed that the viewer can
+ 
+
+00:02:12.160 --> 00:02:14.229 align:start position:0%
+increase the speed that the viewer can
+get<00:02:12.319><c> to</c><00:02:12.480><c> clarity</c><00:02:12.879><c> or</c><00:02:13.120><c> get</c><00:02:13.280><c> to</c><00:02:13.520><c> value.</c><00:02:13.920><c> Here's</c>
+
+00:02:14.229 --> 00:02:14.239 align:start position:0%
+get to clarity or get to value. Here's
+ 
+
+00:02:14.239 --> 00:02:16.390 align:start position:0%
+get to clarity or get to value. Here's
+an<00:02:14.319><c> example</c><00:02:14.640><c> of</c><00:02:14.800><c> what</c><00:02:15.200><c> bad</c><00:02:15.520><c> delay</c><00:02:15.920><c> looks</c><00:02:16.080><c> like.</c>
+
+00:02:16.390 --> 00:02:16.400 align:start position:0%
+an example of what bad delay looks like.
+ 
+
+00:02:16.400 --> 00:02:17.670 align:start position:0%
+an example of what bad delay looks like.
+Let's<00:02:16.560><c> say</c><00:02:16.720><c> you</c><00:02:16.879><c> start</c><00:02:17.040><c> your</c><00:02:17.200><c> video</c><00:02:17.440><c> with</c>
+
+00:02:17.670 --> 00:02:17.680 align:start position:0%
+Let's say you start your video with
+ 
+
+00:02:17.680 --> 00:02:19.190 align:start position:0%
+Let's say you start your video with
+something<00:02:17.840><c> like</c><00:02:18.080><c> this.</c><00:02:18.560><c> Guys,</c><00:02:18.800><c> this</c><00:02:18.959><c> is</c><00:02:19.120><c> one</c>
+
+00:02:19.190 --> 00:02:19.200 align:start position:0%
+something like this. Guys, this is one
+ 
+
+00:02:19.200 --> 00:02:20.630 align:start position:0%
+something like this. Guys, this is one
+of<00:02:19.280><c> the</c><00:02:19.440><c> craziest</c><00:02:19.840><c> things</c><00:02:20.000><c> I've</c><00:02:20.239><c> ever</c><00:02:20.400><c> seen.</c>
+
+00:02:20.630 --> 00:02:20.640 align:start position:0%
+of the craziest things I've ever seen.
+ 
+
+00:02:20.640 --> 00:02:21.830 align:start position:0%
+of the craziest things I've ever seen.
+And<00:02:20.800><c> when</c><00:02:20.879><c> you</c><00:02:21.040><c> see</c><00:02:21.120><c> it,</c><00:02:21.440><c> you're</c><00:02:21.599><c> never</c><00:02:21.760><c> going</c>
+
+00:02:21.830 --> 00:02:21.840 align:start position:0%
+And when you see it, you're never going
+ 
+
+00:02:21.840 --> 00:02:23.510 align:start position:0%
+And when you see it, you're never going
+to<00:02:21.920><c> believe</c><00:02:22.160><c> it.</c><00:02:22.480><c> That</c><00:02:22.720><c> is</c><00:02:22.879><c> an</c><00:02:23.040><c> example</c><00:02:23.200><c> of</c><00:02:23.360><c> a</c>
+
+00:02:23.510 --> 00:02:23.520 align:start position:0%
+to believe it. That is an example of a
+ 
+
+00:02:23.520 --> 00:02:25.190 align:start position:0%
+to believe it. That is an example of a
+legit<00:02:23.840><c> hook</c><00:02:24.000><c> that</c><00:02:24.239><c> many</c><00:02:24.560><c> people</c><00:02:24.720><c> try</c><00:02:24.959><c> to</c><00:02:25.040><c> use</c>
+
+00:02:25.190 --> 00:02:25.200 align:start position:0%
+legit hook that many people try to use
+ 
+
+00:02:25.200 --> 00:02:27.030 align:start position:0%
+legit hook that many people try to use
+when<00:02:25.440><c> they're</c><00:02:25.599><c> beginners.</c><00:02:26.080><c> Now,</c><00:02:26.319><c> in</c><00:02:26.560><c> theory,</c>
+
+00:02:27.030 --> 00:02:27.040 align:start position:0%
+when they're beginners. Now, in theory,
+ 
+
+00:02:27.040 --> 00:02:28.869 align:start position:0%
+when they're beginners. Now, in theory,
+this<00:02:27.360><c> kind</c><00:02:27.520><c> of</c><00:02:27.599><c> sounds</c><00:02:27.840><c> like</c><00:02:28.080><c> it</c><00:02:28.319><c> might</c><00:02:28.560><c> be</c><00:02:28.720><c> a</c>
+
+00:02:28.869 --> 00:02:28.879 align:start position:0%
+this kind of sounds like it might be a
+ 
+
+00:02:28.879 --> 00:02:31.030 align:start position:0%
+this kind of sounds like it might be a
+good<00:02:29.040><c> hook</c><00:02:29.360><c> because</c><00:02:29.840><c> it's</c><00:02:30.160><c> building</c><00:02:30.560><c> suspense</c>
+
+00:02:31.030 --> 00:02:31.040 align:start position:0%
+good hook because it's building suspense
+ 
+
+00:02:31.040 --> 00:02:33.110 align:start position:0%
+good hook because it's building suspense
+and<00:02:31.360><c> curiosity</c><00:02:31.920><c> about</c><00:02:32.160><c> what</c><00:02:32.319><c> that</c><00:02:32.560><c> thing</c><00:02:32.720><c> is.</c>
+
+00:02:33.110 --> 00:02:33.120 align:start position:0%
+and curiosity about what that thing is.
+ 
+
+00:02:33.120 --> 00:02:34.710 align:start position:0%
+and curiosity about what that thing is.
+You<00:02:33.280><c> might</c><00:02:33.440><c> hear</c><00:02:33.599><c> that</c><00:02:33.760><c> and</c><00:02:34.000><c> wonder,</c><00:02:34.400><c> "What</c>
+
+00:02:34.710 --> 00:02:34.720 align:start position:0%
+You might hear that and wonder, "What
+ 
+
+00:02:34.720 --> 00:02:36.070 align:start position:0%
+You might hear that and wonder, "What
+did<00:02:34.879><c> the</c><00:02:35.120><c> creator</c><00:02:35.360><c> see?</c><00:02:35.599><c> I</c><00:02:35.760><c> have</c><00:02:35.840><c> to</c><00:02:36.000><c> stick</c>
+
+00:02:36.070 --> 00:02:36.080 align:start position:0%
+did the creator see? I have to stick
+ 
+
+00:02:36.080 --> 00:02:37.430 align:start position:0%
+did the creator see? I have to stick
+around<00:02:36.239><c> to</c><00:02:36.480><c> find</c><00:02:36.560><c> out."</c><00:02:36.879><c> But</c><00:02:37.040><c> the</c><00:02:37.200><c> problem</c>
+
+00:02:37.430 --> 00:02:37.440 align:start position:0%
+around to find out." But the problem
+ 
+
+00:02:37.440 --> 00:02:39.270 align:start position:0%
+around to find out." But the problem
+with<00:02:37.599><c> that</c><00:02:37.840><c> sentence</c><00:02:38.239><c> and</c><00:02:38.480><c> generally</c><00:02:38.879><c> hooks</c>
+
+00:02:39.270 --> 00:02:39.280 align:start position:0%
+with that sentence and generally hooks
+ 
+
+00:02:39.280 --> 00:02:41.030 align:start position:0%
+with that sentence and generally hooks
+like<00:02:39.440><c> this</c><00:02:39.599><c> is</c><00:02:39.840><c> that</c><00:02:40.000><c> it</c><00:02:40.160><c> gives</c><00:02:40.400><c> me</c><00:02:40.720><c> as</c><00:02:40.879><c> the</c>
+
+00:02:41.030 --> 00:02:41.040 align:start position:0%
+like this is that it gives me as the
+ 
+
+00:02:41.040 --> 00:02:43.270 align:start position:0%
+like this is that it gives me as the
+viewer<00:02:41.599><c> zero</c><00:02:42.080><c> context</c><00:02:42.480><c> on</c><00:02:42.720><c> what</c><00:02:42.879><c> is</c><00:02:43.040><c> coming</c>
+
+00:02:43.270 --> 00:02:43.280 align:start position:0%
+viewer zero context on what is coming
+ 
+
+00:02:43.280 --> 00:02:45.750 align:start position:0%
+viewer zero context on what is coming
+next.<00:02:43.840><c> A</c><00:02:44.080><c> crazy</c><00:02:44.480><c> thing</c><00:02:44.640><c> you</c><00:02:44.879><c> saw</c><00:02:45.200><c> could</c><00:02:45.519><c> be</c>
+
+00:02:45.750 --> 00:02:45.760 align:start position:0%
+next. A crazy thing you saw could be
+ 
+
+00:02:45.760 --> 00:02:47.509 align:start position:0%
+next. A crazy thing you saw could be
+literally<00:02:46.319><c> anything.</c><00:02:46.720><c> So,</c><00:02:46.959><c> if</c><00:02:47.120><c> I</c><00:02:47.280><c> have</c><00:02:47.360><c> to</c>
+
+00:02:47.509 --> 00:02:47.519 align:start position:0%
+literally anything. So, if I have to
+ 
+
+00:02:47.519 --> 00:02:49.270 align:start position:0%
+literally anything. So, if I have to
+decide<00:02:47.840><c> with</c><00:02:48.080><c> my</c><00:02:48.319><c> time</c><00:02:48.480><c> if</c><00:02:48.720><c> I</c><00:02:48.879><c> want</c><00:02:48.959><c> to</c><00:02:49.040><c> keep</c>
+
+00:02:49.270 --> 00:02:49.280 align:start position:0%
+decide with my time if I want to keep
+ 
+
+00:02:49.280 --> 00:02:51.350 align:start position:0%
+decide with my time if I want to keep
+watching,<00:02:49.760><c> I'm</c><00:02:50.000><c> now</c><00:02:50.160><c> unable</c><00:02:50.640><c> to</c><00:02:50.800><c> do</c><00:02:50.959><c> it</c><00:02:51.120><c> after</c>
+
+00:02:51.350 --> 00:02:51.360 align:start position:0%
+watching, I'm now unable to do it after
+ 
+
+00:02:51.360 --> 00:02:52.869 align:start position:0%
+watching, I'm now unable to do it after
+just<00:02:51.599><c> that</c><00:02:51.840><c> sentence</c><00:02:52.160><c> because</c><00:02:52.400><c> I</c><00:02:52.640><c> don't</c><00:02:52.800><c> have</c>
+
+00:02:52.869 --> 00:02:52.879 align:start position:0%
+just that sentence because I don't have
+ 
+
+00:02:52.879 --> 00:02:54.710 align:start position:0%
+just that sentence because I don't have
+the<00:02:53.120><c> context.</c><00:02:53.680><c> The</c><00:02:53.920><c> typical</c><00:02:54.160><c> chart</c><00:02:54.400><c> for</c><00:02:54.480><c> short</c>
+
+00:02:54.710 --> 00:02:54.720 align:start position:0%
+the context. The typical chart for short
+ 
+
+00:02:54.720 --> 00:02:56.390 align:start position:0%
+the context. The typical chart for short
+form<00:02:54.959><c> video</c><00:02:55.120><c> retention</c><00:02:55.599><c> looks</c><00:02:55.920><c> like</c><00:02:56.080><c> this.</c>
+
+00:02:56.390 --> 00:02:56.400 align:start position:0%
+form video retention looks like this.
+ 
+
+00:02:56.400 --> 00:02:58.309 align:start position:0%
+form video retention looks like this.
+It's<00:02:56.720><c> exponential</c><00:02:57.360><c> decay.</c><00:02:57.840><c> You</c><00:02:58.000><c> see</c><00:02:58.160><c> how</c>
+
+00:02:58.309 --> 00:02:58.319 align:start position:0%
+It's exponential decay. You see how
+ 
+
+00:02:58.319 --> 00:02:59.910 align:start position:0%
+It's exponential decay. You see how
+steep<00:02:58.640><c> those</c><00:02:58.879><c> first</c><00:02:59.120><c> two</c><00:02:59.360><c> seconds</c><00:02:59.599><c> are</c><00:02:59.760><c> going</c>
+
+00:02:59.910 --> 00:02:59.920 align:start position:0%
+steep those first two seconds are going
+ 
+
+00:02:59.920 --> 00:03:02.149 align:start position:0%
+steep those first two seconds are going
+down?<00:03:00.319><c> That</c><00:03:00.560><c> viewership</c><00:03:01.200><c> falls</c><00:03:01.519><c> off</c><00:03:01.680><c> like</c><00:03:01.920><c> a</c>
+
+00:03:02.149 --> 00:03:02.159 align:start position:0%
+down? That viewership falls off like a
+ 
+
+00:03:02.159 --> 00:03:04.149 align:start position:0%
+down? That viewership falls off like a
+cliff.<00:03:02.720><c> Every</c><00:03:03.120><c> second</c><00:03:03.360><c> you</c><00:03:03.599><c> go</c><00:03:03.840><c> without</c>
+
+00:03:04.149 --> 00:03:04.159 align:start position:0%
+cliff. Every second you go without
+ 
+
+00:03:04.159 --> 00:03:05.430 align:start position:0%
+cliff. Every second you go without
+telling<00:03:04.400><c> somebody</c><00:03:04.720><c> what</c><00:03:04.879><c> the</c><00:03:05.120><c> video</c><00:03:05.280><c> is</c>
+
+00:03:05.430 --> 00:03:05.440 align:start position:0%
+telling somebody what the video is
+ 
+
+00:03:05.440 --> 00:03:07.110 align:start position:0%
+telling somebody what the video is
+about,<00:03:05.760><c> so</c><00:03:05.920><c> they</c><00:03:06.159><c> have</c><00:03:06.239><c> the</c><00:03:06.480><c> information</c><00:03:06.879><c> to</c>
+
+00:03:07.110 --> 00:03:07.120 align:start position:0%
+about, so they have the information to
+ 
+
+00:03:07.120 --> 00:03:09.350 align:start position:0%
+about, so they have the information to
+decide<00:03:07.440><c> to</c><00:03:07.599><c> opt</c><00:03:07.840><c> in,</c><00:03:08.400><c> a</c><00:03:08.640><c> large</c><00:03:08.959><c> portion</c><00:03:09.280><c> of</c>
+
+00:03:09.350 --> 00:03:09.360 align:start position:0%
+decide to opt in, a large portion of
+ 
+
+00:03:09.360 --> 00:03:11.350 align:start position:0%
+decide to opt in, a large portion of
+your<00:03:09.599><c> viewers</c><00:03:09.920><c> are</c><00:03:10.080><c> bouncing.</c><00:03:10.720><c> Now,</c><00:03:11.040><c> certain</c>
+
+00:03:11.350 --> 00:03:11.360 align:start position:0%
+your viewers are bouncing. Now, certain
+ 
+
+00:03:11.360 --> 00:03:13.589 align:start position:0%
+your viewers are bouncing. Now, certain
+creators<00:03:11.760><c> with</c><00:03:12.000><c> these</c><00:03:12.319><c> vague</c><00:03:12.720><c> hooks</c><00:03:13.120><c> are</c><00:03:13.360><c> able</c>
+
+00:03:13.589 --> 00:03:13.599 align:start position:0%
+creators with these vague hooks are able
+ 
+
+00:03:13.599 --> 00:03:15.430 align:start position:0%
+creators with these vague hooks are able
+to<00:03:13.760><c> get</c><00:03:14.000><c> some</c><00:03:14.239><c> people</c><00:03:14.480><c> to</c><00:03:14.720><c> stay.</c><00:03:15.040><c> If</c><00:03:15.280><c> you</c><00:03:15.360><c> look</c>
+
+00:03:15.430 --> 00:03:15.440 align:start position:0%
+to get some people to stay. If you look
+ 
+
+00:03:15.440 --> 00:03:17.270 align:start position:0%
+to get some people to stay. If you look
+on<00:03:15.599><c> Tik</c><00:03:15.840><c> Tok</c><00:03:16.080><c> specifically,</c><00:03:16.640><c> it</c><00:03:16.879><c> feels</c><00:03:17.120><c> like</c>
+
+00:03:17.270 --> 00:03:17.280 align:start position:0%
+on Tik Tok specifically, it feels like
+ 
+
+00:03:17.280 --> 00:03:19.190 align:start position:0%
+on Tik Tok specifically, it feels like
+these<00:03:17.599><c> type</c><00:03:17.760><c> of</c><00:03:17.920><c> vague</c><00:03:18.319><c> open-ended</c><00:03:18.879><c> hooks</c>
+
+00:03:19.190 --> 00:03:19.200 align:start position:0%
+these type of vague open-ended hooks
+ 
+
+00:03:19.200 --> 00:03:20.869 align:start position:0%
+these type of vague open-ended hooks
+work<00:03:19.440><c> a</c><00:03:19.680><c> lot.</c><00:03:20.000><c> But</c><00:03:20.159><c> the</c><00:03:20.319><c> people</c><00:03:20.400><c> that</c><00:03:20.640><c> are</c>
+
+00:03:20.869 --> 00:03:20.879 align:start position:0%
+work a lot. But the people that are
+ 
+
+00:03:20.879 --> 00:03:23.030 align:start position:0%
+work a lot. But the people that are
+staying<00:03:21.280><c> are</c><00:03:21.599><c> only</c><00:03:21.920><c> staying</c><00:03:22.319><c> because</c><00:03:22.560><c> of</c><00:03:22.800><c> how</c>
+
+00:03:23.030 --> 00:03:23.040 align:start position:0%
+staying are only staying because of how
+ 
+
+00:03:23.040 --> 00:03:24.869 align:start position:0%
+staying are only staying because of how
+the<00:03:23.280><c> creator</c><00:03:23.599><c> looks,</c><00:03:24.080><c> the</c><00:03:24.319><c> emotion</c><00:03:24.640><c> on</c><00:03:24.800><c> the</c>
+
+00:03:24.869 --> 00:03:24.879 align:start position:0%
+the creator looks, the emotion on the
+ 
+
+00:03:24.879 --> 00:03:26.869 align:start position:0%
+the creator looks, the emotion on the
+creator's<00:03:25.280><c> face,</c><00:03:25.599><c> or</c><00:03:25.760><c> the</c><00:03:26.000><c> text</c><00:03:26.319><c> hook</c><00:03:26.640><c> that</c>
+
+00:03:26.869 --> 00:03:26.879 align:start position:0%
+creator's face, or the text hook that
+ 
+
+00:03:26.879 --> 00:03:28.309 align:start position:0%
+creator's face, or the text hook that
+they're<00:03:27.120><c> putting</c><00:03:27.360><c> on</c><00:03:27.519><c> the</c><00:03:27.680><c> screen.</c><00:03:28.080><c> The</c>
+
+00:03:28.309 --> 00:03:28.319 align:start position:0%
+they're putting on the screen. The
+ 
+
+00:03:28.319 --> 00:03:30.630 align:start position:0%
+they're putting on the screen. The
+spoken<00:03:28.640><c> words</c><00:03:29.040><c> actually</c><00:03:29.360><c> add</c><00:03:29.680><c> zero</c><00:03:30.080><c> value</c><00:03:30.400><c> to</c>
+
+00:03:30.630 --> 00:03:30.640 align:start position:0%
+spoken words actually add zero value to
+ 
+
+00:03:30.640 --> 00:03:32.070 align:start position:0%
+spoken words actually add zero value to
+getting<00:03:30.799><c> them</c><00:03:30.959><c> to</c><00:03:31.200><c> stay.</c><00:03:31.519><c> So,</c><00:03:31.680><c> it's</c><00:03:31.840><c> not</c><00:03:31.920><c> that</c>
+
+00:03:32.070 --> 00:03:32.080 align:start position:0%
+getting them to stay. So, it's not that
+ 
+
+00:03:32.080 --> 00:03:34.070 align:start position:0%
+getting them to stay. So, it's not that
+these<00:03:32.319><c> types</c><00:03:32.560><c> of</c><00:03:32.799><c> open-ended</c><00:03:33.360><c> vague</c><00:03:33.680><c> hooks</c>
+
+00:03:34.070 --> 00:03:34.080 align:start position:0%
+these types of open-ended vague hooks
+ 
+
+00:03:34.080 --> 00:03:35.589 align:start position:0%
+these types of open-ended vague hooks
+can't<00:03:34.400><c> ever</c><00:03:34.640><c> work,</c><00:03:34.959><c> it's</c><00:03:35.120><c> just</c><00:03:35.280><c> that</c><00:03:35.440><c> they</c>
+
+00:03:35.589 --> 00:03:35.599 align:start position:0%
+can't ever work, it's just that they
+ 
+
+00:03:35.599 --> 00:03:37.750 align:start position:0%
+can't ever work, it's just that they
+work<00:03:35.840><c> way</c><00:03:36.159><c> less</c><00:03:36.400><c> often.</c><00:03:36.799><c> So,</c><00:03:36.959><c> to</c><00:03:37.120><c> recap,</c><00:03:37.440><c> hook</c>
+
+00:03:37.750 --> 00:03:37.760 align:start position:0%
+work way less often. So, to recap, hook
+ 
+
+00:03:37.760 --> 00:03:39.910 align:start position:0%
+work way less often. So, to recap, hook
+problem<00:03:38.080><c> number</c><00:03:38.239><c> one</c><00:03:38.480><c> is</c><00:03:38.799><c> delay.</c><00:03:39.280><c> And</c><00:03:39.440><c> the</c><00:03:39.680><c> fix</c>
+
+00:03:39.910 --> 00:03:39.920 align:start position:0%
+problem number one is delay. And the fix
+ 
+
+00:03:39.920 --> 00:03:42.229 align:start position:0%
+problem number one is delay. And the fix
+is<00:03:40.159><c> to</c><00:03:40.400><c> stop</c><00:03:40.720><c> delaying</c><00:03:41.200><c> the</c><00:03:41.440><c> introduction</c><00:03:42.000><c> and</c>
+
+00:03:42.229 --> 00:03:42.239 align:start position:0%
+is to stop delaying the introduction and
+ 
+
+00:03:42.239 --> 00:03:44.470 align:start position:0%
+is to stop delaying the introduction and
+the<00:03:42.480><c> clarity</c><00:03:42.799><c> of</c><00:03:43.040><c> the</c><00:03:43.280><c> context</c><00:03:43.680><c> on</c><00:03:43.920><c> the</c><00:03:44.080><c> video.</c>
+
+00:03:44.470 --> 00:03:44.480 align:start position:0%
+the clarity of the context on the video.
+ 
+
+00:03:44.480 --> 00:03:46.229 align:start position:0%
+the clarity of the context on the video.
+Use<00:03:44.720><c> that</c><00:03:44.879><c> first</c><00:03:45.120><c> sentence</c><00:03:45.440><c> in</c><00:03:45.680><c> as</c><00:03:45.920><c> few</c><00:03:46.080><c> words</c>
+
+00:03:46.229 --> 00:03:46.239 align:start position:0%
+Use that first sentence in as few words
+ 
+
+00:03:46.239 --> 00:03:48.470 align:start position:0%
+Use that first sentence in as few words
+as<00:03:46.480><c> possible</c><00:03:46.879><c> to</c><00:03:47.200><c> give</c><00:03:47.440><c> the</c><00:03:47.760><c> context</c><00:03:48.080><c> that</c><00:03:48.319><c> the</c>
+
+00:03:48.470 --> 00:03:48.480 align:start position:0%
+as possible to give the context that the
+ 
+
+00:03:48.480 --> 00:03:50.229 align:start position:0%
+as possible to give the context that the
+viewer<00:03:48.720><c> needs</c><00:03:48.959><c> to</c><00:03:49.120><c> have</c><00:03:49.360><c> to</c><00:03:49.599><c> decide</c><00:03:50.000><c> whether</c>
+
+00:03:50.229 --> 00:03:50.239 align:start position:0%
+viewer needs to have to decide whether
+ 
+
+00:03:50.239 --> 00:03:52.229 align:start position:0%
+viewer needs to have to decide whether
+or<00:03:50.400><c> not</c><00:03:50.480><c> to</c><00:03:50.640><c> opt</c><00:03:50.959><c> in.</c><00:03:51.280><c> An</c><00:03:51.440><c> example</c><00:03:51.760><c> of</c><00:03:51.920><c> good</c>
+
+00:03:52.229 --> 00:03:52.239 align:start position:0%
+or not to opt in. An example of good
+ 
+
+00:03:52.239 --> 00:03:53.910 align:start position:0%
+or not to opt in. An example of good
+rapid<00:03:52.640><c> context</c><00:03:53.120><c> would</c><00:03:53.280><c> be</c><00:03:53.440><c> something</c><00:03:53.680><c> like</c>
+
+00:03:53.910 --> 00:03:53.920 align:start position:0%
+rapid context would be something like
+ 
+
+00:03:53.920 --> 00:03:55.589 align:start position:0%
+rapid context would be something like
+this.<00:03:54.400><c> Here</c><00:03:54.560><c> are</c><00:03:54.720><c> three</c><00:03:54.959><c> simple</c><00:03:55.200><c> ways</c><00:03:55.440><c> to</c>
+
+00:03:55.589 --> 00:03:55.599 align:start position:0%
+this. Here are three simple ways to
+ 
+
+00:03:55.599 --> 00:03:57.589 align:start position:0%
+this. Here are three simple ways to
+improve<00:03:55.920><c> your</c><00:03:56.080><c> gut</c><00:03:56.319><c> health</c><00:03:56.720><c> or</c><00:03:57.120><c> if</c><00:03:57.280><c> you</c><00:03:57.439><c> have</c>
+
+00:03:57.589 --> 00:03:57.599 align:start position:0%
+improve your gut health or if you have
+ 
+
+00:03:57.599 --> 00:03:59.429 align:start position:0%
+improve your gut health or if you have
+gut<00:03:57.840><c> issues,</c><00:03:58.239><c> these</c><00:03:58.560><c> three</c><00:03:58.799><c> remedies</c><00:03:59.280><c> will</c>
+
+00:03:59.429 --> 00:03:59.439 align:start position:0%
+gut issues, these three remedies will
+ 
+
+00:03:59.439 --> 00:04:01.110 align:start position:0%
+gut issues, these three remedies will
+help<00:03:59.599><c> you</c><00:03:59.840><c> immediately.</c><00:04:00.480><c> If</c><00:04:00.640><c> you</c><00:04:00.799><c> get</c><00:04:00.959><c> those</c>
+
+00:04:01.110 --> 00:04:01.120 align:start position:0%
+help you immediately. If you get those
+ 
+
+00:04:01.120 --> 00:04:02.710 align:start position:0%
+help you immediately. If you get those
+hooks<00:04:01.439><c> right</c><00:04:01.599><c> away</c><00:04:01.840><c> as</c><00:04:02.000><c> the</c><00:04:02.080><c> viewer,</c><00:04:02.400><c> I</c><00:04:02.560><c> know</c>
+
+00:04:02.710 --> 00:04:02.720 align:start position:0%
+hooks right away as the viewer, I know
+ 
+
+00:04:02.720 --> 00:04:04.070 align:start position:0%
+hooks right away as the viewer, I know
+exactly<00:04:03.120><c> what</c><00:04:03.280><c> these</c><00:04:03.599><c> videos</c><00:04:03.760><c> are</c><00:04:03.920><c> going</c><00:04:04.000><c> to</c>
+
+00:04:04.070 --> 00:04:04.080 align:start position:0%
+exactly what these videos are going to
+ 
+
+00:04:04.080 --> 00:04:06.229 align:start position:0%
+exactly what these videos are going to
+be<00:04:04.239><c> about.</c><00:04:04.560><c> Gut</c><00:04:04.879><c> health</c><00:04:05.200><c> and</c><00:04:05.519><c> herbal</c><00:04:05.920><c> remedies</c>
+
+00:04:06.229 --> 00:04:06.239 align:start position:0%
+be about. Gut health and herbal remedies
+ 
+
+00:04:06.239 --> 00:04:08.070 align:start position:0%
+be about. Gut health and herbal remedies
+that<00:04:06.480><c> can</c><00:04:06.560><c> help</c><00:04:06.720><c> me</c><00:04:06.879><c> solve</c><00:04:07.040><c> it.</c><00:04:07.439><c> There</c><00:04:07.599><c> is</c><00:04:07.760><c> zero</c>
+
+00:04:08.070 --> 00:04:08.080 align:start position:0%
+that can help me solve it. There is zero
+ 
+
+00:04:08.080 --> 00:04:10.229 align:start position:0%
+that can help me solve it. There is zero
+delay<00:04:08.400><c> in</c><00:04:08.640><c> the</c><00:04:08.799><c> context</c><00:04:09.120><c> and</c><00:04:09.360><c> so</c><00:04:09.519><c> I</c><00:04:09.680><c> can</c><00:04:09.760><c> opt</c><00:04:09.920><c> in</c>
+
+00:04:10.229 --> 00:04:10.239 align:start position:0%
+delay in the context and so I can opt in
+ 
+
+00:04:10.239 --> 00:04:11.830 align:start position:0%
+delay in the context and so I can opt in
+as<00:04:10.400><c> soon</c><00:04:10.560><c> as</c><00:04:10.799><c> possible.</c><00:04:11.120><c> All</c><00:04:11.200><c> right,</c><00:04:11.519><c> hook</c>
+
+00:04:11.830 --> 00:04:11.840 align:start position:0%
+as soon as possible. All right, hook
+ 
+
+00:04:11.840 --> 00:04:13.670 align:start position:0%
+as soon as possible. All right, hook
+problem<00:04:12.000><c> and</c><00:04:12.239><c> mistake</c><00:04:12.640><c> number</c><00:04:12.879><c> two</c><00:04:13.200><c> is</c>
+
+00:04:13.670 --> 00:04:13.680 align:start position:0%
+problem and mistake number two is
+ 
+
+00:04:13.680 --> 00:04:15.429 align:start position:0%
+problem and mistake number two is
+confusion.<00:04:14.319><c> And</c><00:04:14.480><c> when</c><00:04:14.640><c> I</c><00:04:14.720><c> say</c><00:04:14.879><c> confusion,</c>
+
+00:04:15.429 --> 00:04:15.439 align:start position:0%
+confusion. And when I say confusion,
+ 
+
+00:04:15.439 --> 00:04:17.189 align:start position:0%
+confusion. And when I say confusion,
+what<00:04:15.599><c> I</c><00:04:15.760><c> really</c><00:04:15.920><c> mean</c><00:04:16.160><c> is</c><00:04:16.560><c> comprehension</c>
+
+00:04:17.189 --> 00:04:17.199 align:start position:0%
+what I really mean is comprehension
+ 
+
+00:04:17.199 --> 00:04:19.110 align:start position:0%
+what I really mean is comprehension
+loss.<00:04:17.759><c> So,</c><00:04:17.919><c> in</c><00:04:18.079><c> this</c><00:04:18.160><c> case,</c><00:04:18.400><c> the</c><00:04:18.560><c> viewer</c><00:04:18.880><c> is</c>
+
+00:04:19.110 --> 00:04:19.120 align:start position:0%
+loss. So, in this case, the viewer is
+ 
+
+00:04:19.120 --> 00:04:21.590 align:start position:0%
+loss. So, in this case, the viewer is
+just<00:04:19.359><c> not</c><00:04:19.759><c> understanding</c><00:04:20.560><c> or</c><00:04:20.959><c> comprehending</c>
+
+00:04:21.590 --> 00:04:21.600 align:start position:0%
+just not understanding or comprehending
+ 
+
+00:04:21.600 --> 00:04:23.189 align:start position:0%
+just not understanding or comprehending
+what<00:04:21.919><c> you're</c><00:04:22.240><c> saying.</c><00:04:22.639><c> At</c><00:04:22.800><c> this</c><00:04:22.960><c> point,</c>
+
+00:04:23.189 --> 00:04:23.199 align:start position:0%
+what you're saying. At this point,
+ 
+
+00:04:23.199 --> 00:04:24.790 align:start position:0%
+what you're saying. At this point,
+you've<00:04:23.440><c> eliminated</c><00:04:23.840><c> the</c><00:04:24.080><c> delay,</c><00:04:24.400><c> which</c><00:04:24.639><c> is</c>
+
+00:04:24.790 --> 00:04:24.800 align:start position:0%
+you've eliminated the delay, which is
+ 
+
+00:04:24.800 --> 00:04:26.870 align:start position:0%
+you've eliminated the delay, which is
+good,<00:04:25.040><c> but</c><00:04:25.280><c> the</c><00:04:25.520><c> words</c><00:04:25.759><c> you're</c><00:04:26.080><c> using</c><00:04:26.320><c> or</c><00:04:26.639><c> the</c>
+
+00:04:26.870 --> 00:04:26.880 align:start position:0%
+good, but the words you're using or the
+ 
+
+00:04:26.880 --> 00:04:29.110 align:start position:0%
+good, but the words you're using or the
+phrasing<00:04:27.280><c> of</c><00:04:27.440><c> those</c><00:04:27.680><c> sentences</c><00:04:28.240><c> is</c><00:04:28.479><c> just</c><00:04:28.720><c> not</c>
+
+00:04:29.110 --> 00:04:29.120 align:start position:0%
+phrasing of those sentences is just not
+ 
+
+00:04:29.120 --> 00:04:31.110 align:start position:0%
+phrasing of those sentences is just not
+clear<00:04:29.440><c> and</c><00:04:29.600><c> it's</c><00:04:29.919><c> confusing</c><00:04:30.320><c> the</c><00:04:30.560><c> viewer.</c><00:04:30.880><c> So,</c>
+
+00:04:31.110 --> 00:04:31.120 align:start position:0%
+clear and it's confusing the viewer. So,
+ 
+
+00:04:31.120 --> 00:04:32.870 align:start position:0%
+clear and it's confusing the viewer. So,
+the<00:04:31.280><c> problem</c><00:04:31.520><c> here</c><00:04:31.759><c> is</c><00:04:31.919><c> really</c><00:04:32.160><c> just</c><00:04:32.400><c> a</c><00:04:32.639><c> lack</c>
+
+00:04:32.870 --> 00:04:32.880 align:start position:0%
+the problem here is really just a lack
+ 
+
+00:04:32.880 --> 00:04:34.950 align:start position:0%
+the problem here is really just a lack
+of<00:04:33.040><c> clarity</c><00:04:33.440><c> in</c><00:04:33.680><c> your</c><00:04:34.000><c> words.</c><00:04:34.479><c> And</c><00:04:34.639><c> the</c><00:04:34.800><c> reason</c>
+
+00:04:34.950 --> 00:04:34.960 align:start position:0%
+of clarity in your words. And the reason
+ 
+
+00:04:34.960 --> 00:04:36.469 align:start position:0%
+of clarity in your words. And the reason
+this<00:04:35.199><c> is</c><00:04:35.280><c> a</c><00:04:35.520><c> problem</c><00:04:35.680><c> is</c><00:04:35.919><c> again,</c><00:04:36.160><c> if</c><00:04:36.320><c> the</c>
+
+00:04:36.469 --> 00:04:36.479 align:start position:0%
+this is a problem is again, if the
+ 
+
+00:04:36.479 --> 00:04:38.550 align:start position:0%
+this is a problem is again, if the
+viewer<00:04:36.800><c> can't</c><00:04:37.199><c> assess</c><00:04:37.600><c> if</c><00:04:37.840><c> this</c><00:04:38.080><c> video</c><00:04:38.320><c> is</c>
+
+00:04:38.550 --> 00:04:38.560 align:start position:0%
+viewer can't assess if this video is
+ 
+
+00:04:38.560 --> 00:04:40.150 align:start position:0%
+viewer can't assess if this video is
+actually<00:04:38.880><c> for</c><00:04:39.040><c> them</c><00:04:39.360><c> because</c><00:04:39.600><c> they're</c><00:04:39.840><c> only</c>
+
+00:04:40.150 --> 00:04:40.160 align:start position:0%
+actually for them because they're only
+ 
+
+00:04:40.160 --> 00:04:41.510 align:start position:0%
+actually for them because they're only
+understanding<00:04:40.560><c> like</c><00:04:40.880><c> half</c><00:04:41.040><c> the</c><00:04:41.199><c> words</c><00:04:41.360><c> you</c>
+
+00:04:41.510 --> 00:04:41.520 align:start position:0%
+understanding like half the words you
+ 
+
+00:04:41.520 --> 00:04:43.510 align:start position:0%
+understanding like half the words you
+say,<00:04:41.919><c> then</c><00:04:42.160><c> they</c><00:04:42.400><c> have</c><00:04:42.560><c> trouble</c><00:04:43.040><c> deciding</c>
+
+00:04:43.510 --> 00:04:43.520 align:start position:0%
+say, then they have trouble deciding
+ 
+
+00:04:43.520 --> 00:04:45.030 align:start position:0%
+say, then they have trouble deciding
+whether<00:04:43.759><c> or</c><00:04:43.919><c> not</c><00:04:44.000><c> to</c><00:04:44.160><c> opt</c><00:04:44.400><c> in.</c><00:04:44.639><c> Here's</c><00:04:44.880><c> an</c>
+
+00:04:45.030 --> 00:04:45.040 align:start position:0%
+whether or not to opt in. Here's an
+ 
+
+00:04:45.040 --> 00:04:46.550 align:start position:0%
+whether or not to opt in. Here's an
+example<00:04:45.280><c> to</c><00:04:45.520><c> illustrate</c><00:04:45.840><c> exactly</c><00:04:46.160><c> what</c><00:04:46.320><c> I</c>
+
+00:04:46.550 --> 00:04:46.560 align:start position:0%
+example to illustrate exactly what I
+ 
+
+00:04:46.560 --> 00:04:48.790 align:start position:0%
+example to illustrate exactly what I
+mean<00:04:46.639><c> by</c><00:04:46.880><c> lack</c><00:04:47.199><c> of</c><00:04:47.360><c> clarity</c><00:04:47.840><c> and</c><00:04:48.080><c> confusion.</c>
+
+00:04:48.790 --> 00:04:48.800 align:start position:0%
+mean by lack of clarity and confusion.
+ 
+
+00:04:48.800 --> 00:04:50.150 align:start position:0%
+mean by lack of clarity and confusion.
+Imagine<00:04:49.040><c> I</c><00:04:49.199><c> started</c><00:04:49.360><c> a</c><00:04:49.520><c> hook</c><00:04:49.759><c> like</c><00:04:49.919><c> this.</c>
+
+00:04:50.150 --> 00:04:50.160 align:start position:0%
+Imagine I started a hook like this.
+ 
+
+00:04:50.160 --> 00:04:52.310 align:start position:0%
+Imagine I started a hook like this.
+These<00:04:50.400><c> guys</c><00:04:50.639><c> built</c><00:04:50.880><c> a</c><00:04:51.120><c> $30</c><00:04:51.360><c> million</c><00:04:51.919><c> empire</c>
+
+00:04:52.310 --> 00:04:52.320 align:start position:0%
+These guys built a $30 million empire
+ 
+
+00:04:52.320 --> 00:04:54.230 align:start position:0%
+These guys built a $30 million empire
+and<00:04:52.479><c> the</c><00:04:52.639><c> online</c><00:04:52.960><c> money</c><00:04:53.199><c> they</c><00:04:53.440><c> made</c><00:04:53.680><c> is</c><00:04:53.919><c> most</c>
+
+00:04:54.230 --> 00:04:54.240 align:start position:0%
+and the online money they made is most
+ 
+
+00:04:54.240 --> 00:04:55.990 align:start position:0%
+and the online money they made is most
+difficult<00:04:54.479><c> to</c><00:04:54.639><c> earn</c><00:04:54.880><c> if</c><00:04:55.120><c> you</c><00:04:55.280><c> don't</c><00:04:55.440><c> develop</c><00:04:55.759><c> a</c>
+
+00:04:55.990 --> 00:04:56.000 align:start position:0%
+difficult to earn if you don't develop a
+ 
+
+00:04:56.000 --> 00:04:57.590 align:start position:0%
+difficult to earn if you don't develop a
+journaling<00:04:56.400><c> practice</c><00:04:56.800><c> like</c><00:04:57.040><c> they</c><00:04:57.199><c> did.</c><00:04:57.440><c> And</c>
+
+00:04:57.590 --> 00:04:57.600 align:start position:0%
+journaling practice like they did. And
+ 
+
+00:04:57.600 --> 00:04:59.350 align:start position:0%
+journaling practice like they did. And
+this<00:04:57.680><c> is</c><00:04:57.759><c> a</c><00:04:57.919><c> bit</c><00:04:58.000><c> exaggerated</c><00:04:58.639><c> obviously.</c><00:04:58.960><c> Few</c>
+
+00:04:59.350 --> 00:04:59.360 align:start position:0%
+this is a bit exaggerated obviously. Few
+ 
+
+00:04:59.360 --> 00:05:00.710 align:start position:0%
+this is a bit exaggerated obviously. Few
+people<00:04:59.520><c> actually</c><00:04:59.840><c> talk</c><00:05:00.000><c> like</c><00:05:00.160><c> that,</c><00:05:00.400><c> but</c><00:05:00.560><c> you</c>
+
+00:05:00.710 --> 00:05:00.720 align:start position:0%
+people actually talk like that, but you
+ 
+
+00:05:00.720 --> 00:05:02.469 align:start position:0%
+people actually talk like that, but you
+get<00:05:00.880><c> the</c><00:05:01.040><c> point</c><00:05:01.199><c> of</c><00:05:01.440><c> how</c><00:05:01.759><c> difficult</c><00:05:02.160><c> and</c>
+
+00:05:02.469 --> 00:05:02.479 align:start position:0%
+get the point of how difficult and
+ 
+
+00:05:02.479 --> 00:05:04.070 align:start position:0%
+get the point of how difficult and
+confusing<00:05:02.880><c> it</c><00:05:03.120><c> was</c><00:05:03.280><c> to</c><00:05:03.520><c> actually</c><00:05:03.759><c> parse</c>
+
+00:05:04.070 --> 00:05:04.080 align:start position:0%
+confusing it was to actually parse
+ 
+
+00:05:04.080 --> 00:05:05.990 align:start position:0%
+confusing it was to actually parse
+through<00:05:04.320><c> what</c><00:05:04.560><c> I</c><00:05:04.800><c> was</c><00:05:04.880><c> trying</c><00:05:05.040><c> to</c><00:05:05.199><c> say.</c><00:05:05.600><c> If</c><00:05:05.840><c> you</c>
+
+00:05:05.990 --> 00:05:06.000 align:start position:0%
+through what I was trying to say. If you
+ 
+
+00:05:06.000 --> 00:05:07.909 align:start position:0%
+through what I was trying to say. If you
+hear<00:05:06.240><c> just</c><00:05:06.479><c> that,</c><00:05:06.880><c> you</c><00:05:07.039><c> can</c><00:05:07.280><c> kind</c><00:05:07.440><c> of</c><00:05:07.600><c> gather</c>
+
+00:05:07.909 --> 00:05:07.919 align:start position:0%
+hear just that, you can kind of gather
+ 
+
+00:05:07.919 --> 00:05:09.749 align:start position:0%
+hear just that, you can kind of gather
+the<00:05:08.160><c> video</c><00:05:08.320><c> is</c><00:05:08.560><c> going</c><00:05:08.639><c> to</c><00:05:08.720><c> be</c><00:05:08.800><c> about</c><00:05:09.120><c> an</c><00:05:09.360><c> online</c>
+
+00:05:09.749 --> 00:05:09.759 align:start position:0%
+the video is going to be about an online
+ 
+
+00:05:09.759 --> 00:05:11.350 align:start position:0%
+the video is going to be about an online
+business<00:05:10.080><c> and</c><00:05:10.320><c> maybe</c><00:05:10.639><c> something</c><00:05:10.960><c> to</c><00:05:11.120><c> do</c><00:05:11.199><c> with</c>
+
+00:05:11.350 --> 00:05:11.360 align:start position:0%
+business and maybe something to do with
+ 
+
+00:05:11.360 --> 00:05:12.870 align:start position:0%
+business and maybe something to do with
+journaling,<00:05:11.840><c> but</c><00:05:12.080><c> you're</c><00:05:12.240><c> really</c><00:05:12.560><c> struggling</c>
+
+00:05:12.870 --> 00:05:12.880 align:start position:0%
+journaling, but you're really struggling
+ 
+
+00:05:12.880 --> 00:05:14.629 align:start position:0%
+journaling, but you're really struggling
+to<00:05:13.039><c> put</c><00:05:13.199><c> the</c><00:05:13.360><c> pieces</c><00:05:13.680><c> together</c><00:05:14.080><c> clearly</c>
+
+00:05:14.629 --> 00:05:14.639 align:start position:0%
+to put the pieces together clearly
+ 
+
+00:05:14.639 --> 00:05:16.310 align:start position:0%
+to put the pieces together clearly
+because<00:05:14.880><c> of</c><00:05:15.039><c> the</c><00:05:15.199><c> way</c><00:05:15.360><c> I</c><00:05:15.680><c> framed</c><00:05:16.080><c> the</c>
+
+00:05:16.310 --> 00:05:16.320 align:start position:0%
+because of the way I framed the
+ 
+
+00:05:16.320 --> 00:05:18.629 align:start position:0%
+because of the way I framed the
+sentence.<00:05:16.800><c> And</c><00:05:16.960><c> this</c><00:05:17.199><c> is</c><00:05:17.360><c> a</c><00:05:17.680><c> classic</c><00:05:18.240><c> clarity</c>
+
+00:05:18.629 --> 00:05:18.639 align:start position:0%
+sentence. And this is a classic clarity
+ 
+
+00:05:18.639 --> 00:05:20.390 align:start position:0%
+sentence. And this is a classic clarity
+issue.<00:05:19.199><c> Instead,</c><00:05:19.600><c> for</c><00:05:19.840><c> that</c><00:05:20.000><c> exact</c><00:05:20.240><c> same</c>
+
+00:05:20.390 --> 00:05:20.400 align:start position:0%
+issue. Instead, for that exact same
+ 
+
+00:05:20.400 --> 00:05:22.070 align:start position:0%
+issue. Instead, for that exact same
+idea,<00:05:20.800><c> you</c><00:05:21.039><c> could</c><00:05:21.199><c> write</c><00:05:21.360><c> the</c><00:05:21.520><c> hook</c><00:05:21.840><c> like</c>
+
+00:05:22.070 --> 00:05:22.080 align:start position:0%
+idea, you could write the hook like
+ 
+
+00:05:22.080 --> 00:05:24.150 align:start position:0%
+idea, you could write the hook like
+this.<00:05:22.479><c> These</c><00:05:22.720><c> guys</c><00:05:22.960><c> built</c><00:05:23.120><c> a</c><00:05:23.440><c> $30</c><00:05:23.680><c> million</c>
+
+00:05:24.150 --> 00:05:24.160 align:start position:0%
+this. These guys built a $30 million
+ 
+
+00:05:24.160 --> 00:05:25.909 align:start position:0%
+this. These guys built a $30 million
+empire<00:05:24.560><c> and</c><00:05:24.800><c> their</c><00:05:25.039><c> secret</c><00:05:25.360><c> for</c><00:05:25.600><c> earning</c>
+
+00:05:25.909 --> 00:05:25.919 align:start position:0%
+empire and their secret for earning
+ 
+
+00:05:25.919 --> 00:05:28.150 align:start position:0%
+empire and their secret for earning
+money<00:05:26.080><c> online</c><00:05:26.560><c> was</c><00:05:26.800><c> their</c><00:05:27.120><c> insane</c><00:05:27.680><c> journaling</c>
+
+00:05:28.150 --> 00:05:28.160 align:start position:0%
+money online was their insane journaling
+ 
+
+00:05:28.160 --> 00:05:29.830 align:start position:0%
+money online was their insane journaling
+practice.<00:05:28.720><c> See</c><00:05:28.880><c> how</c><00:05:29.120><c> just</c><00:05:29.360><c> changing</c><00:05:29.680><c> the</c>
+
+00:05:29.830 --> 00:05:29.840 align:start position:0%
+practice. See how just changing the
+ 
+
+00:05:29.840 --> 00:05:31.510 align:start position:0%
+practice. See how just changing the
+words<00:05:30.080><c> slightly</c><00:05:30.400><c> and</c><00:05:30.639><c> the</c><00:05:30.800><c> way</c><00:05:30.960><c> the</c><00:05:31.199><c> sentence</c>
+
+00:05:31.510 --> 00:05:31.520 align:start position:0%
+words slightly and the way the sentence
+ 
+
+00:05:31.520 --> 00:05:33.510 align:start position:0%
+words slightly and the way the sentence
+is<00:05:31.759><c> ordered</c><00:05:32.240><c> makes</c><00:05:32.479><c> it</c><00:05:32.720><c> way</c><00:05:32.960><c> easier</c><00:05:33.280><c> to</c>
+
+00:05:33.510 --> 00:05:33.520 align:start position:0%
+is ordered makes it way easier to
+ 
+
+00:05:33.520 --> 00:05:34.950 align:start position:0%
+is ordered makes it way easier to
+understand<00:05:33.759><c> what</c><00:05:34.000><c> I'm</c><00:05:34.160><c> saying.</c><00:05:34.479><c> Essentially,</c>
+
+00:05:34.950 --> 00:05:34.960 align:start position:0%
+understand what I'm saying. Essentially,
+ 
+
+00:05:34.960 --> 00:05:36.790 align:start position:0%
+understand what I'm saying. Essentially,
+you<00:05:35.199><c> as</c><00:05:35.360><c> the</c><00:05:35.520><c> viewer</c><00:05:35.840><c> are</c><00:05:36.000><c> able</c><00:05:36.160><c> to</c><00:05:36.400><c> absorb</c>
+
+00:05:36.790 --> 00:05:36.800 align:start position:0%
+you as the viewer are able to absorb
+ 
+
+00:05:36.800 --> 00:05:38.310 align:start position:0%
+you as the viewer are able to absorb
+more<00:05:37.039><c> of</c><00:05:37.120><c> the</c><00:05:37.280><c> words.</c><00:05:37.600><c> Your</c><00:05:37.759><c> hit</c><00:05:37.919><c> rate</c><00:05:38.080><c> for</c>
+
+00:05:38.310 --> 00:05:38.320 align:start position:0%
+more of the words. Your hit rate for
+ 
+
+00:05:38.320 --> 00:05:40.310 align:start position:0%
+more of the words. Your hit rate for
+comprehension<00:05:38.800><c> goes</c><00:05:39.039><c> up</c><00:05:39.280><c> and</c><00:05:39.520><c> then</c><00:05:39.759><c> confusion</c>
+
+00:05:40.310 --> 00:05:40.320 align:start position:0%
+comprehension goes up and then confusion
+ 
+
+00:05:40.320 --> 00:05:42.070 align:start position:0%
+comprehension goes up and then confusion
+goes<00:05:40.560><c> down.</c><00:05:40.960><c> Now,</c><00:05:41.199><c> the</c><00:05:41.360><c> tactics</c><00:05:41.680><c> for</c><00:05:41.840><c> how</c><00:05:41.919><c> to</c>
+
+00:05:42.070 --> 00:05:42.080 align:start position:0%
+goes down. Now, the tactics for how to
+ 
+
+00:05:42.080 --> 00:05:43.749 align:start position:0%
+goes down. Now, the tactics for how to
+improve<00:05:42.320><c> clarity</c><00:05:42.720><c> is</c><00:05:42.960><c> really</c><00:05:43.120><c> about</c><00:05:43.360><c> becoming</c>
+
+00:05:43.749 --> 00:05:43.759 align:start position:0%
+improve clarity is really about becoming
+ 
+
+00:05:43.759 --> 00:05:45.590 align:start position:0%
+improve clarity is really about becoming
+a<00:05:44.000><c> better</c><00:05:44.160><c> writer.</c><00:05:44.720><c> You</c><00:05:44.880><c> want</c><00:05:44.960><c> to</c><00:05:45.039><c> use</c><00:05:45.199><c> fewer</c>
+
+00:05:45.590 --> 00:05:45.600 align:start position:0%
+a better writer. You want to use fewer
+ 
+
+00:05:45.600 --> 00:05:47.590 align:start position:0%
+a better writer. You want to use fewer
+words,<00:05:45.919><c> but</c><00:05:46.160><c> enough</c><00:05:46.400><c> that</c><00:05:46.639><c> the</c><00:05:46.880><c> viewer</c><00:05:47.280><c> can't</c>
+
+00:05:47.590 --> 00:05:47.600 align:start position:0%
+words, but enough that the viewer can't
+ 
+
+00:05:47.600 --> 00:05:49.350 align:start position:0%
+words, but enough that the viewer can't
+misunderstand<00:05:48.320><c> you.</c><00:05:48.639><c> You</c><00:05:48.880><c> want</c><00:05:48.960><c> to</c><00:05:49.039><c> use</c>
+
+00:05:49.350 --> 00:05:49.360 align:start position:0%
+misunderstand you. You want to use
+ 
+
+00:05:49.360 --> 00:05:51.270 align:start position:0%
+misunderstand you. You want to use
+simpler<00:05:49.840><c> words,</c><00:05:50.160><c> ideally</c><00:05:50.479><c> at</c><00:05:50.639><c> a</c><00:05:50.800><c> sixth</c><00:05:51.039><c> grade</c>
+
+00:05:51.270 --> 00:05:51.280 align:start position:0%
+simpler words, ideally at a sixth grade
+ 
+
+00:05:51.280 --> 00:05:52.710 align:start position:0%
+simpler words, ideally at a sixth grade
+reading<00:05:51.520><c> level.</c><00:05:51.919><c> And</c><00:05:52.080><c> you</c><00:05:52.240><c> want</c><00:05:52.320><c> to</c><00:05:52.400><c> use</c>
+
+00:05:52.710 --> 00:05:52.720 align:start position:0%
+reading level. And you want to use
+ 
+
+00:05:52.720 --> 00:05:54.870 align:start position:0%
+reading level. And you want to use
+direct<00:05:53.199><c> active</c><00:05:53.600><c> voice</c><00:05:54.000><c> instead</c><00:05:54.320><c> of</c><00:05:54.479><c> passive</c>
+
+00:05:54.870 --> 00:05:54.880 align:start position:0%
+direct active voice instead of passive
+ 
+
+00:05:54.880 --> 00:05:56.469 align:start position:0%
+direct active voice instead of passive
+voice<00:05:55.120><c> on</c><00:05:55.280><c> the</c><00:05:55.440><c> sentences</c><00:05:55.759><c> so</c><00:05:56.000><c> they're</c><00:05:56.160><c> easier</c>
+
+00:05:56.469 --> 00:05:56.479 align:start position:0%
+voice on the sentences so they're easier
+ 
+
+00:05:56.479 --> 00:05:58.710 align:start position:0%
+voice on the sentences so they're easier
+to<00:05:56.639><c> understand.</c><00:05:57.199><c> The</c><00:05:57.360><c> dog</c><00:05:57.680><c> jumped</c><00:05:58.080><c> verse</c><00:05:58.479><c> the</c>
+
+00:05:58.710 --> 00:05:58.720 align:start position:0%
+to understand. The dog jumped verse the
+ 
+
+00:05:58.720 --> 00:06:00.870 align:start position:0%
+to understand. The dog jumped verse the
+jump<00:05:59.039><c> of</c><00:05:59.199><c> the</c><00:05:59.360><c> dog.</c><00:05:59.840><c> Here</c><00:06:00.000><c> are</c><00:06:00.160><c> two</c><00:06:00.400><c> quick</c><00:06:00.639><c> tips</c>
+
+00:06:00.870 --> 00:06:00.880 align:start position:0%
+jump of the dog. Here are two quick tips
+ 
+
+00:06:00.880 --> 00:06:02.790 align:start position:0%
+jump of the dog. Here are two quick tips
+for<00:06:01.120><c> immediately</c><00:06:01.680><c> improving</c><00:06:02.080><c> hook</c><00:06:02.400><c> clarity</c>
+
+00:06:02.790 --> 00:06:02.800 align:start position:0%
+for immediately improving hook clarity
+ 
+
+00:06:02.800 --> 00:06:04.469 align:start position:0%
+for immediately improving hook clarity
+and<00:06:02.960><c> reducing</c><00:06:03.440><c> confusion.</c><00:06:04.000><c> For</c><00:06:04.160><c> the</c><00:06:04.319><c> first</c>
+
+00:06:04.469 --> 00:06:04.479 align:start position:0%
+and reducing confusion. For the first
+ 
+
+00:06:04.479 --> 00:06:06.150 align:start position:0%
+and reducing confusion. For the first
+tip,<00:06:04.720><c> you</c><00:06:04.880><c> could</c><00:06:05.039><c> just</c><00:06:05.199><c> take</c><00:06:05.440><c> the</c><00:06:05.680><c> hook</c><00:06:05.919><c> you've</c>
+
+00:06:06.150 --> 00:06:06.160 align:start position:0%
+tip, you could just take the hook you've
+ 
+
+00:06:06.160 --> 00:06:08.710 align:start position:0%
+tip, you could just take the hook you've
+written<00:06:06.400><c> and</c><00:06:06.800><c> drop</c><00:06:07.120><c> it</c><00:06:07.280><c> into</c><00:06:07.680><c> chatbt</c><00:06:08.479><c> or</c>
+
+00:06:08.710 --> 00:06:08.720 align:start position:0%
+written and drop it into chatbt or
+ 
+
+00:06:08.720 --> 00:06:10.550 align:start position:0%
+written and drop it into chatbt or
+claude<00:06:09.120><c> with</c><00:06:09.360><c> this</c><00:06:09.600><c> prompt.</c><00:06:10.080><c> I've</c><00:06:10.319><c> written</c><00:06:10.479><c> a</c>
+
+00:06:10.550 --> 00:06:10.560 align:start position:0%
+claude with this prompt. I've written a
+ 
+
+00:06:10.560 --> 00:06:12.309 align:start position:0%
+claude with this prompt. I've written a
+hook<00:06:10.800><c> for</c><00:06:10.880><c> a</c><00:06:10.960><c> short</c><00:06:11.199><c> form</c><00:06:11.440><c> video</c><00:06:11.680><c> about</c><00:06:12.000><c> X</c>
+
+00:06:12.309 --> 00:06:12.319 align:start position:0%
+hook for a short form video about X
+ 
+
+00:06:12.319 --> 00:06:14.070 align:start position:0%
+hook for a short form video about X
+topic.<00:06:12.800><c> I</c><00:06:12.960><c> need</c><00:06:13.120><c> help</c><00:06:13.360><c> increasing</c><00:06:13.840><c> the</c>
+
+00:06:14.070 --> 00:06:14.080 align:start position:0%
+topic. I need help increasing the
+ 
+
+00:06:14.080 --> 00:06:15.749 align:start position:0%
+topic. I need help increasing the
+clarity<00:06:14.400><c> and</c><00:06:14.560><c> the</c><00:06:14.800><c> framing</c><00:06:15.120><c> of</c><00:06:15.280><c> the</c><00:06:15.440><c> sentences</c>
+
+00:06:15.749 --> 00:06:15.759 align:start position:0%
+clarity and the framing of the sentences
+ 
+
+00:06:15.759 --> 00:06:17.430 align:start position:0%
+clarity and the framing of the sentences
+I<00:06:16.000><c> used.</c><00:06:16.240><c> I</c><00:06:16.479><c> want</c><00:06:16.560><c> the</c><00:06:16.720><c> meaning</c><00:06:16.960><c> to</c><00:06:17.199><c> be</c><00:06:17.280><c> the</c>
+
+00:06:17.430 --> 00:06:17.440 align:start position:0%
+I used. I want the meaning to be the
+ 
+
+00:06:17.440 --> 00:06:19.110 align:start position:0%
+I used. I want the meaning to be the
+exact<00:06:17.680><c> same,</c><00:06:17.840><c> but</c><00:06:18.080><c> can</c><00:06:18.240><c> you</c><00:06:18.400><c> rewrite</c><00:06:18.720><c> this</c><00:06:18.960><c> in</c>
+
+00:06:19.110 --> 00:06:19.120 align:start position:0%
+exact same, but can you rewrite this in
+ 
+
+00:06:19.120 --> 00:06:20.790 align:start position:0%
+exact same, but can you rewrite this in
+a<00:06:19.280><c> sixth</c><00:06:19.600><c> grade</c><00:06:19.840><c> reading</c><00:06:20.160><c> level</c><00:06:20.479><c> so</c><00:06:20.639><c> that</c>
+
+00:06:20.790 --> 00:06:20.800 align:start position:0%
+a sixth grade reading level so that
+ 
+
+00:06:20.800 --> 00:06:22.230 align:start position:0%
+a sixth grade reading level so that
+there's<00:06:21.039><c> no</c><00:06:21.280><c> misunderstanding</c><00:06:21.919><c> from</c><00:06:22.080><c> the</c>
+
+00:06:22.230 --> 00:06:22.240 align:start position:0%
+there's no misunderstanding from the
+ 
+
+00:06:22.240 --> 00:06:24.150 align:start position:0%
+there's no misunderstanding from the
+viewer?<00:06:22.720><c> This</c><00:06:22.880><c> prompt</c><00:06:23.199><c> will</c><00:06:23.520><c> automatically</c>
+
+00:06:24.150 --> 00:06:24.160 align:start position:0%
+viewer? This prompt will automatically
+ 
+
+00:06:24.160 --> 00:06:25.830 align:start position:0%
+viewer? This prompt will automatically
+remix<00:06:24.560><c> and</c><00:06:24.720><c> rewrite</c><00:06:24.960><c> the</c><00:06:25.120><c> hook</c><00:06:25.360><c> for</c><00:06:25.520><c> you.</c><00:06:25.759><c> You</c>
+
+00:06:25.830 --> 00:06:25.840 align:start position:0%
+remix and rewrite the hook for you. You
+ 
+
+00:06:25.840 --> 00:06:27.749 align:start position:0%
+remix and rewrite the hook for you. You
+could<00:06:26.000><c> also</c><00:06:26.160><c> just</c><00:06:26.240><c> use</c><00:06:26.479><c> sandcastle.ai,</c><00:06:27.600><c> which</c>
+
+00:06:27.749 --> 00:06:27.759 align:start position:0%
+could also just use sandcastle.ai, which
+ 
+
+00:06:27.759 --> 00:06:30.070 align:start position:0%
+could also just use sandcastle.ai, which
+is<00:06:27.919><c> my</c><00:06:28.160><c> AI</c><00:06:28.720><c> scriptw</c><00:06:29.120><c> writing</c><00:06:29.440><c> tool.</c><00:06:29.759><c> You</c><00:06:29.919><c> just</c>
+
+00:06:30.070 --> 00:06:30.080 align:start position:0%
+is my AI scriptw writing tool. You just
+ 
+
+00:06:30.080 --> 00:06:31.430 align:start position:0%
+is my AI scriptw writing tool. You just
+put<00:06:30.160><c> the</c><00:06:30.319><c> topic</c><00:06:30.560><c> in</c><00:06:30.639><c> and</c><00:06:30.880><c> we'll</c><00:06:31.039><c> write</c><00:06:31.199><c> it</c><00:06:31.360><c> for</c>
+
+00:06:31.430 --> 00:06:31.440 align:start position:0%
+put the topic in and we'll write it for
+ 
+
+00:06:31.440 --> 00:06:32.950 align:start position:0%
+put the topic in and we'll write it for
+you<00:06:31.600><c> in</c><00:06:31.759><c> a</c><00:06:31.919><c> very</c><00:06:32.080><c> clear</c><00:06:32.319><c> way.</c><00:06:32.560><c> All</c><00:06:32.560><c> right,</c><00:06:32.800><c> the</c>
+
+00:06:32.950 --> 00:06:32.960 align:start position:0%
+you in a very clear way. All right, the
+ 
+
+00:06:32.960 --> 00:06:34.950 align:start position:0%
+you in a very clear way. All right, the
+last<00:06:33.120><c> tip</c><00:06:33.360><c> for</c><00:06:33.759><c> clarity</c><00:06:34.240><c> proofing</c><00:06:34.560><c> your</c><00:06:34.720><c> hooks</c>
+
+00:06:34.950 --> 00:06:34.960 align:start position:0%
+last tip for clarity proofing your hooks
+ 
+
+00:06:34.960 --> 00:06:36.790 align:start position:0%
+last tip for clarity proofing your hooks
+would<00:06:35.120><c> be</c><00:06:35.280><c> to</c><00:06:35.360><c> do</c><00:06:35.520><c> this.</c><00:06:35.840><c> When</c><00:06:36.080><c> you</c><00:06:36.160><c> read</c><00:06:36.560><c> just</c>
+
+00:06:36.790 --> 00:06:36.800 align:start position:0%
+would be to do this. When you read just
+ 
+
+00:06:36.800 --> 00:06:38.469 align:start position:0%
+would be to do this. When you read just
+the<00:06:36.960><c> hook,</c><00:06:37.199><c> those</c><00:06:37.440><c> one</c><00:06:37.520><c> to</c><00:06:37.759><c> two</c><00:06:37.840><c> sentences</c><00:06:38.240><c> in</c>
+
+00:06:38.469 --> 00:06:38.479 align:start position:0%
+the hook, those one to two sentences in
+ 
+
+00:06:38.479 --> 00:06:40.309 align:start position:0%
+the hook, those one to two sentences in
+isolation<00:06:39.039><c> without</c><00:06:39.360><c> anything</c><00:06:39.600><c> else.</c><00:06:40.160><c> Ask</c>
+
+00:06:40.309 --> 00:06:40.319 align:start position:0%
+isolation without anything else. Ask
+ 
+
+00:06:40.319 --> 00:06:42.230 align:start position:0%
+isolation without anything else. Ask
+yourself<00:06:40.639><c> this</c><00:06:40.880><c> question.</c><00:06:41.360><c> Is</c><00:06:41.600><c> it</c><00:06:41.840><c> possible</c>
+
+00:06:42.230 --> 00:06:42.240 align:start position:0%
+yourself this question. Is it possible
+ 
+
+00:06:42.240 --> 00:06:44.469 align:start position:0%
+yourself this question. Is it possible
+for<00:06:42.479><c> the</c><00:06:42.720><c> viewer</c><00:06:42.960><c> to</c><00:06:43.199><c> misunderstand</c><00:06:44.000><c> what</c><00:06:44.240><c> I'm</c>
+
+00:06:44.469 --> 00:06:44.479 align:start position:0%
+for the viewer to misunderstand what I'm
+ 
+
+00:06:44.479 --> 00:06:46.550 align:start position:0%
+for the viewer to misunderstand what I'm
+saying<00:06:44.800><c> in</c><00:06:45.039><c> the</c><00:06:45.199><c> wrong</c><00:06:45.520><c> way?</c><00:06:45.919><c> Is</c><00:06:46.160><c> there</c><00:06:46.319><c> more</c>
+
+00:06:46.550 --> 00:06:46.560 align:start position:0%
+saying in the wrong way? Is there more
+ 
+
+00:06:46.560 --> 00:06:48.710 align:start position:0%
+saying in the wrong way? Is there more
+than<00:06:46.800><c> one</c><00:06:47.039><c> way</c><00:06:47.280><c> these</c><00:06:47.680><c> sentences</c><00:06:48.240><c> could</c><00:06:48.479><c> be</c>
+
+00:06:48.710 --> 00:06:48.720 align:start position:0%
+than one way these sentences could be
+ 
+
+00:06:48.720 --> 00:06:50.870 align:start position:0%
+than one way these sentences could be
+interpreted?<00:06:49.440><c> If</c><00:06:49.600><c> so,</c><00:06:49.919><c> rewrite</c><00:06:50.319><c> the</c><00:06:50.479><c> hook</c><00:06:50.720><c> so</c>
+
+00:06:50.870 --> 00:06:50.880 align:start position:0%
+interpreted? If so, rewrite the hook so
+ 
+
+00:06:50.880 --> 00:06:52.870 align:start position:0%
+interpreted? If so, rewrite the hook so
+that<00:06:51.039><c> you</c><00:06:51.280><c> eliminate</c><00:06:51.759><c> those</c><00:06:52.160><c> alternative</c>
+
+00:06:52.870 --> 00:06:52.880 align:start position:0%
+that you eliminate those alternative
+ 
+
+00:06:52.880 --> 00:06:54.629 align:start position:0%
+that you eliminate those alternative
+understanding<00:06:53.520><c> paths</c><00:06:53.840><c> so</c><00:06:54.000><c> there's</c><00:06:54.240><c> only</c><00:06:54.479><c> the</c>
+
+00:06:54.629 --> 00:06:54.639 align:start position:0%
+understanding paths so there's only the
+ 
+
+00:06:54.639 --> 00:06:55.749 align:start position:0%
+understanding paths so there's only the
+one<00:06:54.800><c> that</c><00:06:54.960><c> you</c><00:06:55.120><c> want.</c><00:06:55.360><c> All</c><00:06:55.360><c> right.</c><00:06:55.600><c> Now,</c>
+
+00:06:55.749 --> 00:06:55.759 align:start position:0%
+one that you want. All right. Now,
+ 
+
+00:06:55.759 --> 00:06:57.189 align:start position:0%
+one that you want. All right. Now,
+before<00:06:55.919><c> I</c><00:06:56.000><c> go</c><00:06:56.160><c> on</c><00:06:56.319><c> to</c><00:06:56.400><c> the</c><00:06:56.560><c> last</c><00:06:56.720><c> two</c><00:06:56.960><c> hook</c>
+
+00:06:57.189 --> 00:06:57.199 align:start position:0%
+before I go on to the last two hook
+ 
+
+00:06:57.199 --> 00:06:58.469 align:start position:0%
+before I go on to the last two hook
+mistakes,<00:06:57.520><c> and</c><00:06:57.680><c> these</c><00:06:57.840><c> ones</c><00:06:58.000><c> really</c><00:06:58.160><c> are</c><00:06:58.319><c> the</c>
+
+00:06:58.469 --> 00:06:58.479 align:start position:0%
+mistakes, and these ones really are the
+ 
+
+00:06:58.479 --> 00:06:59.510 align:start position:0%
+mistakes, and these ones really are the
+biggest,<00:06:58.800><c> I</c><00:06:58.960><c> just</c><00:06:59.120><c> want</c><00:06:59.199><c> to</c><00:06:59.360><c> mention</c>
+
+00:06:59.510 --> 00:06:59.520 align:start position:0%
+biggest, I just want to mention
+ 
+
+00:06:59.520 --> 00:07:01.670 align:start position:0%
+biggest, I just want to mention
+something.<00:07:00.080><c> I</c><00:07:00.319><c> think</c><00:07:00.560><c> becoming</c><00:07:00.960><c> a</c><00:07:01.199><c> master</c><00:07:01.440><c> at</c>
+
+00:07:01.670 --> 00:07:01.680 align:start position:0%
+something. I think becoming a master at
+ 
+
+00:07:01.680 --> 00:07:04.150 align:start position:0%
+something. I think becoming a master at
+hooks<00:07:02.160><c> is</c><00:07:02.479><c> the</c><00:07:02.880><c> single</c><00:07:03.280><c> biggest</c><00:07:03.599><c> lever</c><00:07:03.919><c> you</c>
+
+00:07:04.150 --> 00:07:04.160 align:start position:0%
+hooks is the single biggest lever you
+ 
+
+00:07:04.160 --> 00:07:05.270 align:start position:0%
+hooks is the single biggest lever you
+can<00:07:04.240><c> pull</c><00:07:04.479><c> if</c><00:07:04.720><c> you're</c><00:07:04.800><c> trying</c><00:07:04.880><c> to</c><00:07:05.039><c> get</c><00:07:05.120><c> your</c>
+
+00:07:05.270 --> 00:07:05.280 align:start position:0%
+can pull if you're trying to get your
+ 
+
+00:07:05.280 --> 00:07:07.110 align:start position:0%
+can pull if you're trying to get your
+content<00:07:05.599><c> to</c><00:07:05.759><c> perform</c><00:07:06.080><c> better.</c><00:07:06.400><c> Hooks</c><00:07:06.800><c> are</c><00:07:06.880><c> the</c>
+
+00:07:07.110 --> 00:07:07.120 align:start position:0%
+content to perform better. Hooks are the
+ 
+
+00:07:07.120 --> 00:07:09.830 align:start position:0%
+content to perform better. Hooks are the
+80<00:07:07.440><c> of</c><00:07:07.680><c> the</c><00:07:07.840><c> 8020</c><00:07:08.479><c> in</c><00:07:08.639><c> the</c><00:07:08.880><c> content</c><00:07:09.199><c> flow.</c><00:07:09.599><c> Now,</c>
+
+00:07:09.830 --> 00:07:09.840 align:start position:0%
+80 of the 8020 in the content flow. Now,
+ 
+
+00:07:09.840 --> 00:07:11.749 align:start position:0%
+80 of the 8020 in the content flow. Now,
+if<00:07:10.000><c> you</c><00:07:10.080><c> want</c><00:07:10.240><c> to</c><00:07:10.319><c> become</c><00:07:10.720><c> god</c><00:07:11.120><c> tier</c><00:07:11.360><c> at</c><00:07:11.520><c> hooks</c>
+
+00:07:11.749 --> 00:07:11.759 align:start position:0%
+if you want to become god tier at hooks
+ 
+
+00:07:11.759 --> 00:07:13.430 align:start position:0%
+if you want to become god tier at hooks
+and<00:07:11.919><c> just</c><00:07:12.160><c> write</c><00:07:12.400><c> bangers</c><00:07:12.880><c> every</c><00:07:13.039><c> single</c><00:07:13.280><c> time</c>
+
+00:07:13.430 --> 00:07:13.440 align:start position:0%
+and just write bangers every single time
+ 
+
+00:07:13.440 --> 00:07:15.510 align:start position:0%
+and just write bangers every single time
+without<00:07:13.759><c> thinking</c><00:07:13.919><c> about</c><00:07:14.080><c> it,</c><00:07:14.479><c> I</c><00:07:14.720><c> just</c><00:07:14.960><c> filmed</c>
+
+00:07:15.510 --> 00:07:15.520 align:start position:0%
+without thinking about it, I just filmed
+ 
+
+00:07:15.520 --> 00:07:17.589 align:start position:0%
+without thinking about it, I just filmed
+the<00:07:15.840><c> most</c><00:07:16.160><c> comprehensive</c><00:07:16.800><c> training</c><00:07:17.120><c> on</c><00:07:17.280><c> short</c>
+
+00:07:17.589 --> 00:07:17.599 align:start position:0%
+the most comprehensive training on short
+ 
+
+00:07:17.599 --> 00:07:19.589 align:start position:0%
+the most comprehensive training on short
+form<00:07:17.840><c> hooks</c><00:07:18.160><c> ever</c><00:07:18.479><c> created.</c><00:07:18.960><c> So,</c><00:07:19.120><c> if</c><00:07:19.280><c> you</c><00:07:19.360><c> make</c>
+
+00:07:19.589 --> 00:07:19.599 align:start position:0%
+form hooks ever created. So, if you make
+ 
+
+00:07:19.599 --> 00:07:21.589 align:start position:0%
+form hooks ever created. So, if you make
+Instagram<00:07:20.000><c> reels,</c><00:07:20.479><c> Tik</c><00:07:20.720><c> Toks,</c><00:07:21.199><c> LinkedIn</c>
+
+00:07:21.589 --> 00:07:21.599 align:start position:0%
+Instagram reels, Tik Toks, LinkedIn
+ 
+
+00:07:21.599 --> 00:07:23.510 align:start position:0%
+Instagram reels, Tik Toks, LinkedIn
+shorts,<00:07:22.080><c> YouTube</c><00:07:22.400><c> shorts,</c><00:07:22.880><c> this</c><00:07:23.039><c> will</c><00:07:23.280><c> feel</c>
+
+00:07:23.510 --> 00:07:23.520 align:start position:0%
+shorts, YouTube shorts, this will feel
+ 
+
+00:07:23.520 --> 00:07:25.110 align:start position:0%
+shorts, YouTube shorts, this will feel
+like<00:07:23.680><c> a</c><00:07:23.919><c> cheat</c><00:07:24.240><c> code</c><00:07:24.400><c> for</c><00:07:24.560><c> you.</c><00:07:24.800><c> What</c><00:07:24.960><c> I'm</c>
+
+00:07:25.110 --> 00:07:25.120 align:start position:0%
+like a cheat code for you. What I'm
+ 
+
+00:07:25.120 --> 00:07:26.710 align:start position:0%
+like a cheat code for you. What I'm
+covering<00:07:25.360><c> in</c><00:07:25.599><c> this</c><00:07:25.759><c> video</c><00:07:26.000><c> right</c><00:07:26.160><c> now,</c><00:07:26.479><c> it's</c>
+
+00:07:26.710 --> 00:07:26.720 align:start position:0%
+covering in this video right now, it's
+ 
+
+00:07:26.720 --> 00:07:29.350 align:start position:0%
+covering in this video right now, it's
+like<00:07:26.960><c> 1</c><00:07:27.199><c> to</c><00:07:27.360><c> 2%</c><00:07:27.919><c> of</c><00:07:28.160><c> the</c><00:07:28.400><c> full</c><00:07:28.639><c> hook</c><00:07:28.960><c> playbook</c>
+
+00:07:29.350 --> 00:07:29.360 align:start position:0%
+like 1 to 2% of the full hook playbook
+ 
+
+00:07:29.360 --> 00:07:31.110 align:start position:0%
+like 1 to 2% of the full hook playbook
+that<00:07:29.520><c> I</c><00:07:29.680><c> give</c><00:07:29.919><c> in</c><00:07:30.160><c> this</c><00:07:30.319><c> training.</c><00:07:30.800><c> In</c><00:07:30.960><c> that</c>
+
+00:07:31.110 --> 00:07:31.120 align:start position:0%
+that I give in this training. In that
+ 
+
+00:07:31.120 --> 00:07:32.710 align:start position:0%
+that I give in this training. In that
+training,<00:07:31.440><c> I</c><00:07:31.599><c> covered</c><00:07:31.919><c> these</c><00:07:32.240><c> things</c><00:07:32.479><c> in</c>
+
+00:07:32.710 --> 00:07:32.720 align:start position:0%
+training, I covered these things in
+ 
+
+00:07:32.720 --> 00:07:34.950 align:start position:0%
+training, I covered these things in
+depth.<00:07:33.199><c> One,</c><00:07:33.680><c> hook</c><00:07:34.000><c> psychology.</c><00:07:34.639><c> How</c><00:07:34.800><c> do</c>
+
+00:07:34.950 --> 00:07:34.960 align:start position:0%
+depth. One, hook psychology. How do
+ 
+
+00:07:34.960 --> 00:07:36.710 align:start position:0%
+depth. One, hook psychology. How do
+hooks<00:07:35.360><c> actually</c><00:07:35.759><c> work</c><00:07:36.000><c> under</c><00:07:36.240><c> the</c><00:07:36.400><c> surface</c>
+
+00:07:36.710 --> 00:07:36.720 align:start position:0%
+hooks actually work under the surface
+ 
+
+00:07:36.720 --> 00:07:39.029 align:start position:0%
+hooks actually work under the surface
+and<00:07:37.039><c> manipulate</c><00:07:37.520><c> viewers'</c><00:07:38.000><c> brains?</c><00:07:38.479><c> Two,</c>
+
+00:07:39.029 --> 00:07:39.039 align:start position:0%
+and manipulate viewers' brains? Two,
+ 
+
+00:07:39.039 --> 00:07:41.350 align:start position:0%
+and manipulate viewers' brains? Two,
+what<00:07:39.199><c> is</c><00:07:39.360><c> my</c><00:07:39.599><c> 10-minute</c><00:07:40.240><c> cheat</c><00:07:40.639><c> code</c><00:07:40.960><c> hook</c>
+
+00:07:41.350 --> 00:07:41.360 align:start position:0%
+what is my 10-minute cheat code hook
+ 
+
+00:07:41.360 --> 00:07:43.189 align:start position:0%
+what is my 10-minute cheat code hook
+framework?<00:07:42.080><c> Literally</c><00:07:42.400><c> a</c><00:07:42.639><c> checklist</c><00:07:43.039><c> that</c>
+
+00:07:43.189 --> 00:07:43.199 align:start position:0%
+framework? Literally a checklist that
+ 
+
+00:07:43.199 --> 00:07:44.870 align:start position:0%
+framework? Literally a checklist that
+you<00:07:43.360><c> can</c><00:07:43.520><c> follow</c><00:07:44.000><c> every</c><00:07:44.319><c> single</c><00:07:44.560><c> time</c><00:07:44.720><c> you're</c>
+
+00:07:44.870 --> 00:07:44.880 align:start position:0%
+you can follow every single time you're
+ 
+
+00:07:44.880 --> 00:07:46.309 align:start position:0%
+you can follow every single time you're
+going<00:07:44.960><c> to</c><00:07:45.039><c> write</c><00:07:45.199><c> a</c><00:07:45.360><c> hook</c><00:07:45.520><c> that</c><00:07:45.840><c> works</c><00:07:46.080><c> without</c>
+
+00:07:46.309 --> 00:07:46.319 align:start position:0%
+going to write a hook that works without
+ 
+
+00:07:46.319 --> 00:07:48.629 align:start position:0%
+going to write a hook that works without
+fail.<00:07:46.800><c> And</c><00:07:46.960><c> three,</c><00:07:47.360><c> what</c><00:07:47.599><c> are</c><00:07:47.840><c> examples</c><00:07:48.400><c> of</c>
+
+00:07:48.629 --> 00:07:48.639 align:start position:0%
+fail. And three, what are examples of
+ 
+
+00:07:48.639 --> 00:07:51.350 align:start position:0%
+fail. And three, what are examples of
+good<00:07:48.880><c> and</c><00:07:49.199><c> bad</c><00:07:49.520><c> hooks</c><00:07:49.919><c> from</c><00:07:50.400><c> 11</c><00:07:50.960><c> different</c>
+
+00:07:51.350 --> 00:07:51.360 align:start position:0%
+good and bad hooks from 11 different
+ 
+
+00:07:51.360 --> 00:07:53.110 align:start position:0%
+good and bad hooks from 11 different
+categories<00:07:51.840><c> and</c><00:07:52.080><c> niches,</c><00:07:52.639><c> breaking</c><00:07:52.960><c> them</c>
+
+00:07:53.110 --> 00:07:53.120 align:start position:0%
+categories and niches, breaking them
+ 
+
+00:07:53.120 --> 00:07:54.790 align:start position:0%
+categories and niches, breaking them
+down,<00:07:53.440><c> analyzing</c><00:07:54.000><c> why</c><00:07:54.160><c> the</c><00:07:54.319><c> good</c><00:07:54.479><c> ones</c><00:07:54.720><c> are</c>
+
+00:07:54.790 --> 00:07:54.800 align:start position:0%
+down, analyzing why the good ones are
+ 
+
+00:07:54.800 --> 00:07:56.469 align:start position:0%
+down, analyzing why the good ones are
+good<00:07:54.960><c> and</c><00:07:55.120><c> why</c><00:07:55.280><c> the</c><00:07:55.440><c> bad</c><00:07:55.680><c> ones</c><00:07:55.840><c> are</c><00:07:56.000><c> bad?</c><00:07:56.319><c> I</c>
+
+00:07:56.469 --> 00:07:56.479 align:start position:0%
+good and why the bad ones are bad? I
+ 
+
+00:07:56.479 --> 00:07:58.230 align:start position:0%
+good and why the bad ones are bad? I
+also<00:07:56.720><c> built</c><00:07:56.879><c> a</c><00:07:57.039><c> full</c><00:07:57.280><c> hooks</c><00:07:57.680><c> database</c><00:07:58.000><c> with</c>
+
+00:07:58.230 --> 00:07:58.240 align:start position:0%
+also built a full hooks database with
+ 
+
+00:07:58.240 --> 00:08:01.270 align:start position:0%
+also built a full hooks database with
+over<00:07:58.639><c> 400</c><00:07:59.280><c> different</c><00:07:59.599><c> videos,</c><00:08:00.319><c> deep</c><00:08:00.720><c> tagging</c>
+
+00:08:01.270 --> 00:08:01.280 align:start position:0%
+over 400 different videos, deep tagging
+ 
+
+00:08:01.280 --> 00:08:04.469 align:start position:0%
+over 400 different videos, deep tagging
+across<00:08:01.919><c> hook</c><00:08:02.240><c> format,</c><00:08:03.039><c> strategy,</c><00:08:03.840><c> visuals,</c>
+
+00:08:04.469 --> 00:08:04.479 align:start position:0%
+across hook format, strategy, visuals,
+ 
+
+00:08:04.479 --> 00:08:06.869 align:start position:0%
+across hook format, strategy, visuals,
+text,<00:08:04.960><c> audio,</c><00:08:05.599><c> all</c><00:08:05.759><c> the</c><00:08:06.000><c> components.</c><00:08:06.479><c> And</c><00:08:06.720><c> I</c>
+
+00:08:06.869 --> 00:08:06.879 align:start position:0%
+text, audio, all the components. And I
+ 
+
+00:08:06.879 --> 00:08:08.710 align:start position:0%
+text, audio, all the components. And I
+built<00:08:07.039><c> a</c><00:08:07.280><c> system</c><00:08:07.599><c> for</c><00:08:07.919><c> analyzing</c><00:08:08.479><c> that</c>
+
+00:08:08.710 --> 00:08:08.720 align:start position:0%
+built a system for analyzing that
+ 
+
+00:08:08.720 --> 00:08:10.230 align:start position:0%
+built a system for analyzing that
+database<00:08:09.199><c> and</c><00:08:09.360><c> then</c><00:08:09.520><c> coming</c><00:08:09.759><c> up</c><00:08:09.919><c> with</c><00:08:10.080><c> new</c>
+
+00:08:10.230 --> 00:08:10.240 align:start position:0%
+database and then coming up with new
+ 
+
+00:08:10.240 --> 00:08:11.749 align:start position:0%
+database and then coming up with new
+hooks<00:08:10.479><c> for</c><00:08:10.639><c> yourself.</c><00:08:11.120><c> I</c><00:08:11.280><c> literally</c><00:08:11.599><c> went</c>
+
+00:08:11.749 --> 00:08:11.759 align:start position:0%
+hooks for yourself. I literally went
+ 
+
+00:08:11.759 --> 00:08:13.510 align:start position:0%
+hooks for yourself. I literally went
+out,<00:08:12.080><c> found</c><00:08:12.319><c> the</c><00:08:12.560><c> best</c><00:08:12.720><c> creators</c><00:08:13.039><c> in</c><00:08:13.280><c> every</c>
+
+00:08:13.510 --> 00:08:13.520 align:start position:0%
+out, found the best creators in every
+ 
+
+00:08:13.520 --> 00:08:15.589 align:start position:0%
+out, found the best creators in every
+niche,<00:08:14.000><c> extracted</c><00:08:14.560><c> their</c><00:08:14.800><c> top</c><00:08:15.039><c> videos,</c>
+
+00:08:15.589 --> 00:08:15.599 align:start position:0%
+niche, extracted their top videos,
+ 
+
+00:08:15.599 --> 00:08:17.270 align:start position:0%
+niche, extracted their top videos,
+analyzed<00:08:16.080><c> their</c><00:08:16.240><c> hooks,</c><00:08:16.560><c> and</c><00:08:16.720><c> then</c><00:08:16.960><c> created</c>
+
+00:08:17.270 --> 00:08:17.280 align:start position:0%
+analyzed their hooks, and then created
+ 
+
+00:08:17.280 --> 00:08:18.550 align:start position:0%
+analyzed their hooks, and then created
+frameworks<00:08:17.759><c> and</c><00:08:17.919><c> patterns</c><00:08:18.240><c> in</c><00:08:18.400><c> that</c>
+
+00:08:18.550 --> 00:08:18.560 align:start position:0%
+frameworks and patterns in that
+ 
+
+00:08:18.560 --> 00:08:20.309 align:start position:0%
+frameworks and patterns in that
+database.<00:08:19.120><c> I</c><00:08:19.280><c> also</c><00:08:19.440><c> in</c><00:08:19.599><c> this</c><00:08:19.759><c> training</c><00:08:20.080><c> teach</c>
+
+00:08:20.309 --> 00:08:20.319 align:start position:0%
+database. I also in this training teach
+ 
+
+00:08:20.319 --> 00:08:22.790 align:start position:0%
+database. I also in this training teach
+the<00:08:20.560><c> full</c><00:08:20.960><c> research</c><00:08:21.520><c> method</c><00:08:21.840><c> that</c><00:08:22.080><c> I</c><00:08:22.319><c> use</c><00:08:22.560><c> to</c>
+
+00:08:22.790 --> 00:08:22.800 align:start position:0%
+the full research method that I use to
+ 
+
+00:08:22.800 --> 00:08:24.629 align:start position:0%
+the full research method that I use to
+go<00:08:23.039><c> look</c><00:08:23.199><c> at</c><00:08:23.360><c> other</c><00:08:23.680><c> videos,</c><00:08:24.160><c> extract</c><00:08:24.479><c> their</c>
+
+00:08:24.629 --> 00:08:24.639 align:start position:0%
+go look at other videos, extract their
+ 
+
+00:08:24.639 --> 00:08:26.309 align:start position:0%
+go look at other videos, extract their
+hooks.<00:08:24.960><c> How</c><00:08:25.039><c> do</c><00:08:25.120><c> I</c><00:08:25.280><c> actually</c><00:08:25.520><c> do</c><00:08:25.599><c> that?</c><00:08:26.080><c> How</c><00:08:26.240><c> do</c>
+
+00:08:26.309 --> 00:08:26.319 align:start position:0%
+hooks. How do I actually do that? How do
+ 
+
+00:08:26.319 --> 00:08:28.150 align:start position:0%
+hooks. How do I actually do that? How do
+you<00:08:26.479><c> find</c><00:08:26.720><c> the</c><00:08:26.879><c> top</c><00:08:27.120><c> videos?</c><00:08:27.599><c> I</c><00:08:27.840><c> teach</c><00:08:28.000><c> that</c>
+
+00:08:28.150 --> 00:08:28.160 align:start position:0%
+you find the top videos? I teach that
+ 
+
+00:08:28.160 --> 00:08:29.589 align:start position:0%
+you find the top videos? I teach that
+whole<00:08:28.319><c> thing.</c><00:08:28.560><c> Like</c><00:08:28.720><c> I</c><00:08:28.800><c> said,</c><00:08:29.039><c> my</c><00:08:29.199><c> goal</c><00:08:29.360><c> was</c><00:08:29.520><c> to</c>
+
+00:08:29.589 --> 00:08:29.599 align:start position:0%
+whole thing. Like I said, my goal was to
+ 
+
+00:08:29.599 --> 00:08:32.230 align:start position:0%
+whole thing. Like I said, my goal was to
+make<00:08:29.759><c> this</c><00:08:29.919><c> the</c><00:08:30.160><c> undisputed</c><00:08:31.280><c> god</c><00:08:31.599><c> tier</c><00:08:32.000><c> short</c>
+
+00:08:32.230 --> 00:08:32.240 align:start position:0%
+make this the undisputed god tier short
+ 
+
+00:08:32.240 --> 00:08:33.909 align:start position:0%
+make this the undisputed god tier short
+form<00:08:32.479><c> hooks</c><00:08:32.880><c> resource.</c><00:08:33.200><c> So,</c><00:08:33.360><c> if</c><00:08:33.519><c> you</c><00:08:33.599><c> like</c><00:08:33.760><c> the</c>
+
+00:08:33.909 --> 00:08:33.919 align:start position:0%
+form hooks resource. So, if you like the
+ 
+
+00:08:33.919 --> 00:08:34.949 align:start position:0%
+form hooks resource. So, if you like the
+videos<00:08:34.080><c> on</c><00:08:34.240><c> my</c><00:08:34.399><c> channel</c><00:08:34.479><c> and</c><00:08:34.719><c> most</c>
+
+00:08:34.949 --> 00:08:34.959 align:start position:0%
+videos on my channel and most
+ 
+
+00:08:34.959 --> 00:08:36.389 align:start position:0%
+videos on my channel and most
+importantly<00:08:35.279><c> the</c><00:08:35.440><c> way</c><00:08:35.519><c> I</c><00:08:35.760><c> break</c><00:08:36.000><c> things</c><00:08:36.240><c> down</c>
+
+00:08:36.389 --> 00:08:36.399 align:start position:0%
+importantly the way I break things down
+ 
+
+00:08:36.399 --> 00:08:38.389 align:start position:0%
+importantly the way I break things down
+and<00:08:36.640><c> explain</c><00:08:37.039><c> things,</c><00:08:37.599><c> this</c><00:08:37.839><c> training</c><00:08:38.159><c> will</c>
+
+00:08:38.389 --> 00:08:38.399 align:start position:0%
+and explain things, this training will
+ 
+
+00:08:38.399 --> 00:08:40.709 align:start position:0%
+and explain things, this training will
+be<00:08:38.640><c> the</c><00:08:38.959><c> best</c><00:08:39.120><c> way</c><00:08:39.360><c> to</c><00:08:39.519><c> go</c><00:08:39.680><c> from</c><00:08:39.919><c> zero</c><00:08:40.240><c> to</c><00:08:40.399><c> 100</c>
+
+00:08:40.709 --> 00:08:40.719 align:start position:0%
+be the best way to go from zero to 100
+ 
+
+00:08:40.719 --> 00:08:42.709 align:start position:0%
+be the best way to go from zero to 100
+on<00:08:40.880><c> short</c><00:08:41.120><c> form</c><00:08:41.360><c> hooks,</c><00:08:41.839><c> you</c><00:08:42.080><c> watch</c><00:08:42.240><c> this</c><00:08:42.479><c> and</c>
+
+00:08:42.709 --> 00:08:42.719 align:start position:0%
+on short form hooks, you watch this and
+ 
+
+00:08:42.719 --> 00:08:44.149 align:start position:0%
+on short form hooks, you watch this and
+you'll<00:08:42.880><c> be</c><00:08:43.039><c> set.</c><00:08:43.279><c> You</c><00:08:43.440><c> can</c><00:08:43.519><c> access</c><00:08:43.760><c> it</c><00:08:43.839><c> at</c><00:08:44.000><c> the</c>
+
+00:08:44.149 --> 00:08:44.159 align:start position:0%
+you'll be set. You can access it at the
+ 
+
+00:08:44.159 --> 00:08:45.269 align:start position:0%
+you'll be set. You can access it at the
+link<00:08:44.320><c> here</c><00:08:44.399><c> or</c><00:08:44.640><c> in</c><00:08:44.800><c> the</c><00:08:44.959><c> description.</c><00:08:45.279><c> All</c>
+
+00:08:45.269 --> 00:08:45.279 align:start position:0%
+link here or in the description. All
+ 
+
+00:08:45.279 --> 00:08:46.790 align:start position:0%
+link here or in the description. All
+right,<00:08:45.600><c> hook</c><00:08:45.839><c> problem</c><00:08:46.080><c> number</c><00:08:46.320><c> three</c><00:08:46.560><c> is</c>
+
+00:08:46.790 --> 00:08:46.800 align:start position:0%
+right, hook problem number three is
+ 
+
+00:08:46.800 --> 00:08:48.630 align:start position:0%
+right, hook problem number three is
+irrelevance.<00:08:47.600><c> And</c><00:08:47.680><c> at</c><00:08:47.839><c> this</c><00:08:48.000><c> point,</c><00:08:48.160><c> so</c><00:08:48.399><c> far</c>
+
+00:08:48.630 --> 00:08:48.640 align:start position:0%
+irrelevance. And at this point, so far
+ 
+
+00:08:48.640 --> 00:08:50.550 align:start position:0%
+irrelevance. And at this point, so far
+you<00:08:48.880><c> have</c><00:08:49.040><c> solved</c><00:08:49.440><c> for</c><00:08:49.680><c> the</c><00:08:49.839><c> first</c><00:08:50.000><c> two.</c><00:08:50.399><c> So,</c>
+
+00:08:50.550 --> 00:08:50.560 align:start position:0%
+you have solved for the first two. So,
+ 
+
+00:08:50.560 --> 00:08:52.230 align:start position:0%
+you have solved for the first two. So,
+you've<00:08:50.800><c> eliminated</c><00:08:51.279><c> delay</c><00:08:51.760><c> and</c><00:08:52.000><c> you've</c>
+
+00:08:52.230 --> 00:08:52.240 align:start position:0%
+you've eliminated delay and you've
+ 
+
+00:08:52.240 --> 00:08:54.070 align:start position:0%
+you've eliminated delay and you've
+maximized<00:08:52.800><c> the</c><00:08:53.040><c> clarity,</c><00:08:53.600><c> getting</c><00:08:53.839><c> rid</c><00:08:54.000><c> of</c>
+
+00:08:54.070 --> 00:08:54.080 align:start position:0%
+maximized the clarity, getting rid of
+ 
+
+00:08:54.080 --> 00:08:55.509 align:start position:0%
+maximized the clarity, getting rid of
+the<00:08:54.240><c> confusion</c><00:08:54.640><c> so</c><00:08:54.800><c> the</c><00:08:54.959><c> viewer</c><00:08:55.279><c> knows</c>
+
+00:08:55.509 --> 00:08:55.519 align:start position:0%
+the confusion so the viewer knows
+ 
+
+00:08:55.519 --> 00:08:56.870 align:start position:0%
+the confusion so the viewer knows
+exactly<00:08:55.920><c> what</c><00:08:56.080><c> the</c><00:08:56.320><c> video</c><00:08:56.480><c> is</c><00:08:56.640><c> going</c><00:08:56.720><c> to</c><00:08:56.800><c> be</c>
+
+00:08:56.870 --> 00:08:56.880 align:start position:0%
+exactly what the video is going to be
+ 
+
+00:08:56.880 --> 00:08:58.870 align:start position:0%
+exactly what the video is going to be
+about.<00:08:57.200><c> Problem</c><00:08:57.519><c> number</c><00:08:57.760><c> three,</c><00:08:58.080><c> irrelevance</c>
+
+00:08:58.870 --> 00:08:58.880 align:start position:0%
+about. Problem number three, irrelevance
+ 
+
+00:08:58.880 --> 00:09:00.630 align:start position:0%
+about. Problem number three, irrelevance
+means<00:08:59.040><c> that</c><00:08:59.200><c> the</c><00:08:59.360><c> viewer</c><00:08:59.680><c> is</c><00:09:00.000><c> not</c><00:09:00.320><c> confident</c>
+
+00:09:00.630 --> 00:09:00.640 align:start position:0%
+means that the viewer is not confident
+ 
+
+00:09:00.640 --> 00:09:02.550 align:start position:0%
+means that the viewer is not confident
+that<00:09:00.959><c> what's</c><00:09:01.279><c> coming</c><00:09:01.600><c> next</c><00:09:01.920><c> in</c><00:09:02.160><c> the</c><00:09:02.320><c> video</c>
+
+00:09:02.550 --> 00:09:02.560 align:start position:0%
+that what's coming next in the video
+ 
+
+00:09:02.560 --> 00:09:04.310 align:start position:0%
+that what's coming next in the video
+after<00:09:02.800><c> the</c><00:09:02.959><c> hook</c><00:09:03.279><c> is</c><00:09:03.519><c> going</c><00:09:03.600><c> to</c><00:09:03.760><c> be</c><00:09:03.920><c> valuable</c>
+
+00:09:04.310 --> 00:09:04.320 align:start position:0%
+after the hook is going to be valuable
+ 
+
+00:09:04.320 --> 00:09:06.310 align:start position:0%
+after the hook is going to be valuable
+enough<00:09:04.560><c> to</c><00:09:04.800><c> help</c><00:09:04.959><c> them</c><00:09:05.279><c> solve</c><00:09:05.519><c> a</c><00:09:05.760><c> problem.</c><00:09:06.080><c> So,</c>
+
+00:09:06.310 --> 00:09:06.320 align:start position:0%
+enough to help them solve a problem. So,
+ 
+
+00:09:06.320 --> 00:09:07.430 align:start position:0%
+enough to help them solve a problem. So,
+they<00:09:06.399><c> know</c><00:09:06.560><c> what</c><00:09:06.640><c> the</c><00:09:06.800><c> video</c><00:09:06.880><c> is</c><00:09:07.040><c> about,</c><00:09:07.279><c> but</c>
+
+00:09:07.430 --> 00:09:07.440 align:start position:0%
+they know what the video is about, but
+ 
+
+00:09:07.440 --> 00:09:09.670 align:start position:0%
+they know what the video is about, but
+they're<00:09:07.680><c> unclear</c><00:09:08.160><c> if</c><00:09:08.399><c> it's</c><00:09:08.800><c> relevant</c><00:09:09.519><c> for</c>
+
+00:09:09.670 --> 00:09:09.680 align:start position:0%
+they're unclear if it's relevant for
+ 
+
+00:09:09.680 --> 00:09:11.590 align:start position:0%
+they're unclear if it's relevant for
+them.<00:09:10.080><c> Now,</c><00:09:10.320><c> there</c><00:09:10.480><c> are</c><00:09:10.640><c> two</c><00:09:10.880><c> easy</c><00:09:11.200><c> ways</c><00:09:11.440><c> to</c>
+
+00:09:11.590 --> 00:09:11.600 align:start position:0%
+them. Now, there are two easy ways to
+ 
+
+00:09:11.600 --> 00:09:13.430 align:start position:0%
+them. Now, there are two easy ways to
+solve<00:09:11.920><c> this</c><00:09:12.160><c> problem.</c><00:09:12.640><c> The</c><00:09:12.800><c> first</c><00:09:12.959><c> way</c><00:09:13.120><c> is</c><00:09:13.279><c> to</c>
+
+00:09:13.430 --> 00:09:13.440 align:start position:0%
+solve this problem. The first way is to
+ 
+
+00:09:13.440 --> 00:09:15.670 align:start position:0%
+solve this problem. The first way is to
+say<00:09:13.600><c> the</c><00:09:13.839><c> word</c><00:09:14.160><c> you</c><00:09:14.480><c> or</c><00:09:14.720><c> your</c><00:09:15.120><c> instead</c><00:09:15.440><c> of</c><00:09:15.519><c> the</c>
+
+00:09:15.670 --> 00:09:15.680 align:start position:0%
+say the word you or your instead of the
+ 
+
+00:09:15.680 --> 00:09:17.990 align:start position:0%
+say the word you or your instead of the
+words<00:09:16.080><c> me</c><00:09:16.320><c> or</c><00:09:16.640><c> I</c><00:09:17.040><c> when</c><00:09:17.200><c> you're</c><00:09:17.440><c> delivering</c><00:09:17.839><c> the</c>
+
+00:09:17.990 --> 00:09:18.000 align:start position:0%
+words me or I when you're delivering the
+ 
+
+00:09:18.000 --> 00:09:19.910 align:start position:0%
+words me or I when you're delivering the
+hook.<00:09:18.560><c> Most</c><00:09:18.880><c> people</c><00:09:19.200><c> think</c><00:09:19.440><c> you</c><00:09:19.680><c> should</c><00:09:19.760><c> make</c>
+
+00:09:19.910 --> 00:09:19.920 align:start position:0%
+hook. Most people think you should make
+ 
+
+00:09:19.920 --> 00:09:21.509 align:start position:0%
+hook. Most people think you should make
+hooks<00:09:20.240><c> like</c><00:09:20.399><c> this.</c><00:09:20.880><c> I've</c><00:09:21.120><c> struggled</c><00:09:21.360><c> with</c>
+
+00:09:21.509 --> 00:09:21.519 align:start position:0%
+hooks like this. I've struggled with
+ 
+
+00:09:21.519 --> 00:09:23.350 align:start position:0%
+hooks like this. I've struggled with
+skin<00:09:21.839><c> problems</c><00:09:22.160><c> my</c><00:09:22.399><c> whole</c><00:09:22.560><c> life.</c><00:09:22.880><c> The</c><00:09:23.120><c> problem</c>
+
+00:09:23.350 --> 00:09:23.360 align:start position:0%
+skin problems my whole life. The problem
+ 
+
+00:09:23.360 --> 00:09:25.350 align:start position:0%
+skin problems my whole life. The problem
+is<00:09:23.600><c> this</c><00:09:23.920><c> opens</c><00:09:24.240><c> a</c><00:09:24.480><c> door</c><00:09:24.640><c> in</c><00:09:24.800><c> the</c><00:09:24.959><c> viewer's</c>
+
+00:09:25.350 --> 00:09:25.360 align:start position:0%
+is this opens a door in the viewer's
+ 
+
+00:09:25.360 --> 00:09:27.670 align:start position:0%
+is this opens a door in the viewer's
+mind<00:09:25.600><c> to</c><00:09:26.000><c> question</c><00:09:26.480><c> if</c><00:09:26.720><c> they</c><00:09:27.040><c> see</c><00:09:27.200><c> themselves</c>
+
+00:09:27.670 --> 00:09:27.680 align:start position:0%
+mind to question if they see themselves
+ 
+
+00:09:27.680 --> 00:09:29.269 align:start position:0%
+mind to question if they see themselves
+in<00:09:27.920><c> the</c><00:09:28.160><c> creator</c><00:09:28.640><c> because</c><00:09:28.800><c> they're</c><00:09:29.040><c> thinking</c>
+
+00:09:29.269 --> 00:09:29.279 align:start position:0%
+in the creator because they're thinking
+ 
+
+00:09:29.279 --> 00:09:30.710 align:start position:0%
+in the creator because they're thinking
+this,<00:09:29.600><c> well,</c><00:09:29.760><c> if</c><00:09:29.920><c> you</c><00:09:30.080><c> struggle</c><00:09:30.320><c> with</c><00:09:30.480><c> these</c>
+
+00:09:30.710 --> 00:09:30.720 align:start position:0%
+this, well, if you struggle with these
+ 
+
+00:09:30.720 --> 00:09:32.710 align:start position:0%
+this, well, if you struggle with these
+problems,<00:09:31.200><c> do</c><00:09:31.440><c> I</c><00:09:31.680><c> also</c><00:09:32.000><c> struggle</c><00:09:32.320><c> with</c><00:09:32.480><c> the</c>
+
+00:09:32.710 --> 00:09:32.720 align:start position:0%
+problems, do I also struggle with the
+ 
+
+00:09:32.720 --> 00:09:34.070 align:start position:0%
+problems, do I also struggle with the
+same<00:09:32.880><c> problems</c><00:09:33.279><c> you</c><00:09:33.440><c> do?</c><00:09:33.760><c> That's</c><00:09:33.920><c> what</c>
+
+00:09:34.070 --> 00:09:34.080 align:start position:0%
+same problems you do? That's what
+ 
+
+00:09:34.080 --> 00:09:35.430 align:start position:0%
+same problems you do? That's what
+they're<00:09:34.320><c> questioning</c><00:09:34.640><c> in</c><00:09:34.800><c> their</c><00:09:34.959><c> mind.</c><00:09:35.279><c> If</c>
+
+00:09:35.430 --> 00:09:35.440 align:start position:0%
+they're questioning in their mind. If
+ 
+
+00:09:35.440 --> 00:09:37.190 align:start position:0%
+they're questioning in their mind. If
+the<00:09:35.600><c> viewer</c><00:09:35.920><c> doesn't</c><00:09:36.240><c> see</c><00:09:36.480><c> themsel</c><00:09:36.800><c> in</c><00:09:37.040><c> the</c>
+
+00:09:37.190 --> 00:09:37.200 align:start position:0%
+the viewer doesn't see themsel in the
+ 
+
+00:09:37.200 --> 00:09:38.550 align:start position:0%
+the viewer doesn't see themsel in the
+creator<00:09:37.600><c> for</c><00:09:37.839><c> a</c><00:09:38.080><c> number</c><00:09:38.160><c> of</c><00:09:38.399><c> different</c>
+
+00:09:38.550 --> 00:09:38.560 align:start position:0%
+creator for a number of different
+ 
+
+00:09:38.560 --> 00:09:40.550 align:start position:0%
+creator for a number of different
+reasons,<00:09:39.200><c> they're</c><00:09:39.360><c> going</c><00:09:39.440><c> to</c><00:09:39.600><c> put</c><00:09:39.760><c> less</c><00:09:40.160><c> value</c>
+
+00:09:40.550 --> 00:09:40.560 align:start position:0%
+reasons, they're going to put less value
+ 
+
+00:09:40.560 --> 00:09:42.389 align:start position:0%
+reasons, they're going to put less value
+in<00:09:40.800><c> the</c><00:09:40.959><c> incoming</c><00:09:41.519><c> solution,</c><00:09:41.920><c> and</c><00:09:42.160><c> they'll</c>
+
+00:09:42.389 --> 00:09:42.399 align:start position:0%
+in the incoming solution, and they'll
+ 
+
+00:09:42.399 --> 00:09:44.230 align:start position:0%
+in the incoming solution, and they'll
+stop<00:09:42.640><c> watching.</c><00:09:43.120><c> This</c><00:09:43.279><c> is</c><00:09:43.440><c> the</c><00:09:43.600><c> irrelevance</c>
+
+00:09:44.230 --> 00:09:44.240 align:start position:0%
+stop watching. This is the irrelevance
+ 
+
+00:09:44.240 --> 00:09:45.509 align:start position:0%
+stop watching. This is the irrelevance
+problem.<00:09:44.560><c> The</c><00:09:44.720><c> viewer</c><00:09:44.959><c> doesn't</c><00:09:45.200><c> feel</c><00:09:45.360><c> like</c>
+
+00:09:45.509 --> 00:09:45.519 align:start position:0%
+problem. The viewer doesn't feel like
+ 
+
+00:09:45.519 --> 00:09:47.430 align:start position:0%
+problem. The viewer doesn't feel like
+what's<00:09:45.760><c> coming</c><00:09:45.920><c> next</c><00:09:46.160><c> will</c><00:09:46.480><c> be</c><00:09:46.640><c> relevant</c><00:09:47.200><c> for</c>
+
+00:09:47.430 --> 00:09:47.440 align:start position:0%
+what's coming next will be relevant for
+ 
+
+00:09:47.440 --> 00:09:49.110 align:start position:0%
+what's coming next will be relevant for
+them.<00:09:47.839><c> So,</c><00:09:48.000><c> to</c><00:09:48.240><c> solve</c><00:09:48.399><c> this</c><00:09:48.560><c> problem,</c><00:09:48.880><c> all</c><00:09:49.040><c> you</c>
+
+00:09:49.110 --> 00:09:49.120 align:start position:0%
+them. So, to solve this problem, all you
+ 
+
+00:09:49.120 --> 00:09:51.269 align:start position:0%
+them. So, to solve this problem, all you
+have<00:09:49.200><c> to</c><00:09:49.360><c> do</c><00:09:49.440><c> is</c><00:09:49.600><c> frame</c><00:09:49.920><c> your</c><00:09:50.080><c> hooks</c><00:09:50.560><c> using</c><00:09:50.959><c> you</c>
+
+00:09:51.269 --> 00:09:51.279 align:start position:0%
+have to do is frame your hooks using you
+ 
+
+00:09:51.279 --> 00:09:53.030 align:start position:0%
+have to do is frame your hooks using you
+and<00:09:51.519><c> your.</c><00:09:51.920><c> So</c><00:09:52.080><c> instead</c><00:09:52.320><c> of</c><00:09:52.480><c> saying,</c><00:09:52.640><c> "I've</c>
+
+00:09:53.030 --> 00:09:53.040 align:start position:0%
+and your. So instead of saying, "I've
+ 
+
+00:09:53.040 --> 00:09:54.630 align:start position:0%
+and your. So instead of saying, "I've
+struggled<00:09:53.360><c> with</c><00:09:53.519><c> skin</c><00:09:53.839><c> problems</c><00:09:54.160><c> my</c><00:09:54.480><c> whole</c>
+
+00:09:54.630 --> 00:09:54.640 align:start position:0%
+struggled with skin problems my whole
+ 
+
+00:09:54.640 --> 00:09:56.389 align:start position:0%
+struggled with skin problems my whole
+life,"<00:09:55.040><c> you</c><00:09:55.279><c> say,</c><00:09:55.440><c> "If</c><00:09:55.839><c> you've</c><00:09:56.080><c> struggled</c>
+
+00:09:56.389 --> 00:09:56.399 align:start position:0%
+life," you say, "If you've struggled
+ 
+
+00:09:56.399 --> 00:09:58.389 align:start position:0%
+life," you say, "If you've struggled
+with<00:09:56.560><c> skin</c><00:09:56.800><c> problems</c><00:09:57.200><c> your</c><00:09:57.519><c> whole</c><00:09:57.760><c> life,"</c><00:09:58.160><c> dot</c>
+
+00:09:58.389 --> 00:09:58.399 align:start position:0%
+with skin problems your whole life," dot
+ 
+
+00:09:58.399 --> 00:10:00.070 align:start position:0%
+with skin problems your whole life," dot
+dot<00:09:58.560><c> dot.</c><00:09:58.959><c> When</c><00:09:59.120><c> you</c><00:09:59.279><c> do</c><00:09:59.360><c> this,</c><00:09:59.600><c> the</c><00:09:59.760><c> viewer</c>
+
+00:10:00.070 --> 00:10:00.080 align:start position:0%
+dot dot. When you do this, the viewer
+ 
+
+00:10:00.080 --> 00:10:01.590 align:start position:0%
+dot dot. When you do this, the viewer
+feels<00:10:00.240><c> like</c><00:10:00.399><c> the</c><00:10:00.560><c> video</c><00:10:00.720><c> is</c><00:10:00.959><c> targeted</c><00:10:01.360><c> for</c>
+
+00:10:01.590 --> 00:10:01.600 align:start position:0%
+feels like the video is targeted for
+ 
+
+00:10:01.600 --> 00:10:03.350 align:start position:0%
+feels like the video is targeted for
+them.<00:10:01.920><c> There's</c><00:10:02.160><c> no</c><00:10:02.399><c> possible</c><00:10:02.880><c> question</c><00:10:03.120><c> or</c>
+
+00:10:03.350 --> 00:10:03.360 align:start position:0%
+them. There's no possible question or
+ 
+
+00:10:03.360 --> 00:10:04.389 align:start position:0%
+them. There's no possible question or
+misunderstanding<00:10:03.839><c> because</c><00:10:04.080><c> you're</c><00:10:04.240><c> saying</c>
+
+00:10:04.389 --> 00:10:04.399 align:start position:0%
+misunderstanding because you're saying
+ 
+
+00:10:04.399 --> 00:10:06.949 align:start position:0%
+misunderstanding because you're saying
+it's<00:10:04.640><c> for</c><00:10:04.880><c> you</c><00:10:05.360><c> for</c><00:10:05.680><c> your</c><00:10:06.080><c> problems.</c><00:10:06.640><c> And</c><00:10:06.800><c> this</c>
+
+00:10:06.949 --> 00:10:06.959 align:start position:0%
+it's for you for your problems. And this
+ 
+
+00:10:06.959 --> 00:10:08.790 align:start position:0%
+it's for you for your problems. And this
+makes<00:10:07.120><c> the</c><00:10:07.279><c> viewer</c><00:10:07.680><c> hold</c><00:10:07.839><c> on</c><00:10:08.080><c> longer</c><00:10:08.399><c> for</c><00:10:08.640><c> the</c>
+
+00:10:08.790 --> 00:10:08.800 align:start position:0%
+makes the viewer hold on longer for the
+ 
+
+00:10:08.800 --> 00:10:10.389 align:start position:0%
+makes the viewer hold on longer for the
+hook.<00:10:09.120><c> Now,</c><00:10:09.360><c> the</c><00:10:09.519><c> second</c><00:10:09.680><c> way</c><00:10:09.839><c> to</c><00:10:10.000><c> solve</c><00:10:10.240><c> for</c>
+
+00:10:10.389 --> 00:10:10.399 align:start position:0%
+hook. Now, the second way to solve for
+ 
+
+00:10:10.399 --> 00:10:11.990 align:start position:0%
+hook. Now, the second way to solve for
+the<00:10:10.560><c> relevance</c><00:10:10.959><c> problem</c><00:10:11.200><c> is</c><00:10:11.440><c> to</c><00:10:11.600><c> frame</c><00:10:11.839><c> your</c>
+
+00:10:11.990 --> 00:10:12.000 align:start position:0%
+the relevance problem is to frame your
+ 
+
+00:10:12.000 --> 00:10:14.550 align:start position:0%
+the relevance problem is to frame your
+hooks<00:10:12.399><c> around</c><00:10:13.120><c> expected</c><00:10:13.760><c> value.</c><00:10:14.320><c> There</c><00:10:14.480><c> are</c>
+
+00:10:14.550 --> 00:10:14.560 align:start position:0%
+hooks around expected value. There are
+ 
+
+00:10:14.560 --> 00:10:16.310 align:start position:0%
+hooks around expected value. There are
+two<00:10:14.720><c> types</c><00:10:14.880><c> of</c><00:10:15.040><c> videos:</c><00:10:15.440><c> entertainment</c><00:10:16.000><c> and</c>
+
+00:10:16.310 --> 00:10:16.320 align:start position:0%
+two types of videos: entertainment and
+ 
+
+00:10:16.320 --> 00:10:18.310 align:start position:0%
+two types of videos: entertainment and
+education.<00:10:16.959><c> Both</c><00:10:17.120><c> of</c><00:10:17.200><c> these</c><00:10:17.440><c> offer</c><00:10:17.839><c> solutions</c>
+
+00:10:18.310 --> 00:10:18.320 align:start position:0%
+education. Both of these offer solutions
+ 
+
+00:10:18.320 --> 00:10:20.310 align:start position:0%
+education. Both of these offer solutions
+to<00:10:18.480><c> a</c><00:10:18.640><c> painoint.</c><00:10:19.120><c> That</c><00:10:19.360><c> solution</c><00:10:19.600><c> is</c><00:10:19.839><c> value.</c>
+
+00:10:20.310 --> 00:10:20.320 align:start position:0%
+to a painoint. That solution is value.
+ 
+
+00:10:20.320 --> 00:10:21.910 align:start position:0%
+to a painoint. That solution is value.
+Entertainment<00:10:20.959><c> offers</c><00:10:21.279><c> a</c><00:10:21.440><c> solve</c><00:10:21.680><c> for</c>
+
+00:10:21.910 --> 00:10:21.920 align:start position:0%
+Entertainment offers a solve for
+ 
+
+00:10:21.920 --> 00:10:24.310 align:start position:0%
+Entertainment offers a solve for
+boredom.<00:10:22.560><c> Education</c><00:10:23.120><c> offers</c><00:10:23.440><c> a</c><00:10:23.600><c> solve</c><00:10:23.839><c> for</c><00:10:24.079><c> a</c>
+
+00:10:24.310 --> 00:10:24.320 align:start position:0%
+boredom. Education offers a solve for a
+ 
+
+00:10:24.320 --> 00:10:25.990 align:start position:0%
+boredom. Education offers a solve for a
+specific<00:10:24.720><c> problem.</c><00:10:25.200><c> If</c><00:10:25.360><c> you</c><00:10:25.440><c> want</c><00:10:25.519><c> your</c><00:10:25.680><c> hook</c>
+
+00:10:25.990 --> 00:10:26.000 align:start position:0%
+specific problem. If you want your hook
+ 
+
+00:10:26.000 --> 00:10:27.829 align:start position:0%
+specific problem. If you want your hook
+to<00:10:26.160><c> feel</c><00:10:26.320><c> more</c><00:10:26.560><c> relevant</c><00:10:26.959><c> for</c><00:10:27.200><c> your</c><00:10:27.360><c> viewer,</c>
+
+00:10:27.829 --> 00:10:27.839 align:start position:0%
+to feel more relevant for your viewer,
+ 
+
+00:10:27.839 --> 00:10:29.990 align:start position:0%
+to feel more relevant for your viewer,
+all<00:10:28.000><c> you</c><00:10:28.160><c> have</c><00:10:28.240><c> to</c><00:10:28.320><c> do</c><00:10:28.480><c> is</c><00:10:28.800><c> agitate</c><00:10:29.279><c> a</c><00:10:29.600><c> painoint</c>
+
+00:10:29.990 --> 00:10:30.000 align:start position:0%
+all you have to do is agitate a painoint
+ 
+
+00:10:30.000 --> 00:10:31.829 align:start position:0%
+all you have to do is agitate a painoint
+that<00:10:30.320><c> they</c><00:10:30.560><c> already</c><00:10:30.800><c> have</c><00:10:31.279><c> so</c><00:10:31.440><c> that</c><00:10:31.600><c> you</c><00:10:31.760><c> can</c>
+
+00:10:31.829 --> 00:10:31.839 align:start position:0%
+that they already have so that you can
+ 
+
+00:10:31.839 --> 00:10:34.069 align:start position:0%
+that they already have so that you can
+tee<00:10:32.079><c> up</c><00:10:32.240><c> a</c><00:10:32.480><c> solution</c><00:10:32.800><c> that</c><00:10:33.040><c> is</c><00:10:33.360><c> for</c><00:10:33.600><c> them.</c><00:10:34.000><c> For</c>
+
+00:10:34.069 --> 00:10:34.079 align:start position:0%
+tee up a solution that is for them. For
+ 
+
+00:10:34.079 --> 00:10:35.350 align:start position:0%
+tee up a solution that is for them. For
+example,<00:10:34.480><c> can</c><00:10:34.640><c> you</c><00:10:34.800><c> tell</c><00:10:34.959><c> the</c><00:10:35.200><c> difference</c>
+
+00:10:35.350 --> 00:10:35.360 align:start position:0%
+example, can you tell the difference
+ 
+
+00:10:35.360 --> 00:10:37.190 align:start position:0%
+example, can you tell the difference
+between<00:10:35.680><c> these</c><00:10:36.000><c> two</c><00:10:36.240><c> hooks?</c><00:10:36.720><c> The</c><00:10:36.959><c> first</c><00:10:37.040><c> one</c>
+
+00:10:37.190 --> 00:10:37.200 align:start position:0%
+between these two hooks? The first one
+ 
+
+00:10:37.200 --> 00:10:39.269 align:start position:0%
+between these two hooks? The first one
+is<00:10:37.600><c> these</c><00:10:37.839><c> are</c><00:10:38.000><c> three</c><00:10:38.320><c> common</c><00:10:38.720><c> trends</c><00:10:39.040><c> in</c>
+
+00:10:39.269 --> 00:10:39.279 align:start position:0%
+is these are three common trends in
+ 
+
+00:10:39.279 --> 00:10:41.110 align:start position:0%
+is these are three common trends in
+skincare.<00:10:39.839><c> And</c><00:10:40.000><c> the</c><00:10:40.160><c> second</c><00:10:40.320><c> one</c><00:10:40.480><c> is</c><00:10:40.800><c> if</c><00:10:40.959><c> you</c>
+
+00:10:41.110 --> 00:10:41.120 align:start position:0%
+skincare. And the second one is if you
+ 
+
+00:10:41.120 --> 00:10:42.790 align:start position:0%
+skincare. And the second one is if you
+struggle<00:10:41.360><c> with</c><00:10:41.519><c> acne,</c><00:10:42.000><c> try</c><00:10:42.240><c> these</c><00:10:42.560><c> three</c>
+
+00:10:42.790 --> 00:10:42.800 align:start position:0%
+struggle with acne, try these three
+ 
+
+00:10:42.800 --> 00:10:44.470 align:start position:0%
+struggle with acne, try these three
+things.<00:10:43.360><c> Learning</c><00:10:43.680><c> about</c><00:10:43.920><c> trends</c><00:10:44.240><c> in</c>
+
+00:10:44.470 --> 00:10:44.480 align:start position:0%
+things. Learning about trends in
+ 
+
+00:10:44.480 --> 00:10:46.710 align:start position:0%
+things. Learning about trends in
+skincare<00:10:44.959><c> is</c><00:10:45.200><c> a</c><00:10:45.360><c> nice</c><00:10:45.600><c> to</c><00:10:45.760><c> have.</c><00:10:46.160><c> Solving</c><00:10:46.480><c> my</c>
+
+00:10:46.710 --> 00:10:46.720 align:start position:0%
+skincare is a nice to have. Solving my
+ 
+
+00:10:46.720 --> 00:10:48.870 align:start position:0%
+skincare is a nice to have. Solving my
+acne<00:10:47.120><c> problem</c><00:10:47.519><c> is</c><00:10:47.760><c> a</c><00:10:47.920><c> need</c><00:10:48.079><c> to</c><00:10:48.320><c> have.</c><00:10:48.560><c> So,</c><00:10:48.720><c> if</c>
+
+00:10:48.870 --> 00:10:48.880 align:start position:0%
+acne problem is a need to have. So, if
+ 
+
+00:10:48.880 --> 00:10:50.389 align:start position:0%
+acne problem is a need to have. So, if
+you<00:10:49.040><c> frame</c><00:10:49.279><c> the</c><00:10:49.440><c> hook</c><00:10:49.680><c> around</c><00:10:49.920><c> a</c><00:10:50.079><c> known</c>
+
+00:10:50.389 --> 00:10:50.399 align:start position:0%
+you frame the hook around a known
+ 
+
+00:10:50.399 --> 00:10:52.310 align:start position:0%
+you frame the hook around a known
+painoint<00:10:50.800><c> and</c><00:10:51.040><c> you</c><00:10:51.279><c> deliver</c><00:10:51.600><c> it</c><00:10:51.839><c> using</c><00:10:52.160><c> you</c>
+
+00:10:52.310 --> 00:10:52.320 align:start position:0%
+painoint and you deliver it using you
+ 
+
+00:10:52.320 --> 00:10:54.310 align:start position:0%
+painoint and you deliver it using you
+and<00:10:52.560><c> your</c><00:10:52.800><c> instead</c><00:10:53.120><c> of</c><00:10:53.200><c> me</c><00:10:53.360><c> and</c><00:10:53.600><c> my,</c><00:10:53.839><c> the</c><00:10:54.079><c> video</c>
+
+00:10:54.310 --> 00:10:54.320 align:start position:0%
+and your instead of me and my, the video
+ 
+
+00:10:54.320 --> 00:10:56.069 align:start position:0%
+and your instead of me and my, the video
+will<00:10:54.480><c> seem</c><00:10:54.720><c> more</c><00:10:54.959><c> targeted</c><00:10:55.360><c> for</c><00:10:55.600><c> the</c><00:10:55.760><c> viewer</c>
+
+00:10:56.069 --> 00:10:56.079 align:start position:0%
+will seem more targeted for the viewer
+ 
+
+00:10:56.079 --> 00:10:57.590 align:start position:0%
+will seem more targeted for the viewer
+and<00:10:56.240><c> it</c><00:10:56.399><c> will</c><00:10:56.560><c> hook</c><00:10:56.720><c> them</c><00:10:56.959><c> more.</c><00:10:57.200><c> Okay,</c><00:10:57.360><c> the</c>
+
+00:10:57.590 --> 00:10:57.600 align:start position:0%
+and it will hook them more. Okay, the
+ 
+
+00:10:57.600 --> 00:10:59.430 align:start position:0%
+and it will hook them more. Okay, the
+last<00:10:57.680><c> hook</c><00:10:58.000><c> problem</c><00:10:58.399><c> number</c><00:10:58.640><c> four</c><00:10:58.959><c> is</c>
+
+00:10:59.430 --> 00:10:59.440 align:start position:0%
+last hook problem number four is
+ 
+
+00:10:59.440 --> 00:11:01.110 align:start position:0%
+last hook problem number four is
+disinterest.<00:11:00.320><c> And</c><00:11:00.480><c> this</c><00:11:00.640><c> is</c><00:11:00.720><c> the</c><00:11:00.880><c> one</c><00:11:00.959><c> that</c>
+
+00:11:01.110 --> 00:11:01.120 align:start position:0%
+disinterest. And this is the one that
+ 
+
+00:11:01.120 --> 00:11:03.110 align:start position:0%
+disinterest. And this is the one that
+most<00:11:01.360><c> people</c><00:11:01.600><c> fixate</c><00:11:02.079><c> on</c><00:11:02.240><c> the</c><00:11:02.480><c> most.</c><00:11:02.800><c> At</c><00:11:02.959><c> this</c>
+
+00:11:03.110 --> 00:11:03.120 align:start position:0%
+most people fixate on the most. At this
+ 
+
+00:11:03.120 --> 00:11:05.030 align:start position:0%
+most people fixate on the most. At this
+point,<00:11:03.279><c> the</c><00:11:03.440><c> viewer</c><00:11:03.760><c> is</c><00:11:04.000><c> clear</c><00:11:04.160><c> on</c><00:11:04.320><c> the</c><00:11:04.480><c> topic,</c>
+
+00:11:05.030 --> 00:11:05.040 align:start position:0%
+point, the viewer is clear on the topic,
+ 
+
+00:11:05.040 --> 00:11:07.190 align:start position:0%
+point, the viewer is clear on the topic,
+believes<00:11:05.519><c> there</c><00:11:05.760><c> is</c><00:11:06.000><c> some</c><00:11:06.399><c> relevance</c><00:11:06.880><c> or</c>
+
+00:11:07.190 --> 00:11:07.200 align:start position:0%
+believes there is some relevance or
+ 
+
+00:11:07.200 --> 00:11:09.350 align:start position:0%
+believes there is some relevance or
+value<00:11:07.680><c> incoming</c><00:11:08.160><c> for</c><00:11:08.399><c> them,</c><00:11:08.640><c> but</c><00:11:08.880><c> the</c><00:11:09.040><c> hook</c>
+
+00:11:09.350 --> 00:11:09.360 align:start position:0%
+value incoming for them, but the hook
+ 
+
+00:11:09.360 --> 00:11:11.430 align:start position:0%
+value incoming for them, but the hook
+still<00:11:09.680><c> just</c><00:11:10.079><c> doesn't</c><00:11:10.480><c> grab</c><00:11:10.800><c> them</c><00:11:10.959><c> enough.</c>
+
+00:11:11.430 --> 00:11:11.440 align:start position:0%
+still just doesn't grab them enough.
+ 
+
+00:11:11.440 --> 00:11:13.590 align:start position:0%
+still just doesn't grab them enough.
+This<00:11:11.680><c> is</c><00:11:11.760><c> the</c><00:11:12.079><c> curiosity</c><00:11:12.800><c> problem.</c><00:11:13.200><c> The</c><00:11:13.360><c> hook</c>
+
+00:11:13.590 --> 00:11:13.600 align:start position:0%
+This is the curiosity problem. The hook
+ 
+
+00:11:13.600 --> 00:11:15.190 align:start position:0%
+This is the curiosity problem. The hook
+just<00:11:13.760><c> doesn't</c><00:11:14.000><c> make</c><00:11:14.160><c> the</c><00:11:14.320><c> viewer</c><00:11:14.720><c> curious</c>
+
+00:11:15.190 --> 00:11:15.200 align:start position:0%
+just doesn't make the viewer curious
+ 
+
+00:11:15.200 --> 00:11:16.710 align:start position:0%
+just doesn't make the viewer curious
+enough<00:11:15.360><c> to</c><00:11:15.600><c> want</c><00:11:15.760><c> to</c><00:11:15.920><c> keep</c><00:11:16.079><c> watching.</c><00:11:16.480><c> So,</c>
+
+00:11:16.710 --> 00:11:16.720 align:start position:0%
+enough to want to keep watching. So,
+ 
+
+00:11:16.720 --> 00:11:18.310 align:start position:0%
+enough to want to keep watching. So,
+what<00:11:16.880><c> you</c><00:11:17.040><c> want</c><00:11:17.120><c> to</c><00:11:17.200><c> do</c><00:11:17.279><c> in</c><00:11:17.519><c> the</c><00:11:17.600><c> hook</c><00:11:17.920><c> to</c><00:11:18.079><c> solve</c>
+
+00:11:18.310 --> 00:11:18.320 align:start position:0%
+what you want to do in the hook to solve
+ 
+
+00:11:18.320 --> 00:11:20.310 align:start position:0%
+what you want to do in the hook to solve
+the<00:11:18.560><c> disinterest</c><00:11:19.040><c> problem</c><00:11:19.440><c> is</c><00:11:19.760><c> build</c><00:11:20.000><c> a</c>
+
+00:11:20.310 --> 00:11:20.320 align:start position:0%
+the disinterest problem is build a
+ 
+
+00:11:20.320 --> 00:11:22.069 align:start position:0%
+the disinterest problem is build a
+curiosity<00:11:20.959><c> loop.</c><00:11:21.360><c> And</c><00:11:21.519><c> everybody</c><00:11:21.839><c> talks</c>
+
+00:11:22.069 --> 00:11:22.079 align:start position:0%
+curiosity loop. And everybody talks
+ 
+
+00:11:22.079 --> 00:11:23.430 align:start position:0%
+curiosity loop. And everybody talks
+about<00:11:22.240><c> curiosity</c><00:11:22.720><c> loop,</c><00:11:22.880><c> but</c><00:11:23.040><c> nobody</c><00:11:23.279><c> ever</c>
+
+00:11:23.430 --> 00:11:23.440 align:start position:0%
+about curiosity loop, but nobody ever
+ 
+
+00:11:23.440 --> 00:11:25.030 align:start position:0%
+about curiosity loop, but nobody ever
+explains<00:11:23.680><c> what</c><00:11:23.839><c> it</c><00:11:23.920><c> is.</c><00:11:24.079><c> A</c><00:11:24.240><c> curiosity</c><00:11:24.720><c> loop</c><00:11:24.880><c> is</c>
+
+00:11:25.030 --> 00:11:25.040 align:start position:0%
+explains what it is. A curiosity loop is
+ 
+
+00:11:25.040 --> 00:11:27.350 align:start position:0%
+explains what it is. A curiosity loop is
+when<00:11:25.200><c> the</c><00:11:25.360><c> viewer</c><00:11:25.839><c> sees</c><00:11:26.160><c> something,</c><00:11:26.880><c> asks</c><00:11:27.200><c> a</c>
+
+00:11:27.350 --> 00:11:27.360 align:start position:0%
+when the viewer sees something, asks a
+ 
+
+00:11:27.360 --> 00:11:29.030 align:start position:0%
+when the viewer sees something, asks a
+hypothetical<00:11:27.920><c> question</c><00:11:28.160><c> in</c><00:11:28.320><c> their</c><00:11:28.480><c> mind,</c>
+
+00:11:29.030 --> 00:11:29.040 align:start position:0%
+hypothetical question in their mind,
+ 
+
+00:11:29.040 --> 00:11:31.190 align:start position:0%
+hypothetical question in their mind,
+gets<00:11:29.360><c> some</c><00:11:29.839><c> additional</c><00:11:30.320><c> context</c><00:11:30.800><c> to</c><00:11:30.959><c> answer</c>
+
+00:11:31.190 --> 00:11:31.200 align:start position:0%
+gets some additional context to answer
+ 
+
+00:11:31.200 --> 00:11:33.269 align:start position:0%
+gets some additional context to answer
+it,<00:11:31.360><c> but</c><00:11:31.600><c> that</c><00:11:31.839><c> spurs</c><00:11:32.160><c> a</c><00:11:32.320><c> new</c><00:11:32.480><c> question,</c><00:11:32.959><c> more</c>
+
+00:11:33.269 --> 00:11:33.279 align:start position:0%
+it, but that spurs a new question, more
+ 
+
+00:11:33.279 --> 00:11:35.430 align:start position:0%
+it, but that spurs a new question, more
+context,<00:11:33.920><c> new</c><00:11:34.160><c> question,</c><00:11:34.640><c> more</c><00:11:34.880><c> context,</c><00:11:35.279><c> and</c>
+
+00:11:35.430 --> 00:11:35.440 align:start position:0%
+context, new question, more context, and
+ 
+
+00:11:35.440 --> 00:11:37.190 align:start position:0%
+context, new question, more context, and
+so<00:11:35.600><c> on.</c><00:11:36.000><c> They</c><00:11:36.240><c> keep</c><00:11:36.480><c> opening</c><00:11:36.800><c> loops</c>
+
+00:11:37.190 --> 00:11:37.200 align:start position:0%
+so on. They keep opening loops
+ 
+
+00:11:37.200 --> 00:11:38.710 align:start position:0%
+so on. They keep opening loops
+throughout<00:11:37.519><c> the</c><00:11:37.760><c> entire</c><00:11:38.000><c> video.</c><00:11:38.480><c> That's</c><00:11:38.640><c> what</c>
+
+00:11:38.710 --> 00:11:38.720 align:start position:0%
+throughout the entire video. That's what
+ 
+
+00:11:38.720 --> 00:11:40.710 align:start position:0%
+throughout the entire video. That's what
+a<00:11:38.959><c> curiosity</c><00:11:39.440><c> loop</c><00:11:39.760><c> really</c><00:11:39.920><c> is.</c><00:11:40.240><c> So,</c><00:11:40.399><c> your</c><00:11:40.560><c> job</c>
+
+00:11:40.710 --> 00:11:40.720 align:start position:0%
+a curiosity loop really is. So, your job
+ 
+
+00:11:40.720 --> 00:11:42.470 align:start position:0%
+a curiosity loop really is. So, your job
+in<00:11:40.880><c> the</c><00:11:40.959><c> hook</c><00:11:41.120><c> is</c><00:11:41.279><c> to</c><00:11:41.440><c> open</c><00:11:41.680><c> that</c><00:11:42.000><c> initial</c>
+
+00:11:42.470 --> 00:11:42.480 align:start position:0%
+in the hook is to open that initial
+ 
+
+00:11:42.480 --> 00:11:44.230 align:start position:0%
+in the hook is to open that initial
+curiosity<00:11:43.040><c> loop</c><00:11:43.279><c> and</c><00:11:43.519><c> start</c><00:11:43.680><c> the</c><00:11:43.839><c> spiral.</c>
+
+00:11:44.230 --> 00:11:44.240 align:start position:0%
+curiosity loop and start the spiral.
+ 
+
+00:11:44.240 --> 00:11:46.069 align:start position:0%
+curiosity loop and start the spiral.
+What<00:11:44.399><c> is</c><00:11:44.560><c> that</c><00:11:44.720><c> initial</c><00:11:45.200><c> question</c><00:11:45.680><c> that</c><00:11:45.920><c> the</c>
+
+00:11:46.069 --> 00:11:46.079 align:start position:0%
+What is that initial question that the
+ 
+
+00:11:46.079 --> 00:11:47.990 align:start position:0%
+What is that initial question that the
+viewer<00:11:46.399><c> has</c><00:11:46.800><c> where</c><00:11:47.120><c> they</c><00:11:47.360><c> can't</c><00:11:47.519><c> look</c><00:11:47.760><c> away?</c>
+
+00:11:47.990 --> 00:11:48.000 align:start position:0%
+viewer has where they can't look away?
+ 
+
+00:11:48.000 --> 00:11:49.509 align:start position:0%
+viewer has where they can't look away?
+They<00:11:48.160><c> just</c><00:11:48.320><c> have</c><00:11:48.399><c> to</c><00:11:48.560><c> wait</c><00:11:48.720><c> for</c><00:11:48.880><c> more</c><00:11:49.120><c> context</c>
+
+00:11:49.509 --> 00:11:49.519 align:start position:0%
+They just have to wait for more context
+ 
+
+00:11:49.519 --> 00:11:51.590 align:start position:0%
+They just have to wait for more context
+to<00:11:49.760><c> answer</c><00:11:50.000><c> it.</c><00:11:50.320><c> So,</c><00:11:50.480><c> the</c><00:11:50.880><c> $10</c><00:11:51.120><c> million</c>
+
+00:11:51.590 --> 00:11:51.600 align:start position:0%
+to answer it. So, the $10 million
+ 
+
+00:11:51.600 --> 00:11:53.670 align:start position:0%
+to answer it. So, the $10 million
+content<00:11:52.000><c> question</c><00:11:52.320><c> really</c><00:11:52.640><c> is</c><00:11:52.800><c> this.</c><00:11:53.360><c> How</c><00:11:53.519><c> do</c>
+
+00:11:53.670 --> 00:11:53.680 align:start position:0%
+content question really is this. How do
+ 
+
+00:11:53.680 --> 00:11:56.069 align:start position:0%
+content question really is this. How do
+you<00:11:53.920><c> always</c><00:11:54.399><c> drive</c><00:11:54.800><c> curiosity</c><00:11:55.519><c> and</c><00:11:55.760><c> build</c>
+
+00:11:56.069 --> 00:11:56.079 align:start position:0%
+you always drive curiosity and build
+ 
+
+00:11:56.079 --> 00:11:58.389 align:start position:0%
+you always drive curiosity and build
+that<00:11:56.320><c> curiosity</c><00:11:56.880><c> loop</c><00:11:57.360><c> every</c><00:11:57.680><c> single</c><00:11:58.000><c> time,</c>
+
+00:11:58.389 --> 00:11:58.399 align:start position:0%
+that curiosity loop every single time,
+ 
+
+00:11:58.399 --> 00:11:59.750 align:start position:0%
+that curiosity loop every single time,
+no matter<00:11:58.800><c> what</c><00:11:58.959><c> type</c><00:11:59.120><c> of</c><00:11:59.279><c> video</c><00:11:59.519><c> you're</c>
+
+00:11:59.750 --> 00:11:59.760 align:start position:0%
+no matter what type of video you're
+ 
+
+00:11:59.760 --> 00:12:01.350 align:start position:0%
+no matter what type of video you're
+making?<00:12:00.079><c> And</c><00:12:00.240><c> the</c><00:12:00.399><c> way</c><00:12:00.480><c> you</c><00:12:00.640><c> do</c><00:12:00.800><c> this</c><00:12:00.959><c> is</c><00:12:01.120><c> by</c>
+
+00:12:01.350 --> 00:12:01.360 align:start position:0%
+making? And the way you do this is by
+ 
+
+00:12:01.360 --> 00:12:03.990 align:start position:0%
+making? And the way you do this is by
+setting<00:12:01.600><c> up</c><00:12:01.920><c> contrast</c><00:12:02.640><c> or</c><00:12:02.959><c> comparison</c><00:12:03.600><c> in</c><00:12:03.839><c> the</c>
+
+00:12:03.990 --> 00:12:04.000 align:start position:0%
+setting up contrast or comparison in the
+ 
+
+00:12:04.000 --> 00:12:06.310 align:start position:0%
+setting up contrast or comparison in the
+hook.<00:12:04.560><c> Contrast</c><00:12:05.040><c> is</c><00:12:05.279><c> simply</c><00:12:05.519><c> the</c><00:12:05.839><c> distance</c>
+
+00:12:06.310 --> 00:12:06.320 align:start position:0%
+hook. Contrast is simply the distance
+ 
+
+00:12:06.320 --> 00:12:08.629 align:start position:0%
+hook. Contrast is simply the distance
+between<00:12:06.720><c> the</c><00:12:07.040><c> current</c><00:12:07.519><c> common</c><00:12:07.920><c> belief</c><00:12:08.240><c> of</c><00:12:08.399><c> the</c>
+
+00:12:08.629 --> 00:12:08.639 align:start position:0%
+between the current common belief of the
+ 
+
+00:12:08.639 --> 00:12:10.949 align:start position:0%
+between the current common belief of the
+viewer<00:12:09.120><c> and</c><00:12:09.440><c> some</c><00:12:09.920><c> contrarian</c><00:12:10.639><c> or</c>
+
+00:12:10.949 --> 00:12:10.959 align:start position:0%
+viewer and some contrarian or
+ 
+
+00:12:10.959 --> 00:12:12.790 align:start position:0%
+viewer and some contrarian or
+alternative<00:12:11.600><c> perspective</c><00:12:12.000><c> that</c><00:12:12.240><c> you</c><00:12:12.399><c> offer.</c>
+
+00:12:12.790 --> 00:12:12.800 align:start position:0%
+alternative perspective that you offer.
+ 
+
+00:12:12.800 --> 00:12:14.629 align:start position:0%
+alternative perspective that you offer.
+So,<00:12:13.040><c> for</c><00:12:13.120><c> example,</c><00:12:13.440><c> if</c><00:12:13.600><c> I</c><00:12:13.760><c> say</c><00:12:13.920><c> in</c><00:12:14.079><c> the</c><00:12:14.160><c> hook,</c>
+
+00:12:14.629 --> 00:12:14.639 align:start position:0%
+So, for example, if I say in the hook,
+ 
+
+00:12:14.639 --> 00:12:16.470 align:start position:0%
+So, for example, if I say in the hook,
+this<00:12:14.880><c> one</c><00:12:15.200><c> trick</c><00:12:15.519><c> will</c><00:12:15.760><c> clear</c><00:12:16.000><c> up</c><00:12:16.160><c> all</c><00:12:16.320><c> your</c>
+
+00:12:16.470 --> 00:12:16.480 align:start position:0%
+this one trick will clear up all your
+ 
+
+00:12:16.480 --> 00:12:18.470 align:start position:0%
+this one trick will clear up all your
+acne<00:12:16.880><c> in</c><00:12:17.120><c> 45</c><00:12:17.440><c> minutes</c><00:12:17.760><c> without</c><00:12:18.079><c> any</c><00:12:18.320><c> side</c>
+
+00:12:18.470 --> 00:12:18.480 align:start position:0%
+acne in 45 minutes without any side
+ 
+
+00:12:18.480 --> 00:12:20.150 align:start position:0%
+acne in 45 minutes without any side
+effects.<00:12:19.040><c> What</c><00:12:19.200><c> I'm</c><00:12:19.440><c> really</c><00:12:19.680><c> doing</c><00:12:19.920><c> is</c>
+
+00:12:20.150 --> 00:12:20.160 align:start position:0%
+effects. What I'm really doing is
+ 
+
+00:12:20.160 --> 00:12:21.990 align:start position:0%
+effects. What I'm really doing is
+creating<00:12:20.480><c> a</c><00:12:20.800><c> comparison</c><00:12:21.200><c> in</c><00:12:21.440><c> your</c><00:12:21.600><c> mind</c><00:12:21.760><c> to</c>
+
+00:12:21.990 --> 00:12:22.000 align:start position:0%
+creating a comparison in your mind to
+ 
+
+00:12:22.000 --> 00:12:23.829 align:start position:0%
+creating a comparison in your mind to
+the<00:12:22.160><c> current</c><00:12:22.399><c> baseline.</c><00:12:23.120><c> You</c><00:12:23.279><c> got</c><00:12:23.360><c> to</c><00:12:23.440><c> wait</c><00:12:23.680><c> 6</c>
+
+00:12:23.829 --> 00:12:23.839 align:start position:0%
+the current baseline. You got to wait 6
+ 
+
+00:12:23.839 --> 00:12:25.350 align:start position:0%
+the current baseline. You got to wait 6
+months,<00:12:24.160><c> take</c><00:12:24.399><c> Accutane,</c><00:12:25.040><c> go</c><00:12:25.120><c> through</c><00:12:25.279><c> all</c>
+
+00:12:25.350 --> 00:12:25.360 align:start position:0%
+months, take Accutane, go through all
+ 
+
+00:12:25.360 --> 00:12:27.670 align:start position:0%
+months, take Accutane, go through all
+these<00:12:25.600><c> side</c><00:12:25.680><c> effects</c><00:12:26.320><c> versus</c><00:12:26.720><c> my</c><00:12:27.040><c> contrarian</c>
+
+00:12:27.670 --> 00:12:27.680 align:start position:0%
+these side effects versus my contrarian
+ 
+
+00:12:27.680 --> 00:12:29.750 align:start position:0%
+these side effects versus my contrarian
+offer,<00:12:28.320><c> 45</c><00:12:28.720><c> minutes,</c><00:12:29.040><c> no</c><00:12:29.279><c> side</c><00:12:29.440><c> effects,</c>
+
+00:12:29.750 --> 00:12:29.760 align:start position:0%
+offer, 45 minutes, no side effects,
+ 
+
+00:12:29.760 --> 00:12:32.710 align:start position:0%
+offer, 45 minutes, no side effects,
+quick<00:12:30.079><c> solve.</c><00:12:30.560><c> That</c><00:12:30.880><c> distance</c><00:12:31.519><c> is</c><00:12:31.920><c> contrast.</c>
+
+00:12:32.710 --> 00:12:32.720 align:start position:0%
+quick solve. That distance is contrast.
+ 
+
+00:12:32.720 --> 00:12:34.150 align:start position:0%
+quick solve. That distance is contrast.
+What<00:12:32.959><c> happens</c><00:12:33.200><c> when</c><00:12:33.440><c> you</c><00:12:33.519><c> do</c><00:12:33.680><c> this</c><00:12:33.839><c> in</c><00:12:34.000><c> the</c>
+
+00:12:34.150 --> 00:12:34.160 align:start position:0%
+What happens when you do this in the
+ 
+
+00:12:34.160 --> 00:12:35.670 align:start position:0%
+What happens when you do this in the
+viewer<00:12:34.480><c> subconscious</c><00:12:34.959><c> is</c><00:12:35.200><c> that</c><00:12:35.360><c> when</c><00:12:35.519><c> you</c>
+
+00:12:35.670 --> 00:12:35.680 align:start position:0%
+viewer subconscious is that when you
+ 
+
+00:12:35.680 --> 00:12:38.150 align:start position:0%
+viewer subconscious is that when you
+frame<00:12:36.079><c> a</c><00:12:36.399><c> comparison,</c><00:12:37.200><c> A</c><00:12:37.600><c> something</c><00:12:37.839><c> they</c>
+
+00:12:38.150 --> 00:12:38.160 align:start position:0%
+frame a comparison, A something they
+ 
+
+00:12:38.160 --> 00:12:40.470 align:start position:0%
+frame a comparison, A something they
+know<00:12:38.320><c> and</c><00:12:38.639><c> B</c><00:12:38.880><c> something</c><00:12:39.120><c> they</c><00:12:39.360><c> don't,</c><00:12:39.920><c> B</c>
+
+00:12:40.470 --> 00:12:40.480 align:start position:0%
+know and B something they don't, B
+ 
+
+00:12:40.480 --> 00:12:42.949 align:start position:0%
+know and B something they don't, B
+triggers<00:12:41.120><c> the</c><00:12:41.440><c> sticky</c><00:12:41.920><c> pain</c><00:12:42.240><c> point</c><00:12:42.480><c> they</c><00:12:42.800><c> have</c>
+
+00:12:42.949 --> 00:12:42.959 align:start position:0%
+triggers the sticky pain point they have
+ 
+
+00:12:42.959 --> 00:12:45.430 align:start position:0%
+triggers the sticky pain point they have
+from<00:12:43.279><c> A</c><00:12:43.760><c> not</c><00:12:44.000><c> solving</c><00:12:44.399><c> their</c><00:12:44.639><c> pain.</c><00:12:45.040><c> And</c><00:12:45.200><c> so</c>
+
+00:12:45.430 --> 00:12:45.440 align:start position:0%
+from A not solving their pain. And so
+ 
+
+00:12:45.440 --> 00:12:47.430 align:start position:0%
+from A not solving their pain. And so
+essentially<00:12:45.680><c> that</c><00:12:46.000><c> comparison</c><00:12:46.560><c> acts</c><00:12:46.959><c> as</c><00:12:47.120><c> a</c>
+
+00:12:47.430 --> 00:12:47.440 align:start position:0%
+essentially that comparison acts as a
+ 
+
+00:12:47.440 --> 00:12:49.590 align:start position:0%
+essentially that comparison acts as a
+reagitator<00:12:48.320><c> of</c><00:12:48.560><c> that</c><00:12:48.720><c> painoint</c><00:12:49.200><c> which</c><00:12:49.440><c> gets</c>
+
+00:12:49.590 --> 00:12:49.600 align:start position:0%
+reagitator of that painoint which gets
+ 
+
+00:12:49.600 --> 00:12:51.269 align:start position:0%
+reagitator of that painoint which gets
+them<00:12:49.760><c> curious</c><00:12:50.320><c> because</c><00:12:50.560><c> they</c><00:12:50.800><c> want</c><00:12:50.880><c> to</c><00:12:51.040><c> solve</c>
+
+00:12:51.269 --> 00:12:51.279 align:start position:0%
+them curious because they want to solve
+ 
+
+00:12:51.279 --> 00:12:53.190 align:start position:0%
+them curious because they want to solve
+it.<00:12:51.519><c> To</c><00:12:51.760><c> simplify</c><00:12:52.160><c> all</c><00:12:52.320><c> this,</c><00:12:52.720><c> if</c><00:12:52.880><c> you're</c><00:12:53.040><c> not</c>
+
+00:12:53.190 --> 00:12:53.200 align:start position:0%
+it. To simplify all this, if you're not
+ 
+
+00:12:53.200 --> 00:12:55.350 align:start position:0%
+it. To simplify all this, if you're not
+following<00:12:53.519><c> what</c><00:12:53.680><c> I'm</c><00:12:53.839><c> saying,</c><00:12:54.160><c> it's</c><00:12:54.480><c> A</c><00:12:54.959><c> versus</c>
+
+00:12:55.350 --> 00:12:55.360 align:start position:0%
+following what I'm saying, it's A versus
+ 
+
+00:12:55.360 --> 00:12:57.990 align:start position:0%
+following what I'm saying, it's A versus
+B.<00:12:55.839><c> A</c><00:12:56.079><c> is</c><00:12:56.240><c> what</c><00:12:56.399><c> they</c><00:12:56.560><c> already</c><00:12:56.880><c> believe.</c><00:12:57.440><c> B</c><00:12:57.760><c> is</c>
+
+00:12:57.990 --> 00:12:58.000 align:start position:0%
+B. A is what they already believe. B is
+ 
+
+00:12:58.000 --> 00:12:59.509 align:start position:0%
+B. A is what they already believe. B is
+some<00:12:58.160><c> alternative</c><00:12:58.639><c> that</c><00:12:58.880><c> you're</c><00:12:59.120><c> suggesting</c>
+
+00:12:59.509 --> 00:12:59.519 align:start position:0%
+some alternative that you're suggesting
+ 
+
+00:12:59.519 --> 00:13:01.269 align:start position:0%
+some alternative that you're suggesting
+that<00:12:59.760><c> makes</c><00:13:00.000><c> their</c><00:13:00.240><c> pain</c><00:13:00.480><c> point</c><00:13:00.720><c> solved</c>
+
+00:13:01.269 --> 00:13:01.279 align:start position:0%
+that makes their pain point solved
+ 
+
+00:13:01.279 --> 00:13:03.110 align:start position:0%
+that makes their pain point solved
+faster,<00:13:01.760><c> better,</c><00:13:01.920><c> or</c><00:13:02.160><c> cheaper.</c><00:13:02.639><c> Now,</c><00:13:02.880><c> getting</c>
+
+00:13:03.110 --> 00:13:03.120 align:start position:0%
+faster, better, or cheaper. Now, getting
+ 
+
+00:13:03.120 --> 00:13:04.790 align:start position:0%
+faster, better, or cheaper. Now, getting
+good<00:13:03.279><c> at</c><00:13:03.519><c> learning</c><00:13:03.760><c> how</c><00:13:03.920><c> to</c><00:13:04.160><c> create</c><00:13:04.480><c> this</c>
+
+00:13:04.790 --> 00:13:04.800 align:start position:0%
+good at learning how to create this
+ 
+
+00:13:04.800 --> 00:13:07.110 align:start position:0%
+good at learning how to create this
+contrast<00:13:05.360><c> with</c><00:13:05.680><c> words</c><00:13:06.160><c> is</c><00:13:06.399><c> really</c><00:13:06.639><c> the</c><00:13:06.880><c> secret</c>
+
+00:13:07.110 --> 00:13:07.120 align:start position:0%
+contrast with words is really the secret
+ 
+
+00:13:07.120 --> 00:13:08.949 align:start position:0%
+contrast with words is really the secret
+to<00:13:07.279><c> driving</c><00:13:07.680><c> curiosity</c><00:13:08.240><c> whenever</c><00:13:08.560><c> you</c><00:13:08.720><c> want.</c>
+
+00:13:08.949 --> 00:13:08.959 align:start position:0%
+to driving curiosity whenever you want.
+ 
+
+00:13:08.959 --> 00:13:10.710 align:start position:0%
+to driving curiosity whenever you want.
+It's<00:13:09.200><c> honestly</c><00:13:09.519><c> the</c><00:13:09.760><c> secret</c><00:13:10.000><c> to</c><00:13:10.160><c> storytelling</c>
+
+00:13:10.710 --> 00:13:10.720 align:start position:0%
+It's honestly the secret to storytelling
+ 
+
+00:13:10.720 --> 00:13:12.230 align:start position:0%
+It's honestly the secret to storytelling
+at<00:13:10.880><c> a</c><00:13:11.040><c> macro</c><00:13:11.440><c> level.</c><00:13:11.680><c> Now,</c><00:13:11.839><c> I'm</c><00:13:11.920><c> not</c><00:13:12.079><c> going</c><00:13:12.160><c> to</c>
+
+00:13:12.230 --> 00:13:12.240 align:start position:0%
+at a macro level. Now, I'm not going to
+ 
+
+00:13:12.240 --> 00:13:14.710 align:start position:0%
+at a macro level. Now, I'm not going to
+go<00:13:12.399><c> too</c><00:13:12.560><c> deep</c><00:13:12.800><c> into</c><00:13:13.200><c> exactly</c><00:13:13.839><c> how</c><00:13:14.160><c> to</c><00:13:14.399><c> build</c>
+
+00:13:14.710 --> 00:13:14.720 align:start position:0%
+go too deep into exactly how to build
+ 
+
+00:13:14.720 --> 00:13:16.949 align:start position:0%
+go too deep into exactly how to build
+this<00:13:15.040><c> contrast</c><00:13:15.519><c> and</c><00:13:15.680><c> curiosity</c><00:13:16.320><c> because</c><00:13:16.720><c> it</c>
+
+00:13:16.949 --> 00:13:16.959 align:start position:0%
+this contrast and curiosity because it
+ 
+
+00:13:16.959 --> 00:13:18.710 align:start position:0%
+this contrast and curiosity because it
+really<00:13:17.120><c> does</c><00:13:17.360><c> differ</c><00:13:17.600><c> for</c><00:13:17.839><c> every</c><00:13:18.079><c> scenario.</c>
+
+00:13:18.710 --> 00:13:18.720 align:start position:0%
+really does differ for every scenario.
+ 
+
+00:13:18.720 --> 00:13:20.550 align:start position:0%
+really does differ for every scenario.
+But<00:13:18.800><c> what</c><00:13:18.959><c> I</c><00:13:19.120><c> will</c><00:13:19.279><c> say</c><00:13:19.440><c> is</c><00:13:19.680><c> this,</c><00:13:20.240><c> there</c><00:13:20.399><c> are</c>
+
+00:13:20.550 --> 00:13:20.560 align:start position:0%
+But what I will say is this, there are
+ 
+
+00:13:20.560 --> 00:13:23.430 align:start position:0%
+But what I will say is this, there are
+two<00:13:20.800><c> types</c><00:13:21.040><c> of</c><00:13:21.200><c> contrast.</c><00:13:22.160><c> Implied</c><00:13:22.800><c> contrast</c>
+
+00:13:23.430 --> 00:13:23.440 align:start position:0%
+two types of contrast. Implied contrast
+ 
+
+00:13:23.440 --> 00:13:25.990 align:start position:0%
+two types of contrast. Implied contrast
+and<00:13:23.839><c> stated</c><00:13:24.240><c> contrast.</c><00:13:25.040><c> Stated</c><00:13:25.440><c> contrast</c><00:13:25.760><c> is</c>
+
+00:13:25.990 --> 00:13:26.000 align:start position:0%
+and stated contrast. Stated contrast is
+ 
+
+00:13:26.000 --> 00:13:29.110 align:start position:0%
+and stated contrast. Stated contrast is
+when<00:13:26.160><c> you</c><00:13:26.320><c> share</c><00:13:26.880><c> verbally</c><00:13:27.600><c> both</c><00:13:28.000><c> A</c><00:13:28.320><c> and</c><00:13:28.720><c> B</c>
+
+00:13:29.110 --> 00:13:29.120 align:start position:0%
+when you share verbally both A and B
+ 
+
+00:13:29.120 --> 00:13:30.790 align:start position:0%
+when you share verbally both A and B
+explicitly.<00:13:29.920><c> So,</c><00:13:30.079><c> for</c><00:13:30.160><c> example,</c><00:13:30.560><c> saying</c>
+
+00:13:30.790 --> 00:13:30.800 align:start position:0%
+explicitly. So, for example, saying
+ 
+
+00:13:30.800 --> 00:13:32.310 align:start position:0%
+explicitly. So, for example, saying
+something<00:13:30.959><c> like</c><00:13:31.120><c> this,</c><00:13:31.519><c> "Most</c><00:13:31.839><c> people</c><00:13:32.079><c> solve</c>
+
+00:13:32.310 --> 00:13:32.320 align:start position:0%
+something like this, "Most people solve
+ 
+
+00:13:32.320 --> 00:13:34.790 align:start position:0%
+something like this, "Most people solve
+their<00:13:32.480><c> acne</c><00:13:32.880><c> with</c><00:13:33.040><c> Accutane,</c><00:13:33.839><c> but</c><00:13:34.160><c> I</c><00:13:34.480><c> have</c><00:13:34.560><c> an</c>
+
+00:13:34.790 --> 00:13:34.800 align:start position:0%
+their acne with Accutane, but I have an
+ 
+
+00:13:34.800 --> 00:13:36.470 align:start position:0%
+their acne with Accutane, but I have an
+herbal<00:13:35.120><c> remedy</c><00:13:35.440><c> that</c><00:13:35.680><c> does</c><00:13:35.839><c> it</c><00:13:36.000><c> three</c><00:13:36.240><c> times</c>
+
+00:13:36.470 --> 00:13:36.480 align:start position:0%
+herbal remedy that does it three times
+ 
+
+00:13:36.480 --> 00:13:38.790 align:start position:0%
+herbal remedy that does it three times
+faster."<00:13:36.959><c> You're</c><00:13:37.200><c> stating</c><00:13:37.600><c> Accutane</c><00:13:38.399><c> verse</c>
+
+00:13:38.790 --> 00:13:38.800 align:start position:0%
+faster." You're stating Accutane verse
+ 
+
+00:13:38.800 --> 00:13:40.790 align:start position:0%
+faster." You're stating Accutane verse
+herbal<00:13:39.040><c> remedy,</c><00:13:39.440><c> so</c><00:13:39.600><c> it's</c><00:13:39.920><c> impossible</c><00:13:40.480><c> to</c>
+
+00:13:40.790 --> 00:13:40.800 align:start position:0%
+herbal remedy, so it's impossible to
+ 
+
+00:13:40.800 --> 00:13:42.949 align:start position:0%
+herbal remedy, so it's impossible to
+miss<00:13:41.200><c> what</c><00:13:41.519><c> that</c><00:13:41.760><c> contrast</c><00:13:42.240><c> is.</c><00:13:42.639><c> The</c><00:13:42.800><c> other</c>
+
+00:13:42.949 --> 00:13:42.959 align:start position:0%
+miss what that contrast is. The other
+ 
+
+00:13:42.959 --> 00:13:44.310 align:start position:0%
+miss what that contrast is. The other
+type<00:13:43.120><c> of</c><00:13:43.279><c> contrast,</c><00:13:43.600><c> which</c><00:13:43.839><c> is</c><00:13:43.920><c> way</c><00:13:44.160><c> more</c>
+
+00:13:44.310 --> 00:13:44.320 align:start position:0%
+type of contrast, which is way more
+ 
+
+00:13:44.320 --> 00:13:46.389 align:start position:0%
+type of contrast, which is way more
+subtle,<00:13:44.639><c> is</c><00:13:44.959><c> implied.</c><00:13:45.440><c> And</c><00:13:45.600><c> in</c><00:13:45.760><c> this</c><00:13:45.920><c> case,</c>
+
+00:13:46.389 --> 00:13:46.399 align:start position:0%
+subtle, is implied. And in this case,
+ 
+
+00:13:46.399 --> 00:13:48.389 align:start position:0%
+subtle, is implied. And in this case,
+you<00:13:46.720><c> say</c><00:13:46.880><c> what</c><00:13:47.120><c> the</c><00:13:47.360><c> contrarian</c><00:13:47.920><c> alternative</c>
+
+00:13:48.389 --> 00:13:48.399 align:start position:0%
+you say what the contrarian alternative
+ 
+
+00:13:48.399 --> 00:13:50.310 align:start position:0%
+you say what the contrarian alternative
+is,<00:13:48.560><c> but</c><00:13:48.800><c> you</c><00:13:48.959><c> don't</c><00:13:49.200><c> reference</c><00:13:49.519><c> the</c><00:13:49.760><c> base</c>
+
+00:13:50.310 --> 00:13:50.320 align:start position:0%
+is, but you don't reference the base
+ 
+
+00:13:50.320 --> 00:13:52.389 align:start position:0%
+is, but you don't reference the base
+because<00:13:50.560><c> it's</c><00:13:50.880><c> implied.</c><00:13:51.440><c> People</c><00:13:51.760><c> know</c><00:13:52.160><c> what</c>
+
+00:13:52.389 --> 00:13:52.399 align:start position:0%
+because it's implied. People know what
+ 
+
+00:13:52.399 --> 00:13:54.470 align:start position:0%
+because it's implied. People know what
+the<00:13:52.639><c> base</c><00:13:52.959><c> solution</c><00:13:53.279><c> is.</c><00:13:53.680><c> So</c><00:13:53.920><c> for</c><00:13:54.000><c> example,</c><00:13:54.240><c> if</c>
+
+00:13:54.470 --> 00:13:54.480 align:start position:0%
+the base solution is. So for example, if
+ 
+
+00:13:54.480 --> 00:13:55.990 align:start position:0%
+the base solution is. So for example, if
+I<00:13:54.560><c> say</c><00:13:54.800><c> if</c><00:13:54.959><c> you</c><00:13:55.040><c> want</c><00:13:55.120><c> to</c><00:13:55.200><c> solve</c><00:13:55.440><c> your</c><00:13:55.600><c> acne,</c>
+
+00:13:55.990 --> 00:13:56.000 align:start position:0%
+I say if you want to solve your acne,
+ 
+
+00:13:56.000 --> 00:13:57.829 align:start position:0%
+I say if you want to solve your acne,
+this<00:13:56.240><c> herbal</c><00:13:56.639><c> supplement</c><00:13:57.040><c> is</c><00:13:57.279><c> eight</c><00:13:57.519><c> times</c>
+
+00:13:57.829 --> 00:13:57.839 align:start position:0%
+this herbal supplement is eight times
+ 
+
+00:13:57.839 --> 00:13:59.590 align:start position:0%
+this herbal supplement is eight times
+more<00:13:58.079><c> effective.</c><00:13:58.560><c> If</c><00:13:58.720><c> the</c><00:13:58.880><c> common</c><00:13:59.120><c> viewer</c>
+
+00:13:59.590 --> 00:13:59.600 align:start position:0%
+more effective. If the common viewer
+ 
+
+00:13:59.600 --> 00:14:01.430 align:start position:0%
+more effective. If the common viewer
+already<00:14:00.000><c> knows</c><00:14:00.399><c> what</c><00:14:00.639><c> the</c><00:14:00.880><c> baseline</c>
+
+00:14:01.430 --> 00:14:01.440 align:start position:0%
+already knows what the baseline
+ 
+
+00:14:01.440 --> 00:14:03.590 align:start position:0%
+already knows what the baseline
+solutions<00:14:01.920><c> are,</c><00:14:02.399><c> nothing,</c><00:14:02.959><c> Accutane,</c>
+
+00:14:03.590 --> 00:14:03.600 align:start position:0%
+solutions are, nothing, Accutane,
+ 
+
+00:14:03.600 --> 00:14:04.870 align:start position:0%
+solutions are, nothing, Accutane,
+whatever<00:14:03.839><c> they</c><00:14:04.000><c> are,</c><00:14:04.240><c> then</c><00:14:04.480><c> you</c><00:14:04.639><c> don't</c><00:14:04.720><c> need</c>
+
+00:14:04.870 --> 00:14:04.880 align:start position:0%
+whatever they are, then you don't need
+ 
+
+00:14:04.880 --> 00:14:06.710 align:start position:0%
+whatever they are, then you don't need
+to<00:14:05.040><c> say</c><00:14:05.199><c> it</c><00:14:05.360><c> again</c><00:14:05.680><c> because</c><00:14:05.920><c> it's</c><00:14:06.160><c> implied</c>
+
+00:14:06.710 --> 00:14:06.720 align:start position:0%
+to say it again because it's implied
+ 
+
+00:14:06.720 --> 00:14:08.389 align:start position:0%
+to say it again because it's implied
+what<00:14:06.959><c> their</c><00:14:07.120><c> baseline</c><00:14:07.519><c> understanding</c><00:14:08.000><c> is.</c>
+
+00:14:08.389 --> 00:14:08.399 align:start position:0%
+what their baseline understanding is.
+ 
+
+00:14:08.399 --> 00:14:10.389 align:start position:0%
+what their baseline understanding is.
+Essentially,<00:14:08.800><c> it's</c><00:14:09.120><c> your</c><00:14:09.440><c> contrarian</c><00:14:09.920><c> take</c>
+
+00:14:10.389 --> 00:14:10.399 align:start position:0%
+Essentially, it's your contrarian take
+ 
+
+00:14:10.399 --> 00:14:12.550 align:start position:0%
+Essentially, it's your contrarian take
+versus<00:14:10.560><c> the</c><00:14:10.880><c> field</c><00:14:11.279><c> of</c><00:14:11.519><c> all</c><00:14:11.760><c> other</c><00:14:12.000><c> options.</c>
+
+00:14:12.550 --> 00:14:12.560 align:start position:0%
+versus the field of all other options.
+ 
+
+00:14:12.560 --> 00:14:13.829 align:start position:0%
+versus the field of all other options.
+So<00:14:12.720><c> you</c><00:14:12.800><c> really</c><00:14:12.959><c> have</c><00:14:13.120><c> two</c><00:14:13.279><c> options</c><00:14:13.519><c> to</c><00:14:13.680><c> create</c>
+
+00:14:13.829 --> 00:14:13.839 align:start position:0%
+So you really have two options to create
+ 
+
+00:14:13.839 --> 00:14:15.509 align:start position:0%
+So you really have two options to create
+the<00:14:14.000><c> contrast.</c><00:14:14.399><c> You</c><00:14:14.560><c> can</c><00:14:14.639><c> go</c><00:14:14.800><c> stated,</c><00:14:15.360><c> which</c>
+
+00:14:15.509 --> 00:14:15.519 align:start position:0%
+the contrast. You can go stated, which
+ 
+
+00:14:15.519 --> 00:14:17.030 align:start position:0%
+the contrast. You can go stated, which
+is<00:14:15.680><c> way</c><00:14:15.839><c> more</c><00:14:16.079><c> blunt,</c><00:14:16.399><c> A</c><00:14:16.639><c> versus</c><00:14:16.880><c> B,</c>
+
+00:14:17.030 --> 00:14:17.040 align:start position:0%
+is way more blunt, A versus B,
+ 
+
+00:14:17.040 --> 00:14:18.710 align:start position:0%
+is way more blunt, A versus B,
+impossible<00:14:17.440><c> to</c><00:14:17.600><c> misunderstand,</c><00:14:18.320><c> or</c><00:14:18.480><c> you</c><00:14:18.639><c> can</c>
+
+00:14:18.710 --> 00:14:18.720 align:start position:0%
+impossible to misunderstand, or you can
+ 
+
+00:14:18.720 --> 00:14:20.150 align:start position:0%
+impossible to misunderstand, or you can
+go<00:14:18.880><c> implied,</c><00:14:19.279><c> which</c><00:14:19.519><c> is</c><00:14:19.600><c> a</c><00:14:19.760><c> little</c><00:14:19.839><c> bit</c><00:14:19.920><c> more</c>
+
+00:14:20.150 --> 00:14:20.160 align:start position:0%
+go implied, which is a little bit more
+ 
+
+00:14:20.160 --> 00:14:21.670 align:start position:0%
+go implied, which is a little bit more
+savvy<00:14:20.480><c> and</c><00:14:20.720><c> you</c><00:14:20.800><c> don't</c><00:14:20.959><c> really</c><00:14:21.120><c> call</c><00:14:21.279><c> it</c><00:14:21.440><c> out</c>
+
+00:14:21.670 --> 00:14:21.680 align:start position:0%
+savvy and you don't really call it out
+ 
+
+00:14:21.680 --> 00:14:23.269 align:start position:0%
+savvy and you don't really call it out
+specifically.<00:14:22.399><c> Now,</c><00:14:22.639><c> tactically,</c><00:14:23.120><c> when</c>
+
+00:14:23.269 --> 00:14:23.279 align:start position:0%
+specifically. Now, tactically, when
+ 
+
+00:14:23.279 --> 00:14:24.870 align:start position:0%
+specifically. Now, tactically, when
+you're<00:14:23.440><c> writing</c><00:14:23.600><c> hooks,</c><00:14:24.160><c> typically</c><00:14:24.560><c> the</c>
+
+00:14:24.870 --> 00:14:24.880 align:start position:0%
+you're writing hooks, typically the
+ 
+
+00:14:24.880 --> 00:14:26.470 align:start position:0%
+you're writing hooks, typically the
+topic<00:14:25.279><c> clarity</c><00:14:25.760><c> comes</c><00:14:26.000><c> in</c><00:14:26.160><c> the</c><00:14:26.320><c> first</c>
+
+00:14:26.470 --> 00:14:26.480 align:start position:0%
+topic clarity comes in the first
+ 
+
+00:14:26.480 --> 00:14:28.389 align:start position:0%
+topic clarity comes in the first
+sentence,<00:14:27.040><c> and</c><00:14:27.199><c> then</c><00:14:27.519><c> you</c><00:14:27.760><c> set</c><00:14:27.920><c> up</c><00:14:28.160><c> that</c>
+
+00:14:28.389 --> 00:14:28.399 align:start position:0%
+sentence, and then you set up that
+ 
+
+00:14:28.399 --> 00:14:30.230 align:start position:0%
+sentence, and then you set up that
+contrast<00:14:28.880><c> in</c><00:14:29.120><c> the</c><00:14:29.279><c> following</c><00:14:29.680><c> one</c><00:14:29.839><c> to</c><00:14:30.079><c> two</c>
+
+00:14:30.230 --> 00:14:30.240 align:start position:0%
+contrast in the following one to two
+ 
+
+00:14:30.240 --> 00:14:32.069 align:start position:0%
+contrast in the following one to two
+sentences.<00:14:30.800><c> This</c><00:14:30.959><c> is</c><00:14:31.040><c> why</c><00:14:31.199><c> I</c><00:14:31.440><c> consider</c><00:14:31.760><c> hooks</c>
+
+00:14:32.069 --> 00:14:32.079 align:start position:0%
+sentences. This is why I consider hooks
+ 
+
+00:14:32.079 --> 00:14:33.670 align:start position:0%
+sentences. This is why I consider hooks
+to<00:14:32.240><c> really</c><00:14:32.399><c> be</c><00:14:32.560><c> like</c><00:14:32.720><c> two</c><00:14:32.959><c> to</c><00:14:33.120><c> three</c><00:14:33.279><c> lines.</c>
+
+00:14:33.670 --> 00:14:33.680 align:start position:0%
+to really be like two to three lines.
+ 
+
+00:14:33.680 --> 00:14:35.590 align:start position:0%
+to really be like two to three lines.
+They're<00:14:33.839><c> not</c><00:14:34.000><c> always</c><00:14:34.320><c> just</c><00:14:34.560><c> a</c><00:14:34.880><c> single</c><00:14:35.199><c> punchy</c>
+
+00:14:35.590 --> 00:14:35.600 align:start position:0%
+They're not always just a single punchy
+ 
+
+00:14:35.600 --> 00:14:37.509 align:start position:0%
+They're not always just a single punchy
+line.<00:14:36.079><c> Sometimes</c><00:14:36.560><c> you</c><00:14:36.800><c> can</c><00:14:36.959><c> achieve</c><00:14:37.279><c> the</c>
+
+00:14:37.509 --> 00:14:37.519 align:start position:0%
+line. Sometimes you can achieve the
+ 
+
+00:14:37.519 --> 00:14:39.430 align:start position:0%
+line. Sometimes you can achieve the
+clarity<00:14:37.839><c> and</c><00:14:38.000><c> the</c><00:14:38.240><c> contrast</c><00:14:38.720><c> all</c><00:14:38.880><c> together</c><00:14:39.120><c> in</c>
+
+00:14:39.430 --> 00:14:39.440 align:start position:0%
+clarity and the contrast all together in
+ 
+
+00:14:39.440 --> 00:14:41.030 align:start position:0%
+clarity and the contrast all together in
+one<00:14:39.600><c> line.</c><00:14:39.839><c> And</c><00:14:39.920><c> if</c><00:14:40.079><c> you</c><00:14:40.240><c> can,</c><00:14:40.639><c> those</c><00:14:40.800><c> are</c><00:14:40.880><c> the</c>
+
+00:14:41.030 --> 00:14:41.040 align:start position:0%
+one line. And if you can, those are the
+ 
+
+00:14:41.040 --> 00:14:42.710 align:start position:0%
+one line. And if you can, those are the
+easiest<00:14:41.279><c> hooks</c><00:14:41.519><c> that</c><00:14:41.680><c> you</c><00:14:41.839><c> can</c><00:14:41.920><c> reuse.</c><00:14:42.399><c> Again,</c>
+
+00:14:42.710 --> 00:14:42.720 align:start position:0%
+easiest hooks that you can reuse. Again,
+ 
+
+00:14:42.720 --> 00:14:44.310 align:start position:0%
+easiest hooks that you can reuse. Again,
+if<00:14:42.880><c> you</c><00:14:42.959><c> want</c><00:14:43.040><c> the</c><00:14:43.199><c> full</c><00:14:43.360><c> master</c><00:14:43.680><c> class</c><00:14:43.839><c> on</c><00:14:44.160><c> how</c>
+
+00:14:44.310 --> 00:14:44.320 align:start position:0%
+if you want the full master class on how
+ 
+
+00:14:44.320 --> 00:14:45.670 align:start position:0%
+if you want the full master class on how
+to<00:14:44.399><c> do</c><00:14:44.480><c> this</c><00:14:44.720><c> tactically,</c><00:14:45.120><c> and</c><00:14:45.279><c> you</c><00:14:45.360><c> want</c><00:14:45.440><c> a</c>
+
+00:14:45.670 --> 00:14:45.680 align:start position:0%
+to do this tactically, and you want a
+ 
+
+00:14:45.680 --> 00:14:47.430 align:start position:0%
+to do this tactically, and you want a
+bunch<00:14:45.760><c> of</c><00:14:45.920><c> examples</c><00:14:46.240><c> of</c><00:14:46.480><c> good</c><00:14:46.639><c> and</c><00:14:46.880><c> bad</c><00:14:47.120><c> across</c>
+
+00:14:47.430 --> 00:14:47.440 align:start position:0%
+bunch of examples of good and bad across
+ 
+
+00:14:47.440 --> 00:14:48.790 align:start position:0%
+bunch of examples of good and bad across
+every<00:14:47.680><c> niche,</c><00:14:48.079><c> and</c><00:14:48.240><c> you</c><00:14:48.320><c> also</c><00:14:48.560><c> want</c><00:14:48.639><c> a</c>
+
+00:14:48.790 --> 00:14:48.800 align:start position:0%
+every niche, and you also want a
+ 
+
+00:14:48.800 --> 00:14:50.389 align:start position:0%
+every niche, and you also want a
+checklist<00:14:49.279><c> to</c><00:14:49.440><c> just</c><00:14:49.680><c> follow</c><00:14:49.920><c> every</c><00:14:50.160><c> time</c><00:14:50.240><c> you</c>
+
+00:14:50.389 --> 00:14:50.399 align:start position:0%
+checklist to just follow every time you
+ 
+
+00:14:50.399 --> 00:14:52.389 align:start position:0%
+checklist to just follow every time you
+make<00:14:50.560><c> hooks,</c><00:14:51.040><c> I</c><00:14:51.199><c> have</c><00:14:51.279><c> that</c><00:14:51.519><c> all</c><00:14:51.680><c> in</c><00:14:51.839><c> the</c><00:14:52.000><c> hooks</c>
+
+00:14:52.389 --> 00:14:52.399 align:start position:0%
+make hooks, I have that all in the hooks
+ 
+
+00:14:52.399 --> 00:14:53.670 align:start position:0%
+make hooks, I have that all in the hooks
+master<00:14:52.639><c> class.</c><00:14:52.880><c> It's</c><00:14:53.040><c> linked</c><00:14:53.279><c> below.</c><00:14:53.680><c> All</c>
+
+00:14:53.670 --> 00:14:53.680 align:start position:0%
+master class. It's linked below. All
+ 
+
+00:14:53.680 --> 00:14:54.870 align:start position:0%
+master class. It's linked below. All
+right,<00:14:53.839><c> guys.</c><00:14:54.000><c> That</c><00:14:54.160><c> is</c><00:14:54.240><c> all</c><00:14:54.399><c> I've</c><00:14:54.560><c> got</c><00:14:54.720><c> for</c>
+
+00:14:54.870 --> 00:14:54.880 align:start position:0%
+right, guys. That is all I've got for
+ 
+
+00:14:54.880 --> 00:14:56.629 align:start position:0%
+right, guys. That is all I've got for
+this<00:14:55.120><c> video.</c><00:14:55.360><c> As</c><00:14:55.519><c> a</c><00:14:55.760><c> recap,</c><00:14:56.079><c> we</c><00:14:56.240><c> covered</c><00:14:56.399><c> the</c>
+
+00:14:56.629 --> 00:14:56.639 align:start position:0%
+this video. As a recap, we covered the
+ 
+
+00:14:56.639 --> 00:14:58.150 align:start position:0%
+this video. As a recap, we covered the
+four<00:14:56.880><c> main</c><00:14:57.199><c> hook</c><00:14:57.440><c> mistakes</c><00:14:57.760><c> that</c><00:14:58.000><c> you're</c>
+
+00:14:58.150 --> 00:14:58.160 align:start position:0%
+four main hook mistakes that you're
+ 
+
+00:14:58.160 --> 00:14:59.670 align:start position:0%
+four main hook mistakes that you're
+making<00:14:58.399><c> that</c><00:14:58.560><c> are</c><00:14:58.720><c> preventing</c><00:14:59.120><c> your</c><00:14:59.360><c> videos</c>
+
+00:14:59.670 --> 00:14:59.680 align:start position:0%
+making that are preventing your videos
+ 
+
+00:14:59.680 --> 00:15:01.670 align:start position:0%
+making that are preventing your videos
+from<00:14:59.920><c> outperforming.</c><00:15:00.720><c> Those</c><00:15:00.880><c> mistakes</c><00:15:01.279><c> are</c>
+
+00:15:01.670 --> 00:15:01.680 align:start position:0%
+from outperforming. Those mistakes are
+ 
+
+00:15:01.680 --> 00:15:04.230 align:start position:0%
+from outperforming. Those mistakes are
+delay,<00:15:02.399><c> confusion,</c><00:15:03.279><c> irrelevance,</c><00:15:04.000><c> and</c>
+
+00:15:04.230 --> 00:15:04.240 align:start position:0%
+delay, confusion, irrelevance, and
+ 
+
+00:15:04.240 --> 00:15:06.150 align:start position:0%
+delay, confusion, irrelevance, and
+disinterest.<00:15:05.120><c> As</c><00:15:05.279><c> always,</c><00:15:05.600><c> please</c><00:15:05.839><c> leave</c><00:15:06.000><c> a</c>
+
+00:15:06.150 --> 00:15:06.160 align:start position:0%
+disinterest. As always, please leave a
+ 
+
+00:15:06.160 --> 00:15:07.829 align:start position:0%
+disinterest. As always, please leave a
+comment<00:15:06.399><c> below</c><00:15:06.639><c> if</c><00:15:06.959><c> you</c><00:15:07.120><c> like</c><00:15:07.279><c> this</c><00:15:07.519><c> video,</c>
+
+00:15:07.829 --> 00:15:07.839 align:start position:0%
+comment below if you like this video,
+ 
+
+00:15:07.839 --> 00:15:09.750 align:start position:0%
+comment below if you like this video,
+and<00:15:08.079><c> just</c><00:15:08.240><c> in</c><00:15:08.480><c> general</c><00:15:08.800><c> for</c><00:15:09.040><c> feedback.</c><00:15:09.519><c> I'm</c>
+
+00:15:09.750 --> 00:15:09.760 align:start position:0%
+and just in general for feedback. I'm
+ 
+
+00:15:09.760 --> 00:15:11.030 align:start position:0%
+and just in general for feedback. I'm
+always<00:15:10.000><c> reading</c><00:15:10.240><c> the</c><00:15:10.399><c> comments,</c><00:15:10.720><c> trying</c><00:15:10.880><c> to</c>
+
+00:15:11.030 --> 00:15:11.040 align:start position:0%
+always reading the comments, trying to
+ 
+
+00:15:11.040 --> 00:15:13.110 align:start position:0%
+always reading the comments, trying to
+take<00:15:11.199><c> those</c><00:15:11.440><c> and</c><00:15:11.680><c> improve.</c><00:15:12.079><c> So,</c><00:15:12.480><c> if</c><00:15:12.639><c> this</c><00:15:12.880><c> gave</c>
+
+00:15:13.110 --> 00:15:13.120 align:start position:0%
+take those and improve. So, if this gave
+ 
+
+00:15:13.120 --> 00:15:14.790 align:start position:0%
+take those and improve. So, if this gave
+you<00:15:13.360><c> value</c><00:15:13.600><c> and</c><00:15:13.839><c> you</c><00:15:14.079><c> liked</c><00:15:14.240><c> it</c><00:15:14.399><c> or</c><00:15:14.560><c> didn't</c>
+
+00:15:14.790 --> 00:15:14.800 align:start position:0%
+you value and you liked it or didn't
+ 
+
+00:15:14.800 --> 00:15:16.150 align:start position:0%
+you value and you liked it or didn't
+like<00:15:14.959><c> it,</c><00:15:15.199><c> please</c><00:15:15.440><c> leave</c><00:15:15.600><c> a</c><00:15:15.680><c> comment</c><00:15:15.839><c> and</c><00:15:16.000><c> let</c>
+
+00:15:16.150 --> 00:15:16.160 align:start position:0%
+like it, please leave a comment and let
+ 
+
+00:15:16.160 --> 00:15:17.590 align:start position:0%
+like it, please leave a comment and let
+me<00:15:16.240><c> know.</c><00:15:16.399><c> And</c><00:15:16.560><c> remember</c><00:15:16.880><c> guys,</c><00:15:17.120><c> there</c><00:15:17.279><c> is</c><00:15:17.360><c> a</c>
+
+00:15:17.590 --> 00:15:17.600 align:start position:0%
+me know. And remember guys, there is a
+ 
+
+00:15:17.600 --> 00:15:19.350 align:start position:0%
+me know. And remember guys, there is a
+ton<00:15:17.839><c> of</c><00:15:18.079><c> free</c><00:15:18.399><c> stuff</c><00:15:18.639><c> in</c><00:15:18.800><c> the</c><00:15:18.959><c> description.</c>
+
+00:15:19.350 --> 00:15:19.360 align:start position:0%
+ton of free stuff in the description.
+ 
+
+00:15:19.360 --> 00:15:21.030 align:start position:0%
+ton of free stuff in the description.
+I'm<00:15:19.519><c> literally</c><00:15:19.839><c> just</c><00:15:20.240><c> giving</c><00:15:20.560><c> away</c><00:15:20.800><c> the</c>
+
+00:15:21.030 --> 00:15:21.040 align:start position:0%
+I'm literally just giving away the
+ 
+
+00:15:21.040 --> 00:15:22.870 align:start position:0%
+I'm literally just giving away the
+answers<00:15:21.360><c> for</c><00:15:21.600><c> content.</c><00:15:22.320><c> Please</c><00:15:22.560><c> check</c><00:15:22.720><c> the</c>
+
+00:15:22.870 --> 00:15:22.880 align:start position:0%
+answers for content. Please check the
+ 
+
+00:15:22.880 --> 00:15:23.990 align:start position:0%
+answers for content. Please check the
+description.<00:15:23.279><c> If</c><00:15:23.440><c> you're</c><00:15:23.600><c> struggling</c><00:15:23.839><c> with</c>
+
+00:15:23.990 --> 00:15:24.000 align:start position:0%
+description. If you're struggling with
+ 
+
+00:15:24.000 --> 00:15:25.670 align:start position:0%
+description. If you're struggling with
+any<00:15:24.160><c> of</c><00:15:24.240><c> these</c><00:15:24.399><c> pain</c><00:15:24.639><c> points,</c><00:15:25.120><c> there's</c><00:15:25.440><c> always</c>
+
+00:15:25.670 --> 00:15:25.680 align:start position:0%
+any of these pain points, there's always
+ 
+
+00:15:25.680 --> 00:15:26.870 align:start position:0%
+any of these pain points, there's always
+something<00:15:25.920><c> in</c><00:15:26.079><c> the</c><00:15:26.240><c> description</c><00:15:26.480><c> to</c><00:15:26.720><c> help</c>
+
+00:15:26.870 --> 00:15:26.880 align:start position:0%
+something in the description to help
+ 
+
+00:15:26.880 --> 00:15:28.310 align:start position:0%
+something in the description to help
+you.<00:15:27.120><c> And</c><00:15:27.279><c> lastly,</c><00:15:27.600><c> one</c><00:15:27.760><c> more</c><00:15:27.920><c> thing.</c><00:15:28.160><c> If</c>
+
+00:15:28.310 --> 00:15:28.320 align:start position:0%
+you. And lastly, one more thing. If
+ 
+
+00:15:28.320 --> 00:15:29.750 align:start position:0%
+you. And lastly, one more thing. If
+you're<00:15:28.399><c> a</c><00:15:28.639><c> business</c><00:15:28.800><c> owner</c><00:15:29.120><c> and</c><00:15:29.360><c> you</c><00:15:29.600><c> really</c>
+
+00:15:29.750 --> 00:15:29.760 align:start position:0%
+you're a business owner and you really
+ 
+
+00:15:29.760 --> 00:15:31.670 align:start position:0%
+you're a business owner and you really
+want<00:15:30.000><c> help</c><00:15:30.320><c> improving</c><00:15:30.800><c> your</c><00:15:30.959><c> content,</c><00:15:31.360><c> I</c>
+
+00:15:31.670 --> 00:15:31.680 align:start position:0%
+want help improving your content, I
+ 
+
+00:15:31.680 --> 00:15:33.829 align:start position:0%
+want help improving your content, I
+created<00:15:32.000><c> a</c><00:15:32.320><c> free</c><00:15:32.639><c> community</c><00:15:33.199><c> of</c><00:15:33.440><c> only</c>
+
+00:15:33.829 --> 00:15:33.839 align:start position:0%
+created a free community of only
+ 
+
+00:15:33.839 --> 00:15:35.670 align:start position:0%
+created a free community of only
+entrepreneurs<00:15:34.399><c> and</c><00:15:34.639><c> creators.</c><00:15:35.120><c> There's</c><00:15:35.360><c> over</c>
+
+00:15:35.670 --> 00:15:35.680 align:start position:0%
+entrepreneurs and creators. There's over
+ 
+
+00:15:35.680 --> 00:15:37.750 align:start position:0%
+entrepreneurs and creators. There's over
+22,000<00:15:36.480><c> people</c><00:15:36.639><c> in</c><00:15:36.880><c> there</c><00:15:37.120><c> that</c><00:15:37.360><c> are</c><00:15:37.519><c> all</c>
+
+00:15:37.750 --> 00:15:37.760 align:start position:0%
+22,000 people in there that are all
+ 
+
+00:15:37.760 --> 00:15:39.110 align:start position:0%
+22,000 people in there that are all
+helping<00:15:38.079><c> each</c><00:15:38.240><c> other</c><00:15:38.399><c> get</c><00:15:38.560><c> better.</c><00:15:38.880><c> There's</c><00:15:38.959><c> a</c>
+
+00:15:39.110 --> 00:15:39.120 align:start position:0%
+helping each other get better. There's a
+ 
+
+00:15:39.120 --> 00:15:40.470 align:start position:0%
+helping each other get better. There's a
+bunch<00:15:39.279><c> of</c><00:15:39.440><c> free</c><00:15:39.600><c> trainings.</c><00:15:40.160><c> It's</c><00:15:40.320><c> called</c>
+
+00:15:40.470 --> 00:15:40.480 align:start position:0%
+bunch of free trainings. It's called
+ 
+
+00:15:40.480 --> 00:15:42.389 align:start position:0%
+bunch of free trainings. It's called
+Wavy<00:15:40.959><c> World.</c><00:15:41.120><c> I</c><00:15:41.279><c> got</c><00:15:41.440><c> a</c><00:15:41.600><c> free</c><00:15:41.839><c> invite</c><00:15:42.160><c> for</c><00:15:42.320><c> you</c>
+
+00:15:42.389 --> 00:15:42.399 align:start position:0%
+Wavy World. I got a free invite for you
+ 
+
+00:15:42.399 --> 00:15:43.670 align:start position:0%
+Wavy World. I got a free invite for you
+in<00:15:42.560><c> the</c><00:15:42.720><c> description</c><00:15:42.959><c> if</c><00:15:43.199><c> you</c><00:15:43.279><c> want</c><00:15:43.360><c> to</c><00:15:43.519><c> join</c>
+
+00:15:43.670 --> 00:15:43.680 align:start position:0%
+in the description if you want to join
+ 
+
+00:15:43.680 --> 00:15:45.030 align:start position:0%
+in the description if you want to join
+that.<00:15:44.000><c> It's</c><00:15:44.240><c> the</c><00:15:44.399><c> easiest</c><00:15:44.639><c> way</c><00:15:44.720><c> to</c><00:15:44.880><c> get</c>
+
+00:15:45.030 --> 00:15:45.040 align:start position:0%
+that. It's the easiest way to get
+ 
+
+00:15:45.040 --> 00:15:46.389 align:start position:0%
+that. It's the easiest way to get
+started.<00:15:45.440><c> All</c><00:15:45.440><c> right,</c><00:15:45.680><c> with</c><00:15:45.839><c> that,</c><00:15:46.079><c> we</c><00:15:46.240><c> will</c>
+
+00:15:46.389 --> 00:15:46.399 align:start position:0%
+started. All right, with that, we will
+ 
+
+00:15:46.399 --> 00:15:49.519 align:start position:0%
+started. All right, with that, we will
+see<00:15:46.560><c> you</c><00:15:46.720><c> guys</c><00:15:46.800><c> on</c><00:15:47.040><c> the</c><00:15:47.199><c> next</c><00:15:47.360><c> one.</c>
+

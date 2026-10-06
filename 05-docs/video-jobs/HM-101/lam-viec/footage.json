@@ -1,0 +1,14 @@
+{
+  "pools": {
+    "stock": {},
+    "demo": [],
+    "screenshots": [
+      "/workspace/video-jobs/HM-101/lam-viec/webshots/web00.png",
+      "/workspace/video-jobs/HM-101/lam-viec/webshots/web01.png"
+    ]
+  },
+  "notes": [
+    "stock footage SKIPPED: no PEXELS_API_KEY / PIXABAY_API_KEY env var",
+    "no broll_urls.txt -> no demo clips"
+  ]
+}

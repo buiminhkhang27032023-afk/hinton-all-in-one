@@ -1,0 +1,14 @@
+node v22.23.3
+npm 10.9.9
+ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers
+uv uv 0.12.22 (x86_64-unknown-linux-gnu)
+AI repo venv: Python 3.12.15
+omnivoice venv: Python 3.13.5
+hyperframes   "version": "0.8.114",
+Linux grok-bot-vm-473554171 6.12.94+ #1 SMP PREEMPT_DYNAMIC Mon Sep 28 22:00:32 UTC 2026 x86_64 GNU/Linux
+PRETTY_NAME="Debian GNU/Linux 13 (trixie)"
+NAME="Debian GNU/Linux"
+HF models (cache ~/.cache/huggingface/hub):
+models--Systran--faster-whisper-small
+models--k2-fsa--OmniVoice
+models--nguyenvulebinh--wav2vec2-base-vi-vlsp2020

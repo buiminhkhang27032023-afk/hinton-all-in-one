@@ -1,0 +1,160 @@
+{
+ "Pullman Hai Phong Grand Hotel": [
+  {
+   "name": "Khách sạn Pullman Hải Phòng",
+   "rating": 4.8,
+   "reviews": 1496,
+   "reviews_text": "1.496 bài viết",
+   "lat": 20.8596829,
+   "lng": 106.6885879,
+   "address": "No.12 Old, P. Trần Phú, Street, Gia Viên, Hải Phòng 180000, Việt Nam",
+   "categories": [
+    "Khách sạn"
+   ],
+   "stars_class": 5,
+   "place_id": "ChIJry7lg297SjER5YNpHieZNBA",
+   "fid": "0x314a7b6f83e52eaf:0x103499271e6983e5",
+   "fetched_at": "2026-10-06 01:46 +0000"
+  }
+ ]
+}
+{
+ "Meliá Vinpearl Hải Phòng Rivera": [
+  {
+   "name": "Melia Vinpearl Hai Phong Rivera",
+   "rating": 4.8,
+   "reviews": 2170,
+   "reviews_text": "2.170 bài viết",
+   "lat": 20.8670477,
+   "lng": 106.6635481,
+   "address": "04112 Đường Manhattan 9 Vinhomes Imperia, Ward, Urban Area, Hồng Bàng, Hải Phòng, Việt Nam",
+   "categories": [
+    "Khách sạn"
+   ],
+   "stars_class": 5,
+   "place_id": "ChIJN-DFz3V7SjER8rkT5qSQ77w",
+   "fid": "0x314a7b75cfc5e037:0xbcef90a4e613b9f2",
+   "fetched_at": "2026-10-06 01:46 +0000"
+  }
+ ]
+}
+{
+ "Sheraton Hai Phong": [
+  {
+   "name": "Sheraton Hai Phong",
+   "rating": 4.7,
+   "reviews": 1580,
+   "reviews_text": "1.580 bài viết",
+   "lat": 20.8629505,
+   "lng": 106.66160169999999,
+   "address": "Khu do thị, Hà Nội - Hải Phòng, Vinhomes Imperia, Hồng Bàng, Hải Phòng, Việt Nam",
+   "categories": [
+    "Khách sạn"
+   ],
+   "stars_class": 5,
+   "place_id": "ChIJp2HncsJ7SjERx4fRSm-ptDI",
+   "fid": "0x314a7bc272e761a7:0x32b4a96f4ad187c7",
+   "fetched_at": "2026-10-06 01:47 +0000"
+  }
+ ]
+}
+{
+ "Mercure Hai Phong": [
+  {
+   "name": "Mercure Hai Phong",
+   "rating": 4.7,
+   "reviews": null,
+   "reviews_text": null,
+   "lat": 20.8508378,
+   "lng": 106.68675499999999,
+   "address": "12 Lạch Tray, Street, Ward, Hải Phòng 180000, Việt Nam",
+   "categories": [
+    "Khách sạn"
+   ],
+   "stars_class": 5,
+   "place_id": "ChIJEY2_4416SjERI6We8sBhWIE",
+   "fid": "0x314a7a8de3bf8d11:0x815861c0f29ea523",
+   "fetched_at": "2026-10-06 01:47 +0000"
+  }
+ ]
+}
+{
+ "Pearl River Hotel Hải Phòng": [
+  {
+   "name": "Pearl River Hotel",
+   "rating": 4.6,
+   "reviews": null,
+   "reviews_text": null,
+   "lat": 20.816891299999998,
+   "lng": 106.69788059999999,
+   "address": "93 Phạm Văn Đồng, Sao Đỏ, Hưng Đạo, Hải Phòng 180000, Việt Nam",
+   "categories": [
+    "Khách sạn"
+   ],
+   "stars_class": 5,
+   "place_id": "ChIJQTqGam1wSjERIF3OlUwpAkY",
+   "fid": "0x314a706d6a863a41:0x4602294c95ce5d20",
+   "fetched_at": "2026-10-06 01:47 +0000"
+  }
+ ]
+}
+{
+ "Wink Hai Phong Centre": [
+  {
+   "name": "Wink Hai Phong Centre, part of Unscripted by Hyatt",
+   "rating": 4.4,
+   "reviews": 228,
+   "reviews_text": "228 bài viết",
+   "lat": 20.8614808,
+   "lng": 106.680666,
+   "address": "135 P.Điện Biên Phủ, Ward, Hải Phòng 180000, Việt Nam",
+   "categories": [
+    "Khách sạn"
+   ],
+   "stars_class": 4,
+   "place_id": "ChIJ_aM3eq57SjERC3trqlICGns",
+   "fid": "0x314a7bae7a37a3fd:0x7b1a0252aa6b7b0b",
+   "fetched_at": "2026-10-06 01:47 +0000"
+  }
+ ]
+}
+{
+ "Hotel Nikko Hai Phong": [
+  {
+   "name": "Khách sạn Nikko Hải Phòng",
+   "rating": 4.4,
+   "reviews": null,
+   "reviews_text": null,
+   "lat": 20.8248636,
+   "lng": 106.69041059999999,
+   "address": "No 1, Road 1, Waterfront City, Le Chan Ward, Lê Chân, Hải Phòng 180000, Việt Nam",
+   "categories": [
+    "Khách sạn"
+   ],
+   "stars_class": 5,
+   "place_id": "ChIJC9RGIE9xSjERCeDB0B5LRSE",
+   "fid": "0x314a714f2046d40b:0x21454b1ed0c1e009",
+   "fetched_at": "2026-10-06 01:47 +0000"
+  }
+ ]
+}
+{
+ "Manoir des Arts Hải Phòng": [
+  {
+   "name": "MANOIR DES ARTS HOTEL",
+   "rating": 4.4,
+   "reviews": 372,
+   "reviews_text": "372 bài viết",
+   "lat": 20.8617515,
+   "lng": 106.6835708,
+   "address": "64 P.Điện Biên Phủ, Hồng Bàng, Hải Phòng 180000, Việt Nam",
+   "categories": [
+    "Khách sạn"
+   ],
+   "stars_class": 4,
+   "place_id": "ChIJQ-pm7vN6SjERJn5B4ZhkZZw",
+   "fid": "0x314a7af3ee66ea43:0x9c656498e1417e26",
+   "fetched_at": "2026-10-06 01:47 +0000"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+[  0.00-  5.50] Nếu bạn đang sử dụng OVP bản quyền, mà không biết cách sử dụng AI ở trong Excel, là dỡ rồi.
+[  5.90-  9.42] Đầu tiên, ví dụ ở đây, bạn có cái cột thông tin như I.N.A.
+[  9.44- 15.82] Bạn muốn tắt ra là họ tên, Nam Sinh, Thành Phố, thì thông thường bạn sẽ gõ từng phần, từng phần vào đúng không?
+[ 16.14- 17.90] Hoặc bạn nhớ hàm, để bạn thêm một tắt ra.
+[ 18.22- 24.00] Rất khó nhớ. Từ cái bản mà bạn quyền thì bạn có một trợ lý AI, một cái coolad ở đây.
+[ 25.48- 30.76] Bạn thí một câu lệnh đơn giản là tắt thông tin từ Cod A ra Cod BCD
+[ 30.76- 33.64] sẽ cho phù hợp bạn ấn núp xen có được hả?
+[ 34.14- 39.86] Bước kê, thì một đợi một chút bạn sẽ thấy được là tuy mình chỉ nghĩ là từ Cod A ra Cod BCD thôi
+[ 39.86- 44.08] Nó tự biết là Cod B là họ tên Cod C, Năm sinh, Cod D thành phố
+[ 44.08- 47.64] và nó tắt ra cho mình rất là chuẩn giống như thế này để mình dùng luôn
+[ 47.64- 48.16] Đúng hả?
+[ 48.48- 51.84] Thì đây, tiếp tục thì bạn thấy là ví dụ như có một cái bản số bố bên đây
+[ 80.70- 81.82] là một cái bản về thông tin, thì đó với bản,
+[ 83.44- 86.72] Đã đạo đá sô rất là trưởng, đầy đủ tông tin như thế này.
+[ 87.12- 87.90] Nhìn rất là đẹp luôn.
+[ 89.84- 90.74] Rất là ok luôn.
+[ 91.70- 93.96] Cái phần này thì bạn có thể bằng kéo vào một chút.
+[ 94.20- 95.36] Nó có thể thấy được số này.
+[ 95.66- 96.50] Rất là trưởng luôn.
+[ 96.90- 98.80] Rất là đẹp và mọi thứ ok hết.
+[ 99.02- 99.80] Thực tính nè.
+[ 99.94-100.96] Bạn có thể kéo qua đây luôn.
+[101.32-103.34] Thì bạn có thể thấy được số rất là đẹp, rất là trưởng luôn.
+[103.70-105.28] Ok hết thì bạn có thể ứng chữ tình ở đây.
+[105.62-108.86] Để bạn có thể bằng thấy được một đá sô rất đẹp và đầy đủ tông tin nha.
+[109.40-111.42] Ấn lúc vô lồ mặc tính nhiều bẻ ai

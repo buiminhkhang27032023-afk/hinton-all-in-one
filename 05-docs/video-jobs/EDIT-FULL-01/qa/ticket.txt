@@ -1,0 +1,1 @@
+EDIT-FULL-01|Lỗi|v3|/workspace/video-jobs/EDIT-FULL-01|next=bố (xem qa/pipeline.log)

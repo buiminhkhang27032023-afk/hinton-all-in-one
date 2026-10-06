@@ -1,0 +1,502 @@
+{
+  "total": 53.825,
+  "sentences": [
+    {
+      "scene": "hook",
+      "scene_i": 0,
+      "j": 0,
+      "voice": "Đi Hải Phòng ngủ đâu cho sướng?",
+      "display": "Đi Hải Phòng ngủ đâu cho sướng?",
+      "phrases": [
+        [
+          "Đi Hải Phòng",
+          "Đi Hải Phòng"
+        ],
+        [
+          "ngủ đâu cho sướng?",
+          "ngủ đâu cho sướng?"
+        ]
+      ],
+      "i": 0,
+      "start": 0.0,
+      "end": 1.274
+    },
+    {
+      "scene": "hook",
+      "scene_i": 0,
+      "j": 1,
+      "voice": "Tốp năm khách sạn năm sao nội thành điểm Gu gồ Mép cao nhất!",
+      "display": "Top 5 khách sạn 5 sao nội thành điểm Google Maps cao nhất!",
+      "phrases": [
+        [
+          "Top 5 khách sạn 5 sao",
+          "Tốp năm khách sạn năm sao"
+        ],
+        [
+          "nội thành",
+          "nội thành"
+        ],
+        [
+          "điểm Google Maps cao nhất!",
+          "điểm Gu gồ Mép cao nhất!"
+        ]
+      ],
+      "i": 1,
+      "start": 1.414,
+      "end": 3.983
+    },
+    {
+      "scene": "rule",
+      "scene_i": 1,
+      "j": 0,
+      "voice": "Xếp theo điểm Gu gồ, bằng điểm thì ai nhiều lượt đánh giá hơn đứng trên.",
+      "display": "Xếp theo điểm Google, bằng điểm thì ai nhiều lượt đánh giá hơn đứng trên.",
+      "phrases": [
+        [
+          "Xếp theo điểm Google,",
+          "Xếp theo điểm Gu gồ,"
+        ],
+        [
+          "bằng điểm thì ai",
+          "bằng điểm thì ai"
+        ],
+        [
+          "nhiều lượt đánh giá hơn",
+          "nhiều lượt đánh giá hơn"
+        ],
+        [
+          "đứng trên.",
+          "đứng trên."
+        ]
+      ],
+      "i": 2,
+      "start": 4.363,
+      "end": 7.564
+    },
+    {
+      "scene": "pearl",
+      "scene_i": 2,
+      "j": 0,
+      "voice": "Hạng năm, Pơn Ri vơ Hô ten trên đường Phạm Văn Đồng.",
+      "display": "Hạng năm, Pearl River Hotel trên đường Phạm Văn Đồng.",
+      "phrases": [
+        [
+          "Hạng năm,",
+          "Hạng năm,"
+        ],
+        [
+          "Pearl River Hotel",
+          "Pơn Ri vơ Hô ten"
+        ],
+        [
+          "trên đường Phạm Văn Đồng.",
+          "trên đường Phạm Văn Đồng."
+        ]
+      ],
+      "i": 3,
+      "start": 7.944,
+      "end": 10.238
+    },
+    {
+      "scene": "pearl",
+      "scene_i": 2,
+      "j": 1,
+      "voice": "Bốn phẩy sáu sao, khoảng hai nghìn mốt lượt đánh giá.",
+      "display": "4,6 sao, khoảng 2.100 lượt đánh giá.",
+      "phrases": [
+        [
+          "4,6 sao,",
+          "Bốn phẩy sáu sao,"
+        ],
+        [
+          "khoảng 2.100",
+          "khoảng hai nghìn mốt"
+        ],
+        [
+          "lượt đánh giá.",
+          "lượt đánh giá."
+        ]
+      ],
+      "i": 4,
+      "start": 10.378,
+      "end": 12.688
+    },
+    {
+      "scene": "pearl",
+      "scene_i": 2,
+      "j": 2,
+      "voice": "Khách khen chuẩn năm sao, bữa sáng ngon, chỉ hai mươi phút lái xe ra biển Đồ Sơn.",
+      "display": "Khách khen chuẩn 5 sao, bữa sáng ngon, chỉ 20 phút lái xe ra biển Đồ Sơn.",
+      "phrases": [
+        [
+          "Khách khen chuẩn 5 sao,",
+          "Khách khen chuẩn năm sao,"
+        ],
+        [
+          "bữa sáng ngon,",
+          "bữa sáng ngon,"
+        ],
+        [
+          "chỉ 20 phút lái xe",
+          "chỉ hai mươi phút lái xe"
+        ],
+        [
+          "ra biển Đồ Sơn.",
+          "ra biển Đồ Sơn."
+        ]
+      ],
+      "i": 5,
+      "start": 12.828,
+      "end": 16.515
+    },
+    {
+      "scene": "sheraton",
+      "scene_i": 3,
+      "j": 0,
+      "voice": "Hạng bốn, Sê ra tơn Hải Phòng ở Vin hôm Im pê ri a.",
+      "display": "Hạng bốn, Sheraton Hải Phòng ở Vinhomes Imperia.",
+      "phrases": [
+        [
+          "Hạng bốn,",
+          "Hạng bốn,"
+        ],
+        [
+          "Sheraton Hải Phòng",
+          "Sê ra tơn Hải Phòng"
+        ],
+        [
+          "ở Vinhomes Imperia.",
+          "ở Vin hôm Im pê ri a."
+        ]
+      ],
+      "i": 6,
+      "start": 16.895,
+      "end": 19.068
+    },
+    {
+      "scene": "sheraton",
+      "scene_i": 3,
+      "j": 1,
+      "voice": "Bốn phẩy bảy sao, khoảng một nghìn sáu trăm lượt đánh giá.",
+      "display": "4,7 sao, khoảng 1.600 lượt đánh giá.",
+      "phrases": [
+        [
+          "4,7 sao,",
+          "Bốn phẩy bảy sao,"
+        ],
+        [
+          "khoảng 1.600",
+          "khoảng một nghìn sáu trăm"
+        ],
+        [
+          "lượt đánh giá.",
+          "lượt đánh giá."
+        ]
+      ],
+      "i": 7,
+      "start": 19.208,
+      "end": 21.828
+    },
+    {
+      "scene": "sheraton",
+      "scene_i": 3,
+      "j": 2,
+      "voice": "Có khách gọi đây là viu đẹp nhất Hải Phòng.",
+      "display": "Có khách gọi đây là view đẹp nhất Hải Phòng.",
+      "phrases": [
+        [
+          "Có khách gọi đây là",
+          "Có khách gọi đây là"
+        ],
+        [
+          "view đẹp nhất Hải Phòng.",
+          "viu đẹp nhất Hải Phòng."
+        ]
+      ],
+      "i": 8,
+      "start": 21.968,
+      "end": 23.831
+    },
+    {
+      "scene": "mercure",
+      "scene_i": 4,
+      "j": 0,
+      "voice": "Hạng ba, Mơ kiu Hải Phòng ngay phố Lạch Tray.",
+      "display": "Hạng ba, Mercure Hải Phòng ngay phố Lạch Tray.",
+      "phrases": [
+        [
+          "Hạng ba,",
+          "Hạng ba,"
+        ],
+        [
+          "Mercure Hải Phòng",
+          "Mơ kiu Hải Phòng"
+        ],
+        [
+          "ngay phố Lạch Tray.",
+          "ngay phố Lạch Tray."
+        ]
+      ],
+      "i": 9,
+      "start": 24.211,
+      "end": 26.143
+    },
+    {
+      "scene": "mercure",
+      "scene_i": 4,
+      "j": 1,
+      "voice": "Cũng bốn phẩy bảy sao, nhưng hơn hai nghìn hai trăm lượt đánh giá, nhiều nhất tốp này.",
+      "display": "Cũng 4,7 sao, nhưng hơn 2.200 lượt đánh giá, nhiều nhất top này.",
+      "phrases": [
+        [
+          "Cũng 4,7 sao,",
+          "Cũng bốn phẩy bảy sao,"
+        ],
+        [
+          "nhưng hơn 2.200",
+          "nhưng hơn hai nghìn hai trăm"
+        ],
+        [
+          "lượt đánh giá,",
+          "lượt đánh giá,"
+        ],
+        [
+          "nhiều nhất top này.",
+          "nhiều nhất tốp này."
+        ]
+      ],
+      "i": 10,
+      "start": 26.283,
+      "end": 30.128
+    },
+    {
+      "scene": "mercure",
+      "scene_i": 4,
+      "j": 2,
+      "voice": "Khách kể từ rúp tóp còn xem được bóng đá miễn phí.",
+      "display": "Khách kể từ rooftop còn xem được bóng đá miễn phí.",
+      "phrases": [
+        [
+          "Khách kể từ rooftop",
+          "Khách kể từ rúp tóp"
+        ],
+        [
+          "còn xem được",
+          "còn xem được"
+        ],
+        [
+          "bóng đá miễn phí.",
+          "bóng đá miễn phí."
+        ]
+      ],
+      "i": 11,
+      "start": 30.268,
+      "end": 32.468
+    },
+    {
+      "scene": "pullman",
+      "scene_i": 5,
+      "j": 0,
+      "voice": "Hạng hai, Pun man Hải Phòng, phố Trần Phú, giữa trung tâm.",
+      "display": "Hạng hai, Pullman Hải Phòng, phố Trần Phú, giữa trung tâm.",
+      "phrases": [
+        [
+          "Hạng hai,",
+          "Hạng hai,"
+        ],
+        [
+          "Pullman Hải Phòng,",
+          "Pun man Hải Phòng,"
+        ],
+        [
+          "phố Trần Phú,",
+          "phố Trần Phú,"
+        ],
+        [
+          "giữa trung tâm.",
+          "giữa trung tâm."
+        ]
+      ],
+      "i": 12,
+      "start": 32.848,
+      "end": 35.368
+    },
+    {
+      "scene": "pullman",
+      "scene_i": 5,
+      "j": 1,
+      "voice": "Bốn phẩy tám sao, khoảng một nghìn năm trăm lượt đánh giá.",
+      "display": "4,8 sao, khoảng 1.500 lượt đánh giá.",
+      "phrases": [
+        [
+          "4,8 sao,",
+          "Bốn phẩy tám sao,"
+        ],
+        [
+          "khoảng 1.500",
+          "khoảng một nghìn năm trăm"
+        ],
+        [
+          "lượt đánh giá.",
+          "lượt đánh giá."
+        ]
+      ],
+      "i": 13,
+      "start": 35.508,
+      "end": 38.162
+    },
+    {
+      "scene": "pullman",
+      "scene_i": 5,
+      "j": 2,
+      "voice": "Một khách khen bể bơi dài bốn mươi lăm mét.",
+      "display": "Một khách khen bể bơi dài 45 mét.",
+      "phrases": [
+        [
+          "Một khách khen",
+          "Một khách khen"
+        ],
+        [
+          "bể bơi dài 45 mét.",
+          "bể bơi dài bốn mươi lăm mét."
+        ]
+      ],
+      "i": 14,
+      "start": 38.302,
+      "end": 40.208
+    },
+    {
+      "scene": "melia",
+      "scene_i": 6,
+      "j": 0,
+      "voice": "Và số một, Mê li a Vin pơn Hải Phòng Ri ve ra.",
+      "display": "Và số một, Meliá Vinpearl Hải Phòng Rivera.",
+      "phrases": [
+        [
+          "Và số một,",
+          "Và số một,"
+        ],
+        [
+          "Meliá Vinpearl",
+          "Mê li a Vin pơn"
+        ],
+        [
+          "Hải Phòng Rivera.",
+          "Hải Phòng Ri ve ra."
+        ]
+      ],
+      "i": 15,
+      "start": 40.588,
+      "end": 42.538
+    },
+    {
+      "scene": "melia",
+      "scene_i": 6,
+      "j": 1,
+      "voice": "Cũng bốn phẩy tám sao, nhưng hơn hai nghìn một trăm lượt đánh giá.",
+      "display": "Cũng 4,8 sao, nhưng hơn 2.100 lượt đánh giá.",
+      "phrases": [
+        [
+          "Cũng 4,8 sao,",
+          "Cũng bốn phẩy tám sao,"
+        ],
+        [
+          "nhưng hơn 2.100",
+          "nhưng hơn hai nghìn một trăm"
+        ],
+        [
+          "lượt đánh giá.",
+          "lượt đánh giá."
+        ]
+      ],
+      "i": 16,
+      "start": 42.678,
+      "end": 45.692
+    },
+    {
+      "scene": "melia",
+      "scene_i": 6,
+      "j": 2,
+      "voice": "Khách ri viu búp phê sáng dài như bất tận, hai bể bơi là điểm nhấn với bọn trẻ.",
+      "display": "Khách review buffet sáng dài như bất tận, hai bể bơi là điểm nhấn với bọn trẻ.",
+      "phrases": [
+        [
+          "Khách review",
+          "Khách ri viu"
+        ],
+        [
+          "buffet sáng dài như bất tận,",
+          "búp phê sáng dài như bất tận,"
+        ],
+        [
+          "hai bể bơi là điểm nhấn",
+          "hai bể bơi là điểm nhấn"
+        ],
+        [
+          "với bọn trẻ.",
+          "với bọn trẻ."
+        ]
+      ],
+      "i": 17,
+      "start": 45.832,
+      "end": 49.303
+    },
+    {
+      "scene": "cta",
+      "scene_i": 7,
+      "j": 0,
+      "voice": "Bạn chọn khách sạn nào?",
+      "display": "Bạn chọn khách sạn nào?",
+      "phrases": [
+        [
+          "Bạn chọn khách sạn nào?",
+          "Bạn chọn khách sạn nào?"
+        ]
+      ],
+      "i": 18,
+      "start": 49.683,
+      "end": 50.624
+    },
+    {
+      "scene": "cta",
+      "scene_i": 7,
+      "j": 1,
+      "voice": "Lưu vi đê ô cho chuyến Hải Phòng tới, và theo dõi Hin tơn Mê đi a nhé!",
+      "display": "Lưu video cho chuyến Hải Phòng tới, và theo dõi Hinton Media nhé!",
+      "phrases": [
+        [
+          "Lưu video",
+          "Lưu vi đê ô"
+        ],
+        [
+          "cho chuyến Hải Phòng tới,",
+          "cho chuyến Hải Phòng tới,"
+        ],
+        [
+          "và theo dõi Hinton Media nhé!",
+          "và theo dõi Hin tơn Mê đi a nhé!"
+        ]
+      ],
+      "i": 19,
+      "start": 50.764,
+      "end": 53.825
+    }
+  ],
+  "qa": "OmniVoice · male clone v2 locked · 1.2 · voice_locked:true",
+  "health": {
+    "status": "ok",
+    "engine": "OmniVoice",
+    "model": "k2-fsa/OmniVoice",
+    "device": "cpu",
+    "voice_mode": "clone",
+    "voice_locked": true,
+    "ref_audio": "/workspace/omnivoice-server/voice-lock-vn-v2.wav",
+    "ref_text": "/workspace/omnivoice-server/voice-lock-vn-v2.ref.txt",
+    "speed": 1.2,
+    "speed_mode": "post",
+    "seed": 1234,
+    "num_step": 32,
+    "language": "vi",
+    "sample_rate": 24000
+  }
+}

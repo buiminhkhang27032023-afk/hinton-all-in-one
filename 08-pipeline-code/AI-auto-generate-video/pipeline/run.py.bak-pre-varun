@@ -1,0 +1,236 @@
+"""Hinton short-video pipeline orchestrator.
+
+  python -m pipeline.run prep   <job>   # no lock: validate script, fetch footage (stock / yt-dlp / screenshots)
+  python -m pipeline.run render <job>   # MUST run inside flock /workspace/video-jobs/.render.lock (run.sh does it)
+"""
+import argparse, hashlib, json, os, shutil, sys, time
+from pathlib import Path
+from .common import (log, setup_logging, load_config, write_json, read_json, run, media_duration, find_input, REPO, LOCK_FILE)
+from . import text_vi, footage, presenter as P, timeline, compose_hf, finalize
+from .tts_omnivoice import synth_sentences, loudnorm, QA_STRING
+from .align import align_words, asr_verify, build_srt
+
+
+def dirs(job: Path):
+    d = {k: job / k for k in ("source", "lam-viec", "output", "qa")}
+    for p in d.values():
+        p.mkdir(parents=True, exist_ok=True)
+    d["render"] = d["lam-viec"] / "render"; d["render"].mkdir(exist_ok=True)
+    d["hf"] = d["lam-viec"] / "hf"
+    return d
+
+
+def load_script(job: Path, cfg, notes):
+    f = find_input(job, "script.txt")
+    if not f:
+        raise SystemExit(f"missing script.txt in {job}")
+    text = text_vi.normalize(f.read_text(encoding="utf-8"))
+    sents = text_vi.split_sentences(text)
+    syl = text_vi.count_syllables(text)
+    if not (cfg["syllables_min"] <= syl <= cfg["syllables_max"]):
+        notes.append(f"script length {syl} syllables (target {cfg['syllables_min']}-{cfg['syllables_max']})")
+        log.warning(notes[-1])
+    dg = text_vi.digits_present(text)
+    if dg:
+        notes.append(f"script contains digits {dg[:5]} -> TTS may read them oddly; write numbers as Vietnamese words")
+        log.warning(notes[-1])
+    return text, sents, syl
+
+
+def stage_prep(job, cfg, d, notes):
+    text, sents, syl = load_script(job, cfg, notes)
+    log.info("script: %d syllables, %d sentences", syl, len(sents))
+    fj = d["lam-viec"] / "footage.json"
+    pools = {"stock": {str(k): v for k, v in footage.fetch_stock(sents, job, d["lam-viec"], cfg, notes).items()},
+             "demo": footage.fetch_demo(job, d["lam-viec"], cfg, notes),
+             "screenshots": footage.fetch_screenshots(job, d["lam-viec"], cfg, notes)}
+    write_json(fj, {"pools": pools, "notes": notes})
+    log.info("footage: stock=%d demo=%d screenshots=%d", sum(len(v) for v in pools["stock"].values()),
+             len(pools["demo"]), len(pools["screenshots"]))
+
+
+def _md5(p):
+    h = hashlib.md5()
+    with open(p, "rb") as f:
+        for chunk in iter(lambda: f.read(1 << 20), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def stage_render(job, cfg, d, notes, args):
+    if os.environ.get("HINTON_RENDER_LOCK_HELD") != "1":
+        log.warning("render stage running WITHOUT the render lock env flag (use ./run.sh)")
+    times = {}
+    t_all = time.time()
+    text, sents, syl = load_script(job, cfg, notes)
+    fj = d["lam-viec"] / "footage.json"
+    fdata = read_json(fj) if fj.exists() else {"pools": {"stock": {}, "demo": [], "screenshots": []}, "notes": []}
+    notes += [n for n in fdata.get("notes", []) if n not in notes]
+    pools = fdata["pools"]; pools["stock"] = {int(k): v for k, v in pools.get("stock", {}).items()}
+
+    # 1) TTS (OmniVoice voice-lock v2) ---------------------------------------
+    t0 = time.time()
+    raw, sent_t, tts_info = synth_sentences(sents, d["lam-viec"], cfg)
+    voice = d["lam-viec"] / "voice.wav"
+    ln = loudnorm(raw, voice, cfg)
+    kallaway = cfg.get("preset") == "kallaway"
+    if kallaway:  # Kallaway: cut every pause > 0.2s (SO-TAY-DUNG 2.1: 0.1 pauses/min) and re-time sentences
+        from .kallaway.voice import tighten
+        tight = d["lam-viec"] / "voice_tight.wav"
+        tmap, tinfo = tighten(voice, tight, cfg.get("kallaway", {}).get("max_pause", 0.2), cfg.get("kallaway", {}).get("keep_pause", 0.2))
+        shutil.move(str(tight), str(voice))
+        for s in sent_t:
+            s["start"], s["end"] = tmap(s["start"]), tmap(s["end"])
+        notes.append(f"kallaway voice tighten {tinfo}")
+    vdur = media_duration(voice)
+    write_json(d["lam-viec"] / "tts.json", {"sentences": sent_t, "info": tts_info, "loudnorm_in": ln, "duration": vdur})
+    times["tts"] = round(time.time() - t0, 1)
+    log.info("voice: %.2fs (target ~%ss)", vdur, cfg["target_duration"])
+    if abs(vdur - cfg["target_duration"]) > 8:
+        notes.append(f"voice duration {vdur:.1f}s is far from target {cfg['target_duration']}s")
+
+    # 2) alignment -------------------------------------------------------------
+    t0 = time.time()
+    wj = d["lam-viec"] / "words.json"
+    vmd5 = _md5(voice)
+    if wj.exists() and read_json(wj).get("voice_md5") == vmd5 and not args.force:
+        words = read_json(wj)["words"]; log.info("alignment cached")
+    else:
+        words = align_words(voice, sent_t, cfg)
+        write_json(wj, {"voice_md5": vmd5, "words": words})
+    times["align"] = round(time.time() - t0, 1)
+    asr = None
+    if cfg["asr_verify"]["enabled"]:
+        t0 = time.time()
+        aj = d["lam-viec"] / "asr_verify.json"
+        if aj.exists() and read_json(aj).get("voice_md5") == vmd5 and not args.force:
+            asr = read_json(aj)
+        else:
+            try:
+                asr = asr_verify(voice, text, cfg); asr["voice_md5"] = vmd5; write_json(aj, asr)
+            except Exception as e:
+                notes.append(f"ASR verify failed: {e}"); log.warning(notes[-1])
+        times["asr_verify"] = round(time.time() - t0, 1)
+    srt = build_srt(words)
+    (d["render"] / "subtitle.srt").write_text(srt, encoding="utf-8")
+
+    # 3) presenter -------------------------------------------------------------
+    t0 = time.time()
+    mode, src = P.resolve(job, cfg)
+    pres = None
+    if kallaway:
+        if mode != "video":
+            raise SystemExit("preset kallaway needs presenter.video")
+        mode = None
+        pres = {"mode": "video (kallaway split/full-face)", "source": str(src), "crop": P.cropdetect(src), "segments": []}
+    if mode:
+        pj = d["lam-viec"] / "presenter.json"
+        key = f"{src}|{src.stat().st_mtime}|{mode}|{cfg['presenter']['silence_cut']}"
+        if pj.exists() and read_json(pj).get("key") == key and not args.force:
+            pres = read_json(pj)["data"]; log.info("presenter cached (%s)", mode)
+        else:
+            pres = P.prep_video(src, d["lam-viec"], cfg, notes) if mode == "video" else P.prep_photo(src, d["lam-viec"], cfg, notes)
+            write_json(pj, {"key": key, "data": pres, "notes": notes[-3:]})
+    elif not kallaway:
+        notes.append("no presenter video/photo configured -> no PIP / intro-outro cards")
+    times["presenter"] = round(time.time() - t0, 1)
+
+    # 4) edit plan + HyperFrames composition ------------------------------------
+    t0 = time.time()
+    if kallaway:
+        from .kallaway import build as KB
+        plan = KB.build(job, cfg, d, words, voice, vdur, pools, notes)
+        times["kallaway_render"] = round(time.time() - t0, 1)
+    else:
+        plan = None
+    if plan is None:
+      plan = timeline.plan(words, sent_t, vdur, pools, pres, cfg)
+      if pres:
+          pc = cfg["presenter"]
+          L = pres.get("length", 9999)
+          pres["segments"] = P.plan_segments([(plan["hook_end"], plan["outro_start"])], L, pc["segment_min"],
+                                             min(pc["segment_max"], max(1.0, L / 3)), [s["start"] for s in plan["shots"]])
+      write_json(d["lam-viec"] / "plan.json", {"plan": plan, "presenter": pres})
+      if d["hf"].exists():
+          shutil.rmtree(d["hf"])
+      compose_hf.build(plan, words, pres, voice, d["hf"], cfg, notes)
+      times["compose"] = round(time.time() - t0, 1)
+
+      # 5) render -----------------------------------------------------------------
+      video = d["render"] / "video.mp4"
+      times["hyperframes_render"] = finalize.hf_render(d["hf"], video, cfg)
+
+    # 6) deliverables (deliver.sh conventions) -------------------------------------
+    shutil.copy2(voice, d["render"] / "voice.wav")
+    (d["render"] / "script.txt").write_text(text + "\n", encoding="utf-8")
+    write_json(d["render"] / "script.json", {"job": cfg["job_id"], "version": cfg["version"], "title": cfg.get("title"),
+                                             "sentences": sents, "syllables": syl, "voice": QA_STRING,
+                                             "captions_burn": cfg["captions_burn"], "bgm": cfg["bgm"]})
+    write_json(d["render"] / "timings.json", {"sentences": sent_t, "words": words, "shots": plan["shots"]})
+    run(["bash", finalize.DELIVER, str(d["render"]), str(job)], capture=True)
+    out = d["output"]
+    shutil.copy2(d["render"] / "script.txt", out / "storytelling_script.txt")
+
+    # 7) QA ---------------------------------------------------------------------
+    p1080 = finalize.probe_summary(out / "storytelling_final.mp4")
+    p720 = finalize.probe_summary(out / "storytelling_mobile_720p.mp4")
+    loud = finalize.loudness(out / "storytelling_final.mp4")
+    cs = d["qa"] / "contact_sheet.jpg"
+    cs_t = finalize.contact_sheet(out / "storytelling_final.mp4", cs)
+    times["total_render_stage"] = round(time.time() - t_all, 1)
+    write_report(job, cfg, d, plan, pres, p1080, p720, loud, asr, tts_info, times, notes, syl, vdur, cs, cs_t, pools)
+
+
+def write_report(job, cfg, d, plan, pres, p1080, p720, loud, asr, tts_info, times, notes, syl, vdur, cs, cs_t, pools):
+    kinds = {}
+    for s in plan["shots"]:
+        k = s["visual"]["type"] + ("/" + s["visual"].get("kind", "") if s["visual"].get("kind") else "")
+        kinds[k] = kinds.get(k, 0) + 1
+    ok = (p1080["video"].startswith("h264 1080x1920") and p1080["audio"] and p720["video"].startswith("h264 720x1280")
+          and tts_info["health"].get("voice_locked") is True)
+    status = "Hoàn thành" if ok else "Lỗi QA"
+    credits = sorted({s["visual"].get("credit") for s in plan["shots"] if s["visual"].get("credit")})
+    ticket = f"{cfg['job_id']}|{status}|{cfg['version']}-{round(p1080['duration'])}s|{job / 'output' / 'storytelling_final.mp4'}|next=bố"
+    lines = [f"# QA report — {cfg['job_id']} ({cfg['version']})", "",
+             f"- Engine: HyperFrames {cfg.get('_hf_version','0.8.114')} (headless Chrome) · repo `/workspace/AI-auto-generate-video`",
+             f"- Voice: {QA_STRING} (health ref `{os.path.basename(tts_info['health'].get('ref_audio',''))}`, speed_mode {tts_info['health'].get('speed_mode')})",
+             f"- Script: {syl} âm tiết · voice {vdur:.2f}s · loudness {loud}",
+             f"- Captions burn: {cfg['captions_burn']} · BGM: {cfg['bgm']} · SRT sidecar: output/subtitle.srt",
+             f"- Presenter: {pres['mode'] if pres else 'none'} · {pres.get('source') if pres else ''} · crop={pres.get('crop') if pres else ''} · {len(pres.get('segments', [])) if pres else 0} PIP segments (no lip-sync)",
+             f"- Shots: {len(plan['shots'])} body shots · hook 0–{plan['hook_end']}s · outro {plan['outro_start']}–{plan['total']}s · mix {kinds}",
+             f"- ASR verify: {('similarity ' + str(asr['similarity'])) if asr else 'off'}",
+             f"- 1080p: {p1080}", f"- 720p: {p720}",
+             f"- Contact sheet: {cs} (t={cs_t})",
+             f"- Times (s): {times}", "", "## Ghi chú / gaps"] + [f"- {n}" for n in notes] + \
+            ["", "## Nguồn footage (ghi nguồn khi đăng)"] + [f"- {c}" for c in credits] + ["", "## Bàn giao", "```", ticket, "```"]
+    (d["qa"] / "report.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (d["qa"] / "ticket.txt").write_text(ticket + "\n", encoding="utf-8")
+    log.info("QA report: %s", d["qa"] / "report.md")
+    log.info("TICKET %s", ticket)
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("stage", choices=["prep", "render"])
+    ap.add_argument("job")
+    ap.add_argument("--force", action="store_true", help="ignore caches (alignment, presenter)")
+    args = ap.parse_args()
+    job = Path(args.job).resolve()
+    d = dirs(job)
+    setup_logging(d["qa"] / "pipeline.log")
+    cfg = load_config(job)
+    log.info("==== %s stage=%s job=%s ====", "hinton-pipeline", args.stage, cfg["job_id"])
+    notes = []
+    try:
+        if args.stage == "prep":
+            stage_prep(job, cfg, d, notes)
+        else:
+            stage_render(job, cfg, d, notes, args)
+    except Exception as e:
+        log.exception("FAILED: %s", e)
+        (d["qa"] / "ticket.txt").write_text(f"{cfg['job_id']}|Lỗi|{cfg['version']}|{job}|next=bố (xem qa/pipeline.log)\n")
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()

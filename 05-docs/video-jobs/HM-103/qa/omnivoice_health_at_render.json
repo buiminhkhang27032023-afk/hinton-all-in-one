@@ -1,0 +1,1 @@
+{"status":"ok","engine":"OmniVoice","model":"k2-fsa/OmniVoice","device":"cpu","voice_mode":"clone","voice_locked":true,"ref_audio":"/workspace/omnivoice-server/voice-lock-vn-v2.wav","ref_text":"/workspace/omnivoice-server/voice-lock-vn-v2.ref.txt","speed":1.2,"speed_mode":"post","seed":1234,"num_step":32,"language":"vi","sample_rate":24000}

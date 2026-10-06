@@ -1,0 +1,630 @@
+{
+  "plan": {
+    "total": 52.2,
+    "hook_end": 2.26,
+    "outro_start": 49.56,
+    "shots": [
+      {
+        "start": 2.26,
+        "end": 4.897,
+        "dur": 2.637,
+        "sent": 0,
+        "words": [
+          "có",
+          "lời",
+          "giải.",
+          "Nhưng",
+          "đây",
+          "không",
+          "phải",
+          "đề",
+          "thi",
+          "có",
+          "sẵn",
+          "đáp",
+          "án."
+        ],
+        "phrase": "có lời giải. Nhưng đây không",
+        "visual": {
+          "type": "kenburns",
+          "img": "/workspace/video-jobs/HM-101/lam-viec/webshots/web00.png"
+        }
+      },
+      {
+        "start": 4.897,
+        "end": 7.119,
+        "dur": 2.222,
+        "sent": 2,
+        "words": [
+          "Điều",
+          "đáng",
+          "nói:",
+          "AI",
+          "bắt",
+          "đầu",
+          "giúp",
+          "tạo",
+          "kiến",
+          "thức",
+          "mới."
+        ],
+        "phrase": "Điều đáng nói: AI bắt đầu",
+        "visual": {
+          "type": "browser",
+          "img": "/workspace/video-jobs/HM-101/lam-viec/webshots/web01.png"
+        }
+      },
+      {
+        "start": 7.119,
+        "end": 9.362,
+        "dur": 2.243,
+        "sent": 3,
+        "words": [
+          "Ngày",
+          "hai",
+          "tháng",
+          "mười,",
+          "Meta",
+          "công",
+          "bố",
+          "Muse",
+          "Spark."
+        ],
+        "phrase": "mười, Meta công bố Muse Spark",
+        "visual": {
+          "type": "kenburns",
+          "img": "/workspace/video-jobs/HM-101/lam-viec/webshots/web00.png"
+        }
+      },
+      {
+        "start": 9.362,
+        "end": 11.839,
+        "dur": 2.477,
+        "sent": 4,
+        "words": [
+          "Các",
+          "nhà",
+          "toán",
+          "học",
+          "cùng",
+          "AI",
+          "viết",
+          "sáu",
+          "bài",
+          "báo",
+          "nghiên",
+          "cứu."
+        ],
+        "phrase": "Các nhà toán học cùng AI",
+        "visual": {
+          "type": "textcard"
+        }
+      },
+      {
+        "start": 11.839,
+        "end": 14.089,
+        "dur": 2.25,
+        "sent": 5,
+        "words": [
+          "Năm",
+          "bài",
+          "đưa",
+          "ra",
+          "lời",
+          "giải",
+          "cho",
+          "câu",
+          "hỏi",
+          "trước",
+          "đó",
+          "bỏ",
+          "ngỏ."
+        ],
+        "phrase": "Năm bài đưa ra lời giải",
+        "visual": {
+          "type": "browser",
+          "img": "/workspace/video-jobs/HM-101/lam-viec/webshots/web01.png"
+        }
+      },
+      {
+        "start": 14.089,
+        "end": 17.006,
+        "dur": 2.917,
+        "sent": 6,
+        "words": [
+          "Đầu",
+          "năm,",
+          "mô",
+          "hình",
+          "Meta",
+          "đạt",
+          "huy",
+          "chương",
+          "vàng",
+          "ở",
+          "năm",
+          "kỳ",
+          "Olympiad."
+        ],
+        "phrase": "Đầu năm, mô hình Meta đạt",
+        "visual": {
+          "type": "kenburns",
+          "img": "/workspace/video-jobs/HM-101/lam-viec/webshots/web00.png"
+        }
+      },
+      {
+        "start": 17.006,
+        "end": 19.88,
+        "dur": 2.874,
+        "sent": 7,
+        "words": [
+          "Nhưng",
+          "bài",
+          "toán",
+          "nghiên",
+          "cứu",
+          "mở",
+          "thì",
+          "khác:",
+          "không",
+          "có",
+          "chìa",
+          "đáp",
+          "án."
+        ],
+        "phrase": "Nhưng bài toán nghiên cứu mở",
+        "visual": {
+          "type": "browser",
+          "img": "/workspace/video-jobs/HM-101/lam-viec/webshots/web01.png"
+        }
+      },
+      {
+        "start": 19.88,
+        "end": 22.854,
+        "dur": 2.974,
+        "sent": 8,
+        "words": [
+          "Con",
+          "người",
+          "dẫn",
+          "dắt,",
+          "AI",
+          "là",
+          "cộng",
+          "sự",
+          "ngay",
+          "trong",
+          "chat",
+          "meta",
+          "chấm",
+          "ai."
+        ],
+        "phrase": "Con người dẫn dắt, AI là",
+        "visual": {
+          "type": "phone"
+        }
+      },
+      {
+        "start": 22.854,
+        "end": 24.529,
+        "dur": 1.675,
+        "sent": 9,
+        "words": [
+          "Nhóm",
+          "thứ",
+          "hai",
+          "thẩm",
+          "định",
+          "từng",
+          "lập",
+          "luận."
+        ],
+        "phrase": "Nhóm thứ hai thẩm định từng",
+        "visual": {
+          "type": "kenburns",
+          "img": "/workspace/video-jobs/HM-101/lam-viec/webshots/web00.png"
+        }
+      },
+      {
+        "start": 24.529,
+        "end": 26.505,
+        "dur": 1.976,
+        "sent": 10,
+        "words": [
+          "Mỗi",
+          "đoạn",
+          "đánh",
+          "dấu",
+          "rõ",
+          "người",
+          "viết",
+          "hay",
+          "AI",
+          "soạn."
+        ],
+        "phrase": "rõ người viết hay AI soạn",
+        "visual": {
+          "type": "browser",
+          "img": "/workspace/video-jobs/HM-101/lam-viec/webshots/web01.png"
+        }
+      },
+      {
+        "start": 26.505,
+        "end": 28.48,
+        "dur": 1.975,
+        "sent": 11,
+        "words": [
+          "Có",
+          "bài",
+          "bác",
+          "giả",
+          "thuyết",
+          "năm",
+          "hai",
+          "không",
+          "hai",
+          "tư."
+        ],
+        "phrase": "Có bài bác giả thuyết năm",
+        "visual": {
+          "type": "kenburns",
+          "img": "/workspace/video-jobs/HM-101/lam-viec/webshots/web00.png"
+        }
+      },
+      {
+        "start": 28.48,
+        "end": 30.998,
+        "dur": 2.518,
+        "sent": 12,
+        "words": [
+          "Phản",
+          "ví",
+          "dụ",
+          "là",
+          "một",
+          "nhóm",
+          "có",
+          "ba",
+          "trăm",
+          "tám",
+          "mươi",
+          "bốn",
+          "phần",
+          "tử."
+        ],
+        "phrase": "Phản ví dụ là một nhóm",
+        "visual": {
+          "type": "browser",
+          "img": "/workspace/video-jobs/HM-101/lam-viec/webshots/web01.png"
+        }
+      },
+      {
+        "start": 30.998,
+        "end": 33.593,
+        "dur": 2.595,
+        "sent": 13,
+        "words": [
+          "Có",
+          "bài",
+          "xác",
+          "nhận",
+          "sóng",
+          "phải",
+          "sụp",
+          "đổ",
+          "trong",
+          "thời",
+          "gian",
+          "hữu",
+          "hạn."
+        ],
+        "phrase": "Có bài xác nhận sóng phải",
+        "visual": {
+          "type": "browser",
+          "img": "/workspace/video-jobs/HM-101/lam-viec/webshots/web00.png"
+        }
+      },
+      {
+        "start": 33.593,
+        "end": 35.694,
+        "dur": 2.101,
+        "sent": 14,
+        "words": [
+          "Đó",
+          "là",
+          "câu",
+          "hỏi",
+          "bỏ",
+          "ngỏ",
+          "từ",
+          "năm",
+          "hai",
+          "không",
+          "một",
+          "năm."
+        ],
+        "phrase": "Đó là câu hỏi bỏ ngỏ",
+        "visual": {
+          "type": "kenburns",
+          "img": "/workspace/video-jobs/HM-101/lam-viec/webshots/web01.png"
+        }
+      },
+      {
+        "start": 35.694,
+        "end": 37.343,
+        "dur": 1.649,
+        "sent": 15,
+        "words": [
+          "Cùng",
+          "đợt,",
+          "Meta",
+          "mở",
+          "Muse",
+          "Gadgets."
+        ],
+        "phrase": "Cùng đợt, Meta mở Muse Gadgets",
+        "visual": {
+          "type": "browser",
+          "img": "/workspace/video-jobs/HM-101/lam-viec/webshots/web00.png"
+        }
+      },
+      {
+        "start": 37.343,
+        "end": 39.584,
+        "dur": 2.241,
+        "sent": 16,
+        "words": [
+          "Phần",
+          "cứng",
+          "nguồn",
+          "mở",
+          "để",
+          "ai",
+          "cũng",
+          "chạy",
+          "cùng",
+          "Muse."
+        ],
+        "phrase": "Phần cứng nguồn mở để ai",
+        "visual": {
+          "type": "textcard"
+        }
+      },
+      {
+        "start": 39.584,
+        "end": 41.844,
+        "dur": 2.26,
+        "sent": 17,
+        "words": [
+          "Năm",
+          "nghìn",
+          "chiếc",
+          "Muse",
+          "Home",
+          "Link",
+          "tặng",
+          "người",
+          "đăng",
+          "ký."
+        ],
+        "phrase": "Năm nghìn chiếc Muse Home Link",
+        "visual": {
+          "type": "kenburns",
+          "img": "/workspace/video-jobs/HM-101/lam-viec/webshots/web01.png"
+        }
+      },
+      {
+        "start": 41.844,
+        "end": 44.645,
+        "dur": 2.801,
+        "sent": 18,
+        "words": [
+          "Nhưng",
+          "Meta",
+          "tự",
+          "công",
+          "bố,",
+          "bài",
+          "báo",
+          "chưa",
+          "qua",
+          "bình",
+          "duyệt",
+          "tạp",
+          "chí."
+        ],
+        "phrase": "Nhưng Meta tự công bố, bài",
+        "visual": {
+          "type": "browser",
+          "img": "/workspace/video-jobs/HM-101/lam-viec/webshots/web00.png"
+        }
+      },
+      {
+        "start": 44.645,
+        "end": 46.687,
+        "dur": 2.042,
+        "sent": 19,
+        "words": [
+          "Một",
+          "số",
+          "bài",
+          "toán",
+          "đã",
+          "được",
+          "nhóm",
+          "khác",
+          "giải",
+          "độc",
+          "lập."
+        ],
+        "phrase": "Một số bài toán đã được",
+        "visual": {
+          "type": "kenburns",
+          "img": "/workspace/video-jobs/HM-101/lam-viec/webshots/web01.png"
+        }
+      },
+      {
+        "start": 46.687,
+        "end": 49.56,
+        "dur": 2.873,
+        "sent": 20,
+        "words": [
+          "Chuyên",
+          "gia",
+          "cộng",
+          "AI",
+          "chat",
+          "thường",
+          "đã",
+          "tạo",
+          "kết",
+          "quả",
+          "cấp",
+          "nghiên",
+          "cứu.",
+          "Theo"
+        ],
+        "phrase": "Chuyên gia cộng AI chat thường",
+        "visual": {
+          "type": "keyword"
+        }
+      }
+    ]
+  },
+  "presenter": {
+    "mode": "video",
+    "pip": "/workspace/video-jobs/HM-101/lam-viec/presenter/presenter_pip.mp4",
+    "full": "/workspace/video-jobs/HM-101/lam-viec/presenter/presenter_full.mp4",
+    "length": 53.966667,
+    "source": "/workspace/hinton-pipeline-docs/assets/presenter-video-novoice.mp4",
+    "crop": "608:1072:656:0",
+    "face": [
+      262,
+      246,
+      151,
+      151
+    ],
+    "segments": [
+      {
+        "start": 2.26,
+        "dur": 2.637,
+        "media_start": 31.693,
+        "idx": 0
+      },
+      {
+        "start": 4.897,
+        "dur": 2.222,
+        "media_start": 12.203,
+        "idx": 1
+      },
+      {
+        "start": 7.119,
+        "dur": 2.243,
+        "media_start": 44.135,
+        "idx": 2
+      },
+      {
+        "start": 9.362,
+        "dur": 2.477,
+        "media_start": 24.287,
+        "idx": 3
+      },
+      {
+        "start": 11.839,
+        "dur": 2.25,
+        "media_start": 4.659,
+        "idx": 4
+      },
+      {
+        "start": 14.089,
+        "dur": 2.917,
+        "media_start": 36.118,
+        "idx": 5
+      },
+      {
+        "start": 17.006,
+        "dur": 2.874,
+        "media_start": 16.652,
+        "idx": 6
+      },
+      {
+        "start": 19.88,
+        "dur": 2.974,
+        "media_start": 48.104,
+        "idx": 7
+      },
+      {
+        "start": 22.854,
+        "dur": 1.675,
+        "media_start": 29.376,
+        "idx": 8
+      },
+      {
+        "start": 24.529,
+        "dur": 1.976,
+        "media_start": 9.367,
+        "idx": 9
+      },
+      {
+        "start": 26.505,
+        "dur": 1.975,
+        "media_start": 41.469,
+        "idx": 10
+      },
+      {
+        "start": 28.48,
+        "dur": 2.518,
+        "media_start": 21.403,
+        "idx": 11
+      },
+      {
+        "start": 30.998,
+        "dur": 2.595,
+        "media_start": 1.768,
+        "idx": 12
+      },
+      {
+        "start": 33.593,
+        "dur": 2.101,
+        "media_start": 33.808,
+        "idx": 13
+      },
+      {
+        "start": 35.694,
+        "dur": 1.649,
+        "media_start": 14.139,
+        "idx": 14
+      },
+      {
+        "start": 37.343,
+        "dur": 2.241,
+        "media_start": 45.916,
+        "idx": 15
+      },
+      {
+        "start": 39.584,
+        "dur": 2.26,
+        "media_start": 26.168,
+        "idx": 16
+      },
+      {
+        "start": 41.844,
+        "dur": 2.801,
+        "media_start": 6.37,
+        "idx": 17
+      },
+      {
+        "start": 44.645,
+        "dur": 2.042,
+        "media_start": 38.525,
+        "idx": 18
+      },
+      {
+        "start": 46.687,
+        "dur": 2.873,
+        "media_start": 18.41,
+        "idx": 19
+      }
+    ]
+  }
+}

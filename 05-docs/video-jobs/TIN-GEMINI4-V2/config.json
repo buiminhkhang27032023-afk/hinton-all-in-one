@@ -1,0 +1,36 @@
+{
+  "job_id": "TIN-GEMINI4-V2",
+  "version": "v2",
+  "output_subdir": "v2",
+  "preset": "varun",
+  "title": "Gemini 4 Argon|mạnh nhất nhưng chưa mở",
+  "captions_burn": true,
+  "bgm": true,
+  "bgm_volume_db": -20,
+  "target_duration": 55,
+  "presenter": {
+    "mode": "auto",
+    "video": "/workspace/hinton-pipeline-docs/assets/presenter-video-novoice.mp4"
+  },
+  "kallaway": {
+    "tail": 0.25,
+    "face_full_px": 420,
+    "f_eye_y": 700
+  },
+  "varun": {
+    "hook_hold": 1.94,
+    "face_min_gap": 10.0,
+    "whip_every": 5.0,
+    "qa": {
+      "face_max_gap": 20.0,
+      "face_hook_max": 3.0,
+      "min_splits": 2
+    },
+    "cap_top": 1465,
+    "chip_y": 1280
+  },
+  "footage": {
+    "stock_enabled": false,
+    "ytdlp_max_height": 720
+  }
+}

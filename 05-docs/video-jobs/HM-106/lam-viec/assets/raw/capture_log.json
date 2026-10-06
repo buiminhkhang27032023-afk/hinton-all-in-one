@@ -1,0 +1,12 @@
+{
+ "openai": {
+  "status": 200,
+  "title": "Building advertising for the way people use AI | OpenAI",
+  "ok": true
+ },
+ "techcrunch": {
+  "status": 200,
+  "title": "Instinct brings its AI agent to group chats, even for friends without an account | TechCrunch",
+  "ok": true
+ }
+}

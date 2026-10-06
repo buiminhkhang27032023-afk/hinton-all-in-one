@@ -1,0 +1,482 @@
+[
+{
+"box": [
+82,
+49,
+288,
+33
+],
+"text": "Google DeepMind",
+"conf": 0.9
+},
+{
+"box": [
+790,
+50,
+117,
+30
+],
+"text": "Science",
+"conf": 0.806
+},
+{
+"box": [
+459,
+51,
+109,
+27
+],
+"text": "Models",
+"conf": 0.851
+},
+{
+"box": [
+612,
+51,
+134,
+27
+],
+"text": "Research",
+"conf": 0.79
+},
+{
+"box": [
+951,
+51,
+93,
+28
+],
+"text": "About",
+"conf": 0.831
+},
+{
+"box": [
+1564,
+52,
+248,
+26
+],
+"text": "Build with Gemini",
+"conf": 0.889
+},
+{
+"box": [
+1934,
+49,
+157,
+33
+],
+"text": "Try Gemini",
+"conf": 0.89
+},
+{
+"box": [
+859,
+215,
+325,
+35
+],
+"text": "November 30, 2020",
+"conf": 0.867
+},
+{
+"box": [
+1206,
+215,
+136,
+38
+],
+"text": "Science",
+"conf": 0.835
+},
+{
+"box": [
+509,
+296,
+1184,
+59
+],
+"text": "AlphaFold: a solution to a 5O-year-old grand",
+"conf": 0.912
+},
+{
+"box": [
+827,
+356,
+545,
+69
+],
+"text": "challenge in biology",
+"conf": 0.853
+},
+{
+"box": [
+1023,
+518,
+101,
+39
+],
+"text": "Share",
+"conf": 0.831
+},
+{
+"box": [
+431,
+1941,
+1263,
+36
+],
+"text": "In July 2022, we released AlphaFold protein structure predictions for nearly all",
+"conf": 0.924
+},
+{
+"box": [
+434,
+1993,
+1046,
+36
+],
+"text": "catalogued proteins known to science. Read the latest blog here.",
+"conf": 0.906
+},
+{
+"box": [
+430,
+2073,
+1318,
+41
+],
+"text": "Proteins are essential to life, supporting practically all its functions. They are large",
+"conf": 0.934
+},
+{
+"box": [
+432,
+2124,
+1287,
+40
+],
+"text": "complex molecules, made up of chains of amino acids, and what aprotein does",
+"conf": 0.94
+},
+{
+"box": [
+430,
+2175,
+1328,
+40
+],
+"text": "largely depends on its unique 3D structure. Figuring out what shapes proteins fold",
+"conf": 0.938
+},
+{
+"box": [
+430,
+2226,
+1323,
+39
+],
+"text": "into is known as the 'protein folding.problem\", and has stood as a grand challenge",
+"conf": 0.937
+},
+{
+"box": [
+430,
+2278,
+1328,
+39
+],
+"text": "in biology for the past 50 years. In a major scientific advance, the latest version of",
+"conf": 0.92
+},
+{
+"box": [
+432,
+2327,
+1326,
+41
+],
+"text": "our Al system AlphaFold has been recognised as a solution to this grand challenge",
+"conf": 0.943
+},
+{
+"box": [
+432,
+2376,
+1183,
+41
+],
+"text": "by the organisers of the biennial Critical Assessment of protein Structure",
+"conf": 0.929
+},
+{
+"box": [
+433,
+2482,
+1302,
+36
+],
+"text": "scientific discovery and its potential to dramatically accelerate progress in some",
+"conf": 0.928
+},
+{
+"box": [
+433,
+2531,
+1048,
+38
+],
+"text": "of the most fundamental fields that explain and shape our world.",
+"conf": 0.88
+},
+{
+"box": [
+433,
+2615,
+1292,
+36
+],
+"text": "A protein's shape is closely linked with its function, and the ability to predict this",
+"conf": 0.918
+},
+{
+"box": [
+430,
+2663,
+1322,
+41
+],
+"text": "structure unlocks a greater understanding of what it does and how it works. Many",
+"conf": 0.931
+},
+{
+"box": [
+432,
+2714,
+1244,
+40
+],
+"text": "of the world's greatest challenges, like developing treatments for diseases or",
+"conf": 0.905
+},
+{
+"box": [
+433,
+2768,
+1227,
+36
+],
+"text": "finding enzymes that break down industrial waste, are fundamentally tied to",
+"conf": 0.9
+},
+{
+"box": [
+431,
+2815,
+501,
+42
+],
+"text": "proteins and the role they play.",
+"conf": 0.904
+},
+{
+"box": [
+84,
+2943,
+1955,
+58
+],
+"text": "\"We have been stuck on this one problem - how do proteins fold up - for",
+"conf": 0.873
+},
+{
+"box": [
+75,
+3000,
+1850,
+74
+],
+"text": "nearly 50 years. To see DeepMind produce a solution for this, having",
+"conf": 0.925
+},
+{
+"box": [
+76,
+3070,
+2023,
+63
+],
+"text": "worked personally on this problem for so long and after so many stops and",
+"conf": 0.906
+},
+{
+"box": [
+77,
+3136,
+1788,
+59
+],
+"text": "starts, wondering if we'd ever get there, is a very special moment.\"",
+"conf": 0.903
+},
+{
+"box": [
+82,
+3253,
+344,
+30
+],
+"text": "Professor John Moult",
+"conf": 0.916
+},
+{
+"box": [
+80,
+3299,
+872,
+39
+],
+"text": "Co-founder and Chair of CAsP, University of Maryland",
+"conf": 0.917
+},
+{
+"box": [
+431,
+3427,
+1233,
+43
+],
+"text": "This has been a focus of intensive scientific research for many years, using a",
+"conf": 0.936
+},
+{
+"box": [
+432,
+3483,
+1314,
+37
+],
+"text": "variety of experimental techniques to examine and determine protein structures,",
+"conf": 0.945
+},
+{
+"box": [
+430,
+3531,
+1327,
+41
+],
+"text": "such as nuclear magnetic resonance and X-ray crystallography. These techniques,",
+"conf": 0.93
+},
+{
+"box": [
+430,
+3582,
+1337,
+42
+],
+"text": "as well as newer methods like cryo-electron microscopy, depend on extensive trial",
+"conf": 0.944
+},
+{
+"box": [
+431,
+3634,
+1292,
+39
+],
+"text": "and error, which can take years of painstaking and laborious work per structure,",
+"conf": 0.928
+},
+{
+"box": [
+433,
+3685,
+1046,
+38
+],
+"text": "and require the use of multi-million dollar specialised equipment",
+"conf": 0.919
+},
+{
+"box": [
+433,
+3810,
+725,
+58
+],
+"text": "The 'protein-folding problem'",
+"conf": 0.888
+},
+{
+"box": [
+431,
+3958,
+1299,
+38
+],
+"text": "famouslypostulated that, in theory, a protein's amino acid sequence should fully",
+"conf": 0.901
+},
+{
+"box": [
+432,
+4007,
+1325,
+40
+],
+"text": "determine its structure. This hypothesis sparked a five decade quest to be able to",
+"conf": 0.921
+},
+{
+"box": [
+432,
+4059,
+1319,
+39
+],
+"text": "computationally predict a protein's 3D structure based solely on its 1D amino acid",
+"conf": 0.908
+},
+{
+"box": [
+429,
+4108,
+1336,
+43
+],
+"text": "sequence as a complementary alternative to these expensive and time consuming",
+"conf": 0.931
+},
+{
+"box": [
+434,
+4162,
+1302,
+36
+],
+"text": "experimental methods. A major challenge, however, is that the number of ways a",
+"conf": 0.909
+},
+{
+"box": [
+430,
+4209,
+1194,
+42
+],
+"text": "protein could theoretically fold before settling into its final 3D structure is",
+"conf": 0.923
+},
+{
+"box": [
+431,
+4261,
+1318,
+38
+],
+"text": "astronomical. In 1969 Cyrus Levinthal noted that it would take longer than the age",
+"conf": 0.922
+}
+]

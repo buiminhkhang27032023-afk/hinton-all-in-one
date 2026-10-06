@@ -1,0 +1,264 @@
+{
+  "job_id": "MAP-HOTEL-HP-01",
+  "city": "Hải Phòng",
+  "fetched_at": "2026-10-06",
+  "method": "Rating, số review, hạng sao (Google hotel class), toạ độ: Google Maps public search JSON (tbm=map), truy vấn từng khách sạn; số review dao động nhẹ theo thời điểm → luôn ghi 'khoảng'.",
+  "quotes_note": "Quote lấy qua Exa Places (bản sao listing Google Maps: địa chỉ/tiện ích trùng nguyên văn listing Google). Endpoint review của Google bị chặn (403) nên không lấy trực tiếp.",
+  "ranking_rule": "Xếp theo điểm Google Maps (cao → thấp); bằng điểm thì nhiều review hơn xếp trên. Chỉ xét các khách sạn lớn đã tra (8).",
+  "hotels": [
+    {
+      "id": "melia",
+      "name": "Meliá Vinpearl Hải Phòng Rivera",
+      "short": "MELIÁ VINPEARL RIVERA",
+      "google_name": "Melia Vinpearl Hai Phong Rivera",
+      "star_class": 5,
+      "rating": 4.8,
+      "reviews": 2170,
+      "lat": 20.8670477,
+      "lng": 106.6635481,
+      "area": "Vinhomes Imperia · Hồng Bàng",
+      "address": "04112 Đường Manhattan 9 Vinhomes Imperia, Hồng Bàng, Hải Phòng",
+      "place_id": "ChIJN-DFz3V7SjER8rkT5qSQ77w",
+      "price": null,
+      "source_rating": "Google Maps (truy vấn công khai tbm=map, 06/10/2026 ~08:50 ICT) — research/gm_results.json, research/gm_retry.txt",
+      "reviews_quotes": [
+        {
+          "text_en": "The breakfast buffet goes on and on and on!",
+          "text_vi": "Buffet sáng dài như bất tận!",
+          "stars": 5,
+          "date": "2025-05",
+          "label": "Review Google Maps (dịch)",
+          "source_url": "https://exa.ai/library/places?q=bbeb294da994433e"
+        },
+        {
+          "text_en": "the two pools were a highlight for our kids",
+          "text_vi": "Hai bể bơi là điểm nhấn với bọn trẻ.",
+          "stars": 5,
+          "date": "2025-08",
+          "label": "Review Google Maps (dịch)",
+          "source_url": "https://exa.ai/library/places?q=bbeb294da994433e"
+        }
+      ],
+      "cross_check": "Exa Places (snapshot cũ ~11/2025): 4.8 / 1.817 ratings; melia.com: khách sạn 5 sao",
+      "notes": "Hơi xa trung tâm (khách review nói 'a little outside the Hai Phong center')."
+    },
+    {
+      "id": "pullman",
+      "name": "Pullman Hải Phòng Grand",
+      "short": "PULLMAN HẢI PHÒNG",
+      "google_name": "Khách sạn Pullman Hải Phòng",
+      "star_class": 5,
+      "rating": 4.8,
+      "reviews": 1496,
+      "lat": 20.8596829,
+      "lng": 106.6885879,
+      "area": "12 Trần Phú · trung tâm",
+      "address": "No.12 Old, P. Trần Phú, Gia Viên, Hải Phòng",
+      "place_id": "ChIJry7lg297SjER5YNpHieZNBA",
+      "price": null,
+      "source_rating": "Google Maps (truy vấn công khai tbm=map, 06/10/2026 ~08:50 ICT) — research/gm_results.json, research/gm_retry.txt",
+      "reviews_quotes": [
+        {
+          "text_en": "One of the highlights of the hotel was the 45 metre swimming pool",
+          "text_vi": "Điểm nhấn là bể bơi dài 45 mét.",
+          "stars": 5,
+          "date": "2025-11-11",
+          "label": "Review Google Maps (dịch)",
+          "source_url": "https://exa.ai/library/place/kb52v4fgx02"
+        },
+        {
+          "text_en": "Truly a 5 star hotel and experience",
+          "text_vi": "Đúng chuẩn khách sạn 5 sao.",
+          "stars": 5,
+          "date": "2025-11-11",
+          "label": "Review Google Maps (dịch)",
+          "source_url": "https://exa.ai/library/place/kb52v4fgx02"
+        }
+      ],
+      "cross_check": "Exa Places snapshot cũ: 4.8 / 906; Trip.com 9.4/10",
+      "notes": ""
+    },
+    {
+      "id": "mercure",
+      "name": "Mercure Hải Phòng",
+      "short": "MERCURE HẢI PHÒNG",
+      "google_name": "Mercure Hai Phong",
+      "star_class": 5,
+      "rating": 4.7,
+      "reviews": 2261,
+      "lat": 20.8508378,
+      "lng": 106.686755,
+      "area": "12 Lạch Tray · Lê Chân",
+      "address": "12 Lạch Tray, Hải Phòng",
+      "place_id": "ChIJEY2_4416SjERI6We8sBhWIE",
+      "price": null,
+      "source_rating": "Google Maps (truy vấn công khai tbm=map, 06/10/2026 ~08:50 ICT) — research/gm_results.json, research/gm_retry.txt",
+      "reviews_quotes": [
+        {
+          "text_en": "there is even a stadium to watch football for free from the roof top!",
+          "text_vi": "Từ rooftop còn xem bóng đá miễn phí!",
+          "stars": 5,
+          "date": "2025-10-23",
+          "label": "Review Google Maps (dịch)",
+          "source_url": "https://exa.ai/library/place/5gsn0gswb6h"
+        },
+        {
+          "text_en": "has everything you need — spa, gym, lounge and even a great rooftop pool",
+          "text_vi": "Có đủ spa, gym và cả bể bơi rooftop.",
+          "stars": 5,
+          "date": "2025-10-25",
+          "label": "Review Google Maps (dịch)",
+          "source_url": "https://exa.ai/library/place/5gsn0gswb6h"
+        }
+      ],
+      "cross_check": "Exa Places snapshot cũ: 4.7 / 1.924; thanhphohaiphong.gov.vn liệt kê Mercure trong 7 khách sạn 5 sao",
+      "notes": "Nhiều review nhất trong top 5."
+    },
+    {
+      "id": "sheraton",
+      "name": "Sheraton Hải Phòng",
+      "short": "SHERATON HẢI PHÒNG",
+      "google_name": "Sheraton Hai Phong",
+      "star_class": 5,
+      "rating": 4.7,
+      "reviews": 1580,
+      "lat": 20.8629505,
+      "lng": 106.6616017,
+      "area": "Vinhomes Imperia · Hồng Bàng",
+      "address": "Khu đô thị Vinhomes Imperia, Hồng Bàng, Hải Phòng",
+      "place_id": "ChIJp2HncsJ7SjERx4fRSm-ptDI",
+      "price": null,
+      "source_rating": "Google Maps (truy vấn công khai tbm=map, 06/10/2026 ~08:50 ICT) — research/gm_results.json, research/gm_retry.txt",
+      "reviews_quotes": [
+        {
+          "text_en": "The hotel has the most beautiful view in Hai phong",
+          "text_vi": "View đẹp nhất Hải Phòng.",
+          "stars": 5,
+          "date": "2025-06",
+          "label": "Review Google Maps (dịch)",
+          "source_url": "https://exa.ai/library/places?q=bbeb294da994433e"
+        },
+        {
+          "text_en": "a shopping mall conveniently located right underneath the hotel",
+          "text_vi": "Trung tâm thương mại ngay dưới khách sạn.",
+          "stars": 5,
+          "date": "2025-10",
+          "label": "Review Google Maps (dịch)",
+          "source_url": "https://exa.ai/library/places?q=bbeb294da994433e"
+        }
+      ],
+      "cross_check": "Exa Places snapshot cũ: 4.7 / 1.435; gov.vn: 5 sao",
+      "notes": ""
+    },
+    {
+      "id": "pearl",
+      "name": "Pearl River Hotel",
+      "short": "PEARL RIVER HOTEL",
+      "google_name": "Pearl River Hotel",
+      "star_class": 5,
+      "rating": 4.6,
+      "reviews": 2137,
+      "lat": 20.8168913,
+      "lng": 106.6978806,
+      "area": "93 Phạm Văn Đồng · Hưng Đạo",
+      "address": "93 Phạm Văn Đồng, Hưng Đạo, Hải Phòng",
+      "place_id": "ChIJQTqGam1wSjERIF3OlUwpAkY",
+      "price": null,
+      "source_rating": "Google Maps (truy vấn công khai tbm=map, 06/10/2026 ~08:50 ICT) — research/gm_results.json, research/gm_retry.txt",
+      "reviews_quotes": [
+        {
+          "text_en": "5 stars hotel, good breakfast, and the room also comfort.",
+          "text_vi": "Chuẩn 5 sao, bữa sáng ngon, phòng thoải mái.",
+          "stars": 5,
+          "date": "2025-09-26",
+          "label": "Review Google Maps (dịch)",
+          "source_url": "https://exa.ai/library/place/pvvzx90r7bp"
+        },
+        {
+          "text_en": "It only takes 20 minutes to drive to Do Son beach.",
+          "text_vi": "Chỉ 20 phút lái xe tới biển Đồ Sơn.",
+          "stars": 5,
+          "date": "2025-06-09",
+          "label": "Review Google Maps (dịch)",
+          "source_url": "https://exa.ai/library/place/pvvzx90r7bp"
+        }
+      ],
+      "cross_check": "Exa Places snapshot cũ: 4.6 / 1.863; gov.vn: 5 sao",
+      "notes": "Xa trung tâm, trên trục Phạm Văn Đồng hướng Đồ Sơn."
+    },
+    {
+      "id": "wink",
+      "name": "Wink Hai Phong Centre (Unscripted by Hyatt)",
+      "star_class": 4,
+      "rating": 4.4,
+      "reviews": 228,
+      "lat": 20.8614808,
+      "lng": 106.680666,
+      "area": "135 Điện Biên Phủ",
+      "place_id": "ChIJ_aM3eq57SjERC3trqlICGns",
+      "source_rating": "Google Maps (truy vấn công khai tbm=map, 06/10/2026 ~08:50 ICT) — research/gm_results.json, research/gm_retry.txt",
+      "reviews_quotes": [],
+      "notes": "Không vào top 5 (4.4). Exa snapshot cũ 4.6/116."
+    },
+    {
+      "id": "nikko",
+      "name": "Hotel Nikko Hai Phong",
+      "star_class": 5,
+      "rating": 4.4,
+      "reviews": 787,
+      "lat": 20.8248636,
+      "lng": 106.6904106,
+      "area": "Waterfront City · Lê Chân",
+      "place_id": "ChIJC9RGIE9xSjERCeDB0B5LRSE",
+      "source_rating": "Google Maps (truy vấn công khai tbm=map, 06/10/2026 ~08:50 ICT) — research/gm_results.json, research/gm_retry.txt",
+      "reviews_quotes": [],
+      "notes": "Không vào top 5 (4.4); review gần đây nhiều phàn nàn lễ tân."
+    },
+    {
+      "id": "manoir",
+      "name": "Manoir des Arts Hotel",
+      "star_class": 4,
+      "rating": 4.4,
+      "reviews": 372,
+      "lat": 20.8617515,
+      "lng": 106.6835708,
+      "area": "64 Điện Biên Phủ",
+      "place_id": "ChIJQ-pm7vN6SjERJn5B4ZhkZZw",
+      "source_rating": "Google Maps (truy vấn công khai tbm=map, 06/10/2026 ~08:50 ICT) — research/gm_results.json, research/gm_retry.txt",
+      "reviews_quotes": [],
+      "notes": "Không vào top 5 (4.4)."
+    }
+  ],
+  "scope": "Khách sạn 5 sao (hạng sao theo Google hotel class) khu nội thành Hải Phòng; KHÔNG gồm Cát Bà (đảo) và resort ngoại thành.",
+  "excluded_checked": [
+    {
+      "name": "Flamingo Cát Bà Beach Resort",
+      "rating": 4.8,
+      "note": "Ngoài phạm vi (đảo Cát Bà)"
+    },
+    {
+      "name": "Hotel Perle d'Orient Cat Ba",
+      "rating": 4.4,
+      "reviews": 765,
+      "note": "Ngoài phạm vi (Cát Bà)"
+    },
+    {
+      "name": "Somerset Central TD Hai Phong City",
+      "rating": 4.5,
+      "note": "Căn hộ dịch vụ, 4.5 < top 5"
+    },
+    {
+      "name": "Hai Phong Harbour View Hotel (Avani cũ)",
+      "rating": 4.3,
+      "reviews": 943,
+      "star_class": 4,
+      "note": "4 sao, 4.3"
+    },
+    {
+      "name": "Hotel Nikko Hai Phong",
+      "rating": 4.4,
+      "reviews": 787,
+      "note": "4.4 < top 5"
+    }
+  ]
+}

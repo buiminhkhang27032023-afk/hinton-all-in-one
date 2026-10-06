@@ -1,0 +1,22 @@
+{
+  "z": 14,
+  "tx0": 13044,
+  "tx1": 13050,
+  "ty0": 7695,
+  "ty1": 7701,
+  "tile_size": 256,
+  "source": "CARTO dark_all",
+  "attribution": "\u00a9 OpenStreetMap contributors \u00a9 CARTO",
+  "url_template": "https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
+  "bbox_lat": [
+    10.73025,
+    10.81718
+  ],
+  "bbox_lng": [
+    106.63785,
+    106.73361
+  ],
+  "mosaic": "assets/map/saigon-dark-z14.png",
+  "mosaic_w": 1792,
+  "mosaic_h": 1792
+}

@@ -1,0 +1,8 @@
+[  0.00-  5.66] Nếu bạn gõ gạch chéo 360 view view, nó sẽ tạo ra góc nhìn 360 độ cho sản phẩm của bạn.
+[  5.98- 12.44] Và nếu bạn gõ gạch chéo x-ray, nó sẽ tạo ra hình ảnh minh hoạ theo phòng cách x-quang cho thấy những gì bên trong sản phẩm hay đối tượng của bạn.
+[ 12.70- 18.54] Nếu bạn gõ gạch chéo exploded view, nó sẽ thành các bộ phận khác nhau và cho thấy mọi thứ khớp với nhau nhau.
+[ 18.92- 22.90] Gạch chéo drone view sẽ biến sản phẩm của bạn thành một góc quay trên cao đầy tính điện ảnh như này.
+[ 23.24- 26.80] Gạch chéo Anatomy sẽ tạo ra bản phân tích chi tiết về cấu trúc sản phẩm cho bạn.
+[ 26.80- 31.18] Gạch chéo premiumsok sẽ biến ảnh sản phẩm của bạn thành một bức hình chuyên nghiệp đẳng cấp.
+[ 31.50- 36.40] Và gạch chéo adcreative sẽ biến sản phẩm của bạn thành một ấn phẩm quảng cáo có thể dùng được ngay lập tức như này.
+[ 36.84- 40.54] Tất cả 7 câu lệnh mình để giới bình luận, nhấn theo dõi để biết thêm nhiều mẹo hay nhé!

@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="UTF-8"/>
+<meta name="viewport" content="width=1080, height=1920"/>
+<title>HM-101</title>
+<script src="assets/gsap.min.js"></script>
+<style>
+/* Hinton Shorts 9:16 look — coordinates per SO-TAY-DUNG §3.1 (1080x1920).
+   Safe zones: no text at y<150, y>1590, x>940. __TOKENS__ are replaced from config.brand. */
+@font-face { font-family: "BVP"; src: url("assets/BeVietnamPro-Bold.ttf"); font-weight: 700; }
+@font-face { font-family: "BVP"; src: url("assets/BeVietnamPro-ExtraBold.ttf"); font-weight: 800; }
+@font-face { font-family: "BVP"; src: url("assets/BeVietnamPro-Black.ttf"); font-weight: 900; }
+html, body { margin: 0; padding: 0; background: #000; }
+#root { position: relative; width: 100%; height: 100%; overflow: hidden; font-family: "BVP"; color: #fff; }
+.bgfill { position: absolute; inset: 0; background: #0B0F14; }
+.layer { position: absolute; inset: 0; overflow: hidden; transform-origin: 50% 40%; }
+.full { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+
+/* Ken Burns screenshot: blurred fill + fitted image */
+.kbbg { position: absolute; inset: -60px; background-size: cover; background-position: center; filter: blur(30px) brightness(0.55); }
+.kbfit { position: absolute; left: 40px; right: 40px; top: 230px; height: 1000px; display: flex; align-items: center; justify-content: center; }
+.kbfit img { display: block; max-width: 100%; max-height: 100%; border-radius: 22px; box-shadow: 0 30px 80px rgba(0,0,0,.6); }
+
+/* effect backgrounds */
+.fxbg { background: radial-gradient(120% 80% at 50% 25%, #1B2433 0%, #0B0F14 70%); }
+.fxbg2 { background: radial-gradient(90% 60% at 50% 45%, #2a1f05 0%, #0B0F14 75%); }
+
+/* browser mockup */
+.browser { position: absolute; left: 70px; width: 940px; top: 260px; height: 960px; border-radius: 26px; overflow: hidden;
+  background: #fff; box-shadow: 0 40px 90px rgba(0,0,0,.55); display: block; }
+.browser .bar { height: 64px; background: #e9ecf1; display: flex; align-items: center; gap: 12px; padding: 0 24px; }
+.browser .bar i { display: block; width: 18px; height: 18px; border-radius: 50%; background: #ff5f57; }
+.browser .bar i:nth-child(2) { background: #febc2e; } .browser .bar i:nth-child(3) { background: #28c840; }
+.browser .bar .url { display: block; flex: 1; height: 34px; margin-left: 18px; border-radius: 17px; background: #fff; }
+.browser .viewport { position: absolute; top: 64px; left: 0; right: 0; bottom: 0; overflow: hidden; }
+.browser .viewport img { display: block; width: 100%; transform-origin: 50% 0%; }
+
+/* phone mockup */
+.phone { position: absolute; left: 230px; width: 620px; top: 200px; height: 1060px; border-radius: 70px; background: #111;
+  border: 14px solid #2b2f36; box-shadow: 0 40px 90px rgba(0,0,0,.6); overflow: hidden; display: block; }
+.phone .notch { position: absolute; top: 18px; left: 50%; width: 170px; height: 36px; margin-left: -85px; border-radius: 18px; background: #000; }
+.phone .chat { position: absolute; left: 34px; right: 34px; top: 120px; display: flex; flex-direction: column; gap: 26px; }
+.bubble { display: block; font-weight: 700; font-size: 38px; line-height: 1.32; padding: 22px 28px; border-radius: 30px; max-width: 86%; }
+.bubble.q { align-self: flex-end; background: #2f6bff; color: #fff; border-bottom-right-radius: 8px; }
+.bubble.a { align-self: flex-start; background: #23262d; color: #f1f1f1; border-bottom-left-radius: 8px; }
+
+/* text card */
+.cardwrap { position: absolute; left: 70px; width: 820px; top: 420px; height: 700px; display: flex; align-items: center; justify-content: flex-start; }
+.tcard { display: block; width: 100%; padding: 48px 46px; border-radius: 34px; background: rgba(255,255,255,.06);
+  border: 2px solid rgba(255,255,255,.12); }
+.tbar { display: block; width: 120px; height: 14px; border-radius: 7px; background: #F5C518; margin-bottom: 30px; }
+.ttext { font-weight: 900; font-size: 84px; line-height: 1.12; color: #fff; text-transform: uppercase; }
+
+/* single big word */
+.kwrap { position: absolute; left: 60px; width: 880px; top: 760px; height: 420px; display: flex; align-items: center; justify-content: center; }
+.bigword { display: block; font-weight: 900; font-size: 150px; line-height: 1; color: #F5C518; text-align: center;
+  text-shadow: 0 0 40px rgba(245,197,24,.45); }
+
+/* presenter cards */
+.photocard .pcbg { position: absolute; inset: 0; background: radial-gradient(100% 70% at 50% 35%, #1B2433 0%, #0B0F14 80%); }
+.photocard .pcframe { position: absolute; left: 140px; width: 800px; top: 200px; height: 1200px; border-radius: 44px; overflow: hidden;
+  box-shadow: 0 40px 90px rgba(0,0,0,.55); background: #fff; }
+.photocard .pcframe img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 20%; transform-origin: 50% 30%; }
+.shade { background: linear-gradient(180deg, rgba(0,0,0,0) 35%, rgba(0,0,0,.55) 100%); }
+
+/* PIP (SO-TAY C6: lower-left, inside safe zone) */
+#pip { position: absolute; overflow: hidden; background: #111; transform-origin: 50% 50%; box-shadow: 0 18px 50px rgba(0,0,0,.55); }
+#pip .pipv { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+#pip .pipimg { position: absolute; inset: 0; overflow: hidden; }
+#pip .pipimg img { display: block; width: 100%; height: 100%; object-fit: cover; transform-origin: 50% 35%; }
+#pipRing { position: absolute; inset: 0; border: 6px solid #fff; box-sizing: border-box; }
+
+/* hook title (SO-TAY C3/C4: 2 lines uppercase, y≈760-1000, done before 1-2 s) */
+.hook { position: absolute; left: 0; right: 0; top: 0; bottom: 0; }
+.hookbox { position: absolute; left: 60px; width: 860px; top: 1040px; padding: 30px 36px; border-radius: 26px;
+  background: rgba(11,15,20,.88); box-shadow: 0 0 60px rgba(207,44,78,.45); display: block; }
+.hl { display: block; font-weight: 900; font-size: 62px; line-height: 1.12; color: #fff; }
+.hl:nth-child(2) { color: #F5C518; }
+
+/* chip (C8) */
+.chipc { position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
+.chip { position: absolute; left: 40px; top: 170px; padding: 12px 24px; border-radius: 999px; background: #F5C518; color: #111;
+  font-weight: 900; font-size: 34px; letter-spacing: 1px; display: block; }
+
+/* outro CTA (C13) */
+.cta { position: absolute; inset: 0; }
+.ctabox { position: absolute; left: 60px; width: 860px; top: 1230px; display: flex; flex-direction: column; align-items: flex-start; gap: 18px; }
+.pill { display: block; padding: 20px 36px; border-radius: 999px; background: #F5C518; color: #111; font-weight: 900; font-size: 52px; }
+.ctatext { display: block; font-weight: 800; font-size: 44px; color: #fff; text-shadow: 0 4px 14px rgba(0,0,0,.7); }
+
+/* optional burned captions (2 tiers per SO-TAY 3.2; kept above the PIP: y≈1100-1200) */
+.capc { position: absolute; inset: 0; }
+.cap { position: absolute; left: 60px; width: 860px; top: 1110px; text-align: center; font-weight: 900; font-size: 62px; line-height: 1.1;
+  color: #fff; -webkit-text-stroke: 7px #000; paint-order: stroke fill; text-shadow: 0 4px 0 rgba(0,0,0,.6); display: block; }
+
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-width="1080" data-height="1920" data-duration="52.2" data-fps="30">
+<div class="bgfill"></div>
+<div class="clip layer" id="s0" data-start="2.26" data-duration="2.637" data-track-index="1"><div class="kbbg" style="background-image:url(assets/img_00.png)"></div><div class="kbfit"><img id="k0" src="assets/img_00.png"/></div></div>
+<div class="clip layer fxbg" id="s1" data-start="4.897" data-duration="2.222" data-track-index="1"><div class="browser" id="br1"><div class="bar"><i></i><i></i><i></i><span class="url"></span></div><div class="viewport"><img id="k1" src="assets/img_01.png"/></div></div></div>
+<div class="clip layer" id="s2" data-start="7.119" data-duration="2.243" data-track-index="1"><div class="kbbg" style="background-image:url(assets/img_02.png)"></div><div class="kbfit"><img id="k2" src="assets/img_02.png"/></div></div>
+<div class="clip layer fxbg" id="s3" data-start="9.362" data-duration="2.477" data-track-index="1"><div class="cardwrap"><div class="tcard" id="tc3"><div class="tbar"></div><div class="ttext">Các nhà toán học cùng AI</div></div></div></div>
+<div class="clip layer fxbg" id="s4" data-start="11.839" data-duration="2.25" data-track-index="1"><div class="browser" id="br4"><div class="bar"><i></i><i></i><i></i><span class="url"></span></div><div class="viewport"><img id="k4" src="assets/img_04.png"/></div></div></div>
+<div class="clip layer" id="s5" data-start="14.089" data-duration="2.917" data-track-index="1"><div class="kbbg" style="background-image:url(assets/img_05.png)"></div><div class="kbfit"><img id="k5" src="assets/img_05.png"/></div></div>
+<div class="clip layer fxbg" id="s6" data-start="17.006" data-duration="2.874" data-track-index="1"><div class="browser" id="br6"><div class="bar"><i></i><i></i><i></i><span class="url"></span></div><div class="viewport"><img id="k6" src="assets/img_06.png"/></div></div></div>
+<div class="clip layer fxbg" id="s7" data-start="19.88" data-duration="2.974" data-track-index="1"><div class="phone" id="ph7"><div class="notch"></div><div class="chat"><div class="bubble q" id="q7">Có gì mới về AI hôm nay?</div><div class="bubble a" id="a7">Con người dẫn dắt, AI là cộng sự ngay trong chat meta chấm ai.</div></div></div></div>
+<div class="clip layer" id="s8" data-start="22.854" data-duration="1.675" data-track-index="1"><div class="kbbg" style="background-image:url(assets/img_08.png)"></div><div class="kbfit"><img id="k8" src="assets/img_08.png"/></div></div>
+<div class="clip layer fxbg" id="s9" data-start="24.529" data-duration="1.976" data-track-index="1"><div class="browser" id="br9"><div class="bar"><i></i><i></i><i></i><span class="url"></span></div><div class="viewport"><img id="k9" src="assets/img_09.png"/></div></div></div>
+<div class="clip layer" id="s10" data-start="26.505" data-duration="1.975" data-track-index="1"><div class="kbbg" style="background-image:url(assets/img_10.png)"></div><div class="kbfit"><img id="k10" src="assets/img_10.png"/></div></div>
+<div class="clip layer fxbg" id="s11" data-start="28.48" data-duration="2.518" data-track-index="1"><div class="browser" id="br11"><div class="bar"><i></i><i></i><i></i><span class="url"></span></div><div class="viewport"><img id="k11" src="assets/img_11.png"/></div></div></div>
+<div class="clip layer fxbg" id="s12" data-start="30.998" data-duration="2.595" data-track-index="1"><div class="browser" id="br12"><div class="bar"><i></i><i></i><i></i><span class="url"></span></div><div class="viewport"><img id="k12" src="assets/img_12.png"/></div></div></div>
+<div class="clip layer" id="s13" data-start="33.593" data-duration="2.101" data-track-index="1"><div class="kbbg" style="background-image:url(assets/img_13.png)"></div><div class="kbfit"><img id="k13" src="assets/img_13.png"/></div></div>
+<div class="clip layer fxbg" id="s14" data-start="35.694" data-duration="1.649" data-track-index="1"><div class="browser" id="br14"><div class="bar"><i></i><i></i><i></i><span class="url"></span></div><div class="viewport"><img id="k14" src="assets/img_14.png"/></div></div></div>
+<div class="clip layer fxbg" id="s15" data-start="37.343" data-duration="2.241" data-track-index="1"><div class="cardwrap"><div class="tcard" id="tc15"><div class="tbar"></div><div class="ttext">Phần cứng nguồn mở để ai</div></div></div></div>
+<div class="clip layer" id="s16" data-start="39.584" data-duration="2.26" data-track-index="1"><div class="kbbg" style="background-image:url(assets/img_16.png)"></div><div class="kbfit"><img id="k16" src="assets/img_16.png"/></div></div>
+<div class="clip layer fxbg" id="s17" data-start="41.844" data-duration="2.801" data-track-index="1"><div class="browser" id="br17"><div class="bar"><i></i><i></i><i></i><span class="url"></span></div><div class="viewport"><img id="k17" src="assets/img_17.png"/></div></div></div>
+<div class="clip layer" id="s18" data-start="44.645" data-duration="2.042" data-track-index="1"><div class="kbbg" style="background-image:url(assets/img_18.png)"></div><div class="kbfit"><img id="k18" src="assets/img_18.png"/></div></div>
+<div class="clip layer fxbg2" id="s19" data-start="46.687" data-duration="2.873" data-track-index="1"><div class="kwrap"><div class="bigword" id="bw19">Chuyên</div></div></div>
+<div class="layer" id="introW"><video id="introV" class="full" src="assets/presenter_full.mp4" muted playsinline data-start="0" data-duration="2.26" data-media-start="0.000" data-track-index="2"></video></div>
+<div class="clip layer shade" data-start="0" data-duration="2.26" data-track-index="3"></div>
+<div class="layer" id="outroW"><video id="outroV" class="full" src="assets/presenter_full.mp4" muted playsinline data-start="49.56" data-duration="2.64" data-media-start="26.983" data-track-index="2"></video></div>
+<div class="clip layer shade" data-start="49.56" data-duration="2.64" data-track-index="3"></div>
+<div id="pip" style="left:60px;top:1260px;width:300px;height:300px;border-radius:50%"><video id="pv0" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="2.26" data-duration="2.637" data-media-start="31.693" data-track-index="4"></video><video id="pv1" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="4.897" data-duration="2.222" data-media-start="12.203" data-track-index="4"></video><video id="pv2" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="7.119" data-duration="2.243" data-media-start="44.135" data-track-index="4"></video><video id="pv3" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="9.362" data-duration="2.477" data-media-start="24.287" data-track-index="4"></video><video id="pv4" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="11.839" data-duration="2.25" data-media-start="4.659" data-track-index="4"></video><video id="pv5" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="14.089" data-duration="2.917" data-media-start="36.118" data-track-index="4"></video><video id="pv6" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="17.006" data-duration="2.874" data-media-start="16.652" data-track-index="4"></video><video id="pv7" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="19.88" data-duration="2.974" data-media-start="48.104" data-track-index="4"></video><video id="pv8" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="22.854" data-duration="1.675" data-media-start="29.376" data-track-index="4"></video><video id="pv9" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="24.529" data-duration="1.976" data-media-start="9.367" data-track-index="4"></video><video id="pv10" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="26.505" data-duration="1.975" data-media-start="41.469" data-track-index="4"></video><video id="pv11" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="28.48" data-duration="2.518" data-media-start="21.403" data-track-index="4"></video><video id="pv12" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="30.998" data-duration="2.595" data-media-start="1.768" data-track-index="4"></video><video id="pv13" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="33.593" data-duration="2.101" data-media-start="33.808" data-track-index="4"></video><video id="pv14" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="35.694" data-duration="1.649" data-media-start="14.139" data-track-index="4"></video><video id="pv15" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="37.343" data-duration="2.241" data-media-start="45.916" data-track-index="4"></video><video id="pv16" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="39.584" data-duration="2.26" data-media-start="26.168" data-track-index="4"></video><video id="pv17" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="41.844" data-duration="2.801" data-media-start="6.37" data-track-index="4"></video><video id="pv18" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="44.645" data-duration="2.042" data-media-start="38.525" data-track-index="4"></video><video id="pv19" class="pipv" src="assets/presenter_pip.mp4" muted playsinline data-start="46.687" data-duration="2.873" data-media-start="18.41" data-track-index="4"></video><div id="pipRing" style="border-radius:50%"></div></div>
+<div class="clip hook" data-start="0" data-duration="2.26" data-track-index="6"><div class="hookbox" id="hookbox"><div class="hl" id="hl0">AI GIẢI 5 BÀI TOÁN MỞ</div><div class="hl" id="hl1">MUSE SPARK · META</div></div></div>
+<div class="clip chipc" data-start="2.26" data-duration="47.3" data-track-index="6"><div class="chip" id="chip">TIN AI</div></div>
+<div class="clip cta" data-start="49.56" data-duration="2.64" data-track-index="6"><div class="ctabox" id="ctabox"><div class="pill">FOLLOW @hintonmedia</div><div class="ctatext">Follow để xem tin AI mỗi ngày</div></div></div>
+<audio id="vo" src="assets/voice.wav" data-start="0" data-duration="52.2" data-track-index="9" data-volume="0.79"></audio>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#k0",{scale:1.04,x:30},{scale:1.1455,x:-30,duration:2.637,ease:"none"},2.26);
+tl.fromTo("#br1",{y:60,opacity:0},{y:0,opacity:1,duration:0.25,ease:"power3.out"},4.897);
+tl.fromTo("#k1",{y:0,scale:1.0},{y:-160,scale:1.06,duration:2.222,ease:"none"},4.897);
+tl.fromTo("#k2",{scale:1.04,x:30},{scale:1.1297,x:-30,duration:2.243,ease:"none"},7.119);
+tl.fromTo("#tc3",{scale:0.8,opacity:0},{scale:1,opacity:1,duration:0.18,ease:"back.out(2.5)"},9.362);
+tl.to("#tc3",{scale:1.05,duration:2.297,ease:"none"},9.542);
+tl.fromTo("#br4",{y:60,opacity:0},{y:0,opacity:1,duration:0.25,ease:"power3.out"},11.839);
+tl.fromTo("#k4",{y:0,scale:1.0},{y:-160,scale:1.06,duration:2.25,ease:"none"},11.839);
+tl.fromTo("#k5",{scale:1.04,x:-30},{scale:1.1567,x:30,duration:2.917,ease:"none"},14.089);
+tl.fromTo("#br6",{y:60,opacity:0},{y:0,opacity:1,duration:0.25,ease:"power3.out"},17.006);
+tl.fromTo("#k6",{y:0,scale:1.0},{y:-160,scale:1.06,duration:2.874,ease:"none"},17.006);
+tl.fromTo("#ph7",{y:120,rotation:-4,opacity:0},{y:0,rotation:0,opacity:1,duration:0.3,ease:"power3.out"},19.88);
+tl.fromTo("#q7",{scale:0.8,opacity:0},{scale:1,opacity:1,duration:0.18,ease:"back.out(3)"},20.030);
+tl.fromTo("#a7",{scale:0.8,opacity:0},{scale:1,opacity:1,duration:0.18,ease:"back.out(3)"},20.430);
+tl.fromTo("#k8",{scale:1.04,x:30},{scale:1.1070,x:-30,duration:1.675,ease:"none"},22.854);
+tl.fromTo("#br9",{y:60,opacity:0},{y:0,opacity:1,duration:0.25,ease:"power3.out"},24.529);
+tl.fromTo("#k9",{y:0,scale:1.0},{y:-160,scale:1.06,duration:1.976,ease:"none"},24.529);
+tl.fromTo("#k10",{scale:1.04,x:30},{scale:1.1190,x:-30,duration:1.975,ease:"none"},26.505);
+tl.fromTo("#br11",{y:60,opacity:0},{y:0,opacity:1,duration:0.25,ease:"power3.out"},28.48);
+tl.fromTo("#k11",{y:0,scale:1.0},{y:-160,scale:1.06,duration:2.518,ease:"none"},28.48);
+tl.fromTo("#br12",{y:60,opacity:0},{y:0,opacity:1,duration:0.25,ease:"power3.out"},30.998);
+tl.fromTo("#k12",{y:0,scale:1.0},{y:-160,scale:1.06,duration:2.595,ease:"none"},30.998);
+tl.fromTo("#k13",{scale:1.04,x:-30},{scale:1.1240,x:30,duration:2.101,ease:"none"},33.593);
+tl.fromTo("#br14",{y:60,opacity:0},{y:0,opacity:1,duration:0.25,ease:"power3.out"},35.694);
+tl.fromTo("#k14",{y:0,scale:1.0},{y:-160,scale:1.06,duration:1.649,ease:"none"},35.694);
+tl.fromTo("#tc15",{scale:0.8,opacity:0},{scale:1,opacity:1,duration:0.18,ease:"back.out(2.5)"},37.343);
+tl.to("#tc15",{scale:1.05,duration:2.061,ease:"none"},37.523);
+tl.fromTo("#k16",{scale:1.04,x:30},{scale:1.1304,x:-30,duration:2.26,ease:"none"},39.584);
+tl.fromTo("#br17",{y:60,opacity:0},{y:0,opacity:1,duration:0.25,ease:"power3.out"},41.844);
+tl.fromTo("#k17",{y:0,scale:1.0},{y:-160,scale:1.06,duration:2.801,ease:"none"},41.844);
+tl.fromTo("#k18",{scale:1.04,x:30},{scale:1.1217,x:-30,duration:2.042,ease:"none"},44.645);
+tl.fromTo("#bw19",{scale:1.2,opacity:0,filter:"blur(8px)"},{scale:1,opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},46.687);
+tl.to("#bw19",{scale:1.06,duration:2.673,ease:"none"},46.887);
+tl.fromTo("#introW",{scale:1.0},{scale:1.0678,duration:2.26,ease:"none"},0);
+tl.fromTo("#outroW",{scale:1.0},{scale:1.0792,duration:2.64,ease:"none"},49.56);
+tl.fromTo("#pip",{scale:0.6,opacity:0},{scale:1,opacity:1,duration:0.3,ease:"back.out(2)"},2.26);
+tl.to("#pip",{opacity:0,duration:0.15},49.410);
+tl.fromTo("#hookbox",{scale:0.92,opacity:0},{scale:1,opacity:1,duration:0.2,ease:"power2.out"},0);
+tl.fromTo("#hl0",{clipPath:"inset(0% 100% 0% 0%)"},{clipPath:"inset(0% 0% 0% 0%)",duration:0.4,ease:"power2.inOut"},0.05);
+tl.fromTo("#hl1",{clipPath:"inset(0% 100% 0% 0%)"},{clipPath:"inset(0% 0% 0% 0%)",duration:0.4,ease:"power2.inOut"},0.35);
+tl.fromTo("#ctabox",{y:80,opacity:0},{y:0,opacity:1,duration:0.3,ease:"back.out(2)"},49.660);
+window.__timelines["main"] = tl;
+</script>
+</body></html>

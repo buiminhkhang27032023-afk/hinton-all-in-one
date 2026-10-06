@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "title": "AI CHƠI WOW|KHÔNG NHÌN MÀN HÌNH",
+  "captions_burn": true,
+  "bgm": true,
+  "presenter": {
+    "mode": "auto",
+    "video": "/workspace/hinton-pipeline-docs/assets/presenter-video-novoice.mp4",
+    "photo": "/workspace/hinton-pipeline-docs/assets/presenter-photo.jpg"
+  },
+  "target_duration": 52,
+  "syllables_min": 230,
+  "syllables_max": 260
+}

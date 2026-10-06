@@ -1,0 +1,15 @@
+{
+  "z": 15,
+  "tx0": 26090,
+  "tx1": 26098,
+  "ty0": 15393,
+  "ty1": 15401,
+  "tile_size": 256,
+  "mosaic_w": 2304,
+  "mosaic_h": 2304,
+  "source": "Esri World Dark Gray Canvas (Base)",
+  "attribution": "Tiles \u00a9 Esri \u2014 Sources: Esri, TomTom, Garmin, FAO, NOAA, USGS",
+  "url_template": "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+  "mosaic": "assets/map/saigon-dark-z15.png",
+  "note": "CARTO dark_all returned API-KEY watermark tiles without key (2026-10); switched to Esri Dark Gray Canvas for local cache."
+}

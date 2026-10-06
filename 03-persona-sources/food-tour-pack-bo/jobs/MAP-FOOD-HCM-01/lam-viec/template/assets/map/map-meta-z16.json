@@ -1,0 +1,14 @@
+{
+  "z": 16,
+  "tx0": 52184,
+  "tx1": 52194,
+  "ty0": 30789,
+  "ty1": 30798,
+  "tile_size": 256,
+  "mosaic_w": 2816,
+  "mosaic_h": 2560,
+  "source": "Esri World Dark Gray Canvas (Base) z16",
+  "attribution": "Tiles \u00a9 Esri",
+  "url_template": "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+  "mosaic": "assets/map/saigon-dark-z16.png"
+}

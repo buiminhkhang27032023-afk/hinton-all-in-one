@@ -1,0 +1,26 @@
+[  0.00-  3.74] HOME's agent is so underrated and I don't know why people aren't talking about this.
+[  3.98-  5.66] If you're using OpenClaw or you gave up
+[  5.66-  9.00] up on it like I did, I'm going to tell you nine reasons why I'm loving HOME's right now.
+[  9.18- 13.68] Number one, it is super easy and intuitive to use. The install was super easy.
+[ 30.00- 34.54] you have all your files images and links are inside artifact all L your chats are recorded in here
+[ 34.54- 38.94] and not in the terminal. You can also set up different profiles. So, for codex or cl ond code
+[ 38.94- 43.90] you can just add a new profile. You also can see all your agents and cron jobs. This. This used to
+[ 43.90- 47.42] be something really hard to like previously with cl ond code. You can see if something was
+[ 47.42- 52.02] actually scheduled in. You can even look at your telegram chats inside of this desktop app.
+[ 52.14- 53.64] Number five skills and tools are
+[ 53.64- 57.46] already inbuilt and enabled when you install. So, for things like computer use,
+[ 57.46- 60.20] Setting up your cron jobs, automation, image generation,
+[ 63.40- 63.92] time, delegation, and text to speak.
+[ 63.92- 66.40] For example, I've asked it to do something inside of telegram
+[ 66.40- 68.88] and it has self-improved and me remembered this
+[ 68.88- 71.84] and patched up relevant skills I had without me telling it.
+[ 71.84- 74.16] It also notices if you are constantly doing something
+[ 74.16- 74.38] every day, it will create a skill for that
+[ 74.38- 76.28] without you having to tell it.
+[ 76.40- 79.28] Number seven, the gateway doesn't crash every single time
+[ 79.28- 82.54] like open claw is much easier and smoother., right?
+[ 89.00- 92.66] While I was outside I saw these two articles
+[ 92.66- 93.86] I told it to me.
+[117.46-118.10] a
+[118.10-133.98] it like. So i'm a very visual person, and i love to see what's on the dashboard, if you want to configure anything,, it's all in one place.
+[134.08-136.66] let me know which one was a game changer, if you have any questions.

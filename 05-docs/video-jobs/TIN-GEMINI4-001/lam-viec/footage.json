@@ -1,0 +1,50 @@
+{
+  "pools": {
+    "stock": {},
+    "demo": [
+      {
+        "src": "/workspace/video-jobs/TIN-GEMINI4-001/lam-viec/demo/url03.mp4",
+        "start": 0.1,
+        "dur": 1.133,
+        "credit": "Protein folding explained | Google DeepMind | https://www.youtube.com/watch?v=KpedmJdrTpY | NA",
+        "kind": "demo"
+      },
+      {
+        "src": "/workspace/video-jobs/TIN-GEMINI4-001/lam-viec/demo/url03.mp4",
+        "start": 10.417,
+        "dur": 3.0,
+        "credit": "Protein folding explained | Google DeepMind | https://www.youtube.com/watch?v=KpedmJdrTpY | NA",
+        "kind": "demo"
+      },
+      {
+        "src": "/workspace/video-jobs/TIN-GEMINI4-001/lam-viec/demo/url03.mp4",
+        "start": 24.617,
+        "dur": 3.0,
+        "credit": "Protein folding explained | Google DeepMind | https://www.youtube.com/watch?v=KpedmJdrTpY | NA",
+        "kind": "demo"
+      },
+      {
+        "src": "/workspace/video-jobs/TIN-GEMINI4-001/lam-viec/demo/url03.mp4",
+        "start": 38.683,
+        "dur": 3.0,
+        "credit": "Protein folding explained | Google DeepMind | https://www.youtube.com/watch?v=KpedmJdrTpY | NA",
+        "kind": "demo"
+      }
+    ],
+    "screenshots": [
+      "/workspace/video-jobs/TIN-GEMINI4-001/screenshots/cwe.webp",
+      "/workspace/video-jobs/TIN-GEMINI4-001/screenshots/keyart.png",
+      "/workspace/video-jobs/TIN-GEMINI4-001/screenshots/xpost.png",
+      "/workspace/video-jobs/TIN-GEMINI4-001/lam-viec/webshots/web00.png",
+      "/workspace/video-jobs/TIN-GEMINI4-001/lam-viec/webshots/web01.png",
+      "/workspace/video-jobs/TIN-GEMINI4-001/lam-viec/webshots/web02.png"
+    ]
+  },
+  "notes": [
+    "script length 194 syllables (target 200-280)",
+    "stock footage disabled in config",
+    "yt-dlp FAILED for https://commons.wikimedia.org/wiki/File:Google_Data_Center.webm: ERROR: [wikimedia.org] Google_Data_Center.webm: Unable to extract video info; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
+    "yt-dlp FAILED for https://commons.wikimedia.org/wiki/File:Server_room.webm: ERROR: [wikimedia.org] Server_room.webm: Unable to extract video info; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
+    "yt-dlp FAILED for https://commons.wikimedia.org/wiki/File:Coding.webm: ERROR: [wikimedia.org] Coding.webm: Unable to extract video info; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n"
+  ]
+}

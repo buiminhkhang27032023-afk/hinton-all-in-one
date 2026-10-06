@@ -1,0 +1,893 @@
+{
+  "hook": {
+    "t0": 0,
+    "t1": 1.94,
+    "lines": [
+      "AI LÀM THAY BẠN",
+      "24/7"
+    ],
+    "top": 250,
+    "wipe": 0.5
+  },
+  "shots": [
+    {
+      "type": "clip",
+      "ss": 9.0,
+      "label": "OpenAI · Introducing dots",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/yt/v01.mp4",
+      "credit": "OpenAI — Introducing dots (video, X @OpenAI 2104984504133918973)",
+      "at": 0.0,
+      "_line": "OpenAI vừa tung AI làm việc thay bạn hai bốn trên bảy."
+    },
+    {
+      "type": "phone",
+      "cy": 0.45,
+      "z1": 1500.0,
+      "zr": 1.12,
+      "label": "X · @OpenAI",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/x_dots.png",
+      "ocr": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/ocr/x_dots.json",
+      "hl": [
+        {
+          "find": "Introducing dots, powered by GPT-6 Astra.",
+          "style": "marker",
+          "at": 0.2
+        }
+      ],
+      "url": "platform.twitter.com/embed/Tweet.html",
+      "credit": "Screenshot https://platform.twitter.com/embed/Tweet.html?id=2104984504133918973&theme=light&lang=en",
+      "at": 1.3,
+      "_line": "OpenAI vừa tung AI làm việc thay bạn hai bốn trên bảy."
+    },
+    {
+      "type": "face",
+      "zoom": 1.08,
+      "at": 2.6,
+      "_line": "Nhưng đó mới chỉ là một nửa câu chuyện."
+    },
+    {
+      "type": "clip",
+      "mode": "fit",
+      "zoom": 1.35,
+      "cy": 0.42,
+      "label": "OpenAI · GPT-6.1 Sol",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/yt/v06.mp4",
+      "credit": "OpenAI — GPT-6.1 Sol key art (openai.com)",
+      "at": 4.38,
+      "_line": "Nửa kia là mô hình mới giá chỉ bằng một phần năm."
+    },
+    {
+      "type": "stat",
+      "label": "Nguồn: OpenAI · Introducing GPT-6.1 Sol",
+      "lines": [
+        {
+          "text": "1/5",
+          "size": 280,
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "at": 0.0
+        },
+        {
+          "text": "GIÁ",
+          "size": 76,
+          "color": [
+            255,
+            196,
+            0
+          ],
+          "w": "Bold",
+          "at": 0.2
+        }
+      ],
+      "y": 640,
+      "at": 5.48,
+      "_line": "Nửa kia là mô hình mới giá chỉ bằng một phần năm."
+    },
+    {
+      "type": "clip",
+      "ss": 13.0,
+      "label": "DevDay 2026 · keynote",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/yt/keynote.mp4",
+      "credit": "OpenAI — DevDay 2026 Keynote (FULL) (YouTube Fls_onRviPM)",
+      "at": 6.56,
+      "_line": "Tất cả ra mắt tại DevDay ngày hai mươi chín tháng chín."
+    },
+    {
+      "type": "web",
+      "cy": 0.4,
+      "z1": 520.0,
+      "zr": 1.4,
+      "label": "openai.com · DevDay 2026 Recap",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/recap.png",
+      "ocr": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/ocr/recap.json",
+      "hl": [
+        {
+          "find": "September 29, 2026",
+          "style": "box",
+          "at": 0.2
+        }
+      ],
+      "url": "openai.com/index/devday-2026-recap",
+      "credit": "Screenshot https://openai.com/index/devday-2026-recap",
+      "at": 7.76,
+      "_line": "Tất cả ra mắt tại DevDay ngày hai mươi chín tháng chín."
+    },
+    {
+      "type": "web",
+      "cy": 0.4,
+      "label": "openai.com · DevDay Recap",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/recap.png",
+      "ocr": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/ocr/recap.json",
+      "hl": [
+        {
+          "find": "1.2B weekly users",
+          "style": "underline",
+          "at": 0.2
+        }
+      ],
+      "url": "openai.com/index/devday-2026-recap",
+      "credit": "Screenshot https://openai.com/index/devday-2026-recap",
+      "at": 8.99,
+      "_line": "ChatGPT giờ có một phẩy hai tỷ người dùng mỗi tuần."
+    },
+    {
+      "type": "clip",
+      "ss": 2650.0,
+      "mode": "fit",
+      "zoom": 1.6,
+      "cy": 0.42,
+      "label": "Keynote DevDay 2026",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/yt/keynote.mp4",
+      "credit": "OpenAI — DevDay 2026 Keynote (FULL) (YouTube Fls_onRviPM)",
+      "at": 10.107,
+      "_line": "ChatGPT giờ có một phẩy hai tỷ người dùng mỗi tuần."
+    },
+    {
+      "type": "clip",
+      "mode": "fit",
+      "zoom": 1.4,
+      "cy": 0.42,
+      "label": "OpenAI · dots",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/yt/v12.mp4",
+      "credit": "OpenAI — dots art card (openai.com)",
+      "at": 11.34,
+      "_line": "Tên chúng là dots, chạy bằng GPT sáu Astra."
+    },
+    {
+      "type": "web",
+      "cy": 0.4,
+      "label": "openai.com · Introducing dots",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/dots.png",
+      "ocr": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/ocr/dots.json",
+      "hl": [
+        {
+          "find": "GPT-6 Astra, they have their own cloud computer",
+          "style": "marker",
+          "at": 0.2
+        }
+      ],
+      "url": "openai.com/index/introducing-dots/",
+      "credit": "Screenshot https://openai.com/index/introducing-dots/",
+      "at": 12.62,
+      "_line": "Tên chúng là dots, chạy bằng GPT sáu Astra."
+    },
+    {
+      "type": "split",
+      "top": {
+        "type": "web",
+        "label": "openai.com · Introducing dots",
+        "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/dots.png",
+        "ocr": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/ocr/dots.json",
+        "hl": [
+          {
+            "find": "own browser, and the apps you've connected.",
+            "style": "marker",
+            "at": 0.2
+          }
+        ],
+        "url": "openai.com/index/introducing-dots/",
+        "credit": "Screenshot https://openai.com/index/introducing-dots/"
+      },
+      "bottom": {
+        "type": "clip",
+        "mode": "fit",
+        "zoom": 1.0,
+        "label": "OpenAI · Dots Vision Film",
+        "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/yt/v16.mp4",
+        "credit": "OpenAI — Dots Vision Film (openai.com)"
+      },
+      "credit": "Screenshot https://openai.com/index/introducing-dots/ + OpenAI — Dots Vision Film (openai.com)",
+      "at": 13.9,
+      "_line": "Mỗi dot có máy tính đám mây và trình duyệt riêng."
+    },
+    {
+      "type": "stat",
+      "label": "Nguồn: OpenAI · Introducing dots",
+      "lines": [
+        {
+          "text": "4.000+",
+          "size": 250,
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "at": 0.0
+        },
+        {
+          "text": "ứng dụng kết nối",
+          "size": 76,
+          "color": [
+            255,
+            196,
+            0
+          ],
+          "w": "Bold",
+          "at": 0.2
+        }
+      ],
+      "y": 640,
+      "at": 15.68,
+      "_line": "Nó kết nối được hơn bốn nghìn ứng dụng."
+    },
+    {
+      "type": "clip",
+      "mode": "fit",
+      "zoom": 1.6,
+      "cy": 0.42,
+      "label": "Dot tự phân tích dữ liệu",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/yt/v20.mp4",
+      "credit": "OpenAI — Introducing dots (openai.com)",
+      "at": 17.46,
+      "_line": "Giao một mục tiêu, nó tự làm cả ngày lẫn đêm."
+    },
+    {
+      "type": "web",
+      "cy": 0.4,
+      "label": "openai.com · Introducing dots",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/dots.png",
+      "ocr": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/ocr/dots.json",
+      "hl": [
+        {
+          "find": "can work towards your goals 24/7",
+          "style": "marker",
+          "at": 0.2
+        }
+      ],
+      "url": "openai.com/index/introducing-dots/",
+      "credit": "Screenshot https://openai.com/index/introducing-dots/",
+      "at": 18.42,
+      "_line": "Giao một mục tiêu, nó tự làm cả ngày lẫn đêm."
+    },
+    {
+      "type": "split",
+      "top": {
+        "type": "clip",
+        "mode": "fit",
+        "zoom": 1.0,
+        "label": "@ChatGPT trong Slack & Teams",
+        "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/yt/v22.mp4",
+        "credit": "OpenAI — DevDay 2026 Recap (openai.com)"
+      },
+      "bottom": {
+        "type": "clip",
+        "mode": "fit",
+        "zoom": 1.0,
+        "label": "Dot trong ChatGPT",
+        "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/yt/v23.mp4",
+        "credit": "OpenAI — Introducing dots (openai.com)"
+      },
+      "credit": "OpenAI — DevDay 2026 Recap (openai.com) + OpenAI — Introducing dots (openai.com)",
+      "at": 19.52,
+      "_line": "Nhắn tin cho nó qua ChatGPT, Slack hay Teams."
+    },
+    {
+      "type": "web",
+      "cy": 0.4,
+      "label": "openai.com · Introducing dots",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/dots.png",
+      "ocr": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/ocr/dots.json",
+      "hl": [
+        {
+          "find": "You can also message your dot in Slack and Teams",
+          "style": "marker",
+          "at": 0.2
+        }
+      ],
+      "url": "openai.com/index/introducing-dots/",
+      "credit": "Screenshot https://openai.com/index/introducing-dots/",
+      "at": 20.74,
+      "_line": "Nhắn tin cho nó qua ChatGPT, Slack hay Teams."
+    },
+    {
+      "type": "face",
+      "zoom": 1.08,
+      "at": 21.72,
+      "_line": "Nhưng đó chưa phải phần điên rồ nhất."
+    },
+    {
+      "type": "clip",
+      "ss": 1181.0,
+      "label": "Keynote DevDay 2026 · GPT-6.1 Sol",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/yt/keynote.mp4",
+      "credit": "OpenAI — DevDay 2026 Keynote (FULL) (YouTube Fls_onRviPM)",
+      "at": 23.412,
+      "_line": "GPT sáu chấm một Sol thông minh gần bằng Astra."
+    },
+    {
+      "type": "web",
+      "cy": 0.4,
+      "label": "openai.com · Introducing GPT-6.1 Sol",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/sol.png",
+      "ocr": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/ocr/sol.json",
+      "hl": [
+        {
+          "find": "Near-Astra intelligence",
+          "style": "underline",
+          "at": 0.2
+        }
+      ],
+      "url": "openai.com/index/introducing-gpt-6-1-sol/",
+      "credit": "Screenshot https://openai.com/index/introducing-gpt-6-1-sol/",
+      "at": 24.5,
+      "_line": "GPT sáu chấm một Sol thông minh gần bằng Astra."
+    },
+    {
+      "type": "web",
+      "cy": 0.4,
+      "label": "openai.com · bảng giá GPT-6.1",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/sol.png",
+      "ocr": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/ocr/sol.json",
+      "hl": [
+        {
+          "find": "$2.00 input",
+          "style": "box",
+          "at": 0.2
+        }
+      ],
+      "url": "openai.com/index/introducing-gpt-6-1-sol/",
+      "credit": "Screenshot https://openai.com/index/introducing-gpt-6-1-sol/",
+      "at": 25.78,
+      "_line": "Giá chỉ hai đô mỗi triệu token đầu vào."
+    },
+    {
+      "type": "stat",
+      "label": "Nguồn: bảng giá OpenAI",
+      "lines": [
+        {
+          "text": "SOL 10 USD",
+          "size": 150,
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "at": 0.0
+        },
+        {
+          "text": "đầu ra / 1 triệu token",
+          "size": 76,
+          "color": [
+            255,
+            196,
+            0
+          ],
+          "w": "Bold",
+          "at": 0.2
+        },
+        {
+          "text": "ASTRA 50 USD",
+          "size": 150,
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "at": 0.5
+        },
+        {
+          "text": "đầu ra / 1 triệu token",
+          "size": 76,
+          "color": [
+            255,
+            196,
+            0
+          ],
+          "w": "Bold",
+          "at": 0.7
+        }
+      ],
+      "y": 420,
+      "at": 27.66,
+      "_line": "Đầu ra mười đô, đúng một phần năm giá Astra."
+    },
+    {
+      "type": "clip",
+      "mode": "fit",
+      "zoom": 1.1,
+      "cy": 0.42,
+      "label": "OpenAI · Sol & Luna",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/yt/v37.mp4",
+      "credit": "OpenAI — GPT-6.1 Sol / Luna art (openai.com)",
+      "at": 28.74,
+      "_line": "Đầu ra mười đô, đúng một phần năm giá Astra."
+    },
+    {
+      "type": "split",
+      "top": {
+        "type": "web",
+        "label": "openai.com · DeepSWE v1.1",
+        "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/sol.png",
+        "ocr": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/ocr/sol.json",
+        "hl": [
+          {
+            "find": "GPT-6.1 Sol matches GPT-6 Astra at",
+            "style": "marker",
+            "at": 0.2
+          }
+        ],
+        "url": "openai.com/index/introducing-gpt-6-1-sol/",
+        "credit": "Screenshot https://openai.com/index/introducing-gpt-6-1-sol/"
+      },
+      "bottom": {
+        "type": "clip",
+        "ss": 1199.0,
+        "mode": "fit",
+        "zoom": 1.0,
+        "label": "Keynote · bảng điểm",
+        "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/yt/keynote.mp4",
+        "credit": "OpenAI — DevDay 2026 Keynote (FULL) (YouTube Fls_onRviPM)"
+      },
+      "credit": "Screenshot https://openai.com/index/introducing-gpt-6-1-sol/ + OpenAI — DevDay 2026 Keynote (FULL) (YouTube Fls_onRviPM)",
+      "at": 29.76,
+      "_line": "Trên bài test lập trình DeepSWE, Sol ngang Astra."
+    },
+    {
+      "type": "clip",
+      "mode": "fit",
+      "zoom": 1.0,
+      "cy": 0.42,
+      "label": "OpenAI · GPT-6.1 Sol",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/yt/v32.mp4",
+      "credit": "OpenAI — GPT-6.1 Sol (openai.com)",
+      "at": 31.08,
+      "_line": "Trên bài test lập trình DeepSWE, Sol ngang Astra."
+    },
+    {
+      "type": "web",
+      "cy": 0.4,
+      "label": "openai.com · Terminal-Bench Science",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/sol.png",
+      "ocr": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/ocr/sol.json",
+      "hl": [
+        {
+          "find": "On Terminal-Bench Science O.1, which evaluates scientific",
+          "style": "marker",
+          "at": 0.2
+        }
+      ],
+      "url": "openai.com/index/introducing-gpt-6-1-sol/",
+      "credit": "Screenshot https://openai.com/index/introducing-gpt-6-1-sol/",
+      "at": 32.16,
+      "_line": "Với bài khoa học, Sol tốn năm phẩy bốn bảy đô mỗi tác vụ."
+    },
+    {
+      "type": "web",
+      "cy": 0.4,
+      "label": "openai.com · Introducing GPT-6.1 Sol",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/sol.png",
+      "ocr": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/ocr/sol.json",
+      "hl": [
+        {
+          "find": "GPT-6.1 Sol costs $5.47 per task on average",
+          "style": "marker",
+          "at": 0.2
+        }
+      ],
+      "url": "openai.com/index/introducing-gpt-6-1-sol/",
+      "credit": "Screenshot https://openai.com/index/introducing-gpt-6-1-sol/",
+      "at": 33.14,
+      "_line": "Với bài khoa học, Sol tốn năm phẩy bốn bảy đô mỗi tác vụ."
+    },
+    {
+      "type": "web",
+      "cy": 0.4,
+      "label": "openai.com · Introducing GPT-6.1 Sol",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/sol.png",
+      "ocr": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/ocr/sol.json",
+      "hl": [
+        {
+          "find": "$23.80 for Astra",
+          "style": "marker",
+          "at": 0.2
+        }
+      ],
+      "url": "openai.com/index/introducing-gpt-6-1-sol/",
+      "credit": "Screenshot https://openai.com/index/introducing-gpt-6-1-sol/",
+      "at": 34.78,
+      "_line": "Astra tốn hai mươi ba phẩy tám đô, gấp hơn bốn lần."
+    },
+    {
+      "type": "stat",
+      "label": "Tính từ số của OpenAI",
+      "lines": [
+        {
+          "text": "GẤP HƠN 4 LẦN",
+          "size": 170,
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "at": 0.0
+        },
+        {
+          "text": "23,80 so với 5,47 USD",
+          "size": 76,
+          "color": [
+            255,
+            196,
+            0
+          ],
+          "w": "Bold",
+          "at": 0.2
+        }
+      ],
+      "y": 640,
+      "at": 35.936,
+      "_line": "Astra tốn hai mươi ba phẩy tám đô, gấp hơn bốn lần."
+    },
+    {
+      "type": "web",
+      "cy": 0.4,
+      "label": "openai.com · Astra vẫn đứng đầu",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/sol.png",
+      "ocr": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/ocr/sol.json",
+      "hl": [
+        {
+          "find": "tested at 68.1%",
+          "style": "marker",
+          "at": 0.2
+        }
+      ],
+      "url": "openai.com/index/introducing-gpt-6-1-sol/",
+      "credit": "Screenshot https://openai.com/index/introducing-gpt-6-1-sol/",
+      "at": 37.14,
+      "_line": "Dù vậy, Astra vẫn đứng đầu về điểm số."
+    },
+    {
+      "type": "face",
+      "zoom": 1.08,
+      "at": 38.98,
+      "_line": "Nhưng dots chưa dành cho tất cả mọi người."
+    },
+    {
+      "type": "split",
+      "top": {
+        "type": "web",
+        "label": "openai.com · DevDay Recap",
+        "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/recap.png",
+        "ocr": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/ocr/recap.json",
+        "hl": [
+          {
+            "find": "Available on Pro and Business Premium",
+            "style": "underline",
+            "at": 0.2
+          }
+        ],
+        "url": "openai.com/index/devday-2026-recap",
+        "credit": "Screenshot https://openai.com/index/devday-2026-recap"
+      },
+      "bottom": {
+        "type": "clip",
+        "mode": "fit",
+        "zoom": 1.0,
+        "label": "Dot · iOS beta",
+        "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/yt/v40.mp4",
+        "credit": "OpenAI — Introducing dots (openai.com)"
+      },
+      "credit": "Screenshot https://openai.com/index/devday-2026-recap + OpenAI — Introducing dots (openai.com)",
+      "at": 40.96,
+      "_line": "Đợt đầu chỉ có gói Pro và Business Premium."
+    },
+    {
+      "type": "web",
+      "cy": 0.4,
+      "label": "openai.com · Introducing dots",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/dots.png",
+      "ocr": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/ocr/dots.json",
+      "hl": [
+        {
+          "find": "Your first dot is included in your Pro or Business Premium plan",
+          "style": "marker",
+          "at": 0.2
+        }
+      ],
+      "url": "openai.com/index/introducing-dots/",
+      "credit": "Screenshot https://openai.com/index/introducing-dots/",
+      "at": 42.14,
+      "_line": "Đợt đầu chỉ có gói Pro và Business Premium."
+    },
+    {
+      "type": "web",
+      "cy": 0.4,
+      "label": "WIRED",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/wired.png",
+      "ocr": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/ocr/wired.json",
+      "hl": [
+        {
+          "find": "OpenAl's Dots Are",
+          "style": "underline",
+          "at": 0.2
+        }
+      ],
+      "url": "wired.com/story/openai-dots-always-on-ai-agents",
+      "credit": "Screenshot wired.com/story/openai-dots-always-on-ai-agents",
+      "at": 43.12,
+      "_line": "Theo WIRED, gói Pro giá một trăm đô mỗi tháng."
+    },
+    {
+      "type": "stat",
+      "label": "Nguồn: WIRED",
+      "lines": [
+        {
+          "text": "100 USD",
+          "size": 240,
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "at": 0.0
+        },
+        {
+          "text": "mỗi tháng · gói Pro",
+          "size": 76,
+          "color": [
+            255,
+            196,
+            0
+          ],
+          "w": "Bold",
+          "at": 0.2
+        }
+      ],
+      "y": 640,
+      "at": 44.24,
+      "_line": "Theo WIRED, gói Pro giá một trăm đô mỗi tháng."
+    },
+    {
+      "type": "clip",
+      "ss": 705.0,
+      "label": "Demo giọng nói dots · DevDay 2026",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/yt/keynote.mp4",
+      "credit": "OpenAI — DevDay 2026 Keynote (FULL) (YouTube Fls_onRviPM)",
+      "at": 45.38,
+      "_line": "Ngay trên sân khấu, dot còn liên tục lỗi giọng nói."
+    },
+    {
+      "type": "clip",
+      "ss": 729.0,
+      "label": "Dot: “Still checking…”",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/yt/keynote.mp4",
+      "credit": "OpenAI — DevDay 2026 Keynote (FULL) (YouTube Fls_onRviPM)",
+      "at": 46.52,
+      "_line": "Ngay trên sân khấu, dot còn liên tục lỗi giọng nói."
+    },
+    {
+      "type": "stat",
+      "label": "Nguồn: Reuters (bản đăng Rappler)",
+      "lines": [
+        {
+          "text": "“WE MIGHT HAVE",
+          "size": 110,
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "at": 0.0
+        },
+        {
+          "text": "some voice difficulties",
+          "size": 76,
+          "color": [
+            255,
+            196,
+            0
+          ],
+          "w": "Bold",
+          "at": 0.2
+        },
+        {
+          "text": "AT THE MOMENT”",
+          "size": 110,
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "at": 0.5
+        },
+        {
+          "text": "Romain Huet · theo Reuters",
+          "size": 76,
+          "color": [
+            255,
+            196,
+            0
+          ],
+          "w": "Bold",
+          "at": 0.7
+        }
+      ],
+      "y": 420,
+      "at": 47.7,
+      "_line": "Romain Huet thừa nhận giọng nói có thể đang trục trặc."
+    },
+    {
+      "type": "clip",
+      "ss": 735.0,
+      "label": "Keynote DevDay 2026 · demo giọng nói",
+      "src": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/yt/keynote.mp4",
+      "credit": "OpenAI — DevDay 2026 Keynote (FULL) (YouTube Fls_onRviPM)",
+      "at": 48.9,
+      "_line": "Romain Huet thừa nhận giọng nói có thể đang trục trặc."
+    },
+    {
+      "type": "face",
+      "zoom": 1.06,
+      "at": 50.136,
+      "_line": "Khi AI làm thay hai bốn trên bảy, bạn sẽ làm gì?"
+    }
+  ],
+  "lines": [
+    {
+      "text": "OpenAI vừa tung AI làm việc thay bạn hai bốn trên bảy.",
+      "a": 0,
+      "b": 12,
+      "n_items": 2
+    },
+    {
+      "text": "Nhưng đó mới chỉ là một nửa câu chuyện.",
+      "a": 12,
+      "b": 21,
+      "n_items": 1
+    },
+    {
+      "text": "Nửa kia là mô hình mới giá chỉ bằng một phần năm.",
+      "a": 21,
+      "b": 33,
+      "n_items": 2
+    },
+    {
+      "text": "Tất cả ra mắt tại DevDay ngày hai mươi chín tháng chín.",
+      "a": 33,
+      "b": 45,
+      "n_items": 2
+    },
+    {
+      "text": "ChatGPT giờ có một phẩy hai tỷ người dùng mỗi tuần.",
+      "a": 45,
+      "b": 56,
+      "n_items": 2
+    },
+    {
+      "text": "Tên chúng là dots, chạy bằng GPT sáu Astra.",
+      "a": 56,
+      "b": 65,
+      "n_items": 2
+    },
+    {
+      "text": "Mỗi dot có máy tính đám mây và trình duyệt riêng.",
+      "a": 65,
+      "b": 76,
+      "n_items": 1
+    },
+    {
+      "text": "Nó kết nối được hơn bốn nghìn ứng dụng.",
+      "a": 76,
+      "b": 85,
+      "n_items": 1
+    },
+    {
+      "text": "Giao một mục tiêu, nó tự làm cả ngày lẫn đêm.",
+      "a": 85,
+      "b": 96,
+      "n_items": 2
+    },
+    {
+      "text": "Nhắn tin cho nó qua ChatGPT, Slack hay Teams.",
+      "a": 96,
+      "b": 105,
+      "n_items": 2
+    },
+    {
+      "text": "Nhưng đó chưa phải phần điên rồ nhất.",
+      "a": 105,
+      "b": 113,
+      "n_items": 1
+    },
+    {
+      "text": "GPT sáu chấm một Sol thông minh gần bằng Astra.",
+      "a": 113,
+      "b": 123,
+      "n_items": 2
+    },
+    {
+      "text": "Giá chỉ hai đô mỗi triệu token đầu vào.",
+      "a": 123,
+      "b": 132,
+      "n_items": 1
+    },
+    {
+      "text": "Đầu ra mười đô, đúng một phần năm giá Astra.",
+      "a": 132,
+      "b": 142,
+      "n_items": 2
+    },
+    {
+      "text": "Trên bài test lập trình DeepSWE, Sol ngang Astra.",
+      "a": 142,
+      "b": 151,
+      "n_items": 2
+    },
+    {
+      "text": "Với bài khoa học, Sol tốn năm phẩy bốn bảy đô mỗi tác vụ.",
+      "a": 151,
+      "b": 165,
+      "n_items": 2
+    },
+    {
+      "text": "Astra tốn hai mươi ba phẩy tám đô, gấp hơn bốn lần.",
+      "a": 165,
+      "b": 177,
+      "n_items": 2
+    },
+    {
+      "text": "Dù vậy, Astra vẫn đứng đầu về điểm số.",
+      "a": 177,
+      "b": 186,
+      "n_items": 1
+    },
+    {
+      "text": "Nhưng dots chưa dành cho tất cả mọi người.",
+      "a": 186,
+      "b": 195,
+      "n_items": 1
+    },
+    {
+      "text": "Đợt đầu chỉ có gói Pro và Business Premium.",
+      "a": 195,
+      "b": 204,
+      "n_items": 2
+    },
+    {
+      "text": "Theo WIRED, gói Pro giá một trăm đô mỗi tháng.",
+      "a": 204,
+      "b": 214,
+      "n_items": 2
+    },
+    {
+      "text": "Ngay trên sân khấu, dot còn liên tục lỗi giọng nói.",
+      "a": 214,
+      "b": 225,
+      "n_items": 2
+    },
+    {
+      "text": "Romain Huet thừa nhận giọng nói có thể đang trục trặc.",
+      "a": 225,
+      "b": 236,
+      "n_items": 2
+    },
+    {
+      "text": "Khi AI làm thay hai bốn trên bảy, bạn sẽ làm gì?",
+      "a": 236,
+      "b": 248,
+      "n_items": 1
+    }
+  ]
+}

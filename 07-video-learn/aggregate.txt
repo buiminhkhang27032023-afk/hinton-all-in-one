@@ -1,0 +1,304 @@
+
+## douyin-chengxuyuanyupi n=10 {'doc': 9, 'ngang': 1} tot=872.3s
+  shot03 {'n': 127, 'mean': 6.87, 'median': 4.1, 'p10': 1.27, 'p25': 2.27, 'p75': 8.05, 'p90': 14.33}
+  shot02 {'mean': 5.7, 'median': 3.63}
+  hist_pct {'0-0.5': np.float64(2.4), '0.5-1': np.float64(3.1), '1-2': np.float64(15.0), '2-3': np.float64(15.0), '3-5': np.float64(24.4), '5-8': np.float64(14.2), '8-+': np.float64(26.0)}
+  cuts_per_min03 7.9
+  cuts_per_min02 9.5
+  first_cut_median 4.43
+  layout_pct {'split_khong_mat': 35.6, 'mat_can': 17.6, 'pip_mat': 14.7, 'split_mat_duoi': 12.8, 'man_hinh_ui': 8.3, 'card_toi': 4.8, 'broll': 4.7, 'mat_trung': 0.8, 'split_mat_tren': 0.8}
+  punches {'jump_cut_cung_khung': 172, 'punch_in': 4, 'punch_out': 5}
+  punch_scale_med 0.92
+  punch_scale_range [0.87, 1.13]
+  drifts_per_min 1.93
+  cap_words_med 8.0
+  cap_words_p90 12.0
+  cap_y_med 1166.0
+  cap_y_p10_p90 [835.8, 1344.0]
+  cap_h_med 78.0
+  cap_color_bins {'trắng': 222, 'xám': 171, 'đen/tối': 105, 'khác': 26, 'vàng/cam vàng': 6, 'đỏ/cam đỏ': 3}
+  top_hex [('#F9F8F9', 8), ('#F9F9F9', 7), ('#F6F5F6', 6), ('#F7F6F6', 6), ('#F5F5F5', 5), ('#F8F8F8', 5)]
+  cap_items 1719
+  consistent_colors [('#FFFFFF', 55), ('#000000', 41), ('#808080', 24), ('#202020', 23), ('#404040', 19), ('#A0A0A0', 18), ('#E0E0E0', 17), ('#C0C0C0', 6)]
+  accent_caption [('#F0F030', 22), ('#F0D818', 17), ('#F0F048', 13), ('#907818', 12), ('#F0F018', 10), ('#F0F060', 8)]
+  accent_all_text [('#F0D818', 107), ('#F0F018', 56), ('#F0F030', 42), ('#F0F048', 32), ('#D8D878', 25), ('#6090C0', 25)]
+  lufs_med -9.95
+  music_pct_med 67.9
+  pauses_per_min 15.5
+  hits_per_min 32.5
+    {'id': 'Fx_FeF0PPWM', 'dur': 139.0, 'cuts03': 9, 'cuts02': 11, 'med03': 8.32, 'mean03': 13.9, 'first': 6.4, 'lay': 'split_khong_mat', 'wpc': 8, 'lufs': -23.8, 'mus': 88.5}
+    {'id': 'Gqrm17AvGQ0', 'dur': 55.1, 'cuts03': 13, 'cuts02': 21, 'med03': 3.12, 'mean03': 3.93, 'first': 3.7, 'lay': 'split_khong_mat', 'wpc': 12, 'lufs': -11.2, 'mus': 81.8}
+    {'id': 'Gr2hmbuHuXs', 'dur': 116.2, 'cuts03': 21, 'cuts02': 26, 'med03': 3.93, 'mean03': 5.28, 'first': 6.133, 'lay': 'split_khong_mat', 'wpc': 36, 'lufs': -7.8, 'mus': 47.4}
+    {'id': 'IgZpZgc2UGU', 'dur': 47.2, 'cuts03': 6, 'cuts02': 8, 'med03': 4.4, 'mean03': 6.74, 'first': 4.4, 'lay': 'split_mat_duoi', 'wpc': 10, 'lufs': -7.6, 'mus': 66.0}
+    {'id': 'PtaEDk1oMZg', 'dur': 88.3, 'cuts03': 12, 'cuts02': 12, 'med03': 3.73, 'mean03': 6.79, 'first': 3.2, 'lay': 'card_toi', 'wpc': 7.0, 'lufs': -9.6, 'mus': 18.2}
+    {'id': 'j5Ldy8m2Yp4', 'dur': 42.9, 'cuts03': 12, 'cuts02': 13, 'med03': 2.37, 'mean03': 3.3, 'first': 4.433, 'lay': 'man_hinh_ui', 'wpc': 18.5, 'lufs': -10.2, 'mus': 69.8}
+    {'id': 'kFMPdjOU5eM', 'dur': 150.0, 'cuts03': 19, 'cuts02': 20, 'med03': 5.83, 'mean03': 7.5, 'first': 5.033, 'lay': 'mat_can', 'wpc': 11, 'lufs': -23.9, 'mus': 91.3}
+    {'id': 'kToDDo8x814', 'dur': 158.1, 'cuts03': 12, 'cuts02': 14, 'med03': 4.83, 'mean03': 12.16, 'first': 4.433, 'lay': 'pip_mat', 'wpc': 13, 'lufs': -9.6, 'mus': 72.8}
+    {'id': 'vlq9EfbfWh4', 'dur': 40.7, 'cuts03': 3, 'cuts02': 6, 'med03': 4.22, 'mean03': 10.17, 'first': 4.567, 'lay': 'split_khong_mat', 'wpc': 10, 'lufs': -9.7, 'mus': 39.0}
+    {'id': 'yfE02D4ujic', 'dur': 34.9, 'cuts03': 10, 'cuts02': 12, 'med03': 2.37, 'mean03': 3.18, 'first': 4.267, 'lay': 'broll', 'wpc': 6.5, 'lufs': -11.3, 'mus': 17.1}
+
+## douyin-qiuzhi2046 n=10 {'ngang': 10} tot=2073.7s
+  shot03 {'n': 355, 'mean': 5.84, 'median': 2.77, 'p10': 0.83, 'p25': 1.38, 'p75': 6.7, 'p90': 12.07}
+  shot02 {'mean': 4.49, 'median': 2.53}
+  hist_pct {'0-0.5': np.float64(2.3), '0.5-1': np.float64(13.8), '1-2': np.float64(21.7), '2-3': np.float64(14.9), '3-5': np.float64(13.8), '5-8': np.float64(13.0), '8-+': np.float64(20.6)}
+  cuts_per_min03 8.9
+  cuts_per_min02 12.8
+  first_cut_median 1.93
+  layout_pct {'mat_trung': 34.2, 'pip_mat': 23.2, 'man_hinh_ui': 11.1, 'broll': 9.1, 'card_toi': 7.3, 'split_mat_duoi': 6.9, 'split_khong_mat': 4.6, 'mat_can': 2.6, 'split_mat_tren': 1.0}
+  punches {'jump_cut_cung_khung': 511, 'punch_in': 51, 'punch_out': 54}
+  punch_scale_med 0.94
+  punch_scale_range [0.73, 1.28]
+  drifts_per_min 3.76
+  cap_words_med 8.0
+  cap_words_p90 13.0
+  cap_y_med 909.0
+  cap_y_p10_p90 [834.0, 945.0]
+  cap_h_med 56.0
+  cap_color_bins {'trắng': 588, 'đen/tối': 422, 'xám': 236, 'khác': 28, 'xanh dương': 13, 'vàng/cam vàng': 8}
+  top_hex [('#F4F3F4', 27), ('#F3F2F3', 26), ('#F2F1F2', 25), ('#F5F4F5', 20), ('#F6F5F6', 17), ('#F0EFF0', 10)]
+  cap_items 2737
+  consistent_colors [('#808080', 58), ('#FFFFFF', 51), ('#202020', 40), ('#E0E0E0', 31), ('#000000', 28), ('#A0A0A0', 8), ('#606060', 8), ('#200020', 6)]
+  accent_caption [('#6018F0', 56), ('#7878F0', 48), ('#7818F0', 44), ('#F0D800', 29), ('#F0D818', 16), ('#7860F0', 15)]
+  accent_all_text [('#F0D800', 179), ('#A8F018', 151), ('#F0D818', 127), ('#609030', 115), ('#90A8F0', 84), ('#6060F0', 64)]
+  lufs_med -13.95
+  music_pct_med 92.2
+  pauses_per_min 2.2
+  hits_per_min 36.0
+    {'id': '1l3P7WRgTOc', 'dur': 175.8, 'cuts03': 62, 'cuts02': 72, 'med03': 1.83, 'mean03': 2.79, 'first': 3.867, 'lay': 'mat_trung', 'wpc': 6.0, 'lufs': -15.2, 'mus': 86.9}
+    {'id': '3SsJfEJ-B2o', 'dur': 160.2, 'cuts03': 11, 'cuts02': 19, 'med03': 6.58, 'mean03': 13.35, 'first': 6.333, 'lay': 'pip_mat', 'wpc': 9, 'lufs': -13.0, 'mus': 92.5}
+    {'id': 'CXecA3gSBsA', 'dur': 200.4, 'cuts03': 26, 'cuts02': 36, 'med03': 2.73, 'mean03': 7.42, 'first': 4.733, 'lay': 'pip_mat', 'wpc': 11.0, 'lufs': -15.2, 'mus': 97.0}
+    {'id': 'DvQcsdvIMiE', 'dur': 255.0, 'cuts03': 33, 'cuts02': 37, 'med03': 6.5, 'mean03': 7.5, 'first': 2.533, 'lay': 'pip_mat', 'wpc': 9.0, 'lufs': -10.8, 'mus': 94.1}
+    {'id': 'Uipb_nT90s0', 'dur': 161.4, 'cuts03': 33, 'cuts02': 44, 'med03': 2.73, 'mean03': 4.75, 'first': 1.033, 'lay': 'mat_trung', 'wpc': 11.0, 'lufs': -12.7, 'mus': 91.9}
+    {'id': 'XbVKXpTyGqU', 'dur': 271.6, 'cuts03': 34, 'cuts02': 47, 'med03': 5.1, 'mean03': 7.76, 'first': 0.767, 'lay': 'mat_trung', 'wpc': 11.0, 'lufs': -16.6, 'mus': 89.0}
+    {'id': 'YzwcAOXc2K0', 'dur': 233.8, 'cuts03': 13, 'cuts02': 19, 'med03': 10.13, 'mean03': 16.7, 'first': 7.367, 'lay': 'man_hinh_ui', 'wpc': 9.0, 'lufs': -13.9, 'mus': 97.9}
+    {'id': 'cIzzPXiZa2w', 'dur': 188.1, 'cuts03': 48, 'cuts02': 60, 'med03': 2.2, 'mean03': 3.84, 'first': 0.9, 'lay': 'mat_trung', 'wpc': 9, 'lufs': -16.3, 'mus': 88.8}
+    {'id': 'cJ1GinuA-Mg', 'dur': 265.7, 'cuts03': 44, 'cuts02': 66, 'med03': 4.7, 'mean03': 5.91, 'first': 1.0, 'lay': 'mat_trung', 'wpc': 9, 'lufs': -14.0, 'mus': 92.5}
+    {'id': 'pdEn7OXBvt0', 'dur': 161.6, 'cuts03': 41, 'cuts02': 52, 'med03': 2.03, 'mean03': 3.85, 'first': 1.333, 'lay': 'mat_trung', 'wpc': 7.5, 'lufs': -11.8, 'mus': 86.4}
+
+## facebook-aisavvy n=10 {'doc': 10} tot=788.0s
+  shot03 {'n': 48, 'mean': 16.42, 'median': 8.27, 'p10': 1.82, 'p25': 4.11, 'p75': 20.33, 'p90': 41.77}
+  shot02 {'mean': 8.66, 'median': 3.7}
+  hist_pct {'0-0.5': np.float64(2.1), '0.5-1': np.float64(0.0), '1-2': np.float64(10.4), '2-3': np.float64(6.2), '3-5': np.float64(10.4), '5-8': np.float64(16.7), '8-+': np.float64(54.2)}
+  cuts_per_min03 2.4
+  cuts_per_min02 4.4
+  first_cut_median 3.7
+  layout_pct {'split_mat_duoi': 81.8, 'split_khong_mat': 14.8, 'split_mat_tren': 3.0, 'mat_trung': 0.3, 'mat_can': 0.1, 'card_toi': 0.1, 'broll': 0.1}
+  punches {'jump_cut_cung_khung': 213}
+  punch_scale_med None
+  punch_scale_range None
+  drifts_per_min 1.29
+  cap_words_med 1.0
+  cap_words_p90 4.0
+  cap_y_med 986.0
+  cap_y_p10_p90 [848.0, 1072.0]
+  cap_h_med 50.0
+  cap_color_bins {'khác': 308, 'vàng/cam vàng': 188, 'xám': 81, 'đen/tối': 67, 'trắng': 18}
+  top_hex [('#4A2206', 3), ('#0B0202', 3), ('#52280B', 3), ('#E5921A', 2), ('#E49219', 2), ('#4F2708', 2)]
+  cap_items 749
+  consistent_colors [('#402000', 58), ('#E0A020', 48), ('#806060', 37), ('#E08020', 34), ('#808060', 28), ('#602000', 17), ('#000000', 12), ('#804000', 9)]
+  accent_caption [('#F09018', 629), ('#D89018', 43), ('#906018', 11), ('#F09000', 10), ('#A86018', 7), ('#906030', 4)]
+  accent_all_text [('#F09018', 685), ('#7860F0', 50), ('#90D8F0', 44), ('#D89018', 43), ('#78A8D8', 22), ('#6090C0', 18)]
+  lufs_med -16.7
+  music_pct_med 32.6
+  pauses_per_min 4.2
+  hits_per_min 34.3
+    {'id': '7661551924315032853', 'dur': 79.5, 'cuts03': 4, 'cuts02': 6, 'med03': 14.97, 'mean03': 15.9, 'first': 3.633, 'lay': 'split_mat_duoi', 'wpc': 1.0, 'lufs': -11.6, 'mus': 28.8}
+    {'id': '7663469410673233172', 'dur': 97.2, 'cuts03': 6, 'cuts02': 19, 'med03': 13.11, 'mean03': 13.89, 'first': 9.076, 'lay': 'split_mat_duoi', 'wpc': 1.0, 'lufs': -18.0, 'mus': 29.9}
+    {'id': '7671291222639643924', 'dur': 20.0, 'cuts03': 0, 'cuts02': 0, 'med03': 20.02, 'mean03': 20.02, 'first': None, 'lay': 'split_khong_mat', 'wpc': 3, 'lufs': -28.7, 'mus': 100.0}
+    {'id': '7672308029345271061', 'dur': 96.0, 'cuts03': 3, 'cuts02': 6, 'med03': 20.43, 'mean03': 23.99, 'first': 11.133, 'lay': 'split_mat_duoi', 'wpc': 1.0, 'lufs': -18.1, 'mus': 21.9}
+    {'id': '7672753223148637460', 'dur': 51.3, 'cuts03': 0, 'cuts02': 0, 'med03': 51.27, 'mean03': 51.27, 'first': None, 'lay': 'split_mat_duoi', 'wpc': 1, 'lufs': -16.0, 'mus': 35.3}
+    {'id': '7681592962127580437', 'dur': 105.6, 'cuts03': 4, 'cuts02': 8, 'med03': 20.33, 'mean03': 21.13, 'first': 2.933, 'lay': 'split_mat_duoi', 'wpc': 1.0, 'lufs': -17.9, 'mus': 76.4}
+    {'id': '7691234706796399924', 'dur': 91.5, 'cuts03': 4, 'cuts02': 6, 'med03': 19.03, 'mean03': 18.29, 'first': 4.367, 'lay': 'split_mat_duoi', 'wpc': 1, 'lufs': -16.5, 'mus': 17.4}
+    {'id': '7691679746945551637', 'dur': 96.2, 'cuts03': 7, 'cuts02': 14, 'med03': 6.68, 'mean03': 12.02, 'first': 2.7, 'lay': 'split_mat_duoi', 'wpc': 1, 'lufs': -16.7, 'mus': 45.8}
+    {'id': '7691975494002068757', 'dur': 82.8, 'cuts03': 1, 'cuts02': 6, 'med03': 82.73, 'mean03': 82.73, 'first': 3.767, 'lay': 'split_mat_duoi', 'wpc': 1.0, 'lufs': -16.1, 'mus': 47.0}
+    {'id': '7692322957909069076', 'dur': 68.0, 'cuts03': 9, 'cuts02': 16, 'med03': 2.22, 'mean03': 6.8, 'first': 2.6, 'lay': 'split_mat_duoi', 'wpc': 1.0, 'lufs': -16.7, 'mus': 7.4}
+
+## facebook-nguyentatkiem n=10 {'doc': 10} tot=585.0s
+  shot03 {'n': 174, 'mean': 3.36, 'median': 2.03, 'p10': 0.33, 'p25': 1.28, 'p75': 4.32, 'p90': 8.05}
+  shot02 {'mean': 2.38, 'median': 1.63}
+  hist_pct {'0-0.5': np.float64(14.4), '0.5-1': np.float64(5.7), '1-2': np.float64(28.2), '2-3': np.float64(17.2), '3-5': np.float64(13.8), '5-8': np.float64(10.3), '8-+': np.float64(10.3)}
+  cuts_per_min03 16.4
+  cuts_per_min02 26.3
+  first_cut_median 3.63
+  layout_pct {'mat_can': 20.2, 'split_mat_duoi': 16.3, 'split_khong_mat': 15.9, 'split_mat_tren': 12.5, 'broll': 12.4, 'mat_trung': 10.4, 'man_hinh_ui': 9.3, 'card_toi': 2.6, 'pip_mat': 0.4}
+  punches {'jump_cut_cung_khung': 321, 'punch_in': 12, 'punch_out': 4}
+  punch_scale_med 1.13
+  punch_scale_range [0.87, 1.56]
+  drifts_per_min 3.28
+  cap_words_med 4.0
+  cap_words_p90 10.0
+  cap_y_med 1452.0
+  cap_y_p10_p90 [807.0, 1470.0]
+  cap_h_med 64.5
+  cap_color_bins {'vàng/cam vàng': 139, 'đen/tối': 98, 'trắng': 82, 'xám': 81, 'khác': 34, 'xanh dương': 8}
+  top_hex [('#585458', 5), ('#E9F526', 3), ('#1E2010', 3), ('#575357', 3), ('#F5F4F6', 3), ('#F0EFF2', 3)]
+  cap_items 1091
+  consistent_colors [('#FFFFFF', 37), ('#202020', 21), ('#000000', 17), ('#202000', 13), ('#E0E0E0', 12), ('#C0C0C0', 11), ('#606060', 10), ('#A0A0A0', 9)]
+  accent_caption [('#F0F018', 66), ('#F0F030', 62), ('#F0C030', 46), ('#F0C018', 36), ('#F09018', 34), ('#D8C030', 30)]
+  accent_all_text [('#F09018', 86), ('#F0F018', 79), ('#F0F030', 74), ('#F0C030', 61), ('#D8C030', 54), ('#F0C018', 46)]
+  lufs_med -12.85
+  music_pct_med 97.3
+  pauses_per_min 2.1
+  hits_per_min 34.5
+    {'id': '1462864092042491', 'dur': 84.3, 'cuts03': 22, 'cuts02': 29, 'med03': 3.3, 'mean03': 3.67, 'first': 3.8, 'lay': 'mat_can', 'wpc': 3, 'lufs': -14.3, 'mus': 98.8}
+    {'id': '2NvHjOEO5Jc', 'dur': 32.9, 'cuts03': 3, 'cuts02': 3, 'med03': 2.42, 'mean03': 8.22, 'first': 2.4, 'lay': 'split_mat_tren', 'wpc': 5, 'lufs': -13.6, 'mus': 72.7}
+    {'id': 'FadFI3N0y6Y', 'dur': 64.9, 'cuts03': 21, 'cuts02': 31, 'med03': 2.13, 'mean03': 2.95, 'first': 5.0, 'lay': 'man_hinh_ui', 'wpc': 2, 'lufs': -11.7, 'mus': 96.9}
+    {'id': 'KsqhoO9JXx4', 'dur': 47.0, 'cuts03': 20, 'cuts02': 27, 'med03': 2.03, 'mean03': 2.24, 'first': 0.067, 'lay': 'split_mat_duoi', 'wpc': 4, 'lufs': -12.3, 'mus': 97.9}
+    {'id': 'R0FD628NfPY', 'dur': 46.2, 'cuts03': 6, 'cuts02': 13, 'med03': 7.33, 'mean03': 6.59, 'first': 5.067, 'lay': 'split_mat_tren', 'wpc': 12.5, 'lufs': -12.1, 'mus': 97.8}
+    {'id': 'bUpnpZWbRyc', 'dur': 87.4, 'cuts03': 30, 'cuts02': 38, 'med03': 1.6, 'mean03': 2.82, 'first': 4.4, 'lay': 'mat_trung', 'wpc': 6.5, 'lufs': -10.8, 'mus': 92.0}
+    {'id': 'lRUuEDvBVK8', 'dur': 73.4, 'cuts03': 19, 'cuts02': 33, 'med03': 1.88, 'mean03': 3.67, 'first': 6.267, 'lay': 'broll', 'wpc': 10.5, 'lufs': -12.4, 'mus': 100.0}
+    {'id': 'mg0F55YoESM', 'dur': 88.0, 'cuts03': 25, 'cuts02': 39, 'med03': 1.85, 'mean03': 3.38, 'first': 1.867, 'lay': 'mat_can', 'wpc': 3, 'lufs': -13.3, 'mus': 97.7}
+    {'id': 'pZKycMI221E', 'dur': 11.9, 'cuts03': 0, 'cuts02': 1, 'med03': 11.92, 'mean03': 11.92, 'first': 3.467, 'lay': 'mat_can', 'wpc': 1, 'lufs': -19.1, 'mus': 83.3}
+    {'id': 'zmAkQwNeods', 'dur': 49.1, 'cuts03': 18, 'cuts02': 22, 'med03': 2.0, 'mean03': 2.58, 'first': 2.3, 'lay': 'split_khong_mat', 'wpc': 7, 'lufs': -14.7, 'mus': 95.9}
+
+## tiktok-hieuanca n=10 {'doc': 10} tot=671.6s
+  shot03 {'n': 94, 'mean': 7.14, 'median': 2.5, 'p10': 1.03, 'p25': 1.47, 'p75': 5.18, 'p90': 21.85}
+  shot02 {'mean': 4.22, 'median': 1.93}
+  hist_pct {'0-0.5': np.float64(2.1), '0.5-1': np.float64(6.4), '1-2': np.float64(34.0), '2-3': np.float64(16.0), '3-5': np.float64(14.9), '5-8': np.float64(5.3), '8-+': np.float64(21.3)}
+  cuts_per_min03 3.2
+  cuts_per_min02 8.7
+  first_cut_median 2.27
+  layout_pct {'split_mat_duoi': 66.8, 'split_khong_mat': 12.0, 'man_hinh_ui': 5.5, 'mat_can': 5.5, 'broll': 3.7, 'split_mat_tren': 2.8, 'mat_trung': 2.2, 'card_toi': 1.3, 'pip_mat': 0.1}
+  punches {'jump_cut_cung_khung': 256, 'punch_out': 9, 'punch_in': 7}
+  punch_scale_med 0.92
+  punch_scale_range [0.75, 1.27]
+  drifts_per_min 3.93
+  cap_words_med 6.0
+  cap_words_p90 12.4
+  cap_y_med 1044.0
+  cap_y_p10_p90 [765.2, 1448.0]
+  cap_h_med 44.0
+  cap_color_bins {'xám': 295, 'trắng': 113, 'đen/tối': 74, 'khác': 47, 'vàng/cam vàng': 38, 'đỏ/cam đỏ': 5}
+  top_hex [('#C0BEC0', 6), ('#B8B6B8', 6), ('#BEBCBE', 6), ('#C1BFC1', 5), ('#807E80', 5), ('#636163', 5)]
+  cap_items 1145
+  consistent_colors [('#000000', 42), ('#202020', 24), ('#FFFFFF', 21), ('#C0FF20', 17), ('#E0E0E0', 12), ('#808080', 10), ('#C0E020', 6), ('#C0C0C0', 6)]
+  accent_caption [('#C0F030', 133), ('#C0F018', 117), ('#D8F018', 57), ('#D8F030', 51), ('#C0D830', 36), ('#D8F048', 28)]
+  accent_all_text [('#C0F030', 148), ('#C0F018', 117), ('#A8C048', 82), ('#D8F018', 57), ('#D8F048', 57), ('#C0D860', 56)]
+  lufs_med -12.95
+  music_pct_med 86.4
+  pauses_per_min 5.8
+  hits_per_min 17.4
+    {'id': '7589122970631851285', 'dur': 49.9, 'cuts03': 1, 'cuts02': 4, 'med03': 24.96, 'mean03': 24.96, 'first': 2.2, 'lay': 'split_mat_duoi', 'wpc': 11, 'lufs': -14.1, 'mus': 96.0}
+    {'id': '7614520132378840337', 'dur': 77.3, 'cuts03': 2, 'cuts02': 4, 'med03': 21.25, 'mean03': 25.78, 'first': 1.3, 'lay': 'split_mat_duoi', 'wpc': 11, 'lufs': -12.8, 'mus': 62.3}
+    {'id': '7641602741256637717', 'dur': 88.8, 'cuts03': 2, 'cuts02': 8, 'med03': 39.45, 'mean03': 29.58, 'first': 2.6, 'lay': 'split_mat_duoi', 'wpc': 15, 'lufs': -13.1, 'mus': 79.8}
+    {'id': '7653296911822179605', 'dur': 24.5, 'cuts03': 1, 'cuts02': 2, 'med03': 12.24, 'mean03': 12.24, 'first': 13.433, 'lay': 'mat_can', 'wpc': 6, 'lufs': -16.8, 'mus': 96.0}
+    {'id': '7654806734996917511', 'dur': 77.1, 'cuts03': 7, 'cuts02': 20, 'med03': 9.0, 'mean03': 9.64, 'first': 0.067, 'lay': 'split_mat_duoi', 'wpc': 10.5, 'lufs': -14.2, 'mus': 93.5}
+    {'id': '7686872745115897109', 'dur': 40.7, 'cuts03': 14, 'cuts02': 14, 'med03': 2.6, 'mean03': 2.71, 'first': 3.0, 'lay': 'split_mat_duoi', 'wpc': 3.0, 'lufs': -8.4, 'mus': 78.0}
+    {'id': '7690956516546923797', 'dur': 30.2, 'cuts03': 0, 'cuts02': 1, 'med03': 30.2, 'mean03': 30.2, 'first': 14.0, 'lay': 'split_khong_mat', 'wpc': 49.0, 'lufs': -22.8, 'mus': 93.3}
+    {'id': '7691346494334733589', 'dur': 115.8, 'cuts03': 40, 'cuts02': 53, 'med03': 1.77, 'mean03': 2.82, 'first': 0.2, 'lay': 'split_mat_duoi', 'wpc': 13, 'lufs': -11.9, 'mus': 84.5}
+    {'id': '7691559058679123220', 'dur': 90.7, 'cuts03': 6, 'cuts02': 18, 'med03': 1.33, 'mean03': 12.96, 'first': 2.333, 'lay': 'split_mat_duoi', 'wpc': 12.0, 'lufs': -8.9, 'mus': 67.0}
+    {'id': '7692063821216730388', 'dur': 76.5, 'cuts03': 11, 'cuts02': 25, 'med03': 2.07, 'mean03': 6.37, 'first': 1.3, 'lay': 'split_mat_duoi', 'wpc': 24.5, 'lufs': -8.9, 'mus': 88.3}
+
+## tiktok-hungnpv n=10 {'doc': 10} tot=1186.7s
+  shot03 {'n': 75, 'mean': 15.82, 'median': 11.83, 'p10': 2.15, 'p25': 2.77, 'p75': 24.75, 'p90': 36.38}
+  shot02 {'mean': 14.47, 'median': 11.17}
+  hist_pct {'0-0.5': np.float64(0.0), '0.5-1': np.float64(2.7), '1-2': np.float64(5.3), '2-3': np.float64(18.7), '3-5': np.float64(8.0), '5-8': np.float64(8.0), '8-+': np.float64(57.3)}
+  cuts_per_min03 3.0
+  cuts_per_min02 3.5
+  first_cut_median 5.47
+  layout_pct {'broll': 38.8, 'split_khong_mat': 26.2, 'man_hinh_ui': 18.9, 'mat_can': 6.3, 'split_mat_duoi': 3.4, 'mat_trung': 3.3, 'split_mat_tren': 2.7, 'pip_mat': 0.2, 'card_toi': 0.1}
+  punches {'jump_cut_cung_khung': 90}
+  punch_scale_med None
+  punch_scale_range None
+  drifts_per_min 2.53
+  cap_words_med 6.0
+  cap_words_p90 13.0
+  cap_y_med 912.0
+  cap_y_p10_p90 [764.0, 1292.0]
+  cap_h_med 51.0
+  cap_color_bins {'xám': 505, 'trắng': 266, 'đen/tối': 84, 'khác': 61, 'vàng/cam vàng': 15, 'xanh dương': 15}
+  top_hex [('#0C0B0C', 8), ('#0B0A0B', 7), ('#0F0E0F', 6), ('#0D0C0D', 5), ('#0C0C0D', 3), ('#0E0D0E', 3)]
+  cap_items 5335
+  consistent_colors [('#C0C0C0', 32), ('#A0A0A0', 29), ('#E0E0E0', 24), ('#808080', 23), ('#606060', 21), ('#404040', 12), ('#8080A0', 8), ('#A0A0C0', 7)]
+  accent_caption [('#3030F0', 54), ('#4860F0', 22), ('#F04800', 22), ('#7878D8', 14), ('#F07860', 14), ('#C09018', 13)]
+  accent_all_text [('#A83048', 83), ('#3030F0', 79), ('#C03048', 64), ('#D8A818', 51), ('#C09000', 44), ('#7878D8', 42)]
+  lufs_med -24.35
+  music_pct_med 72.15
+  pauses_per_min 12.2
+  hits_per_min 36.7
+    {'id': '7585913236466306324', 'dur': 100.3, 'cuts03': 5, 'cuts02': 7, 'med03': 10.07, 'mean03': 16.72, 'first': 5.433, 'lay': 'man_hinh_ui', 'wpc': 9.0, 'lufs': -14.8, 'mus': 25.0}
+    {'id': '7616786351685405973', 'dur': 149.5, 'cuts03': 6, 'cuts02': 8, 'med03': 22.0, 'mean03': 21.35, 'first': 3.567, 'lay': 'broll', 'wpc': 15.5, 'lufs': -26.0, 'mus': 82.0}
+    {'id': '7617129356313251093', 'dur': 75.1, 'cuts03': 5, 'cuts02': 5, 'med03': 8.4, 'mean03': 12.51, 'first': 3.967, 'lay': 'broll', 'wpc': 6, 'lufs': -14.3, 'mus': 81.3}
+    {'id': '7624127010314407188', 'dur': 119.2, 'cuts03': 7, 'cuts02': 7, 'med03': 8.75, 'mean03': 14.9, 'first': 5.5, 'lay': 'man_hinh_ui', 'wpc': 29.5, 'lufs': -23.4, 'mus': 27.7}
+    {'id': '7654555020423204117', 'dur': 94.7, 'cuts03': 9, 'cuts02': 10, 'med03': 9.2, 'mean03': 9.47, 'first': 5.567, 'lay': 'broll', 'wpc': 7.0, 'lufs': -15.4, 'mus': 68.4}
+    {'id': '7662409459997625621', 'dur': 136.1, 'cuts03': 6, 'cuts02': 8, 'med03': 15.3, 'mean03': 19.45, 'first': 7.233, 'lay': 'split_khong_mat', 'wpc': 12, 'lufs': -25.9, 'mus': 95.6}
+    {'id': '7680932966251433237', 'dur': 112.3, 'cuts03': 5, 'cuts02': 5, 'med03': 16.57, 'mean03': 18.72, 'first': 4.8, 'lay': 'man_hinh_ui', 'wpc': 19, 'lufs': -14.1, 'mus': 75.9}
+    {'id': '7686515777951894805', 'dur': 120.3, 'cuts03': 6, 'cuts02': 6, 'med03': 17.63, 'mean03': 17.19, 'first': 3.567, 'lay': 'broll', 'wpc': 10.5, 'lufs': -26.3, 'mus': 45.8}
+    {'id': '7689085185677167892', 'dur': 115.5, 'cuts03': 9, 'cuts02': 9, 'med03': 11.88, 'mean03': 11.55, 'first': 14.133, 'lay': 'broll', 'wpc': 25.5, 'lufs': -26.8, 'mus': 37.1}
+    {'id': '7689464882944625940', 'dur': 163.7, 'cuts03': 7, 'cuts02': 7, 'med03': 25.12, 'mean03': 20.46, 'first': 5.867, 'lay': 'broll', 'wpc': 10.0, 'lufs': -25.3, 'mus': 98.8}
+
+## tiktokintl-kanekallaway n=10 {'doc': 10} tot=942.3s
+  shot03 {'n': 389, 'mean': 2.42, 'median': 1.79, 'p10': 0.88, 'p25': 1.17, 'p75': 2.84, 'p90': 4.59}
+  shot02 {'mean': 1.98, 'median': 1.5}
+  hist_pct {'0-0.5': np.float64(1.0), '0.5-1': np.float64(15.4), '1-2': np.float64(40.9), '2-3': np.float64(20.1), '3-5': np.float64(14.1), '5-8': np.float64(5.9), '8-+': np.float64(2.6)}
+  cuts_per_min03 24.3
+  cuts_per_min02 31.9
+  first_cut_median 1.58
+  layout_pct {'split_mat_duoi': 55.0, 'mat_can': 24.8, 'mat_trung': 5.3, 'card_toi': 4.2, 'split_mat_tren': 3.5, 'broll': 2.8, 'split_khong_mat': 2.4, 'man_hinh_ui': 1.7, 'pip_mat': 0.1}
+  punches {'punch_out': 14, 'jump_cut_cung_khung': 361, 'punch_in': 20}
+  punch_scale_med 1.07
+  punch_scale_range [0.45, 1.23]
+  drifts_per_min 9.81
+  cap_words_med 2.0
+  cap_words_p90 6.0
+  cap_y_med 1014.0
+  cap_y_p10_p90 [798.0, 1246.0]
+  cap_h_med 50.0
+  cap_color_bins {'trắng': 490, 'vàng/cam vàng': 197, 'xám': 113, 'đen/tối': 83, 'khác': 46, 'xanh dương': 2}
+  top_hex [('#F5F4F5', 29), ('#F8F7F8', 26), ('#F4F3F4', 24), ('#F6F5F6', 23), ('#F6F4F5', 18), ('#F5F3F5', 17)]
+  cap_items 1463
+  consistent_colors [('#FFFFFF', 46), ('#000000', 42), ('#202020', 22), ('#E0A020', 18), ('#200000', 15), ('#808080', 14), ('#A04000', 11), ('#802020', 9)]
+  accent_caption [('#D8A818', 209), ('#903000', 79), ('#F0A818', 79), ('#904800', 76), ('#903018', 34), ('#C06018', 24)]
+  accent_all_text [('#D8A818', 211), ('#F0A818', 83), ('#903000', 79), ('#904800', 78), ('#903018', 35), ('#C06018', 26)]
+  lufs_med -20.4
+  music_pct_med 94.15
+  pauses_per_min 0.1
+  hits_per_min 25.9
+    {'id': '7630160402457939230', 'dur': 73.0, 'cuts03': 16, 'cuts02': 19, 'med03': 3.3, 'mean03': 4.3, 'first': 2.961, 'lay': 'split_mat_duoi', 'wpc': 3.0, 'lufs': -20.6, 'mus': 83.6}
+    {'id': '7632789210449104159', 'dur': 111.5, 'cuts03': 43, 'cuts02': 49, 'med03': 2.29, 'mean03': 2.53, 'first': 1.043, 'lay': 'split_mat_duoi', 'wpc': 2.0, 'lufs': -20.6, 'mus': 83.9}
+    {'id': '7643040317897313567', 'dur': 95.0, 'cuts03': 48, 'cuts02': 54, 'med03': 1.59, 'mean03': 1.94, 'first': 0.792, 'lay': 'split_mat_duoi', 'wpc': 2, 'lufs': -20.6, 'mus': 94.7}
+    {'id': '7645299083573267742', 'dur': 72.7, 'cuts03': 29, 'cuts02': 36, 'med03': 1.56, 'mean03': 2.42, 'first': 1.168, 'lay': 'split_mat_duoi', 'wpc': 2, 'lufs': -14.4, 'mus': 94.5}
+    {'id': '7673503508221529374', 'dur': 109.5, 'cuts03': 23, 'cuts02': 33, 'med03': 2.13, 'mean03': 4.56, 'first': 4.129, 'lay': 'split_mat_duoi', 'wpc': 3.0, 'lufs': -14.5, 'mus': 94.5}
+    {'id': '7688702509451414814', 'dur': 71.5, 'cuts03': 44, 'cuts02': 54, 'med03': 1.63, 'mean03': 1.59, 'first': 1.293, 'lay': 'split_mat_duoi', 'wpc': 4, 'lufs': -20.5, 'mus': 95.8}
+    {'id': '7689231793823730974', 'dur': 121.4, 'cuts03': 59, 'cuts02': 69, 'med03': 1.52, 'mean03': 2.02, 'first': 1.877, 'lay': 'split_mat_duoi', 'wpc': 2, 'lufs': -14.9, 'mus': 94.2}
+    {'id': '7690630566726618399', 'dur': 119.3, 'cuts03': 44, 'cuts02': 48, 'med03': 2.38, 'mean03': 2.65, 'first': 3.337, 'lay': 'split_mat_duoi', 'wpc': 3.0, 'lufs': -20.4, 'mus': 94.1}
+    {'id': '7690950400526077215', 'dur': 76.1, 'cuts03': 35, 'cuts02': 50, 'med03': 1.73, 'mean03': 2.11, 'first': 1.126, 'lay': 'split_mat_duoi', 'wpc': 2.0, 'lufs': -20.3, 'mus': 93.4}
+    {'id': '7692047285089258782', 'dur': 92.2, 'cuts03': 38, 'cuts02': 55, 'med03': 1.5, 'mean03': 2.36, 'first': 3.212, 'lay': 'split_mat_duoi', 'wpc': 2.0, 'lufs': -20.4, 'mus': 89.1}
+
+## tiktokintl-rileybrown.ai n=10 {'doc': 9, 'ngang': 1} tot=1325.5s
+  shot03 {'n': 100, 'mean': 13.26, 'median': 4.17, 'p10': 1.39, 'p25': 2.09, 'p75': 10.27, 'p90': 34.35}
+  shot02 {'mean': 8.78, 'median': 3.43}
+  hist_pct {'0-0.5': np.float64(3.0), '0.5-1': np.float64(2.0), '1-2': np.float64(17.0), '2-3': np.float64(20.0), '3-5': np.float64(12.0), '5-8': np.float64(14.0), '8-+': np.float64(32.0)}
+  cuts_per_min03 2.4
+  cuts_per_min02 3.7
+  first_cut_median 5.82
+  layout_pct {'split_mat_duoi': 54.2, 'broll': 16.7, 'man_hinh_ui': 12.9, 'split_khong_mat': 7.7, 'mat_can': 2.6, 'mat_trung': 1.9, 'pip_mat': 1.7, 'card_toi': 1.2, 'split_mat_tren': 1.2}
+  punches {'jump_cut_cung_khung': 248, 'punch_in': 4, 'punch_out': 8}
+  punch_scale_med 0.92
+  punch_scale_range [0.62, 1.1]
+  drifts_per_min 2.13
+  cap_words_med 4.0
+  cap_words_p90 9.0
+  cap_y_med 1022.0
+  cap_y_p10_p90 [774.0, 1288.0]
+  cap_h_med 46.0
+  cap_color_bins {'trắng': 559, 'xám': 267, 'khác': 167, 'đen/tối': 78, 'xanh dương': 19}
+  top_hex [('#F7F6F7', 16), ('#F4F5F6', 16), ('#F5F5F7', 15), ('#F5F6F7', 13), ('#F4F4F6', 13), ('#F4F4F5', 12)]
+  cap_items 1514
+  consistent_colors [('#FFFFFF', 55), ('#202020', 38), ('#808080', 19), ('#000000', 13), ('#402020', 12), ('#E0E0E0', 10), ('#C0C0C0', 8), ('#FFE0E0', 8)]
+  accent_caption [('#18A8F0', 45), ('#906030', 14), ('#C09060', 11), ('#D89060', 11), ('#30A8D8', 6), ('#4878A8', 5)]
+  accent_all_text [('#18A8F0', 62), ('#4818C0', 43), ('#C09030', 31), ('#C09018', 22), ('#4878A8', 21), ('#D80000', 21)]
+  lufs_med -24.0
+  music_pct_med 48.1
+  pauses_per_min 7.9
+  hits_per_min 41.4
+    {'id': '7567137351852428574', 'dur': 118.0, 'cuts03': 5, 'cuts02': 10, 'med03': 17.45, 'mean03': 19.66, 'first': 6.233, 'lay': 'split_mat_duoi', 'wpc': 3.0, 'lufs': -24.3, 'mus': 52.5}
+    {'id': '7572819786602761503', 'dur': 159.1, 'cuts03': 3, 'cuts02': 8, 'med03': 25.22, 'mean03': 39.78, 'first': 5.167, 'lay': 'broll', 'wpc': 6.0, 'lufs': -24.1, 'mus': 41.5}
+    {'id': '7591735797984906526', 'dur': 120.2, 'cuts03': 1, 'cuts02': 2, 'med03': 60.12, 'mean03': 60.12, 'first': 21.3, 'lay': 'split_mat_duoi', 'wpc': 5.0, 'lufs': -17.2, 'mus': 63.3}
+    {'id': '7592104050900897054', 'dur': 161.9, 'cuts03': 1, 'cuts02': 4, 'med03': 80.94, 'mean03': 80.94, 'first': 5.4, 'lay': 'split_mat_duoi', 'wpc': 4.0, 'lufs': -24.6, 'mus': 19.8}
+    {'id': '7605369643275963679', 'dur': 115.5, 'cuts03': 2, 'cuts02': 6, 'med03': 6.3, 'mean03': 38.51, 'first': 28.5, 'lay': 'split_mat_duoi', 'wpc': 4, 'lufs': -15.3, 'mus': 43.1}
+    {'id': '7608016811770137886', 'dur': 111.6, 'cuts03': 17, 'cuts02': 27, 'med03': 5.47, 'mean03': 6.2, 'first': 7.467, 'lay': 'broll', 'wpc': 3, 'lufs': -23.9, 'mus': 49.1}
+    {'id': '7682922688100207903', 'dur': 155.3, 'cuts03': 21, 'cuts02': 33, 'med03': 2.82, 'mean03': 7.06, 'first': 0.133, 'lay': 'man_hinh_ui', 'wpc': 2.0, 'lufs': -24.9, 'mus': 47.1}
+    {'id': '7689139500580162847', 'dur': 115.5, 'cuts03': 27, 'cuts02': 36, 'med03': 3.03, 'mean03': 4.13, 'first': 0.933, 'lay': 'split_mat_duoi', 'wpc': 4, 'lufs': -24.2, 'mus': 96.6}
+    {'id': '7690318295072787743', 'dur': 129.2, 'cuts03': 5, 'cuts02': 5, 'med03': 15.58, 'mean03': 21.53, 'first': 66.233, 'lay': 'split_mat_duoi', 'wpc': 4, 'lufs': -18.9, 'mus': 37.2}
+    {'id': '7692221017917345054', 'dur': 139.2, 'cuts03': 8, 'cuts02': 10, 'med03': 5.53, 'mean03': 15.46, 'first': 3.933, 'lay': 'split_khong_mat', 'wpc': 10.0, 'lufs': -15.0, 'mus': 98.6}

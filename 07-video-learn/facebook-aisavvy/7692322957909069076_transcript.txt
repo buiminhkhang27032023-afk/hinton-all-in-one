@@ -1,0 +1,15 @@
+[  0.00-  6.04] image just dropped and before you say great another image model let me show
+[  6.04- 10.30] you what makes this one different so the biggest feature is composing your image
+[ 10.30- 14.44] with boxes you can you can specify where each element goes and how much space
+[ 14.44- 19.92] it takes before generating the image you get much more over the layout instead
+[ 19.92- 23.76] of just writing the prompt and hoping the model gets it right you can also
+[ 23.76- 28.60] upload a reference using separate images for a person outfit product
+[ 28.60- 33.00] product and location. Then just explain how you want them to come together. Editing also
+[ 33.00- 37.36] gives you more control. You can still use the boxes or simple text prompts to make
+[ 37.36- 41.72] localize precise edits while keeping everything else the same.
+[ 41.84- 46.76] And we know that one big weakness of AI models is that they regenerate the whole thing when you want
+[ 46.76- 49.50] to edit something and it's never the same.
+[ 49.64- 54.42] And besides that, Flax remains one of the best models of realism and text and text in images.
+[ 54.42- 55.92] And now it also shows a
+[ 55.92- 62.26] 4k native, you can test the model on Black Forest Labs website or on third-party platforms like
+[ 62.26- 67.70] all AI or open arts. Open weights are all things you'll be able to run it locally.

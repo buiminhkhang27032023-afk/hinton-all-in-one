@@ -1,0 +1,579 @@
+{
+ "job": "HM-106",
+ "version": "v1",
+ "status": "CHỜ BỐ DUYỆT",
+ "title": "QUẢNG CÁO CẠNH ẢNH AI|ChatGPT · chỉ ở Mỹ",
+ "topic": "ChatGPT chèn quảng cáo hình ảnh cạnh ảnh AI tạo ra, bắt đầu cuối tháng 10, chỉ ở Mỹ",
+ "style": "v3 (video-learn/ref-20261005/STYLE-SPEC.md): 1 câu = 1 cảnh, push-in mọi shot, slide/whip + whoosh, khung đỏ/highlighter trên screenshot, pill nguồn góc dưới trái, outro câu hỏi mở → cắt đen",
+ "research": "/workspace/video-jobs/HM-106/candidates.md (tin 1); research.md do Bot5 LOCK",
+ "sources": {
+  "openai_blog": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+  "techcrunch": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
+ },
+ "caveats_kept": [
+  "Chỉ áp dụng ở Mỹ, chưa có ở Việt Nam (câu 6, 24)",
+  "Nhóm nhà quảng cáo thử nghiệm (câu 7)",
+  "1,2 tỷ người dùng/tuần là số OpenAI tự công bố (câu 15)",
+  "'Không ảnh hưởng câu trả lời' là lời OpenAI khẳng định (câu 9)"
+ ],
+ "sentences": [
+  "ChatGPT sắp gắn quảng cáo cạnh ảnh AI bạn tạo.",
+  "Nhưng không phải quảng cáo chữ.",
+  "Mà là quảng cáo bằng hình.",
+  "OpenAI vừa công bố hôm năm tháng mười.",
+  "Cuối tháng mười bắt đầu chạy.",
+  "Có điều, chỉ ở Mỹ.",
+  "Và chỉ với một nhóm nhà quảng cáo thử nghiệm.",
+  "Mỗi mẫu đều gắn nhãn rõ ràng.",
+  "OpenAI khẳng định quảng cáo không ảnh hưởng câu trả lời.",
+  "ChatGPT đã chạy quảng cáo ở Mỹ từ đầu năm.",
+  "Tháng tám mở sang Ấn Độ.",
+  "Giờ tới lượt hình ảnh.",
+  "Vì sao đáng chú ý?",
+  "ChatGPT có một phẩy hai tỷ người dùng mỗi tuần.",
+  "Con số do OpenAI tự công bố.",
+  "Với doanh nghiệp, đó là một kênh hoàn toàn mới.",
+  "OpenAI còn mở rộng đo lường hiệu quả.",
+  "Đối tác có AppsFlyer, Adjust, Branch, Triple Whale.",
+  "Và thử an toàn thương hiệu với DoubleVerify, IAS.",
+  "Tức là kiểm tra quảng cáo đứng cạnh nội dung nào.",
+  "TechCrunch nhắc tới đối thủ Meta Muse.",
+  "Cuộc đua quảng cáo trong AI đã bắt đầu.",
+  "Còn Việt Nam thì sao?",
+  "Hiện chưa có.",
+  "Nhưng chủ doanh nghiệp nên theo dõi từ giờ.",
+  "Nếu kênh này mở rộng, ảnh sản phẩm đẹp là lợi thế.",
+  "Thông điệp phải rõ trong một khung hình.",
+  "Người dùng thì phải quen quảng cáo ngay lúc sáng tạo.",
+  "Còn bạn, có muốn thấy quảng cáo cạnh ảnh mình tạo?"
+ ],
+ "syllables": 268,
+ "est_duration_s": 58.3,
+ "scene_count": 29,
+ "cut_target": "~30 (câu 18, 19 có thể tách 2 cut)",
+ "distinct_visuals": 29,
+ "voice": "OmniVoice · male clone v2 locked · 1.2 · voice_locked:true",
+ "captions_burn": true,
+ "bgm": true,
+ "notes_for_render": "Tên riêng tiếng Anh giữ nguyên: ChatGPT, OpenAI, AppsFlyer, Adjust, Branch, Triple Whale, DoubleVerify, IAS, TechCrunch, Meta Muse. Số đã viết thành chữ. Cảnh 'minh họa' tự vẽ phải ghi nhãn minh họa, không giả làm ảnh thật. Presenter chỉ dùng nếu có footage, không mở video bằng mặt.",
+ "scenes": [
+  {
+   "id": 1,
+   "t_est": [
+    0,
+    3.0
+   ],
+   "role": "HOOK claim",
+   "voiceText": "ChatGPT sắp gắn quảng cáo cạnh ảnh AI bạn tạo.",
+   "syllables": 14,
+   "on_screen": "QUẢNG CÁO|CẠNH ẢNH AI",
+   "visual": "Graphic claim chữ vàng/đỏ trên nền đen: 'QUẢNG CÁO CẠNH ẢNH AI', logo ChatGPT pop-in, push-in. Không mở bằng mặt.",
+   "layout": [
+    "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+    "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
+   ],
+   "transition": "full graphic",
+   "source_url": "open",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 2,
+   "t_est": [
+    3.0,
+    4.3
+   ],
+   "role": "bẻ lái",
+   "voiceText": "Nhưng không phải quảng cáo chữ.",
+   "syllables": 6,
+   "on_screen": "KHÔNG PHẢI CHỮ",
+   "visual": "Mockup khung chat có dòng quảng cáo dạng chữ bị gạch đỏ chéo (tự vẽ, ghi rõ minh họa).",
+   "layout": [
+    "https://openai.com/index/new-chatgpt-ads-format-and-measurement/"
+   ],
+   "transition": "full graphic",
+   "source_url": "whip",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 3,
+   "t_est": [
+    4.3,
+    5.6
+   ],
+   "role": "bẻ lái",
+   "voiceText": "Mà là quảng cáo bằng hình.",
+   "syllables": 6,
+   "on_screen": "QUẢNG CÁO HÌNH",
+   "visual": "Screenshot blog OpenAI: ảnh minh họa định dạng visual ad cạnh ảnh AI tạo, khung đỏ quanh ô quảng cáo + ding.",
+   "layout": [
+    "https://openai.com/index/new-chatgpt-ads-format-and-measurement/"
+   ],
+   "transition": "screenshot zoom + khung đỏ",
+   "source_url": "slide",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 4,
+   "t_est": [
+    5.6,
+    8.0
+   ],
+   "role": "bối cảnh",
+   "voiceText": "OpenAI vừa công bố hôm năm tháng mười.",
+   "syllables": 11,
+   "on_screen": "05/10",
+   "visual": "Screenshot tiêu đề bài blog OpenAI, highlighter vàng quét tiêu đề và ngày đăng.",
+   "layout": [
+    "https://openai.com/index/new-chatgpt-ads-format-and-measurement/"
+   ],
+   "transition": "screenshot + highlighter",
+   "source_url": "whip",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 5,
+   "t_est": [
+    8.0,
+    9.3
+   ],
+   "role": "bối cảnh",
+   "voiceText": "Cuối tháng mười bắt đầu chạy.",
+   "syllables": 6,
+   "on_screen": "CUỐI THÁNG 10",
+   "visual": "Template lịch kinetic: tờ lịch lật tới 'CUỐI THÁNG 10' (vàng trên nền xanh đậm).",
+   "layout": [
+    "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+    "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
+   ],
+   "transition": "stat template",
+   "source_url": "slide",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 6,
+   "t_est": [
+    9.3,
+    10.4
+   ],
+   "role": "caveat BẮT BUỘC",
+   "voiceText": "Có điều, chỉ ở Mỹ.",
+   "syllables": 5,
+   "on_screen": "CHỈ Ở MỸ",
+   "visual": "Bản đồ thế giới tối, chỉ nước Mỹ sáng vàng + ghim; chữ 'CHỈ Ở MỸ' đỏ.",
+   "layout": [
+    "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+    "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
+   ],
+   "transition": "map graphic",
+   "source_url": "whip",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 7,
+   "t_est": [
+    10.4,
+    12.6
+   ],
+   "role": "caveat",
+   "voiceText": "Và chỉ với một nhóm nhà quảng cáo thử nghiệm.",
+   "syllables": 10,
+   "on_screen": "NHÓM THỬ NGHIỆM",
+   "visual": "Screenshot đoạn TechCrunch nói nhóm advertiser thử nghiệm, gạch chân đỏ.",
+   "layout": [
+    "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
+   ],
+   "transition": "screenshot + gạch chân",
+   "source_url": "slide",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 8,
+   "t_est": [
+    12.6,
+    14.1
+   ],
+   "role": "ý chính",
+   "voiceText": "Mỗi mẫu đều gắn nhãn rõ ràng.",
+   "syllables": 7,
+   "on_screen": "CÓ NHÃN RÕ",
+   "visual": "Zoom cận nhãn quảng cáo (Sponsored/Ad) trên ảnh minh họa blog OpenAI, khung đỏ + pop.",
+   "layout": [
+    "https://openai.com/index/new-chatgpt-ads-format-and-measurement/"
+   ],
+   "transition": "screenshot crop",
+   "source_url": "whip",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 9,
+   "t_est": [
+    14.1,
+    17.1
+   ],
+   "role": "ý chính",
+   "voiceText": "OpenAI khẳng định quảng cáo không ảnh hưởng câu trả lời.",
+   "syllables": 14,
+   "on_screen": "KHÔNG ẢNH HƯỞNG CÂU TRẢ LỜI",
+   "visual": "Screenshot câu cam kết trong blog OpenAI, highlighter vàng. Pill ghi 'OpenAI khẳng định'.",
+   "layout": [
+    "https://openai.com/index/new-chatgpt-ads-format-and-measurement/"
+   ],
+   "transition": "screenshot + highlighter",
+   "source_url": "slide",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 10,
+   "t_est": [
+    17.1,
+    20.0
+   ],
+   "role": "bối cảnh",
+   "voiceText": "ChatGPT đã chạy quảng cáo ở Mỹ từ đầu năm.",
+   "syllables": 13,
+   "on_screen": "TỪ ĐẦU NĂM · MỸ",
+   "visual": "Timeline ngang: mốc 'Đầu 2026 · Mỹ' sáng lên (tự thiết kế).",
+   "layout": [
+    "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+    "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
+   ],
+   "transition": "timeline 1/3",
+   "source_url": "whip",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 11,
+   "t_est": [
+    20.0,
+    21.3
+   ],
+   "role": "bối cảnh",
+   "voiceText": "Tháng tám mở sang Ấn Độ.",
+   "syllables": 6,
+   "on_screen": "THÁNG 8 · ẤN ĐỘ",
+   "visual": "Cùng timeline nhưng camera trượt sang mốc 'Tháng 8 · Ấn Độ' + cờ Ấn Độ (khung mới, không lặp hình).",
+   "layout": [
+    "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+    "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
+   ],
+   "transition": "timeline 2/3",
+   "source_url": "slide",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 12,
+   "t_est": [
+    21.3,
+    22.4
+   ],
+   "role": "bối cảnh",
+   "voiceText": "Giờ tới lượt hình ảnh.",
+   "syllables": 5,
+   "on_screen": "THÁNG 10 · HÌNH ẢNH",
+   "visual": "Mốc 'Tháng 10 · Quảng cáo hình' nổ impact, split trên-dưới với ảnh minh họa định dạng mới.",
+   "layout": [
+    "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+    "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
+   ],
+   "transition": "split trên-dưới",
+   "source_url": "whip",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 13,
+   "t_est": [
+    22.4,
+    23.5
+   ],
+   "role": "bẻ lái",
+   "voiceText": "Vì sao đáng chú ý?",
+   "syllables": 5,
+   "on_screen": "VÌ SAO?",
+   "visual": "Presenter full-frame ~2s (nếu có footage presenter), không thì thẻ chữ 'VÌ SAO?' to giữa khung.",
+   "layout": [],
+   "transition": "presenter / text card",
+   "source_url": "whip",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 14,
+   "t_est": [
+    23.5,
+    26.3
+   ],
+   "role": "số liệu",
+   "voiceText": "ChatGPT có một phẩy hai tỷ người dùng mỗi tuần.",
+   "syllables": 13,
+   "on_screen": "1,2 TỶ / TUẦN",
+   "visual": "Counter kinetic chạy từ 0 lên '1,2 TỶ' người dùng/tuần, vàng trên đen + ding.",
+   "layout": [
+    "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+    "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
+   ],
+   "transition": "stat counter",
+   "source_url": "slide",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 15,
+   "t_est": [
+    26.3,
+    28.5
+   ],
+   "role": "caveat",
+   "voiceText": "Con số do OpenAI tự công bố.",
+   "syllables": 10,
+   "on_screen": "OPENAI TỰ CÔNG BỐ",
+   "visual": "Thu nhỏ counter vào góc, chèn tem đỏ 'SỐ LIỆU DO OPENAI CÔNG BỐ'.",
+   "layout": [
+    "https://openai.com/index/new-chatgpt-ads-format-and-measurement/"
+   ],
+   "transition": "stat + tem",
+   "source_url": "whip",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 16,
+   "t_est": [
+    28.5,
+    30.6
+   ],
+   "role": "ý nghĩa",
+   "voiceText": "Với doanh nghiệp, đó là một kênh hoàn toàn mới.",
+   "syllables": 10,
+   "on_screen": "KÊNH MỚI",
+   "visual": "Split trái-phải: trái icon các kênh ads quen thuộc (chung chung, không logo đối thủ), phải ô ChatGPT sáng lên 'MỚI'.",
+   "layout": [],
+   "transition": "split trái-phải",
+   "source_url": "slide",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 17,
+   "t_est": [
+    30.6,
+    33.0
+   ],
+   "role": "ý chính",
+   "voiceText": "OpenAI còn mở rộng đo lường hiệu quả.",
+   "syllables": 11,
+   "on_screen": "ĐO LƯỜNG",
+   "visual": "Screenshot đoạn blog OpenAI về measurement, khung đỏ quanh tiêu đề mục.",
+   "layout": [
+    "https://openai.com/index/new-chatgpt-ads-format-and-measurement/"
+   ],
+   "transition": "screenshot + khung đỏ",
+   "source_url": "whip",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 18,
+   "t_est": [
+    33.0,
+    35.6
+   ],
+   "role": "ý chính",
+   "voiceText": "Đối tác có AppsFlyer, Adjust, Branch, Triple Whale.",
+   "syllables": 12,
+   "on_screen": "APPSFLYER · ADJUST · BRANCH · TRIPLE WHALE",
+   "visual": "Lưới 4 ô tên đối tác pop lần lượt theo nhịp đọc (chữ, không cần logo nếu thiếu license). Có thể tách 2 cut.",
+   "layout": [
+    "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+    "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
+   ],
+   "transition": "grid 2x2",
+   "source_url": "slide",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 19,
+   "t_est": [
+    35.6,
+    38.9
+   ],
+   "role": "ý chính",
+   "voiceText": "Và thử an toàn thương hiệu với DoubleVerify, IAS.",
+   "syllables": 15,
+   "on_screen": "AN TOÀN THƯƠNG HIỆU",
+   "visual": "Icon khiên + 2 tên DoubleVerify, IAS; trên screenshot đoạn tương ứng, gạch chân đỏ. Có thể tách 2 cut.",
+   "layout": [
+    "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+    "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
+   ],
+   "transition": "split trên-dưới",
+   "source_url": "whip",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 20,
+   "t_est": [
+    38.9,
+    41.3
+   ],
+   "role": "giải thích",
+   "voiceText": "Tức là kiểm tra quảng cáo đứng cạnh nội dung nào.",
+   "syllables": 11,
+   "on_screen": "ĐỨNG CẠNH NỘI DUNG NÀO?",
+   "visual": "Minh họa tự vẽ: ô quảng cáo đặt cạnh 2 nội dung, 1 dấu tick xanh, 1 dấu X đỏ (ghi 'minh họa').",
+   "layout": [],
+   "transition": "diagram",
+   "source_url": "slide",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 21,
+   "t_est": [
+    41.3,
+    43.2
+   ],
+   "role": "bối cảnh cạnh tranh",
+   "voiceText": "TechCrunch nhắc tới đối thủ Meta Muse.",
+   "syllables": 9,
+   "on_screen": "META MUSE",
+   "visual": "Screenshot đoạn TechCrunch nhắc Meta Muse, highlighter vàng.",
+   "layout": [
+    "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
+   ],
+   "transition": "screenshot + highlighter",
+   "source_url": "whip",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch",
+   "qa_note": "Bố kiểm cách TechCrunch đặt Meta Muse làm bối cảnh cạnh tranh"
+  },
+  {
+   "id": 22,
+   "t_est": [
+    43.2,
+    45.4
+   ],
+   "role": "nhận định",
+   "voiceText": "Cuộc đua quảng cáo trong AI đã bắt đầu.",
+   "syllables": 10,
+   "on_screen": "CUỘC ĐUA ĐÃ BẮT ĐẦU",
+   "visual": "Kinetic text 'CUỘC ĐUA QUẢNG CÁO AI' + vạch xuất phát, impact SFX.",
+   "layout": [],
+   "transition": "kinetic text",
+   "source_url": "slide",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch · TechCrunch",
+   "qa_note": "Nhận định của biên kịch, không phải claim nguồn"
+  },
+  {
+   "id": 23,
+   "t_est": [
+    45.4,
+    46.5
+   ],
+   "role": "ý nghĩa VN",
+   "voiceText": "Còn Việt Nam thì sao?",
+   "syllables": 5,
+   "on_screen": "VIỆT NAM?",
+   "visual": "Bản đồ zoom về Việt Nam, dấu hỏi vàng.",
+   "layout": [],
+   "transition": "map graphic",
+   "source_url": "whip",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 24,
+   "t_est": [
+    46.5,
+    47.2
+   ],
+   "role": "caveat BẮT BUỘC",
+   "voiceText": "Hiện chưa có.",
+   "syllables": 3,
+   "on_screen": "CHƯA CÓ",
+   "visual": "Tem đỏ 'CHƯA ÁP DỤNG TẠI VIỆT NAM' đập xuống bản đồ.",
+   "layout": [
+    "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+    "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
+   ],
+   "transition": "stamp",
+   "source_url": "slide",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 25,
+   "t_est": [
+    47.2,
+    49.1
+   ],
+   "role": "lời khuyên",
+   "voiceText": "Nhưng chủ doanh nghiệp nên theo dõi từ giờ.",
+   "syllables": 9,
+   "on_screen": "THEO DÕI TỪ GIỜ",
+   "visual": "Presenter full-frame ~2s (nếu có), không thì icon chuông thông báo + chữ.",
+   "layout": [],
+   "transition": "presenter / text card",
+   "source_url": "whip",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 26,
+   "t_est": [
+    49.1,
+    51.7
+   ],
+   "role": "lời khuyên",
+   "voiceText": "Nếu kênh này mở rộng, ảnh sản phẩm đẹp là lợi thế.",
+   "syllables": 12,
+   "on_screen": "ẢNH SẢN PHẨM = LỢI THẾ",
+   "visual": "Split trên-dưới: ảnh sản phẩm mờ nhạt vs ảnh sản phẩm sắc nét có tick vàng (ảnh stock/tự tạo, ghi minh họa).",
+   "layout": [],
+   "transition": "split trên-dưới",
+   "source_url": "slide",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch · TechCrunch",
+   "qa_note": "Nhận định của biên kịch, không phải claim nguồn"
+  },
+  {
+   "id": 27,
+   "t_est": [
+    51.7,
+    53.5
+   ],
+   "role": "lời khuyên",
+   "voiceText": "Thông điệp phải rõ trong một khung hình.",
+   "syllables": 8,
+   "on_screen": "1 KHUNG · 1 THÔNG ĐIỆP",
+   "visual": "Khung 1:1 với một dòng thông điệp lớn, highlighter vàng quét.",
+   "layout": [],
+   "transition": "graphic",
+   "source_url": "whip",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch",
+   "qa_note": "Nhận định của biên kịch, không phải claim nguồn"
+  },
+  {
+   "id": 28,
+   "t_est": [
+    53.5,
+    55.9
+   ],
+   "role": "ý nghĩa user",
+   "voiceText": "Người dùng thì phải quen quảng cáo ngay lúc sáng tạo.",
+   "syllables": 11,
+   "on_screen": "QUẢNG CÁO LÚC SÁNG TẠO",
+   "visual": "Mockup màn hình tạo ảnh trong ChatGPT, ô quảng cáo trượt vào bên cạnh (minh họa theo ảnh blog OpenAI).",
+   "layout": [
+    "https://openai.com/index/new-chatgpt-ads-format-and-measurement/"
+   ],
+   "transition": "mockup",
+   "source_url": "slide",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  },
+  {
+   "id": 29,
+   "t_est": [
+    55.9,
+    58.2
+   ],
+   "role": "OUTRO câu hỏi mở",
+   "voiceText": "Còn bạn, có muốn thấy quảng cáo cạnh ảnh mình tạo?",
+   "syllables": 11,
+   "on_screen": "BẠN CÓ MUỐN?",
+   "visual": "Presenter hoặc thẻ chữ câu hỏi 'Bạn có muốn thấy quảng cáo cạnh ảnh mình tạo?' rồi CẮT ĐEN ngay sau chữ cuối.",
+   "layout": [],
+   "transition": "presenter / text card → cut đen",
+   "source_url": "cut-black",
+   "pill": "Nguồn: TechCrunch · TechCrunch · TechCrunch · TechCrunch · TechCrunch · TechCrunch · TechCrunch · TechCrunch · TechCrunch"
+  }
+ ]
+}

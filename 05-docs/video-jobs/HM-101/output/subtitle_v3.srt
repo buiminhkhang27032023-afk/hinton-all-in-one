@@ -1,0 +1,87 @@
+1
+00:00:00,000 --> 00:00:02,805
+Meta vừa dùng AI giải năm bài toán nghiên cứu chưa có lời giải.
+
+2
+00:00:02,925 --> 00:00:04,777
+Nhưng đây không phải đề thi có sẵn đáp án.
+
+3
+00:00:04,897 --> 00:00:06,999
+Điều đáng nói: AI bắt đầu giúp tạo kiến thức mới.
+
+4
+00:00:07,119 --> 00:00:09,242
+Ngày hai tháng mười, Meta công bố Muse Spark.
+
+5
+00:00:09,362 --> 00:00:11,719
+Các nhà toán học cùng AI viết sáu bài báo nghiên cứu.
+
+6
+00:00:11,839 --> 00:00:13,969
+Năm bài đưa ra lời giải cho câu hỏi trước đó bỏ ngỏ.
+
+7
+00:00:14,089 --> 00:00:16,886
+Đầu năm, mô hình Meta đạt huy chương vàng ở năm kỳ Olympiad.
+
+8
+00:00:17,006 --> 00:00:19,760
+Nhưng bài toán nghiên cứu mở thì khác: không có chìa đáp án.
+
+9
+00:00:19,880 --> 00:00:22,734
+Con người dẫn dắt, AI là cộng sự ngay trong chat meta chấm ai.
+
+10
+00:00:22,854 --> 00:00:24,409
+Nhóm thứ hai thẩm định từng lập luận.
+
+11
+00:00:24,529 --> 00:00:26,385
+Mỗi đoạn đánh dấu rõ người viết hay AI soạn.
+
+12
+00:00:26,505 --> 00:00:28,360
+Có bài bác giả thuyết năm hai không hai tư.
+
+13
+00:00:28,480 --> 00:00:30,878
+Phản ví dụ là một nhóm có ba trăm tám mươi bốn phần tử.
+
+14
+00:00:30,998 --> 00:00:33,473
+Có bài xác nhận sóng phải sụp đổ trong thời gian hữu hạn.
+
+15
+00:00:33,593 --> 00:00:35,574
+Đó là câu hỏi bỏ ngỏ từ năm hai không một năm.
+
+16
+00:00:35,694 --> 00:00:37,223
+Cùng đợt, Meta mở Muse Gadgets.
+
+17
+00:00:37,343 --> 00:00:39,464
+Phần cứng nguồn mở để ai cũng chạy cùng Muse.
+
+18
+00:00:39,584 --> 00:00:41,724
+Năm nghìn chiếc Muse Home Link tặng người đăng ký.
+
+19
+00:00:41,844 --> 00:00:44,525
+Nhưng Meta tự công bố, bài báo chưa qua bình duyệt tạp chí.
+
+20
+00:00:44,645 --> 00:00:46,567
+Một số bài toán đã được nhóm khác giải độc lập.
+
+21
+00:00:46,687 --> 00:00:49,323
+Chuyên gia cộng AI chat thường đã tạo kết quả cấp nghiên cứu.
+
+22
+00:00:49,443 --> 00:00:51,600
+Theo dõi Hinton Media để không lỡ tin AI mỗi ngày.

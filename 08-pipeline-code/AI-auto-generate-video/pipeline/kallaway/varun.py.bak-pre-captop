@@ -1,0 +1,456 @@
+"""VARUN preset — full-frame evidence edit modelled on Varun Mayya R2nesxy7uYU (CONG-THUC-HINTON §1-3):
+1 spoken sentence = 1-3 evidence visuals of 1-2 s, FULL FRAME (presenter face only at hook / topic turns / ending),
+browser- or phone-framed screenshots with zoom onto the exact line + animated highlighter, portraits with lower thirds,
+kinetic stat cards (Varun's black grid + red squares), rotating 3D protein renders, official clips, mostly hard cuts with a
+whip/zoom transition every ~5 s, 2-word burned captions, quiet BGM, sparse sfx.
+Input: script.txt with [HÌNH: …] cues (kallaway/cues.py, varun_assets.py) or a manual <job>/varun_beats.json (see QUY-TRINH-VARUN.md). Called from kallaway.build when cfg.preset == "varun"."""
+import json, math, re, subprocess, unicodedata
+from pathlib import Path
+import numpy as np, cv2
+from PIL import Image, ImageDraw, ImageFilter
+from ..common import log, write_json, read_json
+from . import render as R, mix as M, autoplan
+
+W, H, FPS = 1080, 1920, 30
+CAP_TOP = 1340; CHIP_Y = 1478
+
+# ---------------------------------------------------------------- helpers
+def fnt(size, w='Black'):
+    from PIL import ImageFont
+    G = '/usr/share/fonts/truetype/sand-box/google/Be Vietnam Pro/'
+    return ImageFont.truetype(G + f'BeVietnamPro-{w}.ttf', size)
+
+def to_bgra(im):
+    a = np.asarray(im.convert('RGBA')).astype(np.float32); return np.ascontiguousarray(a[:, :, [2, 1, 0, 3]])
+
+def over(dst, src, x, y, alpha=1.0):
+    h, w = src.shape[:2]; x, y = int(x), int(y)
+    xa, ya, xb, yb = max(0, x), max(0, y), min(W, x + w), min(H, y + h)
+    if xb <= xa or yb <= ya: return
+    s = src[ya - y:yb - y, xa - x:xb - x]; a = s[:, :, 3:4] / 255.0 * alpha
+    dst[ya:yb, xa:xb] = (dst[ya:yb, xa:xb] * (1 - a) + s[:, :, :3] * a).astype(np.uint8)
+
+def ease(x): x = min(max(x, 0.0), 1.0); return x * x * (3 - 2 * x)
+def ease_o(x): x = min(max(x, 0.0), 1.0); return 1 - (1 - x) ** 3
+
+def chip(text, size=34, fg=(235, 235, 235), bg=(0, 0, 0, 170)):
+    f = fnt(size, 'SemiBold'); tw = ImageDraw.Draw(Image.new('RGB', (1, 1))).textlength(text, font=f)
+    while tw + 44 > 870 and size > 22:  # keep chips inside the safe column (x 60..930)
+        size -= 2; f = fnt(size, 'SemiBold'); tw = ImageDraw.Draw(Image.new('RGB', (1, 1))).textlength(text, font=f)
+    im = Image.new('RGBA', (int(tw) + 44, size + 30), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.rounded_rectangle([0, 0, im.width - 1, im.height - 1], 14, fill=bg); d.text((22, 11), text, font=f, fill=fg + (255,))
+    return to_bgra(im)
+
+def norm(s):
+    s = unicodedata.normalize('NFKD', s.lower()); s = ''.join(c for c in s if not unicodedata.combining(c))
+    return re.sub(r'[^a-z0-9]', '', s.replace('o', '0'))
+
+def ocr_find(ocr, phrase):
+    """phrase -> sub-box [x,y,w,h] inside the OCR line containing it (char-ratio interpolation)."""
+    p = norm(phrase)
+    for o in ocr:
+        t = norm(o['text']); k = t.find(p)
+        if k >= 0 and t:
+            x, y, w, h = o['box']; a = k / len(t); b = min(1, (k + len(p)) / len(t))
+            return [x + w * a - 6, y - 4, w * (b - a) + 12, h + 8]
+    raise KeyError(f'OCR phrase not found: {phrase!r}')
+
+# ---------------------------------------------------------------- framed canvases (browser / phone)
+CANVAS = {}; CROP = {}
+def browser_canvas(img_path, url):
+    key = ('b', img_path)
+    if key in CANVAS: return CANVAS[key]
+    pg = cv2.imread(img_path); cb = CROP.get(img_path, 0)
+    if cb: pg = pg[:-cb]
+    h, w = pg.shape[:2]; bar = 130; m = 40
+    cv = np.full((h + bar + 2 * m, w + 2 * m, 3), (28, 24, 21), np.uint8)
+    cv[m:m + bar, m:m + w] = (232, 225, 222)
+    im = Image.fromarray(cv[m:m + bar, m:m + w][:, :, ::-1].copy()); d = ImageDraw.Draw(im)
+    for i, c in enumerate([(255, 95, 87), (254, 188, 46), (40, 200, 64)]): d.ellipse([40 + i * 56, 45, 80 + i * 56, 85], fill=c)
+    d.rounded_rectangle([260, 28, w - 120, bar - 28], 37, fill=(255, 255, 255)); d.text((310, 40), '🔒 ' if False else url, font=fnt(44, 'Medium'), fill=(60, 64, 67))
+    cv[m:m + bar, m:m + w] = np.asarray(im)[:, :, ::-1]; cv[m + bar:m + bar + h, m:m + w] = pg
+    CANVAS[key] = (cv, (m, m + bar)); return CANVAS[key]
+
+def phone_canvas(img_path):
+    key = ('p', img_path)
+    if key in CANVAS: return CANVAS[key]
+    tw = cv2.imread(img_path); g = cv2.cvtColor(tw, cv2.COLOR_BGR2GRAY)
+    ys = np.where((g < 235).sum(1) > 4)[0]; y1 = min(tw.shape[0], ys.max() + 60) if len(ys) else tw.shape[0]
+    tw = tw[:y1]; h, w = tw.shape[:2]; bez = 56; top = 150; r = 170; m = 240
+    ph_w, ph_h = w + 2 * bez, h + top + 120 + 2 * bez
+    cv = np.zeros((ph_h + 2 * m, ph_w + 2 * m, 3), np.uint8)
+    yy = np.linspace(0, 1, cv.shape[0])[:, None]; cv[:] = (np.array([70, 30, 12]) * (1 - yy) + np.array([22, 9, 4]) * yy).astype(np.uint8)[:, None, :]
+    im = Image.fromarray(cv[:, :, ::-1].copy()); d = ImageDraw.Draw(im)
+    d.rounded_rectangle([m, m, m + ph_w, m + ph_h], r, fill=(12, 12, 14), outline=(70, 70, 76), width=6)
+    d.rounded_rectangle([m + bez, m + bez, m + ph_w - bez, m + ph_h - bez], r - bez, fill=(255, 255, 255))
+    d.rounded_rectangle([m + ph_w / 2 - 150, m + bez + 28, m + ph_w / 2 + 150, m + bez + 92], 32, fill=(12, 12, 14))
+    cv = np.asarray(im)[:, :, ::-1].copy(); ox, oy = m + bez, m + bez + top
+    cv[oy:oy + h, ox:ox + w] = tw
+    CANVAS[key] = (cv, (ox, oy)); return CANVAS[key]
+
+def camera(cv, rect):
+    """rect = [cx, cy_screen_frac, width] in canvas px -> 1080x1920 crop."""
+    cx, cy, rw = rect; s = W / rw; ty = cy * H
+    Mx = np.float32([[s, 0, W / 2 - s * cx], [0, s, ty - s * rect[3]]]) if len(rect) > 3 else None
+    return cv2.warpAffine(cv, Mx, (W, H), flags=cv2.INTER_AREA if s < 0.7 else cv2.INTER_LINEAR, borderMode=cv2.BORDER_CONSTANT, borderValue=(21, 19, 17))
+
+def marker(out, box_canvas, rect, p, style):
+    cx, cyf, rw, fy = rect; s = W / rw
+    x0 = W / 2 + s * (box_canvas[0] - cx); y0 = cyf * H + s * (box_canvas[1] - fy); w = s * box_canvas[2]; h = s * box_canvas[3]
+    if style == 'underline':
+        xa, xb = int(max(0, x0)), int(min(W, x0 + w * p)); ya = int(y0 + h + 2); yb = ya + 9
+        if xb > xa and 0 <= ya < H - 10: out[ya:yb, xa:xb] = (40, 40, 230)
+        return
+    if style == 'box':
+        if p > 0: cv2.rectangle(out, (int(x0 - 6), int(y0 - 6)), (int(x0 + w * p + 6), int(y0 + h + 6)), (40, 40, 230), 7)
+        return
+    xa, ya, xb, yb = [int(v) for v in (max(0, x0), max(0, y0), min(W, x0 + w * p), min(H, y0 + h))]
+    if xb > xa and yb > ya:
+        roi = out[ya:yb, xa:xb].astype(np.float32); col = np.array([40, 205, 255], np.float32)
+        out[ya:yb, xa:xb] = (roi * (0.35 + 0.65 * col / 255)).astype(np.uint8)
+
+# ---------------------------------------------------------------- video readers
+class VReader:
+    def __init__(self, src, ss, n, mode='cover', cx=0.5, zoom=1.0):
+        cap = cv2.VideoCapture(src); w0, h0 = cap.get(3), cap.get(4); cap.release()
+        self.mode = mode
+        if mode == 'fit':
+            fw = int(W * zoom) // 2 * 2; fh = int(fw * h0 / w0) // 2 * 2; self.size = (fw, fh)
+            vf = f'scale={fw}:{fh},fps={FPS}'
+        else:
+            sh = int(max(H, W * h0 / w0) * zoom) // 2 * 2; sw = int(sh * w0 / h0) // 2 * 2
+            if sw < W: sw = W; sh = int(W * h0 / w0) // 2 * 2
+            x = int((sw - W) * cx); y = (sh - H) // 2; self.size = (W, H)
+            vf = f'scale={sw}:{sh},crop={W}:{H}:{x}:{y},fps={FPS}'
+        self.p = subprocess.Popen(['ffmpeg', '-v', 'error', '-ss', f'{ss:.3f}', '-i', src, '-frames:v', str(n + 2), '-an', '-vf', vf,
+                                   '-f', 'rawvideo', '-pix_fmt', 'bgr24', '-'], stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
+        self.last = np.zeros((self.size[1], self.size[0], 3), np.uint8)
+    def read(self):
+        n = self.size[0] * self.size[1] * 3; b = self.p.stdout.read(n)
+        if len(b) == n: self.last = np.frombuffer(b, np.uint8).reshape(self.size[1], self.size[0], 3)
+        return self.last
+    def close(self):
+        try: self.p.stdout.close(); self.p.kill(); self.p.wait()
+        except Exception: pass
+
+def fit_frame(fg, cy=0.42):
+    small = cv2.resize(fg, (W // 8, int(W // 8 * fg.shape[0] / fg.shape[1])))
+    bg = cv2.resize(small, (W // 8, H // 8)); bg = cv2.GaussianBlur(bg, (0, 0), 6); bg = (cv2.resize(bg, (W, H)) * 0.45).astype(np.uint8)
+    h, w = fg.shape[:2]; x = (W - w) // 2; y = int(cy * H - h / 2)
+    xa, xb = max(0, x), min(W, x + w); ya, yb = max(0, y), min(H, y + h)
+    bg[ya:yb, xa:xb] = fg[ya - y:yb - y, xa - x:xb - x]; return bg
+
+def push(fr, z):
+    if abs(z - 1) < 1e-3: return fr
+    M = np.float32([[z, 0, W / 2 * (1 - z)], [0, z, H * 0.45 * (1 - z)]]); return cv2.warpAffine(fr, M, (W, H), borderMode=cv2.BORDER_REFLECT)
+
+# ---------------------------------------------------------------- stat / text cards (Varun black grid + red squares)
+def grid_bg(seed, tl):
+    rng = np.random.default_rng(seed); img = np.full((H, W, 3), 8, np.uint8); step = 54
+    for x in range(0, W, step): img[:, x:x + 2] = 34
+    for y in range(0, H, step): img[y:y + 2, :] = 34
+    cells = rng.integers(0, [W // step, H // step], size=(70, 2)); on = rng.random(70) * 1.5
+    for (cx, cy), t0 in zip(cells, on):
+        if tl >= t0: img[cy * step + 4:cy * step + step - 2, cx * step + 4:cx * step + step - 2] = (30, 30, 200)
+    return img
+
+TXT = {}
+def text_img(text, size, color, w='Black', stroke=0):
+    k = (text, size, color, w)
+    if k not in TXT:
+        f = fnt(size, w); d0 = ImageDraw.Draw(Image.new('RGB', (1, 1))); l, t, r, b = d0.textbbox((0, 0), text, font=f, stroke_width=stroke)
+        im = Image.new('RGBA', (r - l + 20, b - t + 20), (0, 0, 0, 0)); ImageDraw.Draw(im).text((10 - l, 10 - t), text, font=f, fill=color, stroke_width=stroke, stroke_fill=(0, 0, 0))
+        a = to_bgra(im)
+        if a.shape[1] > 900: a = cv2.resize(a, None, fx=900 / a.shape[1], fy=900 / a.shape[1], interpolation=cv2.INTER_AREA)
+        TXT[k] = a
+    return TXT[k]
+
+def stat_frame(sh, tl, dur):
+    img = grid_bg(sh.get('seed', 7), tl)
+    lines = sh['lines']; y = sh.get('y', 560)
+    for i, ln in enumerate(lines):
+        size = ln.get('size', 200); col = tuple(ln.get('color', (255, 255, 255))); t0 = ln.get('at', 0.12 * i)
+        p = (tl - t0) * FPS
+        if p < 0: y += int(size * 1.15); continue
+        sc = [0.8, 0.95, 1.08, 1.05, 1.0][min(int(p), 4)]
+        a = text_img(ln['text'], size, col, ln.get('w', 'Black'))
+        s = cv2.resize(a, None, fx=sc, fy=sc) if sc != 1 else a
+        over(img, s, W / 2 - s.shape[1] / 2, y + a.shape[0] * (1 - sc) / 2)
+        if ln.get('strike'):
+            q = ease_o((tl - t0 - 0.35) / 0.3)
+            if q > 0: cv2.line(img, (int(W / 2 - a.shape[1] / 2 - 10), int(y + a.shape[0] / 2)), (int(W / 2 - a.shape[1] / 2 - 10 + (a.shape[1] + 20) * q), int(y + a.shape[0] / 2)), (40, 40, 235), 16)
+        y += int(a.shape[0] * 1.12) + ln.get('gap', 10)
+    return img
+
+# ---------------------------------------------------------------- photo
+PHOTO = {}
+def photo_frame(sh, tl, dur):
+    if sh['src'] not in PHOTO: PHOTO[sh['src']] = cv2.imread(sh['src'])
+    im = PHOTO[sh['src']]; h, w = im.shape[:2]; fx, fy = sh.get('face', [0.5, 0.35])
+    z = sh.get('zoom', 1.0) * (1 + 0.06 * ease(tl / dur)); s = max(W / w, H / h) * z
+    cx = min(max(fx * w, W / s / 2), w - W / s / 2); cy = min(max(fy * h, H * 0.4 / s), h - H * 0.6 / s)
+    M = np.float32([[s, 0, W / 2 - s * cx], [0, s, H * 0.4 - s * cy]])
+    return cv2.warpAffine(im, M, (W, H), flags=cv2.INTER_AREA, borderMode=cv2.BORDER_REPLICATE)
+
+def lower_third(name, role):
+    f1, f2 = fnt(66, 'Black'), fnt(38, 'SemiBold'); d0 = ImageDraw.Draw(Image.new('RGB', (1, 1)))
+    w = int(max(d0.textlength(name, font=f1), d0.textlength(role, font=f2))) + 70
+    im = Image.new('RGBA', (w + 12, 170), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.rectangle([0, 0, 12, 160], fill=(255, 196, 0, 255)); d.rectangle([12, 0, w + 12, 96], fill=(10, 10, 12, 235)); d.rectangle([12, 96, w + 12, 160], fill=(255, 196, 0, 240))
+    d.text((40, 10), name, font=f1, fill=(255, 255, 255)); d.text((40, 106), role, font=f2, fill=(15, 15, 15))
+    return to_bgra(im)
+
+# ---------------------------------------------------------------- plan
+def resolve_at(a, words, total):
+    if isinstance(a, (int, float)): return float(a)
+    m = re.match(r'S(\d+)[.:]([^#+]+?)(?:#(\d+))?([+-][\d.]+)?$', a); si = int(m.group(1)); tok = m.group(2)
+    ws = [w for w in words if w['sent'] == si]
+    if re.fullmatch(r'-?\d+', tok):  # "S5.13" = 13th word of sentence 5
+        wi = int(tok)
+    else:  # "S5:hình" or "S7:hai#2" = (n-th) occurrence of that word in sentence 5
+        hits = [k for k, w in enumerate(ws) if autoplan._n(w['word']) == autoplan._n(tok)]
+        if not hits: raise KeyError(f'anchor word {tok!r} not in sentence {si}')
+        wi = hits[int(m.group(3) or 1) - 1]
+    t = ws[wi]['start'] if wi < len(ws) else ws[-1]['end']
+    return round(t + float(m.group(4) or 0), 3)
+
+def build_plan(job, cfg, words, total, B, g):
+    kc = cfg.get('kallaway', {}); shots = []
+    for i, s in enumerate(B['shots']):
+        s = dict(s); s['t0'] = 0.0 if i == 0 else resolve_at(s['at'], words, total); shots.append(s)
+    for i, s in enumerate(shots):
+        s['t1'] = shots[i + 1]['t0'] if i + 1 < len(shots) else total
+        for k in ('src', 'ocr'):
+            if s.get(k) and not str(s[k]).startswith('/'): s[k] = str(job / s[k])
+    # transitions: whip / zoom every ~whip_every s (prefer sentence starts), hard cuts otherwise
+    P_END = total
+    sent_starts = {round(w['start'], 3) for k, w in enumerate(words) if k == 0 or words[k - 1]['sent'] != w['sent']}
+    every = kc.get('whip_every', 5.0); lo, hi = every - 1.0, every + 1.0; last = 0.0; kind = 0
+    cand = [s for s in shots[1:] if 'tr' not in s]
+    while True:  # next transition = cut whose gap to the previous one is closest to `every` inside [every-1, every+1]
+        win = [s for s in cand if lo <= s['t0'] - last <= hi]
+        if not win:
+            later = [s for s in cand if s['t0'] - last > hi]
+            if not later: break
+            win = later[:1]
+        s = min(win, key=lambda x: abs(x['t0'] - last - every) - (0.6 if round(x['t0'], 3) in sent_starts or x['type'] == 'face' else 0))
+        s['tr'] = 'zoom' if s['type'] == 'face' or kind % 2 else 'whip'; kind += 1; last = s['t0']
+        if P_END - last < lo: break
+    # face start offsets spread over the presenter clip (no repeated footage)
+    L = g['length']; k = 0
+    for s in shots:
+        if s['type'] == 'face' and 'ss' not in s: s['ss'] = round((1.0 + k * 9.7) % max(1.0, L - 3), 2); k += 1
+    return shots
+
+def face_spacing(shots, total, min_gap):
+    ft = [s['t0'] for s in shots if s['type'] == 'face']
+    gaps = [round(b - a, 2) for a, b in zip(ft, ft[1:])]
+    bad = [g for g in gaps if g < min_gap]
+    if bad: log.warning('varun: face appearances closer than %.1fs: %s (times %s)', min_gap, bad, ft)
+    return ft, gaps
+
+def build(job, cfg, d, words, voice, vdur, pools, notes, g, total):
+    kc = dict(cfg.get('kallaway', {})); kc.update(cfg.get('varun', {})); cfg['kallaway'] = kc
+    write_json(d['lam-viec'] / 'words_tight.json', words)  # word times after pause-tightening = the times cue anchors land on
+    man = job / 'varun_beats.json'
+    if man.exists(): B = json.loads(man.read_text(encoding='utf-8')); log.info('varun: manual beats %s', man)
+    else:
+        from . import varun_assets
+        B = varun_assets.resolve(job, cfg, d, words, total); log.info('varun: beats from [HÌNH] cues (%d shots)', len(B['shots']))
+    shots = build_plan(job, cfg, words, total, B, g)
+    ft, gaps = face_spacing(shots, total, kc.get('face_min_gap', 10.0))
+    cmap = autoplan.parse_map(job / 'caption_map.txt' if (job / 'caption_map.txt').exists() else job / 'source' / 'caption_map.txt')
+    caps = autoplan.chunks_from_words(words, cmap, kc.get('caption_words', 2))
+    for i, c in enumerate(caps): c['t0'] = round(c['s'], 3); c['t1'] = round(caps[i + 1]['s'] if i + 1 < len(caps) else total, 3)
+    sfx = []
+    for s in shots:
+        if s.get('tr'): sfx.append({'name': 'whoosh', 't': max(0, s['t0'] - 0.12), 'db': -2})
+        if s['type'] == 'stat': sfx.append({'name': 'pop', 't': s['t0'] + 0.05, 'db': -4})
+    cap = int(kc.get('sfx_per_min', 16) * total / 60)  # light sfx: drop stat pops (closest to another sfx first) above the cap
+    while len(sfx) > cap and any(x['name'] == 'pop' for x in sfx):
+        pops = [x for x in sfx if x['name'] == 'pop']
+        sfx.remove(min(pops, key=lambda x: min(abs(x['t'] - y['t']) for y in sfx if y is not x)))
+    from .build import ensure_assets, ASSETS
+    ensure_assets()
+    fw = g['face'][2]; cw, ch = g['pcrop'][2], g['pcrop'][3]
+    P = {'presenter': cfg['presenter']['video'], 'pcrop': g['pcrop'], 'face_c': g['face_c'],
+         'f_scale': round(max(kc.get('face_full_px', 420) / fw, W / cw, H / ch), 4), 'f_eye_y': kc.get('f_eye_y', 700),
+         'dur': total, 'crf': cfg['render'].get('crf', 18), 'shots': shots, 'face_times': ft, 'face_gaps': gaps,
+         'lines': B.get('lines'), 'captions': [{'t0': c['t0'], 't1': c['t1'], 'text': c['text']} for c in caps] if cfg.get('captions_burn') else [],
+         'hook': B.get('hook'), 'sfx': sfx, 'music_dips': [], 'voice': str(voice), 'assets_dir': str(ASSETS),
+         'music_under': -cfg.get('bgm_volume_db', -20), 'music': (cfg.get('bgm_path') or str(ASSETS / 'music.wav')) if cfg.get('bgm') else None,
+         'video_out': str(d['render'] / 'video_noaudio.mp4')}
+    write_json(d['lam-viec'] / 'varun_plan.json', P)
+    nf = sum(s['t1'] - s['t0'] for s in shots if s['type'] == 'face')
+    log.info('varun plan: %d shots (%.1fs face = %.0f%%, at %s), %d splits, %d transitions, %d captions, %d sfx, total %.2fs', len(shots), nf, 100 * nf / total,
+             ft, sum(1 for s in shots if s['type'] == 'split'), sum(1 for s in shots if s.get('tr')), len(P['captions']), len(sfx), total)
+    render(P)
+    I = M.mix(P, P['video_out'], d['render'] / 'video.mp4', dict(cfg.get('loudness') or {}, TP=kc.get('tp', -2.0)))
+    log.info('varun mix LUFS %.1f', I)
+    out = []
+    for s in shots:
+        vis = {'type': s['type'], 'kind': Path(s['src']).stem if s.get('src') else s['type']}
+        if s.get('credit'): vis['credit'] = s['credit']
+        out.append({'start': s['t0'], 'end': s['t1'], 'dur': round(s['t1'] - s['t0'], 3), 'visual': vis})
+    return {'total': total, 'hook_end': shots[1]['t0'] if len(shots) > 1 else total, 'outro_start': total, 'shots': out}
+
+# ---------------------------------------------------------------- render
+def shot_rect(sh, cv_off, ocr, img_w):
+    """camera rects (start, end) in canvas coords for web/phone shots + highlight boxes."""
+    ox, oy = cv_off; hls = []
+    for h in sh.get('hl', []):
+        b = h['box'] if 'box' in h else ocr_find(ocr, h['find'])
+        hls.append({'box': [b[0] + ox, b[1] + oy, b[2], b[3]], 'at': h.get('at', 0.25), 'style': h.get('style', 'marker')})
+    if sh.get('focus'): f = sh['focus']; fb = [f[0] + ox, f[1] + oy, f[2], f[3]]
+    elif hls:
+        xs = [h['box'][0] for h in hls] + [h['box'][0] + h['box'][2] for h in hls]; ys = [h['box'][1] for h in hls] + [h['box'][1] + h['box'][3] for h in hls]
+        fb = [min(xs), min(ys), max(xs) - min(xs), max(ys) - min(ys)]
+    else: fb = [ox, oy, img_w, 400]
+    # zoom so the key line reads at ~55-60 px; long lines get a left->right reading pan
+    z1 = sh.get('z1') or min(max(fb[2] * 1.06, sh.get('zmin', 760)), sh.get('zmax', 1100)); z0 = sh.get('z0', z1 * sh.get('zr', 1.18))
+    fy = fb[1] + fb[3] / 2; cyf = sh.get('cy', 0.40)
+    if fb[2] * 1.06 > z1 and not sh.get('z1'):
+        xa = fb[0] + z1 / 2 - 40; xb = fb[0] + fb[2] - z1 / 2 + 40
+    else:
+        xa = xb = fb[0] + fb[2] / 2
+    return [xa, cyf, z0, fy], [xb, cyf, z1, fy], hls
+
+BAND = 960  # split layout: two evidence bands of 1080x960, top / bottom, no face
+class Shot:
+    """one planned shot -> full-frame BGR frames (split = two half shots stacked)."""
+    def __init__(self, sh):
+        self.sh = sh; self.rd = None; self.st = {}; ty = sh['type']
+        n = int((sh['t1'] - sh['t0']) * FPS) + 3
+        if ty == 'face': self.rd = R.FaceReader(sh['ss'], n)
+        elif ty in ('clip', 'render'): self.rd = VReader(sh['src'], sh.get('ss', 0), n, sh.get('mode', 'cover'), sh.get('cx', 0.5), sh.get('zoom', 1.0))
+        elif ty in ('web', 'phone'):
+            CROP[sh['src']] = int(sh.get('crop_bottom', 0))
+            cv, off = browser_canvas(sh['src'], sh.get('url', '')) if ty == 'web' else phone_canvas(sh['src'])
+            ocr = json.load(open(sh['ocr'])) if sh.get('ocr') and Path(sh['ocr']).exists() else []
+            r0, r1, hls = shot_rect(sh, off, ocr, cv.shape[1]); self.st = {'cv': cv, 'r0': r0, 'r1': r1, 'hls': hls}
+        elif ty == 'split':
+            self.halves = []
+            for pos in ('top', 'bottom'):
+                h = dict(sh[pos]); h['t0'], h['t1'] = sh['t0'], sh['t1']
+                h.setdefault('band_focus', 480 if pos == 'top' else 250)  # bottom band: keep the key line above the captions (y 1340+)
+                if h['type'] in ('web', 'phone'): h.setdefault('cy', 0.5); h.setdefault('zmin', 1000); h.setdefault('zmax', 1400)  # half height -> wider view
+                if h['type'] == 'clip' and h.get('mode') == 'fit': h.setdefault('cy', 0.5)
+                self.halves.append(Shot(h))
+            self.st['chips'] = [chip(h.get('label')) if h.get('label') else None for h in (sh['top'], sh['bottom'])]
+        if ty != 'split':
+            if sh.get('label'): self.st['chip'] = chip(sh['label'])
+            if sh.get('name'): self.st['lt'] = lower_third(sh['name'], sh.get('role', ''))
+        if sh.get('big'): self.st['big'] = R.text_rgba(sh['big'], 'bvp', 180, '#FFFFFF', 0, glow='#FFFFFF', shadow=True)
+
+    def frame(self, P, tl):
+        sh, st = self.sh, self.st; dur = sh['t1'] - sh['t0']; ty = sh['type']
+        if ty == 'face':
+            fr = self.rd.read(); z = sh.get('zoom', 1.0) * (1 + sh.get('push', 0.03) * tl)
+            return R.face_warp(fr, P['f_scale'] * z, W, H, W / 2, P['f_eye_y'])
+        if ty in ('clip', 'render'):
+            fr = self.rd.read(); f = fit_frame(fr, sh.get('cy', 0.42)) if sh.get('mode') == 'fit' else fr.copy()
+            return push(f, 1 + sh.get('push', 0.035) * tl)
+        if ty in ('web', 'phone'):
+            e = ease(tl / max(dur, 0.01) * sh.get('speed', 1.0)); r0, r1 = st['r0'], st['r1']
+            rect = [r0[0] + (r1[0] - r0[0]) * e, r0[1], r0[2] + (r1[2] - r0[2]) * e, r0[3] + (r1[3] - r0[3]) * e]
+            s = W / rect[2]; M_ = np.float32([[s, 0, W / 2 - s * rect[0]], [0, s, rect[1] * H - s * rect[3]]])
+            f = cv2.warpAffine(st['cv'], M_, (W, H), flags=cv2.INTER_AREA, borderMode=cv2.BORDER_CONSTANT, borderValue=(21, 19, 17))
+            for hl in st['hls']:
+                p = ease_o((tl - hl['at']) / 0.4)
+                if p > 0: marker(f, hl['box'], rect, p, hl['style'])
+            return f
+        if ty == 'photo': return photo_frame(sh, tl, dur)
+        if ty == 'stat': return stat_frame(sh, tl, dur)
+        if ty == 'split':
+            f = np.empty((H, W, 3), np.uint8)
+            f[:BAND] = self.halves[0].band(P, tl); f[BAND:] = self.halves[1].band(P, tl)
+            f[BAND - 4:BAND + 4] = (12, 12, 12)
+            return f
+        return np.zeros((H, W, 3), np.uint8)
+
+    def band(self, P, tl):
+        """1080x960 band of this (half) shot, centred on its evidence."""
+        f = self.frame(P, tl); ty = self.sh['type']
+        if ty == 'render' or (ty == 'clip' and self.sh.get('band') == 'fit'):  # shrink the whole subject into the band on its own blurred bg
+            k = self.sh.get('band_scale', 0.62); sw, shh = int(W * k), int(H * k); small = cv2.resize(f, (sw, shh), interpolation=cv2.INTER_AREA)
+            y0 = (shh - BAND) // 2; small = small[y0:y0 + BAND]
+            b = cv2.resize(cv2.GaussianBlur(cv2.resize(f, (W // 8, BAND // 8)), (0, 0), 3), (W, BAND))
+            x0 = (W - sw) // 2; m = np.clip(np.minimum(np.arange(sw), np.arange(sw)[::-1]) / 60.0, 0, 1)[None, :, None]
+            b[:, x0:x0 + sw] = (small * m + b[:, x0:x0 + sw] * (1 - m)).astype(np.uint8); return b
+        if ty == 'photo':
+            y0 = int(min(max(H * 0.4 - BAND / 2 + self.sh.get('band_dy', 0), 0), H - BAND)); return f[y0:y0 + BAND]
+        bf = self.sh.get('band_focus', BAND / 2) if ty in ('web', 'phone') else BAND / 2  # clips/images: centred in their band
+        y0 = int(min(max(self.sh.get('cy', 0.5) * H - bf, 0), H - BAND)) if ty in ('web', 'phone', 'clip') else (H - BAND) // 2
+        return f[y0:y0 + BAND]
+
+    def close(self):
+        if self.rd: self.rd.close()
+        for h in getattr(self, 'halves', []): h.close()
+
+def render(P):
+    R.P.clear(); R.P.update(P); R.FC[:] = P['face_c']; R.FPS = FPS
+    NF = int(round(P['dur'] * FPS)); shots = P['shots']
+    CAP = {c['text']: to_bgra_txt(c['text']) for c in P['captions']}
+    hook = P.get('hook'); HOOK = hook_layer(hook) if hook else None
+    enc = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'bgr24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
+                            '-c:v', 'libx264', '-preset', 'medium', '-crf', str(P.get('crf', 18)), '-pix_fmt', 'yuv420p', P['video_out']], stdin=subprocess.PIPE)
+    si = -1; cur = None; prev = np.zeros((H, W, 3), np.uint8); clean = prev
+    for fi in range(NF):
+        t = fi / FPS
+        while si + 1 < len(shots) and t >= shots[si + 1]['t0'] - 1e-6:
+            si += 1; prev = clean
+            if cur: cur.close()
+            cur = Shot(shots[si])
+        sh = shots[si]; st = cur.st; tl = t - sh['t0']
+        frame = cur.frame(P, tl)
+        # transition into this shot
+        k = tl * FPS
+        if sh.get('tr') and k < 6:
+            p = ease(k / 6)
+            if sh['tr'] == 'whip':  # pan left: previous shot slides out, new shot slides in, horizontal motion blur
+                sx = int(W * p); frame = np.concatenate([prev[:, sx:], frame[:, :sx]], 1) if 0 < sx < W else frame
+                kx = int(5 + 80 * math.sin(math.pi * min(1, (k + 1) / 7))); frame = cv2.blur(frame, (kx, 1))
+            else:
+                z = 1.35 - 0.35 * p; M_ = np.float32([[z, 0, W / 2 * (1 - z)], [0, z, H / 2 * (1 - z)]])
+                zf = cv2.warpAffine(frame, M_, (W, H), borderMode=cv2.BORDER_REFLECT)
+                zb = cv2.addWeighted(zf, 0.6, cv2.resize(zf[60:-60, 34:-34], (W, H)), 0.4, 0) if p < 0.8 else zf
+                frame = cv2.addWeighted(zb, p, prev, 1 - p, 0) if p < 0.5 else zb
+        clean = frame.copy()  # transitions blend the previous shot WITHOUT its captions/chips
+        # overlays
+        if st.get('lt') is not None: over(frame, st['lt'], 60 - 400 * (1 - ease_o(tl / 0.3)), 1130)
+        if st.get('chip') is not None: over(frame, st['chip'], 60, CHIP_Y)
+        for c, y in zip(st.get('chips') or [], (BAND - 96, CHIP_Y)):
+            if c is not None: over(frame, c, 60, y)
+        if HOOK is not None and hook['t0'] <= t < hook['t1']:
+            hw = HOOK.shape[1]; rev = ease_o((t - hook['t0']) / hook.get('wipe', 0.6)); x0 = W / 2 - hw / 2
+            vis = HOOK[:, :max(1, int(hw * rev))]; over(frame, vis, x0, hook.get('top', 250))
+        if st.get('big') is not None:
+            b = st['big']; p = min(1, k / 6); sc = 1.2 - 0.2 * ease_o(p)
+            bb = cv2.resize(b, None, fx=sc, fy=sc); over(frame, bb, W / 2 - bb.shape[1] / 2, 1020 - bb.shape[0] / 2, min(1, 0.3 + p))
+        else:
+            for c in P['captions']:
+                if c['t0'] <= t < c['t1']:
+                    kk = int(round((t - c['t0']) * FPS)); sc = [0.8, 0.94, 1.08, 1.04, 1.0][min(kk, 4)]
+                    img = CAP[c['text']]; im2 = cv2.resize(img, None, fx=sc, fy=sc) if sc != 1 else img
+                    over(frame, im2, W / 2 - im2.shape[1] / 2, CAP_TOP + img.shape[0] * (1 - sc) / 2); break
+        enc.stdin.write(np.ascontiguousarray(frame).tobytes())
+        if fi % 300 == 0: print(f'varun render {fi}/{NF}', flush=True)
+    if cur: cur.close()
+    enc.stdin.close(); enc.wait()
+
+def to_bgra_txt(text):
+    a = R.text_rgba(text, 'bvp', 62, '#FFFFFF', 7)
+    if a.shape[1] > 780: f = 780 / a.shape[1]; a = cv2.resize(a, None, fx=f, fy=f, interpolation=cv2.INTER_AREA)
+    return a
+
+def hook_layer(hk):
+    lines = hk['lines']; size = hk.get('size', 92); f = fnt(size)
+    d0 = ImageDraw.Draw(Image.new('RGB', (1, 1))); tw = max(d0.textlength(l, font=f) for l in lines)
+    while tw > 760: size -= 4; f = fnt(size); tw = max(d0.textlength(l, font=f) for l in lines)
+    lh = int(size * 1.15); bw, bh = int(tw + 70), lh * len(lines) + 44
+    im = Image.new('RGBA', (bw, bh), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.rounded_rectangle([0, 0, bw - 1, bh - 1], 20, fill=(10, 10, 12, 236))
+    cols = hk.get('colors', ['#FFFFFF', '#FFC400'])
+    for i, l in enumerate(lines):
+        lw = d.textlength(l, font=f); d.text(((bw - lw) / 2, 16 + i * lh), l, font=f, fill=R.hexc(cols[i % len(cols)]) + (255,))
+    return to_bgra(im)

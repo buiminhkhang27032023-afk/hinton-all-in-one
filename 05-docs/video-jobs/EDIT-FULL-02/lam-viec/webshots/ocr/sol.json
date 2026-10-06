@@ -1,0 +1,3712 @@
+[
+{
+"box": [
+61,
+43,
+132,
+40
+],
+"text": "OpenAl",
+"conf": 0.837
+},
+{
+"box": [
+436,
+51,
+114,
+29
+],
+"text": "Products",
+"conf": 0.812
+},
+{
+"box": [
+609,
+51,
+111,
+30
+],
+"text": "Business",
+"conf": 0.852
+},
+{
+"box": [
+778,
+52,
+139,
+29
+],
+"text": "Developers",
+"conf": 0.905
+},
+{
+"box": [
+976,
+52,
+119,
+31
+],
+"text": "Company",
+"conf": 0.873
+},
+{
+"box": [
+1689,
+50,
+89,
+34
+],
+"text": "Log in",
+"conf": 0.808
+},
+{
+"box": [
+263,
+54,
+113,
+24
+],
+"text": "Research",
+"conf": 0.886
+},
+{
+"box": [
+1158,
+54,
+137,
+24
+],
+"text": "Foundation",
+"conf": 0.872
+},
+{
+"box": [
+1900,
+51,
+198,
+29
+],
+"text": "Try ChatGPT 7",
+"conf": 0.85
+},
+{
+"box": [
+71,
+614,
+349,
+82
+],
+"text": "GPT-6.1",
+"conf": 0.835
+},
+{
+"box": [
+1988,
+609,
+156,
+93
+],
+"text": "Sol",
+"conf": 0.747
+},
+{
+"box": [
+675,
+1318,
+855,
+88
+],
+"text": "Near-Astra intelligence",
+"conf": 0.917
+},
+{
+"box": [
+63,
+1329,
+211,
+23
+],
+"text": "A more capable Sol",
+"conf": 0.907
+},
+{
+"box": [
+63,
+1361,
+136,
+20
+],
+"text": "acrosstasks",
+"conf": 0.912
+},
+{
+"box": [
+89,
+1416,
+85,
+33
+],
+"text": "Coding",
+"conf": 0.855
+},
+{
+"box": [
+709,
+1426,
+201,
+71
+],
+"text": "for a 1",
+"conf": 0.745
+},
+{
+"box": [
+884,
+1426,
+408,
+66
+],
+"text": "fifth of the",
+"conf": 0.816
+},
+{
+"box": [
+1302,
+1438,
+190,
+55
+],
+"text": "price",
+"conf": 0.813
+},
+{
+"box": [
+95,
+1482,
+105,
+17
+],
+"text": "Professior",
+"conf": 0.8
+},
+{
+"box": [
+93,
+1546,
+155,
+23
+],
+"text": "Computer use",
+"conf": 0.821
+},
+{
+"box": [
+93,
+1608,
+199,
+20
+],
+"text": "Scientificresearch",
+"conf": 0.887
+},
+{
+"box": [
+588,
+1613,
+1015,
+38
+],
+"text": "We're introducing GPT-6.1 Sol, an upgrade to GPT-6 Sol that nearly",
+"conf": 0.913
+},
+{
+"box": [
+90,
+1667,
+110,
+26
+],
+"text": "Factuality",
+"conf": 0.906
+},
+{
+"box": [
+589,
+1671,
+978,
+36
+],
+"text": "matches GPT-6 Astra's intelligence on agentic coding, computer",
+"conf": 0.906
+},
+{
+"box": [
+63,
+1730,
+200,
+27
+],
+"text": "Deploying GPT-6.1",
+"conf": 0.92
+},
+{
+"box": [
+589,
+1729,
+962,
+31
+],
+"text": "use, and professional work at one-fifth of Astra's standard input",
+"conf": 0.927
+},
+{
+"box": [
+62,
+1759,
+107,
+27
+],
+"text": "Sol safely",
+"conf": 0.861
+},
+{
+"box": [
+589,
+1783,
+999,
+35
+],
+"text": "and output token prices. Cached input costs just $o.10 per million",
+"conf": 0.925
+},
+{
+"box": [
+64,
+1824,
+243,
+23
+],
+"text": "Pricing and availability",
+"conf": 0.893
+},
+{
+"box": [
+589,
+1840,
+983,
+33
+],
+"text": "tokens95% less than standard input pricing and 50% less than",
+"conf": 0.916
+},
+{
+"box": [
+588,
+1895,
+1010,
+39
+],
+"text": "GPT-6 Sol's cached input pricing-giving developers more room to",
+"conf": 0.922
+},
+{
+"box": [
+590,
+1954,
+978,
+31
+],
+"text": "build and run capable agents that reuse context across requests.",
+"conf": 0.927
+},
+{
+"box": [
+435,
+2147,
+88,
+27
+],
+"text": "GPT-6",
+"conf": 0.801
+},
+{
+"box": [
+906,
+2147,
+118,
+27
+],
+"text": "GPT-6.1",
+"conf": 0.83
+},
+{
+"box": [
+1371,
+2147,
+89,
+27
+],
+"text": "GPT-6",
+"conf": 0.79
+},
+{
+"box": [
+435,
+2194,
+154,
+58
+],
+"text": "Astra",
+"conf": 0.755
+},
+{
+"box": [
+904,
+2196,
+98,
+56
+],
+"text": "Sol",
+"conf": 0.749
+},
+{
+"box": [
+1372,
+2199,
+146,
+55
+],
+"text": "Luna",
+"conf": 0.794
+},
+{
+"box": [
+438,
+2727,
+296,
+20
+],
+"text": "Ourmostintelligentmodelforthe",
+"conf": 0.899
+},
+{
+"box": [
+905,
+2723,
+313,
+24
+],
+"text": "Near-Astra intelligence fora fifthof",
+"conf": 0.907
+},
+{
+"box": [
+1370,
+2727,
+291,
+23
+],
+"text": "Fast and efficient everydaywork",
+"conf": 0.899
+},
+{
+"box": [
+435,
+2755,
+109,
+23
+],
+"text": "best results",
+"conf": 0.887
+},
+{
+"box": [
+907,
+2754,
+82,
+21
+],
+"text": "the price.",
+"conf": 0.893
+},
+{
+"box": [
+1372,
+2758,
+73,
+17
+],
+"text": "at scale.",
+"conf": 0.841
+},
+{
+"box": [
+436,
+2824,
+285,
+25
+],
+"text": "$10.00 input I $50.00 output I",
+"conf": 0.859
+},
+{
+"box": [
+907,
+2824,
+272,
+23
+],
+"text": "$2.00 input I $10.00 output I",
+"conf": 0.833
+},
+{
+"box": [
+1372,
+2824,
+262,
+25
+],
+"text": "$0.10 input I $0.50 output I",
+"conf": 0.9
+},
+{
+"box": [
+906,
+2851,
+178,
+26
+],
+"text": "$0.10 cached input",
+"conf": 0.91
+},
+{
+"box": [
+437,
+2854,
+179,
+22
+],
+"text": "$1.00 cached input",
+"conf": 0.886
+},
+{
+"box": [
+1372,
+2852,
+180,
+26
+],
+"text": "$0.01 cached input",
+"conf": 0.892
+},
+{
+"box": [
+587,
+3126,
+816,
+55
+],
+"text": "A more capable Sol across tasks",
+"conf": 0.941
+},
+{
+"box": [
+591,
+3251,
+875,
+31
+],
+"text": "GPT-6.1 Sol offers a new balance of capability and cost for",
+"conf": 0.901
+},
+{
+"box": [
+592,
+3309,
+1018,
+30
+],
+"text": "important everyday work. It delivers substantial improvements over",
+"conf": 0.903
+},
+{
+"box": [
+589,
+3361,
+948,
+34
+],
+"text": "GPT-6 Sol across complex professional tasks, from writing and",
+"conf": 0.924
+},
+{
+"box": [
+589,
+3418,
+1013,
+34
+],
+"text": "debugging code to understanding documents and executing multi-",
+"conf": 0.932
+},
+{
+"box": [
+591,
+3475,
+894,
+31
+],
+"text": "step business workflows. On several of these evaluations, it",
+"conf": 0.941
+},
+{
+"box": [
+588,
+3527,
+1015,
+39
+],
+"text": "approaches GPT-6 Astra's performance at substantially lower cost.",
+"conf": 0.939
+},
+{
+"box": [
+586,
+3704,
+146,
+52
+],
+"text": "Coding",
+"conf": 0.857
+},
+{
+"box": [
+589,
+3811,
+1000,
+41
+],
+"text": "On DeepswE v1.1, which evaluates complex software-engineering",
+"conf": 0.916
+},
+{
+"box": [
+589,
+3871,
+917,
+31
+],
+"text": "tasks in real codebases, GPT-6.1 Sol matches GPT-6 Astra at",
+"conf": 0.945
+},
+{
+"box": [
+589,
+3926,
+1013,
+35
+],
+"text": "roughly one-fifth of the cost, while eclipsing GPT-6 Sol's best score",
+"conf": 0.929
+},
+{
+"box": [
+631,
+4191,
+160,
+39
+],
+"text": "DeepsWE",
+"conf": 0.786
+},
+{
+"box": [
+636,
+4262,
+182,
+28
+],
+"text": " GPT-6.1 Sol",
+"conf": 0.861
+},
+{
+"box": [
+859,
+4262,
+169,
+26
+],
+"text": "※ GPT-6 Sol",
+"conf": 0.78
+},
+{
+"box": [
+1108,
+4262,
+155,
+28
+],
+"text": "GPT-6 Astra",
+"conf": 0.756
+},
+{
+"box": [
+635,
+4202,
+152,
+24
+],
+"text": "DeepsWE",
+"conf": 0.796
+},
+{
+"box": [
+899,
+4265,
+128,
+24
+],
+"text": "GPT-6 Sol",
+"conf": 0.785
+},
+{
+"box": [
+711,
+4326,
+50,
+30
+],
+"text": "80%",
+"conf": 0.749
+},
+{
+"box": [
+712,
+4471,
+49,
+26
+],
+"text": "%09",
+"conf": 0.737
+},
+{
+"box": [
+642,
+4585,
+33,
+81
+],
+"text": "Score",
+"conf": 0.832
+},
+{
+"box": [
+712,
+4613,
+48,
+26
+],
+"text": "40%",
+"conf": 0.75
+},
+{
+"box": [
+711,
+4754,
+50,
+28
+],
+"text": "20%",
+"conf": 0.649
+},
+{
+"box": [
+727,
+4898,
+32,
+24
+],
+"text": "0%",
+"conf": 0.666
+},
+{
+"box": [
+768,
+4934,
+37,
+33
+],
+"text": "$0",
+"conf": 0.501
+},
+{
+"box": [
+1334,
+4934,
+38,
+33
+],
+"text": "$6",
+"conf": 0.666
+},
+{
+"box": [
+961,
+4939,
+29,
+25
+],
+"text": "$2",
+"conf": 0.651
+},
+{
+"box": [
+1152,
+4941,
+27,
+21
+],
+"text": "$4",
+"conf": 0.666
+},
+{
+"box": [
+1527,
+4938,
+31,
+26
+],
+"text": "$8",
+"conf": 0.598
+},
+{
+"box": [
+1080,
+5001,
+171,
+32
+],
+"text": "Cost per task",
+"conf": 0.861
+},
+{
+"box": [
+631,
+5122,
+793,
+27
+],
+"text": "In DeepSWE 1.1, A/ agents solve original, long-horizon software",
+"conf": 0.91
+},
+{
+"box": [
+633,
+5170,
+227,
+26
+],
+"text": "engineering tasks.",
+"conf": 0.854
+},
+{
+"box": [
+592,
+5510,
+338,
+39
+],
+"text": "Professional work",
+"conf": 0.876
+},
+{
+"box": [
+591,
+5616,
+918,
+33
+],
+"text": "On GDP.pdf, which measures how accurately models answer",
+"conf": 0.915
+},
+{
+"box": [
+590,
+5671,
+974,
+28
+],
+"text": "professional guestions using complex PDF documents, including",
+"conf": 0.895
+},
+{
+"box": [
+588,
+5728,
+994,
+34
+],
+"text": "tables, charts, diagrams, and fine-print details, GPT-6.1 Sol scores",
+"conf": 0.932
+},
+{
+"box": [
+592,
+5787,
+965,
+29
+],
+"text": "higher than Opus 5.5 with fallbacks at less than half the cost per",
+"conf": 0.919
+},
+{
+"box": [
+587,
+5838,
+1025,
+37
+],
+"text": "task across the tested reasoning settings. It also approaches GPT-6",
+"conf": 0.952
+},
+{
+"box": [
+589,
+5896,
+989,
+34
+],
+"text": "Astra's state-of-the-art performance at roughly one-fifth the cost",
+"conf": 0.954
+},
+{
+"box": [
+588,
+5952,
+133,
+35
+],
+"text": "per task.",
+"conf": 0.858
+},
+{
+"box": [
+631,
+6162,
+134,
+37
+],
+"text": "GDP.pdf",
+"conf": 0.791
+},
+{
+"box": [
+899,
+6232,
+128,
+24
+],
+"text": "GPT-6 Sol",
+"conf": 0.748
+},
+{
+"box": [
+659,
+6233,
+159,
+24
+],
+"text": "GPT-6.1 Sol",
+"conf": 0.825
+},
+{
+"box": [
+1108,
+6231,
+156,
+28
+],
+"text": "GPT-6 Astra",
+"conf": 0.813
+},
+{
+"box": [
+1345,
+6229,
+113,
+33
+],
+"text": "Opus 5.5",
+"conf": 0.828
+},
+{
+"box": [
+1345,
+6273,
+150,
+27
+],
+"text": "w/fallbacks",
+"conf": 0.906
+},
+{
+"box": [
+711,
+6337,
+51,
+29
+],
+"text": "34%",
+"conf": 0.626
+},
+{
+"box": [
+712,
+6420,
+49,
+25
+],
+"text": "32%",
+"conf": 0.619
+},
+{
+"box": [
+711,
+6499,
+51,
+29
+],
+"text": "30%",
+"conf": 0.668
+},
+{
+"box": [
+712,
+6581,
+49,
+26
+],
+"text": "28%",
+"conf": 0.666
+},
+{
+"box": [
+643,
+6594,
+31,
+81
+],
+"text": "Score",
+"conf": 0.753
+},
+{
+"box": [
+712,
+6663,
+48,
+26
+],
+"text": "26%",
+"conf": 0.665
+},
+{
+"box": [
+711,
+6744,
+50,
+26
+],
+"text": "24%",
+"conf": 0.722
+},
+{
+"box": [
+711,
+6824,
+51,
+29
+],
+"text": "22%",
+"conf": 0.6
+},
+{
+"box": [
+710,
+6905,
+51,
+28
+],
+"text": "20%",
+"conf": 0.75
+},
+{
+"box": [
+770,
+6945,
+34,
+28
+],
+"text": "$0",
+"conf": 0.539
+},
+{
+"box": [
+925,
+6945,
+74,
+28
+],
+"text": "$0.50",
+"conf": 0.794
+},
+{
+"box": [
+1122,
+6947,
+29,
+25
+],
+"text": "$1",
+"conf": 0.525
+},
+{
+"box": [
+1275,
+6945,
+75,
+28
+],
+"text": "$1.50",
+"conf": 0.669
+},
+{
+"box": [
+1473,
+6947,
+31,
+25
+],
+"text": "$2",
+"conf": 0.666
+},
+{
+"box": [
+1089,
+7011,
+169,
+29
+],
+"text": "Cost pertask",
+"conf": 0.853
+},
+{
+"box": [
+631,
+7175,
+938,
+30
+],
+"text": "PDFs pulled from professional workflows in finance, healthcare, legal, and",
+"conf": 0.942
+},
+{
+"box": [
+632,
+7225,
+429,
+23
+],
+"text": "seven otherprofessionaldomains.",
+"conf": 0.882
+},
+{
+"box": [
+590,
+7488,
+983,
+37
+],
+"text": "On AutomationBench, which measures whether agents correctly",
+"conf": 0.945
+},
+{
+"box": [
+590,
+7547,
+960,
+31
+],
+"text": "complete multi-step business workflows, GPT-6.1 Sol scores 2.2",
+"conf": 0.908
+},
+{
+"box": [
+588,
+7601,
+994,
+36
+],
+"text": "percentage points above Opus 5.5 at medium reasoning effort, at",
+"conf": 0.908
+},
+{
+"box": [
+587,
+7713,
+649,
+38
+],
+"text": "points from GPT-6 Sol at the same setting.",
+"conf": 0.913
+},
+{
+"box": [
+633,
+7925,
+283,
+33
+],
+"text": "AutomationBench",
+"conf": 0.82
+},
+{
+"box": [
+661,
+7995,
+156,
+24
+],
+"text": "GPT-6.1 Sol",
+"conf": 0.869
+},
+{
+"box": [
+908,
+7995,
+127,
+24
+],
+"text": "GPT-6 Sol",
+"conf": 0.848
+},
+{
+"box": [
+1222,
+7993,
+156,
+28
+],
+"text": "GPT-6 Astra",
+"conf": 0.854
+},
+{
+"box": [
+674,
+8044,
+116,
+32
+],
+"text": "Opus 5.5",
+"conf": 0.807
+},
+{
+"box": [
+909,
+8048,
+108,
+24
+],
+"text": "Fable 5.1",
+"conf": 0.884
+},
+{
+"box": [
+676,
+8087,
+150,
+27
+],
+"text": "w/fallbacks",
+"conf": 0.872
+},
+{
+"box": [
+910,
+8088,
+232,
+26
+],
+"text": "w/ Opus 5 fallback",
+"conf": 0.887
+},
+{
+"box": [
+710,
+8150,
+51,
+30
+],
+"text": "50%",
+"conf": 0.522
+},
+{
+"box": [
+711,
+8265,
+50,
+29
+],
+"text": "40%",
+"conf": 0.644
+},
+{
+"box": [
+712,
+8379,
+49,
+26
+],
+"text": "30%",
+"conf": 0.672
+},
+{
+"box": [
+642,
+8407,
+33,
+82
+],
+"text": "Score",
+"conf": 0.704
+},
+{
+"box": [
+710,
+8492,
+51,
+29
+],
+"text": "20%",
+"conf": 0.63
+},
+{
+"box": [
+712,
+8604,
+49,
+30
+],
+"text": "10%",
+"conf": 0.69
+},
+{
+"box": [
+726,
+8720,
+33,
+25
+],
+"text": "0%",
+"conf": 0.666
+},
+{
+"box": [
+770,
+8759,
+34,
+29
+],
+"text": "$0",
+"conf": 0.508
+},
+{
+"box": [
+904,
+8760,
+75,
+28
+],
+"text": "$0.50",
+"conf": 0.751
+},
+{
+"box": [
+1079,
+8759,
+32,
+29
+],
+"text": "$1",
+"conf": 0.61
+},
+{
+"box": [
+1211,
+8758,
+77,
+30
+],
+"text": "$1.50",
+"conf": 0.775
+},
+{
+"box": [
+1389,
+8762,
+29,
+24
+],
+"text": "$2",
+"conf": 0.665
+},
+{
+"box": [
+1089,
+8827,
+166,
+26
+],
+"text": "Cost pertask",
+"conf": 0.901
+},
+{
+"box": [
+633,
+8946,
+917,
+25
+],
+"text": "In AutomationBench 1.O.6, A/ agents are tested on end-to-end workflows",
+"conf": 0.907
+},
+{
+"box": [
+633,
+8992,
+912,
+26
+],
+"text": "using 47 tools across sales, marketing, operations, support, finance, and",
+"conf": 0.923
+},
+{
+"box": [
+632,
+9037,
+900,
+26
+],
+"text": "HR. The datapoint for Claude Fable 5.1 understates its actual cost, as it",
+"conf": 0.928
+},
+{
+"box": [
+632,
+9083,
+774,
+26
+],
+"text": "omits the cost of fallbacks, which occurred on ~4o% of tasks.",
+"conf": 0.94
+},
+{
+"box": [
+591,
+9425,
+272,
+43
+],
+"text": "Computer use",
+"conf": 0.894
+},
+{
+"box": [
+590,
+9531,
+984,
+33
+],
+"text": "GPT-6.1 Sol also makes substantial progress on tasks that require",
+"conf": 0.897
+},
+{
+"box": [
+588,
+9583,
+982,
+40
+],
+"text": "interacting with computer applications. On OsWorld 2.0's offline",
+"conf": 0.919
+},
+{
+"box": [
+589,
+9645,
+866,
+31
+],
+"text": "set, which evaluates agents on demanding computer-use",
+"conf": 0.869
+},
+{
+"box": [
+590,
+9700,
+847,
+31
+],
+"text": "workflows, GPT-6.1 Sol outperforms GPT-6 Sol by seven",
+"conf": 0.93
+},
+{
+"box": [
+588,
+9811,
+944,
+34
+],
+"text": "the cost. It comes within 2.1 percentage points of Astra's score",
+"conf": 0.92
+},
+{
+"box": [
+590,
+9869,
+934,
+29
+],
+"text": "at maximum reasoning effort at roughly one-seventh the cost",
+"conf": 0.9
+},
+{
+"box": [
+588,
+9922,
+132,
+36
+],
+"text": "per task.",
+"conf": 0.835
+},
+{
+"box": [
+633,
+10133,
+367,
+35
+],
+"text": "OsWorld 2.0, offline set",
+"conf": 0.886
+},
+{
+"box": [
+659,
+10205,
+158,
+24
+],
+"text": "GPT-6.1 Sol",
+"conf": 0.822
+},
+{
+"box": [
+900,
+10205,
+126,
+24
+],
+"text": "GPT-6 Sol",
+"conf": 0.895
+},
+{
+"box": [
+1110,
+10203,
+152,
+27
+],
+"text": "GPT-6 Astra",
+"conf": 0.845
+},
+{
+"box": [
+713,
+10270,
+47,
+26
+],
+"text": "75%",
+"conf": 0.652
+},
+{
+"box": [
+712,
+10349,
+50,
+28
+],
+"text": "70%",
+"conf": 0.61
+},
+{
+"box": [
+711,
+10429,
+50,
+29
+],
+"text": "65%",
+"conf": 0.566
+},
+{
+"box": [
+712,
+10512,
+48,
+26
+],
+"text": "60%",
+"conf": 0.75
+},
+{
+"box": [
+641,
+10524,
+35,
+83
+],
+"text": "Score",
+"conf": 0.68
+},
+{
+"box": [
+711,
+10592,
+51,
+30
+],
+"text": "55%",
+"conf": 0.735
+},
+{
+"box": [
+711,
+10674,
+51,
+29
+],
+"text": "50%",
+"conf": 0.571
+},
+{
+"box": [
+711,
+10754,
+50,
+29
+],
+"text": "45%",
+"conf": 0.686
+},
+{
+"box": [
+712,
+10835,
+50,
+29
+],
+"text": "40%",
+"conf": 0.694
+},
+{
+"box": [
+770,
+10876,
+34,
+29
+],
+"text": "$0",
+"conf": 0.508
+},
+{
+"box": [
+1221,
+10876,
+32,
+30
+],
+"text": "$6",
+"conf": 0.666
+},
+{
+"box": [
+1069,
+10875,
+36,
+31
+],
+"text": "$4",
+"conf": 0.543
+},
+{
+"box": [
+922,
+10878,
+30,
+26
+],
+"text": "$2",
+"conf": 0.665
+},
+{
+"box": [
+1370,
+10876,
+34,
+29
+],
+"text": "$8",
+"conf": 0.604
+},
+{
+"box": [
+1510,
+10875,
+52,
+32
+],
+"text": "$10",
+"conf": 0.749
+},
+{
+"box": [
+1078,
+10944,
+167,
+26
+],
+"text": "Cost pertask",
+"conf": 0.9
+},
+{
+"box": [
+631,
+11062,
+926,
+28
+],
+"text": "In OsWorld 2.O, A/ agents attempt long-horizon computer-use workflows",
+"conf": 0.912
+},
+{
+"box": [
+631,
+11105,
+906,
+33
+],
+"text": "spanning everyday and professional tasks. We report the partial reward",
+"conf": 0.928
+},
+{
+"box": [
+632,
+11154,
+602,
+27
+],
+"text": "on the offline set from the v2026.08.08 release.",
+"conf": 0.915
+},
+{
+"box": [
+593,
+11499,
+354,
+33
+],
+"text": "Scientific research",
+"conf": 0.882
+},
+{
+"box": [
+591,
+11602,
+884,
+31
+],
+"text": "On Terminal-Bench Science O.1, which evaluates scientific",
+"conf": 0.925
+},
+{
+"box": [
+590,
+11661,
+894,
+29
+],
+"text": "workflows including data analysis, simulation, and theorem",
+"conf": 0.925
+},
+{
+"box": [
+588,
+11711,
+918,
+40
+],
+"text": "proving, GPT-6.1 Sol more than doubles GPT-6 Sol's score at",
+"conf": 0.912
+},
+{
+"box": [
+590,
+11771,
+959,
+29
+],
+"text": "maximum reasoning effort at less than half the cost per task. At",
+"conf": 0.935
+},
+{
+"box": [
+588,
+11824,
+932,
+37
+],
+"text": "maximum effort, GPT-6.1 Sol costs $5.47 per task on average,",
+"conf": 0.929
+},
+{
+"box": [
+588,
+11879,
+1012,
+39
+],
+"text": "compared with $23.21 for Opus 5.5 and $23.80 for Astra, delivering",
+"conf": 0.921
+},
+{
+"box": [
+591,
+11941,
+899,
+29
+],
+"text": "substantial scientific capability at over 75% lower cost than",
+"conf": 0.919
+},
+{
+"box": [
+592,
+11997,
+195,
+27
+],
+"text": "either model.",
+"conf": 0.844
+},
+{
+"box": [
+590,
+12098,
+948,
+34
+],
+"text": "GPT-6 Astra still achieves the highest score among the models",
+"conf": 0.919
+},
+{
+"box": [
+591,
+12157,
+1005,
+26
+],
+"text": "tested at 68.1%, and should be used for the most difficult scientific",
+"conf": 0.92
+},
+{
+"box": [
+590,
+12214,
+225,
+26
+],
+"text": "research tasks.",
+"conf": 0.891
+},
+{
+"box": [
+636,
+12423,
+424,
+29
+],
+"text": "Terminal-Bench Science O.1",
+"conf": 0.902
+},
+{
+"box": [
+674,
+12491,
+143,
+23
+],
+"text": "GPT-6.1 Sol",
+"conf": 0.843
+},
+{
+"box": [
+1024,
+12492,
+128,
+23
+],
+"text": "GPT-6 Sol",
+"conf": 0.822
+},
+{
+"box": [
+1233,
+12488,
+155,
+30
+],
+"text": "GPT-6 Astra",
+"conf": 0.87
+},
+{
+"box": [
+680,
+12545,
+262,
+23
+],
+"text": "Opus5.5w/fallbacks",
+"conf": 0.928
+},
+{
+"box": [
+711,
+12606,
+51,
+29
+],
+"text": "70%",
+"conf": 0.656
+},
+{
+"box": [
+712,
+12689,
+48,
+26
+],
+"text": "60%",
+"conf": 0.748
+},
+{
+"box": [
+711,
+12769,
+50,
+28
+],
+"text": "50%",
+"conf": 0.563
+},
+{
+"box": [
+711,
+12849,
+51,
+29
+],
+"text": "40%",
+"conf": 0.625
+},
+{
+"box": [
+642,
+12864,
+33,
+83
+],
+"text": "Score",
+"conf": 0.783
+},
+{
+"box": [
+711,
+12931,
+51,
+29
+],
+"text": "30%",
+"conf": 0.568
+},
+{
+"box": [
+711,
+13013,
+51,
+29
+],
+"text": "20%",
+"conf": 0.579
+},
+{
+"box": [
+712,
+13093,
+50,
+30
+],
+"text": "10%",
+"conf": 0.694
+},
+{
+"box": [
+725,
+13174,
+35,
+28
+],
+"text": "0%",
+"conf": 0.503
+},
+{
+"box": [
+920,
+13214,
+33,
+30
+],
+"text": "$5",
+"conf": 0.666
+},
+{
+"box": [
+768,
+13213,
+37,
+32
+],
+"text": "$0",
+"conf": 0.535
+},
+{
+"box": [
+1062,
+13215,
+49,
+30
+],
+"text": "$10",
+"conf": 0.581
+},
+{
+"box": [
+1210,
+13213,
+51,
+33
+],
+"text": "$15",
+"conf": 0.749
+},
+{
+"box": [
+1362,
+13213,
+49,
+33
+],
+"text": "$20",
+"conf": 0.691
+},
+{
+"box": [
+1513,
+13216,
+46,
+27
+],
+"text": "$25",
+"conf": 0.638
+},
+{
+"box": [
+1077,
+13281,
+169,
+29
+],
+"text": "Cost pertask",
+"conf": 0.884
+},
+{
+"box": [
+632,
+13401,
+847,
+29
+],
+"text": "In Terminal-Bench Science O.1, agents complete scientific research",
+"conf": 0.959
+},
+{
+"box": [
+632,
+13447,
+841,
+28
+],
+"text": "workflows using code and terminal tools, including analyzing data,",
+"conf": 0.927
+},
+{
+"box": [
+633,
+13495,
+500,
+26
+],
+"text": "running simulations, and fitting models.",
+"conf": 0.931
+},
+{
+"box": [
+588,
+13831,
+195,
+47
+],
+"text": "Factuality",
+"conf": 0.862
+},
+{
+"box": [
+590,
+13940,
+1011,
+32
+],
+"text": "GPT-6.1 Sol also improves factual accuracy on difficult prompts. Its",
+"conf": 0.887
+},
+{
+"box": [
+590,
+13996,
+914,
+34
+],
+"text": "largest factuality improvement over GPT-6 Sol comes at low",
+"conf": 0.931
+},
+{
+"box": [
+587,
+14054,
+863,
+31
+],
+"text": "reasoning effort, where it reduces the share of responses",
+"conf": 0.885
+},
+{
+"box": [
+589,
+14109,
+916,
+31
+],
+"text": "containing a factual error from 11.4% to 7.7%a reduction of",
+"conf": 0.914
+},
+{
+"box": [
+591,
+14222,
+989,
+30
+],
+"text": "rate remains within 1.9 percentage points of GPT-6 Astra's, at less",
+"conf": 0.927
+},
+{
+"box": [
+589,
+14277,
+477,
+31
+],
+"text": "than one-fifth the cost per task.",
+"conf": 0.863
+},
+{
+"box": [
+591,
+14380,
+995,
+33
+],
+"text": "This evaluation measures the share of answers containing at least",
+"conf": 0.908
+},
+{
+"box": [
+591,
+14438,
+911,
+29
+],
+"text": "one factual error on de-identified conversations where users",
+"conf": 0.929
+},
+{
+"box": [
+588,
+14491,
+892,
+37
+],
+"text": "flagged an earlier model's error. These deliberately difficult",
+"conf": 0.927
+},
+{
+"box": [
+589,
+14550,
+724,
+32
+],
+"text": "prompts are not representative of typical usage.",
+"conf": 0.894
+},
+{
+"box": [
+633,
+14759,
+838,
+33
+],
+"text": "Factual error rate on difficult prompts (lower is better)",
+"conf": 0.9
+},
+{
+"box": [
+670,
+14830,
+147,
+24
+],
+"text": "GPT-6.1 Sol",
+"conf": 0.857
+},
+{
+"box": [
+899,
+14830,
+128,
+24
+],
+"text": "GPT-6 Sol",
+"conf": 0.785
+},
+{
+"box": [
+1109,
+14827,
+154,
+29
+],
+"text": "GPT-6 Astra",
+"conf": 0.866
+},
+{
+"box": [
+710,
+14892,
+51,
+30
+],
+"text": "20%",
+"conf": 0.515
+},
+{
+"box": [
+646,
+15003,
+28,
+376
+],
+"text": "Answers with any factual error",
+"conf": 0.885
+},
+{
+"box": [
+713,
+15036,
+48,
+26
+],
+"text": "15%",
+"conf": 0.635
+},
+{
+"box": [
+712,
+15178,
+49,
+26
+],
+"text": "10%",
+"conf": 0.75
+},
+{
+"box": [
+725,
+15320,
+36,
+27
+],
+"text": "5%",
+"conf": 0.532
+},
+{
+"box": [
+726,
+15463,
+33,
+24
+],
+"text": "0%",
+"conf": 0.665
+},
+{
+"box": [
+933,
+15502,
+75,
+28
+],
+"text": "$0.20",
+"conf": 0.781
+},
+{
+"box": [
+1115,
+15499,
+77,
+32
+],
+"text": "$0.40",
+"conf": 0.827
+},
+{
+"box": [
+1299,
+15502,
+76,
+28
+],
+"text": "$0.60",
+"conf": 0.657
+},
+{
+"box": [
+1483,
+15502,
+75,
+28
+],
+"text": "$0.80",
+"conf": 0.646
+},
+{
+"box": [
+1070,
+15566,
+169,
+32
+],
+"text": "Cost pertask",
+"conf": 0.884
+},
+{
+"box": [
+634,
+15687,
+882,
+26
+],
+"text": "We evaluate factuality on de-identified ChatGPT conversations where",
+"conf": 0.918
+},
+{
+"box": [
+631,
+15732,
+934,
+30
+],
+"text": "users had flagged a factual error from a prior model. These error-inducing",
+"conf": 0.931
+},
+{
+"box": [
+630,
+15779,
+864,
+27
+],
+"text": "conversations are not representative of typical usage, where factual",
+"conf": 0.943
+},
+{
+"box": [
+633,
+15830,
+256,
+20
+],
+"text": "errors aremorerare.",
+"conf": 0.843
+},
+{
+"box": [
+590,
+16168,
+718,
+61
+],
+"text": "Deploying GPT-6.1 Sol safely",
+"conf": 0.934
+},
+{
+"box": [
+591,
+16296,
+1009,
+30
+],
+"text": "GPT-6.1 Sol shows substantial improvements over GPT-6 Sol in our",
+"conf": 0.927
+},
+{
+"box": [
+590,
+16349,
+845,
+35
+],
+"text": "alignment evaluations, bringing it closer to GPT-6 Astra.",
+"conf": 0.919
+},
+{
+"box": [
+590,
+16454,
+938,
+32
+],
+"text": "GPT-6.1 Sol is more transparent about its limitations and more",
+"conf": 0.938
+},
+{
+"box": [
+591,
+16513,
+875,
+29
+],
+"text": "reliable at respecting user intent and safety constraints. In",
+"conf": 0.928
+},
+{
+"box": [
+590,
+16566,
+1014,
+34
+],
+"text": "challenging evaluations, it shows lower failure rates than GPT-6 Sol",
+"conf": 0.915
+},
+{
+"box": [
+591,
+16625,
+939,
+30
+],
+"text": "on transparency about broken search tools, respecting explicit",
+"conf": 0.928
+},
+{
+"box": [
+590,
+16681,
+976,
+30
+],
+"text": "restrictions, and avoiding unauthorized outcomes during agentic",
+"conf": 0.939
+},
+{
+"box": [
+588,
+16732,
+963,
+37
+],
+"text": "tasks. We observed no attempts to bypass an automated safety",
+"conf": 0.917
+},
+{
+"box": [
+589,
+16791,
+997,
+31
+],
+"text": "reviewer, matching GPT-6 Astra and GPT-6 Sol. Full details can be",
+"conf": 0.922
+},
+{
+"box": [
+588,
+16847,
+741,
+31
+],
+"text": "found in the GPT-6.1 Sol system card addendum.",
+"conf": 0.885
+},
+{
+"box": [
+592,
+16800,
+995,
+25
+],
+"text": "revewer, matching GPT-b Astra ahd GPT-b Sol. Full detalls cah be",
+"conf": 0.879
+},
+{
+"box": [
+591,
+16951,
+995,
+33
+],
+"text": "The evaluations below deliberately test challenging situations and",
+"conf": 0.896
+},
+{
+"box": [
+589,
+17006,
+638,
+34
+],
+"text": "do not measure failure rates in typical use.",
+"conf": 0.918
+},
+{
+"box": [
+467,
+17222,
+241,
+27
+],
+"text": "Broken search tool",
+"conf": 0.874
+},
+{
+"box": [
+786,
+17223,
+217,
+28
+],
+"text": "Reviewer bypass",
+"conf": 0.924
+},
+{
+"box": [
+1082,
+17224,
+300,
+26
+],
+"text": "Warning circumvention",
+"conf": 0.878
+},
+{
+"box": [
+1460,
+17222,
+272,
+29
+],
+"text": "Computer-use safety",
+"conf": 0.864
+},
+{
+"box": [
+634,
+17398,
+855,
+30
+],
+"text": "Failure to disclose a broken search tool (lower is better)",
+"conf": 0.916
+},
+{
+"box": [
+711,
+17467,
+64,
+28
+],
+"text": "100%",
+"conf": 0.8
+},
+{
+"box": [
+726,
+17588,
+50,
+26
+],
+"text": "80%",
+"conf": 0.75
+},
+{
+"box": [
+646,
+17656,
+25,
+244
+],
+"text": "Non-disclosure rate",
+"conf": 0.928
+},
+{
+"box": [
+725,
+17708,
+50,
+26
+],
+"text": "60%",
+"conf": 0.745
+},
+{
+"box": [
+727,
+17827,
+48,
+26
+],
+"text": "40%",
+"conf": 0.584
+},
+{
+"box": [
+1409,
+17876,
+71,
+24
+],
+"text": "28.7%",
+"conf": 0.751
+},
+{
+"box": [
+726,
+17946,
+48,
+26
+],
+"text": "20%",
+"conf": 0.672
+},
+{
+"box": [
+1240,
+18018,
+60,
+25
+],
+"text": "4.9%",
+"conf": 0.751
+},
+{
+"box": [
+892,
+18034,
+57,
+29
+],
+"text": "1.5%",
+"conf": 0.799
+},
+{
+"box": [
+1068,
+18033,
+54,
+26
+],
+"text": "2.1%",
+"conf": 0.709
+},
+{
+"box": [
+739,
+18066,
+36,
+27
+],
+"text": "0%",
+"conf": 0.666
+},
+{
+"box": [
+886,
+18115,
+72,
+24
+],
+"text": "GPT-6",
+"conf": 0.758
+},
+{
+"box": [
+1053,
+18115,
+86,
+24
+],
+"text": "GPT-6.1",
+"conf": 0.865
+},
+{
+"box": [
+1216,
+18116,
+109,
+23
+],
+"text": "GPT-6 Sol",
+"conf": 0.887
+},
+{
+"box": [
+1408,
+18113,
+73,
+28
+],
+"text": "GPT-6",
+"conf": 0.833
+},
+{
+"box": [
+890,
+18145,
+62,
+24
+],
+"text": "Astra",
+"conf": 0.744
+},
+{
+"box": [
+1077,
+18145,
+37,
+24
+],
+"text": "Sol",
+"conf": 0.749
+},
+{
+"box": [
+1415,
+18146,
+60,
+24
+],
+"text": "Luna",
+"conf": 0.796
+},
+{
+"box": [
+634,
+18260,
+935,
+29
+],
+"text": "This evaluation tests whether agents tell the user when their search tool is",
+"conf": 0.933
+},
+{
+"box": [
+630,
+18305,
+923,
+30
+],
+"text": "broken instead of giving their best guess. GPT-6.1 Sol fails to disclose the",
+"conf": 0.924
+},
+{
+"box": [
+629,
+18351,
+889,
+31
+],
+"text": "problem in 2.1% of cases, compared with 4.9% for GPT-6 Sol, 1.5% for",
+"conf": 0.91
+},
+{
+"box": [
+633,
+18399,
+855,
+26
+],
+"text": "GPT-6 Astra, and 28.7% for GPT-6 Luna. Tasks are selected to elicit",
+"conf": 0.907
+},
+{
+"box": [
+631,
+18443,
+906,
+31
+],
+"text": "failures and do not represent typical usage. Effort was set to maximum.",
+"conf": 0.946
+},
+{
+"box": [
+589,
+18787,
+569,
+61
+],
+"text": "Pricing and availability",
+"conf": 0.884
+},
+{
+"box": [
+589,
+18913,
+946,
+34
+],
+"text": "GPT-6.1 Sol is available starting today to all Plus, Pro, Business,",
+"conf": 0.939
+},
+{
+"box": [
+591,
+18972,
+1015,
+30
+],
+"text": "Enterprise, and Edu users in ChatGPT Work and Codex. GPT-6.1 Sol",
+"conf": 0.907
+},
+{
+"box": [
+589,
+19026,
+984,
+35
+],
+"text": "is not yet available in Chat. Developers can also access it through",
+"conf": 0.887
+},
+{
+"box": [
+590,
+19083,
+961,
+33
+],
+"text": "the OpenAl APl as gpt-6.1-sol. Its standard APl prices are $2 per",
+"conf": 0.898
+},
+{
+"box": [
+590,
+19138,
+1008,
+32
+],
+"text": "million input tokens, $0.10 per million cached input tokens, and $10",
+"conf": 0.9
+},
+{
+"box": [
+589,
+19193,
+911,
+36
+],
+"text": "per million output tokens. In the coming days, we'll also offer",
+"conf": 0.934
+},
+{
+"box": [
+589,
+19249,
+886,
+35
+],
+"text": "GPT-6.1 Sol Ultrafast, with up to 8x faster token generation",
+"conf": 0.929
+},
+{
+"box": [
+590,
+19309,
+632,
+29
+],
+"text": "compared to its standard speed in Codex.",
+"conf": 0.887
+},
+{
+"box": [
+610,
+19627,
+78,
+31
+],
+"text": "2026",
+"conf": 0.796
+},
+{
+"box": [
+753,
+19626,
+67,
+32
+],
+"text": "GPT",
+"conf": 0.704
+},
+{
+"box": [
+588,
+19754,
+92,
+28
+],
+"text": "Author",
+"conf": 0.77
+},
+{
+"box": [
+589,
+19822,
+99,
+31
+],
+"text": "OpenAl",
+"conf": 0.812
+},
+{
+"box": [
+591,
+19935,
+973,
+26
+],
+"text": "Evaluations of GPT were performed in our research environment or via our APl",
+"conf": 0.918
+},
+{
+"box": [
+590,
+19980,
+952,
+28
+],
+"text": "which may provide slightly different output from production ChatGPT due to",
+"conf": 0.93
+},
+{
+"box": [
+591,
+20026,
+957,
+29
+],
+"text": "differences in the system prompts, tools available, efforts, etc. Evaluations of",
+"conf": 0.92
+},
+{
+"box": [
+589,
+20074,
+770,
+26
+],
+"text": "competitor models were taken from publicly available reports.",
+"conf": 0.905
+},
+{
+"box": [
+63,
+20378,
+254,
+49
+],
+"text": "Keep reading",
+"conf": 0.827
+},
+{
+"box": [
+2037,
+20392,
+101,
+27
+],
+"text": "View all",
+"conf": 0.88
+},
+{
+"box": [
+1524,
+20807,
+562,
+66
+],
+"text": "DevDay 2026[Recap]",
+"conf": 0.917
+},
+{
+"box": [
+769,
+21204,
+482,
+35
+],
+"text": "GPT-6 Astra: A new generation",
+"conf": 0.874
+},
+{
+"box": [
+66,
+21207,
+496,
+30
+],
+"text": "Introducing GPT-6 Sol and Luna",
+"conf": 0.934
+},
+{
+"box": [
+1479,
+21204,
+318,
+37
+],
+"text": "DevDay 2026 Recap",
+"conf": 0.898
+},
+{
+"box": [
+771,
+21251,
+218,
+34
+],
+"text": "of intelligence",
+"conf": 0.884
+},
+{
+"box": [
+63,
+21281,
+299,
+30
+],
+"text": "Product Sep 22, 2026",
+"conf": 0.918
+},
+{
+"box": [
+1474,
+21280,
+135,
+32
+],
+"text": "Company",
+"conf": 0.85
+},
+{
+"box": [
+1622,
+21281,
+175,
+29
+],
+"text": "Sep 29, 2026",
+"conf": 0.851
+},
+{
+"box": [
+771,
+21330,
+123,
+24
+],
+"text": "Research",
+"conf": 0.865
+},
+{
+"box": [
+906,
+21329,
+162,
+27
+],
+"text": "Sep 3, 2026",
+"conf": 0.875
+},
+{
+"box": [
+485,
+21702,
+114,
+29
+],
+"text": "Products",
+"conf": 0.791
+},
+{
+"box": [
+910,
+21702,
+110,
+29
+],
+"text": "Business",
+"conf": 0.856
+},
+{
+"box": [
+1334,
+21702,
+119,
+32
+],
+"text": "Company",
+"conf": 0.844
+},
+{
+"box": [
+64,
+21705,
+112,
+24
+],
+"text": "Research",
+"conf": 0.838
+},
+{
+"box": [
+1756,
+21702,
+71,
+29
+],
+"text": "More",
+"conf": 0.732
+},
+{
+"box": [
+911,
+21766,
+114,
+27
+],
+"text": "Overview",
+"conf": 0.837
+},
+{
+"box": [
+63,
+21767,
+185,
+26
+],
+"text": "Research Index",
+"conf": 0.836
+},
+{
+"box": [
+488,
+21768,
+137,
+24
+],
+"text": "ChatGPT ",
+"conf": 0.873
+},
+{
+"box": [
+1336,
+21768,
+111,
+24
+],
+"text": "About Us",
+"conf": 0.806
+},
+{
+"box": [
+1757,
+21764,
+90,
+30
+],
+"text": "Stories",
+"conf": 0.874
+},
+{
+"box": [
+64,
+21837,
+229,
+28
+],
+"text": "Research Overview",
+"conf": 0.9
+},
+{
+"box": [
+910,
+21837,
+116,
+28
+],
+"text": "Solutions",
+"conf": 0.862
+},
+{
+"box": [
+1335,
+21837,
+144,
+28
+],
+"text": "Our Charter",
+"conf": 0.896
+},
+{
+"box": [
+489,
+21840,
+246,
+23
+],
+"text": "ChatGPT Business 7",
+"conf": 0.831
+},
+{
+"box": [
+1758,
+21837,
+117,
+30
+],
+"text": "Academy",
+"conf": 0.792
+},
+{
+"box": [
+1334,
+21908,
+97,
+31
+],
+"text": "Careers",
+"conf": 0.774
+},
+{
+"box": [
+910,
+21909,
+128,
+28
+],
+"text": "Resources",
+"conf": 0.835
+},
+{
+"box": [
+487,
+21910,
+267,
+27
+],
+"text": "ChatGPT Enterprise 7",
+"conf": 0.88
+},
+{
+"box": [
+66,
+21912,
+234,
+23
+],
+"text": "Economic Research",
+"conf": 0.935
+},
+{
+"box": [
+1757,
+21907,
+132,
+33
+],
+"text": "Supply Co.",
+"conf": 0.908
+},
+{
+"box": [
+908,
+21978,
+94,
+34
+],
+"text": "Plugins",
+"conf": 0.874
+},
+{
+"box": [
+488,
+21981,
+305,
+26
+],
+"text": "ChatGPT for Education 7",
+"conf": 0.877
+},
+{
+"box": [
+1333,
+21979,
+73,
+31
+],
+"text": "News",
+"conf": 0.798
+},
+{
+"box": [
+1760,
+21982,
+148,
+24
+],
+"text": "Livestreams",
+"conf": 0.799
+},
+{
+"box": [
+66,
+22030,
+261,
+24
+],
+"text": "LatestAdvancements",
+"conf": 0.921
+},
+{
+"box": [
+485,
+22050,
+83,
+30
+],
+"text": "Codex",
+"conf": 0.833
+},
+{
+"box": [
+912,
+22052,
+209,
+26
+],
+"text": "Customer Stories",
+"conf": 0.834
+},
+{
+"box": [
+1756,
+22051,
+105,
+29
+],
+"text": "Podcast",
+"conf": 0.783
+},
+{
+"box": [
+65,
+22094,
+135,
+24
+],
+"text": "GPT-6.1 Sol",
+"conf": 0.889
+},
+{
+"box": [
+1334,
+22100,
+103,
+30
+],
+"text": "Support",
+"conf": 0.837
+},
+{
+"box": [
+487,
+22125,
+83,
+24
+],
+"text": "Dots 7",
+"conf": 0.802
+},
+{
+"box": [
+913,
+22126,
+197,
+23
+],
+"text": "Partner Network",
+"conf": 0.85
+},
+{
+"box": [
+1758,
+22124,
+55,
+26
+],
+"text": "RSS",
+"conf": 0.748
+},
+{
+"box": [
+64,
+22165,
+146,
+24
+],
+"text": "GPT-6 Astra",
+"conf": 0.874
+},
+{
+"box": [
+1335,
+22165,
+171,
+26
+],
+"text": "Help Center 7",
+"conf": 0.829
+},
+{
+"box": [
+487,
+22195,
+172,
+26
+],
+"text": "Release Notes",
+"conf": 0.839
+},
+{
+"box": [
+912,
+22197,
+168,
+23
+],
+"text": "Contact Sales",
+"conf": 0.778
+},
+{
+"box": [
+63,
+22235,
+99,
+24
+],
+"text": "GPT-5.6",
+"conf": 0.792
+},
+{
+"box": [
+1337,
+22236,
+199,
+26
+],
+"text": "OpenAl Status 7",
+"conf": 0.81
+},
+{
+"box": [
+1762,
+22245,
+193,
+23
+],
+"text": "Terms &Policies",
+"conf": 0.868
+},
+{
+"box": [
+64,
+22308,
+98,
+23
+],
+"text": "GPT-5.5",
+"conf": 0.837
+},
+{
+"box": [
+486,
+22313,
+157,
+29
+],
+"text": "API Platform",
+"conf": 0.879
+},
+{
+"box": [
+909,
+22313,
+139,
+31
+],
+"text": "Developers",
+"conf": 0.901
+},
+{
+"box": [
+1762,
+22309,
+154,
+22
+],
+"text": "Terms of Use",
+"conf": 0.874
+},
+{
+"box": [
+910,
+22376,
+149,
+29
+],
+"text": "Apps SDK ",
+"conf": 0.859
+},
+{
+"box": [
+488,
+22379,
+113,
+24
+],
+"text": "Overview",
+"conf": 0.888
+},
+{
+"box": [
+1756,
+22374,
+171,
+34
+],
+"text": "Privacy Policy",
+"conf": 0.88
+},
+{
+"box": [
+61,
+22423,
+83,
+33
+],
+"text": "Safety",
+"conf": 0.746
+},
+{
+"box": [
+486,
+22449,
+152,
+27
+],
+"text": "API Log In 7",
+"conf": 0.822
+},
+{
+"box": [
+913,
+22451,
+158,
+24
+],
+"text": "Open Models",
+"conf": 0.901
+},
+{
+"box": [
+1759,
+22448,
+169,
+26
+],
+"text": "Other Policies",
+"conf": 0.794
+},
+{
+"box": [
+64,
+22491,
+201,
+26
+],
+"text": "Safety Approach",
+"conf": 0.87
+},
+{
+"box": [
+486,
+22521,
+91,
+27
+],
+"text": "Docs 7",
+"conf": 0.774
+},
+{
+"box": [
+910,
+22520,
+91,
+28
+],
+"text": "Docs 7",
+"conf": 0.744
+},
+{
+"box": [
+65,
+22563,
+255,
+25
+],
+"text": "Deployment Safety 7",
+"conf": 0.852
+},
+{
+"box": [
+912,
+22592,
+152,
+27
+],
+"text": "Resources 7",
+"conf": 0.774
+},
+{
+"box": [
+64,
+22631,
+217,
+30
+],
+"text": "Security & Privacy",
+"conf": 0.897
+},
+{
+"box": [
+912,
+22663,
+233,
+26
+],
+"text": "Developer Forum 7",
+"conf": 0.895
+},
+{
+"box": [
+64,
+22702,
+252,
+31
+],
+"text": "Trust & Transparency",
+"conf": 0.891
+},
+{
+"box": [
+857,
+22923,
+519,
+28
+],
+"text": "OpenAl @ 2015-2026 Yourprivacy choices",
+"conf": 0.929
+},
+{
+"box": [
+228,
+22926,
+24,
+22
+],
+"text": "in",
+"conf": 0.574
+},
+{
+"box": [
+1810,
+22924,
+287,
+27
+],
+"text": "English United States",
+"conf": 0.888
+}
+]

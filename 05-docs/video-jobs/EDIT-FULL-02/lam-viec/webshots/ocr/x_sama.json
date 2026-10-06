@@ -1,0 +1,152 @@
+[
+{
+"box": [
+207,
+58,
+248,
+42
+],
+"text": "Sam Altman",
+"conf": 0.84
+},
+{
+"box": [
+211,
+121,
+314,
+45
+],
+"text": "@sama : Follow",
+"conf": 0.868
+},
+{
+"box": [
+56,
+233,
+364,
+43
+],
+"text": "Dots are here!",
+"conf": 0.844
+},
+{
+"box": [
+49,
+372,
+1512,
+59
+],
+"text": "A new way to use Al that works 24/7 for you; get more of",
+"conf": 0.929
+},
+{
+"box": [
+48,
+442,
+1423,
+63
+],
+"text": "your time and attention back to work at a higher level.",
+"conf": 0.921
+},
+{
+"box": [
+426,
+693,
+806,
+321
+],
+"text": "dots",
+"conf": 0.746
+},
+{
+"box": [
+91,
+1402,
+235,
+44
+],
+"text": "openai.com",
+"conf": 0.86
+},
+{
+"box": [
+94,
+1470,
+321,
+28
+],
+"text": "Introducina dots",
+"conf": 0.84
+},
+{
+"box": [
+89,
+1532,
+1396,
+47
+],
+"text": "Dots by OpenAl are proactive assistants that can keep working across",
+"conf": 0.926
+},
+{
+"box": [
+90,
+1592,
+1420,
+46
+],
+"text": "complex projects and everyday tasks. Learn how dots help you stay in ..",
+"conf": 0.918
+},
+{
+"box": [
+52,
+1718,
+457,
+39
+],
+"text": "1:01 AM : Sep 30, 2026",
+"conf": 0.849
+},
+{
+"box": [
+422,
+1835,
+114,
+52
+],
+"text": "Reply",
+"conf": 0.831
+},
+{
+"box": [
+144,
+1840,
+117,
+38
+],
+"text": "14.7K",
+"conf": 0.698
+},
+{
+"box": [
+686,
+1839,
+320,
+43
+],
+"text": "Copy link to post",
+"conf": 0.847
+},
+{
+"box": [
+661,
+1951,
+327,
+35
+],
+"text": "Read 2.1K replies",
+"conf": 0.817
+}
+]

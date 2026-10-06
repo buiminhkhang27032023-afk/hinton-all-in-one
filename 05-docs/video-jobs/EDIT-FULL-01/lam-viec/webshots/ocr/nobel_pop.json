@@ -1,0 +1,642 @@
+[
+{
+"box": [
+1045,
+44,
+97,
+42
+],
+"text": "THE",
+"conf": 0.734
+},
+{
+"box": [
+1020,
+90,
+156,
+38
+],
+"text": "NOBEL",
+"conf": 0.755
+},
+{
+"box": [
+1026,
+129,
+136,
+44
+],
+"text": "PRIZE",
+"conf": 0.83
+},
+{
+"box": [
+529,
+266,
+1143,
+34
+],
+"text": "Nobel Prizes & laureates About Stories Educational Events & museums",
+"conf": 0.919
+},
+{
+"box": [
+83,
+494,
+303,
+39
+],
+"text": "Nobel Prize in",
+"conf": 0.898
+},
+{
+"box": [
+633,
+487,
+926,
+99
+],
+"text": "Popular information",
+"conf": 0.846
+},
+{
+"box": [
+78,
+554,
+233,
+54
+],
+"text": "Chemistry",
+"conf": 0.831
+},
+{
+"box": [
+78,
+627,
+121,
+42
+],
+"text": "2024",
+"conf": 0.714
+},
+{
+"box": [
+636,
+678,
+409,
+29
+],
+"text": "Popular science background:",
+"conf": 0.895
+},
+{
+"box": [
+76,
+755,
+154,
+39
+],
+"text": "Summary",
+"conf": 0.738
+},
+{
+"box": [
+79,
+838,
+151,
+31
+],
+"text": "Laureates",
+"conf": 0.84
+},
+{
+"box": [
+635,
+834,
+474,
+29
+],
+"text": "Popularvetenskaplig information:",
+"conf": 0.925
+},
+{
+"box": [
+634,
+878,
+1299,
+31
+],
+"text": "De har avslojat proteinernas hemligheter med hjalp av datorer och artificiell intelligens (pdf)",
+"conf": 0.916
+},
+{
+"box": [
+128,
+917,
+171,
+29
+],
+"text": "David Baker",
+"conf": 0.839
+},
+{
+"box": [
+129,
+976,
+218,
+27
+],
+"text": "Demis Hassabis",
+"conf": 0.901
+},
+{
+"box": [
+752,
+987,
+137,
+34
+],
+"text": "KUNGL.",
+"conf": 0.791
+},
+{
+"box": [
+125,
+1032,
+192,
+35
+],
+"text": "John Jumper",
+"conf": 0.867
+},
+{
+"box": [
+755,
+1029,
+241,
+35
+],
+"text": "VETENSKAPS-",
+"conf": 0.872
+},
+{
+"box": [
+756,
+1073,
+234,
+33
+],
+"text": "AKADEMIEN",
+"conf": 0.819
+},
+{
+"box": [
+80,
+1111,
+317,
+32
+],
+"text": "Prize announcement",
+"conf": 0.836
+},
+{
+"box": [
+640,
+1122,
+348,
+17
+],
+"text": "THEROYALSVWEDISHACADEMYOFSCIENCES",
+"conf": 0.901
+},
+{
+"box": [
+80,
+1192,
+198,
+33
+],
+"text": "Press release",
+"conf": 0.845
+},
+{
+"box": [
+634,
+1201,
+1231,
+75
+],
+"text": "The Nobel Prize in Chemistry 2024",
+"conf": 0.854
+},
+{
+"box": [
+83,
+1275,
+303,
+30
+],
+"text": "Popular information",
+"conf": 0.883
+},
+{
+"box": [
+80,
+1354,
+162,
+33
+],
+"text": "Advanced",
+"conf": 0.856
+},
+{
+"box": [
+79,
+1404,
+183,
+33
+],
+"text": "information",
+"conf": 0.87
+},
+{
+"box": [
+634,
+1398,
+1368,
+41
+],
+"text": "Chemists have long dreamed of fully understanding and mastering the",
+"conf": 0.928
+},
+{
+"box": [
+640,
+1464,
+412,
+30
+],
+"text": "chemical tools of iife ",
+"conf": 0.849
+},
+{
+"box": [
+1668,
+1466,
+220,
+30
+],
+"text": "ithin reach",
+"conf": 0.83
+},
+{
+"box": [
+80,
+1485,
+265,
+36
+],
+"text": "Award ceremony",
+"conf": 0.833
+},
+{
+"box": [
+77,
+1531,
+117,
+42
+],
+"text": "speech",
+"conf": 0.857
+},
+{
+"box": [
+632,
+1529,
+1211,
+43
+],
+"text": "Demis Hassabis and John Jumper have successfully utilised",
+"conf": 0.919
+},
+{
+"box": [
+632,
+1595,
+1260,
+44
+],
+"text": "artificial intelligence to predict the structure of almost all known",
+"conf": 0.909
+},
+{
+"box": [
+79,
+1614,
+267,
+39
+],
+"text": "Award ceremony",
+"conf": 0.849
+},
+{
+"box": [
+77,
+1664,
+93,
+35
+],
+"text": "video",
+"conf": 0.833
+},
+{
+"box": [
+629,
+1659,
+1243,
+50
+],
+"text": "proteins. David Baker has learned how to master life's building",
+"conf": 0.928
+},
+{
+"box": [
+632,
+1729,
+1202,
+42
+],
+"text": "blocks and create entirely new proteins. The potential of their",
+"conf": 0.928
+},
+{
+"box": [
+80,
+1781,
+161,
+34
+],
+"text": "Share this",
+"conf": 0.803
+},
+{
+"box": [
+635,
+1794,
+481,
+41
+],
+"text": "discoveries is enormous.",
+"conf": 0.87
+},
+{
+"box": [
+288,
+1884,
+49,
+35
+],
+"text": "in",
+"conf": 0.59
+},
+{
+"box": [
+634,
+1974,
+1303,
+79
+],
+"text": "They have revealed proteins' secrets",
+"conf": 0.924
+},
+{
+"box": [
+630,
+2075,
+1179,
+76
+],
+"text": "through computing and artificial",
+"conf": 0.922
+},
+{
+"box": [
+631,
+2176,
+421,
+78
+],
+"text": "intelligence",
+"conf": 0.914
+},
+{
+"box": [
+631,
+2316,
+1348,
+36
+],
+"text": "How is the exuberant chemistry of life possible? The answer to this question is the existence",
+"conf": 0.91
+},
+{
+"box": [
+633,
+2366,
+1337,
+37
+],
+"text": "of proteins, which can be described as brilliant chemical tools. They are generally built from",
+"conf": 0.943
+},
+{
+"box": [
+634,
+2417,
+1371,
+33
+],
+"text": "2o amino acids that can be combined in endless ways. Using the information stored in DNA as",
+"conf": 0.925
+},
+{
+"box": [
+632,
+2464,
+1159,
+37
+],
+"text": "a blueprint, the amino acids are linked together in our cells to form long strings",
+"conf": 0.92
+},
+{
+"box": [
+635,
+2578,
+1354,
+36
+],
+"text": "Then the magic of proteins happens: the string of amino acids twists and folds into a distinct",
+"conf": 0.91
+},
+{
+"box": [
+637,
+2630,
+1310,
+32
+],
+"text": "- sometimes unique - three-dimensional structure (Figure 1). This structure is what gives",
+"conf": 0.917
+},
+{
+"box": [
+630,
+2673,
+1376,
+43
+],
+"text": "proteins their function. Some become chemical building blocks that can create muscles, horns",
+"conf": 0.951
+},
+{
+"box": [
+631,
+2722,
+1349,
+42
+],
+"text": "or feathers, while others may become hormones or antibodies. Many of them form enzymes,",
+"conf": 0.948
+},
+{
+"box": [
+632,
+2774,
+1333,
+37
+],
+"text": "which drive life's chemical reactions with astounding precision. The proteins that sit on the",
+"conf": 0.938
+},
+{
+"box": [
+634,
+2826,
+1375,
+33
+],
+"text": "surfaces of cells are also important, and function as communication channels between the cell",
+"conf": 0.917
+},
+{
+"box": [
+634,
+2873,
+306,
+37
+],
+"text": "and its surroundings.",
+"conf": 0.928
+},
+{
+"box": [
+634,
+3761,
+747,
+30
+],
+"text": "@ Johan Jarnestad/The Royal Swedish Academy of Sciences",
+"conf": 0.923
+},
+{
+"box": [
+633,
+3853,
+1357,
+34
+],
+"text": "It is hardly possible to overstate the potential encompassed by life's chemical building blocks,",
+"conf": 0.933
+},
+{
+"box": [
+632,
+3901,
+1244,
+36
+],
+"text": "these 2o amino acids. The Nobel Prize in Chemistry 2024 is about understanding and",
+"conf": 0.9
+},
+{
+"box": [
+633,
+3952,
+1302,
+33
+],
+"text": "mastering them at an entirely new level. One half of the prize goes to Demis Hassabis and",
+"conf": 0.916
+},
+{
+"box": [
+632,
+4001,
+1296,
+34
+],
+"text": "John Jumper, who have utilised artificial intelligence to successfully solve a problem that",
+"conf": 0.943
+},
+{
+"box": [
+634,
+4051,
+1290,
+33
+],
+"text": "chemists wrestled with for over 5o years: predicting the three-dimensional structure of a",
+"conf": 0.918
+},
+{
+"box": [
+632,
+4096,
+1312,
+40
+],
+"text": "protein from a sequence of amino acids. This has allowed them to predict the structure of",
+"conf": 0.942
+},
+{
+"box": [
+632,
+4147,
+1355,
+34
+],
+"text": "almost all 2oo million known proteins. The other half of the prize is awarded to David Baker.",
+"conf": 0.932
+},
+{
+"box": [
+630,
+4197,
+1272,
+37
+],
+"text": "He has developed computerised methods for achieving what many people believed was",
+"conf": 0.933
+},
+{
+"box": [
+633,
+4247,
+1301,
+34
+],
+"text": "impossible: creating proteins that did not previously exist and which, in many cases, have",
+"conf": 0.953
+}
+]

@@ -1,0 +1,18 @@
+[  0.00-  2.24] AI agents explained in three simple steps.
+[  2.70-  6.12] Level one, models, you give Chadji an input,
+[  6.38-  8.72] for example, write an email, and it gives you an output.
+[  9.22-  9.72] Easy stuff.
+[  9.98- 12.08] At this level, the LLM is passive
+[ 12.08- 13.96] and does not have access to tools.
+[ 14.34- 15.52] Level two,, AI workflows.
+[ 16.18- 19.02] You give Chadji BT access to a some like Google Calendar
+[ 19.02- 21.70] so that the LLM can manage your calendar
+[ 21.70- 23.06] based on your instructions.
+[ 23.50- 26.08] At this level, the LLM has access to tools,
+[ 26.24- 29.18] but it's still passive and requires your instructions.
+[ 29.18- 31.00] Level 3, AI agents.
+[ 31.42- 34.12] Instead of a prompt, you give the AI agent a goal.
+[ 34.48- 36.80] For example, manage my workplace calendar.
+[ 37.00- 38.92] The AI agent first performs reasoning
+[ 38.92- 41.38] to decide which meetings to accept or reject,
+[ 41.84- 45.16] then takes action by responding to the invitations.

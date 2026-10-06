@@ -1,0 +1,446 @@
+[
+  {
+    "name": "Bánh Đa Cua Bà Cụ",
+    "type": "restaurant",
+    "dish": "bánh đa cua (cua bể / thập cẩm)",
+    "address": "179 P. Cầu Đất",
+    "district": "Ngô Quyền / Gia Viên (khu Cầu Đất)",
+    "lat": 20.852665,
+    "lng": 106.685484,
+    "rating": 3.8,
+    "reviews": 1771,
+    "price": "khoảng 40.000–80.000đ/bát (tham khảo báo/blog); RG: VND 1–100.000/người",
+    "hours": "07:00–21:00 hàng ngày (RestaurantGuru / Exa)",
+    "reviews_quotes": [
+      {
+        "author": "DJ",
+        "stars": 5,
+        "text": "Delicious fried crab spring rolls and crab red noodle soup.",
+        "source_url": "https://restaurantguru.com/Banh-da-cua-be-Cau-Dat-Hai-Phong-3"
+      },
+      {
+        "author": "Anon (Exa/Google)",
+        "stars": 4,
+        "text": "Good crab springrolls and bun da cua. Enjoyed the food.",
+        "source_url": "https://exa.ai/library/place/bcx5s0ftq7b"
+      },
+      {
+        "author": "Anon (Exa/Google)",
+        "stars": 4,
+        "text": "Banh da cua soup is better than banh da cua mix.",
+        "source_url": "https://exa.ai/library/place/bcx5s0ftq7b"
+      }
+    ],
+    "source_url": "https://restaurantguru.com/Banh-da-cua-be-Cau-Dat-Hai-Phong-3",
+    "fetched_at": "2026-10-05",
+    "confidence": "high",
+    "notes": "Google rating/count qua RestaurantGuru (3.8/1771) và Exa (3.8/~1512). Lat/lng từ Exa (Google-derived). Quotation qua RG + Exa (trung gian)."
+  },
+  {
+    "name": "Quán Bánh đa Cua đồng Lạch Tray",
+    "type": "restaurant",
+    "dish": "bánh đa cua đồng thập cẩm",
+    "address": "48 Lạch Tray",
+    "district": "Ngô Quyền / Gia Viên",
+    "lat": 20.849074,
+    "lng": 106.693438,
+    "rating": 4.2,
+    "reviews": 1349,
+    "price": "khoảng VND 1–100.000/người (RestaurantGuru)",
+    "hours": "14:00–03:00 (RestaurantGuru — mở khuya)",
+    "reviews_quotes": [],
+    "source_url": "https://restaurantguru.com/Banh-da-cua-dong-Hai-Phong-2",
+    "fetched_at": "2026-10-05",
+    "confidence": "medium",
+    "notes": "Google 4.2/1349 qua RestaurantGuru. Lat/lng Nominatim cấp phố Lạch Tray (xấp xỉ). reviews_quotes=[] — RG chỉ hiện Food/Service sao, không câu chữ đầy đủ."
+  },
+  {
+    "name": "Bánh Mỳ Cay Bà Già",
+    "type": "restaurant",
+    "dish": "bánh mì que / bánh mì cay",
+    "address": "57A (57) P. Lê Lợi, Máy Tơ",
+    "district": "Ngô Quyền",
+    "lat": 20.858803,
+    "lng": 106.69303,
+    "rating": 4.3,
+    "reviews": 292,
+    "price": "khoảng 2.000–15.000đ (Foody); ~3k/chiếc theo một review Exa",
+    "hours": "06:30–20:00 (Exa); Foody ghi 07:00–22:30 — chưa đồng nhất",
+    "reviews_quotes": [
+      {
+        "author": "Anon (Exa/Google)",
+        "stars": 5,
+        "text": "Best Banh My Cay in town, I think. 3k each.",
+        "source_url": "https://exa.ai/library/place/vnpf2rr36nk"
+      },
+      {
+        "author": "Anon (Exa/Google)",
+        "stars": 5,
+        "text": "Always very crowded. Bread with pate; grill yourself.",
+        "source_url": "https://exa.ai/library/place/vnpf2rr36nk"
+      },
+      {
+        "author": "Giang N. (Foody)",
+        "stars": null,
+        "text": "Bánh nướng giòn, pate ngon, tương cay phết.",
+        "source_url": "https://www.foody.vn/hai-phong/ba-gia-banh-mi-cay-chinh-hieu/binh-luan"
+      }
+    ],
+    "source_url": "https://exa.ai/library/place/vnpf2rr36nk",
+    "fetched_at": "2026-10-05",
+    "confidence": "high",
+    "notes": "Site banhmycaybagia.com xác nhận 57A Lê Lợi. Rating Exa/Google 4.3/292."
+  },
+  {
+    "name": "Quán Nga Nem Cua Bể",
+    "type": "restaurant",
+    "dish": "nem cua bể",
+    "address": "92 P. Trần Nhật Duật, Cầu Đất",
+    "district": "Ngô Quyền / Gia Viên",
+    "lat": 20.855448,
+    "lng": 106.682695,
+    "rating": 3.9,
+    "reviews": 757,
+    "price": "tham khảo ~75.000–100.000đ (blog); hỏi lại tại quán",
+    "hours": "07:00–20:00 (Exa); blog khác ghi đến 22:00",
+    "reviews_quotes": [
+      {
+        "author": "Anon (Exa/Google)",
+        "stars": 5,
+        "text": "Nem cua be fresh, hot, crunchy, filled with crab.",
+        "source_url": "https://exa.ai/library/place/0dmswsmxx9g"
+      },
+      {
+        "author": "Anon (Exa/Google)",
+        "stars": 5,
+        "text": "Lovely little food place. Great bun cha; crab roll.",
+        "source_url": "https://exa.ai/library/place/0dmswsmxx9g"
+      },
+      {
+        "author": "Anon (Exa/Google)",
+        "stars": 3,
+        "text": "Crab roll is expensive and not all that special.",
+        "source_url": "https://exa.ai/library/place/0dmswsmxx9g"
+      }
+    ],
+    "source_url": "https://exa.ai/library/place/0dmswsmxx9g",
+    "fetched_at": "2026-10-05",
+    "confidence": "high",
+    "notes": "Exa 3.9/757; haiphongreview ~849 — số review có thể lệch theo thời điểm."
+  },
+  {
+    "name": "Nem Cua Bể Thuận Yến",
+    "type": "restaurant",
+    "dish": "nem cua bể",
+    "address": "88 P. Trần Nhật Duật (chợ Cố Đạo)",
+    "district": "Ngô Quyền / Gia Viên",
+    "lat": 20.855569,
+    "lng": 106.683478,
+    "rating": 4.6,
+    "reviews": 65,
+    "price": "nem ~70.000–80.000đ/cái; thịt nướng ~50.000đ (toididau / toplist)",
+    "hours": "06:00–19:00 (toididau / toplist)",
+    "reviews_quotes": [
+      {
+        "author": "Nguyen K. L.",
+        "stars": 5,
+        "text": "Nem to, nóng giòn, phục vụ chu đáo.",
+        "source_url": "https://toididau.net/place/nem-cua-be-thuan-yen/34734"
+      },
+      {
+        "author": "Do T. N. A.",
+        "stars": 5,
+        "text": "Nem nhiều cua, có thêm tôm trong nhân.",
+        "source_url": "https://toididau.net/place/nem-cua-be-thuan-yen/34734"
+      },
+      {
+        "author": "Anh D. N. N.",
+        "stars": 3,
+        "text": "Phục vụ chậm. Nước chấm hơi nhạt nhoà.",
+        "source_url": "https://toididau.net/place/nem-cua-be-thuan-yen/34734"
+      }
+    ],
+    "source_url": "https://toididau.net/place/nem-cua-be-thuan-yen/34734",
+    "fetched_at": "2026-10-05",
+    "confidence": "medium",
+    "notes": "Rating 4.6/65 theo haiphongreview; toplist ghi 4.0/65 — chưa xác minh trực tiếp Google Maps. Lat/lng Nominatim phố (xấp xỉ)."
+  },
+  {
+    "name": "Lẩu Cua Đồng Đất Cảng",
+    "type": "restaurant",
+    "dish": "lẩu cua đồng",
+    "address": "22 P. Dư Hàng",
+    "district": "Lê Chân",
+    "lat": 20.847661,
+    "lng": 106.679693,
+    "rating": 4.9,
+    "reviews": 287,
+    "price": "nồi lẩu tham khảo ~120.000đ (Tadiha); ~200.000–300.000đ/người tùy gọi thêm (Toplist)",
+    "hours": "10:00–22:30 hàng ngày (Exa/Google)",
+    "reviews_quotes": [
+      {
+        "author": "Anon (Exa/Google)",
+        "stars": 5,
+        "text": "Great crab broth",
+        "source_url": "https://exa.ai/library/place/1fh1zn30jn0"
+      },
+      {
+        "author": "Anon (Exa/Google)",
+        "stars": 5,
+        "text": "Đồ ăn ngon, phục vụ nhiệt tình, rcm mn nhé",
+        "source_url": "https://exa.ai/library/place/1fh1zn30jn0"
+      },
+      {
+        "author": "Van Anh L. T. (Tadiha)",
+        "stars": null,
+        "text": "Lẩu cua đồng ở đây ngon tuyệt cú mều luôn, 1 nồi đậm đà, nhiều gạch.",
+        "source_url": "https://tadiha.com/lau-cua-dong-dat-cang-pd31474.htm"
+      }
+    ],
+    "source_url": "https://exa.ai/library/place/1fh1zn30jn0",
+    "fetched_at": "2026-10-05",
+    "confidence": "medium",
+    "notes": "Exa/Google 4.9/287; lat/lng Exa. Toplist cảnh báo quán có ưu đãi khi review Google → điểm có thể lệch cao; trước đó Toplist ghi 4.0/59. Giữ medium. quotes Exa + Tadiha (không bịa)."
+  },
+  {
+    "name": "Bún Cá Cay 66 Lê Lợi",
+    "type": "restaurant",
+    "dish": "bún cá cay",
+    "address": "66 Lê Lợi",
+    "district": "Ngô Quyền",
+    "lat": 20.858832,
+    "lng": 106.692766,
+    "rating": 4.2,
+    "reviews": 264,
+    "price": "khoảng 20.000–40.000đ/bát (Tadiha/Exa quotes)",
+    "hours": "khoảng 06:00–18:00 (Foody/Tadiha; xác minh lại)",
+    "reviews_quotes": [
+      {
+        "author": "Thực khách",
+        "stars": 5,
+        "text": "Vừa ngon vừa rẻ, cá giòn rụm.",
+        "source_url": "https://exa.ai/library/place/t17m4m39rkf"
+      },
+      {
+        "author": "Thực khách",
+        "stars": 5,
+        "text": "Best BUN CA CAY Ever",
+        "source_url": "https://exa.ai/library/place/t17m4m39rkf"
+      }
+    ],
+    "source_url": "https://exa.ai/library/place/t17m4m39rkf",
+    "fetched_at": "2026-10-05",
+    "confidence": "medium",
+    "notes": "Exa 2026-10-05: 4.2★/264. Backup trung tâm; tuyến chốt dùng Bún cá miền duyên hải."
+  },
+  {
+    "name": "Bánh đúc tàu Cô Chuyền",
+    "type": "restaurant",
+    "dish": "bánh đúc tàu",
+    "address": "159 P. Hai Bà Trưng, An Biên",
+    "district": "Lê Chân",
+    "lat": 20.852667,
+    "lng": 106.677718,
+    "rating": 4.4,
+    "reviews": 198,
+    "price": "12.000–20.000đ/bát (VnExpress 2023; toididau ~15–20k)",
+    "hours": "06:30–17:00 hàng ngày (Exa/Google; toididau khớp)",
+    "reviews_quotes": [
+      {
+        "author": "Thực khách",
+        "stars": 5,
+        "text": "Friendly lady seller, good vibes, street food at best.",
+        "source_url": "https://exa.ai/library/place/wy2gy7qhr6t",
+        "note": "Quote qua Exa place library (Maps sync); không đọc được tên reviewer trên Maps UI limited view 2026-10-05"
+      },
+      {
+        "author": "Thực khách",
+        "stars": 5,
+        "text": "Cheap and delicious. The owners are very friendly.",
+        "source_url": "https://exa.ai/library/place/wy2gy7qhr6t",
+        "note": "Rút từ review dài hơn trên Exa (2020-11-27, 5★); Maps UI không hiện tab Reviews khi signed-out"
+      },
+      {
+        "author": "Trung K. L.",
+        "stars": 4,
+        "text": "Cô bán hàng rất vui vẻ nhiệt tình dù đông.",
+        "source_url": "https://toididau.net/place/banh-duc-tau-cat-dai-co-chuyen/184"
+      },
+      {
+        "author": "Tran N. Y.",
+        "stars": 5,
+        "text": "Ăn lạ lạ mà cũng rất ngon. Một bát 15k.",
+        "source_url": "https://toididau.net/place/banh-duc-tau-cat-dai-co-chuyen/184"
+      },
+      {
+        "author": "Anon (Exa/Google)",
+        "stars": 5,
+        "text": "Very unique I liked it! Very cheap too (15k one bowl).",
+        "source_url": "https://exa.ai/library/place/wy2gy7qhr6t"
+      }
+    ],
+    "source_url": "https://exa.ai/library/place/wy2gy7qhr6t",
+    "fetched_at": "2026-10-05",
+    "confidence": "high",
+    "notes": "Exa/Google 4.4/198; lat/lng Exa. VnExpress: Sở Du lịch HP đưa vào bản đồ món ngon. Quotes toididau + Exa."
+  },
+  {
+    "name": "Sủi dìn chè nóng Cô Út",
+    "type": "restaurant",
+    "dish": "sủi dìn / chè nóng",
+    "address": "163 P. Cầu Đất",
+    "district": "Ngô Quyền",
+    "lat": 20.852954,
+    "lng": 106.685123,
+    "rating": 4.4,
+    "reviews": 205,
+    "price": "khoảng 10.000–15.000đ/bát (Exa / HPBook ~15k)",
+    "hours": "15:00–23:59 (Exa); HPBook 15:00–22:00",
+    "reviews_quotes": [
+      {
+        "author": "Anon (Exa/Google)",
+        "stars": 5,
+        "text": "The best sui din! Syrup is not sickening sweet.",
+        "source_url": "https://exa.ai/library/place/0gj3k2qdzjl"
+      },
+      {
+        "author": "Anon (Exa/Google)",
+        "stars": 5,
+        "text": "Truly delicious. Sweet enough; warm for winter chill.",
+        "source_url": "https://exa.ai/library/place/0gj3k2qdzjl"
+      },
+      {
+        "author": "Anon (Exa/Google)",
+        "stars": 5,
+        "text": "Best in town.",
+        "source_url": "https://exa.ai/library/place/0gj3k2qdzjl"
+      }
+    ],
+    "source_url": "https://exa.ai/library/place/0gj3k2qdzjl",
+    "fetched_at": "2026-10-05",
+    "confidence": "high",
+    "notes": "Exa/Google 4.4/205. Gần Bà Cụ — hợp điểm tráng miệng tuyến Cầu Đất."
+  },
+  {
+    "name": "Ốc Thủy Dương (CS1 Lạch Tray)",
+    "type": "restaurant",
+    "dish": "ốc / nhậu hải sản (ốc hương, bullot, sò…)",
+    "address": "Số 30, ngõ 263 Lạch Tray (CS2: 23 Đông Khê)",
+    "district": "Ngô Quyền / Gia Viên (CS1)",
+    "lat": 20.831975,
+    "lng": 106.698969,
+    "rating": null,
+    "reviews": null,
+    "price": "CHƯA XÁC MINH menu đầy đủ; Tadiha nhắc nhóm 3 người >300k tùy món",
+    "hours": "15:00–22:00 mỗi ngày (octhuyduonghp.com)",
+    "reviews_quotes": [
+      {
+        "author": "Gio Bien (Tadiha)",
+        "stars": null,
+        "text": "Quán nằm trong ngõ nhỏ nhưng cực kì đông khách!",
+        "source_url": "https://tadiha.com/oc-thuy-duong-lach-tray-pd30655.htm"
+      },
+      {
+        "author": "Dieu L. (Tadiha)",
+        "stars": null,
+        "text": "Quán ốc khá lâu đời, nổi tiếng khắp foodtour Hải Phòng.",
+        "source_url": "https://tadiha.com/oc-thuy-duong-lach-tray-pd30655.htm"
+      }
+    ],
+    "source_url": "https://octhuyduonghp.com/",
+    "fetched_at": "2026-10-05",
+    "confidence": "low",
+    "notes": "Site tuyên bố '5★ Google' nhưng không xác minh số review → rating/reviews=null. Lat/lng Nominatim ngõ 263 (xấp xỉ)."
+  },
+  {
+    "name": "Nhà hát Lớn Hải Phòng",
+    "type": "landmark",
+    "dish": null,
+    "address": "Quảng trường Nhà Hát Lớn, Hoàng Văn Thụ",
+    "district": "Hồng Bàng",
+    "lat": 20.857122,
+    "lng": 106.681811,
+    "rating": null,
+    "reviews": null,
+    "price": null,
+    "hours": null,
+    "reviews_quotes": [],
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "fetched_at": "2026-10-05",
+    "confidence": "high",
+    "notes": "Pin phụ. Lat/lng OSM Nominatim."
+  },
+  {
+    "name": "TTTM Chợ Sắt",
+    "type": "landmark",
+    "dish": null,
+    "address": "Phan Bội Châu (khu Chợ Sắt)",
+    "district": "Hồng Bàng",
+    "lat": 20.855849,
+    "lng": 106.67095,
+    "rating": null,
+    "reviews": null,
+    "price": null,
+    "hours": null,
+    "reviews_quotes": [],
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "fetched_at": "2026-10-05",
+    "confidence": "medium",
+    "notes": "Pin phụ khu Cầu Rào / Chợ Sắt. OSM landuse=construction — tọa độ cấp khu vực, xấp xỉ."
+  },
+  {
+    "name": "Avani Harbour View Hotel",
+    "type": "hotel",
+    "dish": null,
+    "address": "Phố Trần Phú, Máy Tơ",
+    "district": "Ngô Quyền",
+    "lat": 20.864069,
+    "lng": 106.689622,
+    "rating": null,
+    "reviews": null,
+    "price": null,
+    "hours": null,
+    "reviews_quotes": [],
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "fetched_at": "2026-10-05",
+    "confidence": "high",
+    "notes": "Pin phụ khách sạn lớn trung tâm. Lat/lng OSM Nominatim."
+  },
+  {
+    "name": "Bún cá miền duyên hải",
+    "type": "restaurant",
+    "dish": "bún cá cay",
+    "address": "227 P. Văn Cao",
+    "district": "Ngô Quyền (An Khê)",
+    "lat": 20.834096,
+    "lng": 106.701893,
+    "rating": 4.5,
+    "reviews": 360,
+    "price": "khoảng 35.000đ/bát đặc biệt (quote Exa); bình dân",
+    "hours": "06:00–13:00 hằng ngày (Exa) — chú ý chỉ buổi sáng–trưa",
+    "reviews_quotes": [
+      {
+        "author": "Thực khách",
+        "stars": 5,
+        "text": "The food tasted excellent and the price was good",
+        "source_url": "https://exa.ai/library/place/p7448cz6kfj"
+      },
+      {
+        "author": "Thực khách",
+        "stars": 4,
+        "text": "Soup is good, and the fish is crispy.",
+        "source_url": "https://exa.ai/library/place/p7448cz6kfj"
+      },
+      {
+        "author": "Thực khách",
+        "stars": 5,
+        "text": "Generous serving for 35k I loved it!",
+        "source_url": "https://exa.ai/library/place/p7448cz6kfj"
+      }
+    ],
+    "source_url": "https://exa.ai/library/place/p7448cz6kfj",
+    "fetched_at": "2026-10-05",
+    "confidence": "medium",
+    "notes": "Rating/quotes/hours/coords từ Exa place library 2026-10-05. Popular times còn hiện tối — giờ mở Exa ghi đến 13:00; xác minh lại lúc quay."
+  }
+]

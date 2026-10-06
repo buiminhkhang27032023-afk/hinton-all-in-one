@@ -1,0 +1,1882 @@
+[
+ {
+  "tag": "P",
+  "x": 229.9375,
+  "y": 12.796875,
+  "w": 749.109375,
+  "h": 22.390625,
+  "text": "Disrupt doors open Oct. 13. Get your pass and bring someone with you at 50% off. REGISTER NOW."
+ },
+ {
+  "tag": "FIGURE",
+  "x": 41,
+  "y": 74,
+  "w": 149,
+  "h": 16,
+  "text": "TechCrunch Desktop Logo"
+ },
+ {
+  "tag": "IMG",
+  "x": 41,
+  "y": 74,
+  "w": 149,
+  "h": 16,
+  "text": ""
+ },
+ {
+  "tag": "LI",
+  "x": 308.296875,
+  "y": 70.796875,
+  "w": 51.390625,
+  "h": 22.390625,
+  "text": "Latest"
+ },
+ {
+  "tag": "LI",
+  "x": 371.6875,
+  "y": 70.796875,
+  "w": 70.25,
+  "h": 22.390625,
+  "text": "Startups"
+ },
+ {
+  "tag": "LI",
+  "x": 453.9375,
+  "y": 70.796875,
+  "w": 63.171875,
+  "h": 22.390625,
+  "text": "Venture"
+ },
+ {
+  "tag": "LI",
+  "x": 529.109375,
+  "y": 70.796875,
+  "w": 46.578125,
+  "h": 22.390625,
+  "text": "Apple"
+ },
+ {
+  "tag": "LI",
+  "x": 587.6875,
+  "y": 70.796875,
+  "w": 67.65625,
+  "h": 22.390625,
+  "text": "Security"
+ },
+ {
+  "tag": "LI",
+  "x": 695.578125,
+  "y": 70.796875,
+  "w": 41.046875,
+  "h": 22.390625,
+  "text": "Apps"
+ },
+ {
+  "tag": "LI",
+  "x": 748.625,
+  "y": 70.796875,
+  "w": 104.09375,
+  "h": 22.390625,
+  "text": "Disrupt 2026"
+ },
+ {
+  "tag": "P",
+  "x": 67,
+  "y": 197.59375,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Latest"
+ },
+ {
+  "tag": "P",
+  "x": 67,
+  "y": 243.984375,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "AI"
+ },
+ {
+  "tag": "P",
+  "x": 67,
+  "y": 290.375,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Amazon"
+ },
+ {
+  "tag": "P",
+  "x": 67,
+  "y": 336.765625,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Apps"
+ },
+ {
+  "tag": "P",
+  "x": 67,
+  "y": 383.15625,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Biotech & Health"
+ },
+ {
+  "tag": "P",
+  "x": 67,
+  "y": 429.546875,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Climate"
+ },
+ {
+  "tag": "P",
+  "x": 67,
+  "y": 475.9375,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Cloud Computing"
+ },
+ {
+  "tag": "P",
+  "x": 67,
+  "y": 522.328125,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Commerce"
+ },
+ {
+  "tag": "P",
+  "x": 67,
+  "y": 568.71875,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Crypto"
+ },
+ {
+  "tag": "P",
+  "x": 67,
+  "y": 615.109375,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Enterprise"
+ },
+ {
+  "tag": "P",
+  "x": 67,
+  "y": 661.5,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "EVs"
+ },
+ {
+  "tag": "P",
+  "x": 67,
+  "y": 707.890625,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Fintech"
+ },
+ {
+  "tag": "P",
+  "x": 67,
+  "y": 754.28125,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Fundraising"
+ },
+ {
+  "tag": "P",
+  "x": 67,
+  "y": 800.671875,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Gadgets"
+ },
+ {
+  "tag": "P",
+  "x": 67,
+  "y": 847.0625,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Gaming"
+ },
+ {
+  "tag": "P",
+  "x": 67,
+  "y": 893.453125,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Google"
+ },
+ {
+  "tag": "P",
+  "x": 67,
+  "y": 939.84375,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Government & Policy"
+ },
+ {
+  "tag": "P",
+  "x": 448.71875,
+  "y": 197.59375,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Hardware"
+ },
+ {
+  "tag": "P",
+  "x": 448.71875,
+  "y": 243.984375,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Instagram"
+ },
+ {
+  "tag": "P",
+  "x": 448.71875,
+  "y": 290.375,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Layoffs"
+ },
+ {
+  "tag": "P",
+  "x": 448.71875,
+  "y": 336.765625,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Media & Entertainment"
+ },
+ {
+  "tag": "P",
+  "x": 448.71875,
+  "y": 383.15625,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Meta"
+ },
+ {
+  "tag": "P",
+  "x": 448.71875,
+  "y": 429.546875,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Microsoft"
+ },
+ {
+  "tag": "P",
+  "x": 448.71875,
+  "y": 475.9375,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Privacy"
+ },
+ {
+  "tag": "P",
+  "x": 448.71875,
+  "y": 522.328125,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Robotics"
+ },
+ {
+  "tag": "P",
+  "x": 448.71875,
+  "y": 568.71875,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Security"
+ },
+ {
+  "tag": "P",
+  "x": 448.71875,
+  "y": 615.109375,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Social"
+ },
+ {
+  "tag": "P",
+  "x": 448.71875,
+  "y": 661.5,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Space"
+ },
+ {
+  "tag": "P",
+  "x": 448.71875,
+  "y": 707.890625,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Startups"
+ },
+ {
+  "tag": "P",
+  "x": 448.71875,
+  "y": 754.28125,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "TikTok"
+ },
+ {
+  "tag": "P",
+  "x": 448.71875,
+  "y": 800.671875,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Transportation"
+ },
+ {
+  "tag": "P",
+  "x": 448.71875,
+  "y": 847.0625,
+  "w": 353.71875,
+  "h": 22.390625,
+  "text": "Venture"
+ },
+ {
+  "tag": "P",
+  "x": 854.390625,
+  "y": 225.1875,
+  "w": 181.609375,
+  "h": 22.390625,
+  "text": "Staff"
+ },
+ {
+  "tag": "P",
+  "x": 854.390625,
+  "y": 271.578125,
+  "w": 181.609375,
+  "h": 22.390625,
+  "text": "Events"
+ },
+ {
+  "tag": "P",
+  "x": 854.390625,
+  "y": 317.96875,
+  "w": 181.609375,
+  "h": 22.390625,
+  "text": "Startup Battlefield"
+ },
+ {
+  "tag": "P",
+  "x": 854.390625,
+  "y": 364.359375,
+  "w": 181.609375,
+  "h": 22.390625,
+  "text": "StrictlyVC"
+ },
+ {
+  "tag": "P",
+  "x": 854.390625,
+  "y": 410.75,
+  "w": 181.609375,
+  "h": 22.390625,
+  "text": "Newsletters"
+ },
+ {
+  "tag": "P",
+  "x": 854.390625,
+  "y": 457.140625,
+  "w": 181.609375,
+  "h": 22.390625,
+  "text": "Podcasts"
+ },
+ {
+  "tag": "P",
+  "x": 854.390625,
+  "y": 503.53125,
+  "w": 181.609375,
+  "h": 22.390625,
+  "text": "Videos"
+ },
+ {
+  "tag": "P",
+  "x": 854.390625,
+  "y": 549.921875,
+  "w": 181.609375,
+  "h": 22.390625,
+  "text": "Partner Content"
+ },
+ {
+  "tag": "P",
+  "x": 854.390625,
+  "y": 596.3125,
+  "w": 181.609375,
+  "h": 22.390625,
+  "text": "TechCrunch Brand Studio"
+ },
+ {
+  "tag": "P",
+  "x": 854.390625,
+  "y": 642.703125,
+  "w": 181.609375,
+  "h": 22.390625,
+  "text": "Contact Us"
+ },
+ {
+  "tag": "FIGURE",
+  "x": 0,
+  "y": 366,
+  "w": 473,
+  "h": 620,
+  "text": "IMAGE CREDITS:\nOPENAI"
+ },
+ {
+  "tag": "IMG",
+  "x": 0,
+  "y": 366,
+  "w": 473,
+  "h": 620,
+  "text": "ChatGPT"
+ },
+ {
+  "tag": "FIGCAPTION",
+  "x": 0,
+  "y": 986,
+  "w": 473,
+  "h": 40,
+  "text": "IMAGE CREDITS:\nOPENAI"
+ },
+ {
+  "tag": "H1",
+  "x": 583,
+  "y": 663.546875,
+  "w": 493,
+  "h": 121.5,
+  "text": "OpenAI launches visual ads that appear alongside image generation results"
+ },
+ {
+  "tag": "TIME",
+  "x": 686.75,
+  "y": 915.09375,
+  "w": 211.28125,
+  "h": 16,
+  "text": "8:14 AM PDT · October 5, 2026"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 1106,
+  "w": 665,
+  "h": 132.96875,
+  "text": "ChatGPT is getting more ads. Specifically, OpenAI is adding visual display ads to its ad product line-up so that ads will appear alongside images that users ask"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 1262.96875,
+  "w": 665,
+  "h": 106.375,
+  "text": "The new ads will begin to appear later this month in the U.S. only for now, and will feature products and services from an initial test group of advertisers. Th"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 1393.34375,
+  "w": 665,
+  "h": 53.1875,
+  "text": "The move follows the launch of Meta’s Muse, an agentic AI app which is free to everyone and a growing competitor for leading AI chatbots, like ChatGPT."
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 1470.53125,
+  "w": 665,
+  "h": 53.1875,
+  "text": "OpenAI introduced ads earlier this year to support its free and low-cost subscription tiers, and expanded them to India in August."
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 1547.71875,
+  "w": 665,
+  "h": 106.375,
+  "text": "Now, the plan is to woo online advertisers who want to appeal to their potential customers by using more visual imagery to tell their stories. Eventually, those"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 1678.09375,
+  "w": 665,
+  "h": 79.78125,
+  "text": "However, integrating such ads could also prove disruptive to the user experience. But perhaps that’s partly the point, as the ads could push more casual users t"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 1781.875,
+  "w": 665,
+  "h": 132.96875,
+  "text": "Alongside the display ads, OpenAI said it is expanding its measurement tools and partner ecosystem, which now includes click attribution solutions, AppsFlyer, T"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 1938.84375,
+  "w": 665,
+  "h": 53.1875,
+  "text": "OpenAI has also partnered with Haus, Measured, and WorkMagic to help advertisers explore “geo-based” experiments around ads."
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 2016.03125,
+  "w": 665,
+  "h": 79.78125,
+  "text": "The company said it’s working on developing brand suitability evaluation pilots with help from DoubleVerify (DV) and Integral Ad Science (IAS), which will help "
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 2119.8125,
+  "w": 665,
+  "h": 53.1875,
+  "text": "Combined, the moves see OpenAI working to make ChatGPT a viable ad-supported business for those on free and low-cost plans."
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 2197,
+  "w": 58.8125,
+  "h": 40,
+  "text": "Topics"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 2261,
+  "w": 665,
+  "h": 36.375,
+  "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence."
+ },
+ {
+  "tag": "IMG",
+  "x": 21,
+  "y": 2453.375,
+  "w": 48,
+  "h": 48,
+  "text": "Sarah Perez"
+ },
+ {
+  "tag": "P",
+  "x": 81,
+  "y": 2482.328125,
+  "w": 154.421875,
+  "h": 16.890625,
+  "text": "Consumer News Editor"
+ },
+ {
+  "tag": "IMG",
+  "x": 806,
+  "y": 1156,
+  "w": 99,
+  "h": 20.53125,
+  "text": "Event Logo"
+ },
+ {
+  "tag": "P",
+  "x": 806,
+  "y": 1210.53125,
+  "w": 264,
+  "h": 168.90625,
+  "text": "\nGet 50% off a second pass\n\nThe Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by"
+ },
+ {
+  "tag": "H2",
+  "x": 804,
+  "y": 1507.5,
+  "w": 164,
+  "h": 73.65625,
+  "text": "Most Popular"
+ },
+ {
+  "tag": "LI",
+  "x": 804,
+  "y": 1608.328125,
+  "w": 268,
+  "h": 90.5625,
+  "text": "At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI\n"
+ },
+ {
+  "tag": "P",
+  "x": 828,
+  "y": 1608.328125,
+  "w": 244,
+  "h": 57.5625,
+  "text": "At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI\n"
+ },
+ {
+  "tag": "LI",
+  "x": 804,
+  "y": 1698.890625,
+  "w": 268,
+  "h": 90.5625,
+  "text": "Federal judge calls Flock ‘indiscriminate mass surveillance’\n"
+ },
+ {
+  "tag": "P",
+  "x": 828,
+  "y": 1698.890625,
+  "w": 244,
+  "h": 57.5625,
+  "text": "Federal judge calls Flock ‘indiscriminate mass surveillance’\n"
+ },
+ {
+  "tag": "LI",
+  "x": 804,
+  "y": 1789.453125,
+  "w": 268,
+  "h": 90.5625,
+  "text": "Amazon responds to data center backlash, says it no longer uses NDAs\n"
+ },
+ {
+  "tag": "P",
+  "x": 828,
+  "y": 1789.453125,
+  "w": 244,
+  "h": 57.5625,
+  "text": "Amazon responds to data center backlash, says it no longer uses NDAs\n"
+ },
+ {
+  "tag": "LI",
+  "x": 804,
+  "y": 1880.015625,
+  "w": 268,
+  "h": 109.75,
+  "text": "Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground\n"
+ },
+ {
+  "tag": "P",
+  "x": 828,
+  "y": 1880.015625,
+  "w": 244,
+  "h": 76.75,
+  "text": "Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground\n"
+ },
+ {
+  "tag": "LI",
+  "x": 804,
+  "y": 1989.765625,
+  "w": 268,
+  "h": 90.5625,
+  "text": "World’s first enhanced geothermal power plant completed in just 23 months\n"
+ },
+ {
+  "tag": "P",
+  "x": 828,
+  "y": 1989.765625,
+  "w": 244,
+  "h": 57.5625,
+  "text": "World’s first enhanced geothermal power plant completed in just 23 months\n"
+ },
+ {
+  "tag": "LI",
+  "x": 804,
+  "y": 2080.328125,
+  "w": 268,
+  "h": 90.5625,
+  "text": "Google releases Gemini 4 Argon, called its most powerful model yet\n"
+ },
+ {
+  "tag": "P",
+  "x": 828,
+  "y": 2080.328125,
+  "w": 244,
+  "h": 57.5625,
+  "text": "Google releases Gemini 4 Argon, called its most powerful model yet\n"
+ },
+ {
+  "tag": "LI",
+  "x": 804,
+  "y": 2170.890625,
+  "w": 268,
+  "h": 76.75,
+  "text": "The Pentagon taps Elon Musk and Palmer Luckey to help decide what the military should do next\n"
+ },
+ {
+  "tag": "P",
+  "x": 828,
+  "y": 2170.890625,
+  "w": 244,
+  "h": 76.75,
+  "text": "The Pentagon taps Elon Musk and Palmer Luckey to help decide what the military should do next\n"
+ },
+ {
+  "tag": "FIGURE",
+  "x": 0,
+  "y": 2699.140625,
+  "w": 473,
+  "h": 620,
+  "text": "IMAGE CREDITS:\nSAMUEL BOIVIN/NURPHOTO / GETTY IMAGES"
+ },
+ {
+  "tag": "IMG",
+  "x": 0,
+  "y": 2699.140625,
+  "w": 473,
+  "h": 620,
+  "text": "The ChatGPT application icon is displayed on a smartphone screen."
+ },
+ {
+  "tag": "FIGCAPTION",
+  "x": 0,
+  "y": 3319.140625,
+  "w": 473,
+  "h": 40,
+  "text": "IMAGE CREDITS:\nSAMUEL BOIVIN/NURPHOTO / GETTY IMAGES"
+ },
+ {
+  "tag": "H1",
+  "x": 583,
+  "y": 2996.6875,
+  "w": 493,
+  "h": 121.5,
+  "text": "OpenAI will start watermarking ChatGPT’s text in the EU"
+ },
+ {
+  "tag": "TIME",
+  "x": 695.53125,
+  "y": 3248.234375,
+  "w": 210.1875,
+  "h": 16,
+  "text": "1:36 PM PDT · October 5, 2026"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 3439.140625,
+  "w": 665,
+  "h": 79.78125,
+  "text": "OpenAI will start adding an invisible watermark to text generated by ChatGPT and Codex in the European Union to comply with the EU AI Act, the company said Mond"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 3542.921875,
+  "w": 665,
+  "h": 53.1875,
+  "text": "The EU AI Act’s transparency rules, which took effect on August 2, require AI companies to mark AI-generated content in a way other systems can identify."
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 3620.109375,
+  "w": 665,
+  "h": 132.96875,
+  "text": "OpenAI said the watermark will roll out over the coming weeks to eligible ChatGPT and Codex users on all plans, but only in the EU. Developers using OpenAI’s AP"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 3777.078125,
+  "w": 665,
+  "h": 159.5625,
+  "text": "The watermark is not an actual symbol, but works by subtly shaping the model’s word choices, leaving a pattern readers can’t see, but a detector can pick up. Be"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 3960.640625,
+  "w": 665,
+  "h": 159.5625,
+  "text": "OpenAI also published a technical report for its method, called textGrain, alongside the announcement. Co-written with researchers from the University of Pennsy"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 4144.203125,
+  "w": 665,
+  "h": 106.375,
+  "text": "Can the watermark be removed by editing? OpenAI’s tests suggest yes. In one test, replacing 10% of words with synonyms dropped detection from about 92% to 66%. "
+ },
+ {
+  "tag": "FIGURE",
+  "x": 47.5,
+  "y": 4274.578125,
+  "w": 665,
+  "h": 566.3125,
+  "text": "IMAGE CREDITS:OPENAI\n(OPENS IN A NEW WINDOW)"
+ },
+ {
+  "tag": "IMG",
+  "x": 47.5,
+  "y": 4274.578125,
+  "w": 665,
+  "h": 534.921875,
+  "text": ""
+ },
+ {
+  "tag": "FIGCAPTION",
+  "x": 47.5,
+  "y": 4825.5,
+  "w": 665,
+  "h": 15.390625,
+  "text": "IMAGE CREDITS:OPENAI\n(OPENS IN A NEW WINDOW)"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 4864.890625,
+  "w": 665,
+  "h": 79.78125,
+  "text": "“These limitations contribute to our decision to provide initial detector access only to approved researchers and expert organizations, who can help us evaluate"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 4968.671875,
+  "w": 665,
+  "h": 79.78125,
+  "text": "OpenAI also cautioned that a missing watermark “does not prove human authorship.” The text could be too short or too heavily edited, or it could come from anoth"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 5072.453125,
+  "w": 665,
+  "h": 79.78125,
+  "text": "“[Watermarks] can indicate that an OpenAI system generated or processed part of a passage, but not how much human judgment, editing, or creativity went into it,"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 5176.234375,
+  "w": 665,
+  "h": 132.96875,
+  "text": "The announcement comes two months after Anthropic said it would watermark text generated by Claude, a move it’s applying worldwide. That decision drew backlash "
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 5333.203125,
+  "w": 665,
+  "h": 79.78125,
+  "text": "OpenAI had built a text watermark before but held off on releasing it, partly over concerns that users would switch to rivals that didn’t watermark, The Wall St"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 5436.984375,
+  "w": 665,
+  "h": 79.78125,
+  "text": "Anthropic, Google, Meta, Microsoft, and OpenAI are among the companies that have committed to following the EU’s code of practice on AI-generated content."
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 5540.765625,
+  "w": 58.8125,
+  "h": 92,
+  "text": "Topics"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 5656.765625,
+  "w": 665,
+  "h": 36.375,
+  "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence."
+ },
+ {
+  "tag": "IMG",
+  "x": 21,
+  "y": 5849.140625,
+  "w": 48,
+  "h": 48,
+  "text": "Aditya Mehta"
+ },
+ {
+  "tag": "P",
+  "x": 81,
+  "y": 5878.09375,
+  "w": 104.21875,
+  "h": 16.890625,
+  "text": "Editorial Fellow"
+ },
+ {
+  "tag": "P",
+  "x": 780,
+  "y": 3586.734375,
+  "w": 316,
+  "h": 44.78125,
+  "text": "Subscribe for the industry’s biggest tech news"
+ },
+ {
+  "tag": "P",
+  "x": 794,
+  "y": 3689.90625,
+  "w": 288,
+  "h": 44.78125,
+  "text": "Every weekday and Sunday, you can get the best of TechCrunch’s coverage."
+ },
+ {
+  "tag": "P",
+  "x": 794,
+  "y": 3789.078125,
+  "w": 288,
+  "h": 44.78125,
+  "text": "Startups are the core of TechCrunch, so get our best coverage delivered weekly."
+ },
+ {
+  "tag": "P",
+  "x": 794,
+  "y": 3888.25,
+  "w": 288,
+  "h": 44.78125,
+  "text": "Get the best of our coverage, delivered to your inbox every Saturday."
+ },
+ {
+  "tag": "P",
+  "x": 794,
+  "y": 3987.421875,
+  "w": 288,
+  "h": 44.78125,
+  "text": "TechCrunch Mobility is your destination for transportation news and insight."
+ },
+ {
+  "tag": "P",
+  "x": 890.15625,
+  "y": 4160.984375,
+  "w": 205.84375,
+  "h": 54.5625,
+  "text": "By submitting your email, you agree to our Terms and Privacy Notice."
+ },
+ {
+  "tag": "FIGURE",
+  "x": 0,
+  "y": 6094.90625,
+  "w": 473,
+  "h": 620,
+  "text": "IMAGE CREDITS:\nHOT GIRL HOTLINE"
+ },
+ {
+  "tag": "IMG",
+  "x": 0,
+  "y": 6094.90625,
+  "w": 473,
+  "h": 620,
+  "text": ""
+ },
+ {
+  "tag": "FIGCAPTION",
+  "x": 0,
+  "y": 6714.90625,
+  "w": 473,
+  "h": 40,
+  "text": "IMAGE CREDITS:\nHOT GIRL HOTLINE"
+ },
+ {
+  "tag": "H1",
+  "x": 583,
+  "y": 6412.703125,
+  "w": 493,
+  "h": 81,
+  "text": "Hot Girl Hotline is like ‘Dear Abby’ for the AI era"
+ },
+ {
+  "tag": "TIME",
+  "x": 686.75,
+  "y": 6637.25,
+  "w": 220.59375,
+  "h": 16,
+  "text": "10:29 AM PDT · October 5, 2026"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 6834.90625,
+  "w": 665,
+  "h": 132.96875,
+  "text": "Women throughout history have always sought out relationship advice, whether from newspaper columnists like “Dear Abby,” letters to Cosmo, or just chatting with"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 6991.875,
+  "w": 665,
+  "h": 53.1875,
+  "text": "Now, two sisters are launching a startup for young women, Hot Girl Hotline, which focuses on bringing AI into these conversations."
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 7069.0625,
+  "w": 665,
+  "h": 79.78125,
+  "text": "I know what you may be thinking: With all the advances in AI technology, founders are building something for women to talk about their dating woes? Well … yes!"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 7172.84375,
+  "w": 665,
+  "h": 79.78125,
+  "text": "The reality is that people have already been turning to large language models (LLMs) via apps like ChatGPT for this type of advice, and the team believes this t"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 7276.625,
+  "w": 665,
+  "h": 159.5625,
+  "text": "Unfortunately, as we’ve seen, chatting with a general-purpose chatbot about personal topics can sometimes lead to disastrous effects — especially for those who "
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 7460.1875,
+  "w": 665,
+  "h": 79.78125,
+  "text": "The idea behind Hot Girl Hotline is to reach young women who are looking to have these sorts of private conversations while navigating dating life and relations"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 7563.96875,
+  "w": 665,
+  "h": 132.96875,
+  "text": "“We’re not trying to be an AI companion,” explained Baila Mudgil, formerly a social media consultant, who co-founded the startup with her sister Sumrin (“Sumi”)"
+ },
+ {
+  "tag": "FIGURE",
+  "x": 54.140625,
+  "y": 7720.9375,
+  "w": 651.71875,
+  "h": 711.390625,
+  "text": "HOT GIRL HOTLINE FOUNDERS, SUMRIN AND BAILA MUDGIL.\nIMAGE CREDITS:HOT GIRL HOTLINE"
+ },
+ {
+  "tag": "IMG",
+  "x": 54.140625,
+  "y": 7720.9375,
+  "w": 496,
+  "h": 680,
+  "text": ""
+ },
+ {
+  "tag": "FIGCAPTION",
+  "x": 54.140625,
+  "y": 8416.9375,
+  "w": 651.71875,
+  "h": 15.390625,
+  "text": "HOT GIRL HOTLINE FOUNDERS, SUMRIN AND BAILA MUDGIL.\nIMAGE CREDITS:HOT GIRL HOTLINE"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 8456.328125,
+  "w": 665,
+  "h": 106.375,
+  "text": "Baila says the startup’s approach is to focus on offering quality advice grounded in behavioral science, but in a way that makes it feel like you’re chatting wi"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 8586.703125,
+  "w": 665,
+  "h": 106.375,
+  "text": "“This is not to replace speaking to a human. This is not clinical advice, and we have a lot of safeguards in place … we take safety really seriously,” Baila sai"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 8717.078125,
+  "w": 665,
+  "h": 53.1875,
+  "text": "“We believe the key to quality advice is not just knowing what to do next; it’s understanding why you’re doing it. So that’s a big piece of it,” added Sumi."
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 8943.265625,
+  "w": 665,
+  "h": 106.375,
+  "text": "Notably, the AI also knows when to end the conversation; it doesn’t keep asking follow-up questions to drag you further down a rabbit hole. Instead, it pushes u"
+ },
+ {
+  "tag": "FIGURE",
+  "x": 223.5,
+  "y": 9073.640625,
+  "w": 313,
+  "h": 711.390625,
+  "text": "IMAGE CREDITS:HOT GIRL HOTLINE"
+ },
+ {
+  "tag": "IMG",
+  "x": 223.5,
+  "y": 9073.640625,
+  "w": 313,
+  "h": 680,
+  "text": ""
+ },
+ {
+  "tag": "FIGCAPTION",
+  "x": 223.5,
+  "y": 9769.640625,
+  "w": 313,
+  "h": 15.390625,
+  "text": "IMAGE CREDITS:HOT GIRL HOTLINE"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 9809.03125,
+  "w": 665,
+  "h": 79.78125,
+  "text": "The sisters believe there’s room for an app like this because not everyone wants to post on the web for advice, and there are times when you don’t want to bring"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 9912.8125,
+  "w": 665,
+  "h": 79.78125,
+  "text": "Friends can bring their own biases into the conversation, or the user may not want to put their partner on blast for something they did before they determine wh"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 10016.59375,
+  "w": 665,
+  "h": 53.1875,
+  "text": "“It doesn’t mean you’re replacing your friend — you’re just trying to get another perspective,” says Baila of the hotline."
+ },
+ {
+  "tag": "FIGURE",
+  "x": 223.5,
+  "y": 10093.78125,
+  "w": 313,
+  "h": 711.390625,
+  "text": "IMAGE CREDITS:HOT GIRL HOTLINE"
+ },
+ {
+  "tag": "IMG",
+  "x": 223.5,
+  "y": 10093.78125,
+  "w": 313,
+  "h": 680,
+  "text": ""
+ },
+ {
+  "tag": "FIGCAPTION",
+  "x": 223.5,
+  "y": 10789.78125,
+  "w": 313,
+  "h": 15.390625,
+  "text": "IMAGE CREDITS:HOT GIRL HOTLINE"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 10829.171875,
+  "w": 665,
+  "h": 53.1875,
+  "text": "The app also personalizes its advice for each user to reflect their values, goals, identity, and tastes."
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 10906.359375,
+  "w": 665,
+  "h": 106.375,
+  "text": "Under the hood, the startup relies on a mix of AI models and encrypts users’ data in transit and at rest. It doesn’t sell or train on the data, either. When it "
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 11036.734375,
+  "w": 665,
+  "h": 79.78125,
+  "text": "Hot Girl Hotline plans to monetize through a $9.99 per month subscription, which hundreds of its most active users are already paying for. Later, it may incorpo"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 11140.515625,
+  "w": 665,
+  "h": 79.78125,
+  "text": "Relationship advice is just the beginning of how the company wants to cater to young women. It also plans to expand into other areas, like beauty and lifestyle."
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 11244.296875,
+  "w": 665,
+  "h": 79.78125,
+  "text": "New York-based Hot Girl Hotline is currently bootstrapped and will be participating in the Startup Battlefield 200 at TechCrunch Disrupt 2026, taking place Octo"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 11372.078125,
+  "w": 58.8125,
+  "h": 40,
+  "text": "Topics"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 11436.078125,
+  "w": 665,
+  "h": 36.375,
+  "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence."
+ },
+ {
+  "tag": "IMG",
+  "x": 21,
+  "y": 11628.453125,
+  "w": 48,
+  "h": 48,
+  "text": "Sarah Perez"
+ },
+ {
+  "tag": "P",
+  "x": 81,
+  "y": 11657.40625,
+  "w": 154.421875,
+  "h": 16.890625,
+  "text": "Consumer News Editor"
+ },
+ {
+  "tag": "H2",
+  "x": 780,
+  "y": 6894.34375,
+  "w": 142.234375,
+  "h": 25.296875,
+  "text": "Latest in Apps"
+ },
+ {
+  "tag": "LI",
+  "x": 780,
+  "y": 6955.09375,
+  "w": 316,
+  "h": 129.171875,
+  "text": "APPS\nTikTok rolls out an AI shopping assistant and one-click checkout\nAisha Malik\n7 hours ago"
+ },
+ {
+  "tag": "FIGURE",
+  "x": 780,
+  "y": 6987.09375,
+  "w": 80,
+  "h": 60,
+  "text": ""
+ },
+ {
+  "tag": "IMG",
+  "x": 780,
+  "y": 6987.09375,
+  "w": 80,
+  "h": 60,
+  "text": "A smartphone displays the TikTok logo."
+ },
+ {
+  "tag": "LI",
+  "x": 876,
+  "y": 7028.875,
+  "w": 82.9375,
+  "h": 22.390625,
+  "text": "Aisha Malik"
+ },
+ {
+  "tag": "TIME",
+  "x": 962.9375,
+  "y": 7028.875,
+  "w": 93.328125,
+  "h": 22.390625,
+  "text": "7 hours ago"
+ },
+ {
+  "tag": "LI",
+  "x": 780,
+  "y": 7084.265625,
+  "w": 316,
+  "h": 129.171875,
+  "text": "APPS\nHot Girl Hotline is like ‘Dear Abby’ for the AI era\nSarah Perez\n8 hours ago"
+ },
+ {
+  "tag": "FIGURE",
+  "x": 780,
+  "y": 7116.265625,
+  "w": 80,
+  "h": 60,
+  "text": ""
+ },
+ {
+  "tag": "IMG",
+  "x": 780,
+  "y": 7116.265625,
+  "w": 80,
+  "h": 60,
+  "text": ""
+ },
+ {
+  "tag": "LI",
+  "x": 876,
+  "y": 7158.046875,
+  "w": 86.296875,
+  "h": 22.390625,
+  "text": "Sarah Perez"
+ },
+ {
+  "tag": "TIME",
+  "x": 966.296875,
+  "y": 7158.046875,
+  "w": 94.78125,
+  "h": 22.390625,
+  "text": "8 hours ago"
+ },
+ {
+  "tag": "LI",
+  "x": 780,
+  "y": 7213.4375,
+  "w": 316,
+  "h": 113.0625,
+  "text": "AI\nOpenAI launches visual ads that appear alongside image generation results\nSarah Perez\n10 hours ago"
+ },
+ {
+  "tag": "FIGURE",
+  "x": 780,
+  "y": 7245.4375,
+  "w": 80,
+  "h": 60,
+  "text": ""
+ },
+ {
+  "tag": "IMG",
+  "x": 780,
+  "y": 7245.4375,
+  "w": 80,
+  "h": 60,
+  "text": "ChatGPT"
+ },
+ {
+  "tag": "LI",
+  "x": 876,
+  "y": 7304.109375,
+  "w": 86.296875,
+  "h": 22.390625,
+  "text": "Sarah Perez"
+ },
+ {
+  "tag": "TIME",
+  "x": 966.296875,
+  "y": 7304.109375,
+  "w": 102.421875,
+  "h": 22.390625,
+  "text": "10 hours ago"
+ },
+ {
+  "tag": "FIGURE",
+  "x": 0,
+  "y": 11874.21875,
+  "w": 473,
+  "h": 620,
+  "text": "IMAGE CREDITS:\nAKINBOSTANCI\n(OPENS IN A NEW WINDOW)\n/ GETTY IMAGES"
+ },
+ {
+  "tag": "IMG",
+  "x": 0,
+  "y": 11874.21875,
+  "w": 473,
+  "h": 620,
+  "text": "A digitally generated image showing several AI chatbot assistants standing on a segmented or sliced floor surface, symbolizing the distributed and modular natur"
+ },
+ {
+  "tag": "FIGCAPTION",
+  "x": 0,
+  "y": 12494.21875,
+  "w": 473,
+  "h": 40,
+  "text": "IMAGE CREDITS:\nAKINBOSTANCI\n(OPENS IN A NEW WINDOW)\n/ GETTY IMAGES"
+ },
+ {
+  "tag": "H1",
+  "x": 583,
+  "y": 12171.765625,
+  "w": 493,
+  "h": 121.5,
+  "text": "Instinct brings its AI agent to group chats, even for friends without an account"
+ },
+ {
+  "tag": "TIME",
+  "x": 686.75,
+  "y": 12423.3125,
+  "w": 217.6875,
+  "h": 16,
+  "text": "11:54 AM PDT · October 5, 2026"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 12614.21875,
+  "w": 665,
+  "h": 159.5625,
+  "text": "Instinct, the AI agent now valued at $10 billion as of its latest funding round, is expanding into group chats. The startup announced on Monday that users will "
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 12797.78125,
+  "w": 665,
+  "h": 53.1875,
+  "text": "Notably, the group chats with the AI agent will work even if a user’s friends haven’t joined Instinct, the company said."
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 12874.96875,
+  "w": 665,
+  "h": 106.375,
+  "text": "With the launch, Instinct moves ahead in its battle with top competitors in the space, like Meta’s Muse. The latter doesn’t yet offer the group chat functionali"
+ },
+ {
+  "tag": "FIGURE",
+  "x": 31.5,
+  "y": 13005.34375,
+  "w": 697,
+  "h": 263.34375,
+  "text": "Instinct in group chats\n\nStarting today, early access users can add Instinct to group chats. A new Instinct joins and works for the whole group.\n\nMaking plans w"
+ },
+ {
+  "tag": "BLOCKQUOTE",
+  "x": 31.5,
+  "y": 13005.34375,
+  "w": 697,
+  "h": 263.34375,
+  "text": "Instinct in group chats\n\nStarting today, early access users can add Instinct to group chats. A new Instinct joins and works for the whole group.\n\nMaking plans w"
+ },
+ {
+  "tag": "P",
+  "x": 31.5,
+  "y": 13005.34375,
+  "w": 697,
+  "h": 212.75,
+  "text": "Instinct in group chats\n\nStarting today, early access users can add Instinct to group chats. A new Instinct joins and works for the whole group.\n\nMaking plans w"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 13292.6875,
+  "w": 665,
+  "h": 132.96875,
+  "text": "Instinct and Muse have been running neck and neck recently, with both of them adding the ability to make phone calls over the past couple of weeks, as their age"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 13449.65625,
+  "w": 665,
+  "h": 132.96875,
+  "text": "On X, Instinct founder Noah Shinn explained how Instinct handles users’ privacy and security in group chats. He said a user’s personal Instinct agent will ask p"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 13606.625,
+  "w": 665,
+  "h": 79.78125,
+  "text": "Shinn also said the group’s Instinct is siloed from the users’ personal accounts, which it cannot access. The personal agent will always ask the user’s permissi"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 13710.40625,
+  "w": 665,
+  "h": 53.1875,
+  "text": "If new members join the group chat, any pending replies from a user’s personal Instinct agent are held before those are shared with the group, too."
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 13787.59375,
+  "w": 665,
+  "h": 79.78125,
+  "text": "“Making plans with friends usually turns into a frustrating back-and-forth over times and places. With Instinct in the group, you can explore options together, "
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 13891.375,
+  "w": 665,
+  "h": 106.375,
+  "text": "The feature is rolling out initially to Instinct’s early access users but will expand to all users “soon.” To gain access to the new feature (or other recent ad"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 14194.75,
+  "w": 58.8125,
+  "h": 40,
+  "text": "Topics"
+ },
+ {
+  "tag": "P",
+  "x": 47.5,
+  "y": 14258.75,
+  "w": 665,
+  "h": 36.375,
+  "text": "When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence."
+ },
+ {
+  "tag": "IMG",
+  "x": 21,
+  "y": 14451.125,
+  "w": 48,
+  "h": 48,
+  "text": "Sarah Perez"
+ },
+ {
+  "tag": "P",
+  "x": 81,
+  "y": 14480.078125,
+  "w": 154.421875,
+  "h": 16.890625,
+  "text": "Consumer News Editor"
+ },
+ {
+  "tag": "IMG",
+  "x": 806,
+  "y": 12664.21875,
+  "w": 99,
+  "h": 20.53125,
+  "text": "Event Logo"
+ },
+ {
+  "tag": "P",
+  "x": 806,
+  "y": 12718.75,
+  "w": 264,
+  "h": 168.90625,
+  "text": "\nGet 50% off a second pass\n\nThe Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by"
+ },
+ {
+  "tag": "H2",
+  "x": 804,
+  "y": 13015.71875,
+  "w": 164,
+  "h": 73.65625,
+  "text": "Most Popular"
+ },
+ {
+  "tag": "LI",
+  "x": 804,
+  "y": 13116.546875,
+  "w": 268,
+  "h": 90.5625,
+  "text": "At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI\n"
+ },
+ {
+  "tag": "P",
+  "x": 828,
+  "y": 13116.546875,
+  "w": 244,
+  "h": 57.5625,
+  "text": "At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI\n"
+ },
+ {
+  "tag": "LI",
+  "x": 804,
+  "y": 13207.109375,
+  "w": 268,
+  "h": 90.5625,
+  "text": "Federal judge calls Flock ‘indiscriminate mass surveillance’\n"
+ },
+ {
+  "tag": "P",
+  "x": 828,
+  "y": 13207.109375,
+  "w": 244,
+  "h": 57.5625,
+  "text": "Federal judge calls Flock ‘indiscriminate mass surveillance’\n"
+ },
+ {
+  "tag": "LI",
+  "x": 804,
+  "y": 13297.671875,
+  "w": 268,
+  "h": 90.5625,
+  "text": "Amazon responds to data center backlash, says it no longer uses NDAs\n"
+ },
+ {
+  "tag": "P",
+  "x": 828,
+  "y": 13297.671875,
+  "w": 244,
+  "h": 57.5625,
+  "text": "Amazon responds to data center backlash, says it no longer uses NDAs\n"
+ },
+ {
+  "tag": "LI",
+  "x": 804,
+  "y": 13388.234375,
+  "w": 268,
+  "h": 109.75,
+  "text": "Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground\n"
+ },
+ {
+  "tag": "P",
+  "x": 828,
+  "y": 13388.234375,
+  "w": 244,
+  "h": 76.75,
+  "text": "Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground\n"
+ },
+ {
+  "tag": "LI",
+  "x": 804,
+  "y": 13497.984375,
+  "w": 268,
+  "h": 90.5625,
+  "text": "World’s first enhanced geothermal power plant completed in just 23 months\n"
+ },
+ {
+  "tag": "P",
+  "x": 828,
+  "y": 13497.984375,
+  "w": 244,
+  "h": 57.5625,
+  "text": "World’s first enhanced geothermal power plant completed in just 23 months\n"
+ },
+ {
+  "tag": "LI",
+  "x": 804,
+  "y": 13588.546875,
+  "w": 268,
+  "h": 90.5625,
+  "text": "Google releases Gemini 4 Argon, called its most powerful model yet\n"
+ },
+ {
+  "tag": "P",
+  "x": 828,
+  "y": 13588.546875,
+  "w": 244,
+  "h": 57.5625,
+  "text": "Google releases Gemini 4 Argon, called its most powerful model yet\n"
+ },
+ {
+  "tag": "LI",
+  "x": 804,
+  "y": 13679.109375,
+  "w": 268,
+  "h": 76.75,
+  "text": "The Pentagon taps Elon Musk and Palmer Luckey to help decide what the military should do next\n"
+ },
+ {
+  "tag": "P",
+  "x": 828,
+  "y": 13679.109375,
+  "w": 244,
+  "h": 76.75,
+  "text": "The Pentagon taps Elon Musk and Palmer Luckey to help decide what the military should do next\n"
+ },
+ {
+  "tag": "FIGURE",
+  "x": 4,
+  "y": 14758.484375,
+  "w": 534,
+  "h": 48,
+  "text": ""
+ },
+ {
+  "tag": "IMG",
+  "x": 4,
+  "y": 14758.484375,
+  "w": 94,
+  "h": 48,
+  "text": "TechCrunch Logo"
+ },
+ {
+  "tag": "LI",
+  "x": 4,
+  "y": 14854.484375,
+  "w": 50,
+  "h": 50,
+  "text": "X"
+ },
+ {
+  "tag": "LI",
+  "x": 58,
+  "y": 14854.484375,
+  "w": 50,
+  "h": 50,
+  "text": "LinkedIn"
+ },
+ {
+  "tag": "LI",
+  "x": 112,
+  "y": 14854.484375,
+  "w": 50,
+  "h": 50,
+  "text": "Facebook"
+ },
+ {
+  "tag": "LI",
+  "x": 166,
+  "y": 14854.484375,
+  "w": 50,
+  "h": 50,
+  "text": "Instagram"
+ },
+ {
+  "tag": "LI",
+  "x": 220,
+  "y": 14854.484375,
+  "w": 50,
+  "h": 50,
+  "text": "youTube"
+ },
+ {
+  "tag": "LI",
+  "x": 274,
+  "y": 14854.484375,
+  "w": 50,
+  "h": 50,
+  "text": "Mastodon"
+ },
+ {
+  "tag": "LI",
+  "x": 328,
+  "y": 14854.484375,
+  "w": 50,
+  "h": 50,
+  "text": "Threads"
+ },
+ {
+  "tag": "LI",
+  "x": 382,
+  "y": 14854.484375,
+  "w": 50,
+  "h": 50,
+  "text": "Bluesky"
+ },
+ {
+  "tag": "LI",
+  "x": 562,
+  "y": 14758.484375,
+  "w": 98.015625,
+  "h": 22.390625,
+  "text": "TechCrunch"
+ },
+ {
+  "tag": "LI",
+  "x": 562,
+  "y": 14792.875,
+  "w": 39.625,
+  "h": 22.390625,
+  "text": "Staff"
+ },
+ {
+  "tag": "LI",
+  "x": 562,
+  "y": 14827.265625,
+  "w": 89.53125,
+  "h": 22.390625,
+  "text": "Contact Us"
+ },
+ {
+  "tag": "LI",
+  "x": 562,
+  "y": 14861.65625,
+  "w": 77.796875,
+  "h": 22.390625,
+  "text": "Advertise"
+ },
+ {
+  "tag": "LI",
+  "x": 562,
+  "y": 14896.046875,
+  "w": 71.15625,
+  "h": 22.390625,
+  "text": "Site Map"
+ },
+ {
+  "tag": "LI",
+  "x": 748,
+  "y": 14758.484375,
+  "w": 134.921875,
+  "h": 22.390625,
+  "text": "Terms of Service"
+ },
+ {
+  "tag": "LI",
+  "x": 748,
+  "y": 14792.875,
+  "w": 111.5,
+  "h": 22.390625,
+  "text": "Privacy Policy"
+ },
+ {
+  "tag": "LI",
+  "x": 748,
+  "y": 14827.265625,
+  "w": 139.921875,
+  "h": 22.390625,
+  "text": "RSS Terms of Use"
+ },
+ {
+  "tag": "LI",
+  "x": 934,
+  "y": 14758.484375,
+  "w": 49.078125,
+  "h": 18.1875,
+  "text": "OpenAI"
+ },
+ {
+  "tag": "LI",
+  "x": 934,
+  "y": 14788.671875,
+  "w": 93.234375,
+  "h": 18.1875,
+  "text": "Hugging Face"
+ },
+ {
+  "tag": "LI",
+  "x": 934,
+  "y": 14818.859375,
+  "w": 36.796875,
+  "h": 18.1875,
+  "text": "Flock"
+ },
+ {
+  "tag": "LI",
+  "x": 934,
+  "y": 14849.046875,
+  "w": 126.4375,
+  "h": 18.1875,
+  "text": "Startup Battlefield"
+ },
+ {
+  "tag": "LI",
+  "x": 934,
+  "y": 14879.234375,
+  "w": 87.140625,
+  "h": 18.1875,
+  "text": "Disrupt 2026"
+ },
+ {
+  "tag": "LI",
+  "x": 934,
+  "y": 14909.421875,
+  "w": 85.171875,
+  "h": 18.1875,
+  "text": "Tech Layoffs"
+ },
+ {
+  "tag": "LI",
+  "x": 934,
+  "y": 14939.609375,
+  "w": 58.703125,
+  "h": 18.1875,
+  "text": "ChatGPT"
+ },
+ {
+  "tag": "P",
+  "x": 4,
+  "y": 14981.796875,
+  "w": 1092,
+  "h": 18.1875,
+  "text": "© 2026 TechCrunch Media LLC."
+ }
+]

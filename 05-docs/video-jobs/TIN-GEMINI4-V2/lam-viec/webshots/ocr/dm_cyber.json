@@ -1,0 +1,102 @@
+[
+{
+"box": [
+79,
+45,
+293,
+39
+],
+"text": "Google DeepMind",
+"conf": 0.868
+},
+{
+"box": [
+947,
+48,
+97,
+34
+],
+"text": "About",
+"conf": 0.833
+},
+{
+"box": [
+457,
+50,
+112,
+30
+],
+"text": "Models",
+"conf": 0.759
+},
+{
+"box": [
+609,
+50,
+138,
+30
+],
+"text": "Research",
+"conf": 0.735
+},
+{
+"box": [
+789,
+50,
+119,
+31
+],
+"text": "Science",
+"conf": 0.874
+},
+{
+"box": [
+1563,
+50,
+250,
+30
+],
+"text": "Build with Gemini",
+"conf": 0.872
+},
+{
+"box": [
+1932,
+49,
+159,
+33
+],
+"text": "Try Gemini",
+"conf": 0.903
+},
+{
+"box": [
+498,
+2896,
+1206,
+50
+],
+"text": "Gemini 4 Argon with cybersecurity defense capabilities",
+"conf": 0.88
+},
+{
+"box": [
+530,
+2978,
+1138,
+65
+],
+"text": "Frontier-level performance in vulnerability",
+"conf": 0.916
+},
+{
+"box": [
+616,
+3041,
+964,
+69
+],
+"text": "detection, and automated patching",
+"conf": 0.936
+}
+]

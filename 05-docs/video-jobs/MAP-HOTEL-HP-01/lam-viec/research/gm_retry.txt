@@ -1,0 +1,9 @@
+Mercure Hai Phong | 4.7 | 2261 2.261 bài viết
+Pearl River Hotel | 4.6 | 2137 2.137 bài viết
+Khách sạn Nikko Hải Phòng | 4.4 | None None
+Mercure Hai Phong | 4.7 | 2261 2.261 bài viết
+Pearl River Hotel | 4.6 | None None
+Khách sạn Nikko Hải Phòng | 4.4 | None None
+Mercure Hai Phong | 4.7 | None None
+Pearl River Hotel | 4.6 | 2137 2.137 bài viết
+Khách sạn Nikko Hải Phòng | 4.4 | 787 787 bài viết

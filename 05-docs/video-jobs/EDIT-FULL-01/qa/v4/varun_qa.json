@@ -1,0 +1,188 @@
+{
+ "ok": true,
+ "rows": [
+  {
+   "chi_tieu": "Evidence full-frame",
+   "dat": true,
+   "so_lieu": "89.4%",
+   "muc_tieu": "≥75%"
+  },
+  {
+   "chi_tieu": "Mặt presenter",
+   "dat": true,
+   "so_lieu": "10.6% (5 lần)",
+   "muc_tieu": "≤25%"
+  },
+  {
+   "chi_tieu": "Insert/phút",
+   "dat": true,
+   "so_lieu": "37.7 (37 insert)",
+   "muc_tieu": "≥30"
+  },
+  {
+   "chi_tieu": "Mỗi insert 1–2s",
+   "dat": true,
+   "so_lieu": "1.02–1.94s",
+   "muc_tieu": "0.95–2.05s"
+  },
+  {
+   "chi_tieu": "Visual khác nhau",
+   "dat": true,
+   "so_lieu": "40",
+   "muc_tieu": "≥25 (25/60s)"
+  },
+  {
+   "chi_tieu": "Lặp hình tối đa",
+   "dat": true,
+   "so_lieu": "max 1 lần/hình (file dùng nhiều nhất: nobel_ann.mp4 ×2, các đoạn khác nhau)",
+   "muc_tieu": "≤2 (lặp ≤1)"
+  },
+  {
+   "chi_tieu": "Mặt ở hook",
+   "dat": true,
+   "so_lieu": "1.18s",
+   "muc_tieu": "≤3.0s"
+  },
+  {
+   "chi_tieu": "Mặt ở kết",
+   "dat": true,
+   "so_lieu": "57.42s→58.87s",
+   "muc_tieu": "shot cuối = mặt"
+  },
+  {
+   "chi_tieu": "Mặt giữa = chuyển ý",
+   "dat": true,
+   "so_lieu": "đều ở đầu câu",
+   "muc_tieu": "đầu câu/chuyển ý"
+  },
+  {
+   "chi_tieu": "Mặt rải đều",
+   "dat": true,
+   "so_lieu": "mốc [1.18, 18.74, 29.13, 42.08, 57.42] · khoảng [17.56, 10.39, 12.95, 15.34]",
+   "muc_tieu": "khoảng 10–20s"
+  },
+  {
+   "chi_tieu": "Whip/zoom 4–6s",
+   "dat": true,
+   "so_lieu": "11 lần, khoảng 4.2–5.6s",
+   "muc_tieu": "3.9–6.1s"
+  },
+  {
+   "chi_tieu": "SFX nhẹ",
+   "dat": true,
+   "so_lieu": "15 (15.3/phút)",
+   "muc_tieu": "≤16/phút"
+  },
+  {
+   "chi_tieu": "Split 2 evidence",
+   "dat": true,
+   "so_lieu": "3 shot",
+   "muc_tieu": "≥2, không mặt"
+  },
+  {
+   "chi_tieu": "Mỗi câu có hình",
+   "dat": true,
+   "so_lieu": "13 câu, đủ (câu chỉ mặt ≤3s: [4, 12])",
+   "muc_tieu": "mỗi câu ≥1 evidence (trừ câu [MẶT] ≤3s)"
+  },
+  {
+   "chi_tieu": "Loudness",
+   "dat": true,
+   "so_lieu": "-14.0 LUFS",
+   "muc_tieu": "−14 ±0.5"
+  },
+  {
+   "chi_tieu": "True peak",
+   "dat": true,
+   "so_lieu": "-2.7 dBTP",
+   "muc_tieu": "≤ −1"
+  },
+  {
+   "chi_tieu": "Master 1080x1920 30fps",
+   "dat": true,
+   "so_lieu": "1080,1920,30/1",
+   "muc_tieu": "1080,1920,30/1"
+  },
+  {
+   "chi_tieu": "File 720p",
+   "dat": true,
+   "so_lieu": "720,1280,30/1",
+   "muc_tieu": "720x1280"
+  },
+  {
+   "chi_tieu": "Safe zone",
+   "dat": true,
+   "so_lieu": "không chữ ở y<150, y>1590, x>940",
+   "muc_tieu": "y150–1590, x≤940"
+  },
+  {
+   "chi_tieu": "Dấu tiếng Việt / glyph",
+   "dat": true,
+   "so_lieu": "179 chuỗi, đủ glyph",
+   "muc_tieu": "font có đủ ký tự"
+  }
+ ],
+ "face_at": [
+  1.18,
+  18.74,
+  29.13,
+  42.08,
+  57.42
+ ],
+ "face_gaps": [
+  17.56,
+  10.39,
+  12.95,
+  15.34
+ ],
+ "splits": 3,
+ "transitions": [
+  5.58,
+  10.7,
+  15.78,
+  20.04,
+  24.91,
+  29.13,
+  34.54,
+  39.06,
+  43.48,
+  48.28,
+  53.78
+ ],
+ "lufs": -14.0,
+ "tp": -2.7,
+ "uses_per_file": {
+  "nobel_ann.mp4": 2,
+  "nobel_summary.png": 1,
+  "nobel_pr.png": 2,
+  "ap_hall.mp4": 1,
+  "x_nobel.png": 1,
+  "hassabis.jpg": 1,
+  "jumper.jpg": 1,
+  "ap_dm.mp4": 1,
+  "dm_50yr.mp4": 2,
+  "dm_nobel.png": 1,
+  "kva.png": 2,
+  "baker.jpg": 1,
+  "1QYS_tube_rainbow_navy_1_2.4.mp4": 1,
+  "r_hemo.mp4": 1,
+  "dm_explained.mp4": 1,
+  "af2_blog.png": 2,
+  "r_1ubq.mp4": 1,
+  "r_af_p53.mp4": 1,
+  "stat:200 TRIỆU/cấu trúc protein": 1,
+  "af_200m.png": 1,
+  "af3_blog.png": 1,
+  "af_server.mp4": 2,
+  "r_nucleo.mp4": 1,
+  "stat:2 TRIỆU/người dùng/190/quốc gia": 1,
+  "1BTL_tube_chain_navy_1_2.4.mp4": 1,
+  "bbc.png": 2,
+  "r_petase.mp4": 1,
+  "apnews.png": 1,
+  "stat:VIẾT VĂN/VẼ TRANH": 1,
+  "x_deepmind.png": 1,
+  "dm_making.mp4": 2,
+  "stat:LĨNH VỰC NÀO?": 1
+ }
+}

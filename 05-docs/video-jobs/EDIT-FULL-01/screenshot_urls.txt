@@ -1,0 +1,16 @@
+https://www.nobelprize.org/prizes/chemistry/2024/press-release/ | name=nobel_pr | w=1100 | h=2600 | scale=2
+https://www.nobelprize.org/prizes/chemistry/2024/summary/ | name=nobel_summary | w=1100 | h=2000 | scale=2
+https://www.nobelprize.org/prizes/chemistry/2024/popular-information/ | name=nobel_pop | w=1100 | h=3000 | scale=2
+https://www.kva.se/en/news/the-nobel-prize-in-chemistry-2024/ | name=kva | w=1100 | h=2600 | scale=2
+https://deepmind.google/blog/demis-hassabis-john-jumper-awarded-nobel-prize-in-chemistry/ | name=dm_nobel | w=1100 | h=2200 | scale=2 | wait=12000
+https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/ | name=af3_blog | w=1100 | h=2200 | scale=2 | wait=12000
+https://deepmind.google/discover/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/ | name=af2_blog | w=1100 | h=2200 | scale=2 | wait=12000
+https://deepmind.google/discover/blog/alphafold-reveals-the-structure-of-the-protein-universe/ | name=af_200m | w=1100 | h=2200 | scale=2 | wait=12000
+# (v3: lỗi/không dùng) https://www.theguardian.com/science/2024/oct/09/google-deepmind-scientists-win-nobel-chemistry-prize | name=guardian | w=1100 | h=1800 | scale=2 | wait=12000
+https://www.bbc.com/news/articles/czrm0p2mxvyo | name=bbc | w=1100 | h=1800 | scale=2 | wait=12000
+# (v3: lỗi/không dùng) https://www.reuters.com/science/baker-hassabis-jumper-win-2024-nobel-prize-chemistry-2024-10-09/ | name=reuters | w=1100 | h=1800 | scale=2 | wait=12000
+https://apnews.com/article/nobel-chemistry-prize-56f4d9e90591dfe7d9d840a8c8c9d553 | name=apnews | w=1100 | h=1800 | scale=2 | wait=12000
+https://platform.twitter.com/embed/Tweet.html?id=1843951197960777760&theme=light&lang=en | name=x_nobel | w=560 | h=1100 | scale=3 | wait=12000
+https://platform.twitter.com/embed/Tweet.html?id=1843960591792185695&theme=light&lang=en | name=x_deepmind | w=560 | h=1100 | scale=3 | wait=12000
+# (v3: lỗi/không dùng) https://alphafold.ebi.ac.uk/entry/P69905 | name=afdb_entry | w=1100 | h=2000 | scale=2 | wait=20000
+# (v3: lỗi/không dùng) https://www.washington.edu/news/2024/10/09/baker-nobel-prize-chemistry/ | name=uw_baker | w=1100 | h=2000 | scale=2 | wait=12000

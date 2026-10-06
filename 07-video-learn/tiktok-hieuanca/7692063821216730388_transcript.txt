@@ -1,0 +1,22 @@
+[  0.80-  3.50] Rạng video drama tình cảm này được tạo hoàn toàn bởi AI.
+[  3.88-  6.94] Rạng video này đã giúp chủ kênh có video đặt chịu view chỉ trong 1 tháng.
+[  7.24-  8.02] Và đây là cách làm.
+[  8.22- 11.18] Đầu tiên, copy và rán master prompt này vào chatGPPF.
+[ 11.46- 15.10] Ngay lập tức, chatGPF sẽ cho bạn danh sách 5 loại kịch bản cực thu hút người xem,
+[ 15.50- 18.48] chọn ra 1 thịt bản muốn làm hoặc để xuất ý tưởng mô hình khác đều được.
+[ 18.62- 22.50] Kết quả chatGPF sẽ cho bạn 1 câu lệnh tạo ảnh và mêu tả chi tiết từ nhân vật.
+[ 22.90- 24.48] Bối cảnh xung quanh với câu lệnh cụ thể.
+[ 24.94- 28.34] Bình luận chứ drama mình sẽ hử câu lệnh và tài liệu hướng dẫn cho bạn nhé!
+[ 28.60- 30.02] Giờ mình sẽ tạo ảnh trên flow trước,
+[ 30.30- 31.76] chọn kích thước dọc 9 trên 16,
+[ 32.16- 34.44] copy câu lệnh tạo ảnh duy nhất vào đây và nhấn tạo
+[ 34.44- 36.46] và bạn sẽ có ngay kết quả hình ảnh như này.
+[ 36.72- 38.40] Tiếp theo, chuyển sang chế độ tạo video,
+[ 38.94- 40.44] chọn hình ảnh ưng ý làm tham chiếu,
+[ 40.82- 41.98] dáng câu lệnh tạo video vào
+[ 41.98- 44.16] và bạn sẽ có ngay phân cảnh đầu tiên như này.
+[ 48.90- 50.24] Chờ video chạy tới cuối,
+[ 50.60- 53.00] sử dụng tính năng này sẽ tách khung hình cuối của cảnh đầu tiên.
+[ 53.00- 55.76] Đây sẽ là hình ảnh tham chiếu để bạn tạo video tiếp theo.
+[ 56.10- 60.28] Tiếp tục thực hiện lần luật thao tác tương tự với cảnh thứ 2 và thứ 3 cho tới phân cảnh cuối.
+[ 60.64- 64.46] Bạn sẽ được 6 phân cảnh như này, tải về và cắt ghép. Và đây là kết quả.

@@ -1,0 +1,190 @@
+{
+ "Avani Hai Phong Harbour View": [
+  {
+   "name": "Hai Phong Harbour View Hotel",
+   "rating": 4.3,
+   "reviews": 943,
+   "reviews_text": "943 bài viết",
+   "lat": 20.864001899999998,
+   "lng": 106.6892735,
+   "address": "12 P. Trần Phú, Ngô Quyền, Hải Phòng, Việt Nam",
+   "categories": [
+    "Khách sạn",
+    "Trung tâm hội nghị",
+    "Địa điểm tổ chức lễ cưới"
+   ],
+   "stars_class": 4,
+   "place_id": "ChIJO4X2O-56SjER0-MEVzXEsv8",
+   "fid": "0x314a7aee3bf6853b:0xffb2c4355704e3d3",
+   "fetched_at": "2026-10-06 01:52 +0000"
+  },
+  {
+   "name": "Avani Hải Phòng Harbour View",
+   "rating": null,
+   "reviews": null,
+   "reviews_text": null,
+   "lat": 20.8640056,
+   "lng": 106.6892694,
+   "address": "12 P.Trần Bình Trọng, Gia Viên, Hải Phòng 180000, Việt Nam",
+   "categories": null,
+   "stars_class": null,
+   "place_id": "ChIJdwIlg_J6SjERJGHDxtSoTEY",
+   "fid": "0x314a7af283250277:0x464ca8d4c6c36124",
+   "fetched_at": "2026-10-06 01:52 +0000"
+  }
+ ]
+}
+{
+ "Song Gia Resort Hải Phòng": [
+  {
+   "name": "Sono Felice Country Club Hải Phòng",
+   "rating": 4.3,
+   "reviews": null,
+   "reviews_text": null,
+   "lat": 20.960002199999998,
+   "lng": 106.68023509999999,
+   "address": "XM6J+23, Lưu Kiếm, Hải Phòng, Việt Nam",
+   "categories": [
+    "Sân gôn",
+    "Phòng tiệc",
+    "Khách sạn",
+    "Nhà hàng Hàn Quốc",
+    "Nhà hàng",
+    "Chỗ ở được phục vụ"
+   ],
+   "stars_class": null,
+   "place_id": "ChIJ-WEM__d8SjERjTMLdAO99E0",
+   "fid": "0x314a7cf7ff0c61f9:0x4df4bd03740b338d",
+   "fetched_at": "2026-10-06 01:52 +0000"
+  },
+  {
+   "name": "Sono Belle Hai Phong",
+   "rating": 4.8,
+   "reviews": null,
+   "reviews_text": null,
+   "lat": 20.962017,
+   "lng": 106.6699124,
+   "address": "XM69+RX3, Mỹ Liệt, Lưu Kiếm, Hải Phòng, Việt Nam",
+   "categories": [
+    "Khách sạn nghỉ dưỡng"
+   ],
+   "stars_class": null,
+   "place_id": "ChIJ78YzUAB9SjERxWzXnVW9L4A",
+   "fid": "0x314a7d005033c6ef:0x802fbd559dd76cc5",
+   "fetched_at": "2026-10-06 01:52 +0000"
+  }
+ ]
+}
+{
+ "Mường Thanh Grand Hải Phòng": [
+  {
+   "name": "Khách sạn Pullman Hải Phòng",
+   "rating": 4.8,
+   "reviews": 1496,
+   "reviews_text": "1.496 bài viết",
+   "lat": 20.8596829,
+   "lng": 106.6885879,
+   "address": "No.12 Old, P. Trần Phú, Street, Gia Viên, Hải Phòng 180000, Việt Nam",
+   "categories": [
+    "Khách sạn"
+   ],
+   "stars_class": 5,
+   "place_id": "ChIJry7lg297SjER5YNpHieZNBA",
+   "fid": "0x314a7b6f83e52eaf:0x103499271e6983e5",
+   "fetched_at": "2026-10-06 01:52 +0000"
+  },
+  {
+   "name": "Mường Thanh Grand Đà Nẵng Hotel",
+   "rating": 4.2,
+   "reviews": 2189,
+   "reviews_text": "2.189 bài viết",
+   "lat": 16.0646275,
+   "lng": 108.23312279999999,
+   "address": "962 Ngô Quyền, An Hải, Đà Nẵng 550000, Việt Nam",
+   "categories": [
+    "Khách sạn"
+   ],
+   "stars_class": 4,
+   "place_id": "ChIJXRkLVPUZQjERhjMP_j_cdkQ",
+   "fid": "0x314219f5540b195d:0x4476dc3ffe0f3386",
+   "fetched_at": "2026-10-06 01:52 +0000"
+  },
+  {
+   "name": "Khách sạn Mường Thanh Grand Hà Nội",
+   "rating": 4.1,
+   "reviews": 2731,
+   "reviews_text": "2.731 bài viết",
+   "lat": 20.9695404,
+   "lng": 105.8269658,
+   "address": "Lô CC2, Khu đô thị Bắc Linh Đàm, Định Công, Hà Nội, Việt Nam",
+   "categories": [
+    "Khách sạn"
+   ],
+   "stars_class": 4,
+   "place_id": "ChIJ2WE4y_isNTERShwadVpglNI",
+   "fid": "0x3135acf8cb3861d9:0xd294605a751a1c4a",
+   "fetched_at": "2026-10-06 01:52 +0000"
+  }
+ ]
+}
+{
+ "Flamingo Cát Bà Beach Resort": [
+  {
+   "name": "Flamingo Cát Bà Beach Resort",
+   "rating": 4.8,
+   "reviews": null,
+   "reviews_text": null,
+   "lat": 20.7193634,
+   "lng": 107.05415409999999,
+   "address": "Bãi tắm Cát Cò 1, 2, Cát Hải, Hải Phòng, Việt Nam",
+   "categories": [
+    "Khách sạn nghỉ dưỡng",
+    "Khách sạn"
+   ],
+   "stars_class": null,
+   "place_id": "ChIJZ6C369RFSjER-d-LWgqrxkI",
+   "fid": "0x314a45d4ebb7a067:0x42c6ab0a5a8bdff9",
+   "fetched_at": "2026-10-06 01:52 +0000"
+  }
+ ]
+}
+{
+ "Perle d'Orient Cát Bà MGallery": [
+  {
+   "name": "Hotel Perle d'Orient Cat Ba",
+   "rating": 4.4,
+   "reviews": 765,
+   "reviews_text": "765 bài viết",
+   "lat": 20.715004999999998,
+   "lng": 107.0489037,
+   "address": "Cat Co 3 Beach, Cát Hải, Hải Phòng 180000, Việt Nam",
+   "categories": [
+    "Khách sạn"
+   ],
+   "stars_class": 5,
+   "place_id": "ChIJ4fVxG4RFSjERL87MEvU031I",
+   "fid": "0x314a45841b71f5e1:0x52df34f512ccce2f",
+   "fetched_at": "2026-10-06 01:52 +0000"
+  }
+ ]
+}
+{
+ "Somerset Central TD Hai Phong": [
+  {
+   "name": "Somerset Central TD Hai Phong City",
+   "rating": 4.5,
+   "reviews": null,
+   "reviews_text": null,
+   "lat": 20.8466663,
+   "lng": 106.7063446,
+   "address": "Tower A, TD Plaza, Lot 20A Ngã Năm New Urban, Cát Bi Airport, Gia Viên, Hải Phòng, Việt Nam",
+   "categories": [
+    "Chỗ ở được phục vụ"
+   ],
+   "stars_class": 5,
+   "place_id": "ChIJZbk4vbt6SjERpak4A6NoXu4",
+   "fid": "0x314a7abbbd38b965:0xee5e68a30338a9a5",
+   "fetched_at": "2026-10-06 01:52 +0000"
+  }
+ ]
+}

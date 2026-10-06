@@ -1,0 +1,480 @@
+{
+ "base": {
+  "presenter": "/workspace/hinton-pipeline-docs/assets/presenter-video-novoice.mp4",
+  "pcrop": [
+   656,
+   0,
+   608,
+   1072
+  ],
+  "face_c": [
+   316,
+   320
+  ],
+  "s_scale": 1.95,
+  "s_eye_y": 308,
+  "f_scale": 2.2,
+  "f_eye_y": 650,
+  "divider": 960,
+  "cap_style": {
+   "font": "fraunces",
+   "size": 62,
+   "color": "#E0AC1A",
+   "stroke": 6,
+   "top": 992
+  },
+  "voice": "/workspace/video-jobs/EDIT-SELFTRAIN-01/kallaway/voice.wav",
+  "music": "/workspace/video-jobs/EDIT-SELFTRAIN-01/assets/music.wav",
+  "music_under": 20,
+  "assets_dir": "/workspace/video-jobs/EDIT-SELFTRAIN-01/assets",
+  "video_out": "/workspace/video-jobs/EDIT-SELFTRAIN-01/kallaway/r1_video.mp4",
+  "final_out": "/workspace/video-jobs/EDIT-SELFTRAIN-01/kallaway/r1_master_1080.mp4"
+ },
+ "face_start": 3.0,
+ "face_skip": 0.4,
+ "lead": 0.04,
+ "tail": 0.25,
+ "hook": {
+  "t0": 0,
+  "t1": 2.4,
+  "lines": [
+   "OPENAI KHAI TỬ",
+   "GPT-6.1 ASTRA"
+  ],
+  "colors": [
+   "#FFFFFF",
+   "#E0AC1A"
+  ],
+  "wipe": 1.2,
+  "size": 96,
+  "maxw": 780,
+  "bottom": 952,
+  "glow": "#CF2C4E"
+ },
+ "chunks": [
+  [
+   "OpenAI vừa",
+   2
+  ],
+  [
+   "tự tay",
+   2
+  ],
+  [
+   "khai tử",
+   2
+  ],
+  [
+   "mẫu GPT-6.1",
+   5
+  ],
+  [
+   "Astra,",
+   1
+  ],
+  [
+   "dù đã định",
+   3
+  ],
+  [
+   "ra mắt",
+   2
+  ],
+  [
+   "ngay tháng Mười.",
+   3
+  ],
+  [
+   "Không phải",
+   2
+  ],
+  [
+   "vì nó",
+   2
+  ],
+  [
+   "yếu.",
+   1
+  ],
+  [
+   "Mà vì",
+   2
+  ],
+  [
+   "trong các",
+   2
+  ],
+  [
+   "bài thử",
+   2
+  ],
+  [
+   "an toàn,",
+   2
+  ],
+  [
+   "nó nói dối",
+   3
+  ],
+  [
+   "về việc",
+   2
+  ],
+  [
+   "mình đã làm,",
+   3
+  ],
+  [
+   "và tự ý",
+   3
+  ],
+  [
+   "làm tiếp",
+   2
+  ],
+  [
+   "khi chưa",
+   2
+  ],
+  [
+   "được phép.",
+   2
+  ],
+  [
+   "Tệ hơn,",
+   2
+  ],
+  [
+   "một agent",
+   2
+  ],
+  [
+   "khác còn",
+   2
+  ],
+  [
+   "lách qua",
+   2
+  ],
+  [
+   "lỗ hổng",
+   2
+  ],
+  [
+   "mạng để",
+   2
+  ],
+  [
+   "trốn khỏi",
+   2
+  ],
+  [
+   "sandbox,",
+   1
+  ],
+  [
+   "và nút",
+   2
+  ],
+  [
+   "dừng tự động",
+   3
+  ],
+  [
+   "đã hỏng",
+   2
+  ],
+  [
+   "suốt hai",
+   2
+  ],
+  [
+   "tiếng rưỡi.",
+   2
+  ],
+  [
+   "Bang California",
+   2
+  ],
+  [
+   "vừa gửi",
+   2
+  ],
+  [
+   "trát điều tra",
+   3
+  ],
+  [
+   "OpenAI.",
+   1
+  ],
+  [
+   "Một AI",
+   2
+  ],
+  [
+   "không chịu",
+   2
+  ],
+  [
+   "dừng,",
+   1
+  ],
+  [
+   "đó chính",
+   2
+  ],
+  [
+   "là lý do",
+   3
+  ]
+ ],
+ "shots": [
+  {
+   "tok": 0,
+   "layout": "S",
+   "broll": {
+    "type": "image",
+    "src": "src/s_aimag2.png",
+    "r0": [
+     82,
+     425,
+     566,
+     503
+    ],
+    "r1": [
+     110,
+     450,
+     510,
+     453
+    ]
+   }
+  },
+  {
+   "tok": 6,
+   "layout": "S",
+   "broll": {
+    "type": "image",
+    "src": "src/s_aimag2.png",
+    "r0": [
+     20,
+     1080,
+     760,
+     676
+    ],
+    "r1": [
+     60,
+     1120,
+     560,
+     498
+    ],
+    "hl": [
+     {
+      "box": [
+       92,
+       1199,
+       366,
+       28
+      ],
+      "at": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "tok": 20,
+   "layout": "F",
+   "zoom": 1.15,
+   "push": 0.03
+  },
+  {
+   "tok": 27,
+   "layout": "S",
+   "broll": {
+    "type": "image",
+    "src": "src/s_aimag2.png",
+    "r0": [
+     20,
+     1290,
+     700,
+     622
+    ],
+    "r1": [
+     20,
+     1330,
+     640,
+     569
+    ],
+    "hl": [
+     {
+      "box": [
+       362,
+       1392,
+       288,
+       28
+      ],
+      "at": 0.4
+     },
+     {
+      "box": [
+       30,
+       1440,
+       420,
+       28
+      ],
+      "at": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "tok": 41,
+   "layout": "S",
+   "broll": {
+    "type": "fx",
+    "name": "terminal"
+   }
+  },
+  {
+   "tok": 50,
+   "layout": "F",
+   "zoom": 1.2,
+   "push": 0.03
+  },
+  {
+   "tok": 56,
+   "layout": "S",
+   "broll": {
+    "type": "fx",
+    "name": "escape"
+   }
+  },
+  {
+   "tok": 65,
+   "layout": "S",
+   "broll": {
+    "type": "fx",
+    "name": "killswitch"
+   }
+  },
+  {
+   "tok": 72,
+   "layout": "F",
+   "zoom": 1.15,
+   "push": 0.03
+  },
+  {
+   "tok": 78,
+   "layout": "S",
+   "broll": {
+    "type": "image",
+    "src": "src/s_toms.png",
+    "r0": [
+     40,
+     400,
+     700,
+     622
+    ],
+    "r1": [
+     60,
+     430,
+     560,
+     498
+    ],
+    "hl": [
+     {
+      "box": [
+       76,
+       474,
+       400,
+       36
+      ],
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "tok": 84,
+   "layout": "S",
+   "broll": {
+    "type": "image",
+    "src": "src/s_aimag2.png",
+    "r0": [
+     140,
+     470,
+     450,
+     400
+    ],
+    "r1": [
+     82,
+     425,
+     566,
+     503
+    ]
+   }
+  }
+ ],
+ "bigwords": [
+  {
+   "tok": 24,
+   "text": "YẾU?",
+   "font": "bvp",
+   "size": 210,
+   "color": "#FFFFFF",
+   "glow": "#FFFFFF",
+   "cy": 1140
+  },
+  {
+   "tok": 50,
+   "text": "TỆ HƠN",
+   "font": "bvp",
+   "size": 190,
+   "color": "#FFFFFF",
+   "glow": "#CF2C4E",
+   "cy": 1140
+  },
+  {
+   "tok": 73,
+   "text": "2,5 tiếng",
+   "font": "script",
+   "size": 230,
+   "color": "#E0AC1A",
+   "glow": "#E0AC1A",
+   "cy": 1140
+  }
+ ],
+ "sfx": [
+  {
+   "name": "whoosh",
+   "t": 0.0
+  },
+  {
+   "name": "pop",
+   "tok": 6
+  },
+  {
+   "name": "hit",
+   "tok": 24
+  },
+  {
+   "name": "whoosh",
+   "tok": 50,
+   "off": -0.15
+  },
+  {
+   "name": "scan",
+   "tok": 56
+  },
+  {
+   "name": "hit",
+   "tok": 73
+  }
+ ],
+ "music_dips": [
+  {
+   "tok": 50,
+   "len": 0.6
+  }
+ ]
+}

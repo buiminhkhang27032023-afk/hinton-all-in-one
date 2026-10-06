@@ -1,0 +1,15 @@
+{
+  "job": "TEST-pipeline-001",
+  "version": "v1",
+  "title": "AI góp phần giành|Nobel Hóa học 2024",
+  "sentences": [
+    "Lần đầu tiên, một mô hình trí tuệ nhân tạo góp phần mang về giải Nobel Hóa học.",
+    "Tháng mười năm hai nghìn không trăm hai mươi bốn, Viện Hàn lâm Khoa học Hoàng gia Thụy Điển trao một nửa giải cho Demis Hassabis và John Jumper của Google DeepMind,",
+    "nhờ công trình dự đoán cấu trúc protein bằng AlphaFold.",
+    "Nửa còn lại thuộc về giáo sư David Baker, với công trình thiết kế protein bằng máy tính."
+  ],
+  "syllables": 78,
+  "voice": "OmniVoice · male clone v2 locked · 1.2 · voice_locked:true",
+  "captions_burn": false,
+  "bgm": false
+}

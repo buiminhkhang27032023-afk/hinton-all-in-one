@@ -1,0 +1,87 @@
+/* Hinton Shorts 9:16 look — coordinates per SO-TAY-DUNG §3.1 (1080x1920).
+   Safe zones: no text at y<150, y>1590, x>940. __TOKENS__ are replaced from config.brand. */
+@font-face { font-family: "BVP"; src: url("assets/BeVietnamPro-Bold.ttf"); font-weight: 700; }
+@font-face { font-family: "BVP"; src: url("assets/BeVietnamPro-ExtraBold.ttf"); font-weight: 800; }
+@font-face { font-family: "BVP"; src: url("assets/BeVietnamPro-Black.ttf"); font-weight: 900; }
+html, body { margin: 0; padding: 0; background: #000; }
+#root { position: relative; width: 100%; height: 100%; overflow: hidden; font-family: "BVP"; color: #fff; }
+.bgfill { position: absolute; inset: 0; background: __BG__; }
+.layer { position: absolute; inset: 0; overflow: hidden; transform-origin: 50% 40%; }
+.full { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+
+/* Ken Burns screenshot: blurred fill + fitted image */
+.kbbg { position: absolute; inset: -60px; background-size: cover; background-position: center; filter: blur(30px) brightness(0.55); }
+.kbfit { position: absolute; left: 40px; right: 40px; top: 230px; height: 1000px; display: flex; align-items: center; justify-content: center; }
+.kbfit img { display: block; max-width: 100%; max-height: 100%; border-radius: 22px; box-shadow: 0 30px 80px rgba(0,0,0,.6); }
+
+/* effect backgrounds */
+.fxbg { background: radial-gradient(120% 80% at 50% 25%, __BG2__ 0%, __BG__ 70%); }
+.fxbg2 { background: radial-gradient(90% 60% at 50% 45%, #2a1f05 0%, __BG__ 75%); }
+
+/* browser mockup */
+.browser { position: absolute; left: 70px; width: 940px; top: 260px; height: 960px; border-radius: 26px; overflow: hidden;
+  background: #fff; box-shadow: 0 40px 90px rgba(0,0,0,.55); display: block; }
+.browser .bar { height: 64px; background: #e9ecf1; display: flex; align-items: center; gap: 12px; padding: 0 24px; }
+.browser .bar i { display: block; width: 18px; height: 18px; border-radius: 50%; background: #ff5f57; }
+.browser .bar i:nth-child(2) { background: #febc2e; } .browser .bar i:nth-child(3) { background: #28c840; }
+.browser .bar .url { display: block; flex: 1; height: 34px; margin-left: 18px; border-radius: 17px; background: #fff; }
+.browser .viewport { position: absolute; top: 64px; left: 0; right: 0; bottom: 0; overflow: hidden; }
+.browser .viewport img { display: block; width: 100%; transform-origin: 50% 0%; }
+
+/* phone mockup */
+.phone { position: absolute; left: 230px; width: 620px; top: 200px; height: 1060px; border-radius: 70px; background: #111;
+  border: 14px solid #2b2f36; box-shadow: 0 40px 90px rgba(0,0,0,.6); overflow: hidden; display: block; }
+.phone .notch { position: absolute; top: 18px; left: 50%; width: 170px; height: 36px; margin-left: -85px; border-radius: 18px; background: #000; }
+.phone .chat { position: absolute; left: 34px; right: 34px; top: 120px; display: flex; flex-direction: column; gap: 26px; }
+.bubble { display: block; font-weight: 700; font-size: 38px; line-height: 1.32; padding: 22px 28px; border-radius: 30px; max-width: 86%; }
+.bubble.q { align-self: flex-end; background: #2f6bff; color: #fff; border-bottom-right-radius: 8px; }
+.bubble.a { align-self: flex-start; background: #23262d; color: #f1f1f1; border-bottom-left-radius: 8px; }
+
+/* text card */
+.cardwrap { position: absolute; left: 70px; width: 820px; top: 420px; height: 700px; display: flex; align-items: center; justify-content: flex-start; }
+.tcard { display: block; width: 100%; padding: 48px 46px; border-radius: 34px; background: rgba(255,255,255,.06);
+  border: 2px solid rgba(255,255,255,.12); }
+.tbar { display: block; width: 120px; height: 14px; border-radius: 7px; background: __ACCENT__; margin-bottom: 30px; }
+.ttext { font-weight: 900; font-size: 84px; line-height: 1.12; color: #fff; text-transform: uppercase; }
+
+/* single big word */
+.kwrap { position: absolute; left: 60px; width: 880px; top: 760px; height: 420px; display: flex; align-items: center; justify-content: center; }
+.bigword { display: block; font-weight: 900; font-size: 150px; line-height: 1; color: __ACCENT__; text-align: center;
+  text-shadow: 0 0 40px rgba(245,197,24,.45); }
+
+/* presenter cards */
+.photocard .pcbg { position: absolute; inset: 0; background: radial-gradient(100% 70% at 50% 35%, __BG2__ 0%, __BG__ 80%); }
+.photocard .pcframe { position: absolute; left: 140px; width: 800px; top: 200px; height: 1200px; border-radius: 44px; overflow: hidden;
+  box-shadow: 0 40px 90px rgba(0,0,0,.55); background: #fff; }
+.photocard .pcframe img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 20%; transform-origin: 50% 30%; }
+.shade { background: linear-gradient(180deg, rgba(0,0,0,0) 35%, rgba(0,0,0,.55) 100%); }
+
+/* PIP (SO-TAY C6: lower-left, inside safe zone) */
+#pip { position: absolute; overflow: hidden; background: #111; transform-origin: 50% 50%; box-shadow: 0 18px 50px rgba(0,0,0,.55); }
+#pip .pipv { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+#pip .pipimg { position: absolute; inset: 0; overflow: hidden; }
+#pip .pipimg img { display: block; width: 100%; height: 100%; object-fit: cover; transform-origin: 50% 35%; }
+#pipRing { position: absolute; inset: 0; border: 6px solid #fff; box-sizing: border-box; }
+
+/* hook title (SO-TAY C3/C4: 2 lines uppercase, y≈760-1000, done before 1-2 s) */
+.hook { position: absolute; left: 0; right: 0; top: 0; bottom: 0; }
+.hookbox { position: absolute; left: 60px; width: 860px; top: 1040px; padding: 30px 36px; border-radius: 26px;
+  background: rgba(11,15,20,.88); box-shadow: 0 0 60px rgba(207,44,78,.45); display: block; }
+.hl { display: block; font-weight: 900; font-size: 62px; line-height: 1.12; color: #fff; }
+.hl:nth-child(2) { color: __ACCENT__; }
+
+/* chip (C8) */
+.chipc { position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
+.chip { position: absolute; left: 40px; top: 170px; padding: 12px 24px; border-radius: 999px; background: __ACCENT__; color: #111;
+  font-weight: 900; font-size: 34px; letter-spacing: 1px; display: block; }
+
+/* outro CTA (C13) */
+.cta { position: absolute; inset: 0; }
+.ctabox { position: absolute; left: 60px; width: 860px; top: 1230px; display: flex; flex-direction: column; align-items: flex-start; gap: 18px; }
+.pill { display: block; padding: 20px 36px; border-radius: 999px; background: __ACCENT__; color: #111; font-weight: 900; font-size: 52px; }
+.ctatext { display: block; font-weight: 800; font-size: 44px; color: #fff; text-shadow: 0 4px 14px rgba(0,0,0,.7); }
+
+/* optional burned captions (2 tiers per SO-TAY 3.2; kept above the PIP: y≈1100-1200) */
+.capc { position: absolute; inset: 0; }
+.cap { position: absolute; left: 60px; width: 860px; top: 1110px; text-align: center; font-weight: 900; font-size: 62px; line-height: 1.1;
+  color: #fff; -webkit-text-stroke: 7px #000; paint-order: stroke fill; text-shadow: 0 4px 0 rgba(0,0,0,.6); display: block; }

@@ -1,0 +1,12 @@
+[  0.00-  6.16] I don't think people understand how good C-Dance 2.5 is at editing real videos because it doesn't
+[  6.16- 12.16] only change my clothing color but it can swap my outfit and even change the environment
+[ 13.28- 14.14] to make it much.
+[ 14.48- 21.76] But that is not all because it can also edit objects like upgrading my bike or make it
+[ 21.76- 22.68] disappear completely.
+[ 22.68- 32.08] But if that's not enough for you, it can also change the weather like make it rain or actually
+[ 32.80- 33.50] let's make it snow.
+[ 33.86- 39.14] So to do this, head over to Runway, click on Custom and select Seedance 2.5 as your
+[ 39.14- 39.82] video model.
+[ 40.08- 44.48] And by the way, Runway gives you access to a bunch of top models in one place, including
+[ 44.48- 48.90] its own Gen 4.5, Flux 3, Kling 3.0 and more.
+[ 49.12- 52.66] Next, So, I think it's a good idea to add a little bit of a video to this video

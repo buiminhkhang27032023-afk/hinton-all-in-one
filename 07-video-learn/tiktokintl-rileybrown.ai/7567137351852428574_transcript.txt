@@ -1,0 +1,49 @@
+[  0.00-  4.58] I saw this post on Twitter yesterday, startup idea, Tinder, but for guys to find other guys
+[  4.58-  6.14] to do cool projects with.
+[  6.28-  8.66] So I'm going to build this with AI and get it on the app store.
+[  8.78-  9.96] So what is my plan, you might ask?
+[ 10.12- 12.30] Well I'm going to give a simple prompt to Claude Coat.
+[ 12.38- 15.48] I want you to create an app, Tinder, but for guys to find other guys to do projects
+[ 15.48- 15.72] with.
+[ 15.84- 18.04] And so these projects will be in these five different categories.
+[ 18.28- 23.12] So when they swipe right, it will submit a concise video as an attachment on why
+[ 23.12- 24.76] they would be a right fit for that project.
+[ 24.88- 27.24] So all I'm going to do is just copy this prompt.
+[ 27.24- 29.80] And so I've pasted the prompt right here on my phone.
+[ 29.92- 31.98] We're using Vibe code, which uses Claude code,
+[ 32.06- 32.80] and we're gonna run.
+[ 32.90- 34.26] And now Claude code is going to work.
+[ 34.38- 35.50] And while the AI is working,
+[ 35.76- 37.36] we can actually generate a logo.
+[ 37.72- 39.16] So what I'm gonna do is I'm gonna go to icon,
+[ 39.46- 44.60] 3D cartoon render of Abraham linking, holding A, and X.
+[ 44.98- 47.24] So I'm just gonna generate about eight options here.
+[ 47.56- 48.82] Oh, looking good.
+[ 49.22- 50.62] Maybe this one's just the best.
+[ 50.76- 51.64] He's kind of smiling.
+[ 51.90- 53.66] He's kind of got a good attitude going on.
+[ 53.74- 54.26] It's simple.
+[ 54.66- 56.16] All right, so I'm just gonna select this
+[ 56.16- 58.76] and say please find a place in this app
+[ 58.76- 62.38] to make the logo very prominent and make it big.
+[ 62.66- 64.34] So as soon as the app is done building,
+[ 64.54- 66.62] it will add the icon in a follow up prompt.
+[ 66.78- 67.70] Okay, it's loading.
+[ 67.90- 69.02] This is looking good.
+[ 69.30- 70.44] All right, here it is.
+[ 70.64- 72.22] So I can press discover.
+[ 72.76- 74.94] All right, build a tree house with Mike Johnson.
+[ 75.34- 76.34] Let's see, boom.
+[ 76.74- 78.42] Yo, Mike, I'm trying to build a tree house with you,
+[ 78.44- 79.14] bro, just let me know.
+[ 79.24- 80.48] I've been building tree houses.
+[ 81.52- 83.16] Yo, Mike, I'm trying to build a tree house
+[ 83.16- 84.32] with you, bro, just let me know.
+[ 84.32- 85.74] I've been building tree houses.
+[ 86.24- 86.64] Submit.
+[ 86.86- 87.40] There it is.
+[ 87.70- 88.90] Application submitted.
+[ 89.12- 90.52] After one prompt, we have
+[ 90.52-112.16] an early version.
+[112.26-113.52] I need to add the backend first.
+[113.52-117.72] and then I can start getting real users and they can sign in but I'll do that in the next video.

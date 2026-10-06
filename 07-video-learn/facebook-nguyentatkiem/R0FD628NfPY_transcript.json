@@ -1,0 +1,39 @@
+{
+ "file": "facebook-nguyentatkiem/R0FD628NfPY.mp4",
+ "model": "small",
+ "lang": "vi",
+ "duration": 46.1535,
+ "segments": [
+  {
+   "start": 30.0,
+   "end": 39.96,
+   "text": "Hãy subscribe cho kênh.",
+   "words": [
+    {
+     "w": " Hãy",
+     "s": 30.0,
+     "e": 30.98,
+     "p": 0.1
+    },
+    {
+     "w": " subscribe",
+     "s": 30.98,
+     "e": 30.98,
+     "p": 0.0
+    },
+    {
+     "w": " cho",
+     "s": 30.98,
+     "e": 30.98,
+     "p": 0.09
+    },
+    {
+     "w": " kênh.",
+     "s": 30.98,
+     "e": 39.96,
+     "p": 0.17
+    }
+   ]
+  }
+ ]
+}

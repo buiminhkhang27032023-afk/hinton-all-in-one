@@ -1,0 +1,27 @@
+{
+  "job_id": "EDIT-SELFTRAIN-01",
+  "version": "r3",
+  "preset": "kallaway",
+  "title": "OpenAI khai tử|GPT-6.1 Astra",
+  "captions_burn": true,
+  "bgm": true,
+  "bgm_volume_db": -18,
+  "target_duration": 20,
+  "syllables_min": 90,
+  "syllables_max": 110,
+  "tts": {
+    "gap_s": 0.06
+  },
+  "presenter": {
+    "mode": "auto",
+    "video": "/workspace/hinton-pipeline-docs/assets/presenter-video-novoice.mp4"
+  },
+  "kallaway": {
+    "tail": 0.25,
+    "s_eye_y": 320,
+    "face_split_px": 270
+  },
+  "footage": {
+    "stock_enabled": false
+  }
+}

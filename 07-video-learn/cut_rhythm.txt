@@ -1,0 +1,16 @@
+./douyin-chengxuyuanyupi/Gqrm17AvGQ0.mp4 55 cuts@0.12= 32 avg shot len=1.7s
+./douyin-chengxuyuanyupi/kToDDo8x814.mp4 158 cuts@0.12= 17 avg shot len=9.3s
+./douyin-qiuzhi2046/DvQcsdvIMiE.mp4 255 cuts@0.12= 48 avg shot len=5.3s
+./douyin-qiuzhi2046/pdEn7OXBvt0.mp4 162 cuts@0.12= 77 avg shot len=2.1s
+./facebook-aisavvy/7671291222639643924.mp4 20 cuts@0.12= 2 avg shot len=10.0s
+./facebook-aisavvy/7672308029345271061.mp4 96 cuts@0.12= 9 avg shot len=10.7s
+./facebook-nguyentatkiem/1462864092042491.mp4 84 cuts@0.12= 77 avg shot len=1.1s
+./facebook-nguyentatkiem/bUpnpZWbRyc.mp4 87 cuts@0.12= 118 avg shot len=0.7s
+./tiktok-hieuanca/7641602741256637717.mp4 89 cuts@0.12= 31 avg shot len=2.9s
+./tiktok-hieuanca/7686872745115897109.mp4 41 cuts@0.12= 14 avg shot len=2.9s
+./tiktok-hungnpv/7616786351685405973.mp4 149 cuts@0.12= 13 avg shot len=11.5s
+./tiktok-hungnpv/7654555020423204117.mp4 95 cuts@0.12= 12 avg shot len=7.9s
+./tiktokintl-kanekallaway/7630160402457939230.mp4 73 cuts@0.12= 29 avg shot len=2.5s
+./tiktokintl-kanekallaway/7645299083573267742.mp4 73 cuts@0.12= 68 avg shot len=1.1s
+./tiktokintl-rileybrown.ai/7572819786602761503.mp4 159 cuts@0.12= 17 avg shot len=9.4s
+./tiktokintl-rileybrown.ai/7605369643275963679.mp4 116 cuts@0.12= 12 avg shot len=9.6s

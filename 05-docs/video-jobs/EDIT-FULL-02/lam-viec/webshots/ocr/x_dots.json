@@ -1,0 +1,112 @@
+[
+{
+"box": [
+206,
+58,
+155,
+47
+],
+"text": "OpenAl",
+"conf": 0.82
+},
+{
+"box": [
+212,
+123,
+349,
+44
+],
+"text": "@OpenAl : Follow",
+"conf": 0.899
+},
+{
+"box": [
+50,
+231,
+1114,
+53
+],
+"text": "Introducing dots, powered by GPT-6 Astra.",
+"conf": 0.893
+},
+{
+"box": [
+50,
+372,
+1426,
+59
+],
+"text": "Remarkably capable, always-on agents built to handle",
+"conf": 0.932
+},
+{
+"box": [
+51,
+443,
+283,
+63
+],
+"text": "everything",
+"conf": 0.858
+},
+{
+"box": [
+1309,
+611,
+213,
+37
+],
+"text": "Watch on X",
+"conf": 0.883
+},
+{
+"box": [
+52,
+1451,
+480,
+37
+],
+"text": "12:19 AM : Sep 30, 2026",
+"conf": 0.837
+},
+{
+"box": [
+419,
+1567,
+118,
+55
+],
+"text": "Reply",
+"conf": 0.832
+},
+{
+"box": [
+143,
+1572,
+121,
+40
+],
+"text": "37.7K",
+"conf": 0.76
+},
+{
+"box": [
+681,
+1569,
+328,
+50
+],
+"text": "Copy link to post",
+"conf": 0.833
+},
+{
+"box": [
+658,
+1679,
+334,
+43
+],
+"text": "Read 2.2K replies",
+"conf": 0.891
+}
+]

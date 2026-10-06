@@ -1,0 +1,10 @@
+{
+  "pools": {
+    "stock": {},
+    "demo": [],
+    "screenshots": []
+  },
+  "notes": [
+    "stock footage disabled in config"
+  ]
+}

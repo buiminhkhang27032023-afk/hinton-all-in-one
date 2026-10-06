@@ -1,0 +1,21 @@
+{
+  "key": "/workspace/hinton-pipeline-docs/assets/presenter-video-novoice.mp4|1791064562.0|video|True",
+  "data": {
+    "mode": "video",
+    "pip": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/presenter/presenter_pip.mp4",
+    "full": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/presenter/presenter_full.mp4",
+    "length": 53.966667,
+    "source": "/workspace/hinton-pipeline-docs/assets/presenter-video-novoice.mp4",
+    "crop": "608:1072:656:0",
+    "face": [
+      262,
+      246,
+      151,
+      151
+    ]
+  },
+  "notes": [
+    "stock footage SKIPPED: no PEXELS_API_KEY / PIXABAY_API_KEY env var",
+    "auto-editor (motion) presenter 54.0s -> 54.0s"
+  ]
+}

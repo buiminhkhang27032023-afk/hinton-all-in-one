@@ -1,0 +1,2242 @@
+[
+{
+"box": [
+63,
+44,
+132,
+38
+],
+"text": "OpenAl",
+"conf": 0.839
+},
+{
+"box": [
+608,
+50,
+112,
+30
+],
+"text": "Business",
+"conf": 0.82
+},
+{
+"box": [
+976,
+51,
+121,
+32
+],
+"text": "Company",
+"conf": 0.813
+},
+{
+"box": [
+262,
+52,
+116,
+27
+],
+"text": "Research",
+"conf": 0.878
+},
+{
+"box": [
+437,
+53,
+111,
+24
+],
+"text": "Products",
+"conf": 0.827
+},
+{
+"box": [
+779,
+53,
+137,
+27
+],
+"text": "Developers",
+"conf": 0.766
+},
+{
+"box": [
+1155,
+51,
+140,
+29
+],
+"text": "Foundation",
+"conf": 0.867
+},
+{
+"box": [
+1690,
+52,
+113,
+30
+],
+"text": "Log in v",
+"conf": 0.842
+},
+{
+"box": [
+1903,
+53,
+194,
+27
+],
+"text": "Try ChatGPT 7",
+"conf": 0.821
+},
+{
+"box": [
+1114,
+618,
+116,
+29
+],
+"text": "Product",
+"conf": 0.87
+},
+{
+"box": [
+823,
+618,
+266,
+29
+],
+"text": "September 29, 2026",
+"conf": 0.827
+},
+{
+"box": [
+1248,
+618,
+129,
+31
+],
+"text": "Company",
+"conf": 0.76
+},
+{
+"box": [
+713,
+725,
+777,
+107
+],
+"text": "Introducing dots",
+"conf": 0.874
+},
+{
+"box": [
+837,
+918,
+231,
+30
+],
+"text": "Create your dot 7",
+"conf": 0.817
+},
+{
+"box": [
+1187,
+919,
+178,
+25
+],
+"text": "Contact sales",
+"conf": 0.878
+},
+{
+"box": [
+925,
+1182,
+65,
+28
+],
+"text": "8:00",
+"conf": 0.796
+},
+{
+"box": [
+679,
+1185,
+202,
+26
+],
+"text": "Listen to article",
+"conf": 0.878
+},
+{
+"box": [
+1532,
+1184,
+80,
+28
+],
+"text": "Share",
+"conf": 0.833
+},
+{
+"box": [
+591,
+1377,
+963,
+33
+],
+"text": "Dots are remarkably capable, always-on agents built to handle",
+"conf": 0.913
+},
+{
+"box": [
+590,
+1433,
+951,
+34
+],
+"text": "everything. They're a whole new way to work with Al-one that",
+"conf": 0.924
+},
+{
+"box": [
+588,
+1488,
+1017,
+38
+],
+"text": "gets to know what matters to you, is always working on your behalf,",
+"conf": 0.924
+},
+{
+"box": [
+592,
+1549,
+956,
+30
+],
+"text": "and takes important work off your plate so you get more of your",
+"conf": 0.89
+},
+{
+"box": [
+591,
+1603,
+370,
+29
+],
+"text": "time and attention back.",
+"conf": 0.89
+},
+{
+"box": [
+886,
+2159,
+429,
+170
+],
+"text": "dots",
+"conf": 0.688
+},
+{
+"box": [
+358,
+2664,
+78,
+28
+],
+"text": "00:00",
+"conf": 0.76
+},
+{
+"box": [
+589,
+2927,
+928,
+40
+],
+"text": "Dots are frontier intelligence that have your back. Powered by",
+"conf": 0.909
+},
+{
+"box": [
+590,
+2985,
+915,
+34
+],
+"text": "GPT-6 Astra, they have their own cloud computer, learn from",
+"conf": 0.956
+},
+{
+"box": [
+589,
+3043,
+888,
+33
+],
+"text": "feedback over time, and can work towards your goals 24/7.",
+"conf": 0.907
+},
+{
+"box": [
+591,
+3099,
+1014,
+33
+],
+"text": "Through our ecosystem of plugins, they can readily connect to over",
+"conf": 0.889
+},
+{
+"box": [
+590,
+3259,
+943,
+31
+],
+"text": "Your dot is always within reach, whether it is through ChatGPT,",
+"conf": 0.92
+},
+{
+"box": [
+589,
+3314,
+943,
+34
+],
+"text": "Slack, or Teams. You can ask questions, explore ideas, and give",
+"conf": 0.931
+},
+{
+"box": [
+590,
+3371,
+1016,
+33
+],
+"text": "feedback along the way; or you can simply hop on a voice call when",
+"conf": 0.912
+},
+{
+"box": [
+592,
+3484,
+955,
+30
+],
+"text": "more your dot learns your preferences, how you think, and what",
+"conf": 0.916
+},
+{
+"box": [
+590,
+3538,
+332,
+36
+],
+"text": "good looks like to you.",
+"conf": 0.886
+},
+{
+"box": [
+591,
+3699,
+942,
+31
+],
+"text": "would do it, sometimes before you even think to ask. With dots",
+"conf": 0.913
+},
+{
+"box": [
+591,
+3753,
+965,
+35
+],
+"text": "alongside you, ambitious ideas and projects you haven't had the",
+"conf": 0.931
+},
+{
+"box": [
+590,
+3811,
+744,
+33
+],
+"text": "time or support to pursue start to feel achievable.",
+"conf": 0.912
+},
+{
+"box": [
+589,
+3913,
+1020,
+37
+],
+"text": "Inside OpenAl, we're getting a glimpse of what work looks like when",
+"conf": 0.932
+},
+{
+"box": [
+590,
+3971,
+1001,
+34
+],
+"text": "intelligence is always working by your side. A bug appears in Slack,",
+"conf": 0.92
+},
+{
+"box": [
+590,
+4028,
+1012,
+33
+],
+"text": "and dots immediately start investigating. A new design arrives, and",
+"conf": 0.925
+},
+{
+"box": [
+591,
+4084,
+1010,
+32
+],
+"text": "dots turn it into a working app while the team focuses on customer",
+"conf": 0.897
+},
+{
+"box": [
+590,
+4139,
+1011,
+33
+],
+"text": "feedback. A planning cycle gets underway, and dots keep everyone",
+"conf": 0.888
+},
+{
+"box": [
+591,
+4195,
+925,
+34
+],
+"text": "moving in sync toward the deadline. Outside OpenAl, an early",
+"conf": 0.925
+},
+{
+"box": [
+590,
+4251,
+881,
+32
+],
+"text": "tester's dot noticed he'd forgotten to invoice a publication,",
+"conf": 0.914
+},
+{
+"box": [
+593,
+4205,
+689,
+23
+],
+"text": "moving in sync toward tne deaaiine. Outside c",
+"conf": 0.838
+},
+{
+"box": [
+590,
+4410,
+935,
+34
+],
+"text": "Today, you can start with your primary dot, give it a name, and",
+"conf": 0.896
+},
+{
+"box": [
+590,
+4464,
+956,
+38
+],
+"text": "make it your own. Over time, we envision teams of dots working",
+"conf": 0.951
+},
+{
+"box": [
+590,
+4522,
+1012,
+35
+],
+"text": "together on your behalf. We're beginning to roll out dots across Pro,",
+"conf": 0.942
+},
+{
+"box": [
+589,
+4577,
+956,
+37
+],
+"text": "Business Premium, and Enterprise plans in eligible markets. We",
+"conf": 0.953
+},
+{
+"box": [
+591,
+4635,
+912,
+35
+],
+"text": "plan to expand dots to more users soon. We're also sharing a",
+"conf": 0.923
+},
+{
+"box": [
+590,
+4689,
+891,
+38
+],
+"text": "preview of specialist dots with their own identity for access",
+"conf": 0.915
+},
+{
+"box": [
+589,
+4746,
+921,
+36
+],
+"text": "management, IT-provisioned hardware, and support for deep",
+"conf": 0.911
+},
+{
+"box": [
+592,
+4804,
+979,
+30
+],
+"text": "integrations with a company's systems of record to allow them to",
+"conf": 0.907
+},
+{
+"box": [
+590,
+4858,
+854,
+32
+],
+"text": "take on well-defined responsibilities inside organizations",
+"conf": 0.924
+},
+{
+"box": [
+594,
+5044,
+678,
+45
+],
+"text": "Dots can work on their own",
+"conf": 0.921
+},
+{
+"box": [
+592,
+5166,
+992,
+30
+],
+"text": "Dots can do nearly anything using their own cloud computer, their",
+"conf": 0.939
+},
+{
+"box": [
+590,
+5220,
+689,
+34
+],
+"text": "own browser, and the apps you've connected.",
+"conf": 0.942
+},
+{
+"box": [
+590,
+5379,
+999,
+36
+],
+"text": "Dots can connect to other devices in addition to their own and you",
+"conf": 0.896
+},
+{
+"box": [
+590,
+5435,
+985,
+39
+],
+"text": "can also give your dot permission to connect and use your laptop.",
+"conf": 0.89
+},
+{
+"box": [
+590,
+5493,
+752,
+33
+],
+"text": "where it can then be useful directly alongside you.",
+"conf": 0.961
+},
+{
+"box": [
+1047,
+5769,
+104,
+16
+],
+"text": "Q Alfred's computer",
+"conf": 0.873
+},
+{
+"box": [
+975,
+5892,
+119,
+16
+],
+"text": "Search Google or type a URL",
+"conf": 0.93
+},
+{
+"box": [
+1165,
+5975,
+123,
+16
+],
+"text": "This is my computer. Watch me",
+"conf": 0.904
+},
+{
+"box": [
+584,
+5995,
+125,
+16
+],
+"text": "Stll Water - Sunroom · Soft",
+"conf": 0.821
+},
+{
+"box": [
+1164,
+5988,
+120,
+16
+],
+"text": "work,or take controlwhen you",
+"conf": 0.858
+},
+{
+"box": [
+582,
+6009,
+35,
+18
+],
+"text": "Edges",
+"conf": 0.79
+},
+{
+"box": [
+1165,
+6001,
+35,
+14
+],
+"text": "need to.",
+"conf": 0.791
+},
+{
+"box": [
+1174,
+6094,
+124,
+41
+],
+"text": "11:26.",
+"conf": 0.76
+},
+{
+"box": [
+1163,
+6143,
+145,
+26
+],
+"text": "Welcomeback,Alfred",
+"conf": 0.841
+},
+{
+"box": [
+584,
+6198,
+134,
+17
+],
+"text": "Quiet Canopy -Amber Glass ",
+"conf": 0.846
+},
+{
+"box": [
+585,
+6214,
+56,
+14
+],
+"text": "Open Court",
+"conf": 0.83
+},
+{
+"box": [
+1274,
+6233,
+42,
+17
+],
+"text": "FreCAD",
+"conf": 0.821
+},
+{
+"box": [
+1341,
+6232,
+29,
+18
+],
+"text": "GIMP",
+"conf": 0.798
+},
+{
+"box": [
+1095,
+6235,
+38,
+14
+],
+"text": "3D Sicer",
+"conf": 0.827
+},
+{
+"box": [
+1222,
+6235,
+25,
+14
+],
+"text": "Draw",
+"conf": 0.783
+},
+{
+"box": [
+1159,
+6236,
+30,
+11
+],
+"text": "Blender",
+"conf": 0.747
+},
+{
+"box": [
+1162,
+6314,
+25,
+11
+],
+"text": "Godot",
+"conf": 0.753
+},
+{
+"box": [
+1278,
+6314,
+34,
+11
+],
+"text": "Kdenlive",
+"conf": 0.729
+},
+{
+"box": [
+1341,
+6312,
+28,
+15
+],
+"text": "Kicad",
+"conf": 0.739
+},
+{
+"box": [
+582,
+6414,
+147,
+16
+],
+"text": "@Open Blossom Music in your",
+"conf": 0.891
+},
+{
+"box": [
+583,
+6430,
+156,
+13
+],
+"text": "computer browser, test it and then",
+"conf": 0.931
+},
+{
+"box": [
+581,
+6443,
+117,
+16
+],
+"text": "improvements to the app",
+"conf": 0.929
+},
+{
+"box": [
+754,
+6442,
+23,
+11
+],
+"text": "Send",
+"conf": 0.755
+},
+{
+"box": [
+1170,
+6444,
+81,
+14
+],
+"text": "Alfred has control",
+"conf": 0.896
+},
+{
+"box": [
+1256,
+6443,
+49,
+17
+],
+"text": "Takeover",
+"conf": 0.848
+},
+{
+"box": [
+588,
+6817,
+987,
+39
+],
+"text": "Your dot can take a project and run with it, even while it's working",
+"conf": 0.934
+},
+{
+"box": [
+589,
+6876,
+949,
+34
+],
+"text": "on several others. You can keep bringing it new tasks and ideas",
+"conf": 0.897
+},
+{
+"box": [
+588,
+6930,
+936,
+38
+],
+"text": "without having to juggle separate threads or direct every step.",
+"conf": 0.914
+},
+{
+"box": [
+591,
+7113,
+707,
+57
+],
+"text": "Dots are an extension of you",
+"conf": 0.891
+},
+{
+"box": [
+589,
+7236,
+977,
+36
+],
+"text": "With a dot that knows your goals and standards, you can take on",
+"conf": 0.924
+},
+{
+"box": [
+588,
+7293,
+931,
+34
+],
+"text": "more without directing every step. Here's what that looks like:",
+"conf": 0.923
+},
+{
+"box": [
+1149,
+7592,
+189,
+16
+],
+"text": "* Fieldnotes Release worksp:",
+"conf": 0.862
+},
+{
+"box": [
+1343,
+7635,
+163,
+16
+],
+"text": "127.0.0.1:47920/?project=ios",
+"conf": 0.911
+},
+{
+"box": [
+628,
+7689,
+160,
+16
+],
+"text": "implementation,merge,or",
+"conf": 0.897
+},
+{
+"box": [
+815,
+7692,
+34,
+19
+],
+"text": "Iggy",
+"conf": 0.687
+},
+{
+"box": [
+1144,
+7692,
+109,
+25
+],
+"text": "米 fieldnotes.",
+"conf": 0.836
+},
+{
+"box": [
+1299,
+7695,
+126,
+37
+],
+"text": "iOS beta",
+"conf": 0.722
+},
+{
+"box": [
+799,
+7708,
+62,
+20
+],
+"text": "Thinking.",
+"conf": 0.808
+},
+{
+"box": [
+557,
+7739,
+304,
+16
+],
+"text": "Is Thursday still the target for the website release?",
+"conf": 0.918
+},
+{
+"box": [
+1300,
+7742,
+148,
+17
+],
+"text": "Version 1.8.0 . TestFlight",
+"conf": 0.825
+},
+{
+"box": [
+627,
+7791,
+447,
+16
+],
+"text": "Actually,we can move it to Tuesday instead.You've been super helpful and",
+"conf": 0.889
+},
+{
+"box": [
+1178,
+7783,
+58,
+14
+],
+"text": "All releases",
+"conf": 0.787
+},
+{
+"box": [
+626,
+7810,
+179,
+16
+],
+"text": "we're way ahead of schedule!",
+"conf": 0.888
+},
+{
+"box": [
+1320,
+7802,
+44,
+17
+],
+"text": "Up next",
+"conf": 0.853
+},
+{
+"box": [
+1151,
+7836,
+48,
+14
+],
+"text": "Releases",
+"conf": 0.804
+},
+{
+"box": [
+1322,
+7827,
+234,
+23
+],
+"text": "Upload build to TestFlight",
+"conf": 0.898
+},
+{
+"box": [
+558,
+7860,
+311,
+17
+],
+"text": "Are we keeping the release notes short for this one?",
+"conf": 0.944
+},
+{
+"box": [
+1176,
+7873,
+77,
+14
+],
+"text": "Website launch",
+"conf": 0.849
+},
+{
+"box": [
+965,
+7912,
+137,
+17
+],
+"text": "Yep,just the highlights.",
+"conf": 0.902
+},
+{
+"box": [
+1389,
+7906,
+111,
+16
+],
+"text": "2 of 6 steps complete",
+"conf": 0.923
+},
+{
+"box": [
+1175,
+7917,
+47,
+17
+],
+"text": "ios beta",
+"conf": 0.771
+},
+{
+"box": [
+556,
+7962,
+454,
+16
+],
+"text": "People are reporting that they can't find the ioS beta checklist after our last",
+"conf": 0.898
+},
+{
+"box": [
+1175,
+7961,
+41,
+17
+],
+"text": "Archive",
+"conf": 0.851
+},
+{
+"box": [
+1301,
+7965,
+147,
+20
+],
+"text": "Releasechecklist",
+"conf": 0.913
+},
+{
+"box": [
+556,
+7979,
+463,
+19
+],
+"text": "deployment. I checked, and it's missing from the sidebar for new users. Want",
+"conf": 0.93
+},
+{
+"box": [
+556,
+7997,
+75,
+19
+],
+"text": "me to fix it?",
+"conf": 0.881
+},
+{
+"box": [
+1331,
+8006,
+77,
+19
+],
+"text": "Search steps",
+"conf": 0.847
+},
+{
+"box": [
+697,
+8049,
+408,
+19
+],
+"text": "Yes, please. Bring it back and let me review the fix before we merge.",
+"conf": 0.929
+},
+{
+"box": [
+1309,
+8057,
+34,
+15
+],
+"text": "Open",
+"conf": 0.769
+},
+{
+"box": [
+1370,
+8057,
+58,
+14
+],
+"text": "Completed",
+"conf": 0.814
+},
+{
+"box": [
+1640,
+8055,
+57,
+17
+],
+"text": "Clear filters",
+"conf": 0.903
+},
+{
+"box": [
+557,
+8100,
+455,
+19
+],
+"text": "The sidebar fix is ready for review. The ioS beta checklist for version 1.8.0 is",
+"conf": 0.929
+},
+{
+"box": [
+557,
+8119,
+138,
+18
+],
+"text": "back where it belongs.",
+"conf": 0.908
+},
+{
+"box": [
+1327,
+8110,
+155,
+17
+],
+"text": "Upload build to TestFlight",
+"conf": 0.905
+},
+{
+"box": [
+1328,
+8131,
+364,
+16
+],
+"text": "Upload the signed build to App Store Connect and submit it for beta review.",
+"conf": 0.929
+},
+{
+"box": [
+557,
+8151,
+87,
+17
+],
+"text": "Review the fix",
+"conf": 0.854
+},
+{
+"box": [
+1328,
+8180,
+137,
+16
+],
+"text": "Add beta testing notes",
+"conf": 0.902
+},
+{
+"box": [
+1329,
+8202,
+335,
+13
+],
+"text": "Highlight the new release checklist and ask testers to try shared links.",
+"conf": 0.908
+},
+{
+"box": [
+1019,
+8217,
+71,
+17
+],
+"text": "Great work.",
+"conf": 0.878
+},
+{
+"box": [
+1017,
+8231,
+88,
+23
+],
+"text": "Ship it!",
+"conf": 0.779
+},
+{
+"box": [
+1328,
+8249,
+130,
+16
+],
+"text": "Invite external testers",
+"conf": 0.901
+},
+{
+"box": [
+1028,
+8264,
+79,
+17
+],
+"text": "Read 5:49 PM",
+"conf": 0.876
+},
+{
+"box": [
+1326,
+8269,
+354,
+16
+],
+"text": "Send the TestFlight link and invite testers to our private WhatsApp group.",
+"conf": 0.956
+},
+{
+"box": [
+584,
+8311,
+104,
+15
+],
+"text": "Send a message",
+"conf": 0.927
+},
+{
+"box": [
+1184,
+8309,
+60,
+20
+],
+"text": "Avril Chen",
+"conf": 0.837
+},
+{
+"box": [
+1328,
+8317,
+142,
+16
+],
+"text": "Review testerfeedback",
+"conf": 0.901
+},
+{
+"box": [
+1330,
+8335,
+332,
+17
+],
+"text": "Log crashes and whatsApp feedback; flag blockers for the next build.",
+"conf": 0.927
+},
+{
+"box": [
+592,
+8478,
+475,
+21
+],
+"text": "Turn feedback into tested fixes",
+"conf": 0.933
+},
+{
+"box": [
+590,
+8535,
+993,
+34
+],
+"text": "You're a developer working on an app. Your dot watches customer",
+"conf": 0.945
+},
+{
+"box": [
+590,
+8592,
+1011,
+33
+],
+"text": "feedback for recurring requests, scopes smaller improvements and",
+"conf": 0.914
+},
+{
+"box": [
+590,
+8646,
+969,
+37
+],
+"text": "bugfixes, builds and tests them, and brings you complete PRs to",
+"conf": 0.942
+},
+{
+"box": [
+590,
+8702,
+964,
+36
+],
+"text": "review with attached videos showing the changes. You can keep",
+"conf": 0.935
+},
+{
+"box": [
+591,
+8759,
+907,
+34
+],
+"text": "building the next major feature while reviewing the fixes and",
+"conf": 0.918
+},
+{
+"box": [
+589,
+8815,
+504,
+36
+],
+"text": "improvements your dot prepares.",
+"conf": 0.885
+},
+{
+"box": [
+593,
+9111,
+659,
+52
+],
+"text": "Dots work where you work",
+"conf": 0.904
+},
+{
+"box": [
+593,
+9236,
+962,
+30
+],
+"text": "Working with your dot is as simple as having a conversation. You",
+"conf": 0.911
+},
+{
+"box": [
+588,
+9288,
+1002,
+37
+],
+"text": "can message or call dots in ChatGPT on desktop, web, and mobile.",
+"conf": 0.912
+},
+{
+"box": [
+590,
+9345,
+988,
+36
+],
+"text": "They can also message you with progress, questions, or decisions",
+"conf": 0.929
+},
+{
+"box": [
+590,
+9402,
+216,
+33
+],
+"text": "that need you.",
+"conf": 0.872
+},
+{
+"box": [
+589,
+9503,
+957,
+39
+],
+"text": "You can also message your dot in Slack and Teams, with texting",
+"conf": 0.893
+},
+{
+"box": [
+591,
+9561,
+962,
+34
+],
+"text": "coming soon. Start a project in ChatGPT, share context with the",
+"conf": 0.934
+},
+{
+"box": [
+590,
+9616,
+984,
+39
+],
+"text": "working team in Slack, and let your dot follow through. Dots carry",
+"conf": 0.915
+},
+{
+"box": [
+591,
+9673,
+997,
+35
+],
+"text": "context across every channel, so your dot will have the full context",
+"conf": 0.926
+},
+{
+"box": [
+592,
+9732,
+328,
+30
+],
+"text": "wherever you reach it.",
+"conf": 0.904
+},
+{
+"box": [
+589,
+11135,
+591,
+55
+],
+"text": "You're always in control",
+"conf": 0.927
+},
+{
+"box": [
+590,
+11260,
+953,
+31
+],
+"text": "Dots build on ChatGPT's protections with additional safety and",
+"conf": 0.927
+},
+{
+"box": [
+591,
+11316,
+850,
+35
+],
+"text": "privacy safeguards for the work they can do. You can set",
+"conf": 0.925
+},
+{
+"box": [
+591,
+11373,
+953,
+32
+],
+"text": "boundaries, follow progress, and stay involved in decisions that",
+"conf": 0.959
+},
+{
+"box": [
+589,
+11428,
+149,
+34
+],
+"text": "need you.",
+"conf": 0.841
+},
+{
+"box": [
+592,
+12833,
+355,
+36
+],
+"text": "Built-in safeguards",
+"conf": 0.881
+},
+{
+"box": [
+590,
+12936,
+966,
+35
+],
+"text": "Each dot works on its own cloud computer, while your computer",
+"conf": 0.932
+},
+{
+"box": [
+590,
+12993,
+1007,
+34
+],
+"text": "and its contents stay separate unless you choose to connect it. For",
+"conf": 0.913
+},
+{
+"box": [
+590,
+13051,
+958,
+33
+],
+"text": "signing into supported websites, dots can use saved passwords",
+"conf": 0.935
+},
+{
+"box": [
+591,
+13106,
+555,
+32
+],
+"text": "without exposing them to the model.",
+"conf": 0.902
+},
+{
+"box": [
+590,
+13208,
+1000,
+34
+],
+"text": "When you aren't actively working with it, your dot looks for ways to",
+"conf": 0.924
+},
+{
+"box": [
+589,
+13320,
+954,
+37
+],
+"text": "this by using the apps you've already connected with tools that",
+"conf": 0.945
+},
+{
+"box": [
+591,
+13379,
+880,
+30
+],
+"text": "are restricted to be read-only, which means that they can't",
+"conf": 0.876
+},
+{
+"box": [
+592,
+13436,
+919,
+30
+],
+"text": "send messages, change app content, or control your browser",
+"conf": 0.923
+},
+{
+"box": [
+591,
+13491,
+193,
+34
+],
+"text": "or computer.",
+"conf": 0.909
+},
+{
+"box": [
+592,
+13595,
+975,
+30
+],
+"text": "Security safeguards built into dots help defend against malicious",
+"conf": 0.896
+},
+{
+"box": [
+592,
+13651,
+943,
+30
+],
+"text": "instructions and monitor for potentially harmful behavior. If our",
+"conf": 0.904
+},
+{
+"box": [
+590,
+13704,
+979,
+37
+],
+"text": "monitoring system detects a safety concern, it can pause or stop",
+"conf": 0.923
+},
+{
+"box": [
+591,
+13763,
+219,
+27
+],
+"text": "the dot's work.",
+"conf": 0.921
+},
+{
+"box": [
+590,
+13941,
+461,
+38
+],
+"text": "Access and permissions",
+"conf": 0.924
+},
+{
+"box": [
+590,
+14101,
+862,
+35
+],
+"text": "permissions through your existing ChatGPT app controls.",
+"conf": 0.937
+},
+{
+"box": [
+592,
+14207,
+941,
+30
+],
+"text": "Dots start with built-in rules for when to act independently and",
+"conf": 0.927
+},
+{
+"box": [
+591,
+14262,
+918,
+33
+],
+"text": "when to ask for approval. Custom Rules let you allow specific",
+"conf": 0.92
+},
+{
+"box": [
+590,
+14317,
+820,
+34
+],
+"text": "actions, require approval, or block them. Built-in safety",
+"conf": 0.934
+},
+{
+"box": [
+592,
+14432,
+945,
+30
+],
+"text": "background work, in Activity View and redirect dots as needed.",
+"conf": 0.938
+},
+{
+"box": [
+590,
+14532,
+979,
+35
+],
+"text": "We don't use content from ChatGPT Business, Enterprise, or Edu",
+"conf": 0.913
+},
+{
+"box": [
+590,
+14589,
+890,
+34
+],
+"text": "workspaces to improve our models by default. On personal",
+"conf": 0.911
+},
+{
+"box": [
+589,
+14643,
+981,
+37
+],
+"text": "ChatGPT plans, you can control whether dots' conversations and",
+"conf": 0.919
+},
+{
+"box": [
+592,
+14703,
+949,
+30
+],
+"text": "work are used to improve our models. We don't train directly on",
+"conf": 0.913
+},
+{
+"box": [
+590,
+14756,
+961,
+36
+],
+"text": "proactive research or your dot's notes to itself. Information from",
+"conf": 0.921
+},
+{
+"box": [
+590,
+14869,
+419,
+36
+],
+"text": "depending on your settings.",
+"conf": 0.911
+},
+{
+"box": [
+591,
+15049,
+539,
+38
+],
+"text": "Action review and approvals",
+"conf": 0.933
+},
+{
+"box": [
+590,
+15154,
+910,
+35
+],
+"text": "Dots use auto-review to check actions that could affect your",
+"conf": 0.942
+},
+{
+"box": [
+591,
+15214,
+971,
+30
+],
+"text": "accounts or share information against your instructions, Custom",
+"conf": 0.928
+},
+{
+"box": [
+592,
+15270,
+963,
+30
+],
+"text": "Rules, and safety requirements. This helps determine what work",
+"conf": 0.919
+},
+{
+"box": [
+591,
+15324,
+1003,
+33
+],
+"text": "can proceed, what needs approval, and what you must do yourself.",
+"conf": 0.928
+},
+{
+"box": [
+589,
+15375,
+994,
+41
+],
+"text": "Certain sensitive tasks, such as changing a password, always stay",
+"conf": 0.924
+},
+{
+"box": [
+590,
+15436,
+135,
+34
+],
+"text": "with you.",
+"conf": 0.854
+},
+{
+"box": [
+591,
+15540,
+990,
+31
+],
+"text": "You can learn more about our safety approach for dots in our dots",
+"conf": 0.889
+},
+{
+"box": [
+591,
+15594,
+966,
+35
+],
+"text": "safety blog, in our Help Center, and in our system card. Dots can",
+"conf": 0.94
+},
+{
+"box": [
+590,
+15650,
+864,
+35
+],
+"text": "still make mistakes, so always review consequential work.",
+"conf": 0.909
+},
+{
+"box": [
+592,
+15835,
+902,
+54
+],
+"text": "Specialist dots for your organization",
+"conf": 0.922
+},
+{
+"box": [
+590,
+15957,
+971,
+33
+],
+"text": "Your dot works on your behalf; specialist dots take on dedicated",
+"conf": 0.928
+},
+{
+"box": [
+590,
+16010,
+943,
+40
+],
+"text": "responsibilities within your organization. Your company sets up",
+"conf": 0.928
+},
+{
+"box": [
+592,
+16071,
+908,
+30
+],
+"text": "each dot with its own identity, credentials, and access to the",
+"conf": 0.912
+},
+{
+"box": [
+591,
+16126,
+990,
+34
+],
+"text": "systems it needs to complete its tasks. As it works, the dot adapts",
+"conf": 0.91
+},
+{
+"box": [
+591,
+16184,
+966,
+30
+],
+"text": "to new information and improves with feedback from your team.",
+"conf": 0.925
+},
+{
+"box": [
+591,
+16239,
+983,
+33
+],
+"text": "We're building on lessons from early testing inside OpenAl across",
+"conf": 0.928
+},
+{
+"box": [
+590,
+16292,
+916,
+38
+],
+"text": "procurement, invoice processing, email marketing, customer",
+"conf": 0.912
+},
+{
+"box": [
+589,
+16347,
+572,
+39
+],
+"text": "support, and commercial contracting.",
+"conf": 0.929
+},
+{
+"box": [
+589,
+16451,
+928,
+39
+],
+"text": "We're starting with focused enterprise pilots. Our engineering",
+"conf": 0.94
+},
+{
+"box": [
+591,
+16510,
+947,
+33
+],
+"text": "teams will work directly with organizations to define each dot's",
+"conf": 0.936
+},
+{
+"box": [
+592,
+16567,
+951,
+33
+],
+"text": "responsibilities, the tools it can use, and how people review and",
+"conf": 0.919
+},
+{
+"box": [
+589,
+16618,
+975,
+40
+],
+"text": "approve its work. If there's work you'd like a specialist dot to take",
+"conf": 0.923
+},
+{
+"box": [
+590,
+16677,
+445,
+35
+],
+"text": "on, we'd like to hear from you.",
+"conf": 0.906
+},
+{
+"box": [
+593,
+16858,
+901,
+36
+],
+"text": "Bringing specialist dots to Microsoft Agent 365",
+"conf": 0.931
+},
+{
+"box": [
+592,
+16964,
+991,
+29
+],
+"text": "We're also working with Microsoft to integrate specialist dots with",
+"conf": 0.908
+},
+{
+"box": [
+591,
+17021,
+1016,
+30
+],
+"text": "their enterprise governance and security controls in Agent 365. The",
+"conf": 0.902
+},
+{
+"box": [
+590,
+17073,
+987,
+36
+],
+"text": "goal is to let businesses manage dots through the Microsoft tools",
+"conf": 0.908
+},
+{
+"box": [
+591,
+17132,
+250,
+32
+],
+"text": "they already use.",
+"conf": 0.846
+},
+{
+"box": [
+595,
+17318,
+527,
+40
+],
+"text": "Get started with dots",
+"conf": 0.872
+},
+{
+"box": [
+591,
+17437,
+870,
+32
+],
+"text": "Dots are rolling out today in ChatGPT to Pro and Business",
+"conf": 0.91
+},
+{
+"box": [
+591,
+17492,
+996,
+32
+],
+"text": "Premium users in eligible markets. Enterprise users (including Edu",
+"conf": 0.915
+},
+{
+"box": [
+590,
+17547,
+933,
+35
+],
+"text": "and Healthcare) can try the beta when their workspace admin",
+"conf": 0.908
+},
+{
+"box": [
+590,
+17603,
+154,
+33
+],
+"text": "enables it.",
+"conf": 0.844
+},
+{
+"box": [
+590,
+17707,
+1019,
+34
+],
+"text": "Your first dot is included in your Pro or Business Premium plan at no",
+"conf": 0.927
+},
+{
+"box": [
+589,
+17761,
+1008,
+39
+],
+"text": "extra cost. It's available 24/7 to talk, help you think, and stay on top",
+"conf": 0.934
+},
+{
+"box": [
+591,
+17819,
+956,
+34
+],
+"text": "of what matters to you. Your plan also includes an allowance for",
+"conf": 0.901
+},
+{
+"box": [
+590,
+17876,
+988,
+32
+],
+"text": "deeper work, with extended limits for the first month after launch.",
+"conf": 0.933
+},
+{
+"box": [
+591,
+17934,
+991,
+29
+],
+"text": "In the future, you'll be able to add more dots, and scale the output",
+"conf": 0.936
+}
+]

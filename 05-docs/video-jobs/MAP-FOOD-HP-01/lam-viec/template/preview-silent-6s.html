@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="vi"><head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=1080, height=1920"/>
+<title>MAP-FOOD-HP-01 tour [PLACEHOLDER TEST]</title>
+<script src="assets/gsap.min.js"></script>
+<style>
+@font-face{font-family:'BeVietnam';src:url('assets/fonts/BeVietnamPro-Regular.ttf');font-weight:400}
+@font-face{font-family:'BeVietnam';src:url('assets/fonts/BeVietnamPro-Medium.ttf');font-weight:500}
+@font-face{font-family:'BeVietnam';src:url('assets/fonts/BeVietnamPro-SemiBold.ttf');font-weight:600}
+@font-face{font-family:'BeVietnam';src:url('assets/fonts/BeVietnamPro-Bold.ttf');font-weight:700}
+@font-face{font-family:'BeVietnam';src:url('assets/fonts/BeVietnamPro-ExtraBold.ttf');font-weight:800}
+@font-face{font-family:'BeVietnam';src:url('assets/fonts/BeVietnamPro-Black.ttf');font-weight:900}
+@font-face{font-family:'NotoColorEmoji';src:url('assets/fonts/NotoColorEmoji.ttf')}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#0a0c10;font-family:'BeVietnam',system-ui,sans-serif;color:#fff}
+#root{width:1080px;height:1920px;position:relative;overflow:hidden}
+#mapWorld{position:absolute;left:0;top:0;width:2304px;height:2048px;transform-origin:0 0}
+#mapWorld img.map{width:100%;height:100%;display:block;filter:brightness(.94) contrast(1.1)}
+.pin{position:absolute;width:96px;height:120px;margin-left:-48px;margin-top:-120px;transform-origin:50% 100%;opacity:0}
+.pin .pin-img{width:100%;height:100%;filter:drop-shadow(0 8px 12px rgba(0,0,0,.55))}
+.pin.landmark,.pin.hotel{width:78px;height:98px;margin-left:-39px;margin-top:-98px}
+.pin .label{position:absolute;background:rgba(0,0,0,.88);color:#fff;font-size:22px;font-weight:800;padding:6px 14px;border-radius:12px;white-space:nowrap;border:1.5px solid rgba(245,197,24,.45)}
+.pin .label.side-top{left:50%;bottom:100%;transform:translate(-50%,-8px)}
+.pin .label.side-left{right:100%;top:8px;transform:translate(-8px,0)}
+.pin .label.side-right{left:100%;top:8px;transform:translate(8px,0)}
+.pin .food-emoji{position:absolute;left:70px;top:-28px;font-size:48px;font-family:'NotoColorEmoji',sans-serif;opacity:0;filter:drop-shadow(0 6px 10px rgba(0,0,0,.5))}
+.vignette{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at center,transparent 38%,rgba(0,0,0,.55) 100%);z-index:5}
+.ui{position:absolute;inset:0;pointer-events:none;z-index:20}
+.hook{position:absolute;top:200px;left:40px;right:40px;opacity:0}
+.hook .glass{background:rgba(10,12,18,.78);border:2.5px solid rgba(245,197,24,.65);border-radius:28px;padding:28px 30px;box-shadow:0 18px 50px rgba(0,0,0,.6);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);text-align:center}
+.hook-title{font-size:64px;font-weight:900;line-height:1.15}
+.hook-sub{font-size:34px;font-weight:700;color:#F5C518;margin-top:10px}
+.card{position:absolute;left:32px;right:32px;bottom:140px;display:flex;gap:18px;align-items:stretch;
+  padding:22px 24px;border-radius:28px;background:rgba(10,12,18,.78);border:2.5px solid rgba(245,197,24,.55);
+  box-shadow:0 18px 50px rgba(0,0,0,.55);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+.card-left{display:flex;flex-direction:column;align-items:center;gap:8px;min-width:120px}
+.rank-badge{width:150px;height:auto}
+.food-emoji-lg{font-size:64px;font-family:'NotoColorEmoji',sans-serif;line-height:1}
+.card-body{flex:1;min-width:0;display:flex;flex-direction:column;gap:8px;justify-content:center}
+.name{font-size:36px;font-weight:900;line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rating-row{display:flex;align-items:center;gap:12px}
+.starwrap{position:relative;width:200px;height:36px}
+.starwrap .empty,.starwrap .gold{position:absolute;left:0;top:0;display:flex;gap:2px}
+.starwrap .gold{overflow:hidden;width:0}
+.rating-num{font-size:36px;font-weight:900;color:#F5C518}
+.reviews{font-size:28px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.quote{position:absolute;left:40px;right:40px;top:220px;padding:20px 24px;border-radius:22px;
+  background:rgba(10,12,18,.78);border:2px solid rgba(245,197,24,.45);
+  backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);box-shadow:0 12px 32px rgba(0,0,0,.4)}
+.quote-stars{display:flex;gap:2px;margin-bottom:8px}
+.quote-text{font-size:30px;font-weight:700;line-height:1.35}
+.quote-meta{margin-top:8px;font-size:22px;font-weight:600;color:rgba(255,255,255,.72)}
+.progress{position:absolute;top:100px;right:36px;padding:10px 18px;border-radius:999px;
+  background:rgba(0,0,0,.55);border:1px solid rgba(245,197,24,.5);font-size:28px;font-weight:900;color:#F5C518;opacity:0}
+.cta{position:absolute;left:40px;right:40px;bottom:200px;text-align:center;opacity:0}
+.cta-title{font-size:52px;font-weight:900}
+.cta-sub{font-size:30px;font-weight:700;color:#F5C518;margin-top:10px}
+.footer{position:absolute;left:20px;right:20px;bottom:28px;display:flex;justify-content:space-between;align-items:center;gap:10px;z-index:50}
+.disclaimer{font-size:18px;font-weight:700;color:rgba(255,255,255,.8);background:rgba(0,0,0,.55);padding:8px 14px;border-radius:10px}
+.attr{font-size:16px;color:rgba(255,255,255,.5)}
+.banner{position:absolute;top:0;left:0;right:0;z-index:80;padding:10px 16px;text-align:center;background:#c0392b;color:#fff;font-weight:800;font-size:22px}
+</style></head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="6.0" data-width="1080" data-height="1920" data-fps="30">
+  <div class="banner">PLACEHOLDER / SAMPLE DATA — DO NOT SHIP</div>
+  <div id="mapStage" class="clip" data-start="0" data-duration="6.0" data-track-index="0">
+    <div id="mapWorld">
+      <img class="map" src="assets/map/haiphong-dark-z16.png" width="2304" height="2048" alt="Hải Phòng"/>
+      <svg id="routeSvg" viewBox="0 0 2304 2048" width="2304" height="2048"
+        style="position:absolute;left:0;top:0;pointer-events:none;opacity:0">
+        <polyline id="routeLine" points="1758.19,1024.59 1278.17,1194.15 1045.15,1328.8 1408.66,1328.8 1390.02,1313.84" fill="none" stroke="#F5C518" stroke-width="10"
+          stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="18 14" opacity="0.85"/>
+      </svg>
+      <div class="pin landmark" id="pin-nha-hat-lon" style="left:1236.74px;top:1108.27px"><div class="label side-top">Nhà hát Lớn</div><img class="pin-img" src="assets/pins/landmark.svg" alt=""/></div><div class="pin landmark" id="pin-cho-sat" style="left:730.58px;top:1171.76px"><div class="label side-top">Chợ Sắt</div><img class="pin-img" src="assets/pins/landmark.svg" alt=""/></div><div class="pin hotel" id="pin-avani" style="left:1600.76px;top:761.81px"><div class="label side-top">Avani</div><img class="pin-img" src="assets/pins/hotel.svg" alt=""/></div><div class="pin stop" id="pin-placeholder-1" style="left:1758.19px;top:1024.59px"><div class="label side-top">Đ1</div><img class="pin-img" src="assets/pins/restaurant.svg" alt=""/><span class="food-emoji" id="foodemoji-placeholder-1">🥖</span></div><div class="pin stop" id="pin-placeholder-2" style="left:1278.17px;top:1194.15px"><div class="label side-top">Đ2</div><img class="pin-img" src="assets/pins/restaurant.svg" alt=""/><span class="food-emoji" id="foodemoji-placeholder-2">🦀</span></div><div class="pin stop" id="pin-placeholder-3" style="left:1045.15px;top:1328.8px"><div class="label side-top">Đ3</div><img class="pin-img" src="assets/pins/restaurant.svg" alt=""/><span class="food-emoji" id="foodemoji-placeholder-3">🥣</span></div><div class="pin stop" id="pin-placeholder-4" style="left:1408.66px;top:1328.8px"><div class="label side-top">Đ4</div><img class="pin-img" src="assets/pins/restaurant.svg" alt=""/><span class="food-emoji" id="foodemoji-placeholder-4">🍜</span></div><div class="pin stop" id="pin-placeholder-5" style="left:1390.02px;top:1313.84px"><div class="label side-top">Đ5</div><img class="pin-img" src="assets/pins/restaurant.svg" alt=""/><span class="food-emoji" id="foodemoji-placeholder-5">🍡</span></div>
+    </div>
+  </div>
+  <div class="vignette"></div>
+  <div class="ui">
+    <div class="hook clip" id="hook" data-start="0" data-duration="6.0" data-track-index="2" style="opacity:0">
+      <div class="glass">
+        <div class="hook-title">Food tour<br/><span style="color:#F5C518">HẢI PHÒNG</span></div>
+        <div class="hook-sub">5 điểm trên bản đồ</div>
+      </div>
+    </div>
+    <div class="progress" id="progress"><span id="progressTxt">1/5</span></div>
+    
+    <div class="card clip" id="card-placeholder-1" data-start="0" data-duration="6.0" data-track-index="10" style="opacity:0">
+      <div class="card-left">
+        <img class="rank-badge" src="assets/badges/diem-1.svg" alt="ĐIỂM 1"/>
+        <div class="food-emoji-lg">🥖</div>
+      </div>
+      <div class="card-body">
+        <div class="name">[PLACEHOLDER] Điểm mẫu 1</div>
+        <div class="rating-row">
+          <div class="starwrap"><div class="empty"><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div>
+            <div class="gold" id="gold-placeholder-1" style="width:0"><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div>
+          <div class="rating-num" id="rating-placeholder-1">—</div>
+        </div>
+        <div class="reviews">[PLACEHOLDER]</div>
+      </div>
+    </div>
+    <div class="card clip" id="card-placeholder-2" data-start="0" data-duration="6.0" data-track-index="10" style="opacity:0">
+      <div class="card-left">
+        <img class="rank-badge" src="assets/badges/diem-2.svg" alt="ĐIỂM 2"/>
+        <div class="food-emoji-lg">🦀</div>
+      </div>
+      <div class="card-body">
+        <div class="name">[PLACEHOLDER] Điểm mẫu 2</div>
+        <div class="rating-row">
+          <div class="starwrap"><div class="empty"><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div>
+            <div class="gold" id="gold-placeholder-2" style="width:0"><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div>
+          <div class="rating-num" id="rating-placeholder-2">—</div>
+        </div>
+        <div class="reviews">[PLACEHOLDER]</div>
+      </div>
+    </div>
+    <div class="card clip" id="card-placeholder-3" data-start="0" data-duration="6.0" data-track-index="10" style="opacity:0">
+      <div class="card-left">
+        <img class="rank-badge" src="assets/badges/diem-3.svg" alt="ĐIỂM 3"/>
+        <div class="food-emoji-lg">🥣</div>
+      </div>
+      <div class="card-body">
+        <div class="name">[PLACEHOLDER] Điểm mẫu 3</div>
+        <div class="rating-row">
+          <div class="starwrap"><div class="empty"><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div>
+            <div class="gold" id="gold-placeholder-3" style="width:0"><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div>
+          <div class="rating-num" id="rating-placeholder-3">—</div>
+        </div>
+        <div class="reviews">[PLACEHOLDER]</div>
+      </div>
+    </div>
+    <div class="card clip" id="card-placeholder-4" data-start="0" data-duration="6.0" data-track-index="10" style="opacity:0">
+      <div class="card-left">
+        <img class="rank-badge" src="assets/badges/diem-4.svg" alt="ĐIỂM 4"/>
+        <div class="food-emoji-lg">🍜</div>
+      </div>
+      <div class="card-body">
+        <div class="name">[PLACEHOLDER] Điểm mẫu 4</div>
+        <div class="rating-row">
+          <div class="starwrap"><div class="empty"><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div>
+            <div class="gold" id="gold-placeholder-4" style="width:0"><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div>
+          <div class="rating-num" id="rating-placeholder-4">—</div>
+        </div>
+        <div class="reviews">[PLACEHOLDER]</div>
+      </div>
+    </div>
+    <div class="card clip" id="card-placeholder-5" data-start="0" data-duration="6.0" data-track-index="10" style="opacity:0">
+      <div class="card-left">
+        <img class="rank-badge" src="assets/badges/diem-5.svg" alt="ĐIỂM 5"/>
+        <div class="food-emoji-lg">🍡</div>
+      </div>
+      <div class="card-body">
+        <div class="name">[PLACEHOLDER] Điểm mẫu 5</div>
+        <div class="rating-row">
+          <div class="starwrap"><div class="empty"><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#4a4a4a" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div>
+            <div class="gold" id="gold-placeholder-5" style="width:0"><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="36" height="36"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div></div>
+          <div class="rating-num" id="rating-placeholder-5">—</div>
+        </div>
+        <div class="reviews">[PLACEHOLDER]</div>
+      </div>
+    </div>
+    
+    <div class="quote clip" id="quote-placeholder-1" data-start="0" data-duration="6.0" data-track-index="11" style="opacity:0">
+      <div class="quote-stars"><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div>
+      <div class="quote-text">“[PLACEHOLDER quote]”</div>
+      <div class="quote-meta">— Thực khách · Review Google Maps (dịch)</div>
+    </div>
+    <div class="quote clip" id="quote-placeholder-2" data-start="0" data-duration="6.0" data-track-index="11" style="opacity:0">
+      <div class="quote-stars"><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div>
+      <div class="quote-text">“[PLACEHOLDER quote]”</div>
+      <div class="quote-meta">— Thực khách · Review Google Maps (dịch)</div>
+    </div>
+    <div class="quote clip" id="quote-placeholder-3" data-start="0" data-duration="6.0" data-track-index="11" style="opacity:0">
+      <div class="quote-stars"><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div>
+      <div class="quote-text">“[PLACEHOLDER quote]”</div>
+      <div class="quote-meta">— Thực khách · Review toididau</div>
+    </div>
+    <div class="quote clip" id="quote-placeholder-4" data-start="0" data-duration="6.0" data-track-index="11" style="opacity:0">
+      <div class="quote-stars"><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div>
+      <div class="quote-text">“[PLACEHOLDER quote]”</div>
+      <div class="quote-meta">— Thực khách · Review Google Maps (dịch)</div>
+    </div>
+    <div class="quote clip" id="quote-placeholder-5" data-start="0" data-duration="6.0" data-track-index="11" style="opacity:0">
+      <div class="quote-stars"><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg><svg viewBox="0 0 24 24" width="32" height="32"><path fill="#F5C518" d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 17.8 5.8 21.1 7 14.2 2 9.3l6.9-1z"/></svg></div>
+      <div class="quote-text">“[PLACEHOLDER quote]”</div>
+      <div class="quote-meta">— Thực khách · Review Google Maps (dịch)</div>
+    </div>
+    <div class="cta clip" id="cta" data-start="0" data-duration="6.0" data-track-index="12" style="opacity:0">
+      <div class="cta-title">Đi thử chưa?</div>
+      <div class="cta-sub">Follow · Save · Share</div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="disclaimer">Số liệu Google Maps tham khảo, 10/2026</div>
+    <div class="attr">Tiles © Esri</div>
+  </div>
+  <audio id="sfx-whoosh" src="assets/sfx/whoosh.wav" data-start="0.15" data-duration="0.45" data-track-index="20" data-volume="0.45"></audio>
+  <audio id="sfx-pop" src="assets/sfx/pop.wav" data-start="3.55" data-duration="0.12" data-track-index="20" data-volume="0.85"></audio>
+  <audio id="sfx-ding" src="assets/sfx/ding.wav" data-start="4.55" data-duration="0.3" data-track-index="20" data-volume="0.55"></audio>
+</div>
+<script>
+const W=1080,H=1920,PIN_Y=H*0.38;
+const cam=(px,py,s)=>({x:W/2-px*s,y:PIN_Y-py*s,scale:s});
+const SCENES=[{"id": "hook", "start": 0.0, "end": 2.0, "mode": "hook", "stop_id": null, "cx": 1376.038, "cy": 1238.036, "zoom": 1.15}, {"id": "intro", "start": 2.0, "end": 3.5, "mode": "intro_landmarks", "stop_id": null, "cx": 1236.74, "cy": 1108.27, "zoom": 1.4}, {"id": "stop1", "start": 3.5, "end": 4.5, "mode": "stop", "stop_id": "placeholder-1", "cx": 1758.19, "cy": 1024.59, "zoom": 2.35}, {"id": "stop2", "start": 4.5, "end": 5.5, "mode": "stop", "stop_id": "placeholder-2", "cx": 1278.17, "cy": 1194.15, "zoom": 2.35}, {"id": "end", "start": 5.5, "end": 6.0, "mode": "cta", "stop_id": null, "cx": 1376.038, "cy": 1238.036, "zoom": 1.1}];
+const STOPS=[{"id": "placeholder-1", "diem": 1, "px": 1758.19, "py": 1024.59}, {"id": "placeholder-2", "diem": 2, "px": 1278.17, "py": 1194.15}, {"id": "placeholder-3", "diem": 3, "px": 1045.15, "py": 1328.8}, {"id": "placeholder-4", "diem": 4, "px": 1408.66, "py": 1328.8}, {"id": "placeholder-5", "diem": 5, "px": 1390.02, "py": 1313.84}];
+const LM=["nha-hat-lon", "cho-sat", "avani"];
+const overview=cam(1376.04,1238.04,1.15);
+const tl=gsap.timeline({paused:true});
+gsap.set('#mapWorld',overview);
+gsap.set(['#hook','#cta','#progress','.card','.quote','.pin','.food-emoji','#routeSvg'],{opacity:0});
+gsap.set('.pin',{scale:0});
+gsap.set('.card',{y:40});
+gsap.set('.quote',{scale:0.86});
+
+const route=document.getElementById('routeLine');
+let routeLen=0; try{routeLen=route.getTotalLength();}catch(e){routeLen=2200;}
+gsap.set(route,{strokeDasharray:routeLen,strokeDashoffset:routeLen});
+
+tl.to('#hook',{opacity:1,duration:0.25},0.05);
+tl.to('#hook',{opacity:0,duration:0.2},1.7);
+
+// landmarks
+LM.forEach((id,i)=>{
+  tl.to('#pin-'+id,{opacity:0.95,scale:1,duration:0.35,ease:'back.out(1.8)'},1.85+i*0.08);
+});
+
+tl.set('#routeSvg',{opacity:1},2.05);
+tl.to(route,{strokeDashoffset:0,duration:3.2,ease:'none'},2.05);
+
+SCENES.forEach((sc)=>{
+  const c=cam(sc.cx,sc.cy,sc.zoom);
+  tl.to('#mapWorld',{x:c.x,y:c.y,scale:c.scale,duration:Math.max(0.35,(sc.end-sc.start)*0.55),ease:'power2.inOut'},sc.start);
+  if(sc.mode==='stop' && sc.stop_id){
+    const id=sc.stop_id;
+    const diem=(STOPS.find(s=>s.id===id)||{}).diem||1;
+    tl.fromTo('#pin-'+id,{opacity:0,scale:0},{opacity:1,scale:1,duration:0.45,ease:'back.out(2.4)'},sc.start);
+    tl.to('#foodemoji-'+id,{opacity:1,scale:1,duration:0.35,ease:'back.out(2)'},sc.start+0.12);
+    tl.to('#card-'+id,{opacity:1,y:0,duration:0.4,ease:'power2.out'},sc.start+0.08);
+    tl.to('#quote-'+id,{opacity:1,scale:1,duration:0.35,ease:'back.out(1.7)'},sc.start+0.22);
+    tl.to('#gold-'+id,{width:200,duration:0.5,ease:'power2.out'},sc.start+0.2);
+    tl.set('#progressTxt',{textContent:diem+'/5'},sc.start);
+    tl.to('#progress',{opacity:1,duration:0.2},sc.start);
+    tl.to('#card-'+id,{opacity:0,y:20,duration:0.18},sc.end-0.05);
+    tl.to('#quote-'+id,{opacity:0,scale:0.9,duration:0.18},sc.end-0.05);
+  }
+  if(sc.mode==='cta'){
+    tl.to('#cta',{opacity:1,duration:0.3},sc.start);
+    tl.to('#progress',{opacity:0,duration:0.2},sc.start);
+  }
+});
+window.__timelines=window.__timelines||{};window.__timelines['main']=tl;
+</script>
+</body></html>

@@ -1,0 +1,30 @@
+[  0.00-  2.60] What are Charge-EPT dots and how to use them?
+[  2.82-  9.00] So, open AI introduce dots at their death day as proactive, personal AI AI that help you
+[  9.00-  9.82] get work done.
+[ 10.02- 14.92] They have their own cloud computer and can work around the clock on tasks or goals
+[ 14.92- 15.54] to give them.
+[ 15.70- 20.46] For example, they can flag important emails and draft replies, design websites, build
+[ 20.46- 22.74] ups and handle plenty of tasks.
+[ 23.24- 26.06] And yes, Charge-EPT can already do all of this.
+[ 26.06- 30.30] But the difference is that dots keep looking for ways to help, for flagging things that
+[ 30.30- 35.22] that need your attention and suggesting what to do next without you having to ask them.
+[ 35.30- 37.24] To get started, open the gpt,
+[ 37.60- 41.02] click on your dot in the top left corner and follow the setup.
+[ 41.24- 47.12] Connect your Google account, install the plugins you want to use and choose what information your dot can access.
+[ 47.62- 51.66] Choose whether you should use your own cloud computer or work on your computer.
+[ 51.66- 56.80] Once it's set up, customize your dot by giving it a name, choosing a color and adding a character
+[ 56.80- 57.52] or a pet.
+[ 57.80- 60.24] Your dot will then start looking for ways to help.
+[ 60.40- 60.62] In my
+[ 60.62- 61.22] case, it's
+[ 61.22- 66.22] kinda a male found three things that needed my attention and offered to help with them.
+[ 66.40- 70.58] I didn't give it a few other simple tasks and it handled them pretty well, but I need
+[ 70.58- 74.04] to test it more and see how well it can execute complex tasks.
+[ 74.32- 76.06] And how about your usage limits?
+[ 76.38- 77.08] Well, if you
+[ 77.08- 79.64] just chatting with your dot, it doesn't affect
+[ 79.64- 82.58] them. But tasks in ChagPiki work or codecs count
+[ 82.58- 85.32] toward your usual limits. And you can optionally
+[ 85.32- 88.40] pause your dot. Dots are rolling out all pro and
+[ 88.40- 94.42] business premium plans except for the U, UK and Switzerland. If you have access, give them a try
+[ 94.70- 95.88] , and let me know what you think.

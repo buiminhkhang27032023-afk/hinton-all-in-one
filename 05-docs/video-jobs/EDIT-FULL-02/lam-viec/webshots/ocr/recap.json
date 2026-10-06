@@ -1,0 +1,2732 @@
+[
+{
+"box": [
+61,
+43,
+132,
+40
+],
+"text": "OpenAl",
+"conf": 0.841
+},
+{
+"box": [
+436,
+51,
+113,
+29
+],
+"text": "Products",
+"conf": 0.824
+},
+{
+"box": [
+609,
+51,
+111,
+29
+],
+"text": "Business",
+"conf": 0.878
+},
+{
+"box": [
+976,
+52,
+119,
+30
+],
+"text": "Company",
+"conf": 0.836
+},
+{
+"box": [
+780,
+53,
+136,
+27
+],
+"text": "Developers",
+"conf": 0.882
+},
+{
+"box": [
+1690,
+50,
+90,
+34
+],
+"text": "Log in",
+"conf": 0.846
+},
+{
+"box": [
+263,
+54,
+113,
+24
+],
+"text": "Research",
+"conf": 0.885
+},
+{
+"box": [
+1158,
+54,
+136,
+24
+],
+"text": "Foundation",
+"conf": 0.871
+},
+{
+"box": [
+1901,
+51,
+197,
+29
+],
+"text": "Try ChatGPT 7",
+"conf": 0.846
+},
+{
+"box": [
+885,
+420,
+201,
+23
+],
+"text": "September29,2026",
+"conf": 0.903
+},
+{
+"box": [
+1115,
+418,
+100,
+27
+],
+"text": "Company",
+"conf": 0.852
+},
+{
+"box": [
+1237,
+420,
+80,
+21
+],
+"text": "Product",
+"conf": 0.745
+},
+{
+"box": [
+659,
+484,
+350,
+100
+],
+"text": "DevDay",
+"conf": 0.825
+},
+{
+"box": [
+1005,
+483,
+541,
+105
+],
+"text": "2026 Recap",
+"conf": 0.818
+},
+{
+"box": [
+636,
+630,
+930,
+29
+],
+"text": "At DevDay 2026, we're giving people more ways to take on ambitious work",
+"conf": 0.93
+},
+{
+"box": [
+878,
+676,
+443,
+27
+],
+"text": "and tools to build what comes next.",
+"conf": 0.906
+},
+{
+"box": [
+645,
+1907,
+78,
+28
+],
+"text": "Share",
+"conf": 0.756
+},
+{
+"box": [
+590,
+2101,
+861,
+34
+],
+"text": "DevDay 2026 is our biggest yet, with more than 20 major",
+"conf": 0.932
+},
+{
+"box": [
+587,
+2157,
+991,
+35
+],
+"text": "announcements across ChatGPT, Codex, our models, and entirely",
+"conf": 0.911
+},
+{
+"box": [
+587,
+2213,
+448,
+34
+],
+"text": "new forms of working with Al.",
+"conf": 0.931
+},
+{
+"box": [
+590,
+2374,
+999,
+33
+],
+"text": "and discovery. It should give people more time for what matters to",
+"conf": 0.921
+},
+{
+"box": [
+590,
+2431,
+942,
+30
+],
+"text": "them, more freedom to pursue their ideas, and the ability to do",
+"conf": 0.899
+},
+{
+"box": [
+589,
+2485,
+570,
+34
+],
+"text": "things they didn't think were possible.",
+"conf": 0.915
+},
+{
+"box": [
+589,
+2587,
+821,
+39
+],
+"text": "Today, we introduced agents that can take on ongoing",
+"conf": 0.886
+},
+{
+"box": [
+591,
+2648,
+975,
+30
+],
+"text": "responsibilities and new ways for people and Al to work together.",
+"conf": 0.913
+},
+{
+"box": [
+588,
+2698,
+928,
+40
+],
+"text": "We also expanded our commitment to an open ecosystem by",
+"conf": 0.953
+},
+{
+"box": [
+590,
+2754,
+919,
+38
+],
+"text": "opening up ChatGPT as a shared surface where humans and",
+"conf": 0.91
+},
+{
+"box": [
+590,
+2813,
+981,
+35
+],
+"text": "agents can collaborate and where developers can directly launch",
+"conf": 0.926
+},
+{
+"box": [
+589,
+2869,
+876,
+30
+],
+"text": "new native experiences to our collective 1.2B weekly users.",
+"conf": 0.931
+},
+{
+"box": [
+589,
+2972,
+502,
+35
+],
+"text": "Here's everything we announced.",
+"conf": 0.896
+},
+{
+"box": [
+743,
+3197,
+427,
+28
+],
+"text": "Customize ChatGPT with Plugins",
+"conf": 0.909
+},
+{
+"box": [
+1280,
+3198,
+373,
+27
+],
+"text": "People & Al working together",
+"conf": 0.91
+},
+{
+"box": [
+0,
+3197,
+180,
+32
+],
+"text": "ays of working",
+"conf": 0.841
+},
+{
+"box": [
+293,
+3199,
+339,
+23
+],
+"text": "Build with Codex & the APl",
+"conf": 0.818
+},
+{
+"box": [
+1767,
+3197,
+432,
+28
+],
+"text": "Do more withyour ChatGPT subso",
+"conf": 0.919
+},
+{
+"box": [
+691,
+3400,
+820,
+53
+],
+"text": "A whole new way to work with Al",
+"conf": 0.887
+},
+{
+"box": [
+61,
+3548,
+95,
+42
+],
+"text": "Dots",
+"conf": 0.756
+},
+{
+"box": [
+64,
+3637,
+459,
+28
+],
+"text": "Dots are remarkably capable, always",
+"conf": 0.915
+},
+{
+"box": [
+62,
+3682,
+456,
+31
+],
+"text": "on agents built to handle everything.",
+"conf": 0.894
+},
+{
+"box": [
+65,
+3730,
+467,
+25
+],
+"text": "They're a whole new way to work with",
+"conf": 0.86
+},
+{
+"box": [
+65,
+3775,
+391,
+26
+],
+"text": "Al-one that gets to know what",
+"conf": 0.917
+},
+{
+"box": [
+63,
+3822,
+448,
+25
+],
+"text": "matters to you, is always working on",
+"conf": 0.919
+},
+{
+"box": [
+1174,
+3857,
+379,
+151
+],
+"text": "dots",
+"conf": 0.698
+},
+{
+"box": [
+61,
+3866,
+477,
+29
+],
+"text": "your behalf, and takes important work",
+"conf": 0.91
+},
+{
+"box": [
+66,
+3913,
+461,
+28
+],
+"text": "off your plate so you get more of your",
+"conf": 0.914
+},
+{
+"box": [
+65,
+3961,
+304,
+23
+],
+"text": "time and attention back.",
+"conf": 0.901
+},
+{
+"box": [
+64,
+4038,
+492,
+24
+],
+"text": "Available on Pro and Business Premium",
+"conf": 0.881
+},
+{
+"box": [
+64,
+4086,
+490,
+23
+],
+"text": "in eligible markets.Enterprise, Edu,and",
+"conf": 0.909
+},
+{
+"box": [
+62,
+4128,
+491,
+27
+],
+"text": "Healthcare users can try the beta when",
+"conf": 0.902
+},
+{
+"box": [
+63,
+4173,
+471,
+27
+],
+"text": "their workspace admin enables it; it is",
+"conf": 0.915
+},
+{
+"box": [
+65,
+4219,
+325,
+30
+],
+"text": "off by default. Learn more",
+"conf": 0.894
+},
+{
+"box": [
+709,
+4304,
+77,
+25
+],
+"text": "00:00",
+"conf": 0.826
+},
+{
+"box": [
+64,
+4348,
+142,
+24
+],
+"text": "GPT-6.1 Sol",
+"conf": 0.896
+},
+{
+"box": [
+65,
+4459,
+112,
+27
+],
+"text": "Ultrafast",
+"conf": 0.838
+},
+{
+"box": [
+64,
+4571,
+240,
+29
+],
+"text": "Private Intelligence",
+"conf": 0.862
+},
+{
+"box": [
+549,
+4908,
+1104,
+54
+],
+"text": "New tools for developers in Codex & the APl",
+"conf": 0.901
+},
+{
+"box": [
+66,
+5064,
+230,
+23
+],
+"text": "Codex in the cloud",
+"conf": 0.843
+},
+{
+"box": [
+762,
+5122,
+77,
+24
+],
+"text": "Summary",
+"conf": 0.795
+},
+{
+"box": [
+857,
+5126,
+46,
+17
+],
+"text": "Code",
+"conf": 0.702
+},
+{
+"box": [
+900,
+5126,
+94,
+16
+],
+"text": "+948-193",
+"conf": 0.865
+},
+{
+"box": [
+1962,
+5126,
+61,
+19
+],
+"text": "Review",
+"conf": 0.788
+},
+{
+"box": [
+2041,
+5124,
+59,
+24
+],
+"text": "Merge",
+"conf": 0.83
+},
+{
+"box": [
+769,
+5186,
+77,
+28
+],
+"text": "Activity",
+"conf": 0.838
+},
+{
+"box": [
+1452,
+5210,
+227,
+20
+],
+"text": "Refine merge conflict Ul",
+"conf": 0.808
+},
+{
+"box": [
+824,
+5258,
+212,
+20
+],
+"text": "chatgpt-codex-connector",
+"conf": 0.896
+},
+{
+"box": [
+1642,
+5293,
+423,
+20
+],
+"text": "Makecommentbehavioridentical inCodeand",
+"conf": 0.91
+},
+{
+"box": [
+816,
+5317,
+107,
+17
+],
+"text": "row-menu.tsx",
+"conf": 0.865
+},
+{
+"box": [
+1643,
+5323,
+405,
+20
+],
+"text": "Activity.Keeptheemojipositionandbottom",
+"conf": 0.949
+},
+{
+"box": [
+861,
+5352,
+268,
+16
+],
+"text": "actions.providerAccountKey",
+"conf": 0.912
+},
+{
+"box": [
+1121,
+5352,
+231,
+16
+],
+"text": "=item.providerAccountKey",
+"conf": 0.862
+},
+{
+"box": [
+1640,
+5351,
+185,
+26
+],
+"text": "padding consistent.",
+"conf": 0.93
+},
+{
+"box": [
+831,
+5397,
+21,
+12
+],
+"text": "P2",
+"conf": 0.516
+},
+{
+"box": [
+857,
+5392,
+463,
+21
+],
+"text": "Matchnormalized remotepinstolocal sidebaractions",
+"conf": 0.929
+},
+{
+"box": [
+825,
+5437,
+562,
+19
+],
+"text": "For apin created on a remote host,pinnedCodeReviewPuliRequestss",
+"conf": 0.895
+},
+{
+"box": [
+824,
+5461,
+565,
+21
+],
+"text": "persisted providerAccountKey still contains the original remote hostl",
+"conf": 0.876
+},
+{
+"box": [
+1408,
+5455,
+698,
+20
+],
+"text": "I'll use the samelayout inboth surfaces and keep reactions with the original",
+"conf": 0.87
+},
+{
+"box": [
+825,
+5485,
+565,
+21
+],
+"text": "different providerkey,so this comparison permanentlyremoves Close",
+"conf": 0.917
+},
+{
+"box": [
+1408,
+5486,
+94,
+20
+],
+"text": "comment.",
+"conf": 0.83
+},
+{
+"box": [
+826,
+5512,
+562,
+19
+],
+"text": "GitHub login. The existing remote-pin flow specifically keeps these pi",
+"conf": 0.911
+},
+{
+"box": [
+825,
+5553,
+264,
+25
+],
+"text": "Help improveCodex Review",
+"conf": 0.897
+},
+{
+"box": [
+1642,
+5545,
+411,
+20
+],
+"text": "WhenI click+inthediff,focusthecomment",
+"conf": 0.895
+},
+{
+"box": [
+1639,
+5574,
+59,
+24
+],
+"text": "input.",
+"conf": 0.856
+},
+{
+"box": [
+823,
+5644,
+61,
+21
+],
+"text": "Karolis",
+"conf": 0.763
+},
+{
+"box": [
+826,
+5677,
+566,
+20
+],
+"text": "Thanks, I'll keep the original provider account when looking up the sic",
+"conf": 0.921
+},
+{
+"box": [
+1407,
+5674,
+694,
+24
+],
+"text": "Comments and replies now share the same spacing.Reactions stay in place",
+"conf": 0.907
+},
+{
+"box": [
+1407,
+5707,
+578,
+23
+],
+"text": "when replying, and clicking + in the diff focuses the composer.",
+"conf": 0.932
+},
+{
+"box": [
+824,
+5760,
+70,
+21
+],
+"text": " Reply",
+"conf": 0.774
+},
+{
+"box": [
+66,
+5761,
+279,
+23
+],
+"text": "A refreshed Codex CLl",
+"conf": 0.869
+},
+{
+"box": [
+932,
+5762,
+71,
+17
+],
+"text": "Resolve",
+"conf": 0.842
+},
+{
+"box": [
+1049,
+5760,
+29,
+20
+],
+"text": "Fix",
+"conf": 0.553
+},
+{
+"box": [
+67,
+5870,
+248,
+39
+],
+"text": "Code Review",
+"conf": 0.869
+},
+{
+"box": [
+66,
+5991,
+268,
+26
+],
+"text": "Codex Security Cloud",
+"conf": 0.846
+},
+{
+"box": [
+64,
+6102,
+171,
+26
+],
+"text": "Decisions APl",
+"conf": 0.909
+},
+{
+"box": [
+66,
+6215,
+383,
+26
+],
+"text": "Agents API with Computer use",
+"conf": 0.884
+},
+{
+"box": [
+64,
+6326,
+447,
+28
+],
+"text": "Bedrock Managed Agents, powered",
+"conf": 0.93
+},
+{
+"box": [
+63,
+6370,
+135,
+32
+],
+"text": "by OpenAl",
+"conf": 0.82
+},
+{
+"box": [
+537,
+6705,
+1127,
+62
+],
+"text": "More customization in ChatGPT with plugins",
+"conf": 0.923
+},
+{
+"box": [
+63,
+6859,
+222,
+34
+],
+"text": "Plugin extensions",
+"conf": 0.923
+},
+{
+"box": [
+1273,
+6987,
+64,
+14
+],
+"text": "1 Launch tracker",
+"conf": 0.858
+},
+{
+"box": [
+1770,
+6986,
+46,
+17
+],
+"text": "@ fead-caly",
+"conf": 0.633
+},
+{
+"box": [
+1818,
+6987,
+48,
+14
+],
+"text": "Tean plan ",
+"conf": 0.768
+},
+{
+"box": [
+962,
+7060,
+60,
+17
+],
+"text": "elevate*",
+"conf": 0.768
+},
+{
+"box": [
+1340,
+7062,
+30,
+11
+],
+"text": "Forecast",
+"conf": 0.874
+},
+{
+"box": [
+1386,
+7061,
+58,
+12
+],
+"text": "The bigger picture",
+"conf": 0.881
+},
+{
+"box": [
+943,
+7164,
+221,
+46
+],
+"text": "See beyond",
+"conf": 0.907
+},
+{
+"box": [
+766,
+7201,
+72,
+20
+],
+"text": "券Fuse.kiwi",
+"conf": 0.742
+},
+{
+"box": [
+943,
+7214,
+249,
+44
+],
+"text": "the numbers.",
+"conf": 0.915
+},
+{
+"box": [
+1557,
+7214,
+31,
+10
+],
+"text": "REVENUE",
+"conf": 0.843
+},
+{
+"box": [
+1554,
+7229,
+61,
+21
+],
+"text": "$1.34M",
+"conf": 0.854
+},
+{
+"box": [
+795,
+7284,
+126,
+96
+],
+"text": "Be",
+"conf": 0.661
+},
+{
+"box": [
+1249,
+7337,
+53,
+21
+],
+"text": "$860K",
+"conf": 0.748
+},
+{
+"box": [
+792,
+7355,
+130,
+105
+],
+"text": "To!",
+"conf": 0.532
+},
+{
+"box": [
+1640,
+7384,
+54,
+21
+],
+"text": "$480K",
+"conf": 0.759
+},
+{
+"box": [
+813,
+7473,
+105,
+17
+],
+"text": "Suggest featu)",
+"conf": 0.831
+},
+{
+"box": [
+813,
+7491,
+105,
+17
+],
+"text": "and help shape",
+"conf": 0.87
+},
+{
+"box": [
+65,
+7515,
+472,
+26
+],
+"text": "Improved plugin creation, submission,",
+"conf": 0.915
+},
+{
+"box": [
+827,
+7534,
+94,
+14
+],
+"text": "+ Submit a request",
+"conf": 0.921
+},
+{
+"box": [
+958,
+7534,
+74,
+13
+],
+"text": "D How it works",
+"conf": 0.841
+},
+{
+"box": [
+62,
+7557,
+177,
+31
+],
+"text": "and discovery",
+"conf": 0.891
+},
+{
+"box": [
+65,
+7671,
+266,
+39
+],
+"text": "Sites can now",
+"conf": 0.856
+},
+{
+"box": [
+64,
+7723,
+235,
+43
+],
+"text": "host plugins",
+"conf": 0.861
+},
+{
+"box": [
+63,
+7842,
+443,
+29
+],
+"text": "McP events for plugin automations",
+"conf": 0.907
+},
+{
+"box": [
+550,
+8180,
+1103,
+58
+],
+"text": "Improving how people and Al work together",
+"conf": 0.879
+},
+{
+"box": [
+65,
+8334,
+201,
+26
+],
+"text": "ChatGPT Space",
+"conf": 0.854
+},
+{
+"box": [
+1731,
+8499,
+94,
+23
+],
+"text": "Comments",
+"conf": 0.847
+},
+{
+"box": [
+922,
+8507,
+166,
+20
+],
+"text": "Turn this conversation",
+"conf": 0.867
+},
+{
+"box": [
+921,
+8531,
+143,
+17
+],
+"text": "intoapresentation.",
+"conf": 0.928
+},
+{
+"box": [
+1152,
+8549,
+53,
+21
+],
+"text": "12 slides",
+"conf": 0.886
+},
+{
+"box": [
+1293,
+8556,
+410,
+20
+],
+"text": "Gaiaforecastshowweathersystemsevolve",
+"conf": 0.952
+},
+{
+"box": [
+1291,
+8583,
+299,
+16
+],
+"text": "These forecasts start from 1 September 2026 at 00 UTC.",
+"conf": 0.934
+},
+{
+"box": [
+1769,
+8580,
+109,
+19
+],
+"text": "lanRivera4m",
+"conf": 0.898
+},
+{
+"box": [
+1456,
+8601,
+36,
+18
+],
+"text": "+24 h",
+"conf": 0.772
+},
+{
+"box": [
+896,
+8610,
+100,
+20
+],
+"text": "Presentation",
+"conf": 0.92
+},
+{
+"box": [
+1601,
+8600,
+38,
+20
+],
+"text": "+48h",
+"conf": 0.773
+},
+{
+"box": [
+1291,
+8629,
+52,
+14
+],
+"text": "CYCLONE",
+"conf": 0.851
+},
+{
+"box": [
+792,
+8649,
+57,
+28
+],
+"text": "Peter",
+"conf": 0.794
+},
+{
+"box": [
+1290,
+8652,
+62,
+17
+],
+"text": "10 m wind",
+"conf": 0.859
+},
+{
+"box": [
+1291,
+8668,
+34,
+15
+],
+"text": "(m/s)",
+"conf": 0.818
+},
+{
+"box": [
+1767,
+8675,
+104,
+22
+],
+"text": "ChatGPT3m",
+"conf": 0.89
+},
+{
+"box": [
+1336,
+8695,
+15,
+13
+],
+"text": "30",
+"conf": 0.666
+},
+{
+"box": [
+1289,
+8727,
+110,
+16
+],
+"text": "ATMOSPHERIC RIVER",
+"conf": 0.869
+},
+{
+"box": [
+1290,
+8752,
+73,
+17
+],
+"text": "24-hour rain",
+"conf": 0.913
+},
+{
+"box": [
+1291,
+8768,
+35,
+15
+],
+"text": "(ww)",
+"conf": 0.775
+},
+{
+"box": [
+1770,
+8775,
+64,
+17
+],
+"text": "You3m",
+"conf": 0.792
+},
+{
+"box": [
+1334,
+8794,
+21,
+15
+],
+"text": "100",
+"conf": 0.748
+},
+{
+"box": [
+1380,
+8796,
+18,
+11
+],
+"text": "200",
+"conf": 0.749
+},
+{
+"box": [
+1291,
+8829,
+61,
+14
+],
+"text": "HEATWAVE",
+"conf": 0.837
+},
+{
+"box": [
+1291,
+8854,
+73,
+14
+],
+"text": "Temperature",
+"conf": 0.875
+},
+{
+"box": [
+1290,
+8867,
+72,
+17
+],
+"text": "anomaly (K)",
+"conf": 0.852
+},
+{
+"box": [
+1767,
+8868,
+104,
+22
+],
+"text": "ChatGPT2m",
+"conf": 0.864
+},
+{
+"box": [
+1537,
+8938,
+56,
+28
+],
+"text": "Eden",
+"conf": 0.799
+},
+{
+"box": [
+856,
+8973,
+125,
+23
+],
+"text": "+ Ask ChatGPT",
+"conf": 0.868
+},
+{
+"box": [
+1788,
+8973,
+52,
+21
+],
+"text": "Repl...",
+"conf": 0.645
+},
+{
+"box": [
+60,
+9257,
+85,
+35
+],
+"text": "Pages",
+"conf": 0.833
+},
+{
+"box": [
+67,
+9372,
+371,
+36
+],
+"text": "Collaborative slides",
+"conf": 0.917
+},
+{
+"box": [
+67,
+9493,
+367,
+23
+],
+"text": "Create teams and share tasks",
+"conf": 0.899
+},
+{
+"box": [
+66,
+9605,
+296,
+23
+],
+"text": "@ChatGPT in Slack and",
+"conf": 0.886
+},
+{
+"box": [
+63,
+9648,
+212,
+28
+],
+"text": "Microsoft Teams",
+"conf": 0.905
+},
+{
+"box": [
+62,
+9759,
+204,
+32
+],
+"text": "Meetings plugin",
+"conf": 0.873
+},
+{
+"box": [
+64,
+9871,
+227,
+28
+],
+"text": "Shareable profiles",
+"conf": 0.903
+},
+{
+"box": [
+584,
+10211,
+1030,
+53
+],
+"text": "Do more with your ChatGPT subscription",
+"conf": 0.887
+},
+{
+"box": [
+65,
+10362,
+267,
+28
+],
+"text": "Sign in with ChatGPT",
+"conf": 0.864
+},
+{
+"box": [
+1317,
+10384,
+88,
+33
+],
+"text": "Harvey",
+"conf": 0.847
+},
+{
+"box": [
+667,
+10387,
+96,
+27
+],
+"text": "NAdobe",
+"conf": 0.782
+},
+{
+"box": [
+1520,
+10384,
+115,
+31
+],
+"text": "runway",
+"conf": 0.788
+},
+{
+"box": [
+1089,
+10388,
+121,
+18
+],
+"text": "CROWDSTRIKE",
+"conf": 0.835
+},
+{
+"box": [
+1750,
+10387,
+91,
+27
+],
+"text": "Hubspot",
+"conf": 0.817
+},
+{
+"box": [
+1961,
+10385,
+107,
+31
+],
+"text": "greptile",
+"conf": 0.818
+},
+{
+"box": [
+871,
+10521,
+107,
+27
+],
+"text": "Vercel",
+"conf": 0.801
+},
+{
+"box": [
+669,
+10523,
+105,
+24
+],
+"text": "Lovable",
+"conf": 0.797
+},
+{
+"box": [
+1313,
+10523,
+69,
+25
+],
+"text": "ramp",
+"conf": 0.738
+},
+{
+"box": [
+1140,
+10525,
+64,
+20
+],
+"text": "Basis",
+"conf": 0.831
+},
+{
+"box": [
+1767,
+10525,
+96,
+20
+],
+"text": "baseten",
+"conf": 0.872
+},
+{
+"box": [
+1557,
+10526,
+54,
+17
+],
+"text": "SIERRA",
+"conf": 0.851
+},
+{
+"box": [
+1948,
+10519,
+130,
+33
+],
+"text": "zendesk",
+"conf": 0.873
+},
+{
+"box": [
+917,
+10566,
+784,
+235
+],
+"text": "OpenAl",
+"conf": 0.795
+},
+{
+"box": [
+630,
+10662,
+125,
+27
+],
+"text": "LEGORA",
+"conf": 0.817
+},
+{
+"box": [
+1969,
+10662,
+127,
+27
+],
+"text": "Hyperagent",
+"conf": 0.893
+},
+{
+"box": [
+906,
+10769,
+937,
+165
+],
+"text": "Marketplace",
+"conf": 0.861
+},
+{
+"box": [
+645,
+10820,
+96,
+31
+],
+"text": "ROGO",
+"conf": 0.791
+},
+{
+"box": [
+1969,
+10823,
+128,
+25
+],
+"text": "lIElevenLabs",
+"conf": 0.834
+},
+{
+"box": [
+1074,
+10960,
+123,
+29
+],
+"text": "Wpaloalto",
+"conf": 0.778
+},
+{
+"box": [
+1551,
+10964,
+94,
+24
+],
+"text": "replit",
+"conf": 0.852
+},
+{
+"box": [
+1315,
+10965,
+101,
+23
+],
+"text": "DATADOG",
+"conf": 0.861
+},
+{
+"box": [
+649,
+10966,
+124,
+23
+],
+"text": "servicenow",
+"conf": 0.898
+},
+{
+"box": [
+883,
+10967,
+124,
+20
+],
+"text": "$FACTORY",
+"conf": 0.751
+},
+{
+"box": [
+1761,
+10968,
+65,
+17
+],
+"text": "manus",
+"conf": 0.754
+},
+{
+"box": [
+1949,
+10961,
+130,
+31
+],
+"text": "2o Higgsfield",
+"conf": 0.797
+},
+{
+"box": [
+866,
+11095,
+127,
+30
+],
+"text": "DevRev",
+"conf": 0.762
+},
+{
+"box": [
+1101,
+11096,
+92,
+27
+],
+"text": "f Figma",
+"conf": 0.686
+},
+{
+"box": [
+1538,
+11099,
+88,
+23
+],
+"text": " Notion",
+"conf": 0.804
+},
+{
+"box": [
+696,
+11101,
+76,
+21
+],
+"text": "Decagon",
+"conf": 0.874
+},
+{
+"box": [
+1759,
+11102,
+101,
+16
+],
+"text": "CodeRabbit",
+"conf": 0.767
+},
+{
+"box": [
+1982,
+11098,
+66,
+24
+],
+"text": "glean",
+"conf": 0.755
+},
+{
+"box": [
+63,
+11197,
+176,
+27
+],
+"text": "A new Pro tier",
+"conf": 0.852
+},
+{
+"box": [
+66,
+11308,
+395,
+41
+],
+"text": "OpenAl Marketplace",
+"conf": 0.901
+},
+{
+"box": [
+64,
+11659,
+253,
+46
+],
+"text": "Keep reading",
+"conf": 0.885
+},
+{
+"box": [
+2035,
+11670,
+103,
+30
+],
+"text": "View all",
+"conf": 0.857
+},
+{
+"box": [
+1507,
+12107,
+162,
+37
+],
+"text": "GPT-6.1",
+"conf": 0.825
+},
+{
+"box": [
+2036,
+12100,
+82,
+52
+],
+"text": "Sol",
+"conf": 0.748
+},
+{
+"box": [
+771,
+12486,
+466,
+34
+],
+"text": "How Albertsons Companies is",
+"conf": 0.933
+},
+{
+"box": [
+66,
+12489,
+507,
+29
+],
+"text": "A practical guide to building with",
+"conf": 0.851
+},
+{
+"box": [
+1477,
+12486,
+365,
+35
+],
+"text": "Introducing GPT-6.1 Sol",
+"conf": 0.868
+},
+{
+"box": [
+62,
+12527,
+105,
+38
+],
+"text": "GPT-6",
+"conf": 0.832
+},
+{
+"box": [
+770,
+12531,
+576,
+34
+],
+"text": "reimagining retail from the inside out",
+"conf": 0.879
+},
+{
+"box": [
+1474,
+12561,
+110,
+29
+],
+"text": "Product",
+"conf": 0.806
+},
+{
+"box": [
+1600,
+12562,
+176,
+29
+],
+"text": "Sep 29, 2026",
+"conf": 0.837
+},
+{
+"box": [
+63,
+12607,
+109,
+27
+],
+"text": "Product",
+"conf": 0.794
+},
+{
+"box": [
+189,
+12609,
+153,
+24
+],
+"text": "Oct 2, 2026",
+"conf": 0.813
+},
+{
+"box": [
+770,
+12607,
+126,
+31
+],
+"text": "Company",
+"conf": 0.863
+},
+{
+"box": [
+918,
+12607,
+147,
+29
+],
+"text": "Oct 1, 2026",
+"conf": 0.83
+},
+{
+"box": [
+485,
+12982,
+113,
+29
+],
+"text": "Products",
+"conf": 0.819
+},
+{
+"box": [
+1335,
+12982,
+118,
+33
+],
+"text": "Company",
+"conf": 0.855
+},
+{
+"box": [
+64,
+12985,
+112,
+24
+],
+"text": "Research",
+"conf": 0.836
+},
+{
+"box": [
+912,
+12985,
+107,
+24
+],
+"text": "Business",
+"conf": 0.842
+},
+{
+"box": [
+1756,
+12982,
+70,
+29
+],
+"text": "More",
+"conf": 0.734
+},
+{
+"box": [
+910,
+13045,
+115,
+29
+],
+"text": "Overview",
+"conf": 0.869
+},
+{
+"box": [
+488,
+13048,
+138,
+24
+],
+"text": "ChatGPT ",
+"conf": 0.875
+},
+{
+"box": [
+1336,
+13048,
+111,
+24
+],
+"text": "About Us",
+"conf": 0.81
+},
+{
+"box": [
+65,
+13049,
+183,
+23
+],
+"text": "Research Index",
+"conf": 0.757
+},
+{
+"box": [
+1759,
+13047,
+87,
+27
+],
+"text": "Stories",
+"conf": 0.838
+},
+{
+"box": [
+1335,
+13115,
+144,
+31
+],
+"text": "Our Charter",
+"conf": 0.843
+},
+{
+"box": [
+910,
+13117,
+116,
+28
+],
+"text": "Solutions",
+"conf": 0.798
+},
+{
+"box": [
+65,
+13119,
+229,
+26
+],
+"text": "Research Overview",
+"conf": 0.864
+},
+{
+"box": [
+489,
+13120,
+246,
+23
+],
+"text": "ChatGPT Business 7",
+"conf": 0.843
+},
+{
+"box": [
+1757,
+13115,
+119,
+33
+],
+"text": "Academy",
+"conf": 0.84
+},
+{
+"box": [
+488,
+13189,
+266,
+26
+],
+"text": "ChatGPT Enterprise 7",
+"conf": 0.923
+},
+{
+"box": [
+910,
+13190,
+128,
+27
+],
+"text": "Resources",
+"conf": 0.872
+},
+{
+"box": [
+66,
+13191,
+235,
+23
+],
+"text": "Economic Research",
+"conf": 0.91
+},
+{
+"box": [
+1336,
+13191,
+95,
+24
+],
+"text": "Careers",
+"conf": 0.865
+},
+{
+"box": [
+1757,
+13188,
+132,
+33
+],
+"text": "Supply Co.",
+"conf": 0.908
+},
+{
+"box": [
+908,
+13258,
+95,
+33
+],
+"text": "Plugins",
+"conf": 0.874
+},
+{
+"box": [
+1332,
+13258,
+74,
+32
+],
+"text": "News",
+"conf": 0.792
+},
+{
+"box": [
+487,
+13260,
+305,
+27
+],
+"text": "ChatGPT for Education 7",
+"conf": 0.886
+},
+{
+"box": [
+1757,
+13260,
+152,
+28
+],
+"text": "Livestreams",
+"conf": 0.907
+},
+{
+"box": [
+65,
+13310,
+262,
+24
+],
+"text": "Latest Advancements",
+"conf": 0.903
+},
+{
+"box": [
+485,
+13329,
+83,
+30
+],
+"text": "Codex",
+"conf": 0.833
+},
+{
+"box": [
+912,
+13331,
+209,
+26
+],
+"text": "Customer Stories",
+"conf": 0.894
+},
+{
+"box": [
+1756,
+13330,
+106,
+29
+],
+"text": "Podcast",
+"conf": 0.772
+},
+{
+"box": [
+64,
+13373,
+137,
+24
+],
+"text": "GPT-6.1 Sol",
+"conf": 0.834
+},
+{
+"box": [
+1335,
+13381,
+102,
+27
+],
+"text": "Support",
+"conf": 0.874
+},
+{
+"box": [
+912,
+13403,
+198,
+28
+],
+"text": "Partner Network",
+"conf": 0.875
+},
+{
+"box": [
+487,
+13405,
+84,
+24
+],
+"text": "Dots 7",
+"conf": 0.803
+},
+{
+"box": [
+1758,
+13404,
+54,
+25
+],
+"text": "RSS",
+"conf": 0.746
+},
+{
+"box": [
+64,
+13445,
+146,
+24
+],
+"text": "GPT-6 Astra",
+"conf": 0.871
+},
+{
+"box": [
+1335,
+13445,
+171,
+26
+],
+"text": "Help Center 7",
+"conf": 0.853
+},
+{
+"box": [
+488,
+13477,
+171,
+23
+],
+"text": "Release Notes",
+"conf": 0.88
+},
+{
+"box": [
+912,
+13475,
+167,
+26
+],
+"text": "Contact Sales",
+"conf": 0.821
+},
+{
+"box": [
+63,
+13516,
+99,
+23
+],
+"text": "GPT-5.6",
+"conf": 0.868
+},
+{
+"box": [
+1337,
+13517,
+199,
+25
+],
+"text": "OpenAl Status ",
+"conf": 0.837
+},
+{
+"box": [
+1761,
+13525,
+194,
+22
+],
+"text": "Terms & Policies",
+"conf": 0.815
+},
+{
+"box": [
+63,
+13585,
+100,
+27
+],
+"text": "GPT-5.5",
+"conf": 0.756
+},
+{
+"box": [
+486,
+13592,
+157,
+28
+],
+"text": "API Platform",
+"conf": 0.873
+},
+{
+"box": [
+912,
+13594,
+136,
+27
+],
+"text": "Developers",
+"conf": 0.898
+},
+{
+"box": [
+1761,
+13587,
+154,
+24
+],
+"text": "Terms of Use",
+"conf": 0.865
+},
+{
+"box": [
+486,
+13657,
+115,
+29
+],
+"text": "Overview",
+"conf": 0.844
+},
+{
+"box": [
+909,
+13656,
+149,
+30
+],
+"text": "Apps SDK ",
+"conf": 0.841
+},
+{
+"box": [
+1757,
+13655,
+170,
+33
+],
+"text": "Privacy Policy",
+"conf": 0.865
+},
+{
+"box": [
+60,
+13704,
+84,
+31
+],
+"text": "Safety",
+"conf": 0.855
+},
+{
+"box": [
+485,
+13727,
+153,
+32
+],
+"text": "API Log In 7",
+"conf": 0.843
+},
+{
+"box": [
+913,
+13730,
+159,
+27
+],
+"text": "Open Models",
+"conf": 0.878
+},
+{
+"box": [
+1758,
+13727,
+170,
+29
+],
+"text": "Other Policies",
+"conf": 0.886
+},
+{
+"box": [
+64,
+13770,
+201,
+27
+],
+"text": "Safety Approach",
+"conf": 0.816
+},
+{
+"box": [
+486,
+13800,
+91,
+27
+],
+"text": "Docs 7",
+"conf": 0.779
+},
+{
+"box": [
+911,
+13800,
+89,
+27
+],
+"text": "Docs 7",
+"conf": 0.815
+},
+{
+"box": [
+64,
+13839,
+256,
+29
+],
+"text": "Deployment Safety ",
+"conf": 0.84
+},
+{
+"box": [
+912,
+13873,
+152,
+23
+],
+"text": "Resources 7",
+"conf": 0.85
+},
+{
+"box": [
+63,
+13910,
+219,
+32
+],
+"text": "Security & Privacy",
+"conf": 0.895
+},
+{
+"box": [
+912,
+13943,
+232,
+26
+],
+"text": "Developer Forum 7",
+"conf": 0.895
+},
+{
+"box": [
+64,
+13982,
+253,
+30
+],
+"text": "Trust & Transparency",
+"conf": 0.868
+},
+{
+"box": [
+858,
+14202,
+518,
+30
+],
+"text": "OpenAl @ 2015-2026 Yourprivacy choices",
+"conf": 0.906
+},
+{
+"box": [
+228,
+14206,
+24,
+22
+],
+"text": "in",
+"conf": 0.579
+},
+{
+"box": [
+1811,
+14204,
+284,
+27
+],
+"text": "English United States",
+"conf": 0.888
+}
+]

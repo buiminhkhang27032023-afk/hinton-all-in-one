@@ -1,0 +1,532 @@
+[
+{
+"box": [
+81,
+46,
+289,
+38
+],
+"text": "Google DeepMind",
+"conf": 0.902
+},
+{
+"box": [
+789,
+48,
+119,
+33
+],
+"text": "Science",
+"conf": 0.776
+},
+{
+"box": [
+949,
+49,
+94,
+30
+],
+"text": "About",
+"conf": 0.755
+},
+{
+"box": [
+459,
+51,
+108,
+27
+],
+"text": "Models",
+"conf": 0.856
+},
+{
+"box": [
+612,
+51,
+134,
+27
+],
+"text": "Research",
+"conf": 0.79
+},
+{
+"box": [
+1564,
+51,
+248,
+27
+],
+"text": "Build with Gemini",
+"conf": 0.879
+},
+{
+"box": [
+1935,
+50,
+154,
+30
+],
+"text": "Try Gemini",
+"conf": 0.895
+},
+{
+"box": [
+874,
+215,
+270,
+35
+],
+"text": "October 9, 2024",
+"conf": 0.873
+},
+{
+"box": [
+1160,
+213,
+168,
+45
+],
+"text": "Company",
+"conf": 0.793
+},
+{
+"box": [
+460,
+296,
+1279,
+55
+],
+"text": "Demis Hassabis & John Jumper awarded Nobel",
+"conf": 0.893
+},
+{
+"box": [
+852,
+355,
+496,
+67
+],
+"text": "Prize in Chemistry",
+"conf": 0.922
+},
+{
+"box": [
+1024,
+518,
+100,
+39
+],
+"text": "Share",
+"conf": 0.734
+},
+{
+"box": [
+434,
+1941,
+1312,
+35
+],
+"text": "This morning, Co-founder and CEO of Google DeepMind and Isomorphic Labs Sir",
+"conf": 0.916
+},
+{
+"box": [
+431,
+1989,
+1213,
+41
+],
+"text": "Demis Hassabis, and Google DeepMind Director Dr. John Jumper were co-",
+"conf": 0.92
+},
+{
+"box": [
+431,
+2041,
+1326,
+39
+],
+"text": "awarded the 2024 Nobel Prize in Chemistry for their work developing AlphaFold, a",
+"conf": 0.912
+},
+{
+"box": [
+431,
+2090,
+1274,
+44
+],
+"text": "groundbreaking Al system that predicts the 3D structure of proteins from their",
+"conf": 0.926
+},
+{
+"box": [
+432,
+2144,
+1171,
+35
+],
+"text": "amino acid sequences. David Baker was also co-awarded for his work on",
+"conf": 0.932
+},
+{
+"box": [
+433,
+2197,
+485,
+36
+],
+"text": "computational protein design.",
+"conf": 0.912
+},
+{
+"box": [
+433,
+2278,
+1291,
+37
+],
+"text": "Before AlphaFold, predicting the structure of a protein was a complex and time-",
+"conf": 0.921
+},
+{
+"box": [
+433,
+2332,
+326,
+35
+],
+"text": "consuming process.",
+"conf": 0.884
+},
+{
+"box": [
+435,
+2411,
+1234,
+36
+],
+"text": "AlphaFold's predictions, made freely available through the AlphaFold Protein",
+"conf": 0.924
+},
+{
+"box": [
+431,
+2460,
+1258,
+40
+],
+"text": "Structure Database, have given more than 2 million scientists and researchers",
+"conf": 0.941
+},
+{
+"box": [
+432,
+2513,
+1286,
+36
+],
+"text": "from 19O countries a powerful tool for making new discoveries. The AlphaFold 2",
+"conf": 0.932
+},
+{
+"box": [
+430,
+2558,
+1287,
+47
+],
+"text": "paper, published in 2021, remains one of the most-cited publications of all time.",
+"conf": 0.934
+},
+{
+"box": [
+434,
+2647,
+1253,
+36
+],
+"text": "AlphaFold's contributions to science have been widely praised, and among its",
+"conf": 0.929
+},
+{
+"box": [
+430,
+2694,
+1302,
+40
+],
+"text": "recognitions are the 2023 Albert Lasker Basic Medical Research Award, the 2023",
+"conf": 0.935
+},
+{
+"box": [
+432,
+2746,
+1229,
+37
+],
+"text": "Breakthrough Prize in Life Sciences, the 2023 Canada Gairdner International",
+"conf": 0.928
+},
+{
+"box": [
+435,
+2799,
+1262,
+33
+],
+"text": "Award, the 2024 Clarivate Citation Laureate award, and the 2024 Keio Medical",
+"conf": 0.92
+},
+{
+"box": [
+433,
+2846,
+334,
+36
+],
+"text": "Science Prize Award.",
+"conf": 0.89
+},
+{
+"box": [
+433,
+2932,
+1292,
+36
+],
+"text": "Artificial intelligence (Al) has long shown incredible potential for use in scientific",
+"conf": 0.946
+},
+{
+"box": [
+430,
+2983,
+1276,
+36
+],
+"text": "research, and AlphaFold was proof-of-concept. As more scientists adopt Al for",
+"conf": 0.928
+},
+{
+"box": [
+433,
+3035,
+1233,
+36
+],
+"text": "use in everything from building data, to simulating experiments, drug design",
+"conf": 0.91
+},
+{
+"box": [
+433,
+3084,
+1209,
+36
+],
+"text": "modelling complexity, discovering novel solutions for extant problems, and",
+"conf": 0.931
+},
+{
+"box": [
+431,
+3134,
+1298,
+38
+],
+"text": "building upon existing knowledge, we will continue to see foundational scientific",
+"conf": 0.912
+},
+{
+"box": [
+432,
+3187,
+551,
+36
+],
+"text": "breakthroughs in the years ahead.",
+"conf": 0.904
+},
+{
+"box": [
+431,
+3270,
+1182,
+32
+],
+"text": "In a statement released after informed of the news, Demis Hassabis said:",
+"conf": 0.918
+},
+{
+"box": [
+432,
+3349,
+1233,
+39
+],
+"text": "\"Receiving the Nobel Prize is the honour of a lifetime. Thank you to the Royal",
+"conf": 0.904
+},
+{
+"box": [
+432,
+3400,
+1334,
+37
+],
+"text": "Swedish Academy of Sciences, to John Jumper and the AlphaFold team, the wider",
+"conf": 0.922
+},
+{
+"box": [
+433,
+3454,
+1240,
+36
+],
+"text": "DeepMind and Google teams, and to all my colleagues past and present that",
+"conf": 0.933
+},
+{
+"box": [
+430,
+3501,
+1323,
+41
+],
+"text": "made this moment possible. I've dedicated my career to advancing Al because of",
+"conf": 0.922
+},
+{
+"box": [
+431,
+3554,
+1302,
+36
+],
+"text": "its unparalleled potential to improve the lives of billions of people. AlphaFold has",
+"conf": 0.925
+},
+{
+"box": [
+432,
+3604,
+1312,
+38
+],
+"text": "already been used by more than two million researchers to advance critical work,",
+"conf": 0.927
+},
+{
+"box": [
+431,
+3656,
+1314,
+39
+],
+"text": "from enzyme design to drug discovery. I hope we'll look back on AlphaFold as the",
+"conf": 0.936
+},
+{
+"box": [
+432,
+3708,
+1250,
+35
+],
+"text": "first proof point of Al's incredible potential to accelerate scientific discovery.\"",
+"conf": 0.919
+},
+{
+"box": [
+431,
+3786,
+1295,
+40
+],
+"text": "After receiving the news that he won the Nobel Prize, John Jumper released the",
+"conf": 0.929
+},
+{
+"box": [
+431,
+3841,
+337,
+36
+],
+"text": "following statement:",
+"conf": 0.895
+},
+{
+"box": [
+433,
+3920,
+1228,
+42
+],
+"text": "\"Thank you to the Royal Swedish Academy of Sciences for this extraordinary",
+"conf": 0.91
+},
+{
+"box": [
+431,
+3975,
+1301,
+36
+],
+"text": "honor. We are so honored to be recognized for delivering on the long promise of",
+"conf": 0.912
+},
+{
+"box": [
+431,
+4024,
+1307,
+38
+],
+"text": "computational biology to help us understand the protein world and to inform the",
+"conf": 0.925
+},
+{
+"box": [
+431,
+4075,
+1273,
+36
+],
+"text": "incredible work of experimental biologists. It is a key demonstration that Al will",
+"conf": 0.929
+},
+{
+"box": [
+431,
+4125,
+1222,
+38
+],
+"text": "make science faster and ultimately help to understand disease and develop",
+"conf": 0.937
+},
+{
+"box": [
+432,
+4176,
+1269,
+37
+],
+"text": "therapeutics. This is the work of an exceptional team at Google DeepMind and",
+"conf": 0.924
+},
+{
+"box": [
+431,
+4226,
+678,
+38
+],
+"text": "this award recognizes their amazing work.",
+"conf": 0.878
+}
+]

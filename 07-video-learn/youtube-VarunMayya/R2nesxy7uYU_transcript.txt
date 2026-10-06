@@ -1,0 +1,15 @@
+[  0.00-  5.12] Claude Mythos is finally here, but it's so powerful that they're not releasing it to the public out of fear over the cause.
+[  6.14- 10.42] Instead, Anthropic announced Project Glasswing, an urgent initiative that gives access to Mythos
+[ 10.42- 15.32] only to AWS, Apple, Google, Microsoft, Nvidia and a few others, so they can fix their code first.
+[ 15.50- 18.84] Because over the past few weeks, Mythos has found thousands of critical vulnerabilities,
+[ 19.22- 21.38] including every major OS and web browser.
+[ 21.56- 25.94] One Anthropic engineer asked it to overnight and woke up to a complete working exploit.
+[ 25.94- 31.00] It discovered a 27 year old vulnerability in OpenBSD and OS literally famous for being
+[ 31.00- 35.34] secure. It even found some vulnerabilities on Linux that can allow a user with no permission
+[ 35.34- 38.64] to suddenly control the entire machine. But here's the wildest of all. During testing,
+[ 38.84- 42.84] Claude Mythos preview broke out of a sandbox environment, built a moderately sophisticated
+[ 42.84- 47.14] multi step exploit to gain internet access, and emailed a researcher while they were eating
+[ 47.14- 51.22] a sandwich in the park. On top of it, the benchmarks are insane. On every single test,
+[ 51.22- 55.16] Mythos has obliterated opus, scoring numbers never seen before.
+[ 55.34- 60.06] And it is for this reason that Anthropic does not plan on making Mythos available to the general public.
+[ 60.22- 64.00] Not until every single major software has become Mythos resistant first.

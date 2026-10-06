@@ -1,0 +1,25 @@
+[  0.00-  3.46] ChargePT can now build and publish websites from one prompt.
+[  3.68-  7.68] And these are not just pretty demos, they are fully functional websites with a database,
+[  8.14- 10.48] file storage, authentication and forms.
+[ 10.72- 12.92] And you can even connect your own custom domain.
+[ 13.18- 18.06] So to get started, open ChargePT desktop app and select either ChargePT work or codecs.
+[ 18.26- 19.76] Both modes can build websites.
+[ 20.10- 22.58] Click on sites, then select create new site.
+[ 22.80- 24.22] Now describe what you want to build.
+[ 24.40- 29.38] I gave it a pretty detailed prompt to create a modern editorial travel guide about Bali.
+[ 29.38- 32.36] Send the prompt and Charge-APT will start building your website.
+[ 32.52- 36.92] Depending how complex it is, it can take some time and Charge-APT will ask you to approve
+[ 36.92- 38.64] certain actions during the process.
+[ 38.88- 41.36] After about 20 minutes, I got my first draft.
+[ 41.64- 46.50] It looked great and buttons worked properly, but many of the images did not match the
+[ 46.50- 47.48] destination titles.
+[ 47.80- 52.88] So I asked Charge-APT to audit the entire website and replace every image with a location-specific
+[ 52.88- 53.60] photography.
+[ 53.84- 57.58] And after a few more tweaks, I had a fully functional website that looked great
+[ 57.58- 58.96] on desktop and mobile.
+[ 58.96- 62.98] Now, to publish your website, click share and make it visible to everyone.
+[ 63.18- 66.02] Or simply copy the link and share it with specific people.
+[ 66.18- 68.90] You can also open settings and connect your own domain.
+[ 69.08- 74.20] For now, Chai GPT sites is only available for the paid plans and it's not available in
+[ 74.20- 76.34] the European Union, Switzerland and the UK.
+[ 76.58- 79.32] Let me know if you have access and what are you building?

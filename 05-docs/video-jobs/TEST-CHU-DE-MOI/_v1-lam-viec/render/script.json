@@ -1,0 +1,31 @@
+{
+  "job": "TEST-CHU-DE-MOI",
+  "version": "v1",
+  "title": "",
+  "sentences": [
+    "Thanh thép đang đỏ trên đe.",
+    "Kìm kẹp một đầu bên phải.",
+    "Búa giáng xuống từ trên.",
+    "Tia lửa bắn khi búa chạm.",
+    "Thanh nằm ngang, sáng cả thân.",
+    "Rồi thanh bị uốn cong.",
+    "Một đầu thò khỏi mép đe.",
+    "Đầu đó vẫn đỏ rực.",
+    "Búa vung tiếp, chỉ thấy vệt mờ.",
+    "Người thợ mặc áo sáng.",
+    "Chỉ thấy tay, búa và kìm.",
+    "Không thấy mặt người trong khung.",
+    "Mặt đe sần, có vết lõm.",
+    "Nền phía sau thì tối.",
+    "Cuối clip, đầu thanh tròn hơn.",
+    "Kìm không rời thanh.",
+    "Đe chiếm gần hết hình.",
+    "Thép sáng hơn mọi thứ quanh.",
+    "Nhịp búa lặp đi lặp lại.",
+    "Đây là cảnh rèn thép bằng tay."
+  ],
+  "syllables": 114,
+  "voice": "OmniVoice · male clone v2 locked · 1.2 · voice_locked:true",
+  "captions_burn": true,
+  "bgm": true
+}

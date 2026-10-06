@@ -1,0 +1,553 @@
+{
+ "aw": {
+  "file": "/workspace/video-jobs/HM-103/source/assets/ws_agentwow.png",
+  "h": 8015,
+  "rects": {
+   "GPT-6 Astra plays World of Warcraft for the first time with agent-wow": [
+    [
+     280,
+     141,
+     937,
+     177
+    ],
+    [
+     280,
+     192,
+     662,
+     228
+    ]
+   ],
+   "GPT-6 Astra (xhigh)": [
+    [
+     609,
+     658,
+     750,
+     675
+    ]
+   ],
+   "create an orc character and complete all quests in the starting zone": [
+    [
+     295,
+     710,
+     827,
+     725
+    ]
+   ],
+   "40 minutes with 0 deaths": [
+    [
+     747,
+     786,
+     924,
+     803
+    ]
+   ],
+   "doesn't define any gameplay mechanics": [
+    [
+     690,
+     2268,
+     974,
+     2285
+    ]
+   ],
+   "such as movement, combat, or in-game interactions": [
+    [
+     280,
+     2294,
+     647,
+     2311
+    ]
+   ],
+   "16K lines": [
+    [
+     438,
+     2412,
+     504,
+     2429
+    ]
+   ],
+   "decided to scrap that for a different approach": [
+    [
+     406,
+     2438,
+     724,
+     2455
+    ]
+   ],
+   "private local servers powered by the open-source": [
+    [
+     503,
+     2675,
+     853,
+     2692
+    ]
+   ],
+   "does not connect to a live World of Warcraft server": [
+    [
+     581,
+     2649,
+     938,
+     2666
+    ]
+   ],
+   "exploit map bugs by phasing through walls": [
+    [
+     444,
+     6971,
+     745,
+     6988
+    ]
+   ],
+   "clear Icecrown Citadel on heroic difficulty": [
+    [
+     357,
+     591,
+     646,
+     608
+    ]
+   ],
+   "fill an entire server with AI agents": [
+    [
+     700,
+     565,
+     935,
+     582
+    ]
+   ],
+   "completes prerequisite chains, sells junk, equips upgrades, and trains abilities before entering the final cave segment": [
+    [
+     280,
+     3405,
+     969,
+     3422
+    ],
+    [
+     280,
+     3431,
+     413,
+     3448
+    ]
+   ],
+   "obtain both cave quests at the same time": [
+    [
+     749,
+     3431,
+     962,
+     3448
+    ],
+    [
+     280,
+     3456,
+     354,
+     3473
+    ]
+   ],
+   "Detour pathfinding library": [
+    [
+     392,
+     5351,
+     571,
+     5368
+    ]
+   ],
+   "mmaps": [
+    [
+     685,
+     5327,
+     724,
+     5342
+    ]
+   ],
+   "Python script": [
+    [
+     332,
+     4903,
+     424,
+     4920
+    ]
+   ],
+   "pathfinding helper program in C++": [
+    [
+     280,
+     5191,
+     523,
+     5208
+    ]
+   ],
+   "The pathfinding abilities were optimal": [
+    [
+     280,
+     5091,
+     615,
+     5112
+    ]
+   ],
+   "SMSG_QUESTGIVER_QUEST_LIST": [
+    [
+     311,
+     4460,
+     514,
+     4475
+    ]
+   ],
+   "AzerothCore SQL files": [
+    [
+     782,
+     3312,
+     941,
+     3329
+    ]
+   ],
+   "Since this run was not done in a sandbox": [
+    [
+     689,
+     3575,
+     981,
+     3592
+    ]
+   ]
+  }
+ },
+ "toms": {
+  "file": "/workspace/video-jobs/HM-103/source/assets/ws_toms.png",
+  "h": 5200,
+  "rects": {
+   "ChatGPT-6 Astra plays World of Warcraft 'blind' and clears the orc starting zone in 40 minutes with no deaths": [
+    [
+     179,
+     472,
+     725,
+     510
+    ],
+    [
+     179,
+     506,
+     766,
+     544
+    ],
+    [
+     179,
+     540,
+     498,
+     578
+    ]
+   ],
+   "40 minutes with no deaths": [
+    [
+     734,
+     506,
+     766,
+     544
+    ],
+    [
+     179,
+     540,
+     498,
+     578
+    ]
+   ],
+   "in 40 minutes with 0 deaths": [
+    [
+     300,
+     1268,
+     506,
+     1290
+    ]
+   ],
+   "without seeing a single rendered frame": [
+    [
+     353,
+     1292,
+     645,
+     1314
+    ]
+   ],
+   "network traffic and quest data pulled from the server's own files": [
+    [
+     179,
+     1316,
+     656,
+     1338
+    ]
+   ],
+   "extra high reasoning effort": [
+    [
+     215,
+     1948,
+     414,
+     1970
+    ]
+   ],
+   "28 types of server messages": [
+    [
+     474,
+     2606,
+     684,
+     2628
+    ]
+   ],
+   "A Python script polls those messages to build the agent's picture of the world": [
+    [
+     433,
+     2630,
+     769,
+     2652
+    ],
+    [
+     179,
+     2654,
+     411,
+     2676
+    ]
+   ],
+   "worked through prerequisite quest chains in order": [
+    [
+     179,
+     3656,
+     556,
+     3678
+    ]
+   ],
+   "sold junk": [
+    [
+     564,
+     3656,
+     631,
+     3678
+    ]
+   ],
+   "equipped upgrades": [
+    [
+     639,
+     3656,
+     710,
+     3678
+    ],
+    [
+     179,
+     3680,
+     249,
+     3702
+    ]
+   ],
+   "trained abilities before the zone's final cave": [
+    [
+     290,
+     3680,
+     612,
+     3702
+    ]
+   ],
+   "picked up both cave quests at once": [
+    [
+     653,
+     3680,
+     764,
+     3702
+    ],
+    [
+     179,
+     3704,
+     325,
+     3726
+    ]
+   ],
+   "C++ helper": [
+    [
+     427,
+     3744,
+     508,
+     3766
+    ]
+   ],
+   "navigation mesh files, or mmaps": [
+    [
+     597,
+     3768,
+     779,
+     3790
+    ],
+    [
+     179,
+     3792,
+     235,
+     3814
+    ]
+   ],
+   "The Detour pathfinding library": [
+    [
+     243,
+     3792,
+     469,
+     3814
+    ]
+   ],
+   "optimal": [
+    [
+     336,
+     3888,
+     393,
+     3910
+    ]
+   ],
+   "exploit map bugs": [
+    [
+     630,
+     3888,
+     758,
+     3910
+    ]
+   ],
+   "AzerothCore is open-source server software that runs WoW 3.3.5a": [
+    [
+     316,
+     1668,
+     425,
+     1690
+    ],
+    [
+     179,
+     1692,
+     427,
+     1714
+    ],
+    [
+     179,
+     1716,
+     305,
+     1738
+    ]
+   ],
+   "does not connect to any live WoW server": [
+    [
+     392,
+     1788,
+     428,
+     1810
+    ],
+    [
+     179,
+     1812,
+     441,
+     1834
+    ]
+   ],
+   "Icecrown Citadel on heroic difficulty": [
+    [
+     286,
+     2092,
+     552,
+     2114
+    ]
+   ],
+   "finishes the run in Sen'jin Village": [
+    [
+     645,
+     1388,
+     779,
+     1410
+    ],
+    [
+     179,
+     1412,
+     280,
+     1434
+    ]
+   ]
+  }
+ },
+ "ie": {
+  "file": "/workspace/video-jobs/HM-103/source/assets/ws_ie.png",
+  "h": 4732,
+  "rects": {
+   "OpenAI's GPT-6 Astra found a way to play World of Warcraft without seeing the screen": [
+    [
+     202,
+     112,
+     1078,
+     165
+    ],
+    [
+     194,
+     160,
+     1086,
+     213
+    ],
+    [
+     516,
+     208,
+     764,
+     261
+    ]
+   ],
+   "server network messages, quest data and navigation files instead of screenshots or computer vision": [
+    [
+     340,
+     280,
+     1076,
+     302
+    ],
+    [
+     613,
+     312,
+     662,
+     334
+    ]
+   ],
+   "without processing a single rendered game frame": [
+    [
+     557,
+     1178,
+     709,
+     1200
+    ],
+    [
+     120,
+     1210,
+     357,
+     1232
+    ]
+   ],
+   "about 40 minutes": [
+    [
+     414,
+     1178,
+     552,
+     1200
+    ]
+   ],
+   "reconstructed its environment from server network messages and game data": [
+    [
+     120,
+     1322,
+     689,
+     1344
+    ],
+    [
+     120,
+     1354,
+     153,
+     1376
+    ]
+   ],
+   "prerequisite": [
+    [
+     120,
+     2894,
+     214,
+     2916
+    ]
+   ],
+   "Sen'jin": null,
+   "independent": null,
+   "AzerothCore": [
+    [
+     120,
+     1442,
+     223,
+     1464
+    ]
+   ],
+   "sandbox": null
+  }
+ }
+}

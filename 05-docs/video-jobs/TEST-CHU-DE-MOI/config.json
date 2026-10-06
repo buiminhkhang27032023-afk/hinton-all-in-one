@@ -1,0 +1,48 @@
+{
+  "job_id": "TEST-CHU-DE-MOI",
+  "version": "v2",
+  "preset": "kallaway",
+  "title": "",
+  "captions_burn": true,
+  "bgm": true,
+  "bgm_volume_db": -20,
+  "target_duration": 22,
+  "syllables_min": 80,
+  "syllables_max": 140,
+  "presenter": {
+    "mode": "auto",
+    "video": "/workspace/hinton-pipeline-docs/assets/presenter-video-novoice.mp4",
+    "intro_card": false,
+    "outro_card": false
+  },
+  "kallaway": {
+    "tail": 0.25,
+    "s_eye_y": 420,
+    "face_split_px": 270,
+    "punch_every": 10000,
+    "caption_words": 2,
+    "cap_style": {
+      "font": "fraunces",
+      "size": 48,
+      "color": "#E0AC1A",
+      "stroke": 5,
+      "top": 984
+    },
+    "broll_order": [
+      "demo"
+    ],
+    "loop": false,
+    "shot_target": 40,
+    "shot_min": 20,
+    "shot_max": 40,
+    "first_cut": 40,
+    "hook_hold": 0
+  },
+  "footage": {
+    "stock_enabled": false,
+    "max_clips_per_url": 1,
+    "clip_max": 32.0,
+    "ytdlp_max_height": 1080
+  },
+  "output_subdir": "v2"
+}

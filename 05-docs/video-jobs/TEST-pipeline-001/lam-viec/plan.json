@@ -1,0 +1,197 @@
+{
+  "plan": {
+    "total": 19.167,
+    "hook_end": 1.508,
+    "outro_start": 16.242,
+    "shots": [
+      {
+        "start": 1.508,
+        "end": 3.658,
+        "dur": 2.15,
+        "sent": 0,
+        "words": [
+          "học."
+        ],
+        "phrase": "học",
+        "visual": {
+          "src": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/demo/url00.webm",
+          "start": 1.904,
+          "dur": 3.0,
+          "credit": "Visualisation of the SARS-CoV-2 Omicron Spike Protein | Maximilian Schönherr | https://commons.wikimedia.org/wiki/File:Visualisation_of_the_SARS-CoV-2_Omicron_Spike_Protein.webm | Creative Commons Attribution-Share Alike 4.0",
+          "kind": "demo",
+          "type": "video"
+        }
+      },
+      {
+        "start": 3.658,
+        "end": 6.406,
+        "dur": 2.748,
+        "sent": 1,
+        "words": [
+          "Tháng",
+          "mười",
+          "năm",
+          "hai",
+          "nghìn",
+          "không",
+          "trăm",
+          "hai",
+          "mươi",
+          "bốn,",
+          "Viện",
+          "Hàn",
+          "lâm",
+          "Khoa",
+          "học",
+          "Hoàng",
+          "gia",
+          "Thụy",
+          "Điển",
+          "trao",
+          "một",
+          "nửa",
+          "giải",
+          "cho",
+          "Demis",
+          "Hassabis",
+          "và",
+          "John"
+        ],
+        "phrase": "Viện Hàn lâm Khoa học Hoàng",
+        "visual": {
+          "src": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/demo/url01.ogv",
+          "start": 3.8,
+          "dur": 3.0,
+          "credit": "Protein Folding | Cookatoo.ergo.ZooM | https://commons.wikimedia.org/wiki/File:Protein_Folding.ogv | Creative Commons Attribution-Share Alike 4.0",
+          "kind": "demo",
+          "type": "video"
+        }
+      },
+      {
+        "start": 6.406,
+        "end": 11.78,
+        "dur": 5.374,
+        "sent": 1,
+        "words": [
+          "Jumper",
+          "của",
+          "Google",
+          "DeepMind,"
+        ],
+        "phrase": "Jumper của Google DeepMind",
+        "visual": {
+          "type": "kenburns",
+          "img": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/webshots/web00.png"
+        }
+      },
+      {
+        "start": 11.78,
+        "end": 14.577,
+        "dur": 2.797,
+        "sent": 2,
+        "words": [
+          "nhờ",
+          "công",
+          "trình",
+          "dự",
+          "đoán",
+          "cấu",
+          "trúc",
+          "protein",
+          "bằng",
+          "AlphaFold."
+        ],
+        "phrase": "đoán cấu trúc protein bằng AlphaFold",
+        "visual": {
+          "type": "textcard"
+        }
+      },
+      {
+        "start": 14.577,
+        "end": 16.242,
+        "dur": 1.665,
+        "sent": 3,
+        "words": [
+          "Nửa",
+          "còn",
+          "lại",
+          "thuộc",
+          "về",
+          "giáo",
+          "sư",
+          "David",
+          "Baker,",
+          "với",
+          "công",
+          "trình",
+          "thiết",
+          "kế",
+          "protein",
+          "bằng",
+          "máy"
+        ],
+        "phrase": "David Baker, với công trình thiết",
+        "visual": {
+          "src": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/demo/url01.ogv",
+          "start": 13.88,
+          "dur": 3.0,
+          "credit": "Protein Folding | Cookatoo.ergo.ZooM | https://commons.wikimedia.org/wiki/File:Protein_Folding.ogv | Creative Commons Attribution-Share Alike 4.0",
+          "kind": "demo",
+          "type": "video"
+        }
+      }
+    ]
+  },
+  "presenter": {
+    "mode": "video",
+    "pip": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/presenter/presenter_pip.mp4",
+    "full": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/presenter/presenter_full.mp4",
+    "length": 53.966667,
+    "source": "/workspace/hinton-pipeline-docs/assets/presenter-video-novoice.mp4",
+    "crop": "608:1072:656:0",
+    "face": [
+      262,
+      246,
+      151,
+      151
+    ],
+    "segments": [
+      {
+        "start": 1.508,
+        "dur": 2.15,
+        "media_start": 31.994,
+        "idx": 0
+      },
+      {
+        "start": 3.658,
+        "dur": 2.748,
+        "media_start": 12.079,
+        "idx": 1
+      },
+      {
+        "start": 6.406,
+        "dur": 2.5,
+        "media_start": 43.915,
+        "idx": 2
+      },
+      {
+        "start": 8.906,
+        "dur": 2.874,
+        "media_start": 24.099,
+        "idx": 3
+      },
+      {
+        "start": 11.78,
+        "dur": 2.797,
+        "media_start": 4.609,
+        "idx": 4
+      },
+      {
+        "start": 14.577,
+        "dur": 1.665,
+        "media_start": 37.005,
+        "idx": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,810 @@
+[
+ {
+  "tag": "LI",
+  "x": 115.640625,
+  "y": 0,
+  "w": 87.625,
+  "h": 64,
+  "text": "Research"
+ },
+ {
+  "tag": "LI",
+  "x": 203.265625,
+  "y": 0,
+  "w": 86.015625,
+  "h": 64,
+  "text": "Products"
+ },
+ {
+  "tag": "LI",
+  "x": 289.28125,
+  "y": 0,
+  "w": 84.796875,
+  "h": 64,
+  "text": "Business"
+ },
+ {
+  "tag": "LI",
+  "x": 374.078125,
+  "y": 0,
+  "w": 98.890625,
+  "h": 64,
+  "text": "Developers"
+ },
+ {
+  "tag": "LI",
+  "x": 472.96875,
+  "y": 0,
+  "w": 89.765625,
+  "h": 64,
+  "text": "Company"
+ },
+ {
+  "tag": "LI",
+  "x": 562.734375,
+  "y": 0,
+  "w": 100.171875,
+  "h": 64,
+  "text": "Foundation\n(opens in a new window)"
+ },
+ {
+  "tag": "P",
+  "x": 426.46875,
+  "y": 152,
+  "w": 104.375,
+  "h": 19.59375,
+  "text": "October 5, 2026"
+ },
+ {
+  "tag": "H1",
+  "x": 207.328125,
+  "y": 203.59375,
+  "w": 685.328125,
+  "h": 110.4375,
+  "text": "Building advertising for the way people use AI"
+ },
+ {
+  "tag": "P",
+  "x": 324.203125,
+  "y": 338.03125,
+  "w": 451.5625,
+  "h": 84,
+  "text": "A new visual ad format helps people explore products and services, with expanded measurement to help businesses understand ad impact."
+ },
+ {
+  "tag": "IMG",
+  "x": 119.65625,
+  "y": 558.0234375,
+  "w": 860.65625,
+  "h": 430.328125,
+  "text": "Two ChatGPT mobile screens show Heirloom Grocery visual ads with product images and Learn more buttons during image generation."
+ },
+ {
+  "tag": "LI",
+  "x": 32,
+  "y": 1185.359375,
+  "w": 143.328125,
+  "h": 46,
+  "text": "Bringing products and services to life"
+ },
+ {
+  "tag": "LI",
+  "x": 32,
+  "y": 1231.359375,
+  "w": 143.328125,
+  "h": 46,
+  "text": "Measuring the impact of ChatGPT Ads"
+ },
+ {
+  "tag": "LI",
+  "x": 32,
+  "y": 1277.359375,
+  "w": 143.328125,
+  "h": 61,
+  "text": "Building confidence in alignment with our Ads Principles"
+ },
+ {
+  "tag": "LI",
+  "x": 32,
+  "y": 1338.359375,
+  "w": 143.328125,
+  "h": 46,
+  "text": "Expanding the features of ChatGPT Ads"
+ },
+ {
+  "tag": "P",
+  "x": 294.984375,
+  "y": 1185.359375,
+  "w": 510,
+  "h": 84,
+  "text": "We’re introducing a new visual ad format in ChatGPT, expanding our measurement tools and partnerships, and developing new ways to understand brand suitability."
+ },
+ {
+  "tag": "P",
+  "x": 294.984375,
+  "y": 1293.359375,
+  "w": 510,
+  "h": 224,
+  "text": "ChatGPT reaches 1.2 billion people each week, making it the world’s largest AI-native consumer platform. Advertising helps us bring the benefits of AI to more p"
+ },
+ {
+  "tag": "H2",
+  "x": 294.984375,
+  "y": 1581.359375,
+  "w": 510,
+  "h": 37.078125,
+  "text": "Bringing products and services to life"
+ },
+ {
+  "tag": "P",
+  "x": 294.984375,
+  "y": 1642.4375,
+  "w": 510,
+  "h": 168,
+  "text": "Our new visual ad format helps people imagine how products and services could fit into their lives. Through images showing product inspiration, product usage, o"
+ },
+ {
+  "tag": "P",
+  "x": 294.984375,
+  "y": 1834.4375,
+  "w": 510,
+  "h": 112,
+  "text": "Initially, we’ll test this new ad format during image generation in ChatGPT. Ads will be clearly labeled, and remain separate from the image being created. As w"
+ },
+ {
+  "tag": "P",
+  "x": 294.984375,
+  "y": 1970.4375,
+  "w": 510,
+  "h": 56,
+  "text": "Testing will begin later this month in the US with an initial group of advertisers."
+ },
+ {
+  "tag": "H2",
+  "x": 294.984375,
+  "y": 2090.4375,
+  "w": 510,
+  "h": 37.078125,
+  "text": "Measuring the impact of ChatGPT Ads"
+ },
+ {
+  "tag": "P",
+  "x": 294.984375,
+  "y": 2151.515625,
+  "w": 510,
+  "h": 140,
+  "text": "Our measurement philosophy for ChatGPT Ads is focused on supporting both in-house and partner-led measurement solutions. Today, we’re expanding our measurement "
+ },
+ {
+  "tag": "P",
+  "x": 294.984375,
+  "y": 2315.515625,
+  "w": 510,
+  "h": 84,
+  "text": "Integrations with Hightouch, Tealium, and LiveRamp make it easier for advertisers to send conversion data from their existing systems to ChatGPT Ads."
+ },
+ {
+  "tag": "P",
+  "x": 294.984375,
+  "y": 2423.515625,
+  "w": 510,
+  "h": 196,
+  "text": "We now support leading attribution partners across the web and app space, enabling Conversions API, reporting, and click attribution solutions with companies in"
+ },
+ {
+  "tag": "P",
+  "x": 294.984375,
+  "y": 2643.515625,
+  "w": 510,
+  "h": 168,
+  "text": "Incrementality measurement plays an important role in building a fuller understanding of advertising’s business impact. While our work on incrementality is stil"
+ },
+ {
+  "tag": "P",
+  "x": 294.984375,
+  "y": 2835.515625,
+  "w": 510,
+  "h": 224,
+  "text": "Early partner findings illustrate strong performance across different measurement approaches. According to DV Rockerbox, WeightWatchers’ attributed cost per acq"
+ },
+ {
+  "tag": "P",
+  "x": 294.984375,
+  "y": 3083.515625,
+  "w": 510,
+  "h": 56,
+  "text": "Read more about these measurement tools and partnerships on our Ads Blog here⁠\n(opens in a new window)\n."
+ },
+ {
+  "tag": "H2",
+  "x": 294.984375,
+  "y": 3203.515625,
+  "w": 510,
+  "h": 74.15625,
+  "text": "Building confidence in alignment with our Ads Principles"
+ },
+ {
+  "tag": "P",
+  "x": 294.984375,
+  "y": 3301.671875,
+  "w": 510,
+  "h": 196,
+  "text": "Confidence in advertising also depends on understanding the environment where ads can appear. OpenAI’s advertising policies and guardrails are designed to prote"
+ },
+ {
+  "tag": "P",
+  "x": 294.984375,
+  "y": 3521.671875,
+  "w": 510,
+  "h": 140,
+  "text": "Automated review, human oversight, and ongoing monitoring help us identify and address policy violations and improve our safeguards over time. For narrow placem"
+ },
+ {
+  "tag": "P",
+  "x": 294.984375,
+  "y": 3685.671875,
+  "w": 510,
+  "h": 224,
+  "text": "We’re also developing brand suitability evaluation pilots with DoubleVerify (DV) and Integral Ad Science (IAS) to help advertisers build a better understanding "
+ },
+ {
+  "tag": "FIGURE",
+  "x": 232.328125,
+  "y": 3998.671875,
+  "w": 282.65625,
+  "h": 352.5,
+  "text": "“As advertising expands into AI-native environments, marketers need confidence that brand safety protections are durable, consistent, and built to operate at sc"
+ },
+ {
+  "tag": "BLOCKQUOTE",
+  "x": 241,
+  "y": 3998.671875,
+  "w": 273.984375,
+  "h": 293.3125,
+  "text": "“As advertising expands into AI-native environments, marketers need confidence that brand safety protections are durable, consistent, and built to operate at sc"
+ },
+ {
+  "tag": "FIGCAPTION",
+  "x": 239.328125,
+  "y": 4311.984375,
+  "w": 275.65625,
+  "h": 39.1875,
+  "text": "— Lidiane Jones, CEO of Integral Ad Science"
+ },
+ {
+  "tag": "FIGURE",
+  "x": 584.984375,
+  "y": 3998.671875,
+  "w": 282.65625,
+  "h": 423.15625,
+  "text": "“ChatGPT is creating a fundamentally different advertising environment, where context is defined by the conversation itself rather than a page or video. As adve"
+ },
+ {
+  "tag": "BLOCKQUOTE",
+  "x": 593.65625,
+  "y": 3998.671875,
+  "w": 273.984375,
+  "h": 383.5625,
+  "text": "“ChatGPT is creating a fundamentally different advertising environment, where context is defined by the conversation itself rather than a page or video. As adve"
+ },
+ {
+  "tag": "FIGCAPTION",
+  "x": 591.984375,
+  "y": 4402.234375,
+  "w": 275.65625,
+  "h": 19.59375,
+  "text": "— Mark Zagorski, CEO of DoubleVerify"
+ },
+ {
+  "tag": "H2",
+  "x": 294.984375,
+  "y": 4550.828125,
+  "w": 510,
+  "h": 37.078125,
+  "text": "Expanding the features of ChatGPT Ads"
+ },
+ {
+  "tag": "P",
+  "x": 294.984375,
+  "y": 4611.90625,
+  "w": 510,
+  "h": 252,
+  "text": "Our new visual ad format helps people discover products and services and imagine how they could fit into their lives, while giving advertisers new ways to tell "
+ },
+ {
+  "tag": "P",
+  "x": 294.984375,
+  "y": 4887.90625,
+  "w": 510,
+  "h": 168,
+  "text": "Today’s updates are part of our broader ambition to help people discover products and services, evaluate options, and make decisions in ChatGPT. We will continu"
+ },
+ {
+  "tag": "P",
+  "x": 294.984375,
+  "y": 5079.90625,
+  "w": 510,
+  "h": 28,
+  "text": "Businesses can sign up today for ads at ads.openai.com⁠\n(opens in a new window)\n⁠⁠."
+ },
+ {
+  "tag": "LI",
+  "x": 295,
+  "y": 5235.90625,
+  "w": 59.109375,
+  "h": 38.015625,
+  "text": "2026"
+ },
+ {
+  "tag": "H2",
+  "x": 295,
+  "y": 5305.921875,
+  "w": 510,
+  "h": 22.953125,
+  "text": "Author"
+ },
+ {
+  "tag": "H2",
+  "x": 32,
+  "y": 5496.828125,
+  "w": 126.6875,
+  "h": 26.53125,
+  "text": "Keep reading"
+ },
+ {
+  "tag": "IMG",
+  "x": 31.9921875,
+  "y": 5563.8203125,
+  "w": 329.328125,
+  "h": 329.328125,
+  "text": "A model guide for the GPT-6 family — Card image"
+ },
+ {
+  "tag": "P",
+  "x": 32,
+  "y": 5970.28125,
+  "w": 329.328125,
+  "h": 19.59375,
+  "text": "Product\nOct 2, 2026"
+ },
+ {
+  "tag": "TIME",
+  "x": 95.359375,
+  "y": 5970.28125,
+  "w": 75.25,
+  "h": 19.59375,
+  "text": "Oct 2, 2026"
+ },
+ {
+  "tag": "IMG",
+  "x": 385.3203125,
+  "y": 5563.8203125,
+  "w": 329.328125,
+  "h": 329.328125,
+  "text": "DevDay 2026 Recap — cover image (1:1)"
+ },
+ {
+  "tag": "P",
+  "x": 385.328125,
+  "y": 5947.71875,
+  "w": 329.328125,
+  "h": 19.59375,
+  "text": "Company\nSep 29, 2026"
+ },
+ {
+  "tag": "TIME",
+  "x": 459.53125,
+  "y": 5947.71875,
+  "w": 84.890625,
+  "h": 19.59375,
+  "text": "Sep 29, 2026"
+ },
+ {
+  "tag": "IMG",
+  "x": 738.65625,
+  "y": 5563.828125,
+  "w": 329.34375,
+  "h": 329.34375,
+  "text": "GPT-6-1-Sol_Blog 1x1"
+ },
+ {
+  "tag": "P",
+  "x": 738.65625,
+  "y": 5947.734375,
+  "w": 329.34375,
+  "h": 19.59375,
+  "text": "Product\nSep 29, 2026"
+ },
+ {
+  "tag": "TIME",
+  "x": 802.015625,
+  "y": 5947.734375,
+  "w": 84.890625,
+  "h": 19.59375,
+  "text": "Sep 29, 2026"
+ },
+ {
+  "tag": "LI",
+  "x": 32,
+  "y": 6189.5625,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Research Index"
+ },
+ {
+  "tag": "LI",
+  "x": 32,
+  "y": 6225.25,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Research Overview"
+ },
+ {
+  "tag": "LI",
+  "x": 32,
+  "y": 6260.9375,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Economic Research"
+ },
+ {
+  "tag": "LI",
+  "x": 32,
+  "y": 6352.3125,
+  "w": 188,
+  "h": 19.6875,
+  "text": "GPT-6.1 Sol"
+ },
+ {
+  "tag": "LI",
+  "x": 32,
+  "y": 6388,
+  "w": 188,
+  "h": 19.6875,
+  "text": "GPT-6 Astra"
+ },
+ {
+  "tag": "LI",
+  "x": 32,
+  "y": 6423.6875,
+  "w": 188,
+  "h": 19.6875,
+  "text": "GPT-5.6"
+ },
+ {
+  "tag": "LI",
+  "x": 32,
+  "y": 6459.375,
+  "w": 188,
+  "h": 19.6875,
+  "text": "GPT-5.5"
+ },
+ {
+  "tag": "LI",
+  "x": 32,
+  "y": 6550.75,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Safety Approach"
+ },
+ {
+  "tag": "LI",
+  "x": 32,
+  "y": 6586.4375,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Deployment Safety\n(opens in a new window)"
+ },
+ {
+  "tag": "LI",
+  "x": 32,
+  "y": 6622.125,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Security & Privacy"
+ },
+ {
+  "tag": "LI",
+  "x": 32,
+  "y": 6657.8125,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Trust & Transparency"
+ },
+ {
+  "tag": "LI",
+  "x": 244,
+  "y": 6189.5625,
+  "w": 188,
+  "h": 19.6875,
+  "text": "ChatGPT\n(opens in a new window)"
+ },
+ {
+  "tag": "LI",
+  "x": 244,
+  "y": 6225.25,
+  "w": 188,
+  "h": 19.6875,
+  "text": "ChatGPT Business\n(opens in a new window)"
+ },
+ {
+  "tag": "LI",
+  "x": 244,
+  "y": 6260.9375,
+  "w": 188,
+  "h": 19.6875,
+  "text": "ChatGPT Enterprise\n(opens in a new window)"
+ },
+ {
+  "tag": "LI",
+  "x": 244,
+  "y": 6296.625,
+  "w": 188,
+  "h": 19.6875,
+  "text": "ChatGPT for Education\n(opens in a new window)"
+ },
+ {
+  "tag": "LI",
+  "x": 244,
+  "y": 6332.3125,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Codex"
+ },
+ {
+  "tag": "LI",
+  "x": 244,
+  "y": 6368,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Dots\n(opens in a new window)"
+ },
+ {
+  "tag": "LI",
+  "x": 244,
+  "y": 6403.6875,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Release Notes"
+ },
+ {
+  "tag": "LI",
+  "x": 244,
+  "y": 6495.0625,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Overview"
+ },
+ {
+  "tag": "LI",
+  "x": 244,
+  "y": 6530.75,
+  "w": 188,
+  "h": 19.6875,
+  "text": "API Log In\n(opens in a new window)"
+ },
+ {
+  "tag": "LI",
+  "x": 244,
+  "y": 6566.4375,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Docs\n(opens in a new window)"
+ },
+ {
+  "tag": "LI",
+  "x": 456,
+  "y": 6189.5625,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Overview"
+ },
+ {
+  "tag": "LI",
+  "x": 456,
+  "y": 6225.25,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Solutions"
+ },
+ {
+  "tag": "LI",
+  "x": 456,
+  "y": 6260.9375,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Resources"
+ },
+ {
+  "tag": "LI",
+  "x": 456,
+  "y": 6296.625,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Plugins"
+ },
+ {
+  "tag": "LI",
+  "x": 456,
+  "y": 6332.3125,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Customer Stories"
+ },
+ {
+  "tag": "LI",
+  "x": 456,
+  "y": 6368,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Partner Network"
+ },
+ {
+  "tag": "LI",
+  "x": 456,
+  "y": 6403.6875,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Contact Sales"
+ },
+ {
+  "tag": "LI",
+  "x": 456,
+  "y": 6495.0625,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Apps SDK\n(opens in a new window)"
+ },
+ {
+  "tag": "LI",
+  "x": 456,
+  "y": 6530.75,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Open Models"
+ },
+ {
+  "tag": "LI",
+  "x": 456,
+  "y": 6566.4375,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Docs\n(opens in a new window)"
+ },
+ {
+  "tag": "LI",
+  "x": 456,
+  "y": 6602.125,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Resources\n(opens in a new window)"
+ },
+ {
+  "tag": "LI",
+  "x": 456,
+  "y": 6637.8125,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Developer Forum\n(opens in a new window)"
+ },
+ {
+  "tag": "LI",
+  "x": 668,
+  "y": 6189.5625,
+  "w": 188,
+  "h": 19.6875,
+  "text": "About Us"
+ },
+ {
+  "tag": "LI",
+  "x": 668,
+  "y": 6225.25,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Our Charter"
+ },
+ {
+  "tag": "LI",
+  "x": 668,
+  "y": 6260.9375,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Careers"
+ },
+ {
+  "tag": "LI",
+  "x": 668,
+  "y": 6296.625,
+  "w": 188,
+  "h": 19.6875,
+  "text": "News"
+ },
+ {
+  "tag": "LI",
+  "x": 668,
+  "y": 6388,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Help Center\n(opens in a new window)"
+ },
+ {
+  "tag": "LI",
+  "x": 668,
+  "y": 6423.6875,
+  "w": 188,
+  "h": 19.6875,
+  "text": "OpenAI Status\n(opens in a new window)"
+ },
+ {
+  "tag": "LI",
+  "x": 880,
+  "y": 6189.5625,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Stories"
+ },
+ {
+  "tag": "LI",
+  "x": 880,
+  "y": 6225.25,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Academy"
+ },
+ {
+  "tag": "LI",
+  "x": 880,
+  "y": 6260.9375,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Supply Co."
+ },
+ {
+  "tag": "LI",
+  "x": 880,
+  "y": 6296.625,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Livestreams"
+ },
+ {
+  "tag": "LI",
+  "x": 880,
+  "y": 6332.3125,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Podcast"
+ },
+ {
+  "tag": "LI",
+  "x": 880,
+  "y": 6368,
+  "w": 188,
+  "h": 19.6875,
+  "text": "RSS"
+ },
+ {
+  "tag": "LI",
+  "x": 880,
+  "y": 6459.375,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Terms of Use"
+ },
+ {
+  "tag": "LI",
+  "x": 880,
+  "y": 6495.0625,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Privacy Policy"
+ },
+ {
+  "tag": "LI",
+  "x": 880,
+  "y": 6530.75,
+  "w": 188,
+  "h": 19.6875,
+  "text": "Other Policies"
+ }
+]

@@ -1,0 +1,582 @@
+[
+{
+"box": [
+1039,
+260,
+122,
+20
+],
+"text": "ADVERTISEMENT",
+"conf": 0.877
+},
+{
+"box": [
+83,
+554,
+64,
+48
+],
+"text": "AP",
+"conf": 0.655
+},
+{
+"box": [
+441,
+566,
+57,
+29
+],
+"text": "U.S.",
+"conf": 0.749
+},
+{
+"box": [
+1176,
+566,
+123,
+30
+],
+"text": "BUSINESS",
+"conf": 0.803
+},
+{
+"box": [
+285,
+567,
+94,
+27
+],
+"text": "WORLD",
+"conf": 0.748
+},
+{
+"box": [
+556,
+567,
+141,
+27
+],
+"text": "POLITICS v",
+"conf": 0.799
+},
+{
+"box": [
+735,
+567,
+104,
+27
+],
+"text": "SPORTS",
+"conf": 0.837
+},
+{
+"box": [
+902,
+567,
+212,
+26
+],
+"text": "ENTERTAINMENT",
+"conf": 0.862
+},
+{
+"box": [
+1362,
+567,
+133,
+27
+],
+"text": "SCIENCE v",
+"conf": 0.826
+},
+{
+"box": [
+1533,
+567,
+78,
+28
+],
+"text": "MORE",
+"conf": 0.798
+},
+{
+"box": [
+1919,
+567,
+72,
+29
+],
+"text": "Sign in",
+"conf": 0.857
+},
+{
+"box": [
+80,
+707,
+140,
+24
+],
+"text": "WORLDNEWS",
+"conf": 0.848
+},
+{
+"box": [
+75,
+762,
+1784,
+105
+],
+"text": "Nobel Prize in chemistry honors 3 scientists",
+"conf": 0.925
+},
+{
+"box": [
+72,
+867,
+1895,
+105
+],
+"text": "who used Al to design proteins - life's building",
+"conf": 0.915
+},
+{
+"box": [
+84,
+979,
+260,
+81
+],
+"text": "blocks",
+"conf": 0.829
+},
+{
+"box": [
+220,
+1324,
+197,
+20
+],
+"text": "THEASSOCIATEDPRESS",
+"conf": 0.902
+},
+{
+"box": [
+1715,
+1445,
+171,
+23
+],
+"text": "ADVERTISEMENT",
+"conf": 0.884
+},
+{
+"box": [
+678,
+1942,
+212,
+36
+],
+"text": "HANSELLEGREN",
+"conf": 0.889
+},
+{
+"box": [
+871,
+1972,
+34,
+16
+],
+"text": "KUNGL",
+"conf": 0.826
+},
+{
+"box": [
+898,
+1983,
+30,
+10
+],
+"text": "SKAPS",
+"conf": 0.829
+},
+{
+"box": [
+78,
+2080,
+1273,
+30
+],
+"text": "1 of 18 I The Nobel Prize in chemistry was awarded Wednesday to David Baker, Demis Hassabis and John Jumper for their",
+"conf": 0.919
+},
+{
+"box": [
+80,
+2115,
+494,
+30
+],
+"text": "work with proteins. (AP Video: Daniel Niemann)",
+"conf": 0.907
+},
+{
+"box": [
+161,
+2476,
+475,
+26
+],
+"text": "BY KELVIN CHAN, CHRISTINA LARSON AND",
+"conf": 0.911
+},
+{
+"box": [
+160,
+2516,
+191,
+27
+],
+"text": "MANUEL VALDES",
+"conf": 0.834
+},
+{
+"box": [
+1081,
+2545,
+77,
+32
+],
+"text": "Share",
+"conf": 0.781
+},
+{
+"box": [
+706,
+2547,
+284,
+32
+],
+"text": "Add AP News on Google",
+"conf": 0.875
+},
+{
+"box": [
+161,
+2563,
+448,
+26
+],
+"text": "Updated 7:18 AM GMT+7, October 10, 2024",
+"conf": 0.883
+},
+{
+"box": [
+158,
+2683,
+973,
+36
+],
+"text": "LONDON (AP) - Three scientists who discovered powerful",
+"conf": 0.915
+},
+{
+"box": [
+156,
+2736,
+1123,
+43
+],
+"text": "techniques to decode and even design novel proteins - the building",
+"conf": 0.891
+},
+{
+"box": [
+158,
+2792,
+965,
+41
+],
+"text": "blocks of life - were awarded the Nobel Prize in chemistry",
+"conf": 0.906
+},
+{
+"box": [
+158,
+2849,
+1033,
+39
+],
+"text": "Wednesday. Their work used advanced technologies, including",
+"conf": 0.905
+},
+{
+"box": [
+1492,
+2874,
+240,
+25
+],
+"text": "MOSTDEAD",
+"conf": 0.775
+},
+{
+"box": [
+160,
+2800,
+962,
+33
+],
+"text": "blocks of life - were awarded the Nobel Prize in chemistry",
+"conf": 0.886
+},
+{
+"box": [
+1482,
+2876,
+251,
+43
+],
+"text": "MOST READ",
+"conf": 0.877
+},
+{
+"box": [
+161,
+2908,
+1105,
+33
+],
+"text": "artificial intelligence, and holds the potential to transform how new",
+"conf": 0.924
+},
+{
+"box": [
+160,
+2962,
+595,
+36
+],
+"text": "drugs and other materials are made.",
+"conf": 0.911
+},
+{
+"box": [
+1538,
+3012,
+484,
+36
+],
+"text": "Ohio truck plant closes, jolting 1,400",
+"conf": 0.909
+},
+{
+"box": [
+159,
+3056,
+1135,
+41
+],
+"text": "The prize was awarded to David Baker, a biochemist at the University",
+"conf": 0.927
+},
+{
+"box": [
+1539,
+3054,
+426,
+33
+],
+"text": "workers days before Trump rally",
+"conf": 0.952
+},
+{
+"box": [
+1537,
+3099,
+261,
+27
+],
+"text": "7MINREAD1683",
+"conf": 0.916
+},
+{
+"box": [
+158,
+3112,
+1103,
+41
+],
+"text": "of Washington in Seattle, and to Demis Hassabis and John Jumper,",
+"conf": 0.92
+},
+{
+"box": [
+159,
+3169,
+1149,
+37
+],
+"text": "computer scientists at Google DeepMind, a British-American artificial",
+"conf": 0.897
+},
+{
+"box": [
+1538,
+3171,
+518,
+34
+],
+"text": "Ax-wielding FlyDubai co-pilot had been",
+"conf": 0.934
+},
+{
+"box": [
+1538,
+3210,
+446,
+37
+],
+"text": "flagged over extremism concerns",
+"conf": 0.93
+},
+{
+"box": [
+158,
+3224,
+810,
+38
+],
+"text": "intelligence research laboratory based in London.",
+"conf": 0.919
+},
+{
+"box": [
+1537,
+3256,
+147,
+27
+],
+"text": "5MINREAD",
+"conf": 0.832
+},
+{
+"box": [
+1682,
+3256,
+102,
+28
+],
+"text": "口179",
+"conf": 0.712
+},
+{
+"box": [
+159,
+3322,
+1100,
+34
+],
+"text": "Heiner Linke, chair of the Nobel Committee for Chemistry, said the",
+"conf": 0.944
+},
+{
+"box": [
+1537,
+3329,
+505,
+33
+],
+"text": "A National Guard member deployed to",
+"conf": 0.899
+},
+{
+"box": [
+159,
+3377,
+1000,
+36
+],
+"text": "award honored research that unraveled \"a grand challenge in",
+"conf": 0.923
+},
+{
+"box": [
+1540,
+3368,
+523,
+34
+],
+"text": "Washington, DC, is arrested on firearms",
+"conf": 0.89
+},
+{
+"box": [
+1536,
+3404,
+99,
+44
+],
+"text": "charge",
+"conf": 0.812
+},
+{
+"box": [
+159,
+3433,
+945,
+37
+],
+"text": "chemistry, and in particular in biochemistry, for decades.\"",
+"conf": 0.93
+},
+{
+"box": [
+1537,
+3456,
+141,
+24
+],
+"text": "2 MIN READ",
+"conf": 0.829
+},
+{
+"box": [
+1699,
+3454,
+86,
+27
+],
+"text": "口182",
+"conf": 0.747
+},
+{
+"box": [
+163,
+3526,
+932,
+40
+],
+"text": "\"It's that breakthrough that gets awarded today\" he said.",
+"conf": 0.916
+},
+{
+"box": [
+1537,
+3527,
+521,
+35
+],
+"text": "Tennessee's prisons chief is resigning a",
+"conf": 0.928
+},
+{
+"box": [
+1539,
+3567,
+412,
+30
+],
+"text": "failed execution of Christa Pike",
+"conf": 0.888
+}
+]

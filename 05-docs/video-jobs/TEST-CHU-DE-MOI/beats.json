@@ -1,0 +1,147 @@
+{
+ "lead": 0.04,
+ "face_start": 3.0,
+ "face_skip": 0.0,
+ "chunks": [
+  [
+   "Một nhát",
+   2
+  ],
+  [
+   "nữa là",
+   2
+  ],
+  [
+   "thanh thép",
+   2
+  ],
+  [
+   "này gãy,",
+   2
+  ],
+  [
+   "hoặc thành",
+   2
+  ],
+  [
+   "hình. Nó",
+   2
+  ],
+  [
+   "đang đỏ.",
+   2
+  ],
+  [
+   "Không phải",
+   2
+  ],
+  [
+   "vì đẹp.",
+   2
+  ],
+  [
+   "Vì nếu",
+   2
+  ],
+  [
+   "nguội trước",
+   2
+  ],
+  [
+   "nhát búa,",
+   2
+  ],
+  [
+   "công sức",
+   2
+  ],
+  [
+   "cả mẻ",
+   2
+  ],
+  [
+   "lò đi",
+   2
+  ],
+  [
+   "hết. Nhìn",
+   2
+  ],
+  [
+   "kĩ. Thợ",
+   2
+  ],
+  [
+   "không đập",
+   2
+  ],
+  [
+   "mạnh ngay.",
+   2
+  ],
+  [
+   "Ông giữ",
+   2
+  ],
+  [
+   "thép đúng",
+   2
+  ],
+  [
+   "chỗ, rồi",
+   2
+  ],
+  [
+   "mới thả",
+   2
+  ],
+  [
+   "búa. Trễ",
+   2
+  ],
+  [
+   "một nhịp,",
+   2
+  ],
+  [
+   "thanh này",
+   2
+  ],
+  [
+   "chỉ còn",
+   2
+  ],
+  [
+   "là sắt",
+   2
+  ],
+  [
+   "vụn.",
+   1
+  ]
+ ],
+ "shots": [
+  {
+   "tok": 0,
+   "layout": "S",
+   "zoom": 1.0,
+   "push": 0.0,
+   "broll": {
+    "type": "video",
+    "src": "/workspace/video-jobs/TEST-CHU-DE-MOI/source.mp4",
+    "start": 0.0,
+    "push": 0.0,
+    "credit": "Wikimedia Commons File:Smithy- steel forging (2).webm — CC BY 3.0, Sounds of Changes / Museum of Municipal Engineering; video Piotr Leszczyński. https://commons.wikimedia.org/wiki/File:Smithy-_steel_forging_(2).webm"
+   }
+  }
+ ],
+ "bigwords": [],
+ "sfx": [
+  {
+   "name": "whoosh",
+   "t": 0.0,
+   "db": -6
+  }
+ ],
+ "music_dips": []
+}

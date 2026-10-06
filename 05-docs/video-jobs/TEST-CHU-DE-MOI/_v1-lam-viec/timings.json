@@ -1,0 +1,956 @@
+{
+  "sentences": [
+    {
+      "i": 0,
+      "text": "Thanh thép đang đỏ trên đe.",
+      "start": 0.0,
+      "end": 1.272,
+      "file": "/workspace/video-jobs/TEST-CHU-DE-MOI/lam-viec/tts_cache/11a566e3b3576a84.trim.wav"
+    },
+    {
+      "i": 1,
+      "text": "Kìm kẹp một đầu bên phải.",
+      "start": 1.3772,
+      "end": 2.5632,
+      "file": "/workspace/video-jobs/TEST-CHU-DE-MOI/lam-viec/tts_cache/b8e80f8a3b0ad8b6.trim.wav"
+    },
+    {
+      "i": 2,
+      "text": "Búa giáng xuống từ trên.",
+      "start": 2.6815,
+      "end": 3.8605,
+      "file": "/workspace/video-jobs/TEST-CHU-DE-MOI/lam-viec/tts_cache/c10140854038fde1.trim.wav"
+    },
+    {
+      "i": 3,
+      "text": "Tia lửa bắn khi búa chạm.",
+      "start": 3.9674,
+      "end": 5.2434,
+      "file": "/workspace/video-jobs/TEST-CHU-DE-MOI/lam-viec/tts_cache/3e6971c0fe84ae79.trim.wav"
+    },
+    {
+      "i": 4,
+      "text": "Thanh nằm ngang, sáng cả thân.",
+      "start": 5.3507,
+      "end": 6.7467,
+      "file": "/workspace/video-jobs/TEST-CHU-DE-MOI/lam-viec/tts_cache/471fd6f6f75cc056.trim.wav"
+    },
+    {
+      "i": 5,
+      "text": "Rồi thanh bị uốn cong.",
+      "start": 6.8547,
+      "end": 8.0417,
+      "file": "/workspace/video-jobs/TEST-CHU-DE-MOI/lam-viec/tts_cache/06b4640a8a82cd8f.trim.wav"
+    },
+    {
+      "i": 6,
+      "text": "Một đầu thò khỏi mép đe.",
+      "start": 8.1449,
+      "end": 9.3579,
+      "file": "/workspace/video-jobs/TEST-CHU-DE-MOI/lam-viec/tts_cache/0733cde36108d4bb.trim.wav"
+    },
+    {
+      "i": 7,
+      "text": "Đầu đó vẫn đỏ rực.",
+      "start": 9.4645,
+      "end": 10.4335,
+      "file": "/workspace/video-jobs/TEST-CHU-DE-MOI/lam-viec/tts_cache/2aeacccbeea1fa15.trim.wav"
+    },
+    {
+      "i": 8,
+      "text": "Búa vung tiếp, chỉ thấy vệt mờ.",
+      "start": 10.5399,
+      "end": 11.9599,
+      "file": "/workspace/video-jobs/TEST-CHU-DE-MOI/lam-viec/tts_cache/35941808d7b97331.trim.wav"
+    },
+    {
+      "i": 9,
+      "text": "Người thợ mặc áo sáng.",
+      "start": 12.067,
+      "end": 13.192,
+      "file": "/workspace/video-jobs/TEST-CHU-DE-MOI/lam-viec/tts_cache/f96b9f4dccd684bd.trim.wav"
+    },
+    {
+      "i": 10,
+      "text": "Chỉ thấy tay, búa và kìm.",
+      "start": 13.2978,
+      "end": 14.4578,
+      "file": "/workspace/video-jobs/TEST-CHU-DE-MOI/lam-viec/tts_cache/e15a65796ee8efbb.trim.wav"
+    },
+    {
+      "i": 11,
+      "text": "Không thấy mặt người trong khung.",
+      "start": 14.562,
+      "end": 15.997,
+      "file": "/workspace/video-jobs/TEST-CHU-DE-MOI/lam-viec/tts_cache/93ccb6e2f12b56a7.trim.wav"
+    },
+    {
+      "i": 12,
+      "text": "Mặt đe sần, có vết lõm.",
+      "start": 16.1052,
+      "end": 17.2482,
+      "file": "/workspace/video-jobs/TEST-CHU-DE-MOI/lam-viec/tts_cache/1f45f61be54d71f1.trim.wav"
+    },
+    {
+      "i": 13,
+      "text": "Nền phía sau thì tối.",
+      "start": 17.3506,
+      "end": 18.3766,
+      "file": "/workspace/video-jobs/TEST-CHU-DE-MOI/lam-viec/tts_cache/59ebe1b52f94223b.trim.wav"
+    },
+    {
+      "i": 14,
+      "text": "Cuối clip, đầu thanh tròn hơn.",
+      "start": 18.4803,
+      "end": 19.8583,
+      "file": "/workspace/video-jobs/TEST-CHU-DE-MOI/lam-viec/tts_cache/15954318da7f9cfb.trim.wav"
+    },
+    {
+      "i": 15,
+      "text": "Kìm không rời thanh.",
+      "start": 19.9614,
+      "end": 21.0174,
+      "file": "/workspace/video-jobs/TEST-CHU-DE-MOI/lam-viec/tts_cache/4b9cbd25c885044e.trim.wav"
+    },
+    {
+      "i": 16,
+      "text": "Đe chiếm gần hết hình.",
+      "start": 21.1326,
+      "end": 22.0736,
+      "file": "/workspace/video-jobs/TEST-CHU-DE-MOI/lam-viec/tts_cache/b4b108820a0b63ca.trim.wav"
+    },
+    {
+      "i": 17,
+      "text": "Thép sáng hơn mọi thứ quanh.",
+      "start": 22.1819,
+      "end": 23.4259,
+      "file": "/workspace/video-jobs/TEST-CHU-DE-MOI/lam-viec/tts_cache/c257cc78b58d4204.trim.wav"
+    },
+    {
+      "i": 18,
+      "text": "Nhịp búa lặp đi lặp lại.",
+      "start": 23.53,
+      "end": 24.678,
+      "file": "/workspace/video-jobs/TEST-CHU-DE-MOI/lam-viec/tts_cache/b30ef6d703bfc62b.trim.wav"
+    },
+    {
+      "i": 19,
+      "text": "Đây là cảnh rèn thép bằng tay.",
+      "start": 24.7868,
+      "end": 26.1578,
+      "file": "/workspace/video-jobs/TEST-CHU-DE-MOI/lam-viec/tts_cache/4b4be953b2150537.trim.wav"
+    }
+  ],
+  "words": [
+    {
+      "word": "Thanh",
+      "start": 0.0,
+      "end": 0.22,
+      "sent": 0,
+      "fw": true
+    },
+    {
+      "word": "thép",
+      "start": 0.22,
+      "end": 0.38,
+      "sent": 0,
+      "fw": true
+    },
+    {
+      "word": "đang",
+      "start": 0.38,
+      "end": 0.52,
+      "sent": 0,
+      "fw": true
+    },
+    {
+      "word": "đỏ",
+      "start": 0.52,
+      "end": 0.8,
+      "sent": 0,
+      "fw": true
+    },
+    {
+      "word": "trên",
+      "start": 0.8,
+      "end": 0.96,
+      "sent": 0,
+      "fw": true
+    },
+    {
+      "word": "đe.",
+      "start": 0.96,
+      "end": 1.14,
+      "sent": 0,
+      "fw": true
+    },
+    {
+      "word": "Kìm",
+      "start": 1.44,
+      "end": 1.52,
+      "sent": 1,
+      "fw": true
+    },
+    {
+      "word": "kẹp",
+      "start": 1.52,
+      "end": 1.8,
+      "sent": 1,
+      "fw": true
+    },
+    {
+      "word": "một",
+      "start": 1.8,
+      "end": 1.92,
+      "sent": 1,
+      "fw": true
+    },
+    {
+      "word": "đầu",
+      "start": 1.92,
+      "end": 2.02,
+      "sent": 1,
+      "fw": true
+    },
+    {
+      "word": "bên",
+      "start": 2.02,
+      "end": 2.18,
+      "sent": 1,
+      "fw": true
+    },
+    {
+      "word": "phải.",
+      "start": 2.18,
+      "end": 2.42,
+      "sent": 1,
+      "fw": true
+    },
+    {
+      "word": "Búa",
+      "start": 2.76,
+      "end": 2.9,
+      "sent": 2,
+      "fw": true
+    },
+    {
+      "word": "giáng",
+      "start": 2.9,
+      "end": 3.14,
+      "sent": 2,
+      "fw": true
+    },
+    {
+      "word": "xuống",
+      "start": 3.14,
+      "end": 3.4,
+      "sent": 2,
+      "fw": true
+    },
+    {
+      "word": "từ",
+      "start": 3.4,
+      "end": 3.52,
+      "sent": 2,
+      "fw": true
+    },
+    {
+      "word": "trên.",
+      "start": 3.52,
+      "end": 3.7,
+      "sent": 2,
+      "fw": true
+    },
+    {
+      "word": "Tia",
+      "start": 4.02,
+      "end": 4.1,
+      "sent": 3,
+      "fw": true
+    },
+    {
+      "word": "lửa",
+      "start": 4.1,
+      "end": 4.36,
+      "sent": 3,
+      "fw": true
+    },
+    {
+      "word": "bắn",
+      "start": 4.36,
+      "end": 4.52,
+      "sent": 3,
+      "fw": true
+    },
+    {
+      "word": "khi",
+      "start": 4.52,
+      "end": 4.74,
+      "sent": 3,
+      "fw": true
+    },
+    {
+      "word": "búa",
+      "start": 4.74,
+      "end": 4.96,
+      "sent": 3,
+      "fw": true
+    },
+    {
+      "word": "chạm.",
+      "start": 4.96,
+      "end": 5.24,
+      "sent": 3,
+      "fw": true
+    },
+    {
+      "word": "Thanh",
+      "start": 5.38,
+      "end": 5.58,
+      "sent": 4,
+      "fw": true
+    },
+    {
+      "word": "nằm",
+      "start": 5.58,
+      "end": 5.74,
+      "sent": 4,
+      "fw": true
+    },
+    {
+      "word": "ngang,",
+      "start": 5.74,
+      "end": 5.98,
+      "sent": 4,
+      "fw": true
+    },
+    {
+      "word": "sáng",
+      "start": 5.98,
+      "end": 6.26,
+      "sent": 4,
+      "fw": true
+    },
+    {
+      "word": "cả",
+      "start": 6.26,
+      "end": 6.42,
+      "sent": 4,
+      "fw": true
+    },
+    {
+      "word": "thân.",
+      "start": 6.42,
+      "end": 6.64,
+      "sent": 4,
+      "fw": true
+    },
+    {
+      "word": "Rồi",
+      "start": 6.92,
+      "end": 7.06,
+      "sent": 5,
+      "fw": true
+    },
+    {
+      "word": "thanh",
+      "start": 7.06,
+      "end": 7.38,
+      "sent": 5,
+      "fw": true
+    },
+    {
+      "word": "bị",
+      "start": 7.38,
+      "end": 7.5,
+      "sent": 5,
+      "fw": true
+    },
+    {
+      "word": "uốn",
+      "start": 7.5,
+      "end": 7.72,
+      "sent": 5,
+      "fw": true
+    },
+    {
+      "word": "cong.",
+      "start": 7.72,
+      "end": 8.042,
+      "sent": 5,
+      "fw": true
+    },
+    {
+      "word": "Một",
+      "start": 8.2,
+      "end": 8.32,
+      "sent": 6,
+      "fw": true
+    },
+    {
+      "word": "đầu",
+      "start": 8.32,
+      "end": 8.5,
+      "sent": 6,
+      "fw": true
+    },
+    {
+      "word": "thò",
+      "start": 8.5,
+      "end": 8.76,
+      "sent": 6,
+      "fw": true
+    },
+    {
+      "word": "khỏi",
+      "start": 8.76,
+      "end": 8.94,
+      "sent": 6,
+      "fw": true
+    },
+    {
+      "word": "mép",
+      "start": 8.94,
+      "end": 9.12,
+      "sent": 6,
+      "fw": true
+    },
+    {
+      "word": "đe.",
+      "start": 9.12,
+      "end": 9.28,
+      "sent": 6,
+      "fw": true
+    },
+    {
+      "word": "Đầu",
+      "start": 9.52,
+      "end": 9.62,
+      "sent": 7,
+      "fw": true
+    },
+    {
+      "word": "đó",
+      "start": 9.62,
+      "end": 9.84,
+      "sent": 7,
+      "fw": true
+    },
+    {
+      "word": "vẫn",
+      "start": 9.84,
+      "end": 10.0,
+      "sent": 7,
+      "fw": true
+    },
+    {
+      "word": "đỏ",
+      "start": 10.0,
+      "end": 10.2,
+      "sent": 7,
+      "fw": true
+    },
+    {
+      "word": "rực.",
+      "start": 10.2,
+      "end": 10.38,
+      "sent": 7,
+      "fw": true
+    },
+    {
+      "word": "Búa",
+      "start": 10.66,
+      "end": 10.72,
+      "sent": 8,
+      "fw": true
+    },
+    {
+      "word": "vung",
+      "start": 10.72,
+      "end": 10.86,
+      "sent": 8,
+      "fw": true
+    },
+    {
+      "word": "tiếp,",
+      "start": 10.86,
+      "end": 11.04,
+      "sent": 8,
+      "fw": true
+    },
+    {
+      "word": "chỉ",
+      "start": 11.04,
+      "end": 11.28,
+      "sent": 8,
+      "fw": true
+    },
+    {
+      "word": "thấy",
+      "start": 11.28,
+      "end": 11.46,
+      "sent": 8,
+      "fw": true
+    },
+    {
+      "word": "vệt",
+      "start": 11.46,
+      "end": 11.66,
+      "sent": 8,
+      "fw": true
+    },
+    {
+      "word": "mờ.",
+      "start": 11.66,
+      "end": 11.88,
+      "sent": 8,
+      "fw": true
+    },
+    {
+      "word": "Người",
+      "start": 12.14,
+      "end": 12.22,
+      "sent": 9,
+      "fw": true
+    },
+    {
+      "word": "thợ",
+      "start": 12.22,
+      "end": 12.46,
+      "sent": 9,
+      "fw": true
+    },
+    {
+      "word": "mặc",
+      "start": 12.46,
+      "end": 12.66,
+      "sent": 9,
+      "fw": true
+    },
+    {
+      "word": "áo",
+      "start": 12.66,
+      "end": 12.84,
+      "sent": 9,
+      "fw": true
+    },
+    {
+      "word": "sáng.",
+      "start": 12.84,
+      "end": 13.08,
+      "sent": 9,
+      "fw": true
+    },
+    {
+      "word": "Chỉ",
+      "start": 13.36,
+      "end": 13.46,
+      "sent": 10,
+      "fw": true
+    },
+    {
+      "word": "thấy",
+      "start": 13.46,
+      "end": 13.6,
+      "sent": 10,
+      "fw": true
+    },
+    {
+      "word": "tay,",
+      "start": 13.6,
+      "end": 13.74,
+      "sent": 10,
+      "fw": true
+    },
+    {
+      "word": "búa",
+      "start": 13.74,
+      "end": 14.02,
+      "sent": 10,
+      "fw": true
+    },
+    {
+      "word": "và",
+      "start": 14.02,
+      "end": 14.12,
+      "sent": 10,
+      "fw": true
+    },
+    {
+      "word": "kìm.",
+      "start": 14.12,
+      "end": 14.3,
+      "sent": 10,
+      "fw": true
+    },
+    {
+      "word": "Không",
+      "start": 14.64,
+      "end": 14.74,
+      "sent": 11,
+      "fw": true
+    },
+    {
+      "word": "thấy",
+      "start": 14.74,
+      "end": 14.94,
+      "sent": 11,
+      "fw": true
+    },
+    {
+      "word": "mặt",
+      "start": 14.94,
+      "end": 15.16,
+      "sent": 11,
+      "fw": true
+    },
+    {
+      "word": "người",
+      "start": 15.16,
+      "end": 15.34,
+      "sent": 11,
+      "fw": true
+    },
+    {
+      "word": "trong",
+      "start": 15.34,
+      "end": 15.58,
+      "sent": 11,
+      "fw": true
+    },
+    {
+      "word": "khung.",
+      "start": 15.58,
+      "end": 15.82,
+      "sent": 11,
+      "fw": true
+    },
+    {
+      "word": "Mặt",
+      "start": 16.16,
+      "end": 16.32,
+      "sent": 12,
+      "fw": true
+    },
+    {
+      "word": "đe",
+      "start": 16.32,
+      "end": 16.42,
+      "sent": 12,
+      "fw": true
+    },
+    {
+      "word": "sần,",
+      "start": 16.42,
+      "end": 16.64,
+      "sent": 12,
+      "fw": true
+    },
+    {
+      "word": "có",
+      "start": 16.64,
+      "end": 16.8,
+      "sent": 12,
+      "fw": true
+    },
+    {
+      "word": "vết",
+      "start": 16.8,
+      "end": 16.9,
+      "sent": 12,
+      "fw": true
+    },
+    {
+      "word": "lõm.",
+      "start": 16.9,
+      "end": 17.18,
+      "sent": 12,
+      "fw": true
+    },
+    {
+      "word": "Nền",
+      "start": 17.44,
+      "end": 17.6,
+      "sent": 13,
+      "fw": true
+    },
+    {
+      "word": "phía",
+      "start": 17.6,
+      "end": 17.76,
+      "sent": 13,
+      "fw": true
+    },
+    {
+      "word": "sau",
+      "start": 17.76,
+      "end": 17.92,
+      "sent": 13,
+      "fw": true
+    },
+    {
+      "word": "thì",
+      "start": 17.92,
+      "end": 18.04,
+      "sent": 13,
+      "fw": true
+    },
+    {
+      "word": "tối.",
+      "start": 18.04,
+      "end": 18.26,
+      "sent": 13,
+      "fw": true
+    },
+    {
+      "word": "Cuối",
+      "start": 18.52,
+      "end": 18.64,
+      "sent": 14,
+      "fw": true
+    },
+    {
+      "word": "clip,",
+      "start": 18.64,
+      "end": 18.86,
+      "sent": 14,
+      "fw": true
+    },
+    {
+      "word": "đầu",
+      "start": 18.86,
+      "end": 19.16,
+      "sent": 14,
+      "fw": true
+    },
+    {
+      "word": "thanh",
+      "start": 19.16,
+      "end": 19.42,
+      "sent": 14,
+      "fw": true
+    },
+    {
+      "word": "tròn",
+      "start": 19.42,
+      "end": 19.56,
+      "sent": 14,
+      "fw": true
+    },
+    {
+      "word": "hơn.",
+      "start": 19.56,
+      "end": 19.72,
+      "sent": 14,
+      "fw": true
+    },
+    {
+      "word": "Kìm",
+      "start": 20.0,
+      "end": 20.14,
+      "sent": 15,
+      "fw": true
+    },
+    {
+      "word": "không",
+      "start": 20.14,
+      "end": 20.4,
+      "sent": 15,
+      "fw": true
+    },
+    {
+      "word": "rời",
+      "start": 20.4,
+      "end": 20.66,
+      "sent": 15,
+      "fw": true
+    },
+    {
+      "word": "thanh.",
+      "start": 20.66,
+      "end": 21.017,
+      "sent": 15,
+      "fw": true
+    },
+    {
+      "word": "Đe",
+      "start": 21.18,
+      "end": 21.28,
+      "sent": 16,
+      "fw": true
+    },
+    {
+      "word": "chiếm",
+      "start": 21.28,
+      "end": 21.48,
+      "sent": 16,
+      "fw": true
+    },
+    {
+      "word": "gần",
+      "start": 21.48,
+      "end": 21.68,
+      "sent": 16,
+      "fw": true
+    },
+    {
+      "word": "hết",
+      "start": 21.68,
+      "end": 21.78,
+      "sent": 16,
+      "fw": true
+    },
+    {
+      "word": "hình.",
+      "start": 21.78,
+      "end": 21.94,
+      "sent": 16,
+      "fw": true
+    },
+    {
+      "word": "Thép",
+      "start": 22.22,
+      "end": 22.36,
+      "sent": 17,
+      "fw": true
+    },
+    {
+      "word": "sáng",
+      "start": 22.36,
+      "end": 22.6,
+      "sent": 17,
+      "fw": true
+    },
+    {
+      "word": "hơn",
+      "start": 22.6,
+      "end": 22.78,
+      "sent": 17,
+      "fw": true
+    },
+    {
+      "word": "mọi",
+      "start": 22.78,
+      "end": 23.0,
+      "sent": 17,
+      "fw": true
+    },
+    {
+      "word": "thứ",
+      "start": 23.0,
+      "end": 23.12,
+      "sent": 17,
+      "fw": true
+    },
+    {
+      "word": "quanh.",
+      "start": 23.12,
+      "end": 23.42,
+      "sent": 17,
+      "fw": true
+    },
+    {
+      "word": "Nhịp",
+      "start": 23.6,
+      "end": 23.78,
+      "sent": 18,
+      "fw": true
+    },
+    {
+      "word": "búa",
+      "start": 23.78,
+      "end": 23.94,
+      "sent": 18,
+      "fw": true
+    },
+    {
+      "word": "lặp",
+      "start": 23.94,
+      "end": 24.1,
+      "sent": 18,
+      "fw": true
+    },
+    {
+      "word": "đi",
+      "start": 24.1,
+      "end": 24.26,
+      "sent": 18,
+      "fw": true
+    },
+    {
+      "word": "lặp",
+      "start": 24.26,
+      "end": 24.44,
+      "sent": 18,
+      "fw": true
+    },
+    {
+      "word": "lại.",
+      "start": 24.44,
+      "end": 24.6,
+      "sent": 18,
+      "fw": true
+    },
+    {
+      "word": "Đây",
+      "start": 24.787,
+      "end": 24.9,
+      "sent": 19,
+      "fw": true
+    },
+    {
+      "word": "là",
+      "start": 24.9,
+      "end": 25.04,
+      "sent": 19,
+      "fw": true
+    },
+    {
+      "word": "cảnh",
+      "start": 25.04,
+      "end": 25.28,
+      "sent": 19,
+      "fw": true
+    },
+    {
+      "word": "rèn",
+      "start": 25.28,
+      "end": 25.48,
+      "sent": 19,
+      "fw": true
+    },
+    {
+      "word": "thép",
+      "start": 25.48,
+      "end": 25.64,
+      "sent": 19,
+      "fw": true
+    },
+    {
+      "word": "bằng",
+      "start": 25.64,
+      "end": 25.8,
+      "sent": 19,
+      "fw": true
+    },
+    {
+      "word": "tay.",
+      "start": 25.8,
+      "end": 25.96,
+      "sent": 19,
+      "fw": true
+    }
+  ],
+  "shots": [
+    {
+      "start": 0.0,
+      "end": 26.433,
+      "dur": 26.433,
+      "visual": {
+        "type": "video",
+        "kind": "",
+        "credit": "Wikimedia Commons File:Smithy- steel forging (2).webm — CC BY 3.0, Sounds of Changes / Museum of Municipal Engineering; video Piotr Leszczyński. https://commons.wikimedia.org/wiki/File:Smithy-_steel_forging_(2).webm"
+      }
+    }
+  ]
+}

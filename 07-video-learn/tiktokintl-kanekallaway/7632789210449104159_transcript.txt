@@ -1,0 +1,44 @@
+[  0.00-  2.58] OpenAI just dropped GPT 5.5.
+[  2.70-  3.66] This is a brand new model.
+[  3.82-  6.06] You're the three most practical ways you can use this
+[  6.06-  7.70] to actually make your life easier.
+[  7.84-  9.74] Number one is complex work tasks.
+[  9.92- 11.98] GPT 5.5 is different in that it can keep working
+[ 11.98- 15.26] on things automatically until the answer is actually useful.
+[ 15.48- 17.12] So if you're a banker and you build financial models,
+[ 17.20- 19.00] you can drop in a PDF or a deck,
+[ 19.14- 20.58] give a few instructions and boom,
+[ 20.72- 23.80] the model's done, editable via Excel in chat GPT.
+[ 24.00- 25.20] If you're in consulting or build slides,
+[ 25.34- 27.48] you can drop in a doc or a series of screenshots
+[ 27.48- 32.06] It'll build a perfect on-brand editable in the sidebar of your in sales
+[ 32.06- 37.40] You just can slack notion and Gmail and it will automatically update your CRM for you
+[ 37.40- 43.40] These are real examples of real multi-step work. It can actually use this today is to start building your own tool
+[ 43.40- 49.74] Sure of making software is literally just talking not only is GPT 5.5 one of the most impressive coding models in the world
+[ 49.74- 52.96] But now it can find me in the ender the visual
+[ 52.96- 56.06] directly in the sidebar from games to apps to websites,
+[ 56.30- 56.78] whatever you're building,
+[ 56.88- 58.68] you can see exactly how it's gonna look.
+[ 58.74- 60.00] And this means whatever you wanna build,
+[ 60.16- 62.10] you just describe in words, look at the visual
+[ 62.10- 63.90] and then keep describing over and over.
+[ 64.10- 65.28] Now this vibe coding style of building
+[ 65.28- 66.50] obviously existed before,
+[ 66.62- 68.78] but it wasn't until now where a non-technical person
+[ 68.78- 70.90] could visually interact with what they're building
+[ 70.90- 72.52] this fast and this easily.
+[ 72.72- 74.22] Any frustration or block in your life
+[ 74.22- 76.14] can now just be solved by you building
+[ 76.14- 77.76] your own tools through talking.
+[ 77.98- 78.96] Now the third way to use this
+[ 78.96- 80.10] is probably the most impressive
+[ 80.10- 81.90] and that is full computer use.
+[ 81.90- 86.40] For any tool where GPT 5.5 doesn't have a plugin or skill, it can just take over your
+[ 86.40- 88.06] screen and do work for you.
+[ 88.12- 90.54] I like to think of computer use as the last mile of automation.
+[ 90.78- 93.20] It can finish all the tasks where you don't have clean connections.
+[ 93.54- 97.86] Now a lot of people are saying this model is the beginning of a new class of AI intelligence.
+[ 98.14-102.16] And it's super clear we're shifting from question and answers to full-on actions
+[102.16-103.58] being taken on your behalf.
+[103.86-106.46] If you want to stay ahead in life and work, you're going to want to start with this.
+[106.46-111.30] You can access this new GPT 5.5 model directly in chat GPT or codecs today.

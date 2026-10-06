@@ -1,0 +1,119 @@
+1
+00:00:00,000 --> 00:00:01,600
+AI chơi WoW mà không nhìn màn hình.
+
+2
+00:00:01,720 --> 00:00:02,362
+Bốn mươi phút.
+
+3
+00:00:02,482 --> 00:00:03,462
+Không chết lần nào.
+
+4
+00:00:03,582 --> 00:00:04,723
+Không nhận một khung hình nào.
+
+5
+00:00:04,843 --> 00:00:06,368
+Chỉ đọc gói tin mạng và file SQL.
+
+6
+00:00:06,488 --> 00:00:08,386
+Một developer giao Codex đúng một câu lệnh.
+
+7
+00:00:08,506 --> 00:00:09,145
+Tạo orc.
+
+8
+00:00:09,265 --> 00:00:10,625
+Làm hết nhiệm vụ khu khởi đầu.
+
+9
+00:00:10,745 --> 00:00:12,915
+Codex chạy GPT sáu Astra mức suy luận cực cao.
+
+10
+00:00:13,035 --> 00:00:14,526
+Đây không phải công bố của OpenAI.
+
+11
+00:00:14,646 --> 00:00:16,775
+Agent-wow không có sẵn di chuyển hay đánh nhau.
+
+12
+00:00:16,895 --> 00:00:18,547
+Nó phải tự viết toàn bộ module từ đầu.
+
+13
+00:00:18,667 --> 00:00:20,291
+Bắt hai mươi tám loại tin nhắn server.
+
+14
+00:00:20,411 --> 00:00:22,160
+Viết script Python dựng bản đồ thế giới.
+
+15
+00:00:22,280 --> 00:00:24,108
+Tự viết công cụ tìm đường bằng C cộng cộng.
+
+16
+00:00:24,228 --> 00:00:26,322
+Dùng navmesh AzerothCore và thư viện Detour.
+
+17
+00:00:26,442 --> 00:00:27,973
+Developer khen đường đi là tối ưu.
+
+18
+00:00:28,093 --> 00:00:29,966
+Nó lên kế hoạch: nhiệm vụ theo đúng thứ tự.
+
+19
+00:00:30,086 --> 00:00:30,804
+Bán đồ rác.
+
+20
+00:00:30,924 --> 00:00:31,808
+Mặc đồ xịn hơn.
+
+21
+00:00:31,928 --> 00:00:33,491
+Học kỹ năng trước khi vào hang cuối.
+
+22
+00:00:33,611 --> 00:00:35,253
+Nhận cả hai nhiệm vụ hang làm một lần.
+
+23
+00:00:35,373 --> 00:00:37,459
+Từ Valley of Trials tới tận Sen'jin Village.
+
+24
+00:00:37,579 --> 00:00:39,745
+Nhưng đây là thí nghiệm của một developer độc lập.
+
+25
+00:00:39,865 --> 00:00:40,980
+Chưa ai kiểm chứng độc lập.
+
+26
+00:00:41,100 --> 00:00:43,482
+Chạy server riêng AzerothCore, không phải Blizzard.
+
+27
+00:00:43,602 --> 00:00:45,449
+Agent còn lách qua tường ở chỗ lỗi bản đồ.
+
+28
+00:00:45,569 --> 00:00:48,773
+Trước đó developer tự viết mười sáu nghìn dòng code, lỗi quá nên bỏ.
+
+29
+00:00:48,893 --> 00:00:51,207
+Mục tiêu: lấp server bằng AI để đánh raid heroic.
+
+30
+00:00:51,327 --> 00:00:53,534
+Nếu AI chơi game mà không cần nhìn, bạn nghĩ sao?

@@ -1,0 +1,8 @@
+# Clip chính thức (yt-dlp --js-runtimes node --remote-components ejs:github). URL | name= | credit= [| sections=*a-b]
+https://www.youtube.com/watch?v=bPjB9NRu8Jc | name=nobel_ann | credit=Nobel Prize — Announcement of the 2024 Nobel Prize in Chemistry (YouTube bPjB9NRu8Jc)
+https://www.youtube.com/watch?v=nKnmhJSx1Xs | name=ap_hall | credit=Associated Press (YouTube nKnmhJSx1Xs)
+https://www.youtube.com/watch?v=2mzMKN8HbnY | name=ap_dm | credit=AP Archive (YouTube 2mzMKN8HbnY)
+https://www.youtube.com/watch?v=r4-hXO7MLVU | name=dm_50yr | credit=Google DeepMind — AlphaFold: The 50-year grand challenge cracked by AI (YouTube r4-hXO7MLVU)
+https://www.youtube.com/watch?v=KpedmJdrTpY | name=dm_explained | credit=Google DeepMind — Protein folding explained (YouTube KpedmJdrTpY)
+https://www.youtube.com/watch?v=9ufplEgtq8w | name=af_server | credit=Google DeepMind — AlphaFold Server Demo (YouTube 9ufplEgtq8w)
+https://www.youtube.com/watch?v=gg7WjuFs8F4 | name=dm_making | credit=Google DeepMind — The Making of AlphaFold (YouTube gg7WjuFs8F4)

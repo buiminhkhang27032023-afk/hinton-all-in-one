@@ -1,0 +1,23 @@
+{
+  "pools": {
+    "stock": {},
+    "demo": {},
+    "screenshots": [
+      "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/nobel_pr.png",
+      "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/nobel_summary.png",
+      "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/nobel_pop.png",
+      "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/kva.png",
+      "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/dm_nobel.png",
+      "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/af3_blog.png",
+      "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/af2_blog.png",
+      "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/af_200m.png",
+      "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/bbc.png",
+      "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/apnews.png",
+      "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/x_nobel.png",
+      "/workspace/video-jobs/EDIT-FULL-01/lam-viec/webshots/x_deepmind.png"
+    ]
+  },
+  "notes": [
+    "stock footage disabled in config"
+  ]
+}

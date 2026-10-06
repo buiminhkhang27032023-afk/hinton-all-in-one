@@ -1,0 +1,34 @@
+{
+  "pools": {
+    "stock": {},
+    "demo": {},
+    "screenshots": [
+      "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/dots.png",
+      "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/sol.png",
+      "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/recap.png",
+      "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/techcrunch.png",
+      "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/x_dots.png",
+      "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/x_ready.png",
+      "/workspace/video-jobs/EDIT-FULL-02/lam-viec/webshots/x_sama.png"
+    ]
+  },
+  "notes": [
+    "script length 248 syllables (target 250-270)",
+    "stock footage disabled in config",
+    "broll v01: ok",
+    "broll v13: ok",
+    "broll v06: ok",
+    "broll v08: ok",
+    "broll v12: ok",
+    "broll v16: ok",
+    "broll v19: ok",
+    "broll v20: ok",
+    "broll v22: ok",
+    "broll v23: ok",
+    "broll v26: ok",
+    "broll v32: ok",
+    "broll v37: ok",
+    "broll v40: ok",
+    "broll v47: ok"
+  ]
+}

@@ -1,0 +1,21 @@
+[  0.00-  3.58] You want to build a SARS business, but you' you've got no idea what to build.
+[  3.74-  4.92] Let me show you the whole process.
+[  5.04-  7.02] Step one, don't invent an idea.
+[  7.02-  8.22] Go to this free website.
+[  8.68- 10.20] Look at the MRR leaderboard.
+[ 10.46- 11.76] Find one that's already successful.
+[ 12.36- 14.16] Okay, AI Resume Builder.
+[ 14.32- 15.04] That's a proven idea.
+[ 15.36- 16.86] Step two, let's build it.
+[ 16.88- 17.34] No code.
+[ 17.56- 18.68] Go to runnable.com.
+[ 18.96- 20.60] I paste that idea straight into here,
+[ 20.72- 22.02] and it builds a a working app.
+[ 22.20- 23.76] Real interface, real features.
+[ 30.32- 33.92] your resume and tailor it to any job description instantly.
+[ 34.42- 38.58] All of this from one prompt. the also into the mobile app with the same
+[ 38.58- 41.30] context to take a developer and a few months.
+[ 41.58- 42.52] Now it's an afternoon.
+[ 42.80- 48.12] Step 3, make it a business so it can take payments, flip it into a subscription model
+[ 48.12- 59.98] like this, your SaaS is ready to sell, that's the whole loop.
+[ 59.98- 62.52] the idea sources, the runnable prompt, all of it.

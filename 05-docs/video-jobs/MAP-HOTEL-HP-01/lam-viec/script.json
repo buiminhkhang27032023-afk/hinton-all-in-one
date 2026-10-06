@@ -1,0 +1,338 @@
+{
+ "version": "v1",
+ "scenes": [
+  {
+   "id": "hook",
+   "sentences": [
+    [
+     [
+      "Đi Hải Phòng",
+      "Đi Hải Phòng"
+     ],
+     [
+      "ngủ đâu cho sướng?",
+      "ngủ đâu cho sướng?"
+     ]
+    ],
+    [
+     [
+      "Top 5 khách sạn 5 sao",
+      "Tốp năm khách sạn năm sao"
+     ],
+     [
+      "nội thành",
+      "nội thành"
+     ],
+     [
+      "điểm Google Maps cao nhất!",
+      "điểm Gu gồ Mép cao nhất!"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "rule",
+   "sentences": [
+    [
+     [
+      "Xếp theo điểm Google,",
+      "Xếp theo điểm Gu gồ,"
+     ],
+     [
+      "bằng điểm thì ai",
+      "bằng điểm thì ai"
+     ],
+     [
+      "nhiều lượt đánh giá hơn",
+      "nhiều lượt đánh giá hơn"
+     ],
+     [
+      "đứng trên.",
+      "đứng trên."
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "pearl",
+   "rank": 5,
+   "sentences": [
+    [
+     [
+      "Hạng năm,",
+      "Hạng năm,"
+     ],
+     [
+      "Pearl River Hotel",
+      "Pơn Ri vơ Hô ten"
+     ],
+     [
+      "trên đường Phạm Văn Đồng.",
+      "trên đường Phạm Văn Đồng."
+     ]
+    ],
+    [
+     [
+      "4,6 sao,",
+      "Bốn phẩy sáu sao,"
+     ],
+     [
+      "khoảng 2.100",
+      "khoảng hai nghìn mốt"
+     ],
+     [
+      "lượt đánh giá.",
+      "lượt đánh giá."
+     ]
+    ],
+    [
+     [
+      "Khách khen chuẩn 5 sao,",
+      "Khách khen chuẩn năm sao,"
+     ],
+     [
+      "bữa sáng ngon,",
+      "bữa sáng ngon,"
+     ],
+     [
+      "chỉ 20 phút lái xe",
+      "chỉ hai mươi phút lái xe"
+     ],
+     [
+      "ra biển Đồ Sơn.",
+      "ra biển Đồ Sơn."
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "sheraton",
+   "rank": 4,
+   "sentences": [
+    [
+     [
+      "Hạng bốn,",
+      "Hạng bốn,"
+     ],
+     [
+      "Sheraton Hải Phòng",
+      "Sê ra tơn Hải Phòng"
+     ],
+     [
+      "ở Vinhomes Imperia.",
+      "ở Vin hôm Im pê ri a."
+     ]
+    ],
+    [
+     [
+      "4,7 sao,",
+      "Bốn phẩy bảy sao,"
+     ],
+     [
+      "khoảng 1.600",
+      "khoảng một nghìn sáu trăm"
+     ],
+     [
+      "lượt đánh giá.",
+      "lượt đánh giá."
+     ]
+    ],
+    [
+     [
+      "Có khách gọi đây là",
+      "Có khách gọi đây là"
+     ],
+     [
+      "view đẹp nhất Hải Phòng.",
+      "viu đẹp nhất Hải Phòng."
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "mercure",
+   "rank": 3,
+   "sentences": [
+    [
+     [
+      "Hạng ba,",
+      "Hạng ba,"
+     ],
+     [
+      "Mercure Hải Phòng",
+      "Mơ kiu Hải Phòng"
+     ],
+     [
+      "ngay phố Lạch Tray.",
+      "ngay phố Lạch Tray."
+     ]
+    ],
+    [
+     [
+      "Cũng 4,7 sao,",
+      "Cũng bốn phẩy bảy sao,"
+     ],
+     [
+      "nhưng hơn 2.200",
+      "nhưng hơn hai nghìn hai trăm"
+     ],
+     [
+      "lượt đánh giá,",
+      "lượt đánh giá,"
+     ],
+     [
+      "nhiều nhất top này.",
+      "nhiều nhất tốp này."
+     ]
+    ],
+    [
+     [
+      "Khách kể từ rooftop",
+      "Khách kể từ rúp tóp"
+     ],
+     [
+      "còn xem được",
+      "còn xem được"
+     ],
+     [
+      "bóng đá miễn phí.",
+      "bóng đá miễn phí."
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "pullman",
+   "rank": 2,
+   "sentences": [
+    [
+     [
+      "Hạng hai,",
+      "Hạng hai,"
+     ],
+     [
+      "Pullman Hải Phòng,",
+      "Pun man Hải Phòng,"
+     ],
+     [
+      "phố Trần Phú,",
+      "phố Trần Phú,"
+     ],
+     [
+      "giữa trung tâm.",
+      "giữa trung tâm."
+     ]
+    ],
+    [
+     [
+      "4,8 sao,",
+      "Bốn phẩy tám sao,"
+     ],
+     [
+      "khoảng 1.500",
+      "khoảng một nghìn năm trăm"
+     ],
+     [
+      "lượt đánh giá.",
+      "lượt đánh giá."
+     ]
+    ],
+    [
+     [
+      "Một khách khen",
+      "Một khách khen"
+     ],
+     [
+      "bể bơi dài 45 mét.",
+      "bể bơi dài bốn mươi lăm mét."
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "melia",
+   "rank": 1,
+   "sentences": [
+    [
+     [
+      "Và số một,",
+      "Và số một,"
+     ],
+     [
+      "Meliá Vinpearl",
+      "Mê li a Vin pơn"
+     ],
+     [
+      "Hải Phòng Rivera.",
+      "Hải Phòng Ri ve ra."
+     ]
+    ],
+    [
+     [
+      "Cũng 4,8 sao,",
+      "Cũng bốn phẩy tám sao,"
+     ],
+     [
+      "nhưng hơn 2.100",
+      "nhưng hơn hai nghìn một trăm"
+     ],
+     [
+      "lượt đánh giá.",
+      "lượt đánh giá."
+     ]
+    ],
+    [
+     [
+      "Khách review",
+      "Khách ri viu"
+     ],
+     [
+      "buffet sáng dài như bất tận,",
+      "búp phê sáng dài như bất tận,"
+     ],
+     [
+      "hai bể bơi là điểm nhấn",
+      "hai bể bơi là điểm nhấn"
+     ],
+     [
+      "với bọn trẻ.",
+      "với bọn trẻ."
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "sentences": [
+    [
+     [
+      "Bạn chọn khách sạn nào?",
+      "Bạn chọn khách sạn nào?"
+     ]
+    ],
+    [
+     [
+      "Lưu video",
+      "Lưu vi đê ô"
+     ],
+     [
+      "cho chuyến Hải Phòng tới,",
+      "cho chuyến Hải Phòng tới,"
+     ],
+     [
+      "và theo dõi Hinton Media nhé!",
+      "và theo dõi Hin tơn Mê đi a nhé!"
+     ]
+    ]
+   ]
+  }
+ ],
+ "qa": {
+  "round": 1,
+  "by": "bố (executor)",
+  "changes": [
+   "'số sao Google' → 'điểm Google' (tránh nhầm với hạng sao khách sạn)"
+  ],
+  "syllables": 258
+ }
+}

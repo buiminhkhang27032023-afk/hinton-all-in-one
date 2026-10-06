@@ -1,0 +1,935 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="UTF-8"/>
+<meta name="viewport" content="width=1080, height=1920"/>
+<title>HM-101 v3</title>
+<script src="assets/gsap.min.js"></script>
+<style>@font-face{font-family:"MS";src:url("assets/Montserrat.ttf");font-weight:100 900;}
+html,body{margin:0;padding:0;background:#000;}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:"MS",sans-serif;color:#fff;background:#000;}
+.shot{position:absolute;left:0;top:0;width:1080px;height:1920px;overflow:hidden;background:#05070d;will-change:transform;}
+.cam{position:absolute;left:0;top:0;width:100%;height:100%;will-change:transform;}
+.plate{position:absolute;left:0;top:0;width:1080px;height:1920px;display:block;}
+.full{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+.vign{position:absolute;inset:0;background:radial-gradient(120% 90% at 50% 40%,rgba(0,0,0,0) 55%,rgba(0,0,0,.45) 100%),linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(0,0,0,.45) 100%);}
+/* marks */
+.mk-hl{position:absolute;background:rgba(255,212,0,.55);mix-blend-mode:multiply;border-radius:6px;transform-origin:0 50%;transform:scaleX(0);}
+.mk-ul{position:absolute;height:10px;background:#FF1E2D;border-radius:6px;transform-origin:0 50%;transform:scaleX(0) rotate(-0.8deg);box-shadow:0 2px 8px rgba(0,0,0,.35);}
+.mk-box{position:absolute;overflow:visible;transform:rotate(-1deg);}
+.mk-box path,.sbox path,.bbox path,.fbox path{fill:none;stroke:#FF1E2D;stroke-width:9;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;}
+/* pill */
+.pill{position:absolute;left:34px;top:1470px;z-index:50;background:rgba(0,0,0,.86);color:#fff;font-weight:700;font-size:28px;line-height:1;padding:12px 22px;border-radius:999px;border:1.5px solid rgba(255,255,255,.18);letter-spacing:.2px;}
+/* tag headline on b-roll */
+.tagwrap{position:absolute;left:0;right:0;top:1095px;display:flex;justify-content:center;z-index:40;}
+.tag{position:relative;background:#0a0a0a;color:#FFD400;font-weight:900;font-size:62px;line-height:1.05;padding:18px 30px 20px;border-left:14px solid #FF1E2D;box-shadow:0 18px 40px rgba(0,0,0,.55);transform:rotate(-1.5deg);max-width:960px;text-align:center;}
+.tag span{position:relative;z-index:2;}
+.tag-ul{position:absolute;left:30px;right:30px;bottom:6px;height:10px;background:#FF1E2D;border-radius:5px;transform-origin:0 50%;z-index:3;}
+.tag-hl{position:absolute;left:16px;right:16px;top:14px;bottom:14px;background:rgba(255,212,0,.95);transform-origin:0 50%;z-index:1;}
+.tag:has(.tag-hl) span{color:#0a0a0a;}
+/* badge */
+.badge{position:absolute;left:60px;top:1010px;z-index:40;display:flex;align-items:center;gap:22px;}
+.bnum{position:relative;font-weight:900;font-size:170px;line-height:1;color:#FFD400;text-shadow:8px 8px 0 #B5000F,0 0 40px rgba(0,0,0,.6);padding:10px 30px;background:rgba(5,10,30,.88);border-radius:18px;}
+.bbox{position:absolute;left:-14px;top:-12px;height:210px;overflow:visible;}
+.blabel{font-weight:900;font-size:58px;line-height:1.05;background:#FF1E2D;color:#fff;padding:14px 22px;transform:skewX(-8deg);max-width:520px;}
+/* stamp */
+.stamp{position:absolute;left:150px;top:1040px;z-index:45;border:10px solid #FF1E2D;color:#FF1E2D;background:rgba(255,255,255,.92);font-weight:900;font-size:78px;padding:10px 30px;border-radius:14px;transform:rotate(-8deg);letter-spacing:2px;}
+/* split */
+.darkbg{position:absolute;inset:0;background:radial-gradient(120% 80% at 50% 35%,#0d1d45 0%,#03060f 70%);}
+.pan{position:absolute;overflow:hidden;}
+.divh{position:absolute;left:0;right:0;top:956px;height:8px;background:#FFD400;z-index:30;box-shadow:0 0 20px rgba(0,0,0,.6);}
+.divv{position:absolute;top:190px;height:900px;left:536px;width:8px;background:#FFD400;z-index:30;}
+.pbg{position:absolute;inset:0;background:radial-gradient(110% 80% at 50% 30%,#13265a 0%,#050a18 75%);}
+.ptags{position:absolute;left:0;right:0;top:22px;display:flex;flex-direction:column;align-items:center;gap:20px;}
+.ptag{font-weight:900;font-size:74px;padding:16px 40px;border-radius:20px;transform:rotate(-1.5deg);}
+.ptag.human{background:#fff;color:#0a1a44;border-left:16px solid #2F6BFF;}
+.ptag.ai{background:#FFD400;color:#0a0a0a;border-left:16px solid #FF1E2D;}
+/* stat template (Hinton: yellow+red on deep blue/black) */
+.statbg{position:absolute;inset:0;background:radial-gradient(90% 60% at 50% 38%,#0f2f7a 0%,#071537 45%,#000 100%);}
+.stripes{position:absolute;inset:-200px;background:repeating-linear-gradient(-55deg,rgba(255,212,0,.07) 0 26px,rgba(0,0,0,0) 26px 96px);}
+.redslab{position:absolute;left:-120px;top:150px;width:700px;height:46px;background:#FF1E2D;transform:rotate(-8deg);box-shadow:0 10px 30px rgba(0,0,0,.4);}
+.skick{position:absolute;left:0;right:0;top:420px;text-align:center;font-weight:900;font-size:52px;letter-spacing:3px;color:#fff;}
+.snumw{position:absolute;left:0;right:0;top:520px;height:380px;display:flex;justify-content:center;align-items:center;}
+.snum{display:inline-block;font-weight:900;font-size:330px;line-height:1;color:#FFD400;text-shadow:12px 12px 0 #C4000F,0 0 60px rgba(255,212,0,.35);letter-spacing:-6px;}
+.sbox{position:absolute;left:50%;top:50%;height:360px;transform:translate(-50%,-50%) rotate(-1.5deg);overflow:visible;}
+.slab{position:absolute;left:0;right:0;top:950px;display:flex;justify-content:center;}
+.slab span{display:inline-block;background:#FF1E2D;color:#fff;font-weight:900;font-size:76px;padding:16px 40px;transform:skewX(-8deg);box-shadow:0 18px 40px rgba(0,0,0,.5);}
+.sbrand{position:absolute;left:0;right:0;top:1500px;text-align:center;font-weight:800;font-size:26px;letter-spacing:6px;color:rgba(255,255,255,.45);}
+.medal{position:absolute;left:50%;top:190px;margin-left:-95px;width:190px;height:190px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff3a0 0%,#FFD400 35%,#c99700 100%);border:8px solid #FF1E2D;display:flex;align-items:center;justify-content:center;box-shadow:0 0 50px rgba(255,212,0,.5);}
+.medal span{font-weight:900;font-size:44px;color:#5a3d00;letter-spacing:2px;}
+/* claim hook */
+.claimbg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.55;mix-blend-mode:screen;}
+.claim{position:absolute;left:0;right:0;top:300px;display:flex;flex-direction:column;align-items:center;}
+.cl1{font-weight:900;font-size:150px;line-height:1;color:#fff;text-shadow:0 10px 30px rgba(0,0,0,.6);}
+.cl2w{position:relative;height:380px;width:400px;display:flex;align-items:center;justify-content:center;margin-top:10px;}
+.cl2{font-weight:900;font-size:340px;line-height:1;color:#FFD400;text-shadow:12px 12px 0 #C4000F;}
+.cl3 span{display:inline-block;background:#FF1E2D;color:#fff;font-weight:900;font-size:110px;padding:14px 36px;transform:skewX(-8deg);margin-top:20px;}
+.cl4{margin-top:36px;font-weight:900;font-size:56px;letter-spacing:4px;color:#FFD400;background:#000;padding:10px 26px;}
+/* no answer key */
+.nk{position:absolute;left:0;right:0;top:420px;display:flex;flex-direction:column;align-items:center;}
+.nk1{font-weight:900;font-size:120px;color:#fff;}
+.nk2w{position:relative;margin-top:20px;}
+.nk2{display:inline-block;font-weight:900;font-size:120px;color:#FFD400;background:rgba(0,0,0,.6);padding:10px 30px;}
+.nkx{position:absolute;left:-20px;right:-20px;top:50%;height:22px;margin-top:-11px;background:#FF1E2D;transform:rotate(-6deg) scaleX(0);transform-origin:0 50%;border-radius:11px;box-shadow:0 4px 18px rgba(0,0,0,.5);}
+.nk3{margin-top:70px;font-weight:900;font-size:56px;color:#fff;background:#FF1E2D;padding:12px 28px;transform:skewX(-8deg);}
+/* chat mock */
+.chatbg{position:absolute;inset:0;background:radial-gradient(100% 70% at 50% 30%,#13306e 0%,#040914 75%);}
+.phone{position:absolute;left:150px;width:780px;top:150px;height:1080px;border-radius:80px;background:#0f1115;border:16px solid #2b2f36;box-shadow:0 40px 90px rgba(0,0,0,.6);overflow:hidden;}
+.notch{position:absolute;top:20px;left:50%;width:190px;height:40px;margin-left:-95px;border-radius:20px;background:#000;}
+.chathd{position:absolute;top:84px;left:0;right:0;text-align:center;font-weight:900;font-size:40px;color:#8fb3ff;letter-spacing:1px;}
+.chat{position:absolute;left:36px;right:36px;top:190px;display:flex;flex-direction:column;gap:36px;}
+.bubble{font-weight:800;font-size:50px;line-height:1.25;padding:28px 34px;border-radius:36px;max-width:92%;}
+.bubble.q{align-self:flex-end;background:#2F6BFF;color:#fff;border-bottom-right-radius:10px;}
+.bubble.a{align-self:flex-start;background:#262a33;color:#fff;border-bottom-left-radius:10px;border-left:10px solid #FFD400;}
+.ty{display:inline-block;}
+/* flow */
+.flow{position:absolute;left:0;right:0;top:260px;display:flex;flex-direction:column;align-items:center;gap:22px;}
+.fnode{position:relative;width:920px;box-sizing:border-box;padding:40px 30px;border-radius:26px;background:rgba(255,255,255,.1);border:3px solid rgba(255,255,255,.25);font-weight:900;font-size:76px;text-align:center;}
+.fnode.acc{background:#FFD400;color:#0a0a0a;border-color:#FFD400;}
+.fbox{position:absolute;left:-14px;top:-14px;width:948px;height:auto;overflow:visible;}
+.farr{font-size:64px;color:#FF1E2D;font-weight:900;line-height:1;}
+/* equation */
+.eq{position:absolute;left:0;right:0;top:230px;display:flex;flex-direction:column;align-items:center;gap:14px;}
+.eqa{font-weight:900;font-size:92px;color:#fff;line-height:1.05;}
+.eqa.y{color:#FFD400;}
+.eqp{font-weight:900;font-size:120px;color:#FF1E2D;line-height:1;}
+.eqr span{display:inline-block;background:#FF1E2D;color:#fff;font-weight:900;font-size:76px;padding:18px 34px;transform:skewX(-8deg);text-align:center;max-width:900px;}
+/* outro question */
+.qwrap{position:absolute;left:0;right:0;top:170px;display:flex;justify-content:center;z-index:40;}
+.qcard{width:940px;box-sizing:border-box;background:#fff;color:#0a0a0a;border-radius:28px;padding:30px 38px 36px;box-shadow:0 30px 70px rgba(0,0,0,.55);border-top:16px solid #FF1E2D;transform:rotate(-1.5deg);}
+.qk{font-weight:900;font-size:34px;letter-spacing:4px;color:#FF1E2D;margin-bottom:10px;}
+.qt{font-weight:900;font-size:64px;line-height:1.15;}
+.qy{background-image:linear-gradient(#FFD400,#FFD400);background-repeat:no-repeat;background-size:0% 100%;padding:0 6px;}
+/* karaoke */
+.kc{position:absolute;left:0;right:0;top:1255px;height:200px;z-index:1000;display:flex;align-items:center;justify-content:center;pointer-events:none;}
+.kin{display:flex;flex-wrap:wrap;justify-content:center;gap:0 22px;max-width:1000px;padding:26px 60px;background:radial-gradient(closest-side,rgba(0,0,0,.5),rgba(0,0,0,.28) 60%,rgba(0,0,0,0));}
+.kw{font-weight:900;font-size:92px;line-height:1.08;color:#fff;
+  text-shadow:0 0 0 #000,-4px -4px 0 #000,4px -4px 0 #000,-4px 4px 0 #000,4px 4px 0 #000,0 5px 0 #000,0 -5px 0 #000,5px 0 0 #000,-5px 0 0 #000,0 10px 22px rgba(0,0,0,.75);}
+.blackout{position:absolute;inset:0;background:#000;z-index:3000;}
+
+.tshot{background:transparent !important;}
+.pv{position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover;}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-width="1080" data-height="1920" data-duration="51.9" data-fps="30">
+<div class="clip shot" id="sh0" data-start="0.000" data-duration="1.620" data-track-index="1" style="z-index:10"><div class="cam" id="sh0c" style="transform-origin:50% 45%"><div class="statbg"></div><div class="stripes"></div><img class="claimbg" src="assets/claim_bg.jpg"/><div class="claim"><div class="cl1" id="cl1">AI GIẢI</div><div class="cl2w"><span class="cl2" id="cl2">5</span><svg class="sbox" id="clb" viewBox="0 0 330 360" style="width:330px"><path pathLength="1" d="M10,8 L322,2 L328,352 L6,358 L2,0 L100,6"/></svg></div><div class="cl3" id="cl3"><span>BÀI TOÁN MỞ</span></div><div class="cl4" id="cl4">CHƯA CÓ LỜI GIẢI</div></div></div></div>
+<div class="clip shot" id="sh1" data-start="1.320" data-duration="1.900" data-track-index="2" style="z-index:11"><div class="cam" id="sh1c" style="transform-origin:470px 571px"><img class="plate" src="assets/sh1.jpg"/><div class="mk-hl" id="sh1m0" style="left:31px;top:531px;width:877px;height:80px"></div><div class="mk-hl" id="sh1m1" style="left:31px;top:626px;width:728px;height:83px"></div><div class="mk-ul" id="sh1m2" style="left:761px;top:781px;width:295px"></div></div><div class="pill">Nguồn: Meta AI Research</div></div>
+<video class="full pv" id="sh2v" src="assets/presenter_full.mp4" muted playsinline data-start="2.920" data-duration="2.280" data-media-start="3.000" data-track-index="5" style="z-index:12;transform-origin:50% 35%"></video>
+<div class="clip shot tshot" id="sh2" data-start="2.920" data-duration="2.280" data-track-index="1" style="z-index:12"><div class="vign"></div></div>
+<div class="clip shot" id="sh3" data-start="4.900" data-duration="1.280" data-track-index="2" style="z-index:13"><div class="cam" id="sh3c" style="transform-origin:540px 680px"><img class="plate" src="assets/sh3.jpg"/></div><div class="tagwrap" style="top:1095px"><div class="tag" id="sh3tg"><span>TẠO KIẾN THỨC MỚI</span></div></div><div class="pill">Nguồn: Meta AI Research</div></div>
+<div class="clip shot" id="sh4" data-start="5.880" data-duration="1.540" data-track-index="1" style="z-index:14"><div class="darkbg"></div><div class="pan" id="sh4p0" style="left:0px;top:190px;width:540px;height:900px"><div class="cam" id="sh4p0c" style="transform-origin:50% 45%"><img class="plate" src="assets/sh4p0.jpg" style="width:540px;height:900px"/></div></div><div class="pan" id="sh4p1" style="left:540px;top:190px;width:540px;height:900px"><div class="cam" id="sh4p1c" style="transform-origin:50% 45%"><img class="plate" src="assets/sh4p1.jpg" style="width:540px;height:900px"/></div></div><div class="divv"></div><div class="tagwrap" style="top:1110px"><div class="tag" id="sh4tg"><div class="tag-ul" id="sh4tu"></div><span>KIẾN THỨC MỚI</span></div></div><div class="pill">Nguồn: Meta (Figure 1 · 4)</div></div>
+<div class="clip shot" id="sh5" data-start="7.120" data-duration="2.620" data-track-index="2" style="z-index:15"><div class="cam" id="sh5c" style="transform-origin:367px 403px"><img class="plate" src="assets/sh5.jpg"/><div class="mk-hl" id="sh5m0" style="left:47px;top:380px;width:641px;height:46px"></div></div><div class="badge" id="sh5bd"><div class="bnum">02/10<svg class="bbox" id="sh5bdb" viewBox="0 0 565 210" style="width:565px"><path pathLength="1" d="M8,6 L559,2 L563,204 L4,208 L2,0 L170,4"/></svg></div><div class="blabel">MUSE SPARK</div></div><div class="pill">Nguồn: research.meta.ai</div></div>
+<div class="clip shot" id="sh6" data-start="9.440" data-duration="1.560" data-track-index="1" style="z-index:16"><div class="darkbg"></div><div class="pan" id="sh6p0" style="left:0px;top:0px;width:1080px;height:960px"><div class="cam" id="sh6p0c" style="transform-origin:50% 45%"><img class="plate" src="assets/sh6p0.jpg" style="width:1080px;height:960px"/><div class="mk-ul" id="sh6p0m0" style="left:70px;top:417px;width:830px"></div></div></div><div class="pan" id="sh6p1" style="left:0px;top:960px;width:1080px;height:960px"><div class="cam" id="sh6p1c" style="transform-origin:50% 45%"><img class="plate" src="assets/sh6p1.jpg" style="width:1080px;height:960px"/><div class="mk-hl" id="sh6p1m0" style="left:25px;top:128px;width:982px;height:56px"></div><div class="mk-hl" id="sh6p1m1" style="left:25px;top:183px;width:312px;height:49px"></div></div></div><div class="divh"></div><div class="pill">Nguồn: Meta · arXiv 2608.10184</div></div>
+<div class="clip shot" id="sh7" data-start="10.700" data-duration="1.500" data-track-index="2" style="z-index:17"><div class="cam" id="sh7c" style="transform-origin:50% 45%"><div class="statbg"></div><div class="stripes"></div><div class="redslab"></div><div class="skick" id="sh7k">TOÁN HỌC × AI</div><div class="snumw"><span class="snum" id="sh7n" style="font-size:330px">0</span><svg class="sbox" id="sh7b" viewBox="0 0 310 360" style="width:310px"><path pathLength="1" d="M10,8 L302,2 L308,352 L6,358 L2,0 L93,6"/></svg></div><div class="slab" id="sh7l"><span>BÀI BÁO NGHIÊN CỨU</span></div><div class="sbrand">HINTON MEDIA · TIN AI</div></div></div>
+<div class="clip shot" id="sh8" data-start="11.900" data-duration="2.540" data-track-index="1" style="z-index:18"><div class="cam" id="sh8c" style="transform-origin:543px 467px"><img class="plate" src="assets/sh8.jpg"/><div class="mk-hl" id="sh8m0" style="left:26px;top:439px;width:1034px;height:57px"></div><div class="mk-hl" id="sh8m1" style="left:26px;top:496px;width:263px;height:50px"></div><div class="mk-ul" id="sh8m2" style="left:64px;top:937px;width:928px"></div></div><div class="badge" id="sh8bd"><div class="bnum">5/6<svg class="bbox" id="sh8bdb" viewBox="0 0 375 210" style="width:375px"><path pathLength="1" d="M8,6 L369,2 L373,204 L4,208 L2,0 L112,4"/></svg></div><div class="blabel">LỜI GIẢI MỚI</div></div><div class="pill">Nguồn: arXiv 2507.12831</div></div>
+<div class="clip shot" id="sh9" data-start="14.140" data-duration="1.660" data-track-index="2" style="z-index:19"><div class="cam" id="sh9c" style="transform-origin:345px 640px"><img class="plate" src="assets/sh9.jpg"/><svg class="mk-box" id="sh9m0" style="left:38px;top:538px;width:616px;height:204px" viewBox="0 0 616 204"><path pathLength="1" d="M6,4 L611.5882352941177,0 L615.5882352941177,201.23529411764707 L2,204.23529411764707 L0,-2 L154,1"/></svg></div><div class="tagwrap" style="top:1095px"><div class="tag" id="sh9tg"><span>ĐẦU NĂM · HUY CHƯƠNG VÀNG</span></div></div><div class="pill">Nguồn: Meta</div></div>
+<div class="clip shot" id="sh10" data-start="15.500" data-duration="1.860" data-track-index="1" style="z-index:20"><div class="cam" id="sh10c" style="transform-origin:50% 45%"><div class="statbg"></div><div class="stripes"></div><div class="redslab"></div><div class="medal" id="sh10me"><span>GOLD</span></div><div class="skick" id="sh10k">HUY CHƯƠNG VÀNG</div><div class="snumw"><span class="snum" id="sh10n" style="font-size:330px">0</span><svg class="sbox" id="sh10b" viewBox="0 0 310 360" style="width:310px"><path pathLength="1" d="M10,8 L302,2 L308,352 L6,358 L2,0 L93,6"/></svg></div><div class="slab" id="sh10l"><span>KỲ OLYMPIAD</span></div><div class="sbrand">HINTON MEDIA · TIN AI</div></div></div>
+<div class="clip shot" id="sh11" data-start="17.060" data-duration="1.980" data-track-index="2" style="z-index:21"><div class="cam" id="sh11c" style="transform-origin:540px 680px"><img class="plate" src="assets/sh11.jpg"/></div><div class="tagwrap" style="top:1095px"><div class="tag" id="sh11tg"><span>NGHIÊN CỨU MỞ THÌ KHÁC</span></div></div><div class="pill">Nguồn: Meta (Figure 5)</div></div>
+<div class="clip shot" id="sh12" data-start="18.740" data-duration="1.460" data-track-index="1" style="z-index:22"><div class="cam" id="sh12c" style="transform-origin:50% 45%"><div class="statbg"></div><div class="stripes"></div><div class="nk"><div class="nk1" id="sh12a">KHÔNG CÓ</div><div class="nk2w"><span class="nk2" id="sh12b">CHÌA ĐÁP ÁN</span><div class="nkx" id="sh12x"></div></div><div class="nk3" id="sh12c3">ĐỀ THI ≠ NGHIÊN CỨU MỞ</div></div></div></div>
+<video class="full pv" id="sh13v" src="assets/presenter_full.mp4" muted playsinline data-start="19.900" data-duration="2.000" data-media-start="12.000" data-track-index="5" style="z-index:23;transform-origin:50% 35%"></video>
+<div class="clip shot tshot" id="sh13" data-start="19.900" data-duration="2.000" data-track-index="2" style="z-index:23"><div class="vign"></div></div>
+<div class="clip shot" id="sh14" data-start="21.600" data-duration="1.550" data-track-index="1" style="z-index:24"><div class="cam" id="sh14c" style="transform-origin:50% 45%"><div class="chatbg"></div><div class="phone" id="sh14ph"><div class="notch"></div><div class="chathd">meta.ai</div><div class="chat"><div class="bubble q" id="sh14q"><span class="ty" id="sh14qt">Gợi ý hướng chứng minh?</span></div><div class="bubble a" id="sh14a"><span class="ty" id="sh14at">Thử phản ví dụ nhóm cấp nhỏ…</span></div></div></div></div><div class="pill">Minh họa · meta.ai</div></div>
+<div class="clip shot" id="sh15" data-start="22.850" data-duration="2.090" data-track-index="2" style="z-index:25"><div class="cam" id="sh15c" style="transform-origin:50% 45%"><div class="statbg"></div><div class="stripes"></div><div class="flow"><div class="fnode" id="sh15f0">NGƯỜI DẪN DẮT</div><div class="farr" id="sh15a0">▼</div><div class="fnode" id="sh15f1">AI CỘNG SỰ</div><div class="farr" id="sh15a1">▼</div><div class="fnode acc" id="sh15f2">NHÓM THẨM ĐỊNH<svg class="fbox" viewBox="0 0 940 170"><path id="sh15fb" pathLength="1" d="M10,8 L930,2 L936,162 L6,168 L2,0 L300,6"/></svg></div></div></div></div>
+<div class="clip shot" id="sh16" data-start="24.640" data-duration="2.260" data-track-index="1" style="z-index:26"><div class="darkbg"></div><div class="pan" id="sh16p0" style="left:0px;top:0px;width:1080px;height:960px"><div class="cam" id="sh16p0c" style="transform-origin:50% 45%"><img class="plate" src="assets/sh16p0.jpg" style="width:1080px;height:960px"/><div class="mk-hl" id="sh16p0m0" style="left:57px;top:451px;width:994px;height:42px"></div><div class="mk-hl" id="sh16p0m1" style="left:57px;top:488px;width:994px;height:42px"></div><div class="mk-hl" id="sh16p0m2" style="left:57px;top:525px;width:437px;height:42px"></div></div></div><div class="pan" id="sh16p1" style="left:0px;top:960px;width:1080px;height:960px"><div class="cam" id="sh16p1c" style="transform-origin:50% 45%"><div class="pbg"></div><div class="ptags"><div class="ptag human" id="sh16p1a">NGƯỜI VIẾT</div><div class="ptag ai" id="sh16p1b">AI SOẠN</div></div></div></div><div class="divh"></div><div class="pill">Nguồn: arXiv 2608.12415</div></div>
+<div class="clip shot" id="sh17" data-start="26.600" data-duration="2.240" data-track-index="2" style="z-index:27"><div class="cam" id="sh17c" style="transform-origin:498px 584px"><img class="plate" src="assets/sh17.jpg"/><div class="mk-ul" id="sh17m0" style="left:70px;top:582px;width:855px"></div></div><div class="badge" id="sh17bd"><div class="bnum">2024<svg class="bbox" id="sh17bdb" viewBox="0 0 470 210" style="width:470px"><path pathLength="1" d="M8,6 L464,2 L468,204 L4,208 L2,0 L141,4"/></svg></div><div class="blabel">BÁC GIẢ THUYẾT</div></div><div class="pill">Nguồn: Meta AI Research</div></div>
+<div class="clip shot" id="sh18" data-start="28.540" data-duration="1.460" data-track-index="1" style="z-index:28"><div class="cam" id="sh18c" style="transform-origin:540px 680px"><img class="plate" src="assets/sh18.jpg"/></div><div class="tagwrap" style="top:1095px"><div class="tag" id="sh18tg"><span>PHẢN VÍ DỤ</span></div></div><div class="pill">Nguồn: Meta (Figure 3)</div></div>
+<div class="clip shot" id="sh19" data-start="29.700" data-duration="1.660" data-track-index="2" style="z-index:29"><div class="cam" id="sh19c" style="transform-origin:50% 45%"><div class="statbg"></div><div class="stripes"></div><div class="redslab"></div><div class="skick" id="sh19k">PHẢN VÍ DỤ: MỘT NHÓM CÓ</div><div class="snumw"><span class="snum" id="sh19n" style="font-size:320px">0</span><svg class="sbox" id="sh19b" viewBox="0 0 675 360" style="width:675px"><path pathLength="1" d="M10,8 L667,2 L673,352 L6,358 L2,0 L202,6"/></svg></div><div class="slab" id="sh19l"><span>PHẦN TỬ</span></div><div class="sbrand">HINTON MEDIA · TIN AI</div></div></div>
+<div class="clip shot" id="sh20" data-start="31.060" data-duration="1.420" data-track-index="1" style="z-index:30"><div class="cam" id="sh20c" style="transform-origin:540px 680px"><img class="plate" src="assets/sh20.jpg"/></div><div class="tagwrap" style="top:1095px"><div class="tag" id="sh20tg"><span>SÓNG PHẢI SỤP ĐỔ</span></div></div><div class="pill">Nguồn: Meta (Figure 2)</div></div>
+<div class="clip shot" id="sh21" data-start="32.180" data-duration="1.820" data-track-index="2" style="z-index:31"><div class="cam" id="sh21c" style="transform-origin:485px 644px"><img class="plate" src="assets/sh21.jpg"/><div class="mk-ul" id="sh21m0" style="left:70px;top:642px;width:830px"></div><svg class="mk-box" id="sh21m1" style="left:50px;top:665px;width:660px;height:80px" viewBox="0 0 660 80"><path pathLength="1" d="M6,4 L656.0,0 L660.0,77.0 L2,80.0 L0,-2 L165,1"/></svg></div><div class="tagwrap" style="top:1095px"><div class="tag" id="sh21tg"><span>TRONG THỜI GIAN HỮU HẠN</span></div></div><div class="pill">Nguồn: Meta AI Research</div></div>
+<div class="clip shot" id="sh22" data-start="33.700" data-duration="2.290" data-track-index="1" style="z-index:32"><div class="cam" id="sh22c" style="transform-origin:50% 45%"><div class="statbg"></div><div class="stripes"></div><div class="redslab"></div><div class="skick" id="sh22k">CÂU HỎI BỎ NGỎ TỪ NĂM</div><div class="snumw"><span class="snum" id="sh22n" style="font-size:290px">1990</span><svg class="sbox" id="sh22b" viewBox="0 0 792 360" style="width:792px"><path pathLength="1" d="M10,8 L784,2 L790,352 L6,358 L2,0 L238,6"/></svg></div><div class="slab" id="sh22l"><span>ĐÃ CÓ LỜI ĐÁP</span></div><div class="sbrand">HINTON MEDIA · TIN AI</div></div></div>
+<div class="clip shot" id="sh23" data-start="35.690" data-duration="2.030" data-track-index="2" style="z-index:33"><div class="darkbg"></div><div class="pan" id="sh23p0" style="left:0px;top:0px;width:1080px;height:960px"><div class="cam" id="sh23p0c" style="transform-origin:50% 45%"><img class="plate" src="assets/sh23p0.jpg" style="width:1080px;height:960px"/><div class="mk-hl" id="sh23p0m0" style="left:99px;top:233px;width:191px;height:31px"></div><svg class="mk-box" id="sh23p0m1" style="left:487px;top:273px;width:400px;height:63px" viewBox="0 0 400 63"><path pathLength="1" d="M6,4 L395.54285714285714,0 L399.54285714285714,60.200000000000045 L2,63.200000000000045 L0,-2 L100,1"/></svg></div></div><div class="pan" id="sh23p1" style="left:0px;top:960px;width:1080px;height:960px"><div class="cam" id="sh23p1c" style="transform-origin:50% 45%"><img class="plate" src="assets/sh23p1.jpg" style="width:1080px;height:960px"/><div class="mk-ul" id="sh23p1m0" style="left:35px;top:235px;width:780px"></div></div></div><div class="divh"></div><div class="pill">X - @alexandr_wang · gadgets.muse.ai</div></div>
+<div class="clip shot" id="sh24" data-start="37.420" data-duration="1.420" data-track-index="1" style="z-index:34"><div class="cam" id="sh24c" style="transform-origin:542px 733px"><img class="plate" src="assets/sh24.jpg"/><div class="mk-hl" id="sh24m0" style="left:34px;top:714px;width:1018px;height:37px"></div><svg class="mk-box" id="sh24m1" style="left:30px;top:945px;width:169px;height:94px" viewBox="0 0 169 94"><path pathLength="1" d="M6,4 L164.96551724137933,0 L168.96551724137933,91.48275862068976 L2,94.48275862068976 L0,-2 L42,1"/></svg></div><div class="pill">GitHub muse-gadget-sdk</div></div>
+<div class="clip shot" id="sh25" data-start="38.540" data-duration="1.400" data-track-index="2" style="z-index:35"><div class="darkbg"></div><div class="pan" id="sh25p0" style="left:0px;top:190px;width:540px;height:900px"><div class="cam" id="sh25p0c" style="transform-origin:50% 45%"><img class="plate" src="assets/sh25p0.jpg" style="width:540px;height:900px"/></div></div><div class="pan" id="sh25p1" style="left:540px;top:190px;width:540px;height:900px"><div class="cam" id="sh25p1c" style="transform-origin:50% 45%"><img class="plate" src="assets/sh25p1.jpg" style="width:540px;height:900px"/></div></div><div class="divv"></div><div class="tagwrap" style="top:1110px"><div class="tag" id="sh25tg"><span>PHẦN CỨNG NGUỒN MỞ</span></div></div><div class="pill">GitHub · gadgets.muse.ai</div></div>
+<div class="clip shot" id="sh26" data-start="39.640" data-duration="1.500" data-track-index="1" style="z-index:36"><div class="cam" id="sh26c" style="transform-origin:50% 45%"><div class="statbg"></div><div class="stripes"></div><div class="redslab"></div><div class="skick" id="sh26k">TẶNG NGƯỜI ĐĂNG KÝ</div><div class="snumw"><span class="snum" id="sh26n" style="font-size:240px">0</span><svg class="sbox" id="sh26b" viewBox="0 0 760 360" style="width:760px"><path pathLength="1" d="M10,8 L752,2 L758,352 L6,358 L2,0 L228,6"/></svg></div><div class="slab" id="sh26l"><span>MUSE HOME LINK</span></div><div class="sbrand">HINTON MEDIA · TIN AI</div></div></div>
+<div class="clip shot" id="sh27" data-start="40.840" data-duration="1.360" data-track-index="2" style="z-index:37"><div class="cam" id="sh27c" style="transform-origin:655px 167px"><img class="plate" src="assets/sh27.jpg"/><svg class="mk-box" id="sh27m0" style="left:255px;top:105px;width:801px;height:123px" viewBox="0 0 801 123"><path pathLength="1" d="M6,4 L796.5454545454546,0 L800.5454545454546,120.0909090909091 L2,123.0909090909091 L0,-2 L200,1"/></svg></div><div class="pill">Nguồn: gadgets.muse.ai</div></div>
+<video class="full pv" id="sh28v" src="assets/presenter_full.mp4" muted playsinline data-start="41.900" data-duration="1.820" data-media-start="25.000" data-track-index="5" style="z-index:38;transform-origin:50% 35%"></video>
+<div class="clip shot tshot" id="sh28" data-start="41.900" data-duration="1.820" data-track-index="1" style="z-index:38"><div class="vign"></div></div>
+<div class="clip shot" id="sh29" data-start="43.420" data-duration="1.580" data-track-index="2" style="z-index:39"><div class="cam" id="sh29c" style="transform-origin:165px 386px"><img class="plate" src="assets/sh29.jpg"/><svg class="mk-box" id="sh29m0" style="left:15px;top:355px;width:300px;height:62px" viewBox="0 0 300 62"><path pathLength="1" d="M6,4 L295.73770491803276,0 L299.73770491803276,59.491803278688565 L2,62.491803278688565 L0,-2 L75,1"/></svg></div><div class="stamp" id="sh29st">CHƯA BÌNH DUYỆT</div><div class="pill">arXiv · bản preprint</div></div>
+<div class="clip shot" id="sh30" data-start="44.700" data-duration="2.290" data-track-index="1" style="z-index:40"><div class="darkbg"></div><div class="pan" id="sh30p0" style="left:0px;top:190px;width:540px;height:900px"><div class="cam" id="sh30p0c" style="transform-origin:50% 45%"><img class="plate" src="assets/sh30p0.jpg" style="width:540px;height:900px"/></div></div><div class="pan" id="sh30p1" style="left:540px;top:190px;width:540px;height:900px"><div class="cam" id="sh30p1c" style="transform-origin:50% 45%"><img class="plate" src="assets/sh30p1.jpg" style="width:540px;height:900px"/></div></div><div class="divv"></div><div class="tagwrap" style="top:1110px"><div class="tag" id="sh30tg"><div class="tag-hl" id="sh30th"></div><span>NHÓM KHÁC GIẢI ĐỘC LẬP</span></div></div><div class="pill">Nguồn: Meta AI Research</div></div>
+<div class="clip shot" id="sh31" data-start="46.690" data-duration="1.870" data-track-index="2" style="z-index:41"><div class="cam" id="sh31c" style="transform-origin:50% 45%"><div class="statbg"></div><div class="stripes"></div><div class="eq"><div class="eqa" id="sh31e0">CHUYÊN GIA</div><div class="eqp" id="sh31e1">+</div><div class="eqa y" id="sh31e2">AI CHAT THƯỜNG</div><div class="eqp" id="sh31e3">=</div><div class="eqr" id="sh31e4"><span>KẾT QUẢ CẤP NGHIÊN CỨU</span></div></div></div></div>
+<div class="clip shot" id="sh32" data-start="48.260" data-duration="1.480" data-track-index="1" style="z-index:42"><div class="darkbg"></div><div class="pan" id="sh32p0" style="left:0px;top:0px;width:1080px;height:960px"><div class="cam" id="sh32p0c" style="transform-origin:50% 45%"><img class="plate" src="assets/sh32p0.jpg" style="width:1080px;height:960px"/></div></div><div class="pan" id="sh32p1" style="left:0px;top:960px;width:1080px;height:960px"><div class="cam" id="sh32p1c" style="transform-origin:50% 45%"><img class="plate" src="assets/sh32p1.jpg" style="width:1080px;height:960px"/><div class="mk-hl" id="sh32p1m0" style="left:25px;top:128px;width:1026px;height:56px"></div></div></div><div class="divh"></div><div class="tagwrap" style="top:880px"><div class="tag" id="sh32tg"><div class="tag-hl" id="sh32th"></div><span>KẾT QUẢ CẤP NGHIÊN CỨU</span></div></div><div class="pill">Nguồn: Meta · arXiv</div></div>
+<video class="full pv" id="sh33v" src="assets/presenter_full.mp4" muted playsinline data-start="49.440" data-duration="2.160" data-media-start="40.000" data-track-index="5" style="z-index:43;transform-origin:50% 35%"></video>
+<div class="clip shot tshot" id="sh33" data-start="49.440" data-duration="2.160" data-track-index="2" style="z-index:43"><div class="vign"></div><div class="qwrap"><div class="qcard" id="qcard"><div class="qk">CÂU HỎI CHO BẠN</div><div class="qt">AI đã biết tạo kiến thức mới, <span class="qy" id="qy">bạn sẽ dùng nó làm gì?</span></div></div></div></div>
+<div class="clip kc" id="k0" data-start="0.000" data-duration="0.735" data-track-index="8"><div class="kin" id="k0i"><span class="kw" id="k0w0">Meta</span><span class="kw" id="k0w1">vừa</span><span class="kw" id="k0w2">dùng</span></div></div>
+<div class="clip kc" id="k1" data-start="0.735" data-duration="0.585" data-track-index="8"><div class="kin" id="k1i"><span class="kw" id="k1w0">AI</span><span class="kw" id="k1w1">giải</span><span class="kw" id="k1w2">5</span></div></div>
+<div class="clip kc" id="k2" data-start="1.320" data-duration="0.400" data-track-index="8"><div class="kin" id="k2i"><span class="kw" id="k2w0">bài</span><span class="kw" id="k2w1">toán</span></div></div>
+<div class="clip kc" id="k3" data-start="1.720" data-duration="0.380" data-track-index="8"><div class="kin" id="k3i"><span class="kw" id="k3w0">nghiên</span><span class="kw" id="k3w1">cứu</span></div></div>
+<div class="clip kc" id="k4" data-start="2.100" data-duration="0.300" data-track-index="8"><div class="kin" id="k4i"><span class="kw" id="k4w0">chưa</span><span class="kw" id="k4w1">có</span></div></div>
+<div class="clip kc" id="k5" data-start="2.400" data-duration="0.525" data-track-index="8"><div class="kin" id="k5i"><span class="kw" id="k5w0">lời</span><span class="kw" id="k5w1">giải</span></div></div>
+<div class="clip kc" id="k6" data-start="2.925" data-duration="0.555" data-track-index="8"><div class="kin" id="k6i"><span class="kw" id="k6w0">Nhưng</span><span class="kw" id="k6w1">đây</span><span class="kw" id="k6w2">không</span></div></div>
+<div class="clip kc" id="k7" data-start="3.480" data-duration="0.500" data-track-index="8"><div class="kin" id="k7i"><span class="kw" id="k7w0">phải</span><span class="kw" id="k7w1">đề</span><span class="kw" id="k7w2">thi</span></div></div>
+<div class="clip kc" id="k8" data-start="3.980" data-duration="0.320" data-track-index="8"><div class="kin" id="k8i"><span class="kw" id="k8w0">có</span><span class="kw" id="k8w1">sẵn</span></div></div>
+<div class="clip kc" id="k9" data-start="4.300" data-duration="0.597" data-track-index="8"><div class="kin" id="k9i"><span class="kw" id="k9w0">đáp</span><span class="kw" id="k9w1">án</span></div></div>
+<div class="clip kc" id="k10" data-start="4.897" data-duration="0.683" data-track-index="8"><div class="kin" id="k10i"><span class="kw" id="k10w0">Điều</span><span class="kw" id="k10w1">đáng</span><span class="kw" id="k10w2">nói</span></div></div>
+<div class="clip kc" id="k11" data-start="5.580" data-duration="0.460" data-track-index="8"><div class="kin" id="k11i"><span class="kw" id="k11w0">AI</span><span class="kw" id="k11w1">bắt</span><span class="kw" id="k11w2">đầu</span></div></div>
+<div class="clip kc" id="k12" data-start="6.040" data-duration="0.400" data-track-index="8"><div class="kin" id="k12i"><span class="kw" id="k12w0">giúp</span><span class="kw" id="k12w1">tạo</span></div></div>
+<div class="clip kc" id="k13" data-start="6.440" data-duration="0.740" data-track-index="8"><div class="kin" id="k13i"><span class="kw" id="k13w0">kiến</span><span class="kw" id="k13w1">thức</span><span class="kw" id="k13w2">mới</span></div></div>
+<div class="clip kc" id="k14" data-start="7.180" data-duration="0.900" data-track-index="8"><div class="kin" id="k14i"><span class="kw" id="k14w0">Ngày</span><span class="kw" id="k14w1">2/10</span></div></div>
+<div class="clip kc" id="k15" data-start="8.080" data-duration="0.560" data-track-index="8"><div class="kin" id="k15i"><span class="kw" id="k15w0">Meta</span><span class="kw" id="k15w1">công</span><span class="kw" id="k15w2">bố</span></div></div>
+<div class="clip kc" id="k16" data-start="8.640" data-duration="0.800" data-track-index="8"><div class="kin" id="k16i"><span class="kw" id="k16w0">Muse</span><span class="kw" id="k16w1">Spark</span></div></div>
+<div class="clip kc" id="k17" data-start="9.440" data-duration="0.180" data-track-index="8"><div class="kin" id="k17i"><span class="kw" id="k17w0">Các</span><span class="kw" id="k17w1">nhà</span></div></div>
+<div class="clip kc" id="k18" data-start="9.620" data-duration="0.560" data-track-index="8"><div class="kin" id="k18i"><span class="kw" id="k18w0">toán</span><span class="kw" id="k18w1">học</span><span class="kw" id="k18w2">cùng</span></div></div>
+<div class="clip kc" id="k19" data-start="10.180" data-duration="0.680" data-track-index="8"><div class="kin" id="k19i"><span class="kw" id="k19w0">AI</span><span class="kw" id="k19w1">viết</span><span class="kw" id="k19w2">6</span></div></div>
+<div class="clip kc" id="k20" data-start="10.860" data-duration="0.300" data-track-index="8"><div class="kin" id="k20i"><span class="kw" id="k20w0">bài</span><span class="kw" id="k20w1">báo</span></div></div>
+<div class="clip kc" id="k21" data-start="11.160" data-duration="0.740" data-track-index="8"><div class="kin" id="k21i"><span class="kw" id="k21w0">nghiên</span><span class="kw" id="k21w1">cứu</span></div></div>
+<div class="clip kc" id="k22" data-start="11.900" data-duration="0.240" data-track-index="8"><div class="kin" id="k22i"><span class="kw" id="k22w0">5</span><span class="kw" id="k22w1">bài</span></div></div>
+<div class="clip kc" id="k23" data-start="12.140" data-duration="0.313" data-track-index="8"><div class="kin" id="k23i"><span class="kw" id="k23w0">đưa</span><span class="kw" id="k23w1">ra</span></div></div>
+<div class="clip kc" id="k24" data-start="12.453" data-duration="0.427" data-track-index="8"><div class="kin" id="k24i"><span class="kw" id="k24w0">lời</span><span class="kw" id="k24w1">giải</span><span class="kw" id="k24w2">cho</span></div></div>
+<div class="clip kc" id="k25" data-start="12.880" data-duration="0.280" data-track-index="8"><div class="kin" id="k25i"><span class="kw" id="k25w0">câu</span><span class="kw" id="k25w1">hỏi</span></div></div>
+<div class="clip kc" id="k26" data-start="13.160" data-duration="0.320" data-track-index="8"><div class="kin" id="k26i"><span class="kw" id="k26w0">trước</span><span class="kw" id="k26w1">đó</span></div></div>
+<div class="clip kc" id="k27" data-start="13.480" data-duration="0.660" data-track-index="8"><div class="kin" id="k27i"><span class="kw" id="k27w0">bỏ</span><span class="kw" id="k27w1">ngỏ</span></div></div>
+<div class="clip kc" id="k28" data-start="14.140" data-duration="0.520" data-track-index="8"><div class="kin" id="k28i"><span class="kw" id="k28w0">Đầu</span><span class="kw" id="k28w1">năm</span></div></div>
+<div class="clip kc" id="k29" data-start="14.660" data-duration="0.540" data-track-index="8"><div class="kin" id="k29i"><span class="kw" id="k29w0">mô</span><span class="kw" id="k29w1">hình</span><span class="kw" id="k29w2">Meta</span></div></div>
+<div class="clip kc" id="k30" data-start="15.200" data-duration="0.480" data-track-index="8"><div class="kin" id="k30i"><span class="kw" id="k30w0">đạt</span><span class="kw" id="k30w1">huy</span><span class="kw" id="k30w2">chương</span></div></div>
+<div class="clip kc" id="k31" data-start="15.680" data-duration="0.587" data-track-index="8"><div class="kin" id="k31i"><span class="kw" id="k31w0">vàng</span><span class="kw" id="k31w1">ở</span><span class="kw" id="k31w2">5</span></div></div>
+<div class="clip kc" id="k32" data-start="16.267" data-duration="0.793" data-track-index="8"><div class="kin" id="k32i"><span class="kw" id="k32w0">kỳ</span><span class="kw" id="k32w1">Olympiad</span></div></div>
+<div class="clip kc" id="k33" data-start="17.060" data-duration="0.500" data-track-index="8"><div class="kin" id="k33i"><span class="kw" id="k33w0">Nhưng</span><span class="kw" id="k33w1">bài</span><span class="kw" id="k33w2">toán</span></div></div>
+<div class="clip kc" id="k34" data-start="17.560" data-duration="0.520" data-track-index="8"><div class="kin" id="k34i"><span class="kw" id="k34w0">nghiên</span><span class="kw" id="k34w1">cứu</span><span class="kw" id="k34w2">mở</span></div></div>
+<div class="clip kc" id="k35" data-start="18.080" data-duration="0.660" data-track-index="8"><div class="kin" id="k35i"><span class="kw" id="k35w0">thì</span><span class="kw" id="k35w1">khác</span></div></div>
+<div class="clip kc" id="k36" data-start="18.740" data-duration="0.300" data-track-index="8"><div class="kin" id="k36i"><span class="kw" id="k36w0">không</span><span class="kw" id="k36w1">có</span></div></div>
+<div class="clip kc" id="k37" data-start="19.040" data-duration="0.860" data-track-index="8"><div class="kin" id="k37i"><span class="kw" id="k37w0">chìa</span><span class="kw" id="k37w1">đáp</span><span class="kw" id="k37w2">án</span></div></div>
+<div class="clip kc" id="k38" data-start="19.900" data-duration="0.300" data-track-index="8"><div class="kin" id="k38i"><span class="kw" id="k38w0">Con</span><span class="kw" id="k38w1">người</span></div></div>
+<div class="clip kc" id="k39" data-start="20.200" data-duration="0.320" data-track-index="8"><div class="kin" id="k39i"><span class="kw" id="k39w0">dẫn</span><span class="kw" id="k39w1">dắt</span></div></div>
+<div class="clip kc" id="k40" data-start="20.520" data-duration="0.500" data-track-index="8"><div class="kin" id="k40i"><span class="kw" id="k40w0">AI</span><span class="kw" id="k40w1">là</span></div></div>
+<div class="clip kc" id="k41" data-start="21.020" data-duration="0.580" data-track-index="8"><div class="kin" id="k41i"><span class="kw" id="k41w0">cộng</span><span class="kw" id="k41w1">sự</span><span class="kw" id="k41w2">ngay</span></div></div>
+<div class="clip kc" id="k42" data-start="21.600" data-duration="1.254" data-track-index="8"><div class="kin" id="k42i"><span class="kw" id="k42w0">trong</span><span class="kw" id="k42w1">chat</span><span class="kw" id="k42w2">meta.ai</span></div></div>
+<div class="clip kc" id="k43" data-start="22.854" data-duration="0.526" data-track-index="8"><div class="kin" id="k43i"><span class="kw" id="k43w0">Nhóm</span><span class="kw" id="k43w1">thứ</span><span class="kw" id="k43w2">hai</span></div></div>
+<div class="clip kc" id="k44" data-start="23.380" data-duration="0.460" data-track-index="8"><div class="kin" id="k44i"><span class="kw" id="k44w0">thẩm</span><span class="kw" id="k44w1">định</span></div></div>
+<div class="clip kc" id="k45" data-start="23.840" data-duration="0.800" data-track-index="8"><div class="kin" id="k45i"><span class="kw" id="k45w0">từng</span><span class="kw" id="k45w1">lập</span><span class="kw" id="k45w2">luận</span></div></div>
+<div class="clip kc" id="k46" data-start="24.640" data-duration="0.220" data-track-index="8"><div class="kin" id="k46i"><span class="kw" id="k46w0">Mỗi</span><span class="kw" id="k46w1">đoạn</span></div></div>
+<div class="clip kc" id="k47" data-start="24.860" data-duration="0.440" data-track-index="8"><div class="kin" id="k47i"><span class="kw" id="k47w0">đánh</span><span class="kw" id="k47w1">dấu</span><span class="kw" id="k47w2">rõ</span></div></div>
+<div class="clip kc" id="k48" data-start="25.300" data-duration="0.500" data-track-index="8"><div class="kin" id="k48i"><span class="kw" id="k48w0">người</span><span class="kw" id="k48w1">viết</span><span class="kw" id="k48w2">hay</span></div></div>
+<div class="clip kc" id="k49" data-start="25.800" data-duration="0.800" data-track-index="8"><div class="kin" id="k49i"><span class="kw" id="k49w0">AI</span><span class="kw" id="k49w1">soạn</span></div></div>
+<div class="clip kc" id="k50" data-start="26.600" data-duration="0.400" data-track-index="8"><div class="kin" id="k50i"><span class="kw" id="k50w0">Có</span><span class="kw" id="k50w1">bài</span><span class="kw" id="k50w2">bác</span></div></div>
+<div class="clip kc" id="k51" data-start="27.000" data-duration="1.540" data-track-index="8"><div class="kin" id="k51i"><span class="kw" id="k51w0">giả</span><span class="kw" id="k51w1">thuyết</span><span class="kw" id="k51w2">2024</span></div></div>
+<div class="clip kc" id="k52" data-start="28.540" data-duration="0.400" data-track-index="8"><div class="kin" id="k52i"><span class="kw" id="k52w0">Phản</span><span class="kw" id="k52w1">ví</span><span class="kw" id="k52w2">dụ</span></div></div>
+<div class="clip kc" id="k53" data-start="28.940" data-duration="0.560" data-track-index="8"><div class="kin" id="k53i"><span class="kw" id="k53w0">là</span><span class="kw" id="k53w1">một</span><span class="kw" id="k53w2">nhóm</span></div></div>
+<div class="clip kc" id="k54" data-start="29.500" data-duration="0.940" data-track-index="8"><div class="kin" id="k54i"><span class="kw" id="k54w0">có</span><span class="kw" id="k54w1">384</span></div></div>
+<div class="clip kc" id="k55" data-start="30.440" data-duration="0.620" data-track-index="8"><div class="kin" id="k55i"><span class="kw" id="k55w0">phần</span><span class="kw" id="k55w1">tử</span></div></div>
+<div class="clip kc" id="k56" data-start="31.060" data-duration="0.220" data-track-index="8"><div class="kin" id="k56i"><span class="kw" id="k56w0">Có</span><span class="kw" id="k56w1">bài</span></div></div>
+<div class="clip kc" id="k57" data-start="31.280" data-duration="0.900" data-track-index="8"><div class="kin" id="k57i"><span class="kw" id="k57w0">xác</span><span class="kw" id="k57w1">nhận</span><span class="kw" id="k57w2">sóng</span></div></div>
+<div class="clip kc" id="k58" data-start="32.180" data-duration="0.440" data-track-index="8"><div class="kin" id="k58i"><span class="kw" id="k58w0">phải</span><span class="kw" id="k58w1">sụp</span><span class="kw" id="k58w2">đổ</span></div></div>
+<div class="clip kc" id="k59" data-start="32.620" data-duration="0.500" data-track-index="8"><div class="kin" id="k59i"><span class="kw" id="k59w0">trong</span><span class="kw" id="k59w1">thời</span><span class="kw" id="k59w2">gian</span></div></div>
+<div class="clip kc" id="k60" data-start="33.120" data-duration="0.580" data-track-index="8"><div class="kin" id="k60i"><span class="kw" id="k60w0">hữu</span><span class="kw" id="k60w1">hạn</span></div></div>
+<div class="clip kc" id="k61" data-start="33.700" data-duration="0.160" data-track-index="8"><div class="kin" id="k61i"><span class="kw" id="k61w0">Đó</span><span class="kw" id="k61w1">là</span></div></div>
+<div class="clip kc" id="k62" data-start="33.860" data-duration="0.320" data-track-index="8"><div class="kin" id="k62i"><span class="kw" id="k62w0">câu</span><span class="kw" id="k62w1">hỏi</span></div></div>
+<div class="clip kc" id="k63" data-start="34.180" data-duration="1.514" data-track-index="8"><div class="kin" id="k63i"><span class="kw" id="k63w0">bỏ</span><span class="kw" id="k63w1">ngỏ</span><span class="kw" id="k63w2">từ</span><span class="kw" id="k63w3">2015</span></div></div>
+<div class="clip kc" id="k64" data-start="35.694" data-duration="0.346" data-track-index="8"><div class="kin" id="k64i"><span class="kw" id="k64w0">Cùng</span><span class="kw" id="k64w1">đợt</span></div></div>
+<div class="clip kc" id="k65" data-start="36.040" data-duration="0.420" data-track-index="8"><div class="kin" id="k65i"><span class="kw" id="k65w0">Meta</span><span class="kw" id="k65w1">mở</span></div></div>
+<div class="clip kc" id="k66" data-start="36.460" data-duration="0.960" data-track-index="8"><div class="kin" id="k66i"><span class="kw" id="k66w0">Muse</span><span class="kw" id="k66w1">Gadgets</span></div></div>
+<div class="clip kc" id="k67" data-start="37.420" data-duration="0.260" data-track-index="8"><div class="kin" id="k67i"><span class="kw" id="k67w0">Phần</span><span class="kw" id="k67w1">cứng</span></div></div>
+<div class="clip kc" id="k68" data-start="37.680" data-duration="0.660" data-track-index="8"><div class="kin" id="k68i"><span class="kw" id="k68w0">nguồn</span><span class="kw" id="k68w1">mở</span><span class="kw" id="k68w2">để</span></div></div>
+<div class="clip kc" id="k69" data-start="38.340" data-duration="0.580" data-track-index="8"><div class="kin" id="k69i"><span class="kw" id="k69w0">ai</span><span class="kw" id="k69w1">cũng</span><span class="kw" id="k69w2">chạy</span></div></div>
+<div class="clip kc" id="k70" data-start="38.920" data-duration="0.720" data-track-index="8"><div class="kin" id="k70i"><span class="kw" id="k70w0">cùng</span><span class="kw" id="k70w1">Muse</span></div></div>
+<div class="clip kc" id="k71" data-start="39.640" data-duration="0.520" data-track-index="8"><div class="kin" id="k71i"><span class="kw" id="k71w0">5.000</span><span class="kw" id="k71w1">chiếc</span></div></div>
+<div class="clip kc" id="k72" data-start="40.160" data-duration="0.680" data-track-index="8"><div class="kin" id="k72i"><span class="kw" id="k72w0">Muse</span><span class="kw" id="k72w1">Home</span><span class="kw" id="k72w2">Link</span></div></div>
+<div class="clip kc" id="k73" data-start="40.840" data-duration="0.360" data-track-index="8"><div class="kin" id="k73i"><span class="kw" id="k73w0">tặng</span><span class="kw" id="k73w1">người</span></div></div>
+<div class="clip kc" id="k74" data-start="41.200" data-duration="0.700" data-track-index="8"><div class="kin" id="k74i"><span class="kw" id="k74w0">đăng</span><span class="kw" id="k74w1">ký</span></div></div>
+<div class="clip kc" id="k75" data-start="41.900" data-duration="0.460" data-track-index="8"><div class="kin" id="k75i"><span class="kw" id="k75w0">Nhưng</span><span class="kw" id="k75w1">Meta</span></div></div>
+<div class="clip kc" id="k76" data-start="42.360" data-duration="0.780" data-track-index="8"><div class="kin" id="k76i"><span class="kw" id="k76w0">tự</span><span class="kw" id="k76w1">công</span><span class="kw" id="k76w2">bố</span></div></div>
+<div class="clip kc" id="k77" data-start="43.140" data-duration="0.440" data-track-index="8"><div class="kin" id="k77i"><span class="kw" id="k77w0">bài</span><span class="kw" id="k77w1">báo</span><span class="kw" id="k77w2">chưa</span></div></div>
+<div class="clip kc" id="k78" data-start="43.580" data-duration="0.460" data-track-index="8"><div class="kin" id="k78i"><span class="kw" id="k78w0">qua</span><span class="kw" id="k78w1">bình</span><span class="kw" id="k78w2">duyệt</span></div></div>
+<div class="clip kc" id="k79" data-start="44.040" data-duration="0.660" data-track-index="8"><div class="kin" id="k79i"><span class="kw" id="k79w0">tạp</span><span class="kw" id="k79w1">chí</span></div></div>
+<div class="clip kc" id="k80" data-start="44.700" data-duration="0.240" data-track-index="8"><div class="kin" id="k80i"><span class="kw" id="k80w0">Một</span><span class="kw" id="k80w1">số</span></div></div>
+<div class="clip kc" id="k81" data-start="44.940" data-duration="0.480" data-track-index="8"><div class="kin" id="k81i"><span class="kw" id="k81w0">bài</span><span class="kw" id="k81w1">toán</span><span class="kw" id="k81w2">đã</span></div></div>
+<div class="clip kc" id="k82" data-start="45.420" data-duration="0.560" data-track-index="8"><div class="kin" id="k82i"><span class="kw" id="k82w0">được</span><span class="kw" id="k82w1">nhóm</span><span class="kw" id="k82w2">khác</span></div></div>
+<div class="clip kc" id="k83" data-start="45.980" data-duration="0.707" data-track-index="8"><div class="kin" id="k83i"><span class="kw" id="k83w0">giải</span><span class="kw" id="k83w1">độc</span><span class="kw" id="k83w2">lập</span></div></div>
+<div class="clip kc" id="k84" data-start="46.687" data-duration="0.513" data-track-index="8"><div class="kin" id="k84i"><span class="kw" id="k84w0">Chuyên</span><span class="kw" id="k84w1">gia</span><span class="kw" id="k84w2">cộng</span></div></div>
+<div class="clip kc" id="k85" data-start="47.200" data-duration="0.660" data-track-index="8"><div class="kin" id="k85i"><span class="kw" id="k85w0">AI</span><span class="kw" id="k85w1">chat</span><span class="kw" id="k85w2">thường</span></div></div>
+<div class="clip kc" id="k86" data-start="47.860" data-duration="0.400" data-track-index="8"><div class="kin" id="k86i"><span class="kw" id="k86w0">đã</span><span class="kw" id="k86w1">tạo</span></div></div>
+<div class="clip kc" id="k87" data-start="48.260" data-duration="0.340" data-track-index="8"><div class="kin" id="k87i"><span class="kw" id="k87w0">kết</span><span class="kw" id="k87w1">quả</span></div></div>
+<div class="clip kc" id="k88" data-start="48.600" data-duration="0.843" data-track-index="8"><div class="kin" id="k88i"><span class="kw" id="k88w0">cấp</span><span class="kw" id="k88w1">nghiên</span><span class="kw" id="k88w2">cứu</span></div></div>
+<div class="clip kc" id="k89" data-start="49.443" data-duration="0.337" data-track-index="8"><div class="kin" id="k89i"><span class="kw" id="k89w0">Theo</span><span class="kw" id="k89w1">dõi</span></div></div>
+<div class="clip kc" id="k90" data-start="49.780" data-duration="0.760" data-track-index="8"><div class="kin" id="k90i"><span class="kw" id="k90w0">Hinton</span><span class="kw" id="k90w1">Media</span><span class="kw" id="k90w2">để</span></div></div>
+<div class="clip kc" id="k91" data-start="50.540" data-duration="0.320" data-track-index="8"><div class="kin" id="k91i"><span class="kw" id="k91w0">không</span><span class="kw" id="k91w1">lỡ</span></div></div>
+<div class="clip kc" id="k92" data-start="50.860" data-duration="0.360" data-track-index="8"><div class="kin" id="k92i"><span class="kw" id="k92w0">tin</span><span class="kw" id="k92w1">AI</span></div></div>
+<div class="clip kc" id="k93" data-start="51.220" data-duration="0.380" data-track-index="8"><div class="kin" id="k93i"><span class="kw" id="k93w0">mỗi</span><span class="kw" id="k93w1">ngày</span></div></div>
+<div class="clip blackout" id="blackout" data-start="51.6" data-duration="0.300" data-track-index="9"></div>
+<audio id="mix" src="assets/mix_v3.wav" data-start="0" data-duration="51.9" data-track-index="10" data-volume="1"></audio>
+</div>
+<script>
+window.__timelines = window.__timelines || {};
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#sh0c",{scale:1.0,x:0,y:0},{scale:1.12,x:0,y:0,duration:1.620,ease:"none"},0.000);
+tl.fromTo("#cl1",{y:-120,opacity:0},{y:0,opacity:1,duration:0.2,ease:"power4.out"},0.0);
+tl.fromTo("#cl2",{scale:3,opacity:0},{scale:1,opacity:1,duration:0.22,ease:"power4.out"},0.12);
+tl.fromTo("#cl3",{x:900},{x:0,duration:0.2,ease:"power4.out"},0.30);
+tl.fromTo("#cl4",{opacity:0,y:30},{opacity:1,y:0,duration:0.18},0.55);
+tl.fromTo("#clb path",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.3,ease:"power1.inOut"},0.62);
+tl.fromTo("#sh1m0",{scaleX:0},{scaleX:1,duration:0.32,ease:"power2.out",immediateRender:true},1.440);
+tl.fromTo("#sh1m1",{scaleX:0},{scaleX:1,duration:0.32,ease:"power2.out",immediateRender:true},1.640);
+tl.fromTo("#sh1m2",{scaleX:0},{scaleX:1,duration:0.28,ease:"power3.out"},2.170);
+tl.fromTo("#sh1c",{scale:1.0,x:0,y:0},{scale:1.16,x:0,y:0,duration:1.900,ease:"none"},1.320);
+tl.fromTo("#sh1",{x:"100%",filter:"blur(14px)"},{x:"0%",filter:"blur(0px)",duration:0.24,ease:"power3.out"},1.320);
+tl.fromTo("#sh0",{x:"0%",y:"0%"},{x:"-35%",duration:0.24,ease:"power2.in",immediateRender:false},1.320);
+tl.fromTo("#sh2v",{scale:1.04},{scale:1.17,duration:2.280,ease:"none"},2.920);
+tl.fromTo("#sh3c",{scale:1.0,x:0,y:0},{scale:1.16,x:0,y:0,duration:1.280,ease:"none"},4.900);
+tl.fromTo("#sh3tg",{scale:0.6,opacity:0,rotation:-3},{scale:1,opacity:1,rotation:-1.5,duration:0.22,ease:"back.out(2.4)"},5.850);
+tl.fromTo("#sh3",{x:"100%"},{x:"0%",duration:0.24,ease:"power3.out"},4.900);
+tl.fromTo("#sh2",{x:"0%",y:"0%"},{x:"-35%",duration:0.24,ease:"power2.in",immediateRender:false},4.900);
+tl.fromTo("#sh4p0c",{scale:1.0,x:0,y:0},{scale:1.13,x:14,y:0,duration:1.540,ease:"none"},5.880);
+tl.fromTo("#sh4p0",{y:"-110%"},{y:"0%",duration:0.26,ease:"power3.out"},5.880);
+tl.fromTo("#sh4p1c",{scale:1.0,x:0,y:0},{scale:1.13,x:-14,y:0,duration:1.540,ease:"none"},5.880);
+tl.fromTo("#sh4p1",{y:"110%"},{y:"0%",duration:0.26,ease:"power3.out"},5.930);
+tl.fromTo("#sh4tu",{scaleX:0},{scaleX:1,duration:0.3,ease:"power3.out"},6.360);
+tl.fromTo("#sh4tg",{scale:0.6,opacity:0,rotation:-3},{scale:1,opacity:1,rotation:-1.5,duration:0.22,ease:"back.out(2.4)"},6.180);
+tl.fromTo("#sh4",{x:"-100%"},{x:"0%",duration:0.24,ease:"power3.out"},5.880);
+tl.fromTo("#sh3",{x:"0%",y:"0%"},{x:"35%",duration:0.24,ease:"power2.in",immediateRender:false},5.880);
+tl.fromTo("#sh5m0",{scaleX:0},{scaleX:1,duration:0.32,ease:"power2.out",immediateRender:true},7.300);
+tl.fromTo("#sh5c",{scale:1.0,x:0,y:0},{scale:1.16,x:0,y:0,duration:2.620,ease:"none"},7.120);
+tl.fromTo("#sh5bd",{scale:0.4,opacity:0,y:40},{scale:1,opacity:1,y:0,duration:0.26,ease:"back.out(2.2)"},8.070);
+tl.fromTo("#sh5bdb path",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.34,ease:"power1.inOut"},8.190);
+tl.fromTo("#sh5",{y:"100%"},{y:"0%",duration:0.24,ease:"power3.out"},7.120);
+tl.fromTo("#sh4",{x:"0%",y:"0%"},{y:"-30%",duration:0.24,ease:"power2.in",immediateRender:false},7.120);
+tl.fromTo("#sh6p0m0",{scaleX:0},{scaleX:1,duration:0.28,ease:"power3.out"},9.940);
+tl.fromTo("#sh6p0c",{scale:1.0,x:0,y:0},{scale:1.13,x:0,y:0,duration:1.560,ease:"none"},9.440);
+tl.fromTo("#sh6p0",{x:"-100%"},{x:"0%",duration:0.26,ease:"power3.out"},9.440);
+tl.fromTo("#sh6p1m0",{scaleX:0},{scaleX:1,duration:0.32,ease:"power2.out",immediateRender:true},10.190);
+tl.fromTo("#sh6p1m1",{scaleX:0},{scaleX:1,duration:0.32,ease:"power2.out",immediateRender:true},10.340);
+tl.fromTo("#sh6p1c",{scale:1.0,x:0,y:0},{scale:1.13,x:0,y:0,duration:1.560,ease:"none"},9.440);
+tl.fromTo("#sh6p1",{x:"100%"},{x:"0%",duration:0.26,ease:"power3.out"},9.480);
+tl.fromTo("#sh6",{x:"100%",filter:"blur(14px)"},{x:"0%",filter:"blur(0px)",duration:0.24,ease:"power3.out"},9.440);
+tl.fromTo("#sh5",{x:"0%",y:"0%"},{x:"-35%",duration:0.24,ease:"power2.in",immediateRender:false},9.440);
+tl.fromTo("#sh7c",{scale:1.0,x:0,y:0},{scale:1.12,x:0,y:0,duration:1.500,ease:"none"},10.700);
+(function(){const o={v:0};tl.fromTo(o,{v:0},{v:6,duration:0.60,ease:"power2.out",onUpdate:()=>{const e=document.getElementById("sh7n");if(e)e.textContent=Math.round(o.v).toString().replace(/\B(?=(\d{3})+(?!\d))/g,".");}},10.780);})();
+tl.fromTo("#sh7n",{scale:0.3,opacity:0},{scale:1,opacity:1,duration:0.28,ease:"back.out(2.6)"},10.750);
+tl.fromTo("#sh7n",{scale:1},{scale:1.12,duration:0.12,yoyo:true,repeat:1,ease:"power1.out",immediateRender:false},11.380);
+tl.fromTo("#sh7k",{y:-60,opacity:0},{y:0,opacity:1,duration:0.24,ease:"power3.out"},10.720);
+tl.fromTo("#sh7l",{x:-700,skewX:-12},{x:0,skewX:-8,duration:0.26,ease:"power4.out"},10.920);
+tl.fromTo("#sh7b path",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.36,ease:"power1.inOut"},11.380);
+tl.fromTo("#sh7",{x:"-100%"},{x:"0%",duration:0.24,ease:"power3.out"},10.700);
+tl.fromTo("#sh6",{x:"0%",y:"0%"},{x:"35%",duration:0.24,ease:"power2.in",immediateRender:false},10.700);
+tl.fromTo("#sh8m0",{scaleX:0},{scaleX:1,duration:0.32,ease:"power2.out",immediateRender:true},12.450);
+tl.fromTo("#sh8m1",{scaleX:0},{scaleX:1,duration:0.32,ease:"power2.out",immediateRender:true},12.650);
+tl.fromTo("#sh8m2",{scaleX:0},{scaleX:1,duration:0.28,ease:"power3.out"},13.150);
+tl.fromTo("#sh8c",{scale:1.0,x:0,y:0},{scale:1.16,x:0,y:0,duration:2.540,ease:"none"},11.900);
+tl.fromTo("#sh8bd",{scale:0.4,opacity:0,y:40},{scale:1,opacity:1,y:0,duration:0.26,ease:"back.out(2.2)"},12.000);
+tl.fromTo("#sh8bdb path",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.34,ease:"power1.inOut"},12.120);
+tl.fromTo("#sh8",{x:"100%",filter:"blur(14px)"},{x:"0%",filter:"blur(0px)",duration:0.24,ease:"power3.out"},11.900);
+tl.fromTo("#sh7",{x:"0%",y:"0%"},{x:"-35%",duration:0.24,ease:"power2.in",immediateRender:false},11.900);
+tl.fromTo("#sh9m0 path",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.36,ease:"power1.inOut"},14.860);
+tl.fromTo("#sh9c",{scale:1.0,x:0,y:0},{scale:1.16,x:0,y:0,duration:1.660,ease:"none"},14.140);
+tl.fromTo("#sh9tg",{scale:0.6,opacity:0,rotation:-3},{scale:1,opacity:1,rotation:-1.5,duration:0.22,ease:"back.out(2.4)"},15.140);
+tl.fromTo("#sh9",{x:"-100%"},{x:"0%",duration:0.24,ease:"power3.out"},14.140);
+tl.fromTo("#sh8",{x:"0%",y:"0%"},{x:"35%",duration:0.24,ease:"power2.in",immediateRender:false},14.140);
+tl.fromTo("#sh10c",{scale:1.0,x:0,y:0},{scale:1.12,x:0,y:0,duration:1.860,ease:"none"},15.500);
+(function(){const o={v:0};tl.fromTo(o,{v:0},{v:5,duration:0.75,ease:"power2.out",onUpdate:()=>{const e=document.getElementById("sh10n");if(e)e.textContent=Math.round(o.v).toString().replace(/\B(?=(\d{3})+(?!\d))/g,".");}},15.580);})();
+tl.fromTo("#sh10n",{scale:0.3,opacity:0},{scale:1,opacity:1,duration:0.28,ease:"back.out(2.6)"},15.550);
+tl.fromTo("#sh10n",{scale:1},{scale:1.12,duration:0.12,yoyo:true,repeat:1,ease:"power1.out",immediateRender:false},16.330);
+tl.fromTo("#sh10k",{y:-60,opacity:0},{y:0,opacity:1,duration:0.24,ease:"power3.out"},15.520);
+tl.fromTo("#sh10l",{x:-700,skewX:-12},{x:0,skewX:-8,duration:0.26,ease:"power4.out"},15.720);
+tl.fromTo("#sh10b path",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.36,ease:"power1.inOut"},16.330);
+tl.fromTo("#sh10me",{scale:0,rotation:-120},{scale:1,rotation:0,duration:0.4,ease:"back.out(1.8)"},15.600);
+tl.fromTo("#sh10",{x:"100%"},{x:"0%",duration:0.24,ease:"power3.out"},15.500);
+tl.fromTo("#sh9",{x:"0%",y:"0%"},{x:"-35%",duration:0.24,ease:"power2.in",immediateRender:false},15.500);
+tl.fromTo("#sh11c",{scale:1.0,x:0,y:0},{scale:1.16,x:0,y:0,duration:1.980,ease:"none"},17.060);
+tl.fromTo("#sh11tg",{scale:0.6,opacity:0,rotation:-3},{scale:1,opacity:1,rotation:-1.5,duration:0.22,ease:"back.out(2.4)"},17.560);
+tl.fromTo("#sh11",{x:"-100%",filter:"blur(14px)"},{x:"0%",filter:"blur(0px)",duration:0.24,ease:"power3.out"},17.060);
+tl.fromTo("#sh10",{x:"0%",y:"0%"},{x:"35%",duration:0.24,ease:"power2.in",immediateRender:false},17.060);
+tl.fromTo("#sh12c",{scale:1.0,x:0,y:0},{scale:1.12,x:0,y:0,duration:1.460,ease:"none"},18.740);
+tl.fromTo("#sh12a",{y:-80,opacity:0},{y:0,opacity:1,duration:0.2,ease:"power3.out"},18.760);
+tl.fromTo("#sh12b",{scale:1.6,opacity:0},{scale:1,opacity:1,duration:0.22,ease:"power4.out"},18.990);
+tl.fromTo("#sh12x",{scaleX:0},{scaleX:1,duration:0.22,ease:"power3.out"},19.290);
+tl.fromTo("#sh12c3",{opacity:0},{opacity:1,duration:0.2},19.440);
+tl.fromTo("#sh12",{y:"100%"},{y:"0%",duration:0.24,ease:"power3.out"},18.740);
+tl.fromTo("#sh11",{x:"0%",y:"0%"},{y:"-30%",duration:0.24,ease:"power2.in",immediateRender:false},18.740);
+tl.fromTo("#sh13v",{scale:1.04},{scale:1.17,duration:2.000,ease:"none"},19.900);
+tl.fromTo("#sh14c",{scale:1.0,x:0,y:0},{scale:1.15,x:0,y:0,duration:1.550,ease:"none"},21.600);
+tl.fromTo("#sh14q",{scale:0.6,opacity:0},{scale:1,opacity:1,duration:0.18,ease:"back.out(2.4)"},21.700);
+tl.fromTo("#sh14qt",{clipPath:"inset(0 100% 0 0)"},{clipPath:"inset(0 0% 0 0)",duration:0.4,ease:"steps(12)"},21.750);
+tl.fromTo("#sh14a",{scale:0.6,opacity:0},{scale:1,opacity:1,duration:0.18,ease:"back.out(2.4)"},22.200);
+tl.fromTo("#sh14at",{clipPath:"inset(0 100% 0 0)"},{clipPath:"inset(0 0% 0 0)",duration:0.5,ease:"steps(14)"},22.250);
+tl.fromTo("#sh14",{x:"100%"},{x:"0%",duration:0.24,ease:"power3.out"},21.600);
+tl.fromTo("#sh13",{x:"0%",y:"0%"},{x:"-35%",duration:0.24,ease:"power2.in",immediateRender:false},21.600);
+tl.fromTo("#sh15c",{scale:1.0,x:0,y:0},{scale:1.12,x:0,y:0,duration:2.090,ease:"none"},22.850);
+tl.fromTo("#sh15f0",{x:-500,opacity:0},{x:0,opacity:1,duration:0.2,ease:"power3.out"},22.850);
+tl.fromTo("#sh15a0",{x:0,opacity:0},{x:0,opacity:1,duration:0.2,ease:"power3.out"},22.920);
+tl.fromTo("#sh15f1",{x:-500,opacity:0},{x:0,opacity:1,duration:0.2,ease:"power3.out"},22.990);
+tl.fromTo("#sh15a1",{x:0,opacity:0},{x:0,opacity:1,duration:0.2,ease:"power3.out"},23.060);
+tl.fromTo("#sh15f2",{x:-500,opacity:0},{x:0,opacity:1,duration:0.2,ease:"power3.out"},23.130);
+tl.fromTo("#sh15fb",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.36,ease:"power1.inOut"},23.350);
+tl.fromTo("#sh15",{x:"-100%"},{x:"0%",duration:0.24,ease:"power3.out"},22.850);
+tl.fromTo("#sh14",{x:"0%",y:"0%"},{x:"35%",duration:0.24,ease:"power2.in",immediateRender:false},22.850);
+tl.fromTo("#sh16p0m0",{scaleX:0},{scaleX:1,duration:0.32,ease:"power2.out",immediateRender:true},24.940);
+tl.fromTo("#sh16p0m1",{scaleX:0},{scaleX:1,duration:0.32,ease:"power2.out",immediateRender:true},25.120);
+tl.fromTo("#sh16p0m2",{scaleX:0},{scaleX:1,duration:0.32,ease:"power2.out",immediateRender:true},25.260);
+tl.fromTo("#sh16p0c",{scale:1.0,x:0,y:0},{scale:1.13,x:0,y:0,duration:2.260,ease:"none"},24.640);
+tl.fromTo("#sh16p0",{x:"-100%"},{x:"0%",duration:0.26,ease:"power3.out"},24.640);
+tl.fromTo("#sh16p1a",{x:-300,opacity:0},{x:0,opacity:1,duration:0.22,ease:"back.out(2)"},25.300);
+tl.fromTo("#sh16p1b",{x:300,opacity:0},{x:0,opacity:1,duration:0.22,ease:"back.out(2)"},25.800);
+tl.fromTo("#sh16p1c",{scale:1.0,x:0,y:0},{scale:1.1,x:0,y:0,duration:2.260,ease:"none"},24.640);
+tl.fromTo("#sh16p1",{x:"100%"},{x:"0%",duration:0.26,ease:"power3.out"},24.680);
+tl.fromTo("#sh16",{x:"100%",filter:"blur(14px)"},{x:"0%",filter:"blur(0px)",duration:0.24,ease:"power3.out"},24.640);
+tl.fromTo("#sh15",{x:"0%",y:"0%"},{x:"-35%",duration:0.24,ease:"power2.in",immediateRender:false},24.640);
+tl.fromTo("#sh17m0",{scaleX:0},{scaleX:1,duration:0.28,ease:"power3.out"},26.850);
+tl.fromTo("#sh17c",{scale:1.0,x:0,y:0},{scale:1.16,x:0,y:0,duration:2.240,ease:"none"},26.600);
+tl.fromTo("#sh17bd",{scale:0.4,opacity:0,y:40},{scale:1,opacity:1,y:0,duration:0.26,ease:"back.out(2.2)"},27.300);
+tl.fromTo("#sh17bdb path",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.34,ease:"power1.inOut"},27.420);
+tl.fromTo("#sh17",{x:"-100%"},{x:"0%",duration:0.24,ease:"power3.out"},26.600);
+tl.fromTo("#sh16",{x:"0%",y:"0%"},{x:"35%",duration:0.24,ease:"power2.in",immediateRender:false},26.600);
+tl.fromTo("#sh18c",{scale:1.0,x:0,y:0},{scale:1.16,x:0,y:0,duration:1.460,ease:"none"},28.540);
+tl.fromTo("#sh18tg",{scale:0.6,opacity:0,rotation:-3},{scale:1,opacity:1,rotation:-1.5,duration:0.22,ease:"back.out(2.4)"},28.690);
+tl.fromTo("#sh18",{x:"100%",filter:"blur(14px)"},{x:"0%",filter:"blur(0px)",duration:0.24,ease:"power3.out"},28.540);
+tl.fromTo("#sh17",{x:"0%",y:"0%"},{x:"-35%",duration:0.24,ease:"power2.in",immediateRender:false},28.540);
+tl.fromTo("#sh19c",{scale:1.0,x:0,y:0},{scale:1.12,x:0,y:0,duration:1.660,ease:"none"},29.700);
+(function(){const o={v:0};tl.fromTo(o,{v:0},{v:384,duration:0.68,ease:"power2.out",onUpdate:()=>{const e=document.getElementById("sh19n");if(e)e.textContent=Math.round(o.v).toString().replace(/\B(?=(\d{3})+(?!\d))/g,".");}},29.780);})();
+tl.fromTo("#sh19n",{scale:0.3,opacity:0},{scale:1,opacity:1,duration:0.28,ease:"back.out(2.6)"},29.750);
+tl.fromTo("#sh19n",{scale:1},{scale:1.12,duration:0.12,yoyo:true,repeat:1,ease:"power1.out",immediateRender:false},30.460);
+tl.fromTo("#sh19k",{y:-60,opacity:0},{y:0,opacity:1,duration:0.24,ease:"power3.out"},29.720);
+tl.fromTo("#sh19l",{x:-700,skewX:-12},{x:0,skewX:-8,duration:0.26,ease:"power4.out"},29.920);
+tl.fromTo("#sh19b path",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.36,ease:"power1.inOut"},30.460);
+tl.fromTo("#sh19",{y:"100%"},{y:"0%",duration:0.24,ease:"power3.out"},29.700);
+tl.fromTo("#sh18",{x:"0%",y:"0%"},{y:"-30%",duration:0.24,ease:"power2.in",immediateRender:false},29.700);
+tl.fromTo("#sh20c",{scale:1.0,x:0,y:0},{scale:1.16,x:0,y:0,duration:1.420,ease:"none"},31.060);
+tl.fromTo("#sh20tg",{scale:0.6,opacity:0,rotation:-3},{scale:1,opacity:1,rotation:-1.5,duration:0.22,ease:"back.out(2.4)"},31.560);
+tl.fromTo("#sh20",{x:"-100%"},{x:"0%",duration:0.24,ease:"power3.out"},31.060);
+tl.fromTo("#sh19",{x:"0%",y:"0%"},{x:"35%",duration:0.24,ease:"power2.in",immediateRender:false},31.060);
+tl.fromTo("#sh21m0",{scaleX:0},{scaleX:1,duration:0.28,ease:"power3.out"},32.380);
+tl.fromTo("#sh21m1 path",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.36,ease:"power1.inOut"},33.080);
+tl.fromTo("#sh21c",{scale:1.0,x:0,y:0},{scale:1.16,x:0,y:0,duration:1.820,ease:"none"},32.180);
+tl.fromTo("#sh21tg",{scale:0.6,opacity:0,rotation:-3},{scale:1,opacity:1,rotation:-1.5,duration:0.22,ease:"back.out(2.4)"},33.130);
+tl.fromTo("#sh21",{x:"100%",filter:"blur(14px)"},{x:"0%",filter:"blur(0px)",duration:0.24,ease:"power3.out"},32.180);
+tl.fromTo("#sh20",{x:"0%",y:"0%"},{x:"-35%",duration:0.24,ease:"power2.in",immediateRender:false},32.180);
+tl.fromTo("#sh22c",{scale:1.0,x:0,y:0},{scale:1.12,x:0,y:0,duration:2.290,ease:"none"},33.700);
+(function(){const o={v:1990};tl.fromTo(o,{v:1990},{v:2015,duration:0.75,ease:"power2.out",onUpdate:()=>{const e=document.getElementById("sh22n");if(e)e.textContent=Math.round(o.v).toString();}},33.780);})();
+tl.fromTo("#sh22n",{scale:0.3,opacity:0},{scale:1,opacity:1,duration:0.28,ease:"back.out(2.6)"},33.750);
+tl.fromTo("#sh22n",{scale:1},{scale:1.12,duration:0.12,yoyo:true,repeat:1,ease:"power1.out",immediateRender:false},34.530);
+tl.fromTo("#sh22k",{y:-60,opacity:0},{y:0,opacity:1,duration:0.24,ease:"power3.out"},33.720);
+tl.fromTo("#sh22l",{x:-700,skewX:-12},{x:0,skewX:-8,duration:0.26,ease:"power4.out"},33.920);
+tl.fromTo("#sh22b path",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.36,ease:"power1.inOut"},34.530);
+tl.fromTo("#sh22",{x:"-100%"},{x:"0%",duration:0.24,ease:"power3.out"},33.700);
+tl.fromTo("#sh21",{x:"0%",y:"0%"},{x:"35%",duration:0.24,ease:"power2.in",immediateRender:false},33.700);
+tl.fromTo("#sh23p0m0",{scaleX:0},{scaleX:1,duration:0.32,ease:"power2.out",immediateRender:true},35.940);
+tl.fromTo("#sh23p0m1 path",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.36,ease:"power1.inOut"},36.490);
+tl.fromTo("#sh23p0c",{scale:1.0,x:0,y:0},{scale:1.13,x:0,y:0,duration:2.030,ease:"none"},35.690);
+tl.fromTo("#sh23p0",{x:"-100%"},{x:"0%",duration:0.26,ease:"power3.out"},35.690);
+tl.fromTo("#sh23p1m0",{scaleX:0},{scaleX:1,duration:0.28,ease:"power3.out"},36.740);
+tl.fromTo("#sh23p1c",{scale:1.0,x:0,y:0},{scale:1.13,x:0,y:0,duration:2.030,ease:"none"},35.690);
+tl.fromTo("#sh23p1",{x:"100%"},{x:"0%",duration:0.26,ease:"power3.out"},35.730);
+tl.fromTo("#sh23",{x:"100%",filter:"blur(14px)"},{x:"0%",filter:"blur(0px)",duration:0.24,ease:"power3.out"},35.690);
+tl.fromTo("#sh22",{x:"0%",y:"0%"},{x:"-35%",duration:0.24,ease:"power2.in",immediateRender:false},35.690);
+tl.fromTo("#sh24m0",{scaleX:0},{scaleX:1,duration:0.32,ease:"power2.out",immediateRender:true},37.540);
+tl.fromTo("#sh24m1 path",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.36,ease:"power1.inOut"},38.040);
+tl.fromTo("#sh24c",{scale:1.0,x:0,y:0},{scale:1.16,x:0,y:0,duration:1.420,ease:"none"},37.420);
+tl.fromTo("#sh24",{x:"-100%"},{x:"0%",duration:0.24,ease:"power3.out"},37.420);
+tl.fromTo("#sh23",{x:"0%",y:"0%"},{x:"35%",duration:0.24,ease:"power2.in",immediateRender:false},37.420);
+tl.fromTo("#sh25p0c",{scale:1.0,x:0,y:0},{scale:1.13,x:14,y:0,duration:1.400,ease:"none"},38.540);
+tl.fromTo("#sh25p0",{y:"-110%"},{y:"0%",duration:0.26,ease:"power3.out"},38.540);
+tl.fromTo("#sh25p1c",{scale:1.0,x:0,y:0},{scale:1.13,x:-14,y:0,duration:1.400,ease:"none"},38.540);
+tl.fromTo("#sh25p1",{y:"110%"},{y:"0%",duration:0.26,ease:"power3.out"},38.590);
+tl.fromTo("#sh25tg",{scale:0.6,opacity:0,rotation:-3},{scale:1,opacity:1,rotation:-1.5,duration:0.22,ease:"back.out(2.4)"},38.690);
+tl.fromTo("#sh25",{y:"100%"},{y:"0%",duration:0.24,ease:"power3.out"},38.540);
+tl.fromTo("#sh24",{x:"0%",y:"0%"},{y:"-30%",duration:0.24,ease:"power2.in",immediateRender:false},38.540);
+tl.fromTo("#sh26c",{scale:1.0,x:0,y:0},{scale:1.12,x:0,y:0,duration:1.500,ease:"none"},39.640);
+(function(){const o={v:0};tl.fromTo(o,{v:0},{v:5000,duration:0.60,ease:"power2.out",onUpdate:()=>{const e=document.getElementById("sh26n");if(e)e.textContent=Math.round(o.v).toString().replace(/\B(?=(\d{3})+(?!\d))/g,".");}},39.720);})();
+tl.fromTo("#sh26n",{scale:0.3,opacity:0},{scale:1,opacity:1,duration:0.28,ease:"back.out(2.6)"},39.690);
+tl.fromTo("#sh26n",{scale:1},{scale:1.12,duration:0.12,yoyo:true,repeat:1,ease:"power1.out",immediateRender:false},40.320);
+tl.fromTo("#sh26k",{y:-60,opacity:0},{y:0,opacity:1,duration:0.24,ease:"power3.out"},39.660);
+tl.fromTo("#sh26l",{x:-700,skewX:-12},{x:0,skewX:-8,duration:0.26,ease:"power4.out"},39.860);
+tl.fromTo("#sh26b path",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.36,ease:"power1.inOut"},40.320);
+tl.fromTo("#sh26",{x:"100%",filter:"blur(14px)"},{x:"0%",filter:"blur(0px)",duration:0.24,ease:"power3.out"},39.640);
+tl.fromTo("#sh25",{x:"0%",y:"0%"},{x:"-35%",duration:0.24,ease:"power2.in",immediateRender:false},39.640);
+tl.fromTo("#sh27m0 path",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.36,ease:"power1.inOut"},41.020);
+tl.fromTo("#sh27c",{scale:1.0,x:0,y:0},{scale:1.16,x:0,y:0,duration:1.360,ease:"none"},40.840);
+tl.fromTo("#sh27",{x:"-100%"},{x:"0%",duration:0.24,ease:"power3.out"},40.840);
+tl.fromTo("#sh26",{x:"0%",y:"0%"},{x:"35%",duration:0.24,ease:"power2.in",immediateRender:false},40.840);
+tl.fromTo("#sh28v",{scale:1.04},{scale:1.17,duration:1.820,ease:"none"},41.900);
+tl.fromTo("#sh29m0 path",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.36,ease:"power1.inOut"},43.570);
+tl.fromTo("#sh29c",{scale:1.0,x:0,y:0},{scale:1.16,x:0,y:0,duration:1.580,ease:"none"},43.420);
+tl.fromTo("#sh29st",{scale:2.2,opacity:0,rotation:-14},{scale:1,opacity:1,rotation:-8,duration:0.2,ease:"power4.out"},43.740);
+tl.fromTo("#sh29",{x:"100%",filter:"blur(14px)"},{x:"0%",filter:"blur(0px)",duration:0.24,ease:"power3.out"},43.420);
+tl.fromTo("#sh28",{x:"0%",y:"0%"},{x:"-35%",duration:0.24,ease:"power2.in",immediateRender:false},43.420);
+tl.fromTo("#sh30p0c",{scale:1.0,x:0,y:0},{scale:1.13,x:14,y:0,duration:2.290,ease:"none"},44.700);
+tl.fromTo("#sh30p0",{y:"-110%"},{y:"0%",duration:0.26,ease:"power3.out"},44.700);
+tl.fromTo("#sh30p1c",{scale:1.0,x:0,y:0},{scale:1.13,x:-14,y:0,duration:2.290,ease:"none"},44.700);
+tl.fromTo("#sh30p1",{y:"110%"},{y:"0%",duration:0.26,ease:"power3.out"},44.750);
+tl.fromTo("#sh30th",{scaleX:0},{scaleX:1,duration:0.32,ease:"power2.out"},45.620);
+tl.fromTo("#sh30tg",{scale:0.6,opacity:0,rotation:-3},{scale:1,opacity:1,rotation:-1.5,duration:0.22,ease:"back.out(2.4)"},45.500);
+tl.fromTo("#sh30",{x:"-100%"},{x:"0%",duration:0.24,ease:"power3.out"},44.700);
+tl.fromTo("#sh29",{x:"0%",y:"0%"},{x:"35%",duration:0.24,ease:"power2.in",immediateRender:false},44.700);
+tl.fromTo("#sh31c",{scale:1.0,x:0,y:0},{scale:1.12,x:0,y:0,duration:1.870,ease:"none"},46.690);
+tl.fromTo("#sh31e0",{scale:0.4,opacity:0},{scale:1,opacity:1,duration:0.2,ease:"back.out(2.4)"},46.690);
+tl.fromTo("#sh31e1",{scale:0.4,opacity:0},{scale:1,opacity:1,duration:0.2,ease:"back.out(2.4)"},46.940);
+tl.fromTo("#sh31e2",{scale:0.4,opacity:0},{scale:1,opacity:1,duration:0.2,ease:"back.out(2.4)"},47.190);
+tl.fromTo("#sh31e3",{scale:0.4,opacity:0},{scale:1,opacity:1,duration:0.2,ease:"back.out(2.4)"},47.840);
+tl.fromTo("#sh31e4",{scale:0.4,opacity:0},{scale:1,opacity:1,duration:0.2,ease:"back.out(2.4)"},47.990);
+tl.fromTo("#sh31",{y:"100%"},{y:"0%",duration:0.24,ease:"power3.out"},46.690);
+tl.fromTo("#sh30",{x:"0%",y:"0%"},{y:"-30%",duration:0.24,ease:"power2.in",immediateRender:false},46.690);
+tl.fromTo("#sh32p0c",{scale:1.0,x:0,y:0},{scale:1.13,x:0,y:0,duration:1.480,ease:"none"},48.260);
+tl.fromTo("#sh32p0",{x:"-100%"},{x:"0%",duration:0.26,ease:"power3.out"},48.260);
+tl.fromTo("#sh32p1m0",{scaleX:0},{scaleX:1,duration:0.32,ease:"power2.out",immediateRender:true},48.560);
+tl.fromTo("#sh32p1c",{scale:1.0,x:0,y:0},{scale:1.13,x:0,y:0,duration:1.480,ease:"none"},48.260);
+tl.fromTo("#sh32p1",{x:"100%"},{x:"0%",duration:0.26,ease:"power3.out"},48.300);
+tl.fromTo("#sh32th",{scaleX:0},{scaleX:1,duration:0.32,ease:"power2.out"},48.730);
+tl.fromTo("#sh32tg",{scale:0.6,opacity:0,rotation:-3},{scale:1,opacity:1,rotation:-1.5,duration:0.22,ease:"back.out(2.4)"},48.610);
+tl.fromTo("#sh32",{x:"100%",filter:"blur(14px)"},{x:"0%",filter:"blur(0px)",duration:0.24,ease:"power3.out"},48.260);
+tl.fromTo("#sh31",{x:"0%",y:"0%"},{x:"-35%",duration:0.24,ease:"power2.in",immediateRender:false},48.260);
+tl.fromTo("#sh33v",{scale:1.04},{scale:1.17,duration:2.160,ease:"none"},49.440);
+tl.fromTo("#qcard",{y:-260,opacity:0,rotation:-4},{y:0,opacity:1,rotation:-1.5,duration:0.32,ease:"back.out(1.8)"},49.590);
+tl.fromTo("#qy",{backgroundSize:"0% 100%"},{backgroundSize:"100% 100%",duration:0.5,ease:"power2.out"},50.040);
+tl.fromTo("#k0i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},0.000);
+tl.set("#k0w0",{color:"#FFD400"},0.000);
+tl.set("#k0w0",{color:"#FFFFFF"},0.400);
+tl.set("#k0w1",{color:"#FFD400"},0.400);
+tl.set("#k0w1",{color:"#FFFFFF"},0.540);
+tl.set("#k0w2",{color:"#FFD400"},0.540);
+tl.fromTo("#k1i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},0.735);
+tl.set("#k1w0",{color:"#FFD400"},0.735);
+tl.set("#k1w0",{color:"#FFFFFF"},0.930);
+tl.set("#k1w1",{color:"#FFD400"},0.930);
+tl.set("#k1w1",{color:"#FFFFFF"},1.125);
+tl.set("#k1w2",{color:"#FFD400"},1.125);
+tl.fromTo("#k2i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},1.320);
+tl.set("#k2w0",{color:"#FFD400"},1.320);
+tl.set("#k2w0",{color:"#FFFFFF"},1.580);
+tl.set("#k2w1",{color:"#FFD400"},1.580);
+tl.fromTo("#k3i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},1.720);
+tl.set("#k3w0",{color:"#FFD400"},1.720);
+tl.set("#k3w0",{color:"#FFFFFF"},1.900);
+tl.set("#k3w1",{color:"#FFD400"},1.900);
+tl.fromTo("#k4i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},2.100);
+tl.set("#k4w0",{color:"#FFD400"},2.100);
+tl.set("#k4w0",{color:"#FFFFFF"},2.260);
+tl.set("#k4w1",{color:"#FFD400"},2.260);
+tl.fromTo("#k5i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},2.400);
+tl.set("#k5w0",{color:"#FFD400"},2.400);
+tl.set("#k5w0",{color:"#FFFFFF"},2.500);
+tl.set("#k5w1",{color:"#FFD400"},2.500);
+tl.fromTo("#k6i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},2.925);
+tl.set("#k6w0",{color:"#FFD400"},2.925);
+tl.set("#k6w0",{color:"#FFFFFF"},3.153);
+tl.set("#k6w1",{color:"#FFD400"},3.153);
+tl.set("#k6w1",{color:"#FFFFFF"},3.480);
+tl.set("#k6w2",{color:"#FFD400"},3.480);
+tl.fromTo("#k7i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},3.480);
+tl.set("#k7w0",{color:"#FFD400"},3.480);
+tl.set("#k7w0",{color:"#FFFFFF"},3.700);
+tl.set("#k7w1",{color:"#FFD400"},3.700);
+tl.set("#k7w1",{color:"#FFFFFF"},3.840);
+tl.set("#k7w2",{color:"#FFD400"},3.840);
+tl.fromTo("#k8i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},3.980);
+tl.set("#k8w0",{color:"#FFD400"},3.980);
+tl.set("#k8w0",{color:"#FFFFFF"},4.160);
+tl.set("#k8w1",{color:"#FFD400"},4.160);
+tl.fromTo("#k9i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},4.300);
+tl.set("#k9w0",{color:"#FFD400"},4.300);
+tl.set("#k9w0",{color:"#FFFFFF"},4.440);
+tl.set("#k9w1",{color:"#FFD400"},4.440);
+tl.fromTo("#k10i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},4.897);
+tl.set("#k10w0",{color:"#FFD400"},4.897);
+tl.set("#k10w0",{color:"#FFFFFF"},5.040);
+tl.set("#k10w1",{color:"#FFD400"},5.040);
+tl.set("#k10w1",{color:"#FFFFFF"},5.160);
+tl.set("#k10w2",{color:"#FFD400"},5.160);
+tl.fromTo("#k11i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},5.580);
+tl.set("#k11w0",{color:"#FFD400"},5.580);
+tl.set("#k11w0",{color:"#FFFFFF"},5.680);
+tl.set("#k11w1",{color:"#FFD400"},5.680);
+tl.set("#k11w1",{color:"#FFFFFF"},5.880);
+tl.set("#k11w2",{color:"#FFD400"},5.880);
+tl.fromTo("#k12i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},6.040);
+tl.set("#k12w0",{color:"#FFD400"},6.040);
+tl.set("#k12w0",{color:"#FFFFFF"},6.240);
+tl.set("#k12w1",{color:"#FFD400"},6.240);
+tl.fromTo("#k13i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},6.440);
+tl.set("#k13w0",{color:"#FFD400"},6.440);
+tl.set("#k13w0",{color:"#FFFFFF"},6.580);
+tl.set("#k13w1",{color:"#FFD400"},6.580);
+tl.set("#k13w1",{color:"#FFFFFF"},6.640);
+tl.set("#k13w2",{color:"#FFD400"},6.640);
+tl.fromTo("#k14i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},7.180);
+tl.set("#k14w0",{color:"#FFD400"},7.180);
+tl.set("#k14w0",{color:"#FFFFFF"},7.260);
+tl.set("#k14w1",{color:"#FFD400"},7.260);
+tl.fromTo("#k15i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},8.080);
+tl.set("#k15w0",{color:"#FFD400"},8.080);
+tl.set("#k15w0",{color:"#FFFFFF"},8.360);
+tl.set("#k15w1",{color:"#FFD400"},8.360);
+tl.set("#k15w1",{color:"#FFFFFF"},8.480);
+tl.set("#k15w2",{color:"#FFD400"},8.480);
+tl.fromTo("#k16i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},8.640);
+tl.set("#k16w0",{color:"#FFD400"},8.640);
+tl.set("#k16w0",{color:"#FFFFFF"},8.880);
+tl.set("#k16w1",{color:"#FFD400"},8.880);
+tl.fromTo("#k17i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},9.440);
+tl.set("#k17w0",{color:"#FFD400"},9.440);
+tl.set("#k17w0",{color:"#FFFFFF"},9.480);
+tl.set("#k17w1",{color:"#FFD400"},9.480);
+tl.fromTo("#k18i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},9.620);
+tl.set("#k18w0",{color:"#FFD400"},9.620);
+tl.set("#k18w0",{color:"#FFFFFF"},9.780);
+tl.set("#k18w1",{color:"#FFD400"},9.780);
+tl.set("#k18w1",{color:"#FFFFFF"},9.980);
+tl.set("#k18w2",{color:"#FFD400"},9.980);
+tl.fromTo("#k19i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},10.180);
+tl.set("#k19w0",{color:"#FFD400"},10.180);
+tl.set("#k19w0",{color:"#FFFFFF"},10.480);
+tl.set("#k19w1",{color:"#FFD400"},10.480);
+tl.set("#k19w1",{color:"#FFFFFF"},10.700);
+tl.set("#k19w2",{color:"#FFD400"},10.700);
+tl.fromTo("#k20i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},10.860);
+tl.set("#k20w0",{color:"#FFD400"},10.860);
+tl.set("#k20w0",{color:"#FFFFFF"},11.000);
+tl.set("#k20w1",{color:"#FFD400"},11.000);
+tl.fromTo("#k21i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},11.160);
+tl.set("#k21w0",{color:"#FFD400"},11.160);
+tl.set("#k21w0",{color:"#FFFFFF"},11.380);
+tl.set("#k21w1",{color:"#FFD400"},11.380);
+tl.fromTo("#k22i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},11.900);
+tl.set("#k22w0",{color:"#FFD400"},11.900);
+tl.set("#k22w0",{color:"#FFFFFF"},12.020);
+tl.set("#k22w1",{color:"#FFD400"},12.020);
+tl.fromTo("#k23i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},12.140);
+tl.set("#k23w0",{color:"#FFD400"},12.140);
+tl.set("#k23w0",{color:"#FFFFFF"},12.300);
+tl.set("#k23w1",{color:"#FFD400"},12.300);
+tl.fromTo("#k24i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},12.453);
+tl.set("#k24w0",{color:"#FFD400"},12.453);
+tl.set("#k24w0",{color:"#FFFFFF"},12.607);
+tl.set("#k24w1",{color:"#FFD400"},12.607);
+tl.set("#k24w1",{color:"#FFFFFF"},12.760);
+tl.set("#k24w2",{color:"#FFD400"},12.760);
+tl.fromTo("#k25i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},12.880);
+tl.set("#k25w0",{color:"#FFD400"},12.880);
+tl.set("#k25w0",{color:"#FFFFFF"},13.020);
+tl.set("#k25w1",{color:"#FFD400"},13.020);
+tl.fromTo("#k26i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},13.160);
+tl.set("#k26w0",{color:"#FFD400"},13.160);
+tl.set("#k26w0",{color:"#FFFFFF"},13.300);
+tl.set("#k26w1",{color:"#FFD400"},13.300);
+tl.fromTo("#k27i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},13.480);
+tl.set("#k27w0",{color:"#FFD400"},13.480);
+tl.set("#k27w0",{color:"#FFFFFF"},13.660);
+tl.set("#k27w1",{color:"#FFD400"},13.660);
+tl.fromTo("#k28i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},14.140);
+tl.set("#k28w0",{color:"#FFD400"},14.140);
+tl.set("#k28w0",{color:"#FFFFFF"},14.240);
+tl.set("#k28w1",{color:"#FFD400"},14.240);
+tl.fromTo("#k29i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},14.660);
+tl.set("#k29w0",{color:"#FFD400"},14.660);
+tl.set("#k29w0",{color:"#FFFFFF"},14.740);
+tl.set("#k29w1",{color:"#FFD400"},14.740);
+tl.set("#k29w1",{color:"#FFFFFF"},14.880);
+tl.set("#k29w2",{color:"#FFD400"},14.880);
+tl.fromTo("#k30i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},15.200);
+tl.set("#k30w0",{color:"#FFD400"},15.200);
+tl.set("#k30w0",{color:"#FFFFFF"},15.360);
+tl.set("#k30w1",{color:"#FFD400"},15.360);
+tl.set("#k30w1",{color:"#FFFFFF"},15.500);
+tl.set("#k30w2",{color:"#FFD400"},15.500);
+tl.fromTo("#k31i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},15.680);
+tl.set("#k31w0",{color:"#FFD400"},15.680);
+tl.set("#k31w0",{color:"#FFFFFF"},15.940);
+tl.set("#k31w1",{color:"#FFD400"},15.940);
+tl.set("#k31w1",{color:"#FFFFFF"},16.000);
+tl.set("#k31w2",{color:"#FFD400"},16.000);
+tl.fromTo("#k32i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},16.267);
+tl.set("#k32w0",{color:"#FFD400"},16.267);
+tl.set("#k32w0",{color:"#FFFFFF"},16.533);
+tl.set("#k32w1",{color:"#FFD400"},16.533);
+tl.fromTo("#k33i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},17.060);
+tl.set("#k33w0",{color:"#FFD400"},17.060);
+tl.set("#k33w0",{color:"#FFFFFF"},17.180);
+tl.set("#k33w1",{color:"#FFD400"},17.180);
+tl.set("#k33w1",{color:"#FFFFFF"},17.380);
+tl.set("#k33w2",{color:"#FFD400"},17.380);
+tl.fromTo("#k34i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},17.560);
+tl.set("#k34w0",{color:"#FFD400"},17.560);
+tl.set("#k34w0",{color:"#FFFFFF"},17.740);
+tl.set("#k34w1",{color:"#FFD400"},17.740);
+tl.set("#k34w1",{color:"#FFFFFF"},17.900);
+tl.set("#k34w2",{color:"#FFD400"},17.900);
+tl.fromTo("#k35i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},18.080);
+tl.set("#k35w0",{color:"#FFD400"},18.080);
+tl.set("#k35w0",{color:"#FFFFFF"},18.220);
+tl.set("#k35w1",{color:"#FFD400"},18.220);
+tl.fromTo("#k36i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},18.740);
+tl.set("#k36w0",{color:"#FFD400"},18.740);
+tl.set("#k36w0",{color:"#FFFFFF"},18.860);
+tl.set("#k36w1",{color:"#FFD400"},18.860);
+tl.fromTo("#k37i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},19.040);
+tl.set("#k37w0",{color:"#FFD400"},19.040);
+tl.set("#k37w0",{color:"#FFFFFF"},19.240);
+tl.set("#k37w1",{color:"#FFD400"},19.240);
+tl.set("#k37w1",{color:"#FFFFFF"},19.440);
+tl.set("#k37w2",{color:"#FFD400"},19.440);
+tl.fromTo("#k38i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},19.900);
+tl.set("#k38w0",{color:"#FFD400"},19.900);
+tl.set("#k38w0",{color:"#FFFFFF"},20.000);
+tl.set("#k38w1",{color:"#FFD400"},20.000);
+tl.fromTo("#k39i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},20.200);
+tl.set("#k39w0",{color:"#FFD400"},20.200);
+tl.set("#k39w0",{color:"#FFFFFF"},20.340);
+tl.set("#k39w1",{color:"#FFD400"},20.340);
+tl.fromTo("#k40i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},20.520);
+tl.set("#k40w0",{color:"#FFD400"},20.520);
+tl.set("#k40w0",{color:"#FFFFFF"},20.780);
+tl.set("#k40w1",{color:"#FFD400"},20.780);
+tl.fromTo("#k41i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},21.020);
+tl.set("#k41w0",{color:"#FFD400"},21.020);
+tl.set("#k41w0",{color:"#FFFFFF"},21.240);
+tl.set("#k41w1",{color:"#FFD400"},21.240);
+tl.set("#k41w1",{color:"#FFFFFF"},21.360);
+tl.set("#k41w2",{color:"#FFD400"},21.360);
+tl.fromTo("#k42i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},21.600);
+tl.set("#k42w0",{color:"#FFD400"},21.600);
+tl.set("#k42w0",{color:"#FFFFFF"},21.760);
+tl.set("#k42w1",{color:"#FFD400"},21.760);
+tl.set("#k42w1",{color:"#FFFFFF"},21.900);
+tl.set("#k42w2",{color:"#FFD400"},21.900);
+tl.fromTo("#k43i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},22.854);
+tl.set("#k43w0",{color:"#FFD400"},22.854);
+tl.set("#k43w0",{color:"#FFFFFF"},23.040);
+tl.set("#k43w1",{color:"#FFD400"},23.040);
+tl.set("#k43w1",{color:"#FFFFFF"},23.180);
+tl.set("#k43w2",{color:"#FFD400"},23.180);
+tl.fromTo("#k44i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},23.380);
+tl.set("#k44w0",{color:"#FFD400"},23.380);
+tl.set("#k44w0",{color:"#FFFFFF"},23.620);
+tl.set("#k44w1",{color:"#FFD400"},23.620);
+tl.fromTo("#k45i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},23.840);
+tl.set("#k45w0",{color:"#FFD400"},23.840);
+tl.set("#k45w0",{color:"#FFFFFF"},24.080);
+tl.set("#k45w1",{color:"#FFD400"},24.080);
+tl.set("#k45w1",{color:"#FFFFFF"},24.160);
+tl.set("#k45w2",{color:"#FFD400"},24.160);
+tl.fromTo("#k46i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},24.640);
+tl.set("#k46w0",{color:"#FFD400"},24.640);
+tl.set("#k46w0",{color:"#FFFFFF"},24.700);
+tl.set("#k46w1",{color:"#FFD400"},24.700);
+tl.fromTo("#k47i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},24.860);
+tl.set("#k47w0",{color:"#FFD400"},24.860);
+tl.set("#k47w0",{color:"#FFFFFF"},25.000);
+tl.set("#k47w1",{color:"#FFD400"},25.000);
+tl.set("#k47w1",{color:"#FFFFFF"},25.140);
+tl.set("#k47w2",{color:"#FFD400"},25.140);
+tl.fromTo("#k48i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},25.300);
+tl.set("#k48w0",{color:"#FFD400"},25.300);
+tl.set("#k48w0",{color:"#FFFFFF"},25.460);
+tl.set("#k48w1",{color:"#FFD400"},25.460);
+tl.set("#k48w1",{color:"#FFFFFF"},25.660);
+tl.set("#k48w2",{color:"#FFD400"},25.660);
+tl.fromTo("#k49i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},25.800);
+tl.set("#k49w0",{color:"#FFD400"},25.800);
+tl.set("#k49w0",{color:"#FFFFFF"},26.040);
+tl.set("#k49w1",{color:"#FFD400"},26.040);
+tl.fromTo("#k50i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},26.600);
+tl.set("#k50w0",{color:"#FFD400"},26.600);
+tl.set("#k50w0",{color:"#FFFFFF"},26.620);
+tl.set("#k50w1",{color:"#FFD400"},26.620);
+tl.set("#k50w1",{color:"#FFFFFF"},26.780);
+tl.set("#k50w2",{color:"#FFD400"},26.780);
+tl.fromTo("#k51i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},27.000);
+tl.set("#k51w0",{color:"#FFD400"},27.000);
+tl.set("#k51w0",{color:"#FFFFFF"},27.140);
+tl.set("#k51w1",{color:"#FFD400"},27.140);
+tl.set("#k51w1",{color:"#FFFFFF"},27.320);
+tl.set("#k51w2",{color:"#FFD400"},27.320);
+tl.fromTo("#k52i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},28.540);
+tl.set("#k52w0",{color:"#FFD400"},28.540);
+tl.set("#k52w0",{color:"#FFFFFF"},28.640);
+tl.set("#k52w1",{color:"#FFD400"},28.640);
+tl.set("#k52w1",{color:"#FFFFFF"},28.780);
+tl.set("#k52w2",{color:"#FFD400"},28.780);
+tl.fromTo("#k53i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},28.940);
+tl.set("#k53w0",{color:"#FFD400"},28.940);
+tl.set("#k53w0",{color:"#FFFFFF"},29.120);
+tl.set("#k53w1",{color:"#FFD400"},29.120);
+tl.set("#k53w1",{color:"#FFFFFF"},29.240);
+tl.set("#k53w2",{color:"#FFD400"},29.240);
+tl.fromTo("#k54i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},29.500);
+tl.set("#k54w0",{color:"#FFD400"},29.500);
+tl.set("#k54w0",{color:"#FFFFFF"},29.700);
+tl.set("#k54w1",{color:"#FFD400"},29.700);
+tl.fromTo("#k55i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},30.440);
+tl.set("#k55w0",{color:"#FFD400"},30.440);
+tl.set("#k55w0",{color:"#FFFFFF"},30.600);
+tl.set("#k55w1",{color:"#FFD400"},30.600);
+tl.fromTo("#k56i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},31.060);
+tl.set("#k56w0",{color:"#FFD400"},31.060);
+tl.set("#k56w0",{color:"#FFFFFF"},31.100);
+tl.set("#k56w1",{color:"#FFD400"},31.100);
+tl.fromTo("#k57i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},31.280);
+tl.set("#k57w0",{color:"#FFD400"},31.280);
+tl.set("#k57w0",{color:"#FFFFFF"},31.420);
+tl.set("#k57w1",{color:"#FFD400"},31.420);
+tl.set("#k57w1",{color:"#FFFFFF"},31.560);
+tl.set("#k57w2",{color:"#FFD400"},31.560);
+tl.fromTo("#k58i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},32.180);
+tl.set("#k58w0",{color:"#FFD400"},32.180);
+tl.set("#k58w0",{color:"#FFFFFF"},32.220);
+tl.set("#k58w1",{color:"#FFD400"},32.220);
+tl.set("#k58w1",{color:"#FFFFFF"},32.400);
+tl.set("#k58w2",{color:"#FFD400"},32.400);
+tl.fromTo("#k59i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},32.620);
+tl.set("#k59w0",{color:"#FFD400"},32.620);
+tl.set("#k59w0",{color:"#FFFFFF"},32.820);
+tl.set("#k59w1",{color:"#FFD400"},32.820);
+tl.set("#k59w1",{color:"#FFFFFF"},32.960);
+tl.set("#k59w2",{color:"#FFD400"},32.960);
+tl.fromTo("#k60i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},33.120);
+tl.set("#k60w0",{color:"#FFD400"},33.120);
+tl.set("#k60w0",{color:"#FFFFFF"},33.220);
+tl.set("#k60w1",{color:"#FFD400"},33.220);
+tl.fromTo("#k61i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},33.700);
+tl.set("#k61w0",{color:"#FFD400"},33.700);
+tl.set("#k61w0",{color:"#FFFFFF"},33.740);
+tl.set("#k61w1",{color:"#FFD400"},33.740);
+tl.fromTo("#k62i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},33.860);
+tl.set("#k62w0",{color:"#FFD400"},33.860);
+tl.set("#k62w0",{color:"#FFFFFF"},34.020);
+tl.set("#k62w1",{color:"#FFD400"},34.020);
+tl.fromTo("#k63i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},34.180);
+tl.set("#k63w0",{color:"#FFD400"},34.180);
+tl.set("#k63w0",{color:"#FFFFFF"},34.340);
+tl.set("#k63w1",{color:"#FFD400"},34.340);
+tl.set("#k63w1",{color:"#FFFFFF"},34.540);
+tl.set("#k63w2",{color:"#FFD400"},34.540);
+tl.set("#k63w2",{color:"#FFFFFF"},34.680);
+tl.set("#k63w3",{color:"#FFD400"},34.680);
+tl.fromTo("#k64i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},35.694);
+tl.set("#k64w0",{color:"#FFD400"},35.694);
+tl.set("#k64w0",{color:"#FFFFFF"},35.820);
+tl.set("#k64w1",{color:"#FFD400"},35.820);
+tl.fromTo("#k65i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},36.040);
+tl.set("#k65w0",{color:"#FFD400"},36.040);
+tl.set("#k65w0",{color:"#FFFFFF"},36.320);
+tl.set("#k65w1",{color:"#FFD400"},36.320);
+tl.fromTo("#k66i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},36.460);
+tl.set("#k66w0",{color:"#FFD400"},36.460);
+tl.set("#k66w0",{color:"#FFFFFF"},36.660);
+tl.set("#k66w1",{color:"#FFD400"},36.660);
+tl.fromTo("#k67i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},37.420);
+tl.set("#k67w0",{color:"#FFD400"},37.420);
+tl.set("#k67w0",{color:"#FFFFFF"},37.520);
+tl.set("#k67w1",{color:"#FFD400"},37.520);
+tl.fromTo("#k68i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},37.680);
+tl.set("#k68w0",{color:"#FFD400"},37.680);
+tl.set("#k68w0",{color:"#FFFFFF"},37.920);
+tl.set("#k68w1",{color:"#FFD400"},37.920);
+tl.set("#k68w1",{color:"#FFFFFF"},38.120);
+tl.set("#k68w2",{color:"#FFD400"},38.120);
+tl.fromTo("#k69i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},38.340);
+tl.set("#k69w0",{color:"#FFD400"},38.340);
+tl.set("#k69w0",{color:"#FFFFFF"},38.540);
+tl.set("#k69w1",{color:"#FFD400"},38.540);
+tl.set("#k69w1",{color:"#FFFFFF"},38.680);
+tl.set("#k69w2",{color:"#FFD400"},38.680);
+tl.fromTo("#k70i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},38.920);
+tl.set("#k70w0",{color:"#FFD400"},38.920);
+tl.set("#k70w0",{color:"#FFFFFF"},39.020);
+tl.set("#k70w1",{color:"#FFD400"},39.020);
+tl.fromTo("#k71i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},39.640);
+tl.set("#k71w0",{color:"#FFD400"},39.640);
+tl.set("#k71w0",{color:"#FFFFFF"},39.980);
+tl.set("#k71w1",{color:"#FFD400"},39.980);
+tl.fromTo("#k72i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},40.160);
+tl.set("#k72w0",{color:"#FFD400"},40.160);
+tl.set("#k72w0",{color:"#FFFFFF"},40.380);
+tl.set("#k72w1",{color:"#FFD400"},40.380);
+tl.set("#k72w1",{color:"#FFFFFF"},40.610);
+tl.set("#k72w2",{color:"#FFD400"},40.610);
+tl.fromTo("#k73i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},40.840);
+tl.set("#k73w0",{color:"#FFD400"},40.840);
+tl.set("#k73w0",{color:"#FFFFFF"},41.000);
+tl.set("#k73w1",{color:"#FFD400"},41.000);
+tl.fromTo("#k74i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},41.200);
+tl.set("#k74w0",{color:"#FFD400"},41.200);
+tl.set("#k74w0",{color:"#FFFFFF"},41.360);
+tl.set("#k74w1",{color:"#FFD400"},41.360);
+tl.fromTo("#k75i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},41.900);
+tl.set("#k75w0",{color:"#FFD400"},41.900);
+tl.set("#k75w0",{color:"#FFFFFF"},42.000);
+tl.set("#k75w1",{color:"#FFD400"},42.000);
+tl.fromTo("#k76i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},42.360);
+tl.set("#k76w0",{color:"#FFD400"},42.360);
+tl.set("#k76w0",{color:"#FFFFFF"},42.500);
+tl.set("#k76w1",{color:"#FFD400"},42.500);
+tl.set("#k76w1",{color:"#FFFFFF"},42.620);
+tl.set("#k76w2",{color:"#FFD400"},42.620);
+tl.fromTo("#k77i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},43.140);
+tl.set("#k77w0",{color:"#FFD400"},43.140);
+tl.set("#k77w0",{color:"#FFFFFF"},43.220);
+tl.set("#k77w1",{color:"#FFD400"},43.220);
+tl.set("#k77w1",{color:"#FFFFFF"},43.420);
+tl.set("#k77w2",{color:"#FFD400"},43.420);
+tl.fromTo("#k78i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},43.580);
+tl.set("#k78w0",{color:"#FFD400"},43.580);
+tl.set("#k78w0",{color:"#FFFFFF"},43.740);
+tl.set("#k78w1",{color:"#FFD400"},43.740);
+tl.set("#k78w1",{color:"#FFFFFF"},43.880);
+tl.set("#k78w2",{color:"#FFD400"},43.880);
+tl.fromTo("#k79i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},44.040);
+tl.set("#k79w0",{color:"#FFD400"},44.040);
+tl.set("#k79w0",{color:"#FFFFFF"},44.210);
+tl.set("#k79w1",{color:"#FFD400"},44.210);
+tl.fromTo("#k80i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},44.700);
+tl.set("#k80w0",{color:"#FFD400"},44.700);
+tl.set("#k80w0",{color:"#FFFFFF"},44.800);
+tl.set("#k80w1",{color:"#FFD400"},44.800);
+tl.fromTo("#k81i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},44.940);
+tl.set("#k81w0",{color:"#FFD400"},44.940);
+tl.set("#k81w0",{color:"#FFFFFF"},45.080);
+tl.set("#k81w1",{color:"#FFD400"},45.080);
+tl.set("#k81w1",{color:"#FFFFFF"},45.280);
+tl.set("#k81w2",{color:"#FFD400"},45.280);
+tl.fromTo("#k82i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},45.420);
+tl.set("#k82w0",{color:"#FFD400"},45.420);
+tl.set("#k82w0",{color:"#FFFFFF"},45.540);
+tl.set("#k82w1",{color:"#FFD400"},45.540);
+tl.set("#k82w1",{color:"#FFFFFF"},45.740);
+tl.set("#k82w2",{color:"#FFD400"},45.740);
+tl.fromTo("#k83i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},45.980);
+tl.set("#k83w0",{color:"#FFD400"},45.980);
+tl.set("#k83w0",{color:"#FFFFFF"},46.200);
+tl.set("#k83w1",{color:"#FFD400"},46.200);
+tl.set("#k83w1",{color:"#FFFFFF"},46.320);
+tl.set("#k83w2",{color:"#FFD400"},46.320);
+tl.fromTo("#k84i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},46.687);
+tl.set("#k84w0",{color:"#FFD400"},46.687);
+tl.set("#k84w0",{color:"#FFFFFF"},46.860);
+tl.set("#k84w1",{color:"#FFD400"},46.860);
+tl.set("#k84w1",{color:"#FFFFFF"},46.960);
+tl.set("#k84w2",{color:"#FFD400"},46.960);
+tl.fromTo("#k85i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},47.200);
+tl.set("#k85w0",{color:"#FFD400"},47.200);
+tl.set("#k85w0",{color:"#FFFFFF"},47.360);
+tl.set("#k85w1",{color:"#FFD400"},47.360);
+tl.set("#k85w1",{color:"#FFFFFF"},47.680);
+tl.set("#k85w2",{color:"#FFD400"},47.680);
+tl.fromTo("#k86i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},47.860);
+tl.set("#k86w0",{color:"#FFD400"},47.860);
+tl.set("#k86w0",{color:"#FFFFFF"},47.980);
+tl.set("#k86w1",{color:"#FFD400"},47.980);
+tl.fromTo("#k87i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},48.260);
+tl.set("#k87w0",{color:"#FFD400"},48.260);
+tl.set("#k87w0",{color:"#FFFFFF"},48.380);
+tl.set("#k87w1",{color:"#FFD400"},48.380);
+tl.fromTo("#k88i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},48.600);
+tl.set("#k88w0",{color:"#FFD400"},48.600);
+tl.set("#k88w0",{color:"#FFFFFF"},48.780);
+tl.set("#k88w1",{color:"#FFD400"},48.780);
+tl.set("#k88w1",{color:"#FFFFFF"},48.980);
+tl.set("#k88w2",{color:"#FFD400"},48.980);
+tl.fromTo("#k89i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},49.443);
+tl.set("#k89w0",{color:"#FFD400"},49.443);
+tl.set("#k89w0",{color:"#FFFFFF"},49.560);
+tl.set("#k89w1",{color:"#FFD400"},49.560);
+tl.fromTo("#k90i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},49.780);
+tl.set("#k90w0",{color:"#FFD400"},49.780);
+tl.set("#k90w0",{color:"#FFFFFF"},50.000);
+tl.set("#k90w1",{color:"#FFD400"},50.000);
+tl.set("#k90w1",{color:"#FFFFFF"},50.300);
+tl.set("#k90w2",{color:"#FFD400"},50.300);
+tl.fromTo("#k91i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},50.540);
+tl.set("#k91w0",{color:"#FFD400"},50.540);
+tl.set("#k91w0",{color:"#FFFFFF"},50.680);
+tl.set("#k91w1",{color:"#FFD400"},50.680);
+tl.fromTo("#k92i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},50.860);
+tl.set("#k92w0",{color:"#FFD400"},50.860);
+tl.set("#k92w0",{color:"#FFFFFF"},50.980);
+tl.set("#k92w1",{color:"#FFD400"},50.980);
+tl.fromTo("#k93i",{scale:0.82,y:14},{scale:1,y:0,duration:0.12,ease:"back.out(2.5)"},51.220);
+tl.set("#k93w0",{color:"#FFD400"},51.220);
+tl.set("#k93w0",{color:"#FFFFFF"},51.400);
+tl.set("#k93w1",{color:"#FFD400"},51.400);
+window.__timelines["main"] = tl;
+</script>
+</body></html>

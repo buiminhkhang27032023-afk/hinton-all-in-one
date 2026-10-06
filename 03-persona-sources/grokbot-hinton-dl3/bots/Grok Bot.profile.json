@@ -1,0 +1,9 @@
+{
+  "name": "Grok Bot",
+  "description": "A teammate with its own computer that takes real work off your plate.",
+  "title": "",
+  "avatarShape": "blob",
+  "avatarColor": "black",
+  "serverId": "10162662",
+  "harness": "temporal"
+}

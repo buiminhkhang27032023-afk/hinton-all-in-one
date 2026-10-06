@@ -1,0 +1,14 @@
+[  0.00-  3.24] This feature from Google Sheets is a productivity game changer.
+[  3.48-  7.82] Check this out, if your control freak like me, you spend a lot of time formatting data
+[  7.82- 10.18] before diving into the analysis.
+[ 10.56- 11.28] Freeze the heading row.
+[ 11.44- 12.24] Make it a different color.
+[ 12.42- 14.12] Expand column width to fit text.
+[ 14.32- 18.12] Maybe even change the font and a hundred other things you can do to first make sure this
+[ 18.12- 19.10] table looks polished.
+[ 19.50- 23.44] Now, instead of wasting all that time, we can Command or Control A to select the
+[ 23.44- 28.16] entire tab, right-click, convert to table and all that is instantly taken care of.
+[ 28.16- 33.04] And with just another two clicks, I can convert this entire column to a day.
+[ 33.22- 41.26] And if you want to start building your spreadsheet, go to Insert, Building Blocks, and select from an existing template.
+[ 41.58- 45.68] I'll select Project docks, and this will save me a lot of time.
+[ 45.84- 49.92] Google just announced all this during CloudNex, so these two features will be announced.

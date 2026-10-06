@@ -1,0 +1,36 @@
+MANIFEST — all-in-one-20261006 (tạo 06/10/2026, giờ VN)
+
+ID                                     TYPE     STATUS NAME                                          FILES / PATH
+6271bde2-38e5-40bc-a9e3-af9ec21d22a3   bot      FOUND  New Bot                                       01-bots/00-bo-cua-cac-bot__6271bde2-38e5-40bc-a9e3-af9ec21d22a3/  [PERSONA.md, assets/*, profile.json, settings.json] (10 files)
+c711dded-3dd2-4ff1-89e6-7f406a97245f   bot      FOUND  Bot 5 — Săn tin và kiến thức AI               01-bots/hinton-bot5-san-tin__c711dded-3dd2-4ff1-89e6-7f406a97245f/  [PERSONA.md, profile.json, settings.json] (3 files)
+7b44d14c-27e5-48ec-bfbc-4fea434f4f94   bot      FOUND  Bot 4 — Douyin                                01-bots/hinton-bot4-douyin__7b44d14c-27e5-48ec-bfbc-4fea434f4f94/  [PERSONA.md, profile.json, settings.json] (3 files)
+6a695214-9da4-44e8-b23e-5907cc8358c9   bot      FOUND  Bot 3 — Biên kịch                             01-bots/hinton-bot3-bien-kich__6a695214-9da4-44e8-b23e-5907cc8358c9/  [PERSONA.md, profile.json, settings.json] (3 files)
+bd1398f4-efd3-46c7-bb62-c39e9dea8216   bot      FOUND  Bot 2 — Tin AI                                01-bots/hinton-bot2-tin-ai__bd1398f4-efd3-46c7-bb62-c39e9dea8216/  [PERSONA.md, profile.json, settings.json] (3 files)
+f24f1cab-3ab7-4044-b29b-1fbcacb10153   bot      FOUND  Bot 2B — Douyin                               01-bots/hinton-bot2b-douyin__f24f1cab-3ab7-4044-b29b-1fbcacb10153/  [PERSONA.md, profile.json, settings.json] (3 files)
+25147768-ba52-4e48-acd4-d0b092c1abc2   bot      FOUND  Bot 5 — Săn tin (Video tin tức)               01-bots/vtt-bot5-san-tin__25147768-ba52-4e48-acd4-d0b092c1abc2/  [PERSONA.md, profile.json, settings.json] (3 files)
+50f63b9b-41ea-4b32-a627-631d10edbcb3   bot      FOUND  Bot 4 — Douyin (Video tin tức)                01-bots/vtt-bot4-douyin__50f63b9b-41ea-4b32-a627-631d10edbcb3/  [PERSONA.md, profile.json, settings.json] (3 files)
+fe4ac9e1-51be-4b73-87f2-b5c6c5375635   bot      FOUND  Bot 3 — Biên kịch (Video tin tức)             01-bots/vtt-bot3-bien-kich__fe4ac9e1-51be-4b73-87f2-b5c6c5375635/  [PERSONA.md, profile.json, settings.json] (3 files)
+28a3315d-421e-48fd-b2e3-42a2f546be77   bot      FOUND  Bot 2 — Tin AI (Video tin tức)                01-bots/vtt-bot2-tin-ai__28a3315d-421e-48fd-b2e3-42a2f546be77/  [PERSONA.md, profile.json, settings.json] (3 files)
+08012706-dc2d-40cf-9165-cd50df086c64   bot      FOUND  Bot 2B — Douyin (Video tin tức)               01-bots/vtt-bot2b-douyin__08012706-dc2d-40cf-9165-cd50df086c64/  [PERSONA.md, profile.json, settings.json] (3 files)
+7f03dd91-0ab4-4e10-bc00-b54430d0228c   bot      FOUND  Trợ Lý Edit Video (Video tin tức)             01-bots/vtt-tro-ly-edit-video__7f03dd91-0ab4-4e10-bc00-b54430d0228c/  [PERSONA.md, profile.json, settings.json] (3 files)
+8ffdf467-4d04-4774-9344-09333e76e9cb   bot      FOUND  Video Map Food Tour                           01-bots/video-map-food-tour__8ffdf467-4d04-4774-9344-09333e76e9cb/  [PERSONA.md, attachments/*, profile.json, settings.json] (4 files)
+0f7c4a3a-32db-4d2a-a2ea-bcfb5020721c   channel  FOUND  Nhóm Douyin                                   02-channels/channel-nhom-douyin-video1__0f7c4a3a-32db-4d2a-a2ea-bcfb5020721c/  [PERSONA.md, group.json, profile.json, settings.json] (4 files)
+6168ce57-2624-4bf1-9d1a-0dc3a9de4447   channel  FOUND  Nhóm tin AI                                   02-channels/channel-nhom-tin-ai-video2__6168ce57-2624-4bf1-9d1a-0dc3a9de4447/  [PERSONA.md, group.json, profile.json, settings.json] (4 files)
+0dfc3c52-ec62-478f-8d2b-6a789bccc917   channel  FOUND  Video tin tức                                 02-channels/channel-video-tin-tuc__0dfc3c52-ec62-478f-8d2b-6a789bccc917/  [PERSONA.md, group.json, profile.json, settings.json] (4 files)
+
+Ghi chú:
+- store.db* của mỗi bot KHÔNG đưa vào (chứa blobEncryptionKey nội bộ + transcript).
+- Bố (6271bde2): profile.json gốc tên 'New Bot', description rỗng → persona khôi phục từ /workspace/hinton-restore-agents/0-bo.json + BO-PERSONA-SUGGESTED.txt (ghi trong PERSONA.md).
+- Bố: attachments/a9d71a19…mp4 (~17MB) bị loại vì >5MB.
+- Video Map Food Tour: automations/ trống.
+- CreateBotShareJson / ReadTranscript: không có trong môi trường → bỏ qua.
+
+Tổng hợp nội dung khác:
+- 01-bots: 47 files, 2.2 MB
+- 02-channels: 12 files, 0.0 MB
+- 03-persona-sources: 180 files, 0.7 MB
+- 04-skills-workflows: 16 files, 0.0 MB
+- 05-docs: 846 files, 139.6 MB
+- 06-social-posting: 4 files, 0.0 MB
+- 07-video-learn: 986 files, 49.8 MB
+- 08-pipeline-code: 69 files, 10.7 MB

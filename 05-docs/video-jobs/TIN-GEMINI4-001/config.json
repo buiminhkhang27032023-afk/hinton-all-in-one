@@ -1,0 +1,28 @@
+{
+  "job_id": "TIN-GEMINI4-001",
+  "version": "v1",
+  "title": "Gemini 4 Argon|mạnh nhất nhưng chưa mở",
+  "captions_burn": true,
+  "bgm": false,
+  "target_duration": 52,
+  "syllables_min": 200,
+  "syllables_max": 280,
+  "presenter": {
+    "mode": "auto",
+    "video": "/workspace/hinton-pipeline-docs/assets/presenter-video-novoice.mp4",
+    "photo": "/workspace/hinton-pipeline-docs/assets/presenter-photo.jpg",
+    "intro_card": true,
+    "outro_card": true
+  },
+  "edit": {
+    "shot_min": 1.6,
+    "shot_max": 3.0,
+    "effect_every": 4
+  },
+  "footage": {
+    "stock_enabled": false,
+    "max_clips_per_url": 4,
+    "clip_max": 3.0,
+    "ytdlp_max_height": 720
+  }
+}

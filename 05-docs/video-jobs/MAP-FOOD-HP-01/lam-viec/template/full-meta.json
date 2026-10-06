@@ -1,0 +1,81 @@
+{
+  "duration": 86.559,
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0.0,
+      "end": 5.988,
+      "mode": "hook"
+    },
+    {
+      "id": "intro",
+      "start": 6.108,
+      "end": 11.528,
+      "mode": "intro_landmarks"
+    },
+    {
+      "id": "stop1",
+      "start": 11.648,
+      "end": 23.538,
+      "mode": "stop",
+      "stop_id": "bun-ca",
+      "diem": 1
+    },
+    {
+      "id": "stop2",
+      "start": 23.658,
+      "end": 33.987,
+      "mode": "stop",
+      "stop_id": "ba-gia",
+      "diem": 2
+    },
+    {
+      "id": "stop3",
+      "start": 34.107,
+      "end": 42.717,
+      "mode": "stop",
+      "stop_id": "quan-nga",
+      "diem": 3
+    },
+    {
+      "id": "stop4",
+      "start": 42.837,
+      "end": 53.761,
+      "mode": "stop",
+      "stop_id": "co-chuyen",
+      "diem": 4
+    },
+    {
+      "id": "stop5",
+      "start": 53.881,
+      "end": 61.897,
+      "mode": "stop",
+      "stop_id": "ba-cu",
+      "diem": 5
+    },
+    {
+      "id": "stop6",
+      "start": 62.017,
+      "end": 70.183,
+      "mode": "stop",
+      "stop_id": "lau-dat-cang",
+      "diem": 6
+    },
+    {
+      "id": "stop7",
+      "start": 70.303,
+      "end": 79.856,
+      "mode": "stop",
+      "stop_id": "co-ut",
+      "diem": 7
+    },
+    {
+      "id": "cta",
+      "start": 79.976,
+      "end": 84.559,
+      "mode": "cta"
+    }
+  ],
+  "N": 7,
+  "has_voice": true
+}

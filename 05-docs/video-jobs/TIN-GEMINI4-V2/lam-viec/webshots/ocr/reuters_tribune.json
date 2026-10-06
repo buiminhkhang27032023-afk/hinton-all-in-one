@@ -1,0 +1,1042 @@
+[
+{
+"box": [
+1140,
+33,
+157,
+24
+],
+"text": "THE EXPRESS",
+"conf": 0.79
+},
+{
+"box": [
+839,
+49,
+465,
+108
+],
+"text": "TRIBUNE",
+"conf": 0.854
+},
+{
+"box": [
+774,
+181,
+622,
+25
+],
+"text": "TODAY'S PAPEROCTOBER 05, 2026EPAPER",
+"conf": 0.844
+},
+{
+"box": [
+121,
+261,
+92,
+28
+],
+"text": "HOME",
+"conf": 0.728
+},
+{
+"box": [
+264,
+261,
+113,
+27
+],
+"text": "LATEST",
+"conf": 0.824
+},
+{
+"box": [
+824,
+261,
+110,
+27
+],
+"text": "WORLD",
+"conf": 0.826
+},
+{
+"box": [
+986,
+260,
+120,
+27
+],
+"text": "SPORTS",
+"conf": 0.788
+},
+{
+"box": [
+1159,
+261,
+124,
+27
+],
+"text": "OPINION",
+"conf": 0.78
+},
+{
+"box": [
+1815,
+261,
+100,
+27
+],
+"text": "BLOGS",
+"conf": 0.779
+},
+{
+"box": [
+1337,
+262,
+186,
+26
+],
+"text": "LIFE & STYLE",
+"conf": 0.866
+},
+{
+"box": [
+1577,
+262,
+185,
+26
+],
+"text": "T-MAGAZINE",
+"conf": 0.862
+},
+{
+"box": [
+429,
+263,
+143,
+24
+],
+"text": "PAKISTAN",
+"conf": 0.887
+},
+{
+"box": [
+627,
+263,
+143,
+24
+],
+"text": "BUSINESS",
+"conf": 0.829
+},
+{
+"box": [
+1967,
+261,
+84,
+28
+],
+"text": "TECH",
+"conf": 0.798
+},
+{
+"box": [
+1013,
+332,
+145,
+27
+],
+"text": "CARTOON",
+"conf": 0.865
+},
+{
+"box": [
+28,
+608,
+254,
+35
+],
+"text": "Home > Technology",
+"conf": 0.874
+},
+{
+"box": [
+31,
+703,
+1228,
+92
+],
+"text": "Google announces Gemini 4",
+"conf": 0.922
+},
+{
+"box": [
+25,
+804,
+1462,
+99
+],
+"text": "flagship Al model after months of",
+"conf": 0.918
+},
+{
+"box": [
+34,
+915,
+285,
+87
+],
+"text": "delays",
+"conf": 0.763
+},
+{
+"box": [
+30,
+1026,
+1448,
+36
+],
+"text": "Google gives new AI model to select cybersecurity partners, with no timeline for public release",
+"conf": 0.934
+},
+{
+"box": [
+28,
+1116,
+102,
+29
+],
+"text": "Reuters",
+"conf": 0.874
+},
+{
+"box": [
+162,
+1117,
+240,
+27
+],
+"text": "October 01, 2026",
+"conf": 0.849
+},
+{
+"box": [
+416,
+1116,
+152,
+27
+],
+"text": " 1 min read",
+"conf": 0.793
+},
+{
+"box": [
+1147,
+1117,
+105,
+38
+],
+"text": "fx",
+"conf": 0.546
+},
+{
+"box": [
+1798,
+1241,
+133,
+37
+],
+"text": "Join Us",
+"conf": 0.843
+},
+{
+"box": [
+1742,
+1334,
+259,
+54
+],
+"text": "fX08",
+"conf": 0.523
+},
+{
+"box": [
+304,
+1436,
+1004,
+176
+],
+"text": "Google Gemini",
+"conf": 0.88
+},
+{
+"box": [
+1559,
+1486,
+242,
+50
+],
+"text": "Technology",
+"conf": 0.865
+},
+{
+"box": [
+1790,
+1578,
+233,
+30
+],
+"text": "Data of over 10M",
+"conf": 0.871
+},
+{
+"box": [
+1790,
+1615,
+304,
+33
+],
+"text": "customers exposed in",
+"conf": 0.906
+},
+{
+"box": [
+1793,
+1653,
+361,
+29
+],
+"text": "cyberattacks on Japanese",
+"conf": 0.893
+},
+{
+"box": [
+1788,
+1686,
+80,
+34
+],
+"text": "firms",
+"conf": 0.832
+},
+{
+"box": [
+1791,
+1742,
+256,
+25
+],
+"text": "Updated 27 minutes ago",
+"conf": 0.878
+},
+{
+"box": [
+1790,
+1814,
+356,
+31
+],
+"text": "Honda plans highway test",
+"conf": 0.9
+},
+{
+"box": [
+1790,
+1848,
+325,
+35
+],
+"text": "of wireless charging for",
+"conf": 0.883
+},
+{
+"box": [
+1791,
+1890,
+199,
+27
+],
+"text": "moving trucks",
+"conf": 0.831
+},
+{
+"box": [
+1792,
+1939,
+255,
+27
+],
+"text": "Updated 48 minutes ago",
+"conf": 0.918
+},
+{
+"box": [
+1791,
+2012,
+356,
+29
+],
+"text": "Honda plans highway test",
+"conf": 0.888
+},
+{
+"box": [
+1792,
+2051,
+322,
+27
+],
+"text": "of wireless charging for",
+"conf": 0.871
+},
+{
+"box": [
+1791,
+2087,
+199,
+27
+],
+"text": "moving trucks",
+"conf": 0.823
+},
+{
+"box": [
+1792,
+2138,
+257,
+25
+],
+"text": "Updated 48 minutes ago",
+"conf": 0.905
+},
+{
+"box": [
+1791,
+2210,
+262,
+33
+],
+"text": "Norway to propose",
+"conf": 0.917
+},
+{
+"box": [
+1790,
+2247,
+282,
+33
+],
+"text": "temporary ban on Al",
+"conf": 0.84
+},
+{
+"box": [
+1791,
+2284,
+310,
+30
+],
+"text": "glasses in some public",
+"conf": 0.932
+},
+{
+"box": [
+1792,
+2322,
+92,
+27
+],
+"text": "places",
+"conf": 0.809
+},
+{
+"box": [
+38,
+2337,
+1463,
+25
+],
+"text": "Google Gemini lettering, during the opening of Google's new Artificial Intelligence (Al) centre in Berlin, Germany, March 5, 2o26.",
+"conf": 0.922
+},
+{
+"box": [
+712,
+2373,
+112,
+23
+],
+"text": "REUTERS",
+"conf": 0.767
+},
+{
+"box": [
+1792,
+2371,
+203,
+27
+],
+"text": "Updated 1 hour ago",
+"conf": 0.883
+},
+{
+"box": [
+1791,
+2445,
+346,
+29
+],
+"text": "Instagram turns 16 with 3",
+"conf": 0.908
+},
+{
+"box": [
+51,
+2459,
+1394,
+36
+],
+"text": "Alphabet's Google on Wednesday announced a new top-tier artificial intelligence",
+"conf": 0.972
+},
+{
+"box": [
+1791,
+2481,
+367,
+28
+],
+"text": "billion users under shadow",
+"conf": 0.896
+},
+{
+"box": [
+47,
+2515,
+1353,
+43
+],
+"text": "model to anchor its Gemini 4 generation of models in a fresh bid to catch up to",
+"conf": 0.931
+},
+{
+"box": [
+1790,
+2518,
+316,
+31
+],
+"text": "of data privacy, mental",
+"conf": 0.884
+},
+{
+"box": [
+1790,
+2555,
+226,
+28
+],
+"text": "health concerns",
+"conf": 0.884
+},
+{
+"box": [
+49,
+2578,
+740,
+36
+],
+"text": "rivals Anthropic and OpenAI in the AI race.",
+"conf": 0.921
+},
+{
+"box": [
+1791,
+2606,
+204,
+26
+],
+"text": "Updated 1 hour ago",
+"conf": 0.891
+},
+{
+"box": [
+47,
+2676,
+1358,
+40
+],
+"text": "The new model, \"Argon\", is larger in size than Google's previous line of advanced",
+"conf": 0.929
+},
+{
+"box": [
+1793,
+2681,
+349,
+26
+],
+"text": "German and Us scientists",
+"conf": 0.864
+},
+{
+"box": [
+1791,
+2715,
+345,
+29
+],
+"text": "win Nobel medicine prize",
+"conf": 0.87
+},
+{
+"box": [
+49,
+2733,
+754,
+45
+],
+"text": "\"Pro\" models, a company spokesperson said.",
+"conf": 0.897
+},
+{
+"box": [
+1789,
+2751,
+346,
+31
+],
+"text": "for work on optogenetics",
+"conf": 0.869
+},
+{
+"box": [
+1793,
+2805,
+218,
+26
+],
+"text": "Updated 3 hours ago",
+"conf": 0.881
+},
+{
+"box": [
+51,
+2833,
+1323,
+44
+],
+"text": "\"It's our most performant model yet built for complex workloads, and we see it",
+"conf": 0.957
+},
+{
+"box": [
+49,
+2897,
+1382,
+41
+],
+"text": "comparable to frontier models like (OpenAI's) Astra and (Anthropic's) pus on key",
+"conf": 0.919
+},
+{
+"box": [
+49,
+2957,
+924,
+40
+],
+"text": "coding and cyber benchmarks, the spokesperson said.",
+"conf": 0.955
+},
+{
+"box": [
+50,
+3059,
+1340,
+36
+],
+"text": "Google said it was providing the model to select cybersecurity partners and was",
+"conf": 0.94
+},
+{
+"box": [
+49,
+3115,
+1435,
+44
+],
+"text": "participating in the Trump administration's voluntary-process for pre-release model",
+"conf": 0.912
+},
+{
+"box": [
+45,
+3176,
+1104,
+41
+],
+"text": "access. It did not provide a timeline for the model's public release.",
+"conf": 0.931
+},
+{
+"box": [
+48,
+3774,
+1368,
+42
+],
+"text": "Read More: Pentagon creates 'Autowarcom' to expand AI and drone capabilities",
+"conf": 0.911
+},
+{
+"box": [
+48,
+3876,
+1303,
+38
+],
+"text": "The model posted better marks than Astra and Opus in terms of self-reported",
+"conf": 0.909
+},
+{
+"box": [
+48,
+3937,
+1353,
+42
+],
+"text": "performance on several industry benchmarks, per a company press release. Still",
+"conf": 0.923
+},
+{
+"box": [
+47,
+3995,
+1395,
+45
+],
+"text": "Argon remained behind on certain other metrics, including two of the four coding-",
+"conf": 0.909
+},
+{
+"box": [
+48,
+4059,
+858,
+36
+],
+"text": "related benchmarks Google included in the release.",
+"conf": 0.905
+},
+{
+"box": [
+49,
+4158,
+1425,
+39
+],
+"text": "Google no longer plans to release Gemini 3.5 Pro, which CEO Sundar Pichai originally",
+"conf": 0.919
+},
+{
+"box": [
+48,
+4217,
+1205,
+40
+],
+"text": "said would be released in June, according to the company spokesperson.",
+"conf": 0.912
+},
+{
+"box": [
+47,
+4317,
+1431,
+38
+],
+"text": "In the intervening time, Google overhauled its DeepMind AI lab, with its founder and",
+"conf": 0.923
+},
+{
+"box": [
+46,
+4374,
+1404,
+44
+],
+"text": "CEO Demis Hassabis stepping aside and several leaders of its Gemini model leaving",
+"conf": 0.943
+},
+{
+"box": [
+48,
+4436,
+225,
+43
+],
+"text": "the company.",
+"conf": 0.833
+},
+{
+"box": [
+49,
+4538,
+1291,
+36
+],
+"text": "The months of delays to its AI model have caused the company to fall behind",
+"conf": 0.937
+},
+{
+"box": [
+50,
+4597,
+1333,
+38
+],
+"text": "Anthropic and OpenAI, which continued to push the research frontier with new",
+"conf": 0.93
+},
+{
+"box": [
+48,
+4657,
+431,
+38
+],
+"text": "releases to its top models.",
+"conf": 0.929
+},
+{
+"box": [
+48,
+4755,
+1362,
+41
+],
+"text": "Pichai in July pushed back on the notion that Google was losing ground in the AI",
+"conf": 0.903
+},
+{
+"box": [
+47,
+4817,
+1396,
+39
+],
+"text": "race. But Google in recent months has shifted its messaging from touting Gemini's",
+"conf": 0.899
+},
+{
+"box": [
+49,
+4876,
+1412,
+41
+],
+"text": "cutting-edge capabilities to highlighting its cost advantage compared to competitor",
+"conf": 0.933
+},
+{
+"box": [
+47,
+4935,
+136,
+40
+],
+"text": "models.",
+"conf": 0.758
+},
+{
+"box": [
+31,
+5199,
+204,
+35
+],
+"text": "You May Like",
+"conf": 0.901
+},
+{
+"box": [
+1390,
+5206,
+118,
+28
+],
+"text": "by Taboola",
+"conf": 0.87
+},
+{
+"box": [
+31,
+5532,
+451,
+30
+],
+"text": "Nina Dobrev seemingly rushed",
+"conf": 0.906
+},
+{
+"box": [
+532,
+5528,
+387,
+37
+],
+"text": "The Office star Lucy Davis",
+"conf": 0.859
+},
+{
+"box": [
+1036,
+5532,
+306,
+30
+],
+"text": "GSP+: a bridge, not a",
+"conf": 0.9
+},
+{
+"box": [
+32,
+5573,
+365,
+36
+],
+"text": "off Venice red carpet as...",
+"conf": 0.887
+},
+{
+"box": [
+532,
+5574,
+417,
+35
+],
+"text": "reveals devastating Stage 4...",
+"conf": 0.934
+},
+{
+"box": [
+1035,
+5576,
+168,
+30
+],
+"text": "destination",
+"conf": 0.912
+},
+{
+"box": [
+532,
+5621,
+473,
+28
+],
+"text": "The Office star Lucy Davis reveals her",
+"conf": 0.918
+},
+{
+"box": [
+31,
+5622,
+462,
+26
+],
+"text": "The actress later attended an Armani",
+"conf": 0.921
+},
+{
+"box": [
+1032,
+5620,
+430,
+29
+],
+"text": "Now Pakistan must graduate from",
+"conf": 0.895
+},
+{
+"box": [
+31,
+5658,
+438,
+31
+],
+"text": "Beauty dinner after the awkward ...",
+"conf": 0.939
+},
+{
+"box": [
+534,
+5660,
+464,
+29
+],
+"text": "Stage 4 breast cancer diagnosis and...",
+"conf": 0.901
+},
+{
+"box": [
+1036,
+5660,
+457,
+29
+],
+"text": "GSP+ and negotiate lasting market ..",
+"conf": 0.882
+},
+{
+"box": [
+534,
+5705,
+220,
+22
+],
+"text": "TheExpressTribune",
+"conf": 0.868
+},
+{
+"box": [
+32,
+5705,
+218,
+22
+],
+"text": "TheExpressTribune",
+"conf": 0.894
+},
+{
+"box": [
+1038,
+5706,
+218,
+20
+],
+"text": "TheExpressTribune",
+"conf": 0.905
+},
+{
+"box": [
+1138,
+5791,
+177,
+40
+],
+"text": "Editorial",
+"conf": 0.833
+},
+{
+"box": [
+1191,
+5832,
+207,
+61
+],
+"text": "&@pinion",
+"conf": 0.86
+}
+]

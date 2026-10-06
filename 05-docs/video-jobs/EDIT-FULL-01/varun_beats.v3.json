@@ -1,0 +1,649 @@
+{
+ "hook": {
+  "t0": 0,
+  "t1": 1.94,
+  "lines": [
+   "AI GIÀNH NOBEL",
+   "HÓA HỌC 2024"
+  ],
+  "top": 250,
+  "wipe": 0.5
+ },
+ "shots": [
+  {
+   "at": "S0.0",
+   "type": "clip",
+   "src": "v3src/yt/bPjB9NRu8Jc.full.mp4",
+   "ss": 104.5,
+   "mode": "fit",
+   "zoom": 1.25,
+   "cy": 0.52,
+   "label": "Nobel Prize · công bố 9/10/2024",
+   "credit": "Nobel Prize — Announcement of the 2024 Nobel Prize in Chemistry (YouTube bPjB9NRu8Jc)"
+  },
+  {
+   "at": "S0:trí",
+   "type": "face"
+  },
+  {
+   "at": "S0:góp",
+   "type": "web",
+   "src": "lam-viec/webshots/nobel_summary.png",
+   "ocr": "lam-viec/webshots/ocr/nobel_summary.json",
+   "url": "nobelprize.org/prizes/chemistry/2024",
+   "focus": [
+    600,
+    470,
+    1420,
+    1180
+   ],
+   "hl": [
+    {
+     "find": "Nobel Prize in Chemistry",
+     "style": "underline",
+     "at": 0.3
+    }
+   ],
+   "z1": 1300,
+   "zr": 1.15,
+   "cy": 0.36,
+   "label": "nobelprize.org",
+   "credit": "nobelprize.org summary page (screenshot)",
+   "crop_bottom": 200
+  },
+  {
+   "at": "S1:Tháng",
+   "type": "web",
+   "src": "lam-viec/webshots/nobel_pr.png",
+   "ocr": "lam-viec/webshots/ocr/nobel_pr.json",
+   "url": "nobelprize.org/prizes/chemistry/2024/press-release",
+   "hl": [
+    {
+     "find": "9 October 2024",
+     "at": 0.25
+    },
+    {
+     "find": "The Royal Swedish Academy of Sciences has decided",
+     "at": 0.9
+    }
+   ],
+   "cy": 0.38,
+   "label": "nobelprize.org · Press release",
+   "credit": "nobelprize.org press release (screenshot)",
+   "crop_bottom": 200
+  },
+  {
+   "at": "S1:Viện",
+   "type": "clip",
+   "src": "v3src/yt/nKnmhJSx1Xs.full.mp4",
+   "ss": 7.5,
+   "mode": "cover",
+   "cx": 0.42,
+   "label": "Viện Hàn lâm KH Hoàng gia Thụy Điển",
+   "credit": "Associated Press (YouTube nKnmhJSx1Xs)"
+  },
+  {
+   "at": "S1:trao",
+   "type": "phone",
+   "src": "lam-viec/webshots/x_nobel.png",
+   "ocr": "lam-viec/webshots/ocr/x_nobel.json",
+   "hl": [
+    {
+     "find": "other half jointly to Demis Hassabis and John M. Jumper",
+     "at": 0.15
+    }
+   ],
+   "z1": 1500,
+   "zr": 1.12,
+   "cy": 0.4,
+   "label": "X · @NobelPrize",
+   "credit": "X post @NobelPrize 1843951197960777760 (embed screenshot)"
+  },
+  {
+   "at": "S1:Demis",
+   "type": "photo",
+   "src": "v3src/img/hassabis.jpg",
+   "face": [
+    0.42,
+    0.3
+   ],
+   "zoom": 1.05,
+   "name": "Demis Hassabis",
+   "role": "CEO Google DeepMind",
+   "credit": "Arthur Petron / WikiPortraits, Wikimedia Commons, CC BY-SA 4.0"
+  },
+  {
+   "at": "S1:John",
+   "type": "photo",
+   "src": "v3src/img/jumper.jpg",
+   "face": [
+    0.52,
+    0.26
+   ],
+   "zoom": 1.0,
+   "name": "John Jumper",
+   "role": "Google DeepMind",
+   "credit": "WikiPortraits, Wikimedia Commons, CC BY-SA 4.0"
+  },
+  {
+   "at": "S1:Google",
+   "type": "clip",
+   "src": "v3src/yt/2mzMKN8HbnY.full.mp4",
+   "ss": 150.5,
+   "mode": "cover",
+   "cx": 0.45,
+   "label": "Google DeepMind · London",
+   "credit": "AP Archive (YouTube 2mzMKN8HbnY)"
+  },
+  {
+   "at": "S2:nhờ",
+   "type": "clip",
+   "src": "v3src/yt/r4-hXO7MLVU.full.mp4",
+   "ss": 33.2,
+   "mode": "cover",
+   "zoom": 1.0,
+   "label": "AlphaFold · Google DeepMind",
+   "credit": "Google DeepMind — AlphaFold: The 50-year grand challenge cracked by AI (YouTube r4-hXO7MLVU)"
+  },
+  {
+   "at": "S2:protein",
+   "type": "web",
+   "src": "lam-viec/webshots/dm_nobel.png",
+   "ocr": "lam-viec/webshots/ocr/dm_nobel.json",
+   "url": "deepmind.google/blog",
+   "focus": [
+    420,
+    200,
+    1360,
+    1300
+   ],
+   "hl": [
+    {
+     "find": "Demis Hassabis & John Jumper awarded Nobel",
+     "style": "underline",
+     "at": 0.3
+    }
+   ],
+   "z1": 1300,
+   "zr": 1.12,
+   "cy": 0.4,
+   "label": "deepmind.google",
+   "credit": "Google DeepMind blog (screenshot)"
+  },
+  {
+   "at": "S3:Nửa",
+   "type": "web",
+   "src": "lam-viec/webshots/kva.png",
+   "ocr": "lam-viec/webshots/ocr/kva.json",
+   "url": "kva.se/en/news/the-nobel-prize-in-chemistry-2024",
+   "hl": [
+    {
+     "find": "Chemistry 2024 with one half to",
+     "at": 0.2
+    },
+    {
+     "find": "David Baker, University of Washington",
+     "at": 0.55
+    }
+   ],
+   "cy": 0.4,
+   "label": "kva.se · Viện Hàn lâm Thụy Điển",
+   "credit": "Royal Swedish Academy of Sciences kva.se (screenshot)",
+   "crop_bottom": 700
+  },
+  {
+   "at": "S3:David",
+   "type": "photo",
+   "src": "v3src/img/baker.jpg",
+   "face": [
+    0.53,
+    0.22
+   ],
+   "zoom": 1.0,
+   "name": "David Baker",
+   "role": "ĐH Washington · Seattle",
+   "credit": "WikiPortraits, Wikimedia Commons, CC BY-SA 4.0"
+  },
+  {
+   "at": "S3:công",
+   "type": "render",
+   "src": "v3src/clips/r_top7.mp4",
+   "label": "Top7 · protein Baker thiết kế bằng máy tính (2003)",
+   "credit": "Render từ PDB 1QYS (RCSB, CC0) bằng tools/protein_render.py"
+  },
+  {
+   "at": "S4.0",
+   "type": "face",
+   "zoom": 1.12,
+   "big": "VÌ SAO?"
+  },
+  {
+   "at": "S5:Protein",
+   "type": "render",
+   "src": "v3src/clips/r_hemo.mp4",
+   "label": "Hemoglobin · protein chở oxy (PDB 4HHB)",
+   "credit": "Render từ PDB 4HHB (RCSB) bằng tools/protein_render.py"
+  },
+  {
+   "at": "S5:trong",
+   "type": "clip",
+   "src": "v3src/yt/KpedmJdrTpY.full.mp4",
+   "ss": 23.0,
+   "mode": "cover",
+   "zoom": 1.0,
+   "label": "Google DeepMind · Protein folding explained",
+   "credit": "Google DeepMind — Protein folding explained (YouTube KpedmJdrTpY)"
+  },
+  {
+   "at": "S5:hình",
+   "type": "clip",
+   "src": "v3src/yt/bPjB9NRu8Jc.full.mp4",
+   "ss": 331.5,
+   "mode": "fit",
+   "zoom": 1.45,
+   "cy": 0.42,
+   "label": "Chuỗi axit amin → hình dạng 3D",
+   "credit": "Nobel Prize announcement slide (YouTube bPjB9NRu8Jc)"
+  },
+  {
+   "at": "S6:Trước",
+   "type": "clip",
+   "src": "v3src/yt/r4-hXO7MLVU.full.mp4",
+   "ss": 56.0,
+   "mode": "cover",
+   "cx": 0.4,
+   "label": "Phòng thí nghiệm cấu trúc protein",
+   "credit": "Google DeepMind (YouTube r4-hXO7MLVU)"
+  },
+  {
+   "at": "S6:mất",
+   "type": "web",
+   "src": "lam-viec/webshots/af2_blog.png",
+   "ocr": "lam-viec/webshots/ocr/af2_blog.json",
+   "url": "deepmind.google/discover/blog",
+   "hl": [
+    {
+     "find": "can take years of painstaking and laborious work per structure",
+     "at": 0.15
+    }
+   ],
+   "cy": 0.4,
+   "label": "deepmind.google · 2020",
+   "credit": "Google DeepMind blog 30/11/2020 (screenshot)"
+  },
+  {
+   "at": "S6:giải",
+   "type": "render",
+   "src": "v3src/clips/r_1ubq.mp4",
+   "label": "Ubiquitin · cấu trúc giải bằng thực nghiệm (PDB 1UBQ)",
+   "credit": "Render từ PDB 1UBQ (RCSB) bằng tools/protein_render.py"
+  },
+  {
+   "at": "S7:AlphaFold",
+   "type": "web",
+   "src": "lam-viec/webshots/af2_blog.png",
+   "ocr": "lam-viec/webshots/ocr/af2_blog.json",
+   "url": "deepmind.google/discover/blog",
+   "focus": [
+    420,
+    190,
+    1360,
+    260
+   ],
+   "hl": [
+    {
+     "find": "AlphaFold: a solution to a 50-year-old grand",
+     "style": "underline",
+     "at": 0.2
+    }
+   ],
+   "z1": 1250,
+   "zr": 1.15,
+   "cy": 0.36,
+   "label": "deepmind.google · 30/11/2020",
+   "credit": "Google DeepMind blog (screenshot)"
+  },
+  {
+   "at": "S7:năm",
+   "type": "web",
+   "src": "lam-viec/webshots/kva.png",
+   "ocr": "lam-viec/webshots/ocr/kva.json",
+   "url": "kva.se/en/news/the-nobel-prize-in-chemistry-2024",
+   "hl": [
+    {
+     "find": "In 2020, Demis Hassabis and John Jumper presented an Al model called AlphaFold2",
+     "at": 0.15
+    }
+   ],
+   "cy": 0.4,
+   "label": "kva.se",
+   "credit": "kva.se (screenshot)",
+   "crop_bottom": 700
+  },
+  {
+   "at": "S7:dự",
+   "type": "render",
+   "src": "v3src/clips/r_af_p53.mp4",
+   "label": "AlphaFold DB · p53 (AF-P04637), màu = độ tin cậy",
+   "credit": "AlphaFold DB model AF-P04637-F1 (EMBL-EBI/Google DeepMind, CC BY 4.0), render tools/protein_render.py"
+  },
+  {
+   "at": "S7:toàn",
+   "type": "stat",
+   "lines": [
+    {
+     "text": "200 TRIỆU",
+     "size": 210,
+     "color": [
+      255,
+      255,
+      255
+     ]
+    },
+    {
+     "text": "cấu trúc protein",
+     "size": 78,
+     "color": [
+      255,
+      196,
+      0
+     ],
+     "w": "Bold",
+     "at": 0.25
+    }
+   ],
+   "y": 640,
+   "label": "Nguồn: Ủy ban Nobel"
+  },
+  {
+   "at": "S7:protein",
+   "type": "web",
+   "src": "lam-viec/webshots/af_200m.png",
+   "ocr": "lam-viec/webshots/ocr/af_200m.json",
+   "url": "deepmind.google/discover/blog",
+   "hl": [
+    {
+     "find": "over 200 million structures",
+     "at": 0.15
+    }
+   ],
+   "zr": 1.1,
+   "cy": 0.36,
+   "label": "deepmind.google · AlphaFold DB",
+   "credit": "Google DeepMind blog 28/7/2022 (screenshot)"
+  },
+  {
+   "at": "S8:Phiên",
+   "type": "web",
+   "src": "lam-viec/webshots/af3_blog.png",
+   "ocr": "lam-viec/webshots/ocr/af3_blog.json",
+   "url": "blog.google/technology/ai",
+   "focus": [
+    440,
+    340,
+    1300,
+    980
+   ],
+   "hl": [
+    {
+     "find": "May 08, 2024",
+     "style": "box",
+     "at": 0.5
+    }
+   ],
+   "z1": 1250,
+   "zr": 1.12,
+   "cy": 0.4,
+   "label": "blog.google · 8/5/2024",
+   "credit": "Google blog — AlphaFold 3 (screenshot)"
+  },
+  {
+   "at": "S8:năm",
+   "type": "clip",
+   "src": "v3src/yt/9ufplEgtq8w.full.mp4",
+   "ss": 17.5,
+   "mode": "fit",
+   "zoom": 1.7,
+   "cy": 0.42,
+   "label": "AlphaFold Server",
+   "credit": "Google DeepMind — AlphaFold Server Demo (YouTube 9ufplEgtq8w)"
+  },
+  {
+   "at": "S8:mô",
+   "type": "clip",
+   "src": "v3src/yt/9ufplEgtq8w.full.mp4",
+   "ss": 140.0,
+   "mode": "fit",
+   "zoom": 1.8,
+   "cy": 0.42,
+   "label": "AlphaFold 3 · dự đoán phức hợp",
+   "credit": "Google DeepMind (YouTube 9ufplEgtq8w)"
+  },
+  {
+   "at": "S8:tương",
+   "type": "render",
+   "src": "v3src/clips/r_nucleo.mp4",
+   "label": "Protein + DNA (PDB 1KX5)",
+   "credit": "Render từ PDB 1KX5 (RCSB) bằng tools/protein_render.py"
+  },
+  {
+   "at": "S9:Theo",
+   "type": "web",
+   "src": "lam-viec/webshots/nobel_pop.png",
+   "ocr": "lam-viec/webshots/ocr/nobel_pop.json",
+   "url": "nobelprize.org/prizes/chemistry/2024/popular-information",
+   "focus": [
+    600,
+    460,
+    1400,
+    700
+   ],
+   "hl": [
+    {
+     "find": "Popular information",
+     "style": "underline",
+     "at": 0.2
+    }
+   ],
+   "z1": 1250,
+   "zr": 1.12,
+   "cy": 0.38,
+   "label": "Ủy ban Nobel · nobelprize.org",
+   "credit": "nobelprize.org popular information (screenshot)",
+   "crop_bottom": 200
+  },
+  {
+   "at": "S9:đã",
+   "type": "web",
+   "src": "lam-viec/webshots/nobel_pr.png",
+   "ocr": "lam-viec/webshots/ocr/nobel_pr.json",
+   "url": "nobelprize.org/prizes/chemistry/2024/press-release",
+   "hl": [
+    {
+     "find": "AlphaFold2 has been used by more",
+     "at": 0.15
+    },
+    {
+     "find": "than two million people from 190 countries",
+     "at": 0.45
+    }
+   ],
+   "cy": 0.4,
+   "label": "nobelprize.org · Press release",
+   "credit": "nobelprize.org press release (screenshot)",
+   "crop_bottom": 200
+  },
+  {
+   "at": "S9:một",
+   "type": "stat",
+   "lines": [
+    {
+     "text": "2 TRIỆU",
+     "size": 200,
+     "color": [
+      255,
+      255,
+      255
+     ]
+    },
+    {
+     "text": "người dùng",
+     "size": 74,
+     "color": [
+      255,
+      196,
+      0
+     ],
+     "w": "Bold",
+     "at": 0.2
+    },
+    {
+     "text": "190",
+     "size": 200,
+     "color": [
+      255,
+      255,
+      255
+     ],
+     "at": 0.45
+    },
+    {
+     "text": "quốc gia",
+     "size": 74,
+     "color": [
+      255,
+      196,
+      0
+     ],
+     "w": "Bold",
+     "at": 0.6
+    }
+   ],
+   "y": 420,
+   "seed": 11,
+   "label": "Nguồn: Ủy ban Nobel"
+  },
+  {
+   "at": "S9:giúp",
+   "type": "render",
+   "src": "v3src/clips/r_btl.mp4",
+   "label": "Beta-lactamase · enzyme giúp vi khuẩn kháng kháng sinh",
+   "credit": "Render từ PDB 1BTL (RCSB) bằng tools/protein_render.py"
+  },
+  {
+   "at": "S9:và",
+   "type": "render",
+   "src": "v3src/clips/r_petase.mp4",
+   "label": "PETase · enzyme phân hủy nhựa PET (PDB 6EQE)",
+   "credit": "Render từ PDB 6EQE (RCSB) bằng tools/protein_render.py"
+  },
+  {
+   "at": "S10.0",
+   "type": "face"
+  },
+  {
+   "at": "S10:chỉ",
+   "type": "stat",
+   "lines": [
+    {
+     "text": "VIẾT VĂN",
+     "size": 150,
+     "color": [
+      235,
+      235,
+      235
+     ],
+     "strike": true
+    },
+    {
+     "text": "VẼ TRANH",
+     "size": 150,
+     "color": [
+      235,
+      235,
+      235
+     ],
+     "strike": true,
+     "at": 0.25
+    }
+   ],
+   "y": 620,
+   "seed": 23
+  },
+  {
+   "at": "S10:mà",
+   "type": "web",
+   "src": "lam-viec/webshots/bbc.png",
+   "ocr": "lam-viec/webshots/ocr/bbc.json",
+   "url": "bbc.com/news",
+   "focus": [
+    330,
+    700,
+    1400,
+    1300
+   ],
+   "hl": [
+    {
+     "find": "Google DeepMind boss wins Nobel for",
+     "style": "underline",
+     "at": 0.2
+    }
+   ],
+   "z1": 1350,
+   "zr": 1.12,
+   "cy": 0.4,
+   "label": "BBC News",
+   "credit": "BBC News (screenshot)"
+  },
+  {
+   "at": "S10:khoa",
+   "type": "web",
+   "src": "lam-viec/webshots/apnews.png",
+   "ocr": "lam-viec/webshots/ocr/apnews.json",
+   "url": "apnews.com",
+   "focus": [
+    60,
+    700,
+    1920,
+    1300
+   ],
+   "hl": [
+    {
+     "find": "who used Al to design proteins",
+     "at": 0.2
+    }
+   ],
+   "z1": 1500,
+   "zr": 1.08,
+   "cy": 0.4,
+   "label": "AP News",
+   "credit": "AP News (screenshot)"
+  },
+  {
+   "at": "S11:lĩnh",
+   "type": "face"
+  },
+  {
+   "at": "S11:tạo",
+   "type": "phone",
+   "src": "lam-viec/webshots/x_deepmind.png",
+   "ocr": "lam-viec/webshots/ocr/x_deepmind.json",
+   "hl": [
+    {
+     "find": "This is a monumental achievement for Al",
+     "at": 0.15
+    }
+   ],
+   "z1": 1500,
+   "zr": 1.12,
+   "cy": 0.4,
+   "label": "X · @GoogleDeepMind",
+   "credit": "X post @GoogleDeepMind 1843960591792185695 (embed screenshot)"
+  },
+  {
+   "at": "S12.0",
+   "type": "face",
+   "zoom": 1.06
+  }
+ ]
+}

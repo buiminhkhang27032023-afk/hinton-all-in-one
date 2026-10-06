@@ -1,0 +1,2382 @@
+[
+{
+"box": [
+141,
+47,
+325,
+38
+],
+"text": "News from Google",
+"conf": 0.921
+},
+{
+"box": [
+1194,
+53,
+236,
+33
+],
+"text": "Company news ",
+"conf": 0.858
+},
+{
+"box": [
+1503,
+53,
+70,
+29
+],
+"text": "Feed",
+"conf": 0.781
+},
+{
+"box": [
+501,
+55,
+232,
+27
+],
+"text": "Innovation & Al ",
+"conf": 0.809
+},
+{
+"box": [
+811,
+56,
+306,
+27
+],
+"text": "Products &platforms V",
+"conf": 0.919
+},
+{
+"box": [
+1887,
+49,
+169,
+32
+],
+"text": "Newsletter",
+"conf": 0.854
+},
+{
+"box": [
+466,
+352,
+1091,
+140
+],
+"text": "Gemini 4 Argon: our",
+"conf": 0.919
+},
+{
+"box": [
+464,
+511,
+1013,
+102
+],
+"text": "next era of frontier",
+"conf": 0.892
+},
+{
+"box": [
+467,
+652,
+629,
+126
+],
+"text": "intelligence",
+"conf": 0.849
+},
+{
+"box": [
+469,
+832,
+167,
+32
+],
+"text": "Sep 30, 2026",
+"conf": 0.862
+},
+{
+"box": [
+689,
+833,
+1029,
+41
+],
+"text": "Gemini 4 Argon delivers frontier performance in complex",
+"conf": 0.919
+},
+{
+"box": [
+469,
+881,
+136,
+30
+],
+"text": "9 min read",
+"conf": 0.792
+},
+{
+"box": [
+688,
+886,
+904,
+48
+],
+"text": "workflows across real-world software engineering,",
+"conf": 0.924
+},
+{
+"box": [
+691,
+945,
+963,
+41
+],
+"text": "enterprise knowledge work like legal and finance, and",
+"conf": 0.931
+},
+{
+"box": [
+693,
+1004,
+409,
+39
+],
+"text": "cybersecurity defense.",
+"conf": 0.931
+},
+{
+"box": [
+471,
+1155,
+250,
+32
+],
+"text": "Koray Kavukcuoglu",
+"conf": 0.899
+},
+{
+"box": [
+1638,
+1177,
+93,
+35
+],
+"text": "Share",
+"conf": 0.768
+},
+{
+"box": [
+469,
+1203,
+693,
+31
+],
+"text": "SVP, Google DeepMind and Chief Al Architect, Google",
+"conf": 0.917
+},
+{
+"box": [
+363,
+1949,
+678,
+119
+],
+"text": "Gemini 4Argon",
+"conf": 0.876
+},
+{
+"box": [
+726,
+2749,
+432,
+35
+],
+"text": "Read Al-generated summary",
+"conf": 0.889
+},
+{
+"box": [
+637,
+2872,
+211,
+27
+],
+"text": "Today. we're ar",
+"conf": 0.812
+},
+{
+"box": [
+1247,
+2874,
+226,
+24
+],
+"text": "nodel. Gemini 4",
+"conf": 0.843
+},
+{
+"box": [
+176,
+2895,
+173,
+26
+],
+"text": "In this article",
+"conf": 0.857
+},
+{
+"box": [
+636,
+2927,
+877,
+30
+],
+"text": "Argon, which is rolling out to a set of trusted cyber defenders",
+"conf": 0.904
+},
+{
+"box": [
+633,
+2978,
+888,
+33
+],
+"text": "through our Fairwind Program. Built to sustain deep reasoning",
+"conf": 0.918
+},
+{
+"box": [
+177,
+2993,
+263,
+27
+],
+"text": "Introducing Gemini 4",
+"conf": 0.904
+},
+{
+"box": [
+172,
+3037,
+86,
+35
+],
+"text": "Argon",
+"conf": 0.801
+},
+{
+"box": [
+634,
+3031,
+923,
+30
+],
+"text": "across complex, long-horizon workflows, Argon is fundamentally",
+"conf": 0.916
+},
+{
+"box": [
+635,
+3082,
+822,
+33
+],
+"text": "changing the way we work and build at Google. It delivers",
+"conf": 0.904
+},
+{
+"box": [
+178,
+3138,
+293,
+27
+],
+"text": "Changing how we work",
+"conf": 0.886
+},
+{
+"box": [
+633,
+3132,
+882,
+34
+],
+"text": "frontier performance in complex workflows across real-world",
+"conf": 0.925
+},
+{
+"box": [
+175,
+3186,
+246,
+27
+],
+"text": "and build at Google",
+"conf": 0.876
+},
+{
+"box": [
+633,
+3185,
+907,
+34
+],
+"text": "software engineering, enterprise knowledge work like legal and",
+"conf": 0.939
+},
+{
+"box": [
+633,
+3237,
+518,
+34
+],
+"text": "finance, and cybersecurity defense.",
+"conf": 0.9
+},
+{
+"box": [
+177,
+3282,
+294,
+27
+],
+"text": "Working harder on your",
+"conf": 0.892
+},
+{
+"box": [
+177,
+3330,
+303,
+27
+],
+"text": "most complex problems",
+"conf": 0.909
+},
+{
+"box": [
+636,
+3340,
+825,
+29
+],
+"text": "Safely releasing frontier capabilities at this level requires a",
+"conf": 0.947
+},
+{
+"box": [
+633,
+3386,
+770,
+38
+],
+"text": "phased approach. We are actively engaged in the U.s.",
+"conf": 0.91
+},
+{
+"box": [
+175,
+3422,
+258,
+32
+],
+"text": "Enabling coding and",
+"conf": 0.834
+},
+{
+"box": [
+632,
+3437,
+892,
+41
+],
+"text": "government's voluntary process for pre-release model access",
+"conf": 0.936
+},
+{
+"box": [
+177,
+3473,
+266,
+27
+],
+"text": "enterprise workflows",
+"conf": 0.915
+},
+{
+"box": [
+634,
+3493,
+841,
+33
+],
+"text": "while we gradually expand access. We'll continue to gather",
+"conf": 0.896
+},
+{
+"box": [
+176,
+3521,
+199,
+27
+],
+"text": "across domains",
+"conf": 0.845
+},
+{
+"box": [
+635,
+3547,
+885,
+30
+],
+"text": "feedback from early testers as we iterate on guardrails before",
+"conf": 0.914
+},
+{
+"box": [
+176,
+3616,
+257,
+30
+],
+"text": "Leading in defensive",
+"conf": 0.856
+},
+{
+"box": [
+633,
+3651,
+451,
+32
+],
+"text": "consumers as soon as possible.",
+"conf": 0.914
+},
+{
+"box": [
+176,
+3664,
+175,
+33
+],
+"text": "cybersecurity",
+"conf": 0.889
+},
+{
+"box": [
+634,
+3747,
+853,
+34
+],
+"text": "Argon will launch at an introductory price 1 of $2 per million",
+"conf": 0.91
+},
+{
+"box": [
+176,
+3760,
+281,
+30
+],
+"text": "Strengthening frontier",
+"conf": 0.911
+},
+{
+"box": [
+176,
+3808,
+312,
+28
+],
+"text": "safeguards before broad",
+"conf": 0.889
+},
+{
+"box": [
+632,
+3801,
+858,
+33
+],
+"text": "input tokens and $10 per million output tokens, with cached",
+"conf": 0.927
+},
+{
+"box": [
+174,
+3851,
+135,
+38
+],
+"text": "availability",
+"conf": 0.852
+},
+{
+"box": [
+634,
+3855,
+689,
+30
+],
+"text": "input tokens priced at 95% off input token price.",
+"conf": 0.918
+},
+{
+"box": [
+177,
+3951,
+199,
+23
+],
+"text": "Dallinnnit cnnn",
+"conf": 0.673
+},
+{
+"box": [
+635,
+4002,
+897,
+58
+],
+"text": "Changing how we work and build at",
+"conf": 0.89
+},
+{
+"box": [
+631,
+4073,
+195,
+61
+],
+"text": "Google",
+"conf": 0.788
+},
+{
+"box": [
+635,
+4196,
+915,
+33
+],
+"text": "Gemini 4 Argon is already powering our internal workflows, with",
+"conf": 0.914
+},
+{
+"box": [
+635,
+4248,
+857,
+33
+],
+"text": "thousands of Googlers highlighting the model's strengths in",
+"conf": 0.939
+},
+{
+"box": [
+636,
+4303,
+841,
+30
+],
+"text": "specialized coding tasks, conducting deeper research, and",
+"conf": 0.938
+},
+{
+"box": [
+634,
+4353,
+831,
+34
+],
+"text": "writing quality. It's helping teams build faster and push the",
+"conf": 0.928
+},
+{
+"box": [
+633,
+4404,
+810,
+34
+],
+"text": "boundaries of engineering productivity and accelerating",
+"conf": 0.929
+},
+{
+"box": [
+635,
+4457,
+219,
+33
+],
+"text": "breakthroughs:",
+"conf": 0.878
+},
+{
+"box": [
+657,
+4607,
+837,
+30
+],
+"text": ": Quantum algorithmic optimization: Argon is helping our",
+"conf": 0.915
+},
+{
+"box": [
+683,
+4657,
+818,
+34
+],
+"text": "quantum computing researchers optimize the spacetime",
+"conf": 0.871
+},
+{
+"box": [
+681,
+4708,
+818,
+34
+],
+"text": "resources (qubits × gates) of subroutines that bottleneck",
+"conf": 0.947
+},
+{
+"box": [
+682,
+4762,
+867,
+32
+],
+"text": "important applications. In one example, it beat the published",
+"conf": 0.927
+},
+{
+"box": [
+684,
+4814,
+561,
+30
+],
+"text": "baseline by 40% in a matter of minutes.",
+"conf": 0.913
+},
+{
+"box": [
+655,
+4960,
+882,
+34
+],
+"text": ": Memory efficiency: A team of Argon agents analyzed fleet-",
+"conf": 0.9
+},
+{
+"box": [
+682,
+5067,
+865,
+31
+],
+"text": "memory optimizations across Google's data centers, freeing",
+"conf": 0.935
+},
+{
+"box": [
+681,
+5116,
+735,
+34
+],
+"text": "up over 300 TiB of memory once rolled out, with an",
+"conf": 0.911
+},
+{
+"box": [
+681,
+5166,
+599,
+36
+],
+"text": "estimated 500 TiB to 1 PiB in total savings.",
+"conf": 0.941
+},
+{
+"box": [
+656,
+5317,
+903,
+33
+],
+"text": ": Large Scale Codebase Migrations and Optimizations: Argon",
+"conf": 0.891
+},
+{
+"box": [
+681,
+5368,
+842,
+35
+],
+"text": "agents are working on migrating C/C++ codebases to Rust",
+"conf": 0.937
+},
+{
+"box": [
+682,
+5421,
+839,
+33
+],
+"text": "across Google - scaling from tens of thousands of lines in",
+"conf": 0.943
+},
+{
+"box": [
+684,
+5473,
+769,
+33
+],
+"text": "core libraries like re2, libgav1 up to 800K+ lines for the",
+"conf": 0.875
+},
+{
+"box": [
+681,
+5524,
+844,
+32
+],
+"text": "Fuchsia Zircon kernel. Given the criticality of many of these",
+"conf": 0.93
+},
+{
+"box": [
+684,
+5577,
+845,
+33
+],
+"text": "systems, such large-scale rewrites are undergoing rigorous",
+"conf": 0.933
+},
+{
+"box": [
+683,
+5630,
+792,
+30
+],
+"text": "automated and manual auditing, emulation testing, and",
+"conf": 0.916
+},
+{
+"box": [
+681,
+5679,
+563,
+34
+],
+"text": "review before rolling out to production.",
+"conf": 0.902
+},
+{
+"box": [
+681,
+5782,
+809,
+35
+],
+"text": "For libgav1, Google's open source software for decoding",
+"conf": 0.943
+},
+{
+"box": [
+684,
+5837,
+856,
+30
+],
+"text": "video, Argon agents took an existing Rust port and replaced",
+"conf": 0.927
+},
+{
+"box": [
+682,
+5886,
+828,
+35
+],
+"text": "32K lines of SIMD code by running many rounds of profile-",
+"conf": 0.909
+},
+{
+"box": [
+681,
+5938,
+752,
+38
+],
+"text": "guided experiments, studying the compiler's output,",
+"conf": 0.915
+},
+{
+"box": [
+681,
+5990,
+784,
+36
+],
+"text": "producing safe Rust so the compiler would vectorize it",
+"conf": 0.933
+},
+{
+"box": [
+684,
+6045,
+878,
+30
+],
+"text": "automatically. The end result is a memory-safe video decoder",
+"conf": 0.915
+},
+{
+"box": [
+683,
+6097,
+840,
+30
+],
+"text": "that runs 2.7x faster than the Rust port, with identical video",
+"conf": 0.897
+},
+{
+"box": [
+685,
+6150,
+669,
+29
+],
+"text": "output, bringing it closer to the optimized C++.",
+"conf": 0.905
+},
+{
+"box": [
+634,
+6298,
+739,
+54
+],
+"text": "Working harder on your most",
+"conf": 0.895
+},
+{
+"box": [
+636,
+6374,
+467,
+49
+],
+"text": "complex problems",
+"conf": 0.902
+},
+{
+"box": [
+636,
+6492,
+868,
+30
+],
+"text": "To support Gemini 4 Argon's capabilities across longer, more",
+"conf": 0.922
+},
+{
+"box": [
+635,
+6542,
+893,
+31
+],
+"text": "complex use cases, we are significantly expanding the model's",
+"conf": 0.916
+},
+{
+"box": [
+636,
+6595,
+909,
+30
+],
+"text": "output token limit to an industry-leading 1M tokens, up from the",
+"conf": 0.913
+},
+{
+"box": [
+632,
+6641,
+935,
+40
+],
+"text": "previous 64K tokens. When the model has the headroom to think",
+"conf": 0.892
+},
+{
+"box": [
+634,
+6697,
+927,
+34
+],
+"text": "deeply and generate hundreds of thousands of tokens in a single",
+"conf": 0.918
+},
+{
+"box": [
+634,
+6749,
+848,
+34
+],
+"text": "trajectory, it adds a new level of depth in reasoning to solve",
+"conf": 0.94
+},
+{
+"box": [
+635,
+6804,
+373,
+30
+],
+"text": "tough problems in one go.",
+"conf": 0.928
+},
+{
+"box": [
+1353,
+6980,
+87,
+31
+],
+"text": "GPT-6",
+"conf": 0.753
+},
+{
+"box": [
+1598,
+6980,
+99,
+31
+],
+"text": "Claude",
+"conf": 0.819
+},
+{
+"box": [
+1086,
+6981,
+122,
+30
+],
+"text": "Gemini 4",
+"conf": 0.767
+},
+{
+"box": [
+1850,
+6980,
+99,
+31
+],
+"text": "Claude",
+"conf": 0.804
+},
+{
+"box": [
+1100,
+7014,
+92,
+37
+],
+"text": "Argon",
+"conf": 0.754
+},
+{
+"box": [
+1357,
+7016,
+78,
+31
+],
+"text": "Astra",
+"conf": 0.754
+},
+{
+"box": [
+1590,
+7016,
+115,
+30
+],
+"text": "Fable 5.1",
+"conf": 0.847
+},
+{
+"box": [
+424,
+7018,
+152,
+27
+],
+"text": "Benchmark",
+"conf": 0.854
+},
+{
+"box": [
+1839,
+7015,
+121,
+33
+],
+"text": "Opus 5.5",
+"conf": 0.846
+},
+{
+"box": [
+1371,
+7084,
+66,
+15
+],
+"text": "310/",
+"conf": 0.644
+},
+{
+"box": [
+1604,
+7082,
+91,
+17
+],
+"text": "<5.00/",
+"conf": 0.594
+},
+{
+"box": [
+1865,
+7084,
+78,
+15
+],
+"text": "708/",
+"conf": 0.591
+},
+{
+"box": [
+1096,
+7084,
+104,
+35
+],
+"text": "68.9%",
+"conf": 0.773
+},
+{
+"box": [
+1352,
+7083,
+92,
+36
+],
+"text": "63.1%",
+"conf": 0.781
+},
+{
+"box": [
+189,
+7085,
+194,
+27
+],
+"text": "Knowledge work",
+"conf": 0.871
+},
+{
+"box": [
+419,
+7085,
+141,
+32
+],
+"text": "Vals Index",
+"conf": 0.776
+},
+{
+"box": [
+1850,
+7084,
+99,
+35
+],
+"text": "67.0%",
+"conf": 0.832
+},
+{
+"box": [
+1098,
+7173,
+99,
+34
+],
+"text": "51.3%",
+"conf": 0.799
+},
+{
+"box": [
+1350,
+7173,
+97,
+34
+],
+"text": "41.4%",
+"conf": 0.833
+},
+{
+"box": [
+1601,
+7173,
+96,
+34
+],
+"text": "31.4%",
+"conf": 0.637
+},
+{
+"box": [
+935,
+7175,
+76,
+31
+],
+"text": "Score",
+"conf": 0.769
+},
+{
+"box": [
+424,
+7177,
+241,
+25
+],
+"text": "AutomationBench",
+"conf": 0.934
+},
+{
+"box": [
+1848,
+7173,
+103,
+34
+],
+"text": "42.5%",
+"conf": 0.82
+},
+{
+"box": [
+1346,
+7260,
+104,
+38
+],
+"text": "53.5%",
+"conf": 0.769
+},
+{
+"box": [
+1598,
+7261,
+101,
+35
+],
+"text": "58.9%",
+"conf": 0.758
+},
+{
+"box": [
+1096,
+7262,
+104,
+35
+],
+"text": "65.4%",
+"conf": 0.806
+},
+{
+"box": [
+424,
+7266,
+287,
+27
+],
+"text": "Vals Finance Agent v2",
+"conf": 0.915
+},
+{
+"box": [
+1848,
+7261,
+103,
+35
+],
+"text": "58.6%",
+"conf": 0.722
+},
+{
+"box": [
+1355,
+7349,
+84,
+36
+],
+"text": "5.4%",
+"conf": 0.677
+},
+{
+"box": [
+1607,
+7350,
+83,
+36
+],
+"text": "6.7%",
+"conf": 0.744
+},
+{
+"box": [
+1099,
+7351,
+97,
+35
+],
+"text": "19.6%",
+"conf": 0.808
+},
+{
+"box": [
+423,
+7355,
+438,
+30
+],
+"text": "Harvey's Legal Agent Benchmark",
+"conf": 0.904
+},
+{
+"box": [
+1856,
+7349,
+86,
+39
+],
+"text": "3.8%",
+"conf": 0.731
+},
+{
+"box": [
+189,
+7438,
+176,
+33
+],
+"text": "Agentic coding",
+"conf": 0.878
+},
+{
+"box": [
+1099,
+7440,
+96,
+35
+],
+"text": "77.9%",
+"conf": 0.517
+},
+{
+"box": [
+1352,
+7439,
+90,
+36
+],
+"text": "74.1%",
+"conf": 0.751
+},
+{
+"box": [
+1601,
+7440,
+96,
+35
+],
+"text": "67.4%",
+"conf": 0.621
+},
+{
+"box": [
+423,
+7444,
+181,
+30
+],
+"text": "DeepSWE v1.1",
+"conf": 0.84
+},
+{
+"box": [
+1849,
+7440,
+99,
+35
+],
+"text": "74.2%",
+"conf": 0.744
+},
+{
+"box": [
+1095,
+7530,
+105,
+34
+],
+"text": "55.0%",
+"conf": 0.764
+},
+{
+"box": [
+1346,
+7530,
+105,
+33
+],
+"text": "65.5%",
+"conf": 0.832
+},
+{
+"box": [
+1598,
+7529,
+102,
+34
+],
+"text": "56.3%",
+"conf": 0.696
+},
+{
+"box": [
+424,
+7534,
+202,
+27
+],
+"text": "FrontierSWE v2",
+"conf": 0.87
+},
+{
+"box": [
+1849,
+7530,
+101,
+33
+],
+"text": "62.3%",
+"conf": 0.817
+},
+{
+"box": [
+1098,
+7618,
+99,
+35
+],
+"text": "91.9%",
+"conf": 0.833
+},
+{
+"box": [
+1349,
+7618,
+99,
+35
+],
+"text": "89.6%",
+"conf": 0.774
+},
+{
+"box": [
+1597,
+7618,
+104,
+35
+],
+"text": "90.3%",
+"conf": 0.767
+},
+{
+"box": [
+423,
+7621,
+228,
+29
+],
+"text": "Vibe Code Bench",
+"conf": 0.868
+},
+{
+"box": [
+1847,
+7618,
+104,
+35
+],
+"text": "90.3%",
+"conf": 0.832
+},
+{
+"box": [
+1600,
+7706,
+98,
+38
+],
+"text": "57.9%",
+"conf": 0.749
+},
+{
+"box": [
+1100,
+7707,
+96,
+35
+],
+"text": "57.4%",
+"conf": 0.701
+},
+{
+"box": [
+1347,
+7707,
+102,
+35
+],
+"text": "58.2%",
+"conf": 0.741
+},
+{
+"box": [
+424,
+7712,
+255,
+26
+],
+"text": "Terminal-bench 4.0",
+"conf": 0.884
+},
+{
+"box": [
+1847,
+7706,
+105,
+35
+],
+"text": "66.4%",
+"conf": 0.832
+},
+{
+"box": [
+187,
+7795,
+182,
+32
+],
+"text": "ML engineering",
+"conf": 0.87
+},
+{
+"box": [
+1345,
+7793,
+106,
+40
+],
+"text": "44.3%",
+"conf": 0.789
+},
+{
+"box": [
+1096,
+7796,
+103,
+35
+],
+"text": "45.3%",
+"conf": 0.833
+},
+{
+"box": [
+1598,
+7796,
+103,
+35
+],
+"text": "40.2%",
+"conf": 0.779
+},
+{
+"box": [
+424,
+7802,
+206,
+26
+],
+"text": "PostTrainBench",
+"conf": 0.899
+},
+{
+"box": [
+1848,
+7795,
+103,
+38
+],
+"text": "49.3%",
+"conf": 0.754
+},
+{
+"box": [
+189,
+7886,
+142,
+27
+],
+"text": "Science and",
+"conf": 0.891
+},
+{
+"box": [
+1100,
+7886,
+95,
+35
+],
+"text": "57.6%",
+"conf": 0.691
+},
+{
+"box": [
+1351,
+7886,
+95,
+35
+],
+"text": "68.1%",
+"conf": 0.821
+},
+{
+"box": [
+1598,
+7886,
+101,
+35
+],
+"text": "52.6%",
+"conf": 0.769
+},
+{
+"box": [
+423,
+7889,
+358,
+28
+],
+"text": "Terminal-Bench Science 0.1",
+"conf": 0.855
+},
+{
+"box": [
+1849,
+7886,
+101,
+35
+],
+"text": "63.3%",
+"conf": 0.761
+},
+{
+"box": [
+186,
+7914,
+68,
+31
+],
+"text": "math",
+"conf": 0.729
+},
+{
+"box": [
+1346,
+7973,
+104,
+38
+],
+"text": "85.4%",
+"conf": 0.707
+},
+{
+"box": [
+1095,
+7975,
+105,
+34
+],
+"text": "88.8%",
+"conf": 0.807
+},
+{
+"box": [
+1597,
+7972,
+103,
+41
+],
+"text": "68.6%",
+"conf": 0.645
+},
+{
+"box": [
+423,
+7979,
+160,
+27
+],
+"text": "LABBench 2",
+"conf": 0.856
+},
+{
+"box": [
+1853,
+7974,
+91,
+36
+],
+"text": "73.1%",
+"conf": 0.8
+},
+{
+"box": [
+1346,
+8062,
+104,
+38
+],
+"text": "72.0%",
+"conf": 0.76
+},
+{
+"box": [
+1597,
+8062,
+104,
+38
+],
+"text": "65.6%",
+"conf": 0.701
+},
+{
+"box": [
+1095,
+8064,
+104,
+35
+],
+"text": "76.0%",
+"conf": 0.684
+},
+{
+"box": [
+423,
+8067,
+200,
+29
+],
+"text": "RiemannBench",
+"conf": 0.811
+},
+{
+"box": [
+1849,
+8062,
+101,
+38
+],
+"text": "69.6%",
+"conf": 0.701
+},
+{
+"box": [
+187,
+8152,
+158,
+32
+],
+"text": "Long context",
+"conf": 0.891
+},
+{
+"box": [
+1096,
+8150,
+102,
+40
+],
+"text": "99.7%",
+"conf": 0.826
+},
+{
+"box": [
+1347,
+8153,
+102,
+35
+],
+"text": "98.7%",
+"conf": 0.793
+},
+{
+"box": [
+1599,
+8153,
+98,
+35
+],
+"text": "91.4%",
+"conf": 0.833
+},
+{
+"box": [
+782,
+8156,
+219,
+29
+],
+"text": "Up to 128k, BFS (F1)",
+"conf": 0.873
+},
+{
+"box": [
+1846,
+8153,
+106,
+35
+],
+"text": "90.6%",
+"conf": 0.791
+},
+{
+"box": [
+422,
+8200,
+163,
+33
+],
+"text": "GraphWalks",
+"conf": 0.907
+},
+{
+"box": [
+1093,
+8238,
+108,
+41
+],
+"text": "84.2%",
+"conf": 0.741
+},
+{
+"box": [
+1349,
+8241,
+98,
+38
+],
+"text": "71.8%",
+"conf": 0.757
+},
+{
+"box": [
+1597,
+8241,
+104,
+35
+],
+"text": "65.0%",
+"conf": 0.832
+},
+{
+"box": [
+780,
+8249,
+221,
+23
+],
+"text": "256kto 1M,BFS (F1)",
+"conf": 0.864
+},
+{
+"box": [
+1847,
+8239,
+104,
+39
+],
+"text": "66.8%",
+"conf": 0.762
+},
+{
+"box": [
+189,
+8331,
+168,
+31
+],
+"text": "Computer use",
+"conf": 0.868
+},
+{
+"box": [
+1097,
+8331,
+102,
+35
+],
+"text": "39.5%",
+"conf": 0.688
+},
+{
+"box": [
+1347,
+8331,
+102,
+34
+],
+"text": "34.2%",
+"conf": 0.753
+},
+{
+"box": [
+899,
+8334,
+110,
+30
+],
+"text": "Pass rate",
+"conf": 0.896
+},
+{
+"box": [
+424,
+8335,
+243,
+30
+],
+"text": "Agent's Last Exam",
+"conf": 0.883
+},
+{
+"box": [
+1849,
+8331,
+101,
+35
+],
+"text": "38.2%",
+"conf": 0.712
+},
+{
+"box": [
+842,
+8419,
+164,
+29
+],
+"text": "Offline subset",
+"conf": 0.899
+},
+{
+"box": [
+1099,
+8431,
+98,
+35
+],
+"text": "69.2%",
+"conf": 0.833
+},
+{
+"box": [
+424,
+8435,
+169,
+27
+],
+"text": "OsWorld-2.0",
+"conf": 0.872
+},
+{
+"box": [
+1347,
+8431,
+102,
+34
+],
+"text": "72.6%",
+"conf": 0.822
+},
+{
+"box": [
+861,
+8451,
+143,
+26
+],
+"text": "Partial score",
+"conf": 0.863
+},
+{
+"box": [
+1098,
+8531,
+99,
+38
+],
+"text": "71.6%",
+"conf": 0.773
+},
+{
+"box": [
+421,
+8532,
+190,
+37
+],
+"text": "Chartography",
+"conf": 0.912
+},
+{
+"box": [
+1347,
+8528,
+101,
+41
+],
+"text": "71.0%",
+"conf": 0.751
+},
+{
+"box": [
+1598,
+8533,
+102,
+34
+],
+"text": "46.2%",
+"conf": 0.832
+},
+{
+"box": [
+190,
+8534,
+131,
+24
+],
+"text": "Multimodal",
+"conf": 0.817
+},
+{
+"box": [
+1849,
+8532,
+101,
+35
+],
+"text": "66.3%",
+"conf": 0.826
+},
+{
+"box": [
+188,
+8561,
+170,
+30
+],
+"text": "understanding",
+"conf": 0.869
+},
+{
+"box": [
+1097,
+8619,
+101,
+38
+],
+"text": "91.7%",
+"conf": 0.687
+},
+{
+"box": [
+1349,
+8619,
+98,
+38
+],
+"text": "87.5%",
+"conf": 0.758
+},
+{
+"box": [
+1599,
+8619,
+99,
+38
+],
+"text": "79.7%",
+"conf": 0.739
+},
+{
+"box": [
+421,
+8622,
+120,
+34
+],
+"text": "LVBench",
+"conf": 0.848
+},
+{
+"box": [
+1849,
+8620,
+100,
+35
+],
+"text": "83.7%",
+"conf": 0.781
+},
+{
+"box": [
+191,
+8710,
+162,
+30
+],
+"text": "Cybersecurity",
+"conf": 0.877
+},
+{
+"box": [
+1093,
+8709,
+107,
+35
+],
+"text": "68.0%",
+"conf": 0.746
+},
+{
+"box": [
+1345,
+8710,
+106,
+35
+],
+"text": "68.0%",
+"conf": 0.734
+},
+{
+"box": [
+1597,
+8710,
+104,
+35
+],
+"text": "58.0%",
+"conf": 0.799
+},
+{
+"box": [
+424,
+8713,
+191,
+27
+],
+"text": "CWE-bench v1",
+"conf": 0.867
+},
+{
+"box": [
+1851,
+8710,
+98,
+35
+],
+"text": "67.0%",
+"conf": 0.687
+},
+{
+"box": [
+174,
+8800,
+986,
+31
+],
+"text": "Methodology: deepmind.google/models/evals-methodologylgemini-4-argon",
+"conf": 0.93
+},
+{
+"box": [
+636,
+8965,
+781,
+52
+],
+"text": "Enabling coding and enterprise",
+"conf": 0.911
+},
+{
+"box": [
+634,
+9039,
+667,
+46
+],
+"text": "workflows across domains",
+"conf": 0.9
+},
+{
+"box": [
+636,
+9158,
+851,
+30
+],
+"text": "Gemini 4 Argon's capabilities across coding, reasoning, and",
+"conf": 0.913
+},
+{
+"box": [
+635,
+9209,
+853,
+31
+],
+"text": "multimodality and its ability to sustain long, multi-step tasks",
+"conf": 0.931
+},
+{
+"box": [
+634,
+9260,
+818,
+34
+],
+"text": "enable it to excel across a range of enterprise workflows.",
+"conf": 0.922
+},
+{
+"box": [
+636,
+9362,
+874,
+30
+],
+"text": "Google engineers have been using Argon for their daily tasks:",
+"conf": 0.936
+},
+{
+"box": [
+631,
+9409,
+891,
+40
+],
+"text": "from everyday debugging to large-scale codebase migrations",
+"conf": 0.955
+},
+{
+"box": [
+633,
+9463,
+928,
+34
+],
+"text": "and algorithm designs. It sets a new state of the art on DeepsWE",
+"conf": 0.905
+},
+{
+"box": [
+634,
+9514,
+926,
+35
+],
+"text": "v1.1 (77.9%), which measures a model's performance in real-world",
+"conf": 0.906
+},
+{
+"box": [
+632,
+9568,
+585,
+34
+],
+"text": "long-horizon software engineering tasks.",
+"conf": 0.897
+},
+{
+"box": [
+635,
+9668,
+870,
+33
+],
+"text": "Beyond coding, Argon is the leading model on the Vals Index,",
+"conf": 0.911
+},
+{
+"box": [
+633,
+9719,
+913,
+34
+],
+"text": "which measures economic impact across finance, coding, legal,",
+"conf": 0.937
+},
+{
+"box": [
+634,
+9773,
+897,
+30
+],
+"text": "and tax work, with every sector weighted by its contribution to",
+"conf": 0.924
+},
+{
+"box": [
+632,
+9822,
+869,
+36
+],
+"text": "U.S. GDP. We see similarly leading performance across other",
+"conf": 0.922
+},
+{
+"box": [
+636,
+9878,
+876,
+30
+],
+"text": "domain specific evaluations, like Vals Finance Agent v2 (multi-",
+"conf": 0.926
+},
+{
+"box": [
+633,
+9928,
+879,
+34
+],
+"text": "step financial research) and Harvey's Legal Agent Benchmark",
+"conf": 0.934
+},
+{
+"box": [
+636,
+9982,
+857,
+32
+],
+"text": "(legal research and drafting). On AutomationBench, Zapier's",
+"conf": 0.927
+},
+{
+"box": [
+634,
+10034,
+819,
+32
+],
+"text": "benchmark measuring end-to-end execution across core",
+"conf": 0.937
+},
+{
+"box": [
+634,
+10085,
+811,
+31
+],
+"text": "business functions, Argon ranks #1 with a score of 51.3%.",
+"conf": 0.902
+},
+{
+"box": [
+633,
+10184,
+869,
+34
+],
+"text": "Argon is also uniquely strong when knowledge work requires",
+"conf": 0.925
+},
+{
+"box": [
+634,
+10237,
+807,
+31
+],
+"text": "visual understanding. It's able to drive professional chart",
+"conf": 0.911
+},
+{
+"box": [
+634,
+10287,
+922,
+35
+],
+"text": "analysis, identify details from long videos, and take action based",
+"conf": 0.943
+},
+{
+"box": [
+633,
+10341,
+840,
+32
+],
+"text": "on a series of documents. For example, on LVBench, which",
+"conf": 0.928
+}
+]

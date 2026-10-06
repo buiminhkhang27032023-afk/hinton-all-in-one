@@ -1,0 +1,128 @@
+#!/usr/bin/env python3
+"""QA tự động cho preset VARUN — in bảng ĐẠT/KHÔNG ĐẠT từng chỉ tiêu, exit 1 nếu có mục KHÔNG ĐẠT.
+usage: .venv/bin/python tools/varun_qa.py /workspace/video-jobs/<job> [--sub v4]
+Đọc: qa/<sub>/varun_plan.json (hoặc lam-viec/varun_plan.json), lam-viec/render/timings.json, output/<sub>/*.mp4, config.json.
+Ghi: qa/<sub>/varun_qa.json + qa/<sub>/QA-<sub>.md"""
+import json, sys, os, re, subprocess, collections, argparse
+from pathlib import Path
+REPO = Path(__file__).resolve().parents[1]; sys.path.insert(0, str(REPO))
+
+ap = argparse.ArgumentParser(); ap.add_argument('job'); ap.add_argument('--sub', default=None); a = ap.parse_args()
+job = Path(a.job).resolve(); cfg = json.loads((job / 'config.json').read_text(encoding='utf-8'))
+sub = a.sub if a.sub is not None else cfg.get('output_subdir', '')
+qa = job / 'qa' / sub if sub else job / 'qa'; out = job / 'output' / sub if sub else job / 'output'; qa.mkdir(parents=True, exist_ok=True)
+pp = qa / 'varun_plan.json' if (qa / 'varun_plan.json').exists() else job / 'lam-viec' / 'varun_plan.json'
+P = json.loads(pp.read_text(encoding='utf-8')); S = P['shots']; T = P['dur']
+V = {**cfg.get('kallaway', {}), **cfg.get('varun', {})}; Q = V.get('qa', {})
+words = json.loads((job / 'lam-viec' / 'render' / 'timings.json').read_text(encoding='utf-8'))['words']
+rows = []
+def chk(name, ok, val, target): rows.append((name, bool(ok), val, target))
+
+face = [s for s in S if s['type'] == 'face']; ev = [s for s in S if s['type'] != 'face']
+fsec = sum(s['t1'] - s['t0'] for s in face)
+def srcs(s):  # evidence sources of a shot (split = 2)
+    if s['type'] == 'split': return srcs(s['top']) + srcs(s['bottom'])
+    if s.get('src'): return [os.path.basename(s['src'])]
+    if s['type'] == 'stat': return ['stat:' + '/'.join(l['text'] for l in s['lines'])]
+    return [s['type']]
+def vkey(s):
+    if s['type'] == 'split': return [k for h in (s['top'], s['bottom']) for k in vkey(h)]
+    return [(srcs(s)[0], s.get('ss'), json.dumps(s.get('hl', []), ensure_ascii=False), json.dumps(s.get('focus')))]
+def ukey(s):  # one *visual* = same file + same clip moment (±1 s) + same highlighted lines; another section of a page is another visual
+    if s['type'] == 'split': return ukey(s['top']) + ukey(s['bottom'])
+    return [(srcs(s)[0], round(s['ss']) if s.get('ss') is not None else None, tuple(h.get('find', '') for h in s.get('hl', [])))]
+uses = collections.Counter(k for s in ev for k in ukey(s))
+files = collections.Counter(k for s in ev for k in srcs(s))
+distinct = {k for s in ev for k in vkey(s)}
+durs = [s['t1'] - s['t0'] for s in ev]
+chk('Evidence full-frame', 100 * (T - fsec) / T >= 75, f'{100 * (T - fsec) / T:.1f}%', '≥75%')
+chk('Mặt presenter', 100 * fsec / T <= 25, f'{100 * fsec / T:.1f}% ({len(face)} lần)', '≤25%')
+ipm = len(ev) / T * 60
+chk('Insert/phút', ipm >= 30, f'{ipm:.1f} ({len(ev)} insert)', '≥30')
+bad = [(round(s['t0'], 2), round(d, 2)) for s, d in zip(ev, durs) if not 0.95 <= d <= 2.05]
+chk('Mỗi insert 1–2s', not bad, f'{min(durs):.2f}–{max(durs):.2f}s' + (f' lỗi {bad}' if bad else ''), '0.95–2.05s')
+need = 25 * T / 60
+chk('Visual khác nhau', len(distinct) >= need, f'{len(distinct)}', f'≥{need:.0f} (25/60s)')
+mx = max(uses.values()); rep = [k for k, v in uses.items() if v > 2]
+chk('Lặp hình tối đa', mx <= 2, f'max {mx} lần/hình (file dùng nhiều nhất: {files.most_common(1)[0][0]} ×{files.most_common(1)[0][1]}, các đoạn khác nhau)' + (f' lỗi {rep}' if rep else ''), '≤2 (lặp ≤1)')
+# face placement: hook / topic transitions (sentence starts) / end, spread evenly
+ft = [round(s['t0'], 2) for s in face]; gaps = [round(b - a, 2) for a, b in zip(ft, ft[1:])]
+sstarts = sorted({w['start'] for k, w in enumerate(words) if k == 0 or words[k - 1]['sent'] != w['sent']})
+hook_max = Q.get('face_hook_max', 3.0); gmin, gmax = V.get('face_min_gap', 10.0), Q.get('face_max_gap', 20.0)
+chk('Mặt ở hook', bool(ft) and ft[0] <= hook_max, f'{ft[0] if ft else "-"}s', f'≤{hook_max}s')
+chk('Mặt ở kết', bool(face) and abs(face[-1]['t1'] - T) < 0.05 and T - face[-1]['t0'] <= 6, f'{ft[-1] if ft else "-"}s→{T:.2f}s', 'shot cuối = mặt')
+mid = [t for t in ft[1:-1] if not any(abs(t - x) <= 0.35 for x in sstarts)]
+chk('Mặt giữa = chuyển ý', not mid, f'lệch đầu câu: {mid}' if mid else 'đều ở đầu câu', 'đầu câu/chuyển ý')
+chk('Mặt rải đều', bool(gaps) and min(gaps) >= gmin and max(gaps) <= gmax, f'mốc {ft} · khoảng {gaps}', f'khoảng {gmin:g}–{gmax:g}s')
+tr = [round(s['t0'], 2) for s in S if s.get('tr')]; tg = [round(b - a, 2) for a, b in zip([0.0] + tr, tr)]
+chk('Whip/zoom 4–6s', bool(tg) and all(3.9 <= g <= 6.1 for g in tg), f'{len(tr)} lần, khoảng {min(tg):.1f}–{max(tg):.1f}s', '3.9–6.1s')
+spm = len(P.get('sfx', [])) / T * 60
+chk('SFX nhẹ', spm <= 16, f'{len(P.get("sfx", []))} ({spm:.1f}/phút)', '≤16/phút')
+nsp = sum(1 for s in S if s['type'] == 'split'); spmin = Q.get('min_splits', 2)
+chk('Split 2 evidence', nsp >= spmin and all(s['top']['type'] != 'face' and s['bottom']['type'] != 'face' for s in S if s['type'] == 'split'), f'{nsp} shot', f'≥{spmin}, không mặt')
+L = P.get('lines')
+if L:
+    miss, fl = [], []
+    for n, l in enumerate(L):
+        ws = words[l['a']:l['b']]; 
+        if not ws: continue
+        t0, t1 = ws[0]['start'], ws[-1]['end']
+        if not any(s['type'] != 'face' and s['t0'] < t1 - 0.05 and s['t1'] > t0 + 0.05 for s in S):
+            # allowed: short face-only line = presenter beat ([MẶT] hook / topic turn / CTA), ≤3s
+            if t1 - t0 <= 3.0 and any(s['type'] == 'face' and abs(s['t0'] - t0) <= 0.35 for s in S): fl.append(n)
+            else: miss.append(n)
+    chk('Mỗi câu có hình', not miss, f'{len(L)} câu' + (f', thiếu {miss}' if miss else ', đủ') + (f' (câu chỉ mặt ≤3s: {fl})' if fl else ''), 'mỗi câu ≥1 evidence (trừ câu [MẶT] ≤3s)')
+# audio + format
+def probe(f):
+    r = subprocess.run(['ffprobe', '-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=width,height,r_frame_rate', '-of', 'csv=p=0', str(f)], capture_output=True, text=True)
+    return r.stdout.strip()
+f1, f7 = out / 'storytelling_final.mp4', out / 'storytelling_mobile_720p.mp4'
+e = subprocess.run(['ffmpeg', '-nostats', '-i', str(f1), '-filter_complex', 'ebur128=peak=true', '-f', 'null', '-'], capture_output=True, text=True).stderr
+I = float(re.findall(r'I:\s+(-?[\d.]+) LUFS', e)[-1]); TPk = float(re.findall(r'Peak:\s+(-?[\d.]+) dBFS', e)[-1])
+chk('Loudness', abs(I + 14) <= 0.5, f'{I:.1f} LUFS', '−14 ±0.5')
+chk('True peak', TPk <= -1.0, f'{TPk:.1f} dBTP', '≤ −1')
+p1, p7 = probe(f1), probe(f7) if f7.exists() else ''
+chk('Master 1080x1920 30fps', p1.startswith('1080,1920,30/1'), p1, '1080,1920,30/1')
+chk('File 720p', p7.startswith('720,1280'), p7 or 'thiếu', '720x1280')
+# safe zones + diacritics (measure the real overlay images)
+from pipeline.kallaway import varun as VR
+from fontTools.ttLib import TTFont
+W = 1080; viol = []; texts = []
+for c in P['captions']:
+    im = VR.to_bgra_txt(c['text']); h, w = im.shape[:2]; texts.append(c['text'])
+    if (W + w) / 2 > 940 or VR.CAP_TOP + h > 1590: viol.append(('cap', c['text'], w))
+def shot_texts(s):
+    if s['type'] == 'split': return shot_texts(s['top']) + shot_texts(s['bottom'])
+    return [s[k] for k in ('label', 'big', 'name', 'role') if s.get(k)] + [l['text'] for l in s.get('lines', [])]
+for s in S:
+    for lab in [x for x in ([s.get('label')] + ([s['top'].get('label'), s['bottom'].get('label')] if s['type'] == 'split' else [])) if x]:
+        w = VR.chip(lab).shape[1]
+        if 60 + w > 940: viol.append(('chip', lab, w))
+    if s.get('big'):
+        w = VR.R.text_rgba(s['big'], 'bvp', 180, '#FFFFFF', 0, glow='#FFFFFF', shadow=True).shape[1]
+        if (W + w) / 2 > 940 + 40: viol.append(('big', s['big'], w))  # glow padding ~40px
+    if s.get('name'):
+        w = VR.lower_third(s['name'], s.get('role', '')).shape[1]
+        if 60 + w > 940: viol.append(('lower3', s['name'], w))
+    texts += shot_texts(s)
+hk = P.get('hook')
+if hk:
+    texts += hk['lines']; f = VR.fnt(hk.get('size', 92)); from PIL import ImageDraw, Image
+    if hk.get('top', 250) < 150: viol.append(('hook-top', hk['top']))
+chk('Safe zone', not viol, 'không chữ ở y<150, y>1590, x>940' if not viol else str(viol[:4]), 'y150–1590, x≤940')
+cmap = set()
+for wt in ('Black', 'SemiBold', 'Bold', 'Medium'):
+    cmap |= set(TTFont(f'/usr/share/fonts/truetype/sand-box/google/Be Vietnam Pro/BeVietnamPro-{wt}.ttf')['cmap'].getBestCmap())
+import unicodedata
+miss = sorted({ch for t in texts for ch in unicodedata.normalize('NFC', t) if not ch.isspace() and ord(ch) not in cmap})
+chk('Dấu tiếng Việt / glyph', not miss, f'{len(texts)} chuỗi, thiếu {miss}' if miss else f'{len(texts)} chuỗi, đủ glyph', 'font có đủ ký tự')
+
+ok = all(r[1] for r in rows)
+md = [f'# QA VARUN — {cfg.get("job_id")} {sub}', '', '| Chỉ tiêu | Kết quả | Mục tiêu | Số liệu |', '|---|---|---|---|'] + \
+     [f'| {n} | {"ĐẠT" if o else "KHÔNG ĐẠT"} | {t} | {v} |' for n, o, v, t in rows] + ['', f'**TỔNG: {"ĐẠT" if ok else "KHÔNG ĐẠT"}**']
+(qa / f'QA-{sub or "varun"}.md').write_text('\n'.join(md) + '\n', encoding='utf-8')
+json.dump({'ok': ok, 'rows': [{'chi_tieu': n, 'dat': o, 'so_lieu': v, 'muc_tieu': t} for n, o, v, t in rows], 'face_at': ft, 'face_gaps': gaps,
+           'splits': nsp, 'transitions': tr, 'lufs': I, 'tp': TPk, 'uses_per_file': dict(files)}, open(qa / 'varun_qa.json', 'w'), ensure_ascii=False, indent=1)
+for n, o, v, t in rows: print(f'{"ĐẠT      " if o else "KHÔNG ĐẠT"} | {n:<24} | {v}  (mục tiêu {t})')
+print(f'==> TỔNG: {"ĐẠT" if ok else "KHÔNG ĐẠT"}  ({sum(r[1] for r in rows)}/{len(rows)})')
+sys.exit(0 if ok else 1)

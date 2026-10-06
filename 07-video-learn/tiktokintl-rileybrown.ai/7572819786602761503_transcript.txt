@@ -1,0 +1,29 @@
+[  0.00-  5.12] So today we are going to be building a mobile app from our phone and we're going to send it to the app store.
+[  5.38-  7.32] Alright, so step number one is we're just going to press a new app.
+[ 88.58- 89.98] -
+[ 89.98- 91.10] both of these models.
+[ 92.34- 94.54] I want you to pick the best model for this task.
+[108.78-109.66] Low key.
+[109.82-113.34] Talk in GenZero and roast me a little bit.
+[113.68-113.80] You know.
+[114.98-115.40] , okay.
+[115.40-117.70] It looks like it's done.
+[117.70-118.12] Let's take a look.
+[118.12-120.02] Okay, take a photo.
+[123.50-126.02] Analyzing my photo, let's see.
+[126.34-127.04] Oh wow.
+[128.10-130.52] Not gonna lie, those ears are high-key
+[130.52-131.96] giving Dobby from Harry.
+[132.34-135.34] Like if Dobby hit the gym for real, for real.
+[135.50-136.64] You look like you just woke up
+[136.64-138.34] and accidentally dipped your face
+[138.34-140.30] in a bucket of red light, no cap.
+[140.54-143.56] Oh my God, that's crazy.
+[144.02-146.42] Honestly, this app is ready to the app store.
+[146.42-149.38] Let's go ahead and publish it to the Apple App Store.
+[149.56-150.32] We can get started.
+[150.68-151.58] I'm gonna put in my info.
+[151.94-153.50] All right, I like it.
+[153.78-154.40] I understand.
+[155.10-156.56] Start build, boom.
+[156.88-158.84] Your app is on the way to the App Store.

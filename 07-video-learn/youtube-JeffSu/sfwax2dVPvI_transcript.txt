@@ -1,0 +1,15 @@
+[  0.00-  5.20] Gemini, Gemini, and Claude almost every day, and each one has a specific superpower.
+[  5.56-  7.30] Tragedy PT's superpower is obedience.
+[  7.68- 12.22] When you hand it a complex checklist with a dozen requirements, it follows every single
+[ 12.22- 12.60] one.
+[ 13.14- 17.38] Other models might be just as smart, but give them a lot of instructions, and they
+[ 17.38- 19.06] might quietly skip a few steps.
+[ 19.48- 21.80] Gemini's superpower is multi-modality.
+[ 22.22- 25.82] It can natively process video, audio, images, and text all together.
+[ 30.00- 33.90] Gemini is the only tool that can synthesize all three in one go.
+[ 34.22- 38.94] Claw, super power is first draft quality, meaning its first attempt is usually closer to done,
+[ 39.30- 44.06] especially for polishing, once you share examples of your existing work,
+[ 44.32- 46.28] it replicates your own almost perfectly.
+[ 46.72- 50.24] For me personally, chat, GBT and Gemini handle the beginning of my work,
+[ 50.46- 51.90] ideation, research and drafting.
+[ 52.22- 56.44] C, handle the last mile, turning that rough output into something polished.

@@ -1,0 +1,824 @@
+{
+  "presenter": "/workspace/hinton-pipeline-docs/assets/presenter-video-novoice.mp4",
+  "pcrop": [
+    656,
+    0,
+    608,
+    1072
+  ],
+  "face_c": [
+    337.0,
+    318.0
+  ],
+  "f_scale": 2.7632,
+  "f_eye_y": 700,
+  "dur": 28.266666666666666,
+  "crf": 18,
+  "shots": [
+    {
+      "type": "clip",
+      "ss": 1.0,
+      "label": "N News · vào làn gần",
+      "src": "/workspace/video-jobs/FB-BE-GAI-QUOC-LO/lam-viec/yt/src.mp4",
+      "credit": "N News — Facebook watch 1599860208291400 (clip gốc, duration_string 23)",
+      "at": 0.0,
+      "_line": "Bé gái đạp xe ra giữa quốc lộ.",
+      "t0": 0.0,
+      "t1": 2.573
+    },
+    {
+      "type": "face",
+      "zoom": 1.12,
+      "big": "KHỰNG GIỮA LÀN",
+      "at": 2.573,
+      "_line": "Nhưng bé khựng giữa làn.",
+      "t0": 2.573,
+      "t1": 4.164,
+      "ss": 1.0
+    },
+    {
+      "type": "clip",
+      "ss": 0.4,
+      "label": "N News · nhà mặt đường",
+      "src": "/workspace/video-jobs/FB-BE-GAI-QUOC-LO/lam-viec/yt/src.mp4",
+      "credit": "N News — Facebook watch 1599860208291400 (clip gốc, duration_string 23)",
+      "at": 4.164,
+      "_line": "Bé sống trong một căn nhà mặt đường.",
+      "t0": 4.164,
+      "t1": 5.647
+    },
+    {
+      "type": "clip",
+      "ss": 2.0,
+      "label": "N News · váy hồng, xe nhỏ",
+      "src": "/workspace/video-jobs/FB-BE-GAI-QUOC-LO/lam-viec/yt/src.mp4",
+      "credit": "N News — Facebook watch 1599860208291400 (clip gốc, duration_string 23)",
+      "at": 5.647,
+      "_line": "Váy hồng, xe nhỏ, từ lối trái.",
+      "t0": 5.647,
+      "t1": 5.8,
+      "tr": "whip"
+    },
+    {
+      "type": "clip",
+      "ss": 4.0,
+      "label": "N News · dừng giữa làn",
+      "src": "/workspace/video-jobs/FB-BE-GAI-QUOC-LO/lam-viec/yt/src.mp4",
+      "credit": "N News — Facebook watch 1599860208291400 (clip gốc, duration_string 23)",
+      "at": 5.8,
+      "_line": "Bé dừng giữa làn gần và đứng im.",
+      "t0": 5.8,
+      "t1": 7.4
+    },
+    {
+      "type": "clip",
+      "ss": 6.0,
+      "label": "N News · xe máy vượt",
+      "src": "/workspace/video-jobs/FB-BE-GAI-QUOC-LO/lam-viec/yt/src.mp4",
+      "credit": "N News — Facebook watch 1599860208291400 (clip gốc, duration_string 23)",
+      "at": 7.4,
+      "_line": "Xe máy vượt làn gần, bé không nhích.",
+      "t0": 7.4,
+      "t1": 9.12
+    },
+    {
+      "type": "clip",
+      "ss": 8.0,
+      "label": "N News · đứng nhìn lạc",
+      "src": "/workspace/video-jobs/FB-BE-GAI-QUOC-LO/lam-viec/yt/src.mp4",
+      "credit": "N News — Facebook watch 1599860208291400 (clip gốc, duration_string 23)",
+      "at": 9.12,
+      "_line": "Khoảng mười giây, bé vẫn đứng nhìn lạc.",
+      "t0": 9.12,
+      "t1": 10.9
+    },
+    {
+      "type": "clip",
+      "ss": 9.0,
+      "label": "N News · bé không né",
+      "src": "/workspace/video-jobs/FB-BE-GAI-QUOC-LO/lam-viec/yt/src.mp4",
+      "credit": "N News — Facebook watch 1599860208291400 (clip gốc, duration_string 23)",
+      "at": 10.9,
+      "_line": "Bé vẫn ngơ, không né dòng xe.",
+      "t0": 10.9,
+      "t1": 12.34,
+      "tr": "zoom"
+    },
+    {
+      "type": "face",
+      "zoom": 1.1,
+      "big": "TÀI XẾ ĐÃ THẤY",
+      "at": 12.34,
+      "_line": "Nhưng các tài xế đã thấy.",
+      "t0": 12.34,
+      "t1": 13.72,
+      "ss": 10.7
+    },
+    {
+      "type": "clip",
+      "ss": 10.0,
+      "label": "N News · bán tải trắng",
+      "src": "/workspace/video-jobs/FB-BE-GAI-QUOC-LO/lam-viec/yt/src.mp4",
+      "credit": "N News — Facebook watch 1599860208291400 (clip gốc, duration_string 23)",
+      "at": 13.72,
+      "_line": "Xe bán tải trắng ở làn xa dừng lại.",
+      "t0": 13.72,
+      "t1": 15.42
+    },
+    {
+      "type": "clip",
+      "ss": 12.0,
+      "label": "N News · xe tải thùng",
+      "src": "/workspace/video-jobs/FB-BE-GAI-QUOC-LO/lam-viec/yt/src.mp4",
+      "credit": "N News — Facebook watch 1599860208291400 (clip gốc, duration_string 23)",
+      "at": 15.42,
+      "_line": "Xe tải thùng phía sau cũng phanh.",
+      "t0": 15.42,
+      "t1": 16.84,
+      "tr": "whip"
+    },
+    {
+      "type": "split",
+      "top": {
+        "type": "clip",
+        "ss": 10.8,
+        "label": "N News · làn xa",
+        "src": "/workspace/video-jobs/FB-BE-GAI-QUOC-LO/lam-viec/yt/src.mp4",
+        "credit": "N News — Facebook watch 1599860208291400 (clip gốc, duration_string 23)"
+      },
+      "bottom": {
+        "type": "clip",
+        "ss": 13.0,
+        "label": "N News · xe phía sau",
+        "src": "/workspace/video-jobs/FB-BE-GAI-QUOC-LO/lam-viec/yt/src.mp4",
+        "credit": "N News — Facebook watch 1599860208291400 (clip gốc, duration_string 23)"
+      },
+      "credit": "N News — Facebook watch 1599860208291400 (clip gốc, duration_string 23) + N News — Facebook watch 1599860208291400 (clip gốc, duration_string 23)",
+      "at": 16.84,
+      "_line": "Hai làn dừng, chờ người trong nhà.",
+      "t0": 16.84,
+      "t1": 18.34
+    },
+    {
+      "type": "clip",
+      "ss": 15.0,
+      "label": "N News · người lớn chạy ra",
+      "src": "/workspace/video-jobs/FB-BE-GAI-QUOC-LO/lam-viec/yt/src.mp4",
+      "credit": "N News — Facebook watch 1599860208291400 (clip gốc, duration_string 23)",
+      "at": 18.34,
+      "_line": "Người lớn phóng ra từ bên trái.",
+      "t0": 18.34,
+      "t1": 19.78
+    },
+    {
+      "type": "clip",
+      "ss": 16.0,
+      "label": "N News · túm đuôi xe",
+      "src": "/workspace/video-jobs/FB-BE-GAI-QUOC-LO/lam-viec/yt/src.mp4",
+      "credit": "N News — Facebook watch 1599860208291400 (clip gốc, duration_string 23)",
+      "at": 19.78,
+      "_line": "Người đàn ông túm đuôi xe, kéo bé lùi khỏi làn.",
+      "t0": 19.78,
+      "t1": 20.92,
+      "tr": "zoom"
+    },
+    {
+      "type": "clip",
+      "ss": 18.0,
+      "label": "N News · kéo bé lùi",
+      "src": "/workspace/video-jobs/FB-BE-GAI-QUOC-LO/lam-viec/yt/src.mp4",
+      "credit": "N News — Facebook watch 1599860208291400 (clip gốc, duration_string 23)",
+      "at": 20.92,
+      "_line": "Người đàn ông túm đuôi xe, kéo bé lùi khỏi làn.",
+      "t0": 20.92,
+      "t1": 21.911
+    },
+    {
+      "type": "clip",
+      "ss": 21.0,
+      "label": "N News · ra khỏi khung",
+      "src": "/workspace/video-jobs/FB-BE-GAI-QUOC-LO/lam-viec/yt/src.mp4",
+      "credit": "N News — Facebook watch 1599860208291400 (clip gốc, duration_string 23)",
+      "at": 21.911,
+      "_line": "Bé và xe ra khỏi đường, khuất khung.",
+      "t0": 21.911,
+      "t1": 23.568
+    },
+    {
+      "type": "stat",
+      "label": "Nguồn: clip N News",
+      "lines": [
+        {
+          "text": "23",
+          "size": 280,
+          "color": [
+            255,
+            255,
+            255
+          ],
+          "at": 0.0
+        },
+        {
+          "text": "GIÂY",
+          "size": 76,
+          "color": [
+            255,
+            196,
+            0
+          ],
+          "w": "Bold",
+          "at": 0.2
+        }
+      ],
+      "y": 640,
+      "at": 23.568,
+      "_line": "Clip gốc dài hai mươi ba giây.",
+      "t0": 23.568,
+      "t1": 24.937
+    },
+    {
+      "type": "split",
+      "top": {
+        "type": "clip",
+        "ss": 3.0,
+        "label": "N News · lối ra làn",
+        "src": "/workspace/video-jobs/FB-BE-GAI-QUOC-LO/lam-viec/yt/src.mp4",
+        "credit": "N News — Facebook watch 1599860208291400 (clip gốc, duration_string 23)"
+      },
+      "bottom": {
+        "type": "web",
+        "label": "Facebook · N News",
+        "src": "/workspace/video-jobs/FB-BE-GAI-QUOC-LO/lam-viec/webshots/nnews.png",
+        "ocr": "/workspace/video-jobs/FB-BE-GAI-QUOC-LO/lam-viec/webshots/ocr/nnews.json",
+        "hl": [],
+        "url": "m.facebook.com/watch/",
+        "credit": "Screenshot https://m.facebook.com/watch/?v=1599860208291400&_rdr"
+      },
+      "credit": "N News — Facebook watch 1599860208291400 (clip gốc, duration_string 23) + Screenshot https://m.facebook.com/watch/?v=1599860208291400&_rdr",
+      "at": 24.937,
+      "_line": "Nhà sát đường, một nhịp là tới làn.",
+      "t0": 24.937,
+      "t1": 26.507,
+      "tr": "whip"
+    },
+    {
+      "type": "face",
+      "zoom": 1.06,
+      "big": "ĐỪNG GẦN LÀN XE",
+      "at": 26.507,
+      "_line": "Đừng để trẻ một mình gần làn xe.",
+      "t0": 26.507,
+      "t1": 28.266666666666666,
+      "ss": 20.4
+    }
+  ],
+  "face_times": [
+    2.573,
+    12.34,
+    26.507
+  ],
+  "face_gaps": [
+    9.77,
+    14.17
+  ],
+  "lines": [
+    {
+      "text": "Bé gái đạp xe ra giữa quốc lộ.",
+      "a": 0,
+      "b": 8,
+      "n_items": 1
+    },
+    {
+      "text": "Nhưng bé khựng giữa làn.",
+      "a": 8,
+      "b": 13,
+      "n_items": 1
+    },
+    {
+      "text": "Bé sống trong một căn nhà mặt đường.",
+      "a": 13,
+      "b": 21,
+      "n_items": 1
+    },
+    {
+      "text": "Váy hồng, xe nhỏ, từ lối trái.",
+      "a": 21,
+      "b": 28,
+      "n_items": 1
+    },
+    {
+      "text": "Bé dừng giữa làn gần và đứng im.",
+      "a": 28,
+      "b": 36,
+      "n_items": 1
+    },
+    {
+      "text": "Xe máy vượt làn gần, bé không nhích.",
+      "a": 36,
+      "b": 44,
+      "n_items": 1
+    },
+    {
+      "text": "Khoảng mười giây, bé vẫn đứng nhìn lạc.",
+      "a": 44,
+      "b": 52,
+      "n_items": 1
+    },
+    {
+      "text": "Bé vẫn ngơ, không né dòng xe.",
+      "a": 52,
+      "b": 59,
+      "n_items": 1
+    },
+    {
+      "text": "Nhưng các tài xế đã thấy.",
+      "a": 59,
+      "b": 65,
+      "n_items": 1
+    },
+    {
+      "text": "Xe bán tải trắng ở làn xa dừng lại.",
+      "a": 65,
+      "b": 74,
+      "n_items": 1
+    },
+    {
+      "text": "Xe tải thùng phía sau cũng phanh.",
+      "a": 74,
+      "b": 81,
+      "n_items": 1
+    },
+    {
+      "text": "Hai làn dừng, chờ người trong nhà.",
+      "a": 81,
+      "b": 88,
+      "n_items": 1
+    },
+    {
+      "text": "Người lớn phóng ra từ bên trái.",
+      "a": 88,
+      "b": 95,
+      "n_items": 1
+    },
+    {
+      "text": "Người đàn ông túm đuôi xe, kéo bé lùi khỏi làn.",
+      "a": 95,
+      "b": 106,
+      "n_items": 2
+    },
+    {
+      "text": "Bé và xe ra khỏi đường, khuất khung.",
+      "a": 106,
+      "b": 114,
+      "n_items": 1
+    },
+    {
+      "text": "Clip gốc dài hai mươi ba giây.",
+      "a": 114,
+      "b": 121,
+      "n_items": 1
+    },
+    {
+      "text": "Nhà sát đường, một nhịp là tới làn.",
+      "a": 121,
+      "b": 129,
+      "n_items": 1
+    },
+    {
+      "text": "Đừng để trẻ một mình gần làn xe.",
+      "a": 129,
+      "b": 137,
+      "n_items": 1
+    }
+  ],
+  "captions": [
+    {
+      "t0": 0.0,
+      "t1": 0.16,
+      "text": "Bé gái"
+    },
+    {
+      "t0": 0.16,
+      "t1": 1.379,
+      "text": "đạp xe"
+    },
+    {
+      "t0": 1.379,
+      "t1": 1.379,
+      "text": "ra giữa"
+    },
+    {
+      "t0": 1.379,
+      "t1": 2.573,
+      "text": "quốc lộ."
+    },
+    {
+      "t0": 2.573,
+      "t1": 2.573,
+      "text": "Nhưng bé"
+    },
+    {
+      "t0": 2.573,
+      "t1": 2.573,
+      "text": "khựng giữa"
+    },
+    {
+      "t0": 2.573,
+      "t1": 4.164,
+      "text": "làn."
+    },
+    {
+      "t0": 4.164,
+      "t1": 4.164,
+      "text": "Bé sống"
+    },
+    {
+      "t0": 4.164,
+      "t1": 4.164,
+      "text": "trong một"
+    },
+    {
+      "t0": 4.164,
+      "t1": 4.164,
+      "text": "căn nhà"
+    },
+    {
+      "t0": 4.164,
+      "t1": 5.647,
+      "text": "mặt đường."
+    },
+    {
+      "t0": 5.647,
+      "t1": 5.647,
+      "text": "Váy hồng,"
+    },
+    {
+      "t0": 5.647,
+      "t1": 5.647,
+      "text": "xe nhỏ,"
+    },
+    {
+      "t0": 5.647,
+      "t1": 5.647,
+      "text": "từ lối"
+    },
+    {
+      "t0": 5.647,
+      "t1": 5.8,
+      "text": "trái."
+    },
+    {
+      "t0": 5.8,
+      "t1": 6.1,
+      "text": "Bé dừng"
+    },
+    {
+      "t0": 6.1,
+      "t1": 6.48,
+      "text": "giữa làn"
+    },
+    {
+      "t0": 6.48,
+      "t1": 6.72,
+      "text": "gần và"
+    },
+    {
+      "t0": 6.72,
+      "t1": 7.4,
+      "text": "đứng im."
+    },
+    {
+      "t0": 7.4,
+      "t1": 7.74,
+      "text": "Xe máy"
+    },
+    {
+      "t0": 7.74,
+      "t1": 8.1,
+      "text": "vượt làn"
+    },
+    {
+      "t0": 8.1,
+      "t1": 8.36,
+      "text": "gần,"
+    },
+    {
+      "t0": 8.36,
+      "t1": 8.66,
+      "text": "bé không"
+    },
+    {
+      "t0": 8.66,
+      "t1": 9.12,
+      "text": "nhích."
+    },
+    {
+      "t0": 9.12,
+      "t1": 9.4,
+      "text": "Khoảng mười"
+    },
+    {
+      "t0": 9.4,
+      "t1": 9.58,
+      "text": "giây,"
+    },
+    {
+      "t0": 9.58,
+      "t1": 10.02,
+      "text": "bé vẫn"
+    },
+    {
+      "t0": 10.02,
+      "t1": 10.48,
+      "text": "đứng nhìn"
+    },
+    {
+      "t0": 10.48,
+      "t1": 10.9,
+      "text": "lạc."
+    },
+    {
+      "t0": 10.9,
+      "t1": 11.16,
+      "text": "Bé vẫn"
+    },
+    {
+      "t0": 11.16,
+      "t1": 11.38,
+      "text": "ngơ,"
+    },
+    {
+      "t0": 11.38,
+      "t1": 11.76,
+      "text": "không né"
+    },
+    {
+      "t0": 11.76,
+      "t1": 12.34,
+      "text": "dòng xe."
+    },
+    {
+      "t0": 12.34,
+      "t1": 12.7,
+      "text": "Nhưng các"
+    },
+    {
+      "t0": 12.7,
+      "t1": 13.06,
+      "text": "tài xế"
+    },
+    {
+      "t0": 13.06,
+      "t1": 13.72,
+      "text": "đã thấy."
+    },
+    {
+      "t0": 13.72,
+      "t1": 13.98,
+      "text": "Xe bán"
+    },
+    {
+      "t0": 13.98,
+      "t1": 14.38,
+      "text": "tải trắng"
+    },
+    {
+      "t0": 14.38,
+      "t1": 14.76,
+      "text": "ở làn"
+    },
+    {
+      "t0": 14.76,
+      "t1": 15.0,
+      "text": "xa dừng"
+    },
+    {
+      "t0": 15.0,
+      "t1": 15.42,
+      "text": "lại."
+    },
+    {
+      "t0": 15.42,
+      "t1": 15.72,
+      "text": "Xe tải"
+    },
+    {
+      "t0": 15.72,
+      "t1": 16.04,
+      "text": "thùng phía"
+    },
+    {
+      "t0": 16.04,
+      "t1": 16.36,
+      "text": "sau cũng"
+    },
+    {
+      "t0": 16.36,
+      "t1": 16.84,
+      "text": "phanh."
+    },
+    {
+      "t0": 16.84,
+      "t1": 17.2,
+      "text": "Hai làn"
+    },
+    {
+      "t0": 17.2,
+      "t1": 17.36,
+      "text": "dừng,"
+    },
+    {
+      "t0": 17.36,
+      "t1": 17.68,
+      "text": "chờ người"
+    },
+    {
+      "t0": 17.68,
+      "t1": 18.34,
+      "text": "trong nhà."
+    },
+    {
+      "t0": 18.34,
+      "t1": 18.7,
+      "text": "Người lớn"
+    },
+    {
+      "t0": 18.7,
+      "t1": 19.02,
+      "text": "phóng ra"
+    },
+    {
+      "t0": 19.02,
+      "t1": 19.3,
+      "text": "từ bên"
+    },
+    {
+      "t0": 19.3,
+      "t1": 19.78,
+      "text": "trái."
+    },
+    {
+      "t0": 19.78,
+      "t1": 20.0,
+      "text": "Người đàn"
+    },
+    {
+      "t0": 20.0,
+      "t1": 20.36,
+      "text": "ông túm"
+    },
+    {
+      "t0": 20.36,
+      "t1": 20.92,
+      "text": "đuôi xe,"
+    },
+    {
+      "t0": 20.92,
+      "t1": 21.14,
+      "text": "kéo bé"
+    },
+    {
+      "t0": 21.14,
+      "t1": 21.5,
+      "text": "lùi khỏi"
+    },
+    {
+      "t0": 21.5,
+      "t1": 21.911,
+      "text": "làn."
+    },
+    {
+      "t0": 21.911,
+      "t1": 22.22,
+      "text": "Bé và"
+    },
+    {
+      "t0": 22.22,
+      "t1": 22.54,
+      "text": "xe ra"
+    },
+    {
+      "t0": 22.54,
+      "t1": 22.92,
+      "text": "khỏi đường,"
+    },
+    {
+      "t0": 22.92,
+      "t1": 23.568,
+      "text": "khuất khung."
+    },
+    {
+      "t0": 23.568,
+      "t1": 23.94,
+      "text": "Clip gốc"
+    },
+    {
+      "t0": 23.94,
+      "t1": 24.233,
+      "text": "dài hai"
+    },
+    {
+      "t0": 24.233,
+      "t1": 24.42,
+      "text": "mươi ba"
+    },
+    {
+      "t0": 24.42,
+      "t1": 24.937,
+      "text": "giây."
+    },
+    {
+      "t0": 24.937,
+      "t1": 25.28,
+      "text": "Nhà sát"
+    },
+    {
+      "t0": 25.28,
+      "t1": 25.44,
+      "text": "đường,"
+    },
+    {
+      "t0": 25.44,
+      "t1": 25.8,
+      "text": "một nhịp"
+    },
+    {
+      "t0": 25.8,
+      "t1": 26.06,
+      "text": "là tới"
+    },
+    {
+      "t0": 26.06,
+      "t1": 26.507,
+      "text": "làn."
+    },
+    {
+      "t0": 26.507,
+      "t1": 26.78,
+      "text": "Đừng để"
+    },
+    {
+      "t0": 26.78,
+      "t1": 27.1,
+      "text": "trẻ một"
+    },
+    {
+      "t0": 27.1,
+      "t1": 27.5,
+      "text": "mình gần"
+    },
+    {
+      "t0": 27.5,
+      "t1": 28.267,
+      "text": "làn xe."
+    }
+  ],
+  "hook": {
+    "t0": 0,
+    "t1": 1.94,
+    "lines": [
+      "BÉ RA GIỮA LÀN",
+      "XE PHẢI DỪNG"
+    ],
+    "top": 250,
+    "wipe": 0.5
+  },
+  "sfx": [
+    {
+      "name": "whoosh",
+      "t": 5.527,
+      "db": -2
+    },
+    {
+      "name": "whoosh",
+      "t": 10.780000000000001,
+      "db": -2
+    },
+    {
+      "name": "whoosh",
+      "t": 15.3,
+      "db": -2
+    },
+    {
+      "name": "whoosh",
+      "t": 19.66,
+      "db": -2
+    },
+    {
+      "name": "pop",
+      "t": 23.618000000000002,
+      "db": -4
+    },
+    {
+      "name": "whoosh",
+      "t": 24.817,
+      "db": -2
+    }
+  ],
+  "music_dips": [],
+  "voice": "/workspace/video-jobs/FB-BE-GAI-QUOC-LO/lam-viec/voice.wav",
+  "assets_dir": "/workspace/AI-auto-generate-video/assets/kallaway",
+  "music_under": 20,
+  "music": "/workspace/AI-auto-generate-video/assets/kallaway/music.wav",
+  "video_out": "/workspace/video-jobs/FB-BE-GAI-QUOC-LO/lam-viec/render/video_noaudio.mp4"
+}

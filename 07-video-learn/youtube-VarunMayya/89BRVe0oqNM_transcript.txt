@@ -1,0 +1,11 @@
+[  0.00-  4.20] This engineer just solved a UI problem that was basically impossible to solve for 30 years.
+[  4.36-  5.08] It's called pretext.
+[  5.34- 10.00] It's basically a tiny library that lets websites lay out text the way magazines and newspapers do.
+[ 10.14- 14.92] With text flowing around images, wrapping into columns and fitting perfectly into any shape
+[ 14.92- 15.84] all at 120-.
+[ 19.74- 24.10] Normally, when a website needs to know where text should be positioned, it asks the browser.
+[ 24.28- 28.74] The browser stops everything, recalculates every single element on the page and spits out an answer.
+[ 28.74- 34.98] And the layout is completely screened, but pretext bypasses it entirely by not asking the browser at all.
+[ 35.06- 38.92] It uses something called a canvas and does all the front ccashes those that numbers.
+[ 39.14- 42.52] And after that every layout decision is instant, since it's already done the math.
+[ 42.64- 48.06] The library already has 25,000 stars on github and people are going crazy with it by building all sorts of websites.

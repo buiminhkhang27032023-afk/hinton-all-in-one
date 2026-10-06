@@ -1,0 +1,28 @@
+{
+  "pools": {
+    "stock": {},
+    "demo": {},
+    "screenshots": [
+      "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/gblog.png",
+      "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/tc.png",
+      "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/dm_cyber.png",
+      "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/reuters_tribune.png",
+      "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/reuters_dd.png",
+      "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/twa.png",
+      "/workspace/video-jobs/TIN-GEMINI4-V2/lam-viec/webshots/x_gdm.png"
+    ]
+  },
+  "notes": [
+    "stock footage disabled in config",
+    "screenshot timeout/error https://qz.com/google-gemini-4-argon-ai-model-cybersecurity-100126: TimeoutExpired",
+    "screenshot failed: https://qz.com/google-gemini-4-argon-ai-model-cybersecurity-100126",
+    "broll keyart: ok",
+    "broll ev_deepswe: ok",
+    "broll ev_vals: ok",
+    "broll ev_auto: ok",
+    "broll ev_cwe: ok",
+    "broll ev_table: ok",
+    "portrait pichai: ok",
+    "varun: missing screenshots ['web:qz']"
+  ]
+}

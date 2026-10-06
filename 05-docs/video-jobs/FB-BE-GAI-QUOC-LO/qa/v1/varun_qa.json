@@ -1,0 +1,149 @@
+{
+ "ok": false,
+ "rows": [
+  {
+   "chi_tieu": "Evidence full-frame",
+   "dat": true,
+   "so_lieu": "83.3%",
+   "muc_tieu": "≥75%"
+  },
+  {
+   "chi_tieu": "Mặt presenter",
+   "dat": true,
+   "so_lieu": "16.7% (3 lần)",
+   "muc_tieu": "≤25%"
+  },
+  {
+   "chi_tieu": "Insert/phút",
+   "dat": true,
+   "so_lieu": "34.0 (16 insert)",
+   "muc_tieu": "≥30"
+  },
+  {
+   "chi_tieu": "Mỗi insert 1–2s",
+   "dat": false,
+   "so_lieu": "0.15–2.57s lỗi [(0.0, 2.57), (5.65, 0.15)]",
+   "muc_tieu": "0.95–2.05s"
+  },
+  {
+   "chi_tieu": "Visual khác nhau",
+   "dat": true,
+   "so_lieu": "18",
+   "muc_tieu": "≥12 (25/60s)"
+  },
+  {
+   "chi_tieu": "Lặp hình tối đa",
+   "dat": true,
+   "so_lieu": "max 1 lần/hình (file dùng nhiều nhất: src.mp4 ×16, các đoạn khác nhau)",
+   "muc_tieu": "≤2 (lặp ≤1)"
+  },
+  {
+   "chi_tieu": "Mặt ở hook",
+   "dat": true,
+   "so_lieu": "2.57s",
+   "muc_tieu": "≤3.0s"
+  },
+  {
+   "chi_tieu": "Mặt ở kết",
+   "dat": true,
+   "so_lieu": "26.51s→28.27s",
+   "muc_tieu": "shot cuối = mặt"
+  },
+  {
+   "chi_tieu": "Mặt giữa = chuyển ý",
+   "dat": true,
+   "so_lieu": "đều ở đầu câu",
+   "muc_tieu": "đầu câu/chuyển ý"
+  },
+  {
+   "chi_tieu": "Mặt rải đều",
+   "dat": false,
+   "so_lieu": "mốc [2.57, 12.34, 26.51] · khoảng [9.77, 14.17]",
+   "muc_tieu": "khoảng 10–20s"
+  },
+  {
+   "chi_tieu": "Whip/zoom 4–6s",
+   "dat": true,
+   "so_lieu": "5 lần, khoảng 4.4–5.7s",
+   "muc_tieu": "3.9–6.1s"
+  },
+  {
+   "chi_tieu": "SFX nhẹ",
+   "dat": true,
+   "so_lieu": "6 (12.7/phút)",
+   "muc_tieu": "≤16/phút"
+  },
+  {
+   "chi_tieu": "Split 2 evidence",
+   "dat": true,
+   "so_lieu": "2 shot",
+   "muc_tieu": "≥2, không mặt"
+  },
+  {
+   "chi_tieu": "Mỗi câu có hình",
+   "dat": false,
+   "so_lieu": "18 câu, thiếu [2, 3] (câu chỉ mặt ≤3s: [1, 8, 17])",
+   "muc_tieu": "mỗi câu ≥1 evidence (trừ câu [MẶT] ≤3s)"
+  },
+  {
+   "chi_tieu": "Loudness",
+   "dat": true,
+   "so_lieu": "-14.0 LUFS",
+   "muc_tieu": "−14 ±0.5"
+  },
+  {
+   "chi_tieu": "True peak",
+   "dat": true,
+   "so_lieu": "-2.9 dBTP",
+   "muc_tieu": "≤ −1"
+  },
+  {
+   "chi_tieu": "Master 1080x1920 30fps",
+   "dat": true,
+   "so_lieu": "1080,1920,30/1",
+   "muc_tieu": "1080,1920,30/1"
+  },
+  {
+   "chi_tieu": "File 720p",
+   "dat": true,
+   "so_lieu": "720,1280,30/1",
+   "muc_tieu": "720x1280"
+  },
+  {
+   "chi_tieu": "Safe zone",
+   "dat": false,
+   "so_lieu": "[('big', 'KHỰNG GIỮA LÀN', 1731), ('big', 'TÀI XẾ ĐÃ THẤY', 1580), ('big', 'ĐỪNG GẦN LÀN XE', 1865)]",
+   "muc_tieu": "y150–1590, x≤940"
+  },
+  {
+   "chi_tieu": "Dấu tiếng Việt / glyph",
+   "dat": true,
+   "so_lieu": "101 chuỗi, đủ glyph",
+   "muc_tieu": "font có đủ ký tự"
+  }
+ ],
+ "face_at": [
+  2.57,
+  12.34,
+  26.51
+ ],
+ "face_gaps": [
+  9.77,
+  14.17
+ ],
+ "splits": 2,
+ "transitions": [
+  5.65,
+  10.9,
+  15.42,
+  19.78,
+  24.94
+ ],
+ "lufs": -14.0,
+ "tp": -2.9,
+ "uses_per_file": {
+  "src.mp4": 16,
+  "stat:23/GIÂY": 1,
+  "nnews.png": 1
+ }
+}

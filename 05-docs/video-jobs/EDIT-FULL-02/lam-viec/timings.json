@@ -1,0 +1,2302 @@
+{
+  "sentences": [
+    {
+      "i": 0,
+      "text": "OpenAI vừa tung AI làm việc thay bạn hai bốn trên bảy.",
+      "start": 0.0,
+      "end": 2.47,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/b78f1e909c643ee1.trim.wav"
+    },
+    {
+      "i": 1,
+      "text": "Nhưng đó mới chỉ là một nửa câu chuyện.",
+      "start": 2.5725,
+      "end": 4.1985,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/3c2752e2b6221171.trim.wav"
+    },
+    {
+      "i": 2,
+      "text": "Nửa kia là mô hình mới giá chỉ bằng một phần năm.",
+      "start": 4.309,
+      "end": 6.435,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/cf49a7eda9982204.trim.wav"
+    },
+    {
+      "i": 3,
+      "text": "Tất cả ra mắt tại DevDay ngày hai mươi chín tháng chín.",
+      "start": 6.5239,
+      "end": 8.7969,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/13aec8768686a0c1.trim.wav"
+    },
+    {
+      "i": 4,
+      "text": "ChatGPT giờ có một phẩy hai tỷ người dùng mỗi tuần.",
+      "start": 8.9014,
+      "end": 11.1894,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/3f2c7b5de1fe1bc5.trim.wav"
+    },
+    {
+      "i": 5,
+      "text": "Tên chúng là dots, chạy bằng GPT sáu Astra.",
+      "start": 11.3011,
+      "end": 13.2841,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/0aeebe0a8a15fe12.trim.wav"
+    },
+    {
+      "i": 6,
+      "text": "Mỗi dot có máy tính đám mây và trình duyệt riêng.",
+      "start": 13.3935,
+      "end": 15.5405,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/fbf581932638fae2.trim.wav"
+    },
+    {
+      "i": 7,
+      "text": "Nó kết nối được hơn bốn nghìn ứng dụng.",
+      "start": 15.6212,
+      "end": 17.3252,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/929d382f5ec1934b.trim.wav"
+    },
+    {
+      "i": 8,
+      "text": "Giao một mục tiêu, nó tự làm cả ngày lẫn đêm.",
+      "start": 17.4353,
+      "end": 19.3583,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/21e57188fb53d1d2.trim.wav"
+    },
+    {
+      "i": 9,
+      "text": "Nhắn tin cho nó qua ChatGPT, Slack hay Teams.",
+      "start": 19.4627,
+      "end": 21.5807,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/c12e93cd618837ef.trim.wav"
+    },
+    {
+      "i": 10,
+      "text": "Nhưng đó chưa phải phần điên rồ nhất.",
+      "start": 21.6993,
+      "end": 23.3073,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/3eb79b12c16f0486.trim.wav"
+    },
+    {
+      "i": 11,
+      "text": "GPT sáu chấm một Sol thông minh gần bằng Astra.",
+      "start": 23.4116,
+      "end": 25.6046,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/5be525033e1d03d2.trim.wav"
+    },
+    {
+      "i": 12,
+      "text": "Giá chỉ hai đô mỗi triệu token đầu vào.",
+      "start": 25.7147,
+      "end": 27.4797,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/b1f10b64a82a2979.trim.wav"
+    },
+    {
+      "i": 13,
+      "text": "Đầu ra mười đô, đúng một phần năm giá Astra.",
+      "start": 27.587,
+      "end": 29.593,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/8b47eeb9904c1440.trim.wav"
+    },
+    {
+      "i": 14,
+      "text": "Trên bài test lập trình DeepSWE, Sol ngang Astra.",
+      "start": 29.6983,
+      "end": 31.9963,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/77e6c2cda57cff8e.trim.wav"
+    },
+    {
+      "i": 15,
+      "text": "Với bài khoa học, Sol tốn năm phẩy bốn bảy đô mỗi tác vụ.",
+      "start": 32.1084,
+      "end": 34.6554,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/0cf2935ec483fae3.trim.wav"
+    },
+    {
+      "i": 16,
+      "text": "Astra tốn hai mươi ba phẩy tám đô, gấp hơn bốn lần.",
+      "start": 34.7754,
+      "end": 37.0074,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/ad0520cae6ad8b82.trim.wav"
+    },
+    {
+      "i": 17,
+      "text": "Dù vậy, Astra vẫn đứng đầu về điểm số.",
+      "start": 37.119,
+      "end": 38.839,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/a5dc7ee8f0080cec.trim.wav"
+    },
+    {
+      "i": 18,
+      "text": "Nhưng dots chưa dành cho tất cả mọi người.",
+      "start": 38.9429,
+      "end": 40.7869,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/e91d7ea565d2082e.trim.wav"
+    },
+    {
+      "i": 19,
+      "text": "Đợt đầu chỉ có gói Pro và Business Premium.",
+      "start": 40.8964,
+      "end": 42.9924,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/6a47443f9dbe240b.trim.wav"
+    },
+    {
+      "i": 20,
+      "text": "Theo WIRED, gói Pro giá một trăm đô mỗi tháng.",
+      "start": 43.1079,
+      "end": 45.1909,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/f98b7f49a83ce4ce.trim.wav"
+    },
+    {
+      "i": 21,
+      "text": "Ngay trên sân khấu, dot còn liên tục lỗi giọng nói.",
+      "start": 45.2998,
+      "end": 47.5858,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/edfedf355653aa39.trim.wav"
+    },
+    {
+      "i": 22,
+      "text": "Romain Huet thừa nhận giọng nói có thể đang trục trặc.",
+      "start": 47.6897,
+      "end": 50.0158,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/fbe5d8c71023a60f.trim.wav"
+    },
+    {
+      "i": 23,
+      "text": "Khi AI làm thay hai bốn trên bảy, bạn sẽ làm gì?",
+      "start": 50.1358,
+      "end": 52.2548,
+      "file": "/workspace/video-jobs/EDIT-FULL-02/lam-viec/tts_cache/ff5e4b5075578f12.trim.wav"
+    }
+  ],
+  "words": [
+    {
+      "word": "OpenAI",
+      "start": 0.0,
+      "end": 0.54,
+      "sent": 0,
+      "fw": true
+    },
+    {
+      "word": "vừa",
+      "start": 0.54,
+      "end": 0.74,
+      "sent": 0,
+      "fw": true
+    },
+    {
+      "word": "tung",
+      "start": 0.74,
+      "end": 0.9,
+      "sent": 0,
+      "fw": true
+    },
+    {
+      "word": "AI",
+      "start": 0.9,
+      "end": 1.1,
+      "sent": 0,
+      "fw": true
+    },
+    {
+      "word": "làm",
+      "start": 1.1,
+      "end": 1.3,
+      "sent": 0,
+      "fw": true
+    },
+    {
+      "word": "việc",
+      "start": 1.3,
+      "end": 1.46,
+      "sent": 0,
+      "fw": true
+    },
+    {
+      "word": "thay",
+      "start": 1.46,
+      "end": 1.6,
+      "sent": 0,
+      "fw": true
+    },
+    {
+      "word": "bạn",
+      "start": 1.6,
+      "end": 1.756,
+      "sent": 0,
+      "fw": true
+    },
+    {
+      "word": "hai",
+      "start": 1.756,
+      "end": 1.912,
+      "sent": 0,
+      "fw": true
+    },
+    {
+      "word": "bốn",
+      "start": 1.912,
+      "end": 2.068,
+      "sent": 0,
+      "fw": true
+    },
+    {
+      "word": "trên",
+      "start": 2.068,
+      "end": 2.224,
+      "sent": 0,
+      "fw": true
+    },
+    {
+      "word": "bảy.",
+      "start": 2.224,
+      "end": 2.38,
+      "sent": 0,
+      "fw": true
+    },
+    {
+      "word": "Nhưng",
+      "start": 2.6,
+      "end": 2.7,
+      "sent": 1,
+      "fw": true
+    },
+    {
+      "word": "đó",
+      "start": 2.7,
+      "end": 2.96,
+      "sent": 1,
+      "fw": true
+    },
+    {
+      "word": "mới",
+      "start": 2.96,
+      "end": 3.16,
+      "sent": 1,
+      "fw": true
+    },
+    {
+      "word": "chỉ",
+      "start": 3.16,
+      "end": 3.3,
+      "sent": 1,
+      "fw": true
+    },
+    {
+      "word": "là",
+      "start": 3.3,
+      "end": 3.4,
+      "sent": 1,
+      "fw": true
+    },
+    {
+      "word": "một",
+      "start": 3.4,
+      "end": 3.52,
+      "sent": 1,
+      "fw": true
+    },
+    {
+      "word": "nửa",
+      "start": 3.52,
+      "end": 3.76,
+      "sent": 1,
+      "fw": true
+    },
+    {
+      "word": "câu",
+      "start": 3.76,
+      "end": 3.92,
+      "sent": 1,
+      "fw": true
+    },
+    {
+      "word": "chuyện.",
+      "start": 3.92,
+      "end": 4.14,
+      "sent": 1,
+      "fw": true
+    },
+    {
+      "word": "Nửa",
+      "start": 4.38,
+      "end": 4.52,
+      "sent": 2,
+      "fw": true
+    },
+    {
+      "word": "kia",
+      "start": 4.52,
+      "end": 4.66,
+      "sent": 2,
+      "fw": true
+    },
+    {
+      "word": "là",
+      "start": 4.66,
+      "end": 4.78,
+      "sent": 2,
+      "fw": true
+    },
+    {
+      "word": "mô",
+      "start": 4.78,
+      "end": 4.9,
+      "sent": 2,
+      "fw": true
+    },
+    {
+      "word": "hình",
+      "start": 4.9,
+      "end": 5.0,
+      "sent": 2,
+      "fw": true
+    },
+    {
+      "word": "mới",
+      "start": 5.0,
+      "end": 5.2,
+      "sent": 2,
+      "fw": true
+    },
+    {
+      "word": "giá",
+      "start": 5.48,
+      "end": 5.52,
+      "sent": 2,
+      "fw": true
+    },
+    {
+      "word": "chỉ",
+      "start": 5.52,
+      "end": 5.72,
+      "sent": 2,
+      "fw": true
+    },
+    {
+      "word": "bằng",
+      "start": 5.72,
+      "end": 5.86,
+      "sent": 2,
+      "fw": true
+    },
+    {
+      "word": "một",
+      "start": 5.86,
+      "end": 6.02,
+      "sent": 2,
+      "fw": true
+    },
+    {
+      "word": "phần",
+      "start": 6.02,
+      "end": 6.12,
+      "sent": 2,
+      "fw": true
+    },
+    {
+      "word": "năm.",
+      "start": 6.12,
+      "end": 6.28,
+      "sent": 2,
+      "fw": true
+    },
+    {
+      "word": "Tất",
+      "start": 6.56,
+      "end": 6.66,
+      "sent": 3,
+      "fw": true
+    },
+    {
+      "word": "cả",
+      "start": 6.66,
+      "end": 6.86,
+      "sent": 3,
+      "fw": true
+    },
+    {
+      "word": "ra",
+      "start": 6.86,
+      "end": 7.04,
+      "sent": 3,
+      "fw": true
+    },
+    {
+      "word": "mắt",
+      "start": 7.04,
+      "end": 7.18,
+      "sent": 3,
+      "fw": true
+    },
+    {
+      "word": "tại",
+      "start": 7.18,
+      "end": 7.34,
+      "sent": 3,
+      "fw": true
+    },
+    {
+      "word": "DevDay",
+      "start": 7.34,
+      "end": 7.76,
+      "sent": 3,
+      "fw": true
+    },
+    {
+      "word": "ngày",
+      "start": 7.76,
+      "end": 7.94,
+      "sent": 3,
+      "fw": true
+    },
+    {
+      "word": "hai",
+      "start": 7.94,
+      "end": 8.06,
+      "sent": 3,
+      "fw": true
+    },
+    {
+      "word": "mươi",
+      "start": 8.06,
+      "end": 8.18,
+      "sent": 3,
+      "fw": true
+    },
+    {
+      "word": "chín",
+      "start": 8.18,
+      "end": 8.3,
+      "sent": 3,
+      "fw": true
+    },
+    {
+      "word": "tháng",
+      "start": 8.3,
+      "end": 8.48,
+      "sent": 3,
+      "fw": true
+    },
+    {
+      "word": "chín.",
+      "start": 8.48,
+      "end": 8.797,
+      "sent": 3,
+      "fw": true
+    },
+    {
+      "word": "ChatGPT",
+      "start": 8.99,
+      "end": 9.5,
+      "sent": 4,
+      "fw": true
+    },
+    {
+      "word": "giờ",
+      "start": 9.5,
+      "end": 9.64,
+      "sent": 4,
+      "fw": true
+    },
+    {
+      "word": "có",
+      "start": 9.64,
+      "end": 9.76,
+      "sent": 4,
+      "fw": true
+    },
+    {
+      "word": "một",
+      "start": 9.76,
+      "end": 9.933,
+      "sent": 4,
+      "fw": true
+    },
+    {
+      "word": "phẩy",
+      "start": 9.933,
+      "end": 10.107,
+      "sent": 4,
+      "fw": true
+    },
+    {
+      "word": "hai",
+      "start": 10.107,
+      "end": 10.28,
+      "sent": 4,
+      "fw": true
+    },
+    {
+      "word": "tỷ",
+      "start": 10.28,
+      "end": 10.44,
+      "sent": 4,
+      "fw": true
+    },
+    {
+      "word": "người",
+      "start": 10.44,
+      "end": 10.56,
+      "sent": 4,
+      "fw": true
+    },
+    {
+      "word": "dùng",
+      "start": 10.56,
+      "end": 10.72,
+      "sent": 4,
+      "fw": true
+    },
+    {
+      "word": "mỗi",
+      "start": 10.72,
+      "end": 10.88,
+      "sent": 4,
+      "fw": true
+    },
+    {
+      "word": "tuần.",
+      "start": 10.88,
+      "end": 11.06,
+      "sent": 4,
+      "fw": true
+    },
+    {
+      "word": "Tên",
+      "start": 11.34,
+      "end": 11.46,
+      "sent": 5,
+      "fw": true
+    },
+    {
+      "word": "chúng",
+      "start": 11.46,
+      "end": 11.58,
+      "sent": 5,
+      "fw": true
+    },
+    {
+      "word": "là",
+      "start": 11.58,
+      "end": 11.76,
+      "sent": 5,
+      "fw": true
+    },
+    {
+      "word": "dots,",
+      "start": 11.76,
+      "end": 11.96,
+      "sent": 5,
+      "fw": true
+    },
+    {
+      "word": "chạy",
+      "start": 11.96,
+      "end": 12.18,
+      "sent": 5,
+      "fw": true
+    },
+    {
+      "word": "bằng",
+      "start": 12.18,
+      "end": 12.28,
+      "sent": 5,
+      "fw": true
+    },
+    {
+      "word": "GPT",
+      "start": 12.28,
+      "end": 12.62,
+      "sent": 5,
+      "fw": true
+    },
+    {
+      "word": "sáu",
+      "start": 12.62,
+      "end": 12.78,
+      "sent": 5,
+      "fw": true
+    },
+    {
+      "word": "Astra.",
+      "start": 12.78,
+      "end": 13.04,
+      "sent": 5,
+      "fw": true
+    },
+    {
+      "word": "Mỗi",
+      "start": 13.48,
+      "end": 13.58,
+      "sent": 6,
+      "fw": true
+    },
+    {
+      "word": "dot",
+      "start": 13.58,
+      "end": 13.74,
+      "sent": 6,
+      "fw": true
+    },
+    {
+      "word": "có",
+      "start": 13.74,
+      "end": 13.9,
+      "sent": 6,
+      "fw": true
+    },
+    {
+      "word": "máy",
+      "start": 13.9,
+      "end": 14.02,
+      "sent": 6,
+      "fw": true
+    },
+    {
+      "word": "tính",
+      "start": 14.02,
+      "end": 14.16,
+      "sent": 6,
+      "fw": true
+    },
+    {
+      "word": "đám",
+      "start": 14.16,
+      "end": 14.36,
+      "sent": 6,
+      "fw": true
+    },
+    {
+      "word": "mây",
+      "start": 14.36,
+      "end": 14.56,
+      "sent": 6,
+      "fw": true
+    },
+    {
+      "word": "và",
+      "start": 14.56,
+      "end": 14.8,
+      "sent": 6,
+      "fw": true
+    },
+    {
+      "word": "trình",
+      "start": 14.8,
+      "end": 15.0,
+      "sent": 6,
+      "fw": true
+    },
+    {
+      "word": "duyệt",
+      "start": 15.0,
+      "end": 15.2,
+      "sent": 6,
+      "fw": true
+    },
+    {
+      "word": "riêng.",
+      "start": 15.2,
+      "end": 15.46,
+      "sent": 6,
+      "fw": true
+    },
+    {
+      "word": "Nó",
+      "start": 15.68,
+      "end": 15.76,
+      "sent": 7,
+      "fw": true
+    },
+    {
+      "word": "kết",
+      "start": 15.76,
+      "end": 15.92,
+      "sent": 7,
+      "fw": true
+    },
+    {
+      "word": "nối",
+      "start": 15.92,
+      "end": 16.12,
+      "sent": 7,
+      "fw": true
+    },
+    {
+      "word": "được",
+      "start": 16.12,
+      "end": 16.3,
+      "sent": 7,
+      "fw": true
+    },
+    {
+      "word": "hơn",
+      "start": 16.3,
+      "end": 16.5,
+      "sent": 7,
+      "fw": true
+    },
+    {
+      "word": "bốn",
+      "start": 16.5,
+      "end": 16.69,
+      "sent": 7,
+      "fw": true
+    },
+    {
+      "word": "nghìn",
+      "start": 16.69,
+      "end": 16.88,
+      "sent": 7,
+      "fw": true
+    },
+    {
+      "word": "ứng",
+      "start": 16.88,
+      "end": 17.08,
+      "sent": 7,
+      "fw": true
+    },
+    {
+      "word": "dụng.",
+      "start": 17.08,
+      "end": 17.325,
+      "sent": 7,
+      "fw": true
+    },
+    {
+      "word": "Giao",
+      "start": 17.46,
+      "end": 17.66,
+      "sent": 8,
+      "fw": true
+    },
+    {
+      "word": "một",
+      "start": 17.66,
+      "end": 17.74,
+      "sent": 8,
+      "fw": true
+    },
+    {
+      "word": "mục",
+      "start": 17.74,
+      "end": 17.88,
+      "sent": 8,
+      "fw": true
+    },
+    {
+      "word": "tiêu,",
+      "start": 17.88,
+      "end": 18.08,
+      "sent": 8,
+      "fw": true
+    },
+    {
+      "word": "nó",
+      "start": 18.22,
+      "end": 18.26,
+      "sent": 8,
+      "fw": true
+    },
+    {
+      "word": "tự",
+      "start": 18.26,
+      "end": 18.42,
+      "sent": 8,
+      "fw": true
+    },
+    {
+      "word": "làm",
+      "start": 18.42,
+      "end": 18.56,
+      "sent": 8,
+      "fw": true
+    },
+    {
+      "word": "cả",
+      "start": 18.56,
+      "end": 18.74,
+      "sent": 8,
+      "fw": true
+    },
+    {
+      "word": "ngày",
+      "start": 18.74,
+      "end": 18.92,
+      "sent": 8,
+      "fw": true
+    },
+    {
+      "word": "lẫn",
+      "start": 18.92,
+      "end": 19.02,
+      "sent": 8,
+      "fw": true
+    },
+    {
+      "word": "đêm.",
+      "start": 19.02,
+      "end": 19.2,
+      "sent": 8,
+      "fw": true
+    },
+    {
+      "word": "Nhắn",
+      "start": 19.52,
+      "end": 19.6,
+      "sent": 9,
+      "fw": true
+    },
+    {
+      "word": "tin",
+      "start": 19.6,
+      "end": 19.76,
+      "sent": 9,
+      "fw": true
+    },
+    {
+      "word": "cho",
+      "start": 19.76,
+      "end": 19.88,
+      "sent": 9,
+      "fw": true
+    },
+    {
+      "word": "nó",
+      "start": 19.88,
+      "end": 19.98,
+      "sent": 9,
+      "fw": true
+    },
+    {
+      "word": "qua",
+      "start": 19.98,
+      "end": 20.12,
+      "sent": 9,
+      "fw": true
+    },
+    {
+      "word": "ChatGPT,",
+      "start": 20.12,
+      "end": 20.74,
+      "sent": 9,
+      "fw": true
+    },
+    {
+      "word": "Slack",
+      "start": 20.74,
+      "end": 20.96,
+      "sent": 9,
+      "fw": true
+    },
+    {
+      "word": "hay",
+      "start": 20.96,
+      "end": 21.2,
+      "sent": 9,
+      "fw": true
+    },
+    {
+      "word": "Teams.",
+      "start": 21.2,
+      "end": 21.4,
+      "sent": 9,
+      "fw": true
+    },
+    {
+      "word": "Nhưng",
+      "start": 21.72,
+      "end": 21.86,
+      "sent": 10,
+      "fw": true
+    },
+    {
+      "word": "đó",
+      "start": 21.86,
+      "end": 22.08,
+      "sent": 10,
+      "fw": true
+    },
+    {
+      "word": "chưa",
+      "start": 22.08,
+      "end": 22.3,
+      "sent": 10,
+      "fw": true
+    },
+    {
+      "word": "phải",
+      "start": 22.3,
+      "end": 22.52,
+      "sent": 10,
+      "fw": true
+    },
+    {
+      "word": "phần",
+      "start": 22.52,
+      "end": 22.7,
+      "sent": 10,
+      "fw": true
+    },
+    {
+      "word": "điên",
+      "start": 22.7,
+      "end": 22.88,
+      "sent": 10,
+      "fw": true
+    },
+    {
+      "word": "rồ",
+      "start": 22.88,
+      "end": 23.04,
+      "sent": 10,
+      "fw": true
+    },
+    {
+      "word": "nhất.",
+      "start": 23.04,
+      "end": 23.2,
+      "sent": 10,
+      "fw": true
+    },
+    {
+      "word": "GPT",
+      "start": 23.412,
+      "end": 23.78,
+      "sent": 11,
+      "fw": true
+    },
+    {
+      "word": "sáu",
+      "start": 23.78,
+      "end": 23.96,
+      "sent": 11,
+      "fw": true
+    },
+    {
+      "word": "chấm",
+      "start": 23.96,
+      "end": 24.14,
+      "sent": 11,
+      "fw": true
+    },
+    {
+      "word": "một",
+      "start": 24.14,
+      "end": 24.32,
+      "sent": 11,
+      "fw": true
+    },
+    {
+      "word": "Sol",
+      "start": 24.32,
+      "end": 24.5,
+      "sent": 11,
+      "fw": true
+    },
+    {
+      "word": "thông",
+      "start": 24.5,
+      "end": 24.64,
+      "sent": 11,
+      "fw": true
+    },
+    {
+      "word": "minh",
+      "start": 24.64,
+      "end": 24.88,
+      "sent": 11,
+      "fw": true
+    },
+    {
+      "word": "gần",
+      "start": 24.88,
+      "end": 24.96,
+      "sent": 11,
+      "fw": true
+    },
+    {
+      "word": "bằng",
+      "start": 24.96,
+      "end": 25.1,
+      "sent": 11,
+      "fw": true
+    },
+    {
+      "word": "Astra.",
+      "start": 25.1,
+      "end": 25.36,
+      "sent": 11,
+      "fw": true
+    },
+    {
+      "word": "Giá",
+      "start": 25.78,
+      "end": 25.86,
+      "sent": 12,
+      "fw": true
+    },
+    {
+      "word": "chỉ",
+      "start": 25.86,
+      "end": 26.0,
+      "sent": 12,
+      "fw": true
+    },
+    {
+      "word": "hai",
+      "start": 26.0,
+      "end": 26.2,
+      "sent": 12,
+      "fw": true
+    },
+    {
+      "word": "đô",
+      "start": 26.2,
+      "end": 26.36,
+      "sent": 12,
+      "fw": true
+    },
+    {
+      "word": "mỗi",
+      "start": 26.36,
+      "end": 26.56,
+      "sent": 12,
+      "fw": true
+    },
+    {
+      "word": "triệu",
+      "start": 26.56,
+      "end": 26.74,
+      "sent": 12,
+      "fw": true
+    },
+    {
+      "word": "token",
+      "start": 26.74,
+      "end": 27.0,
+      "sent": 12,
+      "fw": true
+    },
+    {
+      "word": "đầu",
+      "start": 27.0,
+      "end": 27.14,
+      "sent": 12,
+      "fw": true
+    },
+    {
+      "word": "vào.",
+      "start": 27.14,
+      "end": 27.32,
+      "sent": 12,
+      "fw": true
+    },
+    {
+      "word": "Đầu",
+      "start": 27.66,
+      "end": 27.76,
+      "sent": 13,
+      "fw": true
+    },
+    {
+      "word": "ra",
+      "start": 27.76,
+      "end": 27.88,
+      "sent": 13,
+      "fw": true
+    },
+    {
+      "word": "mười",
+      "start": 27.88,
+      "end": 28.04,
+      "sent": 13,
+      "fw": true
+    },
+    {
+      "word": "đô,",
+      "start": 28.04,
+      "end": 28.2,
+      "sent": 13,
+      "fw": true
+    },
+    {
+      "word": "đúng",
+      "start": 28.2,
+      "end": 28.4,
+      "sent": 13,
+      "fw": true
+    },
+    {
+      "word": "một",
+      "start": 28.4,
+      "end": 28.58,
+      "sent": 13,
+      "fw": true
+    },
+    {
+      "word": "phần",
+      "start": 28.58,
+      "end": 28.74,
+      "sent": 13,
+      "fw": true
+    },
+    {
+      "word": "năm",
+      "start": 28.74,
+      "end": 28.9,
+      "sent": 13,
+      "fw": true
+    },
+    {
+      "word": "giá",
+      "start": 28.9,
+      "end": 29.1,
+      "sent": 13,
+      "fw": true
+    },
+    {
+      "word": "Astra.",
+      "start": 29.1,
+      "end": 29.42,
+      "sent": 13,
+      "fw": true
+    },
+    {
+      "word": "Trên",
+      "start": 29.76,
+      "end": 29.82,
+      "sent": 14,
+      "fw": true
+    },
+    {
+      "word": "bài",
+      "start": 29.82,
+      "end": 29.98,
+      "sent": 14,
+      "fw": true
+    },
+    {
+      "word": "test",
+      "start": 29.98,
+      "end": 30.16,
+      "sent": 14,
+      "fw": true
+    },
+    {
+      "word": "lập",
+      "start": 30.16,
+      "end": 30.38,
+      "sent": 14,
+      "fw": true
+    },
+    {
+      "word": "trình",
+      "start": 30.38,
+      "end": 30.56,
+      "sent": 14,
+      "fw": true
+    },
+    {
+      "word": "DeepSWE,",
+      "start": 30.56,
+      "end": 30.82,
+      "sent": 14,
+      "fw": true
+    },
+    {
+      "word": "Sol",
+      "start": 30.82,
+      "end": 31.08,
+      "sent": 14,
+      "fw": true
+    },
+    {
+      "word": "ngang",
+      "start": 31.08,
+      "end": 31.36,
+      "sent": 14,
+      "fw": true
+    },
+    {
+      "word": "Astra.",
+      "start": 31.36,
+      "end": 31.78,
+      "sent": 14,
+      "fw": true
+    },
+    {
+      "word": "Với",
+      "start": 32.16,
+      "end": 32.26,
+      "sent": 15,
+      "fw": true
+    },
+    {
+      "word": "bài",
+      "start": 32.26,
+      "end": 32.38,
+      "sent": 15,
+      "fw": true
+    },
+    {
+      "word": "khoa",
+      "start": 32.38,
+      "end": 32.56,
+      "sent": 15,
+      "fw": true
+    },
+    {
+      "word": "học,",
+      "start": 32.56,
+      "end": 32.7,
+      "sent": 15,
+      "fw": true
+    },
+    {
+      "word": "Sol",
+      "start": 32.7,
+      "end": 32.96,
+      "sent": 15,
+      "fw": true
+    },
+    {
+      "word": "tốn",
+      "start": 32.96,
+      "end": 33.14,
+      "sent": 15,
+      "fw": true
+    },
+    {
+      "word": "năm",
+      "start": 33.14,
+      "end": 33.32,
+      "sent": 15,
+      "fw": true
+    },
+    {
+      "word": "phẩy",
+      "start": 33.54,
+      "end": 33.58,
+      "sent": 15,
+      "fw": true
+    },
+    {
+      "word": "bốn",
+      "start": 33.58,
+      "end": 33.62,
+      "sent": 15,
+      "fw": true
+    },
+    {
+      "word": "bảy",
+      "start": 33.62,
+      "end": 33.66,
+      "sent": 15,
+      "fw": true
+    },
+    {
+      "word": "đô",
+      "start": 33.66,
+      "end": 34.06,
+      "sent": 15,
+      "fw": true
+    },
+    {
+      "word": "mỗi",
+      "start": 34.06,
+      "end": 34.28,
+      "sent": 15,
+      "fw": true
+    },
+    {
+      "word": "tác",
+      "start": 34.28,
+      "end": 34.4,
+      "sent": 15,
+      "fw": true
+    },
+    {
+      "word": "vụ.",
+      "start": 34.4,
+      "end": 34.58,
+      "sent": 15,
+      "fw": true
+    },
+    {
+      "word": "Astra",
+      "start": 34.78,
+      "end": 35.14,
+      "sent": 16,
+      "fw": true
+    },
+    {
+      "word": "tốn",
+      "start": 35.14,
+      "end": 35.36,
+      "sent": 16,
+      "fw": true
+    },
+    {
+      "word": "hai",
+      "start": 35.36,
+      "end": 35.504,
+      "sent": 16,
+      "fw": true
+    },
+    {
+      "word": "mươi",
+      "start": 35.504,
+      "end": 35.648,
+      "sent": 16,
+      "fw": true
+    },
+    {
+      "word": "ba",
+      "start": 35.648,
+      "end": 35.792,
+      "sent": 16,
+      "fw": true
+    },
+    {
+      "word": "phẩy",
+      "start": 35.792,
+      "end": 35.936,
+      "sent": 16,
+      "fw": true
+    },
+    {
+      "word": "tám",
+      "start": 35.936,
+      "end": 36.08,
+      "sent": 16,
+      "fw": true
+    },
+    {
+      "word": "đô,",
+      "start": 36.08,
+      "end": 36.24,
+      "sent": 16,
+      "fw": true
+    },
+    {
+      "word": "gấp",
+      "start": 36.24,
+      "end": 36.38,
+      "sent": 16,
+      "fw": true
+    },
+    {
+      "word": "hơn",
+      "start": 36.38,
+      "end": 36.56,
+      "sent": 16,
+      "fw": true
+    },
+    {
+      "word": "bốn",
+      "start": 36.56,
+      "end": 36.7,
+      "sent": 16,
+      "fw": true
+    },
+    {
+      "word": "lần.",
+      "start": 36.7,
+      "end": 36.88,
+      "sent": 16,
+      "fw": true
+    },
+    {
+      "word": "Dù",
+      "start": 37.14,
+      "end": 37.26,
+      "sent": 17,
+      "fw": true
+    },
+    {
+      "word": "vậy,",
+      "start": 37.26,
+      "end": 37.4,
+      "sent": 17,
+      "fw": true
+    },
+    {
+      "word": "Astra",
+      "start": 37.4,
+      "end": 37.72,
+      "sent": 17,
+      "fw": true
+    },
+    {
+      "word": "vẫn",
+      "start": 37.72,
+      "end": 37.92,
+      "sent": 17,
+      "fw": true
+    },
+    {
+      "word": "đứng",
+      "start": 37.92,
+      "end": 38.04,
+      "sent": 17,
+      "fw": true
+    },
+    {
+      "word": "đầu",
+      "start": 38.04,
+      "end": 38.2,
+      "sent": 17,
+      "fw": true
+    },
+    {
+      "word": "về",
+      "start": 38.2,
+      "end": 38.36,
+      "sent": 17,
+      "fw": true
+    },
+    {
+      "word": "điểm",
+      "start": 38.36,
+      "end": 38.5,
+      "sent": 17,
+      "fw": true
+    },
+    {
+      "word": "số.",
+      "start": 38.5,
+      "end": 38.7,
+      "sent": 17,
+      "fw": true
+    },
+    {
+      "word": "Nhưng",
+      "start": 38.98,
+      "end": 39.18,
+      "sent": 18,
+      "fw": true
+    },
+    {
+      "word": "dots",
+      "start": 39.18,
+      "end": 39.4,
+      "sent": 18,
+      "fw": true
+    },
+    {
+      "word": "chưa",
+      "start": 39.4,
+      "end": 39.62,
+      "sent": 18,
+      "fw": true
+    },
+    {
+      "word": "dành",
+      "start": 39.62,
+      "end": 39.84,
+      "sent": 18,
+      "fw": true
+    },
+    {
+      "word": "cho",
+      "start": 39.84,
+      "end": 40.0,
+      "sent": 18,
+      "fw": true
+    },
+    {
+      "word": "tất",
+      "start": 40.0,
+      "end": 40.16,
+      "sent": 18,
+      "fw": true
+    },
+    {
+      "word": "cả",
+      "start": 40.16,
+      "end": 40.3,
+      "sent": 18,
+      "fw": true
+    },
+    {
+      "word": "mọi",
+      "start": 40.3,
+      "end": 40.44,
+      "sent": 18,
+      "fw": true
+    },
+    {
+      "word": "người.",
+      "start": 40.44,
+      "end": 40.6,
+      "sent": 18,
+      "fw": true
+    },
+    {
+      "word": "Đợt",
+      "start": 40.96,
+      "end": 41.08,
+      "sent": 19,
+      "fw": true
+    },
+    {
+      "word": "đầu",
+      "start": 41.08,
+      "end": 41.22,
+      "sent": 19,
+      "fw": true
+    },
+    {
+      "word": "chỉ",
+      "start": 41.22,
+      "end": 41.42,
+      "sent": 19,
+      "fw": true
+    },
+    {
+      "word": "có",
+      "start": 41.42,
+      "end": 41.56,
+      "sent": 19,
+      "fw": true
+    },
+    {
+      "word": "gói",
+      "start": 41.56,
+      "end": 41.72,
+      "sent": 19,
+      "fw": true
+    },
+    {
+      "word": "Pro",
+      "start": 41.72,
+      "end": 41.94,
+      "sent": 19,
+      "fw": true
+    },
+    {
+      "word": "và",
+      "start": 41.94,
+      "end": 42.14,
+      "sent": 19,
+      "fw": true
+    },
+    {
+      "word": "Business",
+      "start": 42.14,
+      "end": 42.38,
+      "sent": 19,
+      "fw": true
+    },
+    {
+      "word": "Premium.",
+      "start": 42.38,
+      "end": 42.84,
+      "sent": 19,
+      "fw": true
+    },
+    {
+      "word": "Theo",
+      "start": 43.12,
+      "end": 43.34,
+      "sent": 20,
+      "fw": true
+    },
+    {
+      "word": "WIRED,",
+      "start": 43.34,
+      "end": 43.56,
+      "sent": 20,
+      "fw": true
+    },
+    {
+      "word": "gói",
+      "start": 43.56,
+      "end": 43.78,
+      "sent": 20,
+      "fw": true
+    },
+    {
+      "word": "Pro",
+      "start": 43.78,
+      "end": 43.98,
+      "sent": 20,
+      "fw": true
+    },
+    {
+      "word": "giá",
+      "start": 43.98,
+      "end": 44.24,
+      "sent": 20,
+      "fw": true
+    },
+    {
+      "word": "một",
+      "start": 44.24,
+      "end": 44.35,
+      "sent": 20,
+      "fw": true
+    },
+    {
+      "word": "trăm",
+      "start": 44.35,
+      "end": 44.46,
+      "sent": 20,
+      "fw": true
+    },
+    {
+      "word": "đô",
+      "start": 44.46,
+      "end": 44.74,
+      "sent": 20,
+      "fw": true
+    },
+    {
+      "word": "mỗi",
+      "start": 44.74,
+      "end": 44.86,
+      "sent": 20,
+      "fw": true
+    },
+    {
+      "word": "tháng.",
+      "start": 44.86,
+      "end": 45.06,
+      "sent": 20,
+      "fw": true
+    },
+    {
+      "word": "Ngay",
+      "start": 45.38,
+      "end": 45.48,
+      "sent": 21,
+      "fw": true
+    },
+    {
+      "word": "trên",
+      "start": 45.48,
+      "end": 45.64,
+      "sent": 21,
+      "fw": true
+    },
+    {
+      "word": "sân",
+      "start": 45.64,
+      "end": 45.8,
+      "sent": 21,
+      "fw": true
+    },
+    {
+      "word": "khấu,",
+      "start": 45.8,
+      "end": 46.06,
+      "sent": 21,
+      "fw": true
+    },
+    {
+      "word": "dot",
+      "start": 46.24,
+      "end": 46.32,
+      "sent": 21,
+      "fw": true
+    },
+    {
+      "word": "còn",
+      "start": 46.32,
+      "end": 46.52,
+      "sent": 21,
+      "fw": true
+    },
+    {
+      "word": "liên",
+      "start": 46.52,
+      "end": 46.74,
+      "sent": 21,
+      "fw": true
+    },
+    {
+      "word": "tục",
+      "start": 46.74,
+      "end": 46.9,
+      "sent": 21,
+      "fw": true
+    },
+    {
+      "word": "lỗi",
+      "start": 46.9,
+      "end": 47.12,
+      "sent": 21,
+      "fw": true
+    },
+    {
+      "word": "giọng",
+      "start": 47.12,
+      "end": 47.3,
+      "sent": 21,
+      "fw": true
+    },
+    {
+      "word": "nói.",
+      "start": 47.3,
+      "end": 47.46,
+      "sent": 21,
+      "fw": true
+    },
+    {
+      "word": "Romain",
+      "start": 47.7,
+      "end": 47.98,
+      "sent": 22,
+      "fw": true
+    },
+    {
+      "word": "Huet",
+      "start": 47.98,
+      "end": 48.26,
+      "sent": 22,
+      "fw": true
+    },
+    {
+      "word": "thừa",
+      "start": 48.26,
+      "end": 48.42,
+      "sent": 22,
+      "fw": true
+    },
+    {
+      "word": "nhận",
+      "start": 48.42,
+      "end": 48.62,
+      "sent": 22,
+      "fw": true
+    },
+    {
+      "word": "giọng",
+      "start": 48.9,
+      "end": 49.04,
+      "sent": 22,
+      "fw": true
+    },
+    {
+      "word": "nói",
+      "start": 49.04,
+      "end": 49.16,
+      "sent": 22,
+      "fw": true
+    },
+    {
+      "word": "có",
+      "start": 49.16,
+      "end": 49.3,
+      "sent": 22,
+      "fw": true
+    },
+    {
+      "word": "thể",
+      "start": 49.3,
+      "end": 49.42,
+      "sent": 22,
+      "fw": true
+    },
+    {
+      "word": "đang",
+      "start": 49.42,
+      "end": 49.56,
+      "sent": 22,
+      "fw": true
+    },
+    {
+      "word": "trục",
+      "start": 49.56,
+      "end": 49.72,
+      "sent": 22,
+      "fw": true
+    },
+    {
+      "word": "trặc.",
+      "start": 49.72,
+      "end": 49.94,
+      "sent": 22,
+      "fw": true
+    },
+    {
+      "word": "Khi",
+      "start": 50.136,
+      "end": 50.3,
+      "sent": 23,
+      "fw": true
+    },
+    {
+      "word": "AI",
+      "start": 50.3,
+      "end": 50.56,
+      "sent": 23,
+      "fw": true
+    },
+    {
+      "word": "làm",
+      "start": 50.56,
+      "end": 50.76,
+      "sent": 23,
+      "fw": true
+    },
+    {
+      "word": "thay",
+      "start": 50.76,
+      "end": 50.94,
+      "sent": 23,
+      "fw": true
+    },
+    {
+      "word": "hai",
+      "start": 50.94,
+      "end": 51.095,
+      "sent": 23,
+      "fw": true
+    },
+    {
+      "word": "bốn",
+      "start": 51.095,
+      "end": 51.25,
+      "sent": 23,
+      "fw": true
+    },
+    {
+      "word": "trên",
+      "start": 51.25,
+      "end": 51.405,
+      "sent": 23,
+      "fw": true
+    },
+    {
+      "word": "bảy,",
+      "start": 51.405,
+      "end": 51.56,
+      "sent": 23,
+      "fw": true
+    },
+    {
+      "word": "bạn",
+      "start": 51.64,
+      "end": 51.7,
+      "sent": 23,
+      "fw": true
+    },
+    {
+      "word": "sẽ",
+      "start": 51.7,
+      "end": 51.84,
+      "sent": 23,
+      "fw": true
+    },
+    {
+      "word": "làm",
+      "start": 51.84,
+      "end": 51.98,
+      "sent": 23,
+      "fw": true
+    },
+    {
+      "word": "gì?",
+      "start": 51.98,
+      "end": 52.12,
+      "sent": 23,
+      "fw": true
+    }
+  ],
+  "shots": [
+    {
+      "start": 0.0,
+      "end": 1.3,
+      "dur": 1.3,
+      "visual": {
+        "type": "clip",
+        "kind": "v01",
+        "credit": "OpenAI — Introducing dots (video, X @OpenAI 2104984504133918973)"
+      }
+    },
+    {
+      "start": 1.3,
+      "end": 2.6,
+      "dur": 1.3,
+      "visual": {
+        "type": "phone",
+        "kind": "x_dots",
+        "credit": "Screenshot https://platform.twitter.com/embed/Tweet.html?id=2104984504133918973&theme=light&lang=en"
+      }
+    },
+    {
+      "start": 2.6,
+      "end": 4.38,
+      "dur": 1.78,
+      "visual": {
+        "type": "face",
+        "kind": "face"
+      }
+    },
+    {
+      "start": 4.38,
+      "end": 5.48,
+      "dur": 1.1,
+      "visual": {
+        "type": "clip",
+        "kind": "v06",
+        "credit": "OpenAI — GPT-6.1 Sol key art (openai.com)"
+      }
+    },
+    {
+      "start": 5.48,
+      "end": 6.56,
+      "dur": 1.08,
+      "visual": {
+        "type": "stat",
+        "kind": "stat"
+      }
+    },
+    {
+      "start": 6.56,
+      "end": 7.76,
+      "dur": 1.2,
+      "visual": {
+        "type": "clip",
+        "kind": "keynote",
+        "credit": "OpenAI — DevDay 2026 Keynote (FULL) (YouTube Fls_onRviPM)"
+      }
+    },
+    {
+      "start": 7.76,
+      "end": 8.99,
+      "dur": 1.23,
+      "visual": {
+        "type": "web",
+        "kind": "recap",
+        "credit": "Screenshot https://openai.com/index/devday-2026-recap"
+      }
+    },
+    {
+      "start": 8.99,
+      "end": 10.107,
+      "dur": 1.117,
+      "visual": {
+        "type": "web",
+        "kind": "recap",
+        "credit": "Screenshot https://openai.com/index/devday-2026-recap"
+      }
+    },
+    {
+      "start": 10.107,
+      "end": 11.34,
+      "dur": 1.233,
+      "visual": {
+        "type": "clip",
+        "kind": "keynote",
+        "credit": "OpenAI — DevDay 2026 Keynote (FULL) (YouTube Fls_onRviPM)"
+      }
+    },
+    {
+      "start": 11.34,
+      "end": 12.62,
+      "dur": 1.28,
+      "visual": {
+        "type": "clip",
+        "kind": "v12",
+        "credit": "OpenAI — dots art card (openai.com)"
+      }
+    },
+    {
+      "start": 12.62,
+      "end": 13.9,
+      "dur": 1.28,
+      "visual": {
+        "type": "web",
+        "kind": "dots",
+        "credit": "Screenshot https://openai.com/index/introducing-dots/"
+      }
+    },
+    {
+      "start": 13.9,
+      "end": 15.68,
+      "dur": 1.78,
+      "visual": {
+        "type": "split",
+        "kind": "split",
+        "credit": "Screenshot https://openai.com/index/introducing-dots/ + OpenAI — Dots Vision Film (openai.com)"
+      }
+    },
+    {
+      "start": 15.68,
+      "end": 17.46,
+      "dur": 1.78,
+      "visual": {
+        "type": "stat",
+        "kind": "stat"
+      }
+    },
+    {
+      "start": 17.46,
+      "end": 18.42,
+      "dur": 0.96,
+      "visual": {
+        "type": "clip",
+        "kind": "v20",
+        "credit": "OpenAI — Introducing dots (openai.com)"
+      }
+    },
+    {
+      "start": 18.42,
+      "end": 19.52,
+      "dur": 1.1,
+      "visual": {
+        "type": "web",
+        "kind": "dots",
+        "credit": "Screenshot https://openai.com/index/introducing-dots/"
+      }
+    },
+    {
+      "start": 19.52,
+      "end": 20.74,
+      "dur": 1.22,
+      "visual": {
+        "type": "split",
+        "kind": "split",
+        "credit": "OpenAI — DevDay 2026 Recap (openai.com) + OpenAI — Introducing dots (openai.com)"
+      }
+    },
+    {
+      "start": 20.74,
+      "end": 21.72,
+      "dur": 0.98,
+      "visual": {
+        "type": "web",
+        "kind": "dots",
+        "credit": "Screenshot https://openai.com/index/introducing-dots/"
+      }
+    },
+    {
+      "start": 21.72,
+      "end": 23.412,
+      "dur": 1.692,
+      "visual": {
+        "type": "face",
+        "kind": "face"
+      }
+    },
+    {
+      "start": 23.412,
+      "end": 24.5,
+      "dur": 1.088,
+      "visual": {
+        "type": "clip",
+        "kind": "keynote",
+        "credit": "OpenAI — DevDay 2026 Keynote (FULL) (YouTube Fls_onRviPM)"
+      }
+    },
+    {
+      "start": 24.5,
+      "end": 25.78,
+      "dur": 1.28,
+      "visual": {
+        "type": "web",
+        "kind": "sol",
+        "credit": "Screenshot https://openai.com/index/introducing-gpt-6-1-sol/"
+      }
+    },
+    {
+      "start": 25.78,
+      "end": 27.66,
+      "dur": 1.88,
+      "visual": {
+        "type": "web",
+        "kind": "sol",
+        "credit": "Screenshot https://openai.com/index/introducing-gpt-6-1-sol/"
+      }
+    },
+    {
+      "start": 27.66,
+      "end": 28.74,
+      "dur": 1.08,
+      "visual": {
+        "type": "stat",
+        "kind": "stat"
+      }
+    },
+    {
+      "start": 28.74,
+      "end": 29.76,
+      "dur": 1.02,
+      "visual": {
+        "type": "clip",
+        "kind": "v37",
+        "credit": "OpenAI — GPT-6.1 Sol / Luna art (openai.com)"
+      }
+    },
+    {
+      "start": 29.76,
+      "end": 31.08,
+      "dur": 1.32,
+      "visual": {
+        "type": "split",
+        "kind": "split",
+        "credit": "Screenshot https://openai.com/index/introducing-gpt-6-1-sol/ + OpenAI — DevDay 2026 Keynote (FULL) (YouTube Fls_onRviPM)"
+      }
+    },
+    {
+      "start": 31.08,
+      "end": 32.16,
+      "dur": 1.08,
+      "visual": {
+        "type": "clip",
+        "kind": "v32",
+        "credit": "OpenAI — GPT-6.1 Sol (openai.com)"
+      }
+    },
+    {
+      "start": 32.16,
+      "end": 33.14,
+      "dur": 0.98,
+      "visual": {
+        "type": "web",
+        "kind": "sol",
+        "credit": "Screenshot https://openai.com/index/introducing-gpt-6-1-sol/"
+      }
+    },
+    {
+      "start": 33.14,
+      "end": 34.78,
+      "dur": 1.64,
+      "visual": {
+        "type": "web",
+        "kind": "sol",
+        "credit": "Screenshot https://openai.com/index/introducing-gpt-6-1-sol/"
+      }
+    },
+    {
+      "start": 34.78,
+      "end": 35.936,
+      "dur": 1.156,
+      "visual": {
+        "type": "web",
+        "kind": "sol",
+        "credit": "Screenshot https://openai.com/index/introducing-gpt-6-1-sol/"
+      }
+    },
+    {
+      "start": 35.936,
+      "end": 37.14,
+      "dur": 1.204,
+      "visual": {
+        "type": "stat",
+        "kind": "stat"
+      }
+    },
+    {
+      "start": 37.14,
+      "end": 38.98,
+      "dur": 1.84,
+      "visual": {
+        "type": "web",
+        "kind": "sol",
+        "credit": "Screenshot https://openai.com/index/introducing-gpt-6-1-sol/"
+      }
+    },
+    {
+      "start": 38.98,
+      "end": 40.96,
+      "dur": 1.98,
+      "visual": {
+        "type": "face",
+        "kind": "face"
+      }
+    },
+    {
+      "start": 40.96,
+      "end": 42.14,
+      "dur": 1.18,
+      "visual": {
+        "type": "split",
+        "kind": "split",
+        "credit": "Screenshot https://openai.com/index/devday-2026-recap + OpenAI — Introducing dots (openai.com)"
+      }
+    },
+    {
+      "start": 42.14,
+      "end": 43.12,
+      "dur": 0.98,
+      "visual": {
+        "type": "web",
+        "kind": "dots",
+        "credit": "Screenshot https://openai.com/index/introducing-dots/"
+      }
+    },
+    {
+      "start": 43.12,
+      "end": 44.24,
+      "dur": 1.12,
+      "visual": {
+        "type": "web",
+        "kind": "wired",
+        "credit": "Screenshot wired.com/story/openai-dots-always-on-ai-agents"
+      }
+    },
+    {
+      "start": 44.24,
+      "end": 45.38,
+      "dur": 1.14,
+      "visual": {
+        "type": "stat",
+        "kind": "stat"
+      }
+    },
+    {
+      "start": 45.38,
+      "end": 46.52,
+      "dur": 1.14,
+      "visual": {
+        "type": "clip",
+        "kind": "keynote",
+        "credit": "OpenAI — DevDay 2026 Keynote (FULL) (YouTube Fls_onRviPM)"
+      }
+    },
+    {
+      "start": 46.52,
+      "end": 47.7,
+      "dur": 1.18,
+      "visual": {
+        "type": "clip",
+        "kind": "keynote",
+        "credit": "OpenAI — DevDay 2026 Keynote (FULL) (YouTube Fls_onRviPM)"
+      }
+    },
+    {
+      "start": 47.7,
+      "end": 48.9,
+      "dur": 1.2,
+      "visual": {
+        "type": "stat",
+        "kind": "stat"
+      }
+    },
+    {
+      "start": 48.9,
+      "end": 50.136,
+      "dur": 1.236,
+      "visual": {
+        "type": "clip",
+        "kind": "keynote",
+        "credit": "OpenAI — DevDay 2026 Keynote (FULL) (YouTube Fls_onRviPM)"
+      }
+    },
+    {
+      "start": 50.136,
+      "end": 52.53333333333333,
+      "dur": 2.397,
+      "visual": {
+        "type": "face",
+        "kind": "face"
+      }
+    }
+  ]
+}

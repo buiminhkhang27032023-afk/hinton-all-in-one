@@ -1,0 +1,8 @@
+[
+ {"name":"toms2","url":"file:///workspace/video-jobs/HM-103/lam-viec/preview/toms_noscript.html","out":"/workspace/video-jobs/HM-103/lam-viec/webshots/toms2.png","maxh":2400,"wait":2500,
+  "phrases":["ChatGPT-6 Astra plays","with extra high reasoning effort, one below the highest or maximum","The developer ran"]},
+ {"name":"ie2","url":"https://interestingengineering.com/ai-robotics/openais-gpt-6-astra-plays-world-of-warcraft","out":"/workspace/video-jobs/HM-103/lam-viec/webshots/ie2.png","maxh":4732,"block":true,"wait":5000,
+  "phrases":["created a plan for completing","prerequisite quests in sequence","selling unwanted items, equipping better gear, and training abilities","Astra built its own tools to complete the quests"]},
+ {"name":"awhome","url":"https://agent-wow.sh/","out":"/workspace/video-jobs/HM-103/source/assets/ws_agentwow_home.png","maxh":1400,
+  "phrases":["agent-wow is an open-source project exploring the capabilities of LLM-powered agents to play World of Warcraft autonomously","private servers running","AzerothCore","does not alter any Blizzard client software or game assets","fill an entire server with autonomous AI agents"]}
+]

@@ -1,0 +1,139 @@
+{
+  "pools": {
+    "stock": {},
+    "demo": [
+      {
+        "src": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/demo/url00.webm",
+        "start": 1.904,
+        "dur": 3.0,
+        "credit": "Visualisation of the SARS-CoV-2 Omicron Spike Protein | Maximilian Schönherr | https://commons.wikimedia.org/wiki/File:Visualisation_of_the_SARS-CoV-2_Omicron_Spike_Protein.webm | Creative Commons Attribution-Share Alike 4.0",
+        "kind": "demo"
+      },
+      {
+        "src": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/demo/url00.webm",
+        "start": 9.477,
+        "dur": 3.0,
+        "credit": "Visualisation of the SARS-CoV-2 Omicron Spike Protein | Maximilian Schönherr | https://commons.wikimedia.org/wiki/File:Visualisation_of_the_SARS-CoV-2_Omicron_Spike_Protein.webm | Creative Commons Attribution-Share Alike 4.0",
+        "kind": "demo"
+      },
+      {
+        "src": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/demo/url00.webm",
+        "start": 16.084,
+        "dur": 3.0,
+        "credit": "Visualisation of the SARS-CoV-2 Omicron Spike Protein | Maximilian Schönherr | https://commons.wikimedia.org/wiki/File:Visualisation_of_the_SARS-CoV-2_Omicron_Spike_Protein.webm | Creative Commons Attribution-Share Alike 4.0",
+        "kind": "demo"
+      },
+      {
+        "src": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/demo/url00.webm",
+        "start": 22.691,
+        "dur": 3.0,
+        "credit": "Visualisation of the SARS-CoV-2 Omicron Spike Protein | Maximilian Schönherr | https://commons.wikimedia.org/wiki/File:Visualisation_of_the_SARS-CoV-2_Omicron_Spike_Protein.webm | Creative Commons Attribution-Share Alike 4.0",
+        "kind": "demo"
+      },
+      {
+        "src": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/demo/url00.webm",
+        "start": 29.636,
+        "dur": 3.0,
+        "credit": "Visualisation of the SARS-CoV-2 Omicron Spike Protein | Maximilian Schönherr | https://commons.wikimedia.org/wiki/File:Visualisation_of_the_SARS-CoV-2_Omicron_Spike_Protein.webm | Creative Commons Attribution-Share Alike 4.0",
+        "kind": "demo"
+      },
+      {
+        "src": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/demo/url00.webm",
+        "start": 36.521,
+        "dur": 3.0,
+        "credit": "Visualisation of the SARS-CoV-2 Omicron Spike Protein | Maximilian Schönherr | https://commons.wikimedia.org/wiki/File:Visualisation_of_the_SARS-CoV-2_Omicron_Spike_Protein.webm | Creative Commons Attribution-Share Alike 4.0",
+        "kind": "demo"
+      },
+      {
+        "src": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/demo/url00.webm",
+        "start": 43.406,
+        "dur": 3.0,
+        "credit": "Visualisation of the SARS-CoV-2 Omicron Spike Protein | Maximilian Schönherr | https://commons.wikimedia.org/wiki/File:Visualisation_of_the_SARS-CoV-2_Omicron_Spike_Protein.webm | Creative Commons Attribution-Share Alike 4.0",
+        "kind": "demo"
+      },
+      {
+        "src": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/demo/url00.webm",
+        "start": 52.737,
+        "dur": 3.0,
+        "credit": "Visualisation of the SARS-CoV-2 Omicron Spike Protein | Maximilian Schönherr | https://commons.wikimedia.org/wiki/File:Visualisation_of_the_SARS-CoV-2_Omicron_Spike_Protein.webm | Creative Commons Attribution-Share Alike 4.0",
+        "kind": "demo"
+      },
+      {
+        "src": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/demo/url01.ogv",
+        "start": 3.8,
+        "dur": 3.0,
+        "credit": "Protein Folding | Cookatoo.ergo.ZooM | https://commons.wikimedia.org/wiki/File:Protein_Folding.ogv | Creative Commons Attribution-Share Alike 4.0",
+        "kind": "demo"
+      },
+      {
+        "src": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/demo/url01.ogv",
+        "start": 13.88,
+        "dur": 3.0,
+        "credit": "Protein Folding | Cookatoo.ergo.ZooM | https://commons.wikimedia.org/wiki/File:Protein_Folding.ogv | Creative Commons Attribution-Share Alike 4.0",
+        "kind": "demo"
+      },
+      {
+        "src": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/demo/url01.ogv",
+        "start": 23.74,
+        "dur": 3.0,
+        "credit": "Protein Folding | Cookatoo.ergo.ZooM | https://commons.wikimedia.org/wiki/File:Protein_Folding.ogv | Creative Commons Attribution-Share Alike 4.0",
+        "kind": "demo"
+      },
+      {
+        "src": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/demo/url01.ogv",
+        "start": 31.34,
+        "dur": 1.72,
+        "credit": "Protein Folding | Cookatoo.ergo.ZooM | https://commons.wikimedia.org/wiki/File:Protein_Folding.ogv | Creative Commons Attribution-Share Alike 4.0",
+        "kind": "demo"
+      },
+      {
+        "src": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/demo/url01.ogv",
+        "start": 36.46,
+        "dur": 3.0,
+        "credit": "Protein Folding | Cookatoo.ergo.ZooM | https://commons.wikimedia.org/wiki/File:Protein_Folding.ogv | Creative Commons Attribution-Share Alike 4.0",
+        "kind": "demo"
+      },
+      {
+        "src": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/demo/url01.ogv",
+        "start": 42.94,
+        "dur": 3.0,
+        "credit": "Protein Folding | Cookatoo.ergo.ZooM | https://commons.wikimedia.org/wiki/File:Protein_Folding.ogv | Creative Commons Attribution-Share Alike 4.0",
+        "kind": "demo"
+      },
+      {
+        "src": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/demo/url01.ogv",
+        "start": 48.047,
+        "dur": 3.0,
+        "credit": "Protein Folding | Cookatoo.ergo.ZooM | https://commons.wikimedia.org/wiki/File:Protein_Folding.ogv | Creative Commons Attribution-Share Alike 4.0",
+        "kind": "demo"
+      },
+      {
+        "src": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/demo/url01.ogv",
+        "start": 54.7,
+        "dur": 3.0,
+        "credit": "Protein Folding | Cookatoo.ergo.ZooM | https://commons.wikimedia.org/wiki/File:Protein_Folding.ogv | Creative Commons Attribution-Share Alike 4.0",
+        "kind": "demo"
+      },
+      {
+        "src": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/demo/url01.ogv",
+        "start": 61.353,
+        "dur": 3.0,
+        "credit": "Protein Folding | Cookatoo.ergo.ZooM | https://commons.wikimedia.org/wiki/File:Protein_Folding.ogv | Creative Commons Attribution-Share Alike 4.0",
+        "kind": "demo"
+      },
+      {
+        "src": "/workspace/video-jobs/TEST-pipeline-001/lam-viec/demo/url02.webm",
+        "start": 2.5,
+        "dur": 3.0,
+        "credit": "1R4P camera-spin | Jaumepgez | https://commons.wikimedia.org/wiki/File:1R4P_camera-spin.webm | Creative Commons Zero, Public Domain Dedication",
+        "kind": "demo"
+      }
+    ],
+    "screenshots": [
+      "/workspace/video-jobs/TEST-pipeline-001/lam-viec/webshots/web00.png"
+    ]
+  },
+  "notes": [
+    "stock footage SKIPPED: no PEXELS_API_KEY / PIXABAY_API_KEY env var"
+  ]
+}
