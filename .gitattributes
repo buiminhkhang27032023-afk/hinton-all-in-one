@@ -1,1 +1,2 @@
 05-docs/hinton-pipeline-docs/assets/presenter-video-orig.mp4 filter=lfs diff=lfs merge=lfs -text
+05-docs/hinton-pipeline-docs/assets/presenter-video-novoice.mp4 filter=lfs diff=lfs merge=lfs -text
